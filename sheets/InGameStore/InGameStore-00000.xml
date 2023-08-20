@@ -1,0 +1,28 @@
+<InGameStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/InGameStore InGameStore.xsd" xmlns="https://vezel.dev/novadrop/dc/InGameStore">
+    <CategoryTab>
+        <Tab dispName="스페셜" iconType="1" />
+    </CategoryTab>
+    <Filters>
+        <Filter string="SMT_INGAMESTORE_SHOW_ALL" default="true" filter="GS_SHOW_ALL" />
+        <Filter string="SMT_INGAMESTORE_SHOW_USEABLE" filter="GS_SHOW_JUSTEQUIPABLE" />
+    </Filters>
+    <HanCoinQueryTimeout sec="10" />
+    <ShowTCatChargeButton enable="false" />
+    <SortOrders>
+        <SortBy string="SMT_INGAMESTORE_SORT_REGDATE" order="GS_SORT_REGDATE" default="true" />
+        <SortBy string="SMT_INGAMESTORE_SORT_NAME" order="GS_SORT_NAME" />
+        <SortBy string="SMT_INGAMESTORE_SORT_LOWPRICE" order="GS_SORT_LOWPRICE" />
+        <SortBy string="SMT_INGAMESTORE_SORT_HIGHPRICE" order="GS_SORT_HIGHPRICE" />
+    </SortOrders>
+    <TagOrder tags="ELITE,SALE,BOGO,VIP,EVENT,NEW,HOT,POPULAR" />
+    <TagResources>
+        <Tag resource="img://__Icon_System.storeTag_Elite" tag="ELITE" />
+        <Tag resource="img://__Icon_System.storeTag_Sale" tag="SALE" />
+        <Tag resource="img://__Icon_System.storeTag_Bogo" tag="BOGO" />
+        <Tag resource="img://__Icon_System.shopTag_Vip" tag="VIP" />
+        <Tag resource="img://__Icon_System.storeTag_Event" tag="EVENT" />
+        <Tag resource="img://__Icon_System.storeTag_New" tag="NEW" />
+        <Tag resource="img://__Icon_System.storeTag_Hot" tag="HOT" />
+        <Tag resource="img://__Icon_System.storeTag_Hot" tag="POPULAR" />
+    </TagResources>
+</InGameStore>

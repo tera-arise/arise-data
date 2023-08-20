@@ -1,0 +1,117 @@
+<SituationExpressionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/SituationExpressionData SituationExpressionData.xsd" xmlns="https://vezel.dev/novadrop/dc/SituationExpressionData">
+    <Data id="1" type="Player" tutorial="false">
+        <ConditionInfo>
+            <ConditionList>
+                <QuestCondition type="start" questId="50525" taskId="2" />
+            </ConditionList>
+            <ConditionList>
+                <PositionCondition pos="112896, 61465, 3110" checkInterval="100" radius="2000" continentId="7004" />
+            </ConditionList>
+        </ConditionInfo>
+        <JobInfo>
+            <ActionScriptJob id="9833017" type="Once" delayTime="300" />
+        </JobInfo>
+    </Data>
+    <Data id="2" type="Player" tutorial="false">
+        <ConditionInfo>
+            <ConditionList>
+                <DialogCondition type="Hello" templateId="3005" huntingZoneId="4" />
+            </ConditionList>
+        </ConditionInfo>
+        <JobInfo>
+            <ActionScriptJob id="9833018" type="Once" delayTime="4000" />
+        </JobInfo>
+    </Data>
+    <Data id="3" type="Player" tutorial="false">
+        <ConditionInfo>
+            <ConditionList>
+                <DialogCondition type="Hello" templateId="3063" huntingZoneId="4" />
+            </ConditionList>
+            <ConditionList>
+                <QuestCondition type="Progress" questId="50525" taskId="23" />
+            </ConditionList>
+        </ConditionInfo>
+        <JobInfo>
+            <ActionScriptJob id="9833026" type="Once" delayTime="2000" />
+        </JobInfo>
+    </Data>
+    <Data id="4" type="Villager" templateId="3039" huntingZoneId="4" tutorial="false">
+        <ConditionInfo>
+            <ConditionList>
+                <SearchCondition type="Player" checkInterval="500" maxDistance="500" minDistance="1" haveMarker="" maxNumber="10" minNumber="1" />
+            </ConditionList>
+        </ConditionInfo>
+        <JobInfo>
+            <ActionScriptJob id="9833030" type="OnlyOnce" />
+        </JobInfo>
+    </Data>
+    <Data id="5" type="Villager" templateId="3063" huntingZoneId="4" tutorial="false">
+        <ConditionInfo>
+            <ConditionList>
+                <SearchCondition type="Player" checkInterval="500" maxDistance="500" minDistance="1" haveMarker="" maxNumber="10" minNumber="1" />
+            </ConditionList>
+        </ConditionInfo>
+        <JobInfo>
+            <ActionScriptJob id="9833028" type="OnlyOnce" />
+        </JobInfo>
+    </Data>
+    <Data id="6" type="Villager" templateId="3052" huntingZoneId="4" tutorial="false">
+        <ConditionInfo>
+            <ConditionList>
+                <SearchCondition type="Player" checkInterval="500" maxDistance="500" minDistance="1" haveMarker="" maxNumber="10" minNumber="1" />
+            </ConditionList>
+            <ConditionList>
+                <QuestCondition type="Progress" questId="50525" taskId="2" />
+            </ConditionList>
+        </ConditionInfo>
+        <JobInfo>
+            <ActionScriptJob id="9833042" type="OnlyOnce" />
+        </JobInfo>
+    </Data>
+    <Data id="7" type="Villager" templateId="3054" huntingZoneId="4" tutorial="false">
+        <ConditionInfo>
+            <ConditionList>
+                <SearchCondition type="Player" checkInterval="500" maxDistance="500" minDistance="1" haveMarker="" maxNumber="10" minNumber="1" />
+            </ConditionList>
+            <ConditionList>
+                <QuestCondition type="Progress" questId="50525" taskId="3" />
+            </ConditionList>
+        </ConditionInfo>
+        <JobInfo>
+            <ActionScriptJob id="9833042" type="OnlyOnce" />
+        </JobInfo>
+    </Data>
+    <Data id="7" type="Villager" templateId="3054" huntingZoneId="4" tutorial="false">
+        <ConditionInfo>
+            <ConditionList>
+                <SearchCondition type="Player" checkInterval="500" maxDistance="500" minDistance="1" haveMarker="" maxNumber="10" minNumber="1" />
+            </ConditionList>
+            <ConditionList>
+                <QuestCondition type="Progress" questId="50525" taskId="3" />
+            </ConditionList>
+        </ConditionInfo>
+        <JobInfo>
+            <ActionScriptJob id="9833042" type="OnlyOnce" />
+        </JobInfo>
+    </Data>
+    <Data id="2" type="Player" tutorial="false">
+        <ConditionInfo>
+            <ConditionList>
+                <QuestCondition type="Progress" questId="50525" taskId="7" />
+            </ConditionList>
+        </ConditionInfo>
+        <JobInfo>
+            <ActionScriptJob id="9833018" type="Once" delayTime="4000" />
+        </JobInfo>
+    </Data>
+    <Data id="8" type="Villager" templateId="3029" huntingZoneId="4" tutorial="false">
+        <ConditionInfo>
+            <ConditionList>
+                <SearchCondition type="Player" checkInterval="500" maxDistance="1500" minDistance="1" haveMarker="" maxNumber="10" minNumber="1" />
+            </ConditionList>
+        </ConditionInfo>
+        <JobInfo>
+            <ActionScriptJob id="9833015" type="OnlyOnce" />
+        </JobInfo>
+    </Data>
+</SituationExpressionData>

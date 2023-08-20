@@ -1,0 +1,123 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="18210" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>182,10</Quest번호>
+        <Quest제목>@quest:18210001</Quest제목>
+        <반복퀘스트>1회성</반복퀘스트>
+        <발생조건>
+            <즉시수주>1</즉시수주>
+        </발생조건>
+        <수행조건>
+            <길드레벨 />
+            <선행퀘스트>
+                <선행퀘스트>
+                    <퀘스트Id>182,09</퀘스트Id>
+                </선행퀘스트>
+            </선행퀘스트>
+            <영주길드 />
+            <최소레벨>60</최소레벨>
+        </수행조건>
+        <수행지역>182</수행지역>
+        <스토리그룹Id>21</스토리그룹Id>
+        <요약정보>100</요약정보>
+        <적정수행레벨>62</적정수행레벨>
+        <적정수행인원>1</적정수행인원>
+        <집회소분류 />
+        <추가보상 />
+        <퀘스트종류>미션</퀘스트종류>
+        <특수가이드 />
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>182,2013</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:18210003</저널Text>
+            </Body>
+            <Header>
+                <ContinentId>7031</ContinentId>
+                <Id>1</Id>
+                <JournalScript>2</JournalScript>
+                <Pos>12129,-5157,2551</Pos>
+                <다음Task>2</다음Task>
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+        <Task id="2">
+            <Body>
+                <Flag아이템이름>@quest:18210005</Flag아이템이름>
+                <대상NPC지정>181,1201</대상NPC지정>
+                <보상>0</보상>
+                <아이콘지정>18212</아이콘지정>
+                <저널Text>@quest:18210006</저널Text>
+                <전달수량>1</전달수량>
+            </Body>
+            <Header>
+                <ContinentId>7031</ContinentId>
+                <Id>2</Id>
+                <JournalScript>3</JournalScript>
+                <Pos>15833,-1730,3869</Pos>
+                <다음Task>3</다음Task>
+                <이름>찔러준아이템전달Task</이름>
+            </Header>
+        </Task>
+        <Task id="3">
+            <Body>
+                <Flag아이템이름>@quest:18210009</Flag아이템이름>
+                <대상NPC지정>181,3401</대상NPC지정>
+                <보상>0</보상>
+                <아이콘지정>18212</아이콘지정>
+                <저널Text>@quest:18210010</저널Text>
+                <전달수량>1</전달수량>
+            </Body>
+            <Header>
+                <ContinentId>7031</ContinentId>
+                <Id>3</Id>
+                <JournalScript>4</JournalScript>
+                <Pos>15969,-224,4460</Pos>
+                <다음Task>4</다음Task>
+                <이름>찔러준아이템전달Task</이름>
+            </Header>
+        </Task>
+        <Task id="4">
+            <Body>
+                <Flag아이템이름>@quest:18210013</Flag아이템이름>
+                <대상NPC지정>183,2024</대상NPC지정>
+                <보상>0</보상>
+                <아이콘지정>18212</아이콘지정>
+                <저널Text>@quest:18210014</저널Text>
+                <전달수량>1</전달수량>
+            </Body>
+            <Header>
+                <ContinentId>7031</ContinentId>
+                <Id>4</Id>
+                <JournalScript>5</JournalScript>
+                <Pos>19192,3964,6192</Pos>
+                <다음Task>5</다음Task>
+                <이름>찔러준아이템전달Task</이름>
+            </Header>
+        </Task>
+        <Task id="5">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>183,1007</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>1</보상>
+                <저널Text>@quest:18210017</저널Text>
+            </Body>
+            <Header>
+                <ContinentId>7031</ContinentId>
+                <Id>5</Id>
+                <JournalScript>6</JournalScript>
+                <Pos>15774,8537,6999</Pos>
+                <다음Task />
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

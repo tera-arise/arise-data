@@ -1,0 +1,39 @@
+<GuildCallData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/GuildCallData GuildCallData.xsd" xmlns="https://vezel.dev/novadrop/dc/GuildCallData">
+    <GuildCoOpDungeon bossRemovalPostProcessIds="44" itemDropEffect="FX_Q_Hotfix_211009.PS.O_item01_PS">
+        <GuildCoOpDungeonEntranceItem needItemCount="1">
+            <DefaultMaterial id="206320" />
+            <SubstitutionalMaterial id="206320" priority="1" />
+        </GuildCoOpDungeonEntranceItem>
+        <Variant id="1">
+            <GuildCoOpDungeonHpGageValue value="3000000000" />
+            <GuildCoOpDungeonWarningTime value="20" />
+            <MaxEnterPartyMember value="5" />
+        </Variant>
+    </GuildCoOpDungeon>
+    <GuildEventTabImage>
+        <GuildEvent type="Dummy">
+            <DefaultImage id="1" />
+            <UsableImage id="1" img="img://__Image_GuildEvent.Image_GuildEvent_0" />
+        </GuildEvent>
+        <GuildEvent type="CooperationDungeon">
+            <DefaultImage id="1" />
+            <UsableImage id="1" img="img://__Image_GuildEvent.Image_GuildEvent_1" />
+            <UsableImage id="2" img="img://__Image_Cards.Card_C_GoUmba" />
+        </GuildEvent>
+        <GuildEvent type="Tournament">
+            <DefaultImage id="1" />
+            <UsableImage id="1" img="img://__Image_Cards.Card_C_SiozElin" />
+        </GuildEvent>
+        <GuildEvent type="BerserkDungeon">
+            <DefaultImage id="1" />
+            <UsableImage id="1" img="img://__Image_Cards.Card_C_Rivenz" />
+        </GuildEvent>
+    </GuildEventTabImage>
+    <GuildEventUIImage>
+        <GuildEvent type="CooperationDungeon">
+            <Image id="1" img="img://__Image_GuildEvent.Image_GuildEvent_1-1" />
+        </GuildEvent>
+        <GuildEvent type="Tournament" />
+        <GuildEvent type="BerserkDungeon" />
+    </GuildEventUIImage>
+</GuildCallData>

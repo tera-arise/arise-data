@@ -1,0 +1,60 @@
+<ArtisanConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/ArtisanConfig ArtisanConfig.xsd" xmlns="https://vezel.dev/novadrop/dc/ArtisanConfig">
+    <ArtisanAdditiveItem>
+        <ItemTemplate id="5271" value="0.03" produceSkillId="6" />
+        <ItemTemplate id="5272" value="0.05" produceSkillId="6" />
+        <ItemTemplate id="5273" value="0.08" produceSkillId="6" />
+        <ItemTemplate id="5274" value="0.12" produceSkillId="6" />
+        <ItemTemplate id="5275" value="0.2" produceSkillId="6" />
+        <ItemTemplate id="5276" value="0.03" produceSkillId="21" />
+        <ItemTemplate id="5277" value="0.05" produceSkillId="21" />
+        <ItemTemplate id="5278" value="0.08" produceSkillId="21" />
+        <ItemTemplate id="5279" value="0.12" produceSkillId="21" />
+        <ItemTemplate id="5280" value="0.2" produceSkillId="21" />
+        <ItemTemplate id="5281" value="0.03" produceSkillId="22" />
+        <ItemTemplate id="5282" value="0.05" produceSkillId="22" />
+        <ItemTemplate id="5283" value="0.08" produceSkillId="22" />
+        <ItemTemplate id="5284" value="0.12" produceSkillId="22" />
+        <ItemTemplate id="5285" value="0.2" produceSkillId="22" />
+        <ItemTemplate id="5286" value="0.03" produceSkillId="23" />
+        <ItemTemplate id="5287" value="0.05" produceSkillId="23" />
+        <ItemTemplate id="5288" value="0.08" produceSkillId="23" />
+        <ItemTemplate id="5289" value="0.12" produceSkillId="23" />
+        <ItemTemplate id="5290" value="0.2" produceSkillId="23" />
+    </ArtisanAdditiveItem>
+    <ArtisanString>
+        <ItemProduceGradeString>
+            <String grade="0" stringId="100" />
+            <String grade="1" stringId="101" />
+            <String grade="2" stringId="102" />
+        </ItemProduceGradeString>
+        <SuccessPopup nameStrColor="#ffffff" titleId="50" />
+    </ArtisanString>
+    <EnchantScroll successDelayTime="0.2" successSoundId="1213" />
+    <ItemProduceConfig>
+        <ProduceSkill id="6" iconPackageName="Icon_Skills.produce_icon_06_Tex" masterIcon="Icon_System.artisanMaster_Potion_Tex">
+            <Category grade="0" maxSkillProf="500" />
+            <Category grade="1" maxSkillProf="800" />
+            <Category grade="2" maxSkillProf="800" />
+        </ProduceSkill>
+        <ProduceSkill id="21" iconPackageName="Icon_Skills.produce_icon_01_Tex" masterIcon="Icon_System.artisanMaster_Weapon_Tex">
+            <Category grade="0" maxSkillProf="500" />
+            <Category grade="1" maxSkillProf="800" />
+            <Category grade="2" maxSkillProf="800" />
+        </ProduceSkill>
+        <ProduceSkill id="22" iconPackageName="Icon_Skills.produce_icon_02_Tex" masterIcon="Icon_System.artisanMaster_Armor_Tex">
+            <Category grade="0" maxSkillProf="500" />
+            <Category grade="1" maxSkillProf="800" />
+            <Category grade="2" maxSkillProf="800" />
+        </ProduceSkill>
+        <ProduceSkill id="23" iconPackageName="Icon_Skills.produce_icon_03_Tex" masterIcon="Icon_System.artisanMaster_Enchant_Tex">
+            <Category grade="0" maxSkillProf="500" />
+            <Category grade="1" maxSkillProf="800" />
+            <Category grade="2" maxSkillProf="800" />
+        </ProduceSkill>
+        <ProduceSkill id="24" iconPackageName="Icon_Skills.produce_icon_03_Tex" masterIcon="Icon_System.artisanMaster_Cook_Tex">
+            <Category grade="0" maxSkillProf="500" />
+            <Category grade="1" maxSkillProf="800" />
+            <Category grade="2" maxSkillProf="800" />
+        </ProduceSkill>
+    </ItemProduceConfig>
+</ArtisanConfig>

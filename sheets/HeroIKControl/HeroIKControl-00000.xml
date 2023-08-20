@@ -1,0 +1,464 @@
+<HeroIKControl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/HeroIKControl HeroIKControl.xsd" xmlns="https://vezel.dev/novadrop/dc/HeroIKControl">
+    <Shape id="20100">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="20200">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="20300">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="20400">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="20500">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="20600">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="20700">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="20800">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="20001">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="20900">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="20001">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="21000">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="21100">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="20001">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="21200">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="21300">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="20001">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="21400">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="21500">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="20001">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="21600">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="21700">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="20001">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="21800">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="21900">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="22000">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="20001">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="22100">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="22200">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="20001">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="22300">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="22400">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+    <Shape id="22500">
+        <DamageMotion>
+            <AttackBone boneName="R_Sword" />
+            <DamageMotionSet>
+                <DamageMotionBounceControl duration="0.1" boneName="Bip01-Pelvis" down="2" />
+                <DamageMotionRotateControl duration="0.05" blendOutTime="0.2" boneName="Bip01-Spine2" pitchMax="20" pitchMin="-20" pitchSpeed="1000" yawImpulse="110" yawMax="30" yawMin="-30" />
+            </DamageMotionSet>
+        </DamageMotion>
+        <FootIK forDamageMotionBounceOnly="false">
+            <FootControl blendOutTime="1" bendAxis="Y" blendInTime="1" boneNames="Bip01-L-Foot|Bip01-R-Foot" enableFootUpDir="true" invertBendAxis="true" limitHeight="10" />
+        </FootIK>
+        <LookAtcontrol blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Head" allowRotationX="true" allowRotationY="true" allowRotationZ="true" defineUpAxis="true" enableLimit="true" invertLookAtAxis="true" invertUpAxis="false" limitBasedOnRefPose="false" lookAtAxis="Y" maxAngle="40" targetLocationInterpSpeed="100" upAxis="X" />
+        <WaistAngleControl blendOutTime="0.5" blendInTime="0.5" boneNames="Bip01-Spine3" maxAngleVariation="20" maxTargetRadius="350" minAngleVariation="-20" minTargetRadius="0" targetRangeAngle="30" />
+    </Shape>
+</HeroIKControl>

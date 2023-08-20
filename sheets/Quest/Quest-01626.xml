@@ -1,0 +1,86 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="21301" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>213,1</Quest번호>
+        <Quest제목>@quest:21301001</Quest제목>
+        <반복퀘스트>1회성</반복퀘스트>
+        <발생조건>
+            <NPC대화>183,2114</NPC대화>
+            <즉시수주>1</즉시수주>
+        </발생조건>
+        <수행조건>
+            <길드레벨 />
+            <선행퀘스트>
+                <선행퀘스트>
+                    <퀘스트Id>63,66</퀘스트Id>
+                </선행퀘스트>
+            </선행퀘스트>
+            <영주길드 />
+            <최소레벨>65</최소레벨>
+        </수행조건>
+        <수행지역>183</수행지역>
+        <스토리그룹Id>26</스토리그룹Id>
+        <요약정보>100</요약정보>
+        <적정수행레벨>65</적정수행레벨>
+        <적정수행인원>1</적정수행인원>
+        <집회소분류 />
+        <추가보상 />
+        <퀘스트종류>미션</퀘스트종류>
+        <특수가이드 />
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>183,2114</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:21301004</저널Text>
+            </Body>
+            <Header>
+                <ContinentId>7031</ContinentId>
+                <Id>1</Id>
+                <JournalScript>2</JournalScript>
+                <Pos>24170,4422,6165</Pos>
+                <다음Task>2</다음Task>
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+        <Task id="2">
+            <Body>
+                <목표지역>13,1300185</목표지역>
+                <저널Text>@quest:21301007</저널Text>
+                <제한시간>0,0</제한시간>
+                <지역명>@quest:21301005</지역명>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>2</Id>
+                <JournalScript>3</JournalScript>
+                <Pos />
+                <다음Task>3</다음Task>
+                <이름>PC이동Task</이름>
+            </Header>
+        </Task>
+        <Task id="3">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>13,8001</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>1</보상>
+                <저널Text>@quest:21301009</저널Text>
+            </Body>
+            <Header>
+                <ContinentId>13</ContinentId>
+                <Id>3</Id>
+                <JournalScript>3</JournalScript>
+                <Pos>92927,-88044,-4558</Pos>
+                <다음Task />
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

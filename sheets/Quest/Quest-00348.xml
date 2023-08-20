@@ -1,0 +1,162 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="1316" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>13,16</Quest번호>
+        <Quest제목>@quest:1316001</Quest제목>
+        <반복퀘스트>1회성</반복퀘스트>
+        <발생조건>
+            <NPC대화>213,1025</NPC대화>
+        </발생조건>
+        <수행조건>
+            <길드레벨 />
+            <선행퀘스트>
+                <선행퀘스트>
+                    <퀘스트Id>13,15</퀘스트Id>
+                </선행퀘스트>
+            </선행퀘스트>
+            <영주길드 />
+            <최소레벨>9</최소레벨>
+        </수행조건>
+        <수행지역 />
+        <스토리그룹Id>2</스토리그룹Id>
+        <요약정보>100</요약정보>
+        <적정수행레벨>9</적정수행레벨>
+        <적정수행인원>1</적정수행인원>
+        <집회소분류 />
+        <추가보상 />
+        <퀘스트종류>미션</퀘스트종류>
+        <특수가이드 />
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <몬스터그룹>
+                    <몬스터그룹>
+                        <그룹이름>@quest:1316004</그룹이름>
+                        <몬스터지정>
+                            <몬스터지정>
+                                <몬스터Id>13,9</몬스터Id>
+                            </몬스터지정>
+                            <몬스터지정>
+                                <몬스터Id>13,8</몬스터Id>
+                            </몬스터지정>
+                        </몬스터지정>
+                        <사냥마리수>8</사냥마리수>
+                    </몬스터그룹>
+                </몬스터그룹>
+                <저널Text>@quest:1316005</저널Text>
+                <진행조건>
+                    <제한시간>0,0</제한시간>
+                </진행조건>
+            </Body>
+            <Header>
+                <Id>1</Id>
+                <JournalScript>2</JournalScript>
+                <다음Task>2</다음Task>
+                <이름>그룹사냥Task</이름>
+            </Header>
+        </Task>
+        <Task id="2">
+            <Body>
+                <목표지역>213,21300034</목표지역>
+                <저널Text>@quest:1316008</저널Text>
+                <제한시간>0,0</제한시간>
+                <지역명>@quest:1316006</지역명>
+            </Body>
+            <Header>
+                <Id>2</Id>
+                <JournalScript>2</JournalScript>
+                <다음Task>3</다음Task>
+                <이름>PC이동Task</이름>
+            </Header>
+        </Task>
+        <Task id="3">
+            <Body>
+                <목표지역>436,43600026</목표지역>
+                <저널Text>@quest:1316011</저널Text>
+                <제한시간>0,0</제한시간>
+                <지역명>@quest:1316009</지역명>
+            </Body>
+            <Header>
+                <Id>3</Id>
+                <JournalScript>2</JournalScript>
+                <다음Task>4</다음Task>
+                <이름>PC이동Task</이름>
+            </Header>
+        </Task>
+        <Task id="4">
+            <Body>
+                <몬스터지정>
+                    <몬스터지정>
+                        <몬스터Id>436,1002</몬스터Id>
+                        <사냥마리수>1</사냥마리수>
+                    </몬스터지정>
+                </몬스터지정>
+                <저널Text>@quest:1316012</저널Text>
+                <진행조건 />
+            </Body>
+            <Header>
+                <Id>4</Id>
+                <JournalScript>2</JournalScript>
+                <다음Task>5</다음Task>
+                <이름>사냥Task</이름>
+            </Header>
+        </Task>
+        <Task id="5">
+            <Body />
+            <Header>
+                <Id>5</Id>
+                <JournalScript>2</JournalScript>
+                <다음Task>6</다음Task>
+                <이름>동영상재생Task</이름>
+            </Header>
+        </Task>
+        <Task id="6">
+            <Body>
+                <Flag아이템이름>@quest:1316014</Flag아이템이름>
+                <대상NPC지정>213,1025</대상NPC지정>
+                <보상>0</보상>
+                <아이콘지정>103</아이콘지정>
+                <저널Text>@quest:1316015</저널Text>
+                <전달수량>1</전달수량>
+            </Body>
+            <Header>
+                <Id>6</Id>
+                <JournalScript>2</JournalScript>
+                <다음Task>7</다음Task>
+                <이름>찔러준아이템전달Task</이름>
+            </Header>
+        </Task>
+        <Task id="7">
+            <Body>
+                <Flag아이템이름>@quest:1316018</Flag아이템이름>
+                <대상NPC지정>213,1037</대상NPC지정>
+                <보상>0</보상>
+                <아이콘지정>103</아이콘지정>
+                <저널Text>@quest:1316019</저널Text>
+                <전달수량>1</전달수량>
+            </Body>
+            <Header>
+                <Id>7</Id>
+                <JournalScript>3</JournalScript>
+                <다음Task>8</다음Task>
+                <이름>찔러준아이템전달Task</이름>
+            </Header>
+        </Task>
+        <Task id="8">
+            <Body>
+                <Flag아이템이름>@quest:1316022</Flag아이템이름>
+                <대상NPC지정>64,1001</대상NPC지정>
+                <보상>1</보상>
+                <아이콘지정>99</아이콘지정>
+                <저널Text>@quest:1316023</저널Text>
+                <전달수량>1</전달수량>
+            </Body>
+            <Header>
+                <Id>8</Id>
+                <JournalScript>4</JournalScript>
+                <다음Task />
+                <이름>찔러준아이템전달Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

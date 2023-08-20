@@ -1,0 +1,282 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="4601" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>46,1</Quest번호>
+        <Quest제목>@quest:4601001</Quest제목>
+        <반복퀘스트>1회성</반복퀘스트>
+        <발생조건>
+            <즉시수주>1</즉시수주>
+        </발생조건>
+        <수행조건>
+            <길드레벨 />
+            <선행퀘스트>
+                <선행퀘스트>
+                    <퀘스트Id>37,02</퀘스트Id>
+                </선행퀘스트>
+            </선행퀘스트>
+            <영주길드 />
+            <최소레벨>53</최소레벨>
+        </수행조건>
+        <수행지역>46</수행지역>
+        <스토리그룹Id>14</스토리그룹Id>
+        <요약정보>2</요약정보>
+        <적정수행레벨>57</적정수행레벨>
+        <적정수행인원>1</적정수행인원>
+        <집회소분류 />
+        <추가보상 />
+        <퀘스트종류>미션</퀘스트종류>
+        <특수가이드 />
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>528,5005</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:4601003</저널Text>
+            </Body>
+            <Header>
+                <ContinentId>3</ContinentId>
+                <Id>1</Id>
+                <JournalScript>1</JournalScript>
+                <Pos>24418,-161472,297</Pos>
+                <다음Task>2</다음Task>
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+        <Task id="2">
+            <Body>
+                <완료조건>
+                    <아이템사용>
+                        <아이템Id>602026</아이템Id>
+                        <아이템갯수>1</아이템갯수>
+                    </아이템사용>
+                </완료조건>
+                <저널Text>@quest:4601004</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>2</Id>
+                <JournalScript>3</JournalScript>
+                <Pos />
+                <다음Task>3</다음Task>
+                <이름>조건Task</이름>
+            </Header>
+        </Task>
+        <Task id="3">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>528,5005</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>2</보상>
+                <저널Text>@quest:4601007</저널Text>
+            </Body>
+            <Header>
+                <ContinentId>3</ContinentId>
+                <Id>3</Id>
+                <JournalScript>3</JournalScript>
+                <Pos>24418,-161472,297</Pos>
+                <다음Task>4</다음Task>
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+        <Task id="4">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>246,2001</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:4601009</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>4</Id>
+                <JournalScript>4</JournalScript>
+                <Pos />
+                <다음Task>5</다음Task>
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+        <Task id="5">
+            <Body>
+                <몬스터지정>
+                    <몬스터지정>
+                        <몬스터Id>246,2013</몬스터Id>
+                        <사냥마리수>1</사냥마리수>
+                    </몬스터지정>
+                    <몬스터지정>
+                        <몬스터Id>246,2020</몬스터Id>
+                        <사냥마리수>1</사냥마리수>
+                    </몬스터지정>
+                    <몬스터지정>
+                        <몬스터Id>246,2021</몬스터Id>
+                        <사냥마리수>1</사냥마리수>
+                    </몬스터지정>
+                </몬스터지정>
+                <보상>0</보상>
+                <저널Text>@quest:4601010</저널Text>
+                <진행조건>
+                    <제한시간>0,0</제한시간>
+                </진행조건>
+            </Body>
+            <Header>
+                <ContinentId>7023</ContinentId>
+                <Id>5</Id>
+                <JournalScript>5</JournalScript>
+                <Pos>32134,-26253,-463</Pos>
+                <다음Task>6</다음Task>
+                <이름>사냥Task</이름>
+            </Header>
+        </Task>
+        <Task id="6">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>246,2001</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:4601012</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>6</Id>
+                <JournalScript>5</JournalScript>
+                <Pos />
+                <다음Task>7</다음Task>
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+        <Task id="7">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>246,2002</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:4601014</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>7</Id>
+                <JournalScript>6</JournalScript>
+                <Pos />
+                <다음Task>8</다음Task>
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+        <Task id="8">
+            <Body>
+                <완료조건>
+                    <아이템사용>
+                        <아이템Id>45336</아이템Id>
+                        <아이템갯수>1</아이템갯수>
+                    </아이템사용>
+                </완료조건>
+                <저널Text>@quest:4601015</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>8</Id>
+                <JournalScript>7</JournalScript>
+                <Pos />
+                <다음Task>9</다음Task>
+                <이름>조건Task</이름>
+            </Header>
+        </Task>
+        <Task id="9">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>246,2002</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:4601018</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>9</Id>
+                <JournalScript>7</JournalScript>
+                <Pos />
+                <다음Task>10</다음Task>
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+        <Task id="10">
+            <Body>
+                <대상NPC지정>246,2003</대상NPC지정>
+                <보상>0</보상>
+                <저널Text>@quest:4601020</저널Text>
+                <저널Text2>@quest:4601021</저널Text2>
+                <전달아이템지정>
+                    <전달아이템지정>
+                        <아이템Id>45273</아이템Id>
+                        <전달수량>3</전달수량>
+                    </전달아이템지정>
+                </전달아이템지정>
+                <제한시간설정>
+                    <제한시간>0,0</제한시간>
+                </제한시간설정>
+                <채집물지정>
+                    <채집물지정>
+                        <콜렉션Id>539</콜렉션Id>
+                    </채집물지정>
+                </채집물지정>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>10</Id>
+                <JournalScript>8</JournalScript>
+                <Pos />
+                <다음Task>11</다음Task>
+                <이름>채집Task</이름>
+            </Header>
+        </Task>
+        <Task id="11">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>246,2003</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:4601023</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>11</Id>
+                <JournalScript>9</JournalScript>
+                <Pos />
+                <다음Task>12</다음Task>
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+        <Task id="12">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>246,2004</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>1</보상>
+                <저널Text>@quest:4601025</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>12</Id>
+                <JournalScript>11</JournalScript>
+                <Pos />
+                <다음Task />
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

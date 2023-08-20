@@ -1,0 +1,203 @@
+<NpcSeatData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/NpcSeatData NpcSeatData.xsd" xmlns="https://vezel.dev/novadrop/dc/NpcSeatData">
+    <Seat id="1001" type="automove" cameraAttachBone="under" skillsetId="11602" userAttachBone="">
+        <AirShipData AirShipGetoffPos="2871,108380,1430" />
+        <Camera offset="-20" pitchDecreaseRate="0.4" pitchDefault="-15" zoomMax="1000" zoomMin="90" />
+    </Seat>
+    <Seat id="1002" type="automove" cameraAttachBone="under" skillsetId="11603" userAttachBone="">
+        <AirShipData AirShipGetoffPos="1139,110549,1430" />
+        <Camera offset="-20" pitchDecreaseRate="0.4" pitchDefault="-15" zoomMax="1000" zoomMin="90" />
+    </Seat>
+    <Seat id="1003" type="automove" cameraAttachBone="under" skillsetId="11606" userAttachBone="">
+        <AirShipData AirShipGetoffPos="10304,121223,3230" />
+        <Camera offset="-20" pitchDecreaseRate="0.4" pitchDefault="-15" zoomMax="1000" zoomMin="90" />
+    </Seat>
+    <Seat id="1101" type="movebattle" cameraAttachBone="Dummy_Cannon" skillsetId="11601" userAttachBone="">
+        <Camera height="150" offset="-50" pitchDecreaseRate="0.4" pitchDefault="-1000" zoomMax="1000" zoomMin="90" />
+        <CannonData soundId="1" aimDecalEffectId="7031" aimTrailEffectId="99070" bulletPower="600" fireBone="FxFire" realtimeBullet="true" referenceBone="Dummy_Unmove">
+            <RotatePitch name="pitch" max="55" min="-10" default="0" boneName="Dummy_Cannon" speed="5000" />
+            <RotateYaw name="yaw" max="45" min="-45" default="0" boneName="Dummy_Cannon" speed="5000" />
+        </CannonData>
+    </Seat>
+    <Seat id="1201" type="movebattle" cameraAttachBone="Dummy02" skillsetId="11604" userAttachBone="">
+        <Camera height="300" offset="-50" pitchDecreaseRate="0.35" pitchDefault="-1500" zoomMax="1000" zoomMin="90" />
+        <CannonData gravity="2000" soundId="1" aimDecalEffectId="7031" aimTrailEffectId="99070" bulletPower="900" fireBone="Dummy_Fire" realtimeBullet="true" referenceBone="Dummy01">
+            <RotatePitch name="pitch" max="10" min="-20" default="0" boneName="Dummy02" speed="5000" />
+            <RotateYaw name="yaw" max="45" min="-45" default="0" boneName="Dummy_Root" speed="5000" />
+        </CannonData>
+    </Seat>
+    <Seat id="1202" type="movebattle" cameraAttachBone="Dummy02" skillsetId="11605" userAttachBone="">
+        <Camera height="300" offset="-50" pitchDecreaseRate="0.3" pitchDefault="-1500" zoomMax="1000" zoomMin="90" />
+        <CannonData gravity="5000" soundId="1" aimDecalEffectId="7031" aimTrailEffectId="99070" bulletPower="500" fireBone="Dummy_Fire" realtimeBullet="true" referenceBone="Dummy01">
+            <RotatePitch name="pitch" max="40" min="-20" default="0" boneName="Dummy02" speed="5000" />
+            <RotateYaw name="yaw" max="45" min="-45" default="0" boneName="Dummy_Root" speed="5000" />
+        </CannonData>
+    </Seat>
+    <Seat id="1203" type="movebattle" cameraAttachBone="Dummy02" skillsetId="11608" userAttachBone="">
+        <Camera height="300" offset="-50" pitchDecreaseRate="0.3" pitchDefault="-1500" zoomMax="1000" zoomMin="90" />
+        <CannonData gravity="5000" soundId="1" aimDecalEffectId="7031" aimTrailEffectId="99070" bulletPower="800" fireBone="Dummy_Fire" realtimeBullet="true" referenceBone="Dummy01">
+            <RotatePitch name="pitch" max="40" min="-20" default="0" boneName="Dummy02" speed="5000" />
+            <RotateYaw name="yaw" max="45" min="-45" default="0" boneName="Dummy_Root" speed="5000" />
+        </CannonData>
+    </Seat>
+    <Seat id="1204" type="battle" cameraAttachBone="Dummy02" skillsetId="42501" userAttachBone="">
+        <Camera height="300" offset="0" pitchDecreaseRate="0.3" pitchDefault="-15" zoomMax="500" zoomMin="90" />
+        <CannonData soundId="1" aimDecalEffectId="99057" aimTrailEffectId="99070" bulletPower="600" fireBone="Dummy_Fire" referenceBone="Dummy01">
+            <RotatePitch name="pitch" max="45" min="0" default="0" boneName="Dummy02" speed="5000" />
+            <RotateYaw name="yaw" max="45" min="-45" default="0" boneName="Dummy_Root" speed="5000" />
+        </CannonData>
+    </Seat>
+    <Seat id="1205" type="battle" cameraAttachBone="Dummy02" skillsetId="72501" userAttachBone="">
+        <Camera height="300" offset="0" pitchDecreaseRate="0.3" pitchDefault="-15" zoomMax="500" zoomMin="90" />
+        <CannonData soundId="1" aimDecalEffectId="99057" aimTrailEffectId="99070" bulletPower="600" fireBone="Dummy_Fire" referenceBone="Dummy01">
+            <RotatePitch name="pitch" max="45" min="0" default="0" boneName="Dummy02" speed="5000" />
+            <RotateYaw name="yaw" max="45" min="-45" default="-90" boneName="Dummy_Root" speed="5000" />
+        </CannonData>
+    </Seat>
+    <Seat id="1206" type="battle" cameraAttachBone="Dummy_Cannon" skillsetId="4801" userAttachBone="">
+        <Camera height="100" offset="-50" pitchDecreaseRate="0.4" pitchDefault="-15" zoomMax="400" zoomMin="90" />
+        <CannonData soundId="1" aimDecalEffectId="99057" aimTrailEffectId="99070" bulletPower="600" fireBone="Dummy_Cannon_04" realtimeBullet="true" referenceBone="Dummy_Cannon_03">
+            <RotatePitch name="pitch" max="45" min="-10" default="0" boneName="Dummy_Cannon" speed="5000" />
+            <RotateYaw name="yaw" max="45" min="-45" default="-14" boneName="Dummy_Top" speed="5000" />
+        </CannonData>
+    </Seat>
+    <Seat id="1209" type="battle" cameraAttachBone="Dummy02" skillsetId="21001" userAttachBone="">
+        <Camera height="300" offset="0" pitchDecreaseRate="0.3" pitchDefault="-3000" zoomMax="400" zoomMin="300" />
+        <CannonData soundId="1" aimDecalEffectId="80036" aimTrailEffectId="0" bulletPower="3000" fireBone="Dummy_Fire" referenceBone="Dummy01">
+            <RotatePitch name="pitch" max="45" min="-5" default="0" boneName="Dummy02" speed="3000" />
+            <RotateYaw name="yaw" max="180" min="-180" default="0" boneName="Dummy_Root" speed="5000" />
+        </CannonData>
+    </Seat>
+    <Seat id="1210" type="battle" cameraAttachBone="Dummy02" skillsetId="21003" userAttachBone="">
+        <Camera height="300" offset="0" pitchDecreaseRate="0.3" pitchDefault="-3000" zoomMax="400" zoomMin="300" />
+        <CannonData soundId="1" aimDecalEffectId="80036" aimTrailEffectId="0" bulletPower="3000" fireBone="Dummy_Fire" referenceBone="Dummy01">
+            <RotatePitch name="pitch" max="45" min="-5" default="0" boneName="Dummy02" speed="3000" />
+            <RotateYaw name="yaw" max="180" min="-180" default="0" boneName="Dummy_Root" speed="5000" />
+        </CannonData>
+    </Seat>
+    <Seat id="1211" type="movebattle" cameraAttachBone="Dummy_Cannon" skillsetId="21002" userAttachBone="">
+        <Camera height="150" offset="0" pitchDecreaseRate="1" pitchDefault="-3000" zoomMax="400" zoomMin="300" />
+        <CannonData soundId="1" aimDecalEffectId="7036" aimTrailEffectId="0" bulletPower="200" bulletSize="3" fireBone="FxFire" realtimeBullet="true" referenceBone="Dummy_Unmove">
+            <RotatePitch name="pitch" max="45" min="-10" default="0" boneName="Dummy_Cannon" speed="5000" />
+            <RotateYaw name="yaw" max="45" min="-45" default="0" boneName="Dummy_Cannon" speed="5000" />
+        </CannonData>
+    </Seat>
+    <Seat id="1301" type="avatarTransform" cameraAttachBone="FxBottom" skillsetId="11701" userAttachBone="">
+        <Camera height="100" offset="0" pitchDecreaseRate="1" pitchDefault="-15" zoomMax="1000" zoomMin="90" />
+    </Seat>
+    <Seat id="1302" type="avatarTransform" cameraAttachBone="FxBottom" skillsetId="11702" userAttachBone="">
+        <Camera height="100" offset="0" pitchDecreaseRate="1" pitchDefault="-15" zoomMax="1000" zoomMin="90" />
+    </Seat>
+    <Seat id="1303" type="avatarTransform" cameraAttachBone="FxBottom" skillsetId="11703" userAttachBone="">
+        <Camera height="100" offset="0" pitchDecreaseRate="1" pitchDefault="-15" zoomMax="1000" zoomMin="90" />
+    </Seat>
+    <Seat id="1304" type="avatarTransform" cameraAttachBone="FxBottom" skillsetId="11801" userAttachBone="">
+        <Camera height="500" offset="0" pitchDecreaseRate="1" pitchDefault="-15" zoomMax="1700" zoomMin="600" />
+    </Seat>
+    <Seat id="1305" type="avatarTransform" cameraAttachBone="FxBottom" skillsetId="11802" userAttachBone="">
+        <Camera height="500" offset="0" pitchDecreaseRate="1" pitchDefault="-15" zoomMax="1700" zoomMin="600" />
+    </Seat>
+    <Seat id="1306" type="avatarTransform" cameraAttachBone="FxBottom" skillsetId="11803" userAttachBone="">
+        <Camera height="200" offset="0" pitchDecreaseRate="1" pitchDefault="30" zoomMax="1200" zoomMin="200" />
+    </Seat>
+    <Seat id="1307" type="avatarTransform" cameraAttachBone="FxBottom" skillsetId="11804" userAttachBone="">
+        <Camera height="200" offset="0" pitchDecreaseRate="1" pitchDefault="30" zoomMax="1200" zoomMin="200" />
+    </Seat>
+    <Seat id="1501" type="movebattle" cameraAttachBone="Dummy_Cannon" skillsetId="44301" userAttachBone="">
+        <Camera height="150" offset="-50" pitchDecreaseRate="1" pitchDefault="-15" zoomMax="1000" zoomMin="90" />
+        <CannonData soundId="1" aimDecalEffectId="99057" aimTrailEffectId="99070" bulletPower="1000" fireBone="FxFire" realtimeBullet="true" referenceBone="Dummy_Unmove">
+            <RotatePitch name="pitch" max="45" min="-10" default="0" boneName="Dummy_Cannon" speed="5000" />
+            <RotateYaw name="yaw" max="45" min="-45" default="0" boneName="Dummy_Cannon" speed="5000" />
+        </CannonData>
+    </Seat>
+    <Seat id="1511" type="movebattle" cameraAttachBone="Dummy_Cannon" skillsetId="64301" userAttachBone="">
+        <Camera height="150" offset="-50" pitchDecreaseRate="1" pitchDefault="-15" zoomMax="1000" zoomMin="90" />
+        <CannonData soundId="1" aimDecalEffectId="99057" aimTrailEffectId="99070" bulletPower="1000" fireBone="FxFire" realtimeBullet="true" referenceBone="Dummy_Unmove">
+            <RotatePitch name="pitch" max="45" min="-10" default="0" boneName="Dummy_Cannon" speed="5000" />
+            <RotateYaw name="yaw" max="45" min="-45" default="0" boneName="Dummy_Cannon" speed="5000" />
+        </CannonData>
+    </Seat>
+    <Seat id="1601" type="movebattle" cameraAttachBone="Dummy_Cannon" skillsetId="74301" userAttachBone="">
+        <Camera height="150" offset="-50" pitchDecreaseRate="1" pitchDefault="-15" zoomMax="1000" zoomMin="90" />
+        <CannonData soundId="1" aimDecalEffectId="99057" aimTrailEffectId="99070" bulletPower="1000" fireBone="FxFire" realtimeBullet="true" referenceBone="Dummy_Unmove">
+            <RotatePitch name="pitch" max="45" min="-10" default="0" boneName="Dummy_Cannon" speed="5000" />
+            <RotateYaw name="yaw" max="45" min="-45" default="0" boneName="Dummy_Cannon" speed="5000" />
+        </CannonData>
+    </Seat>
+    <Seat id="1801" type="battle" cameraAttachBone="Dummy02" skillsetId="45301" userAttachBone="">
+        <Camera height="250" offset="0" pitchDecreaseRate="0.3" pitchDefault="-15" zoomMax="800" zoomMin="200" />
+        <CannonData soundId="1" aimDecalEffectId="99057" aimTrailEffectId="99070" bulletPower="600" fireBone="Dummy_Fire" referenceBone="Dummy01">
+            <RotatePitch name="pitch" max="45" min="-30" default="0" boneName="Dummy02" speed="5000" />
+            <RotateYaw name="yaw" max="90" min="-90" default="90" boneName="Dummy_Root" speed="5000" />
+        </CannonData>
+    </Seat>
+    <Seat id="1802" type="battle" cameraAttachBone="Dummy02" skillsetId="45302" userAttachBone="">
+        <Camera height="250" offset="0" pitchDecreaseRate="0.3" pitchDefault="-15" zoomMax="800" zoomMin="50" />
+        <CannonData soundId="1" aimDecalEffectId="99057" aimTrailEffectId="99070" bulletPower="600" fireBone="Dummy_Fire" referenceBone="Dummy01">
+            <RotatePitch name="pitch" max="45" min="-30" default="0" boneName="Dummy02" speed="5000" />
+            <RotateYaw name="yaw" max="120" min="-120" default="-90" boneName="Dummy_Root" speed="5000" />
+        </CannonData>
+    </Seat>
+    <Seat id="1901" type="battle" cameraAttachBone="Dummy02" skillsetId="82501" userAttachBone="">
+        <Camera height="50" offset="0" pitchDecreaseRate="0.3" pitchDefault="-15" zoomMax="800" zoomMin="200" />
+        <CannonData soundId="1" aimDecalEffectId="99057" aimTrailEffectId="99070" bulletPower="600" fireBone="Dummy_Fire" referenceBone="Dummy01">
+            <RotatePitch name="pitch" max="45" min="0" default="0" boneName="Dummy02" speed="5000" />
+            <RotateYaw name="yaw" max="45" min="-45" default="-90" boneName="Dummy_Root" speed="5000" />
+        </CannonData>
+    </Seat>
+    <Seat id="2001" type="" cameraAttachBone="" skillsetId="1023001" userAttachBone="">
+        <Camera height="0" offset="0" pitchDecreaseRate="0" pitchDefault="0" zoomMax="0" zoomMin="0" />
+    </Seat>
+    <Seat id="2002" type="" cameraAttachBone="" skillsetId="1023002" userAttachBone="">
+        <Camera height="0" offset="0" pitchDecreaseRate="0" pitchDefault="0" zoomMax="0" zoomMin="0" />
+    </Seat>
+    <Seat id="2003" type="" cameraAttachBone="" skillsetId="1023003" userAttachBone="">
+        <Camera height="0" offset="0" pitchDecreaseRate="0" pitchDefault="0" zoomMax="0" zoomMin="0" />
+    </Seat>
+    <Seat id="2004" type="" cameraAttachBone="" skillsetId="1023004" userAttachBone="">
+        <Camera height="0" offset="0" pitchDecreaseRate="0" pitchDefault="0" zoomMax="0" zoomMin="0" />
+    </Seat>
+    <Seat id="12071" type="movebattle" cameraAttachBone="Dummy02" skillsetId="44704" userAttachBone="">
+        <Camera height="300" offset="0" pitchDecreaseRate="0.3" pitchDefault="-3000" zoomMax="420" zoomMin="400" />
+        <CannonData gravity="5000" soundId="1" aimDecalEffectId="3526" aimTrailEffectId="99070" bulletPower="400" bulletSize="1" fireBone="Dummy_Fire" realtimeBullet="true" referenceBone="Dummy01">
+            <RotatePitch name="pitch" max="40" min="-20" default="0" boneName="Dummy02" speed="5000" />
+            <RotateYaw name="yaw" max="45" min="-45" default="0" boneName="Dummy_Root" speed="5000" />
+        </CannonData>
+    </Seat>
+    <Seat id="5000" type="automove" cameraAttachBone="under" skillsetId="45001" userAttachBone="">
+        <AirShipData AirShipGetoffPos="-28806,177601,-948" />
+        <Camera offset="-20" pitchDecreaseRate="0.4" pitchDefault="-15" zoomMax="1000" zoomMin="90" />
+    </Seat>
+    <Seat id="5001" type="automove" cameraAttachBone="under" skillsetId="45001" userAttachBone="">
+        <AirShipData AirShipGetoffPos="-34297,179810,-785" />
+        <Camera offset="-20" pitchDecreaseRate="0.4" pitchDefault="-15" zoomMax="1000" zoomMin="90" />
+    </Seat>
+    <Seat id="19101" type="automove" cameraAttachBone="under" skillsetId="19101" userAttachBone="">
+        <AirShipData AirShipGetoffPos="45727,27771,8475" />
+        <Camera offset="-20" pitchDecreaseRate="0.4" pitchDefault="-15" zoomMax="1000" zoomMin="90" />
+    </Seat>
+    <Seat id="19103" type="automove" cameraAttachBone="under" skillsetId="19103" userAttachBone="">
+        <AirShipData AirShipGetoffPos="46884,27769,8475" />
+        <Camera offset="-20" pitchDecreaseRate="0.4" pitchDefault="-15" zoomMax="1000" zoomMin="90" />
+    </Seat>
+    <Seat id="19102" type="battle" cameraAttachBone="Dummy_Cannon" skillsetId="19102" userAttachBone="">
+        <Camera height="150" offset="-50" pitchDecreaseRate="0.4" pitchDefault="-15" zoomMax="1000" zoomMin="90" />
+        <CannonData soundId="1" aimDecalEffectId="7031" aimTrailEffectId="99070" bulletPower="420" fireBone="FxFire" realtimeBullet="true" referenceBone="Dummy_Unmove">
+            <RotatePitch name="pitch" max="17" min="-10" default="0" boneName="Dummy_Cannon" speed="5000" />
+            <RotateYaw name="yaw" max="45" min="-45" default="0" boneName="Dummy_Cannon" speed="5000" />
+        </CannonData>
+    </Seat>
+    <Seat id="11107" type="movebattle" cameraAttachBone="FxTop" skillsetId="995002" userAttachBone="">
+        <Camera height="300" offset="-50" pitchDecreaseRate="0.4" pitchDefault="-3000" zoomMax="1500" zoomMin="90" />
+        <CannonData gravity="2000" soundId="1" aimDecalEffectId="70311" aimTrailEffectId="990701" bulletPower="1500" fireBone="FxFire" maxRange="2000" realtimeBullet="true" referenceBone="Dummy_Unmove">
+            <RotatePitch name="pitch" max="55" min="-10" default="0" boneName="Dummy_Ballista" speed="5000" />
+            <RotateYaw name="yaw" max="45" min="-45" default="0" boneName="Dummy_MidCenter" speed="5000" />
+        </CannonData>
+    </Seat>
+    <Seat id="11109" type="movebattle" cameraAttachBone="FxTop" skillsetId="995005" userAttachBone="">
+        <Camera height="300" offset="-50" pitchDecreaseRate="0.4" pitchDefault="-3000" zoomMax="1500" zoomMin="90" />
+        <CannonData gravity="2000" soundId="1" aimDecalEffectId="70311" aimTrailEffectId="990701" bulletPower="1500" fireBone="FxFire" maxRange="2000" realtimeBullet="true" referenceBone="Dummy_Unmove">
+            <RotatePitch name="pitch" max="55" min="-10" default="0" boneName="Dummy_Cannon" speed="5000" />
+            <RotateYaw name="yaw" max="45" min="-45" default="0" boneName="Dummy_Cannon" speed="5000" />
+        </CannonData>
+    </Seat>
+</NpcSeatData>

@@ -1,0 +1,45 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="5127" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>51,27</Quest번호>
+        <Quest제목>@quest:5127001</Quest제목>
+        <반복퀘스트>1회성</반복퀘스트>
+        <발생조건>
+            <NPC대화>251,1029</NPC대화>
+        </발생조건>
+        <수행조건>
+            <길드레벨 />
+            <선행퀘스트>
+                <선행퀘스트>
+                    <퀘스트Id>51,25</퀘스트Id>
+                </선행퀘스트>
+            </선행퀘스트>
+            <영주길드 />
+            <최소레벨>56</최소레벨>
+        </수행조건>
+        <스토리그룹Id />
+        <요약정보>100</요약정보>
+        <적정수행레벨>58</적정수행레벨>
+        <적정수행인원>1</적정수행인원>
+        <집회소분류 />
+        <퀘스트종류>일반</퀘스트종류>
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>251,1032</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>1</보상>
+                <저널Text>@quest:5127005</저널Text>
+            </Body>
+            <Header>
+                <Id>1</Id>
+                <JournalScript>2</JournalScript>
+                <다음Task />
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

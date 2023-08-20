@@ -1,0 +1,85 @@
+<GuildQuest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/GuildQuest GuildQuest.xsd" xmlns="https://vezel.dev/novadrop/dc/GuildQuest">
+    <Quest id="10000" name="전장15" desc="@GuildQuest:10000002" title="@GuildQuest:10000001">
+        <ClearCondition>
+            <TargetList>
+                <Field targetNameString="@GuildQuest:10000003" />
+            </TargetList>
+        </ClearCondition>
+    </Quest>
+    <Quest id="10001" name="채집600" desc="@GuildQuest:10001002" title="@GuildQuest:10001001">
+        <ClearCondition>
+            <TargetList>
+                <Collection targetNameString="@GuildQuest:10001003" />
+            </TargetList>
+        </ClearCondition>
+    </Quest>
+    <Quest id="10002" name="몬스터300킬" desc="@GuildQuest:10002002" title="@GuildQuest:10002001">
+        <ClearCondition>
+            <TargetList>
+                <Npc targetNameString="@GuildQuest:10002003" />
+            </TargetList>
+        </ClearCondition>
+    </Quest>
+    <Quest id="10003" name="보스15킬" desc="@GuildQuest:10003002" title="@GuildQuest:10003001">
+        <ClearCondition>
+            <TargetList>
+                <Npc targetNameString="@GuildQuest:10003003" />
+            </TargetList>
+        </ClearCondition>
+    </Quest>
+    <Quest id="10004" name="낚시900" desc="@GuildQuest:10004002" title="@GuildQuest:10004001">
+        <ClearCondition>
+            <TargetList>
+                <Fishing targetNameString="@GuildQuest:10004003" />
+            </TargetList>
+        </ClearCondition>
+    </Quest>
+    <Quest id="10005" name="탐욕의 아난샤 토벌" desc="@GuildQuest:10005002" title="@GuildQuest:10005001">
+        <ClearCondition>
+            <TargetList>
+                <Npc templateId="2001" huntingZoneId="29" targetNameString="@GuildQuest:10005003" />
+            </TargetList>
+        </ClearCondition>
+        <RelatedTerritoryInfo huntingZoneId="29" territoryId="2900175" />
+    </Quest>
+    <Quest id="10006" name="분노의 카라고스 토벌" desc="@GuildQuest:10006002" title="@GuildQuest:10006001">
+        <ClearCondition>
+            <TargetList>
+                <Npc templateId="2002" huntingZoneId="34" targetNameString="@GuildQuest:10006003" />
+            </TargetList>
+        </ClearCondition>
+        <RelatedTerritoryInfo huntingZoneId="34" territoryId="3401075" />
+    </Quest>
+    <Quest id="10007" name="학살의 사브라니악 토벌" desc="@GuildQuest:10007002" title="@GuildQuest:10007001">
+        <ClearCondition>
+            <TargetList>
+                <Npc templateId="2003" huntingZoneId="34" targetNameString="@GuildQuest:10007003" />
+            </TargetList>
+        </ClearCondition>
+        <RelatedTerritoryInfo huntingZoneId="34" territoryId="3401076" />
+    </Quest>
+    <Quest id="10008" name="탐욕의 아난샤 토벌" desc="@GuildQuest:10005002" title="@GuildQuest:10005001">
+        <ClearCondition>
+            <TargetList>
+                <Npc templateId="2001" huntingZoneId="29" targetNameString="@GuildQuest:10005003" />
+            </TargetList>
+        </ClearCondition>
+        <RelatedTerritoryInfo huntingZoneId="29" territoryId="2900175" />
+    </Quest>
+    <Quest id="10009" name="분노의 카라고스 토벌" desc="@GuildQuest:10006002" title="@GuildQuest:10006001">
+        <ClearCondition>
+            <TargetList>
+                <Npc templateId="2002" huntingZoneId="34" targetNameString="@GuildQuest:10006003" />
+            </TargetList>
+        </ClearCondition>
+        <RelatedTerritoryInfo huntingZoneId="34" territoryId="3401075" />
+    </Quest>
+    <Quest id="10010" name="학살의 사브라니악 토벌" desc="@GuildQuest:10007002" title="@GuildQuest:10007001">
+        <ClearCondition>
+            <TargetList>
+                <Npc templateId="2003" huntingZoneId="34" targetNameString="@GuildQuest:10007003" />
+            </TargetList>
+        </ClearCondition>
+        <RelatedTerritoryInfo huntingZoneId="34" territoryId="3401076" />
+    </Quest>
+</GuildQuest>

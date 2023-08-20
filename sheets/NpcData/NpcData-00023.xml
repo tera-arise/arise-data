@@ -1,0 +1,673 @@
+<NpcData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/NpcData NpcData.xsd" huntingZoneId="25" xmlns="https://vezel.dev/novadrop/dc/NpcData">
+    <Template id="211" name="NPC 상단 가이드 (데이링)" scale="3" gender="male" race="marker" size="medium" shapeId="730250" basicActionId="7203700" resourceSize="100" resourceType="medium" parentId="72037100" elite="false" invincible="true" isObjectNpc="true" unionElite="false" villager="true">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <Reaction maxAdditionalGauge="0" />
+        <Stat level="1" atk="0" def="0" maxHp="0" />
+    </Template>
+    <Template id="212" name="NPC 상단 가이드 (마오링)" scale="3" gender="male" race="marker" size="medium" shapeId="730250" basicActionId="7203700" resourceSize="100" resourceType="medium" parentId="72037100" elite="false" invincible="true" isObjectNpc="true" unionElite="false" villager="true">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <Reaction maxAdditionalGauge="0" />
+        <Stat level="1" atk="0" def="0" maxHp="0" />
+    </Template>
+    <Template id="1011" name="데바족 사교도 정찰병" scale="1" gender="male" race="DevaHunter" size="medium" shapeId="300151" basicActionId="3001500" resourceSize="100" resourceType="medium" parentId="30015100" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="9292.75890875725" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="11" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="65" def="689" maxHp="18585.5178175145" />
+    </Template>
+    <Template id="1021" name="데바족 사교도 사제" scale="1" gender="male" race="DevaShaman" size="medium" shapeId="300161" basicActionId="3001600" resourceSize="100" resourceType="medium" parentId="30016100" balanceType="솔로_풀-목표" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="10497.2582298481" />
+        <BalanceRef ignoreAttr="" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="96" def="689" maxHp="20994.5164596961" />
+    </Template>
+    <Template id="1022" name="언데드 호위병" scale="0.6" gender="male" race="UndeadEscort" size="small" shapeId="301080" basicActionId="3010800" resourceSize="100" resourceType="medium" parentId="30108000" balanceType="솔로_풀-자코" elite="false" isFreeNamed="false" partyMember="8" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="19" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="39" def="689" maxHp="2361.88310171581" />
+    </Template>
+    <Template id="1031" name="언데드 사육야수" scale="1.25" gender="male" race="UndeadBeast" size="medium" shapeId="300300" basicActionId="3003000" resourceSize="100" resourceType="medium" parentId="30030000" balanceType="솔로_풀-목표" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="10497.2582298481" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="83" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="96" def="689" maxHp="20994.5164596961" />
+    </Template>
+    <Template id="1032" name="언데드 호위병" scale="0.6" gender="male" race="UndeadEscort" size="small" shapeId="301080" basicActionId="3010800" resourceSize="100" resourceType="medium" parentId="30108000" balanceType="솔로_풀-자코" elite="false" isFreeNamed="false" partyMember="8" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="19" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="39" def="689" maxHp="2361.88310171581" />
+    </Template>
+    <Template id="1041" name="언데드 사육야수" scale="1.25" gender="male" race="UndeadBeast" size="medium" shapeId="300300" basicActionId="3003000" resourceSize="100" resourceType="medium" parentId="30030000" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="9292.75890875725" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="88" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="65" def="689" maxHp="18585.5178175145" />
+    </Template>
+    <Template id="1051" name="언데드 창병" scale="1.45" gender="male" race="UndeadSpearman" size="medium" shapeId="300310" basicActionId="3003100" resourceSize="100" resourceType="medium" parentId="30031000" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="9292.75890875725" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="28" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="65" def="689" maxHp="18585.5178175145" />
+    </Template>
+    <Template id="1061" name="다크 리퍼(중레벨_필드)" scale="0.95" gender="male" race="DarkReaper" size="large" shapeId="300865" basicActionId="3008600" resourceSize="100" resourceType="medium" parentId="30086002" balanceType="밸런싱 안함" elite="true" isFreeNamed="false" partyMember="1" showAggroTarget="true" showShorttermTarget="true" speciesId="7">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="3979698.61963277" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="61" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="317" def="689" maxHp="159187.944785311" />
+    </Template>
+    <Template id="1062" name="데바족 사교도 사제" scale="1" gender="male" race="DevaShaman" size="medium" shapeId="300161" basicActionId="3001600" resourceSize="100" resourceType="medium" parentId="30016100" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="14750.4109662814" />
+        <BalanceRef ignoreAttr="" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="96" def="689" maxHp="29500.8219325627" />
+    </Template>
+    <Template id="1071" name="데바 사교도 광전사" scale="1.3" gender="male" race="Berserker_Darker" size="medium" shapeId="301424" basicActionId="3014200" resourceSize="100" resourceType="medium" parentId="30142400" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="9292.75890875725" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="-4" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="65" def="689" maxHp="18585.5178175145" />
+    </Template>
+    <Template id="1072" name="데바 사교도 검투사" scale="1.3" gender="male" race="Warrior_Darker" size="medium" shapeId="301413" basicActionId="3014100" resourceSize="100" resourceType="medium" parentId="30141300" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="9292.75890875725" />
+        <BalanceRef ignoreAttr="" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="65" def="689" maxHp="18585.5178175145" />
+    </Template>
+    <Template id="1081" name="굶주린 하이에나" scale="1.25" gender="male" race="Hyena" size="medium" shapeId="300202" basicActionId="3002000" resourceSize="200" resourceType="medium" parentId="30020200" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false" speciesId="8">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="8637.51456997997" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="6" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="37" atk="64" def="638" maxHp="17275.0291399599" />
+    </Template>
+    <Template id="2011" name="언데드 장군" scale="1.38" gender="male" race="UndeadCommander" size="medium" shapeId="301140" basicActionId="3011400" resourceSize="100" resourceType="medium" parentId="30114000" balanceType="솔로_풀-목표" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="10497.2582298481" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="43" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="96" def="689" maxHp="20994.5164596961" />
+    </Template>
+    <Template id="2012" name="언데드 호위병" scale="0.6" gender="male" race="UndeadEscort" size="small" shapeId="301080" basicActionId="3010800" resourceSize="100" resourceType="medium" parentId="30108000" balanceType="솔로_풀-자코" elite="false" isFreeNamed="false" partyMember="8" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="19" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="39" def="689" maxHp="2361.88310171581" />
+    </Template>
+    <Template id="2021" name="언데드 장군" scale="1.38" gender="male" race="UndeadCommander" size="medium" shapeId="301140" basicActionId="3011400" resourceSize="100" resourceType="medium" parentId="30114000" balanceType="솔로_풀-목표" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="10497.2582298481" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="42" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="96" def="689" maxHp="20994.5164596961" />
+    </Template>
+    <Template id="2022" name="언데드 추격자" scale="0.6" gender="male" race="UndeadEscort" size="small" shapeId="301081" basicActionId="3010800" resourceSize="100" resourceType="medium" parentId="30108100" balanceType="솔로_풀-자코" elite="false" isFreeNamed="false" partyMember="13" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="17" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="33" def="689" maxHp="1653.31817120107" />
+    </Template>
+    <Template id="2031" name="데바족 사교도 정찰병" scale="1" gender="male" race="DevaHunter" size="medium" shapeId="300151" basicActionId="3001500" resourceSize="100" resourceType="medium" parentId="30015100" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="9292.75890875725" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="14" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="65" def="689" maxHp="18585.5178175145" />
+    </Template>
+    <Template id="2041" name="Archer_Darker_2" scale="1.3" gender="male" race="Archer_Darker" size="medium" shapeId="301371" basicActionId="3013700" resourceSize="100" resourceType="medium" parentId="30137100" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="9292.75890875725" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="3" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="65" def="689" maxHp="18585.5178175145" />
+    </Template>
+    <Template id="2042" name="데바 사교도 검투사" scale="1.3" gender="male" race="Warrior_Darker" size="medium" shapeId="301413" basicActionId="3014100" resourceSize="100" resourceType="medium" parentId="30141300" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="9292.75890875725" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="11" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="65" def="689" maxHp="18585.5178175145" />
+    </Template>
+    <Template id="2051" name="다크 리퍼(중레벨_던전)" scale="0.95" gender="male" race="DarkReaper" size="large" shapeId="300865" basicActionId="3008600" resourceSize="100" resourceType="medium" parentId="30086001" balanceType="밸런싱 안함" elite="true" isFreeNamed="false" partyMember="1" showAggroTarget="true" showShorttermTarget="true" speciesId="7">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="3979698.61963277" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="60" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="317" def="689" maxHp="159187.944785311" />
+    </Template>
+    <Template id="2052" name="데바족 사교도 사제" scale="1" gender="male" race="DevaShaman" size="medium" shapeId="300161" basicActionId="3001600" resourceSize="100" resourceType="medium" parentId="30016100" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="14750.4109662814" />
+        <BalanceRef ignoreAttr="" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="96" def="689" maxHp="29500.8219325627" />
+    </Template>
+    <Template id="2061" name="데바족 사교도 호위병" scale="1" gender="female" race="DevaFemaleRouge" size="medium" shapeId="300142" basicActionId="3001400" resourceSize="100" resourceType="medium" parentId="30014200" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="9292.75890875725" />
+        <BalanceRef ignoreAttr="" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="65" def="689" maxHp="18585.5178175145" />
+    </Template>
+    <Template id="2071" name="데바족 사교도 사제" scale="1" gender="male" race="DevaShaman" size="medium" shapeId="300161" basicActionId="3001600" resourceSize="100" resourceType="medium" parentId="30016100" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="9292.75890875725" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="65" def="689" maxHp="18585.5178175145" />
+    </Template>
+    <Template id="2081" name="시누스" scale="0.7" gender="male" race="animal" size="small" shapeId="300380" basicActionId="3003800" parentId="30038000" balanceType="솔로_풀-자코" elite="false" isFreeNamed="false" partyMember="6" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="41" def="689" maxHp="2952.35387714477" />
+    </Template>
+    <Template id="2091" name="데바 사교도 광전사" scale="1.3" gender="male" race="Berserker_Darker" size="medium" shapeId="301424" basicActionId="3014200" resourceSize="100" resourceType="medium" parentId="30142400" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="9292.75890875725" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="-5" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="65" def="689" maxHp="18585.5178175145" />
+    </Template>
+    <Template id="2092" name="데바 사교도 검투사" scale="1.3" gender="male" race="Warrior_Darker" size="medium" shapeId="301413" basicActionId="3014100" resourceSize="100" resourceType="medium" parentId="30141300" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="9292.75890875725" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="65" def="689" maxHp="18585.5178175145" />
+    </Template>
+    <Template id="3011" name="데바 사교도 주술사" scale="1.3" gender="male" race="Sorcerer_Darker" size="medium" shapeId="301434" basicActionId="3014300" resourceSize="100" resourceType="medium" parentId="30143400" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="9292.75890875725" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="-4" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="65" def="689" maxHp="18585.5178175145" />
+    </Template>
+    <Template id="3012" name="중독된 슈리안 전사" scale="1.26" gender="male" race="DruggedShurianWarrior" size="medium" shapeId="301100" basicActionId="3011000" resourceSize="100" resourceType="medium" parentId="30110000" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="9292.75890875725" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="44" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="65" def="689" maxHp="18585.5178175145" />
+    </Template>
+    <Template id="3021" name="데바 사교도 하급 사제" scale="1.3" gender="male" race="Elementalist_Darker" size="medium" shapeId="301403" basicActionId="3014000" resourceSize="100" resourceType="medium" parentId="30140300" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="9292.75890875725" />
+        <BalanceRef ignoreAttr="" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="65" def="689" maxHp="18585.5178175145" />
+    </Template>
+    <Template id="3022" name="중독된 슈리안 소환사" scale="1.26" gender="male" race="DruggedShurianSummoner" size="medium" shapeId="301110" basicActionId="3011100" resourceSize="100" resourceType="medium" parentId="30111000" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="9292.75890875725" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="40" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="65" def="689" maxHp="18585.5178175145" />
+    </Template>
+    <Template id="3031" name="데바 사교도 하급 사제" scale="1.3" gender="male" race="Elementalist_Darker" size="medium" shapeId="301403" basicActionId="3014000" resourceSize="100" resourceType="medium" parentId="30140300" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="9292.75890875725" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="7" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="65" def="689" maxHp="18585.5178175145" />
+    </Template>
+    <Template id="3032" name="데바 사교도 상급 기사" scale="1.3" gender="male" race="Lance_Darker" size="medium" shapeId="301363" basicActionId="3013600" resourceSize="100" resourceType="medium" parentId="30136300" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="9292.75890875725" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="2" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="65" def="689" maxHp="18585.5178175145" />
+    </Template>
+    <Template id="5011" name="용병 연합군 병사02(휴먼 남자 창기사)" scale="1" gender="male" race="Human" size="medium" shapeId="522011" basicActionId="5220100" resourceSize="100" resourceType="medium" parentId="52201100" balanceType="밸런싱 안함" elite="true" invincible="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="true">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="26752.6884551355" />
+        <BalanceRef ignoreAttr="atk,maxHp" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="350" def="689" maxHp="64203" />
+    </Template>
+    <Template id="5012" name="용병 연합군 병사01(휴먼 남자 광전사)" scale="1" gender="male" race="Human" size="medium" shapeId="524010" basicActionId="5240100" resourceSize="100" resourceType="medium" parentId="52401000" balanceType="밸런싱 안함" elite="true" invincible="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="true">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="26752.6884551355" />
+        <BalanceRef ignoreAttr="atk,maxHp" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="350" def="689" maxHp="64203" />
+    </Template>
+    <Template id="5013" name="카이아의 검 남병사(캐스타닉 남자 무사)" scale="1" gender="male" race="Castanic" size="medium" shapeId="523020" basicActionId="5230200" resourceSize="100" resourceType="medium" parentId="52302000" balanceType="밸런싱 안함" elite="true" invincible="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="true">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="26752.6884551355" />
+        <BalanceRef ignoreAttr="atk,maxHp" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="350" def="689" maxHp="64203" />
+    </Template>
+    <Template id="5014" name="카이아의 검 여병사(캐스타닉 여자 검투사)" scale="1" gender="female" race="Castanic" size="medium" shapeId="521011" basicActionId="5210100" resourceSize="100" resourceType="medium" parentId="52101100" balanceType="밸런싱 안함" elite="true" invincible="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="true">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="26752.6884551355" />
+        <BalanceRef ignoreAttr="atk,maxHp" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="350" def="689" maxHp="64203" />
+    </Template>
+    <Template id="5015" name="사제 레만(바라카 남자 사제)" scale="1" gender="male" race="Baraka" size="medium" shapeId="527010" basicActionId="5270100" resourceSize="100" resourceType="medium" parentId="52701000" balanceType="밸런싱 안함" elite="true" invincible="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="true">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="26752.6884551355" />
+        <BalanceRef ignoreAttr="atk,maxHp" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="350" def="689" maxHp="64203" />
+    </Template>
+    <Template id="5021" name="무사 레스터(휴먼 여자 무사)" scale="1" gender="female" race="Human" size="medium" shapeId="523010" basicActionId="5230100" resourceSize="100" resourceType="medium" parentId="52301000" balanceType="밸런싱 안함" elite="true" invincible="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="true">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="26752.6884551355" />
+        <BalanceRef ignoreAttr="atk,maxHp" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="350" def="689" maxHp="64203" />
+    </Template>
+    <Template id="5022" name="사제(휴먼 여자 사제)" scale="1" gender="female" race="Human" size="medium" shapeId="527020" basicActionId="5270200" resourceSize="100" resourceType="medium" parentId="52702000" balanceType="밸런싱 안함" elite="true" invincible="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="true">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="26752.6884551355" />
+        <BalanceRef ignoreAttr="atk,maxHp" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="350" def="689" maxHp="64203" />
+    </Template>
+    <Template id="5023" name="카이아의 검 여병사(캐스타닉 여자 검투사)" scale="1" gender="female" race="Castanic" size="medium" shapeId="521011" basicActionId="5210100" resourceSize="100" resourceType="medium" parentId="52101100" balanceType="밸런싱 안함" elite="true" invincible="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="true">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="26752.6884551355" />
+        <BalanceRef ignoreAttr="atk,maxHp" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="350" def="689" maxHp="64203" />
+    </Template>
+    <Template id="6011" name="(환경몬스터)전갈" scale="1" gender="male" race="Scorpion" size="small" shapeId="301690" basicActionId="3016900" parentId="30169000" balanceType="밸런싱 안함" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="37" atk="18" def="191" maxHp="13.6718732084037" />
+    </Template>
+    <Template id="6021" name="(환경몬스터)유령2" scale="1" gender="male" race="Ghost" size="small" shapeId="301660" basicActionId="3016600" parentId="30166000" balanceType="밸런싱 안함" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="37" atk="18" def="191" maxHp="13.6718732084037" />
+    </Template>
+    <Template id="7011" name="언데드기병_자유사냥" scale="1.4" gender="male" race="Undeadcavalry" size="medium" shapeId="300612" basicActionId="3006100" resourceSize="100" resourceType="medium" parentId="30061000" balanceType="솔로_자유사냥_네임드_기본" elite="false" isFreeNamed="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="23799.6055929371" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="60" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="39" atk="343" def="894" maxHp="47599.2111858742" />
+    </Template>
+    <Template id="8011" name="다크 리퍼A" scale="0.95" gender="male" race="DarkReaper" size="large" shapeId="300865" basicActionId="3008600" resourceSize="100" resourceType="medium" parentId="30086002" balanceType="밸런싱 안함" elite="true" isFreeNamed="false" partyMember="1" showAggroTarget="true" showShorttermTarget="true" speciesId="7">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="4775638.34355932" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="36" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="63" def="275" maxHp="30564" />
+    </Template>
+    <Template id="8012" name="데바족 사교도 사제A" scale="1" gender="male" race="DevaShaman" size="medium" shapeId="300161" basicActionId="3001600" resourceSize="100" resourceType="medium" parentId="30016100" balanceType="밸런싱 안함" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="10152.6452687239" />
+        <BalanceRef ignoreAttr="atk,maxHp" />
+        <NamePlate nameplateHeight="7" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="237" def="827" maxHp="9136" />
+    </Template>
+    <Template id="8021" name="다크 리퍼B" scale="0.95" gender="male" race="DarkReaper" size="large" shapeId="300865" basicActionId="3008600" resourceSize="100" resourceType="medium" parentId="30086001" balanceType="밸런싱 안함" elite="true" isFreeNamed="false" partyMember="1" showAggroTarget="true" showShorttermTarget="true" speciesId="7">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="4775638.34355932" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="46" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="63" def="275" maxHp="30564" />
+    </Template>
+    <Template id="8022" name="데바족 사교도 사제B" scale="1" gender="male" race="DevaShaman" size="medium" shapeId="300161" basicActionId="3001600" resourceSize="100" resourceType="medium" parentId="30016100" balanceType="밸런싱 안함" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="10152.6452687239" />
+        <BalanceRef ignoreAttr="atk,maxHp" />
+        <NamePlate nameplateHeight="7" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="237" def="827" maxHp="9136" />
+    </Template>
+    <Template id="8031" name="다크 리퍼(고레벨)" scale="0.95" gender="male" race="DarkReaper" size="large" shapeId="300865" basicActionId="3008600" resourceSize="100" resourceType="medium" parentId="30086003" balanceType="밸런싱 안함" elite="true" isFreeNamed="false" partyMember="1" showAggroTarget="true" showShorttermTarget="true" speciesId="7">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="4775638.34355932" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="60" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="63" def="275" maxHp="30564" />
+    </Template>
+    <Template id="8032" name="데바족 사교도 사제C" scale="1" gender="male" race="DevaShaman" size="medium" shapeId="300161" basicActionId="3001600" resourceSize="100" resourceType="medium" parentId="30016100" balanceType="밸런싱 안함" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="10152.6452687239" />
+        <BalanceRef ignoreAttr="atk,maxHp" />
+        <NamePlate nameplateHeight="7" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="237" def="827" maxHp="9136" />
+    </Template>
+    <Template id="8041" name="어둠의 화신(중레벨)" scale="0.95" gender="male" race="AvatarOfDarkness" size="large" shapeId="300770" basicActionId="3007700" resourceSize="100" resourceType="medium" parentId="30077001" balanceType="밸런싱 안함" elite="true" isFreeNamed="false" partyMember="1" showAggroTarget="true" showShorttermTarget="true">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="3979698.61963277" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="74" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="38" atk="56" def="482" maxHp="25470" />
+    </Template>
+    <Template id="9011" name="3단 바리게이트" scale="0" size="small" shapeId="600030" basicActionId="6000300" parentId="60003000" balanceType="밸런싱 안함" deathShapeId="600033" elite="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="37" atk="88" def="638" maxHp="11158.8521013711" />
+    </Template>
+    <Template id="9012" name="5단 바리게이트" scale="0" size="small" shapeId="600031" basicActionId="6000310" parentId="60003001" balanceType="밸런싱 안함" deathShapeId="600034" elite="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="37" atk="88" def="638" maxHp="11158.8521013711" />
+    </Template>
+    <Template id="9013" name="7단 바리게이트" scale="0" size="small" shapeId="600032" basicActionId="6000320" parentId="60003002" balanceType="밸런싱 안함" deathShapeId="600035" elite="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="37" atk="88" def="638" maxHp="11158.8521013711" />
+    </Template>
+</NpcData>

@@ -1,0 +1,18 @@
+<NpcShaderData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/NpcShaderData NpcShaderData.xsd" xmlns="https://vezel.dev/novadrop/dc/NpcShaderData">
+    <Shader condition="blackcrack" default="S1_MI_Special_Mon.MI.BlackCrack_monster_MI" blendIn="4" blendInExponent="2.5" spawnMiPostfix="_spawn" />
+    <Shader condition="blackcrack_with_hit_effect" default="S1_MI_Special_Mon.MI.BlackCrack_monster_MI" blendIn="2" blendInExponent="5" durationMillisec="800" hitFrom="0.25" hitParamName="JordonCrossFactor" hitTo="0" holdSpawnMi="true" spawnMiPostfix="_spawn" />
+    <Shader condition="summon" default="S1_MI_Special_Mon.MI.Summon_MI" blendIn="4" blendInExponent="2.5" spawnMiPostfix="_spawn" />
+    <Shader condition="summon_with_hit_effect" default="S1_MI_Special_Mon.MI.BlackCrack_monster_MI" blendIn="2" blendInExponent="5" durationMillisec="800" hitFrom="0" hitParamName="Opacity" hitTo="1" holdSpawnMi="true" spawnMiPostfix="_spawn" />
+    <Shader condition="ghost" default="S1_MI_Special_Mon.MI.Monster_Ghost_MI" blendIn="0.2" blendInExponent="5" durationMillisec="100" hitFrom="0" hitParamName="BlendWeight" hitTo="1" holdSpawnMi="true">
+        <Option shadow="false" weaponEffect="false" />
+    </Shader>
+    <Shader condition="ghostTrans" default="S1_MI_Special_Mon.MI.Monster_GhostTrans_MI" blendIn="2" blendInExponent="5" durationMillisec="1000" hitFrom="0" hitParamName="BlendWeight" hitTo="1" holdSpawnMi="true">
+        <Option shadow="false" weaponEffect="false" />
+    </Shader>
+    <Shader condition="infected_green" default="S1_MI_Special_Mon.MI.Monster_Infected_MI" blendIn="4" blendInExponent="2.5" spawnMiPostfix="_spawn" />
+    <Shader condition="infected_purple" default="S1_MI_Special_Mon.MI.Monster_Infected_purple_MI" blendIn="4" blendInExponent="2.5" spawnMiPostfix="_spawn" />
+    <Shader condition="afterImage00" default="S1_MI_Special_Mon.MI.Monster_AfterImage00_DestroyOn_MI" blendIn="4" blendInExponent="2.5" spawnMiPostfix="_spawn" />
+    <Shader condition="afterImage00Change" default="S1_MI_Special_Mon.MI.Monster_AfterImage00_DestroyOff_MI" blendIn="4" blendInExponent="2.5" spawnMiPostfix="_spawn" />
+    <Shader condition="enchant00" default="S1_MI_Special_Mon.MI.Monster_Enchant00_MI" blendIn="4" blendInExponent="1" durationMillisec="4000" hitFrom="0" hitParamName="BlendWeight" hitTo="1" holdSpawnMi="true" />
+    <Shader condition="SuperArmour_Mon" default="S1_MI_Special.Mat.0012A_SuperArmour_Red_Default" blendIn="1" blendOut="0.5" />
+</NpcShaderData>

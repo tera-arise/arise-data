@@ -1,0 +1,720 @@
+<ServantSkill xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/ServantSkill ServantSkill.xsd" xmlns="https://vezel.dev/novadrop/dc/ServantSkill">
+    <AbilityInfo>
+        <AbilityCategory>
+            <Category id="1" kind="0" name="소셜 모션" type="passive" iconName="Icon_Skills.PetSkill_Social_Tex" stringId="10" />
+            <Category id="2" kind="0" name="보관함" type="active" iconName="Icon_Skills.PetSkill_Inventory_Tex" stringId="20" />
+            <Category id="3" kind="1" name="아이템 루팅" type="switch" iconName="Icon_Skills.PetSkill_Loot_Tex" stringId="30" />
+            <Category id="4" kind="1" name="골드 루팅" type="switch" iconName="Icon_Items.goldcoin_Tex" stringId="40" />
+            <Category id="5" kind="1" name="자동 채집" type="switch" iconName="Icon_Skills.PetSkill_Collect_Tex" stringId="50" />
+            <Category id="6" kind="2" name="하급 HP 물약 먹기" type="switch" iconName="Icon_Items.HP_Potion_Level_9_Tex" stringId="60" />
+            <Category id="7" kind="2" name="중급 HP 물약 먹기" type="switch" iconName="Icon_Items.HP_Potion_Level_33_Tex" stringId="70" />
+            <Category id="8" kind="2" name="상급 HP 물약 먹기" type="switch" iconName="Icon_Items.HP_Potion_Level_60_Tex" stringId="80" />
+            <Category id="9" kind="2" name="급속 회복 물약 먹기" type="switch" iconName="Icon_Items.potion5_Tex" stringId="90" />
+            <Category id="10" kind="3" name="하급 MP 물약 먹기" type="switch" iconName="Icon_Items.MP_Potion_Level_9_Tex" stringId="100" />
+            <Category id="11" kind="3" name="중급 MP 물약 먹기" type="switch" iconName="Icon_Items.MP_Potion_Level_33_Tex" stringId="110" />
+            <Category id="12" kind="3" name="상급 MP 물약 먹기" type="switch" iconName="Icon_Items.MP_Potion_Level_60_Tex" stringId="120" />
+            <Category id="13" kind="3" name="MP 회복 물약 먹기" type="switch" iconName="Icon_Items.potion19_Tex" stringId="130" />
+            <Category id="14" kind="4" name="자동 물약 사용" type="switch" iconName="Icon_Items.HP_Potion_Level_65_Tex" stringId="140" />
+            <Category id="15" kind="5" name="자동 먹이 선물" type="switch" iconName="Icon_Skills.ServantSkill_AutoFeedPresent_Tex" stringId="150" />
+            <Category id="16" kind="0" name="대물 자동 낚시" type="passive" iconName="Icon_Skills.PartnerSkill_Fishing_Tex" stringId="160" />
+        </AbilityCategory>
+        <AbilityData>
+            <Ability id="11" name="소셜 모션" type="1" categoryId="1" value1="5" value2="10" value3="15" stringId="11" deletable="false" transferable="false" />
+            <Ability id="12" name="소셜 모션" type="1" categoryId="1" value1="11,12,13,14,20,21" value2="10" value3="15" stringId="12" deletable="false" transferable="false" />
+            <Ability id="13" name="소셜 모션" type="1" categoryId="1" value1="5,6,7" value2="10" value3="15" stringId="13" deletable="false" transferable="false" />
+            <Ability id="21" name="보관함" type="2" categoryId="2" stringId="21" deletable="false" transferable="true" transferId="22" transferPrice="10000000" />
+            <Ability id="22" name="보관함" type="2" categoryId="2" stringId="21" deletable="true" transferable="true" transferId="22" transferPrice="100000000" />
+            <Ability id="23" name="보관함" type="2" categoryId="2" stringId="21" deletable="false" transferable="true" transferId="22" transferPrice="100000000" />
+            <Ability id="24" name="보관함(기간제 펫 전용)" type="9" categoryId="2" stringId="21" deletable="false" transferable="true" transferId="22" transferPrice="10000000" />
+            <Ability id="31" name="아이템 루팅" type="3" categoryId="3" stringId="31" deletable="false" transferable="true" transferId="32" transferPrice="10000000" />
+            <Ability id="32" name="아이템 루팅" type="3" categoryId="3" stringId="31" deletable="true" transferable="true" transferId="32" transferPrice="100000000" />
+            <Ability id="41" name="골드 루팅" type="4" categoryId="4" stringId="41" deletable="false" transferable="true" transferId="42" transferPrice="10000000" />
+            <Ability id="42" name="골드 루팅" type="4" categoryId="4" stringId="41" deletable="true" transferable="true" transferId="42" transferPrice="100000000" />
+            <Ability id="51" name="자동 채집" type="5" categoryId="5" value1="0.8" value2="0.33" value3="0" stringId="51" deletable="false" transferable="true" transferId="52" transferPrice="10000000" />
+            <Ability id="52" name="자동 채집" type="5" categoryId="5" value1="0.8" value2="0.33" value3="0" stringId="51" deletable="true" transferable="true" transferId="52" transferPrice="100000000" />
+            <Ability id="61" name="하급 hp 물약 먹기" type="6" categoryId="6" value1="6550" value2="0.3" stringId="61" deletable="false" transferable="true" transferId="62" transferPrice="1000000" />
+            <Ability id="62" name="하급 hp 물약 먹기" type="6" categoryId="6" value1="6550" value2="0.3" stringId="61" deletable="true" transferable="true" transferId="62" transferPrice="10000000" />
+            <Ability id="71" name="중급 hp 물약 먹기" type="6" categoryId="7" value1="6551" value2="0.3" stringId="71" deletable="false" transferable="true" transferId="72" transferPrice="3000000" />
+            <Ability id="72" name="중급 hp 물약 먹기" type="6" categoryId="7" value1="6551" value2="0.3" stringId="71" deletable="true" transferable="true" transferId="72" transferPrice="30000000" />
+            <Ability id="81" name="상급 hp 물약 먹기" type="6" categoryId="8" value1="6552" value2="0.3" stringId="81" deletable="false" transferable="true" transferId="142" transferPrice="5000000" />
+            <Ability id="82" name="상급 hp 물약 먹기" type="6" categoryId="8" value1="6552" value2="0.5" stringId="82" deletable="false" transferable="true" transferId="142" transferPrice="5000000" />
+            <Ability id="91" name="급속 회복 물약 먹기" type="6" categoryId="9" value1="213821,201222,114,116,212789" value2="0.3" stringId="91" deletable="false" transferable="true" transferId="142" transferPrice="10000000" />
+            <Ability id="92" name="급속 회복 물약 먹기" type="6" categoryId="9" value1="213821,201222,114,116,212789" value2="0.5" stringId="92" deletable="false" transferable="true" transferId="142" transferPrice="10000000" />
+            <Ability id="101" name="하급 mp 물약 먹기" type="7" categoryId="10" value1="6560" value2="0.7" stringId="101" deletable="false" transferable="true" transferId="102" transferPrice="1000000" />
+            <Ability id="102" name="하급 mp 물약 먹기" type="7" categoryId="10" value1="6560" value2="0.7" stringId="101" deletable="true" transferable="true" transferId="102" transferPrice="10000000" />
+            <Ability id="111" name="중급 mp 물약 먹기" type="7" categoryId="11" value1="6561" value2="0.7" stringId="111" deletable="false" transferable="true" transferId="112" transferPrice="3000000" />
+            <Ability id="112" name="중급 mp 물약 먹기" type="7" categoryId="11" value1="6561" value2="0.7" stringId="111" deletable="true" transferable="true" transferId="112" transferPrice="30000000" />
+            <Ability id="121" name="상급 mp 물약 먹기" type="7" categoryId="12" value1="6562" value2="0.7" stringId="121" deletable="false" transferable="true" transferId="142" transferPrice="5000000" />
+            <Ability id="122" name="상급 mp 물약 먹기" type="7" categoryId="12" value1="6562" value2="0.5" stringId="122" deletable="false" transferable="true" transferId="142" transferPrice="5000000" />
+            <Ability id="131" name="MP 회복 물약 먹기" type="7" categoryId="13" value1="856061,213826,149645,100527,130" value2="0.5" stringId="131" deletable="false" transferable="true" transferId="142" transferPrice="10000000" />
+            <Ability id="132" name="MP 회복 물약 먹기" type="7" categoryId="13" value1="856061,213826,149645,100527,130" value2="0.3" stringId="132" deletable="false" transferable="true" transferId="142" transferPrice="10000000" />
+            <Ability id="141" name="자동 물약 사용" type="8" categoryId="14" stringId="141" deletable="false" transferable="true" transferId="142" transferPrice="10000000" />
+            <Ability id="142" name="자동 물약 사용" type="8" categoryId="14" stringId="141" deletable="true" transferable="true" transferId="142" transferPrice="100000000" />
+            <Ability id="151" name="자동 먹이 선물" type="10" categoryId="15" stringId="151" deletable="false" transferable="true" transferId="152" transferPrice="15000000" />
+            <Ability id="152" name="자동 먹이 선물" type="10" categoryId="15" stringId="151" deletable="true" transferable="true" transferId="152" transferPrice="150000000" />
+            <Ability id="161" name="대물 자동 낚시" type="11" categoryId="16" value1="14030" value2="1.2" stringId="161" deletable="false" transferable="true" transferId="162" transferPrice="15000000" />
+            <Ability id="162" name="대물 자동 낚시" type="11" categoryId="16" value1="14030" value2="1.2" stringId="161" deletable="true" transferable="true" transferId="162" transferPrice="150000000" />
+        </AbilityData>
+    </AbilityInfo>
+    <ActiveSkillData iconName="Icon_Skills.PartnerSkill_Buff_Tex" stringId="1000">
+        <ActiveSkill id="1">
+            <SkillData grade="1" skillId="1101" stringId="1101" />
+            <SkillData grade="2" skillId="1101" stringId="1101" />
+            <SkillData grade="3" skillId="1101" stringId="1101" />
+            <SkillData grade="4" skillId="1102" stringId="1102" />
+            <SkillData grade="5" skillId="1102" stringId="1102" />
+            <SkillData grade="6" skillId="1102" stringId="1102" />
+            <SkillData grade="7" skillId="1103" stringId="1103" />
+            <SkillData grade="8" skillId="1103" stringId="1103" />
+            <SkillData grade="9" skillId="1103" stringId="1103" />
+            <SkillData grade="10" skillId="1104" stringId="1104" />
+            <SkillData grade="11" skillId="1104" stringId="1104" />
+            <SkillData grade="12" skillId="1104" stringId="1104" />
+            <SkillData grade="13" skillId="1105" stringId="1105" />
+            <SkillData grade="14" skillId="1105" stringId="1105" />
+            <SkillData grade="15" skillId="1105" stringId="1105" />
+            <SkillData grade="16" skillId="1106" stringId="1106" />
+            <SkillData grade="17" skillId="1106" stringId="1106" />
+            <SkillData grade="18" skillId="1106" stringId="1106" />
+            <SkillData grade="19" skillId="1107" stringId="1107" />
+            <SkillData grade="20" skillId="1107" stringId="1107" />
+            <SkillData grade="21" skillId="1107" stringId="1107" />
+            <SkillData grade="22" skillId="1108" stringId="1108" />
+            <SkillData grade="23" skillId="1108" stringId="1108" />
+            <SkillData grade="24" skillId="1108" stringId="1108" />
+            <SkillData grade="25" skillId="1109" stringId="1109" />
+            <SkillData grade="26" skillId="1109" stringId="1109" />
+            <SkillData grade="27" skillId="1110" stringId="1110" />
+            <SkillData grade="28" skillId="1110" stringId="1110" />
+            <SkillData grade="29" skillId="1111" stringId="1111" />
+            <SkillData grade="30" skillId="1111" stringId="1111" />
+            <SkillData grade="31" skillId="1112" stringId="1112" />
+            <SkillData grade="32" skillId="1112" stringId="1112" />
+            <SkillData grade="33" skillId="1113" stringId="1113" />
+            <SkillData grade="34" skillId="1113" stringId="1113" />
+            <SkillData grade="35" skillId="1114" stringId="1114" />
+            <SkillData grade="36" skillId="1114" stringId="1114" />
+            <SkillData grade="37" skillId="1115" stringId="1115" />
+            <SkillData grade="38" skillId="1115" stringId="1115" />
+            <SkillData grade="39" skillId="1116" stringId="1116" />
+            <SkillData grade="40" skillId="1116" stringId="1116" />
+            <SkillData grade="41" skillId="1117" stringId="1117" />
+            <SkillData grade="42" skillId="1117" stringId="1117" />
+            <SkillData grade="43" skillId="1118" stringId="1118" />
+            <SkillData grade="44" skillId="1118" stringId="1118" />
+            <SkillData grade="45" skillId="1121" stringId="1121" />
+            <SkillData grade="46" skillId="1124" stringId="1124" />
+            <SkillData grade="47" skillId="1127" stringId="1127" />
+            <SkillData grade="48" skillId="1130" stringId="1130" />
+            <SkillData grade="49" skillId="1133" stringId="1133" />
+            <SkillData grade="50" skillId="1136" stringId="1136" />
+        </ActiveSkill>
+        <ActiveSkill id="2">
+            <SkillData grade="1" skillId="1102" stringId="1102" />
+            <SkillData grade="2" skillId="1102" stringId="1102" />
+            <SkillData grade="3" skillId="1102" stringId="1102" />
+            <SkillData grade="4" skillId="1103" stringId="1103" />
+            <SkillData grade="5" skillId="1103" stringId="1103" />
+            <SkillData grade="6" skillId="1103" stringId="1103" />
+            <SkillData grade="7" skillId="1104" stringId="1104" />
+            <SkillData grade="8" skillId="1104" stringId="1104" />
+            <SkillData grade="9" skillId="1104" stringId="1104" />
+            <SkillData grade="10" skillId="1105" stringId="1105" />
+            <SkillData grade="11" skillId="1105" stringId="1105" />
+            <SkillData grade="12" skillId="1105" stringId="1105" />
+            <SkillData grade="13" skillId="1106" stringId="1106" />
+            <SkillData grade="14" skillId="1106" stringId="1106" />
+            <SkillData grade="15" skillId="1106" stringId="1106" />
+            <SkillData grade="16" skillId="1107" stringId="1107" />
+            <SkillData grade="17" skillId="1107" stringId="1107" />
+            <SkillData grade="18" skillId="1107" stringId="1107" />
+            <SkillData grade="19" skillId="1108" stringId="1108" />
+            <SkillData grade="20" skillId="1108" stringId="1108" />
+            <SkillData grade="21" skillId="1108" stringId="1108" />
+            <SkillData grade="22" skillId="1109" stringId="1109" />
+            <SkillData grade="23" skillId="1109" stringId="1109" />
+            <SkillData grade="24" skillId="1109" stringId="1109" />
+            <SkillData grade="25" skillId="1110" stringId="1110" />
+            <SkillData grade="26" skillId="1110" stringId="1110" />
+            <SkillData grade="27" skillId="1111" stringId="1111" />
+            <SkillData grade="28" skillId="1111" stringId="1111" />
+            <SkillData grade="29" skillId="1112" stringId="1112" />
+            <SkillData grade="30" skillId="1112" stringId="1112" />
+            <SkillData grade="31" skillId="1113" stringId="1113" />
+            <SkillData grade="32" skillId="1113" stringId="1113" />
+            <SkillData grade="33" skillId="1114" stringId="1114" />
+            <SkillData grade="34" skillId="1114" stringId="1114" />
+            <SkillData grade="35" skillId="1115" stringId="1115" />
+            <SkillData grade="36" skillId="1115" stringId="1115" />
+            <SkillData grade="37" skillId="1116" stringId="1116" />
+            <SkillData grade="38" skillId="1116" stringId="1116" />
+            <SkillData grade="39" skillId="1117" stringId="1117" />
+            <SkillData grade="40" skillId="1117" stringId="1117" />
+            <SkillData grade="41" skillId="1118" stringId="1118" />
+            <SkillData grade="42" skillId="1118" stringId="1118" />
+            <SkillData grade="43" skillId="1119" stringId="1119" />
+            <SkillData grade="44" skillId="1119" stringId="1119" />
+            <SkillData grade="45" skillId="1122" stringId="1122" />
+            <SkillData grade="46" skillId="1125" stringId="1125" />
+            <SkillData grade="47" skillId="1128" stringId="1128" />
+            <SkillData grade="48" skillId="1131" stringId="1131" />
+            <SkillData grade="49" skillId="1134" stringId="1134" />
+            <SkillData grade="50" skillId="1137" stringId="1137" />
+        </ActiveSkill>
+        <ActiveSkill id="3">
+            <SkillData grade="1" skillId="1103" stringId="1103" />
+            <SkillData grade="2" skillId="1103" stringId="1103" />
+            <SkillData grade="3" skillId="1103" stringId="1103" />
+            <SkillData grade="4" skillId="1104" stringId="1104" />
+            <SkillData grade="5" skillId="1104" stringId="1104" />
+            <SkillData grade="6" skillId="1104" stringId="1104" />
+            <SkillData grade="7" skillId="1105" stringId="1105" />
+            <SkillData grade="8" skillId="1105" stringId="1105" />
+            <SkillData grade="9" skillId="1105" stringId="1105" />
+            <SkillData grade="10" skillId="1106" stringId="1106" />
+            <SkillData grade="11" skillId="1106" stringId="1106" />
+            <SkillData grade="12" skillId="1106" stringId="1106" />
+            <SkillData grade="13" skillId="1107" stringId="1107" />
+            <SkillData grade="14" skillId="1107" stringId="1107" />
+            <SkillData grade="15" skillId="1107" stringId="1107" />
+            <SkillData grade="16" skillId="1108" stringId="1108" />
+            <SkillData grade="17" skillId="1108" stringId="1108" />
+            <SkillData grade="18" skillId="1108" stringId="1108" />
+            <SkillData grade="19" skillId="1109" stringId="1109" />
+            <SkillData grade="20" skillId="1109" stringId="1109" />
+            <SkillData grade="21" skillId="1109" stringId="1109" />
+            <SkillData grade="22" skillId="1110" stringId="1110" />
+            <SkillData grade="23" skillId="1110" stringId="1110" />
+            <SkillData grade="24" skillId="1110" stringId="1110" />
+            <SkillData grade="25" skillId="1111" stringId="1111" />
+            <SkillData grade="26" skillId="1111" stringId="1111" />
+            <SkillData grade="27" skillId="1112" stringId="1112" />
+            <SkillData grade="28" skillId="1112" stringId="1112" />
+            <SkillData grade="29" skillId="1113" stringId="1113" />
+            <SkillData grade="30" skillId="1113" stringId="1113" />
+            <SkillData grade="31" skillId="1114" stringId="1114" />
+            <SkillData grade="32" skillId="1114" stringId="1114" />
+            <SkillData grade="33" skillId="1115" stringId="1115" />
+            <SkillData grade="34" skillId="1115" stringId="1115" />
+            <SkillData grade="35" skillId="1116" stringId="1116" />
+            <SkillData grade="36" skillId="1116" stringId="1116" />
+            <SkillData grade="37" skillId="1117" stringId="1117" />
+            <SkillData grade="38" skillId="1117" stringId="1117" />
+            <SkillData grade="39" skillId="1118" stringId="1118" />
+            <SkillData grade="40" skillId="1118" stringId="1118" />
+            <SkillData grade="41" skillId="1119" stringId="1119" />
+            <SkillData grade="42" skillId="1119" stringId="1119" />
+            <SkillData grade="43" skillId="1120" stringId="1120" />
+            <SkillData grade="44" skillId="1120" stringId="1120" />
+            <SkillData grade="45" skillId="1123" stringId="1123" />
+            <SkillData grade="46" skillId="1126" stringId="1126" />
+            <SkillData grade="47" skillId="1129" stringId="1129" />
+            <SkillData grade="48" skillId="1132" stringId="1132" />
+            <SkillData grade="49" skillId="1135" stringId="1135" />
+            <SkillData grade="50" skillId="1138" stringId="1138" />
+        </ActiveSkill>
+        <ActiveSkill id="4">
+            <SkillData grade="1" skillId="1110" stringId="1110" />
+            <SkillData grade="2" skillId="1110" stringId="1110" />
+            <SkillData grade="3" skillId="1110" stringId="1110" />
+            <SkillData grade="4" skillId="1110" stringId="1110" />
+            <SkillData grade="5" skillId="1110" stringId="1110" />
+            <SkillData grade="6" skillId="1110" stringId="1110" />
+            <SkillData grade="7" skillId="1110" stringId="1110" />
+            <SkillData grade="8" skillId="1110" stringId="1110" />
+            <SkillData grade="9" skillId="1110" stringId="1110" />
+            <SkillData grade="10" skillId="1110" stringId="1110" />
+            <SkillData grade="11" skillId="1110" stringId="1110" />
+            <SkillData grade="12" skillId="1110" stringId="1110" />
+            <SkillData grade="13" skillId="1110" stringId="1110" />
+            <SkillData grade="14" skillId="1110" stringId="1110" />
+            <SkillData grade="15" skillId="1110" stringId="1110" />
+            <SkillData grade="16" skillId="1110" stringId="1110" />
+            <SkillData grade="17" skillId="1110" stringId="1110" />
+            <SkillData grade="18" skillId="1110" stringId="1110" />
+            <SkillData grade="19" skillId="1110" stringId="1110" />
+            <SkillData grade="20" skillId="1110" stringId="1110" />
+            <SkillData grade="21" skillId="1110" stringId="1110" />
+            <SkillData grade="22" skillId="1110" stringId="1110" />
+            <SkillData grade="23" skillId="1110" stringId="1110" />
+            <SkillData grade="24" skillId="1110" stringId="1110" />
+            <SkillData grade="25" skillId="1110" stringId="1110" />
+            <SkillData grade="26" skillId="1110" stringId="1110" />
+            <SkillData grade="27" skillId="1110" stringId="1110" />
+            <SkillData grade="28" skillId="1110" stringId="1110" />
+            <SkillData grade="29" skillId="1110" stringId="1110" />
+            <SkillData grade="30" skillId="1110" stringId="1110" />
+            <SkillData grade="31" skillId="1110" stringId="1110" />
+            <SkillData grade="32" skillId="1110" stringId="1110" />
+            <SkillData grade="33" skillId="1110" stringId="1110" />
+            <SkillData grade="34" skillId="1110" stringId="1110" />
+            <SkillData grade="35" skillId="1110" stringId="1110" />
+            <SkillData grade="36" skillId="1110" stringId="1110" />
+            <SkillData grade="37" skillId="1110" stringId="1110" />
+            <SkillData grade="38" skillId="1110" stringId="1110" />
+            <SkillData grade="39" skillId="1110" stringId="1110" />
+            <SkillData grade="40" skillId="1110" stringId="1110" />
+            <SkillData grade="41" skillId="1110" stringId="1110" />
+            <SkillData grade="42" skillId="1110" stringId="1110" />
+            <SkillData grade="43" skillId="1110" stringId="1110" />
+            <SkillData grade="44" skillId="1110" stringId="1110" />
+            <SkillData grade="45" skillId="1110" stringId="1110" />
+            <SkillData grade="46" skillId="1110" stringId="1110" />
+            <SkillData grade="47" skillId="1110" stringId="1110" />
+            <SkillData grade="48" skillId="1110" stringId="1110" />
+            <SkillData grade="49" skillId="1110" stringId="1110" />
+            <SkillData grade="50" skillId="1110" stringId="1110" />
+        </ActiveSkill>
+        <ActiveSkill id="5">
+            <SkillData grade="1" skillId="1103" stringId="1142" />
+            <SkillData grade="2" skillId="1103" stringId="1142" />
+            <SkillData grade="3" skillId="1103" stringId="1142" />
+            <SkillData grade="4" skillId="1104" stringId="1143" />
+            <SkillData grade="5" skillId="1104" stringId="1143" />
+            <SkillData grade="6" skillId="1104" stringId="1143" />
+            <SkillData grade="7" skillId="1105" stringId="1144" />
+            <SkillData grade="8" skillId="1105" stringId="1144" />
+            <SkillData grade="9" skillId="1105" stringId="1144" />
+            <SkillData grade="10" skillId="1106" stringId="1145" />
+            <SkillData grade="11" skillId="1106" stringId="1145" />
+            <SkillData grade="12" skillId="1106" stringId="1145" />
+            <SkillData grade="13" skillId="1107" stringId="1146" />
+            <SkillData grade="14" skillId="1107" stringId="1146" />
+            <SkillData grade="15" skillId="1107" stringId="1146" />
+            <SkillData grade="16" skillId="1108" stringId="1147" />
+            <SkillData grade="17" skillId="1108" stringId="1147" />
+            <SkillData grade="18" skillId="1108" stringId="1147" />
+            <SkillData grade="19" skillId="1109" stringId="1148" />
+            <SkillData grade="20" skillId="1109" stringId="1148" />
+            <SkillData grade="21" skillId="1109" stringId="1148" />
+            <SkillData grade="22" skillId="1110" stringId="1149" />
+            <SkillData grade="23" skillId="1110" stringId="1149" />
+            <SkillData grade="24" skillId="1110" stringId="1149" />
+            <SkillData grade="25" skillId="1111" stringId="1150" />
+            <SkillData grade="26" skillId="1111" stringId="1150" />
+            <SkillData grade="27" skillId="1112" stringId="1151" />
+            <SkillData grade="28" skillId="1112" stringId="1151" />
+            <SkillData grade="29" skillId="1113" stringId="1152" />
+            <SkillData grade="30" skillId="1113" stringId="1152" />
+            <SkillData grade="31" skillId="1114" stringId="1153" />
+            <SkillData grade="32" skillId="1114" stringId="1153" />
+            <SkillData grade="33" skillId="1115" stringId="1154" />
+            <SkillData grade="34" skillId="1115" stringId="1154" />
+            <SkillData grade="35" skillId="1116" stringId="1155" />
+            <SkillData grade="36" skillId="1116" stringId="1155" />
+            <SkillData grade="37" skillId="1117" stringId="1156" />
+            <SkillData grade="38" skillId="1117" stringId="1156" />
+            <SkillData grade="39" skillId="1118" stringId="1157" />
+            <SkillData grade="40" skillId="1118" stringId="1157" />
+            <SkillData grade="41" skillId="1119" stringId="1158" />
+            <SkillData grade="42" skillId="1119" stringId="1158" />
+            <SkillData grade="43" skillId="1120" stringId="1159" />
+            <SkillData grade="44" skillId="1120" stringId="1159" />
+            <SkillData grade="45" skillId="1123" stringId="1162" />
+            <SkillData grade="46" skillId="1126" stringId="1165" />
+            <SkillData grade="47" skillId="1129" stringId="1168" />
+            <SkillData grade="48" skillId="1132" stringId="1171" />
+            <SkillData grade="49" skillId="1135" stringId="1174" />
+            <SkillData grade="50" skillId="1138" stringId="1177" />
+        </ActiveSkill>
+        <ActiveSkill id="6">
+            <SkillData grade="1" skillId="1116" stringId="1116" />
+            <SkillData grade="2" skillId="1116" stringId="1116" />
+            <SkillData grade="3" skillId="1116" stringId="1116" />
+            <SkillData grade="4" skillId="1116" stringId="1116" />
+            <SkillData grade="5" skillId="1116" stringId="1116" />
+            <SkillData grade="6" skillId="1116" stringId="1116" />
+            <SkillData grade="7" skillId="1116" stringId="1116" />
+            <SkillData grade="8" skillId="1116" stringId="1116" />
+            <SkillData grade="9" skillId="1116" stringId="1116" />
+            <SkillData grade="10" skillId="1116" stringId="1116" />
+            <SkillData grade="11" skillId="1116" stringId="1116" />
+            <SkillData grade="12" skillId="1116" stringId="1116" />
+            <SkillData grade="13" skillId="1116" stringId="1116" />
+            <SkillData grade="14" skillId="1116" stringId="1116" />
+            <SkillData grade="15" skillId="1116" stringId="1116" />
+            <SkillData grade="16" skillId="1116" stringId="1116" />
+            <SkillData grade="17" skillId="1116" stringId="1116" />
+            <SkillData grade="18" skillId="1116" stringId="1116" />
+            <SkillData grade="19" skillId="1116" stringId="1116" />
+            <SkillData grade="20" skillId="1116" stringId="1116" />
+            <SkillData grade="21" skillId="1116" stringId="1116" />
+            <SkillData grade="22" skillId="1116" stringId="1116" />
+            <SkillData grade="23" skillId="1116" stringId="1116" />
+            <SkillData grade="24" skillId="1116" stringId="1116" />
+            <SkillData grade="25" skillId="1116" stringId="1116" />
+            <SkillData grade="26" skillId="1116" stringId="1116" />
+            <SkillData grade="27" skillId="1116" stringId="1116" />
+            <SkillData grade="28" skillId="1116" stringId="1116" />
+            <SkillData grade="29" skillId="1116" stringId="1116" />
+            <SkillData grade="30" skillId="1116" stringId="1116" />
+            <SkillData grade="31" skillId="1116" stringId="1116" />
+            <SkillData grade="32" skillId="1116" stringId="1116" />
+            <SkillData grade="33" skillId="1116" stringId="1116" />
+            <SkillData grade="34" skillId="1116" stringId="1116" />
+            <SkillData grade="35" skillId="1116" stringId="1116" />
+            <SkillData grade="36" skillId="1116" stringId="1116" />
+            <SkillData grade="37" skillId="1116" stringId="1116" />
+            <SkillData grade="38" skillId="1116" stringId="1116" />
+            <SkillData grade="39" skillId="1116" stringId="1116" />
+            <SkillData grade="40" skillId="1116" stringId="1116" />
+            <SkillData grade="41" skillId="1116" stringId="1116" />
+            <SkillData grade="42" skillId="1116" stringId="1116" />
+            <SkillData grade="43" skillId="1116" stringId="1116" />
+            <SkillData grade="44" skillId="1116" stringId="1116" />
+            <SkillData grade="45" skillId="1116" stringId="1116" />
+            <SkillData grade="46" skillId="1116" stringId="1116" />
+            <SkillData grade="47" skillId="1116" stringId="1116" />
+            <SkillData grade="48" skillId="1116" stringId="1116" />
+            <SkillData grade="49" skillId="1116" stringId="1116" />
+            <SkillData grade="50" skillId="1116" stringId="1116" />
+        </ActiveSkill>
+        <ActiveSkill id="11">
+            <SkillData grade="1" skillId="1101" stringId="1201" />
+            <SkillData grade="2" skillId="1101" stringId="1201" />
+            <SkillData grade="3" skillId="1101" stringId="1201" />
+            <SkillData grade="4" skillId="1102" stringId="1202" />
+            <SkillData grade="5" skillId="1102" stringId="1202" />
+            <SkillData grade="6" skillId="1102" stringId="1202" />
+            <SkillData grade="7" skillId="1103" stringId="1203" />
+            <SkillData grade="8" skillId="1103" stringId="1203" />
+            <SkillData grade="9" skillId="1103" stringId="1203" />
+            <SkillData grade="10" skillId="1104" stringId="1204" />
+            <SkillData grade="11" skillId="1104" stringId="1204" />
+            <SkillData grade="12" skillId="1104" stringId="1204" />
+            <SkillData grade="13" skillId="1105" stringId="1205" />
+            <SkillData grade="14" skillId="1105" stringId="1205" />
+            <SkillData grade="15" skillId="1105" stringId="1205" />
+            <SkillData grade="16" skillId="1106" stringId="1206" />
+            <SkillData grade="17" skillId="1106" stringId="1206" />
+            <SkillData grade="18" skillId="1106" stringId="1206" />
+            <SkillData grade="19" skillId="1107" stringId="1207" />
+            <SkillData grade="20" skillId="1107" stringId="1207" />
+            <SkillData grade="21" skillId="1107" stringId="1207" />
+            <SkillData grade="22" skillId="1108" stringId="1208" />
+            <SkillData grade="23" skillId="1108" stringId="1208" />
+            <SkillData grade="24" skillId="1108" stringId="1208" />
+            <SkillData grade="25" skillId="1109" stringId="1209" />
+            <SkillData grade="26" skillId="1109" stringId="1209" />
+            <SkillData grade="27" skillId="1110" stringId="1210" />
+            <SkillData grade="28" skillId="1110" stringId="1210" />
+            <SkillData grade="29" skillId="1111" stringId="1211" />
+            <SkillData grade="30" skillId="1111" stringId="1211" />
+            <SkillData grade="31" skillId="1112" stringId="1212" />
+            <SkillData grade="32" skillId="1112" stringId="1212" />
+            <SkillData grade="33" skillId="1113" stringId="1213" />
+            <SkillData grade="34" skillId="1113" stringId="1213" />
+            <SkillData grade="35" skillId="1114" stringId="1214" />
+            <SkillData grade="36" skillId="1114" stringId="1214" />
+            <SkillData grade="37" skillId="1115" stringId="1215" />
+            <SkillData grade="38" skillId="1115" stringId="1215" />
+            <SkillData grade="39" skillId="1116" stringId="1216" />
+            <SkillData grade="40" skillId="1116" stringId="1216" />
+            <SkillData grade="41" skillId="1117" stringId="1217" />
+            <SkillData grade="42" skillId="1117" stringId="1217" />
+            <SkillData grade="43" skillId="1118" stringId="1218" />
+            <SkillData grade="44" skillId="1118" stringId="1218" />
+            <SkillData grade="45" skillId="1121" stringId="1221" />
+            <SkillData grade="46" skillId="1124" stringId="1224" />
+            <SkillData grade="47" skillId="1127" stringId="1227" />
+            <SkillData grade="48" skillId="1130" stringId="1230" />
+            <SkillData grade="49" skillId="1133" stringId="1233" />
+            <SkillData grade="50" skillId="1136" stringId="1236" />
+        </ActiveSkill>
+        <ActiveSkill id="12">
+            <SkillData grade="1" skillId="1102" stringId="1202" />
+            <SkillData grade="2" skillId="1102" stringId="1202" />
+            <SkillData grade="3" skillId="1102" stringId="1202" />
+            <SkillData grade="4" skillId="1103" stringId="1203" />
+            <SkillData grade="5" skillId="1103" stringId="1203" />
+            <SkillData grade="6" skillId="1103" stringId="1203" />
+            <SkillData grade="7" skillId="1104" stringId="1204" />
+            <SkillData grade="8" skillId="1104" stringId="1204" />
+            <SkillData grade="9" skillId="1104" stringId="1204" />
+            <SkillData grade="10" skillId="1105" stringId="1205" />
+            <SkillData grade="11" skillId="1105" stringId="1205" />
+            <SkillData grade="12" skillId="1105" stringId="1205" />
+            <SkillData grade="13" skillId="1106" stringId="1206" />
+            <SkillData grade="14" skillId="1106" stringId="1206" />
+            <SkillData grade="15" skillId="1106" stringId="1206" />
+            <SkillData grade="16" skillId="1107" stringId="1207" />
+            <SkillData grade="17" skillId="1107" stringId="1207" />
+            <SkillData grade="18" skillId="1107" stringId="1207" />
+            <SkillData grade="19" skillId="1108" stringId="1208" />
+            <SkillData grade="20" skillId="1108" stringId="1208" />
+            <SkillData grade="21" skillId="1108" stringId="1208" />
+            <SkillData grade="22" skillId="1109" stringId="1209" />
+            <SkillData grade="23" skillId="1109" stringId="1209" />
+            <SkillData grade="24" skillId="1109" stringId="1209" />
+            <SkillData grade="25" skillId="1110" stringId="1210" />
+            <SkillData grade="26" skillId="1110" stringId="1210" />
+            <SkillData grade="27" skillId="1111" stringId="1211" />
+            <SkillData grade="28" skillId="1111" stringId="1211" />
+            <SkillData grade="29" skillId="1112" stringId="1212" />
+            <SkillData grade="30" skillId="1112" stringId="1212" />
+            <SkillData grade="31" skillId="1113" stringId="1213" />
+            <SkillData grade="32" skillId="1113" stringId="1213" />
+            <SkillData grade="33" skillId="1114" stringId="1214" />
+            <SkillData grade="34" skillId="1114" stringId="1214" />
+            <SkillData grade="35" skillId="1115" stringId="1215" />
+            <SkillData grade="36" skillId="1115" stringId="1215" />
+            <SkillData grade="37" skillId="1116" stringId="1216" />
+            <SkillData grade="38" skillId="1116" stringId="1216" />
+            <SkillData grade="39" skillId="1117" stringId="1217" />
+            <SkillData grade="40" skillId="1117" stringId="1217" />
+            <SkillData grade="41" skillId="1118" stringId="1218" />
+            <SkillData grade="42" skillId="1118" stringId="1218" />
+            <SkillData grade="43" skillId="1119" stringId="1219" />
+            <SkillData grade="44" skillId="1119" stringId="1219" />
+            <SkillData grade="45" skillId="1122" stringId="1222" />
+            <SkillData grade="46" skillId="1125" stringId="1225" />
+            <SkillData grade="47" skillId="1128" stringId="1228" />
+            <SkillData grade="48" skillId="1131" stringId="1231" />
+            <SkillData grade="49" skillId="1134" stringId="1234" />
+            <SkillData grade="50" skillId="1137" stringId="1237" />
+        </ActiveSkill>
+        <ActiveSkill id="13">
+            <SkillData grade="1" skillId="1103" stringId="1203" />
+            <SkillData grade="2" skillId="1103" stringId="1203" />
+            <SkillData grade="3" skillId="1103" stringId="1203" />
+            <SkillData grade="4" skillId="1104" stringId="1204" />
+            <SkillData grade="5" skillId="1104" stringId="1204" />
+            <SkillData grade="6" skillId="1104" stringId="1204" />
+            <SkillData grade="7" skillId="1105" stringId="1205" />
+            <SkillData grade="8" skillId="1105" stringId="1205" />
+            <SkillData grade="9" skillId="1105" stringId="1205" />
+            <SkillData grade="10" skillId="1106" stringId="1206" />
+            <SkillData grade="11" skillId="1106" stringId="1206" />
+            <SkillData grade="12" skillId="1106" stringId="1206" />
+            <SkillData grade="13" skillId="1107" stringId="1207" />
+            <SkillData grade="14" skillId="1107" stringId="1207" />
+            <SkillData grade="15" skillId="1107" stringId="1207" />
+            <SkillData grade="16" skillId="1108" stringId="1208" />
+            <SkillData grade="17" skillId="1108" stringId="1208" />
+            <SkillData grade="18" skillId="1108" stringId="1208" />
+            <SkillData grade="19" skillId="1109" stringId="1209" />
+            <SkillData grade="20" skillId="1109" stringId="1209" />
+            <SkillData grade="21" skillId="1109" stringId="1209" />
+            <SkillData grade="22" skillId="1110" stringId="1210" />
+            <SkillData grade="23" skillId="1110" stringId="1210" />
+            <SkillData grade="24" skillId="1110" stringId="1210" />
+            <SkillData grade="25" skillId="1111" stringId="1211" />
+            <SkillData grade="26" skillId="1111" stringId="1211" />
+            <SkillData grade="27" skillId="1112" stringId="1212" />
+            <SkillData grade="28" skillId="1112" stringId="1212" />
+            <SkillData grade="29" skillId="1113" stringId="1213" />
+            <SkillData grade="30" skillId="1113" stringId="1213" />
+            <SkillData grade="31" skillId="1114" stringId="1214" />
+            <SkillData grade="32" skillId="1114" stringId="1214" />
+            <SkillData grade="33" skillId="1115" stringId="1215" />
+            <SkillData grade="34" skillId="1115" stringId="1215" />
+            <SkillData grade="35" skillId="1116" stringId="1216" />
+            <SkillData grade="36" skillId="1116" stringId="1216" />
+            <SkillData grade="37" skillId="1117" stringId="1217" />
+            <SkillData grade="38" skillId="1117" stringId="1217" />
+            <SkillData grade="39" skillId="1118" stringId="1218" />
+            <SkillData grade="40" skillId="1118" stringId="1218" />
+            <SkillData grade="41" skillId="1119" stringId="1219" />
+            <SkillData grade="42" skillId="1119" stringId="1219" />
+            <SkillData grade="43" skillId="1120" stringId="1220" />
+            <SkillData grade="44" skillId="1120" stringId="1220" />
+            <SkillData grade="45" skillId="1123" stringId="1223" />
+            <SkillData grade="46" skillId="1126" stringId="1226" />
+            <SkillData grade="47" skillId="1129" stringId="1229" />
+            <SkillData grade="48" skillId="1132" stringId="1232" />
+            <SkillData grade="49" skillId="1135" stringId="1235" />
+            <SkillData grade="50" skillId="1138" stringId="1238" />
+        </ActiveSkill>
+        <ActiveSkill id="21">
+            <SkillData grade="1" skillId="1101" stringId="1301" />
+            <SkillData grade="2" skillId="1101" stringId="1301" />
+            <SkillData grade="3" skillId="1101" stringId="1301" />
+            <SkillData grade="4" skillId="1102" stringId="1302" />
+            <SkillData grade="5" skillId="1102" stringId="1302" />
+            <SkillData grade="6" skillId="1102" stringId="1302" />
+            <SkillData grade="7" skillId="1103" stringId="1303" />
+            <SkillData grade="8" skillId="1103" stringId="1303" />
+            <SkillData grade="9" skillId="1103" stringId="1303" />
+            <SkillData grade="10" skillId="1104" stringId="1304" />
+            <SkillData grade="11" skillId="1104" stringId="1304" />
+            <SkillData grade="12" skillId="1104" stringId="1304" />
+            <SkillData grade="13" skillId="1105" stringId="1305" />
+            <SkillData grade="14" skillId="1105" stringId="1305" />
+            <SkillData grade="15" skillId="1105" stringId="1305" />
+            <SkillData grade="16" skillId="1106" stringId="1306" />
+            <SkillData grade="17" skillId="1106" stringId="1306" />
+            <SkillData grade="18" skillId="1106" stringId="1306" />
+            <SkillData grade="19" skillId="1107" stringId="1307" />
+            <SkillData grade="20" skillId="1107" stringId="1307" />
+            <SkillData grade="21" skillId="1107" stringId="1307" />
+            <SkillData grade="22" skillId="1108" stringId="1308" />
+            <SkillData grade="23" skillId="1108" stringId="1308" />
+            <SkillData grade="24" skillId="1108" stringId="1308" />
+            <SkillData grade="25" skillId="1109" stringId="1309" />
+            <SkillData grade="26" skillId="1109" stringId="1309" />
+            <SkillData grade="27" skillId="1110" stringId="1310" />
+            <SkillData grade="28" skillId="1110" stringId="1310" />
+            <SkillData grade="29" skillId="1111" stringId="1311" />
+            <SkillData grade="30" skillId="1111" stringId="1311" />
+            <SkillData grade="31" skillId="1112" stringId="1312" />
+            <SkillData grade="32" skillId="1112" stringId="1312" />
+            <SkillData grade="33" skillId="1113" stringId="1313" />
+            <SkillData grade="34" skillId="1113" stringId="1313" />
+            <SkillData grade="35" skillId="1114" stringId="1314" />
+            <SkillData grade="36" skillId="1114" stringId="1314" />
+            <SkillData grade="37" skillId="1115" stringId="1315" />
+            <SkillData grade="38" skillId="1115" stringId="1315" />
+            <SkillData grade="39" skillId="1116" stringId="1316" />
+            <SkillData grade="40" skillId="1116" stringId="1316" />
+            <SkillData grade="41" skillId="1117" stringId="1317" />
+            <SkillData grade="42" skillId="1117" stringId="1317" />
+            <SkillData grade="43" skillId="1118" stringId="1318" />
+            <SkillData grade="44" skillId="1118" stringId="1318" />
+            <SkillData grade="45" skillId="1121" stringId="1321" />
+            <SkillData grade="46" skillId="1124" stringId="1324" />
+            <SkillData grade="47" skillId="1127" stringId="1327" />
+            <SkillData grade="48" skillId="1130" stringId="1330" />
+            <SkillData grade="49" skillId="1133" stringId="1333" />
+            <SkillData grade="50" skillId="1136" stringId="1336" />
+        </ActiveSkill>
+        <ActiveSkill id="22">
+            <SkillData grade="1" skillId="1102" stringId="1302" />
+            <SkillData grade="2" skillId="1102" stringId="1302" />
+            <SkillData grade="3" skillId="1102" stringId="1302" />
+            <SkillData grade="4" skillId="1103" stringId="1303" />
+            <SkillData grade="5" skillId="1103" stringId="1303" />
+            <SkillData grade="6" skillId="1103" stringId="1303" />
+            <SkillData grade="7" skillId="1104" stringId="1304" />
+            <SkillData grade="8" skillId="1104" stringId="1304" />
+            <SkillData grade="9" skillId="1104" stringId="1304" />
+            <SkillData grade="10" skillId="1105" stringId="1305" />
+            <SkillData grade="11" skillId="1105" stringId="1305" />
+            <SkillData grade="12" skillId="1105" stringId="1305" />
+            <SkillData grade="13" skillId="1106" stringId="1306" />
+            <SkillData grade="14" skillId="1106" stringId="1306" />
+            <SkillData grade="15" skillId="1106" stringId="1306" />
+            <SkillData grade="16" skillId="1107" stringId="1307" />
+            <SkillData grade="17" skillId="1107" stringId="1307" />
+            <SkillData grade="18" skillId="1107" stringId="1307" />
+            <SkillData grade="19" skillId="1108" stringId="1308" />
+            <SkillData grade="20" skillId="1108" stringId="1308" />
+            <SkillData grade="21" skillId="1108" stringId="1308" />
+            <SkillData grade="22" skillId="1109" stringId="1309" />
+            <SkillData grade="23" skillId="1109" stringId="1309" />
+            <SkillData grade="24" skillId="1109" stringId="1309" />
+            <SkillData grade="25" skillId="1110" stringId="1310" />
+            <SkillData grade="26" skillId="1110" stringId="1310" />
+            <SkillData grade="27" skillId="1111" stringId="1311" />
+            <SkillData grade="28" skillId="1111" stringId="1311" />
+            <SkillData grade="29" skillId="1112" stringId="1312" />
+            <SkillData grade="30" skillId="1112" stringId="1312" />
+            <SkillData grade="31" skillId="1113" stringId="1313" />
+            <SkillData grade="32" skillId="1113" stringId="1313" />
+            <SkillData grade="33" skillId="1114" stringId="1314" />
+            <SkillData grade="34" skillId="1114" stringId="1314" />
+            <SkillData grade="35" skillId="1115" stringId="1315" />
+            <SkillData grade="36" skillId="1115" stringId="1315" />
+            <SkillData grade="37" skillId="1116" stringId="1316" />
+            <SkillData grade="38" skillId="1116" stringId="1316" />
+            <SkillData grade="39" skillId="1117" stringId="1317" />
+            <SkillData grade="40" skillId="1117" stringId="1317" />
+            <SkillData grade="41" skillId="1118" stringId="1318" />
+            <SkillData grade="42" skillId="1118" stringId="1318" />
+            <SkillData grade="43" skillId="1119" stringId="1319" />
+            <SkillData grade="44" skillId="1119" stringId="1319" />
+            <SkillData grade="45" skillId="1122" stringId="1322" />
+            <SkillData grade="46" skillId="1125" stringId="1325" />
+            <SkillData grade="47" skillId="1128" stringId="1328" />
+            <SkillData grade="48" skillId="1131" stringId="1331" />
+            <SkillData grade="49" skillId="1134" stringId="1334" />
+            <SkillData grade="50" skillId="1137" stringId="1337" />
+        </ActiveSkill>
+        <ActiveSkill id="23">
+            <SkillData grade="1" skillId="1103" stringId="1303" />
+            <SkillData grade="2" skillId="1103" stringId="1303" />
+            <SkillData grade="3" skillId="1103" stringId="1303" />
+            <SkillData grade="4" skillId="1104" stringId="1304" />
+            <SkillData grade="5" skillId="1104" stringId="1304" />
+            <SkillData grade="6" skillId="1104" stringId="1304" />
+            <SkillData grade="7" skillId="1105" stringId="1305" />
+            <SkillData grade="8" skillId="1105" stringId="1305" />
+            <SkillData grade="9" skillId="1105" stringId="1305" />
+            <SkillData grade="10" skillId="1106" stringId="1306" />
+            <SkillData grade="11" skillId="1106" stringId="1306" />
+            <SkillData grade="12" skillId="1106" stringId="1306" />
+            <SkillData grade="13" skillId="1107" stringId="1307" />
+            <SkillData grade="14" skillId="1107" stringId="1307" />
+            <SkillData grade="15" skillId="1107" stringId="1307" />
+            <SkillData grade="16" skillId="1108" stringId="1308" />
+            <SkillData grade="17" skillId="1108" stringId="1308" />
+            <SkillData grade="18" skillId="1108" stringId="1308" />
+            <SkillData grade="19" skillId="1109" stringId="1309" />
+            <SkillData grade="20" skillId="1109" stringId="1309" />
+            <SkillData grade="21" skillId="1109" stringId="1309" />
+            <SkillData grade="22" skillId="1110" stringId="1310" />
+            <SkillData grade="23" skillId="1110" stringId="1310" />
+            <SkillData grade="24" skillId="1110" stringId="1310" />
+            <SkillData grade="25" skillId="1111" stringId="1311" />
+            <SkillData grade="26" skillId="1111" stringId="1311" />
+            <SkillData grade="27" skillId="1112" stringId="1312" />
+            <SkillData grade="28" skillId="1112" stringId="1312" />
+            <SkillData grade="29" skillId="1113" stringId="1313" />
+            <SkillData grade="30" skillId="1113" stringId="1313" />
+            <SkillData grade="31" skillId="1114" stringId="1314" />
+            <SkillData grade="32" skillId="1114" stringId="1314" />
+            <SkillData grade="33" skillId="1115" stringId="1315" />
+            <SkillData grade="34" skillId="1115" stringId="1315" />
+            <SkillData grade="35" skillId="1116" stringId="1316" />
+            <SkillData grade="36" skillId="1116" stringId="1316" />
+            <SkillData grade="37" skillId="1117" stringId="1317" />
+            <SkillData grade="38" skillId="1117" stringId="1317" />
+            <SkillData grade="39" skillId="1118" stringId="1318" />
+            <SkillData grade="40" skillId="1118" stringId="1318" />
+            <SkillData grade="41" skillId="1119" stringId="1319" />
+            <SkillData grade="42" skillId="1119" stringId="1319" />
+            <SkillData grade="43" skillId="1120" stringId="1320" />
+            <SkillData grade="44" skillId="1120" stringId="1320" />
+            <SkillData grade="45" skillId="1123" stringId="1323" />
+            <SkillData grade="46" skillId="1126" stringId="1326" />
+            <SkillData grade="47" skillId="1129" stringId="1329" />
+            <SkillData grade="48" skillId="1132" stringId="1332" />
+            <SkillData grade="49" skillId="1135" stringId="1335" />
+            <SkillData grade="50" skillId="1138" stringId="1338" />
+        </ActiveSkill>
+    </ActiveSkillData>
+    <ConditionalSkillData>
+        <ConditionalSkill id="2" type="1" iconName="Icon_Skills.guildskill2_HPup_1_Tex" stringId="5001" />
+        <ConditionalSkill id="3" type="1" iconName="Icon_Skills.guildskill2_HPup_1_Tex" stringId="5002" />
+        <ConditionalSkill id="4" type="1" iconName="Icon_Skills.guildskill2_HPup_1_Tex" stringId="5003" />
+        <ConditionalSkill id="5" type="2" iconName="Icon_Skills.guildskill2_MPup_1_Tex" stringId="5004" />
+        <ConditionalSkill id="6" type="2" iconName="Icon_Skills.guildskill2_MPup_1_Tex" stringId="5005" />
+        <ConditionalSkill id="7" type="2" iconName="Icon_Skills.guildskill2_MPup_1_Tex" stringId="5006" />
+        <ConditionalSkill id="8" type="1" iconName="Icon_Skills.EmergencyShield_Tex" stringId="5007" />
+        <ConditionalSkill id="9" type="1" iconName="Icon_Skills.EmergencyShield_Tex" stringId="5008" />
+        <ConditionalSkill id="10" type="1" iconName="Icon_Skills.EmergencyShield_Tex" stringId="5009" />
+        <ConditionalSkill id="11" type="8" iconName="Icon_Skills.Heart_buff_Tex" stringId="5010" />
+        <ConditionalSkill id="12" type="8" iconName="Icon_Skills.Heart_buff_Tex" stringId="5011" />
+        <ConditionalSkill id="13" type="8" iconName="Icon_Skills.Heart_buff_Tex" stringId="5012" />
+        <ConditionalSkill id="14" type="4" iconName="Icon_Items.F2P_XPBooster_Tex" stringId="5013" />
+        <ConditionalSkill id="15" type="4" iconName="Icon_Items.F2P_XPBooster_Tex" stringId="5014" />
+        <ConditionalSkill id="16" type="4" iconName="Icon_Items.F2P_XPBooster_Tex" stringId="5015" />
+        <ConditionalSkill id="17" type="4" iconName="Icon_Items.Icon_spexp_Tex" stringId="5016" />
+        <ConditionalSkill id="18" type="4" iconName="Icon_Items.Icon_spexp_Tex" stringId="5017" />
+        <ConditionalSkill id="19" type="4" iconName="Icon_Items.Icon_spexp_Tex" stringId="5018" />
+        <ConditionalSkill id="20" type="4" iconName="Icon_Items.Icon_exp_Tex" stringId="5019" />
+        <ConditionalSkill id="21" type="4" iconName="Icon_Items.Icon_exp_Tex" stringId="5020" />
+        <ConditionalSkill id="22" type="4" iconName="Icon_Items.Icon_exp_Tex" stringId="5021" />
+        <ConditionalSkill id="23" type="11" iconName="Icon_Skills.produce_icon_01_Tex" stringId="5022" />
+        <ConditionalSkill id="24" type="11" iconName="Icon_Skills.produce_icon_01_Tex" stringId="5023" />
+        <ConditionalSkill id="25" type="11" iconName="Icon_Skills.produce_icon_01_Tex" stringId="5024" />
+        <ConditionalSkill id="26" type="12" iconName="Icon_Skills.PartnerSkill_Fishing_Tex" stringId="5025" />
+        <ConditionalSkill id="27" type="12" iconName="Icon_Skills.PartnerSkill_Fishing_Tex" stringId="5026" />
+        <ConditionalSkill id="28" type="12" iconName="Icon_Skills.PartnerSkill_Fishing_Tex" stringId="5027" />
+        <ConditionalSkill id="29" type="10" iconName="Icon_Status.aura_of_collect_Tex" stringId="5028" />
+        <ConditionalSkill id="30" type="10" iconName="Icon_Status.aura_of_collect_Tex" stringId="5029" />
+        <ConditionalSkill id="31" type="10" iconName="Icon_Status.aura_of_collect_Tex" stringId="5030" />
+        <ConditionalSkill id="32" type="13" iconName="Icon_Skills.PartnerSkill_AutoCollection_Tex" stringId="5031" />
+        <ConditionalSkill id="33" type="13" iconName="Icon_Skills.PartnerSkill_AutoCollection_Tex" stringId="5032" />
+        <ConditionalSkill id="34" type="13" iconName="Icon_Skills.PartnerSkill_AutoCollection_Tex" stringId="5033" />
+    </ConditionalSkillData>
+</ServantSkill>

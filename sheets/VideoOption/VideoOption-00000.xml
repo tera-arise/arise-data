@@ -1,0 +1,109 @@
+<VideoOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/VideoOption VideoOption.xsd" xmlns="https://vezel.dev/novadrop/dc/VideoOption">
+    <BgDetail>
+        <Set idx="0" radiusRatio="0" />
+        <Set idx="1" radiusRatio="0.4" />
+        <Set idx="2" radiusRatio="0.7" />
+        <Set idx="3" radiusRatio="1" />
+        <Set idx="4" radiusRatio="1.05" />
+    </BgDetail>
+    <BgDistance>
+        <Set idx="0" distRatio="0.5" />
+        <Set idx="1" distRatio="0.6" />
+        <Set idx="2" distRatio="0.7" />
+        <Set idx="3" distRatio="0.8" />
+        <Set idx="4" distRatio="0.9" />
+        <Set idx="5" distRatio="1" />
+        <Set idx="6" distRatio="1.05" />
+    </BgDistance>
+    <BgFxDetail>
+        <Set idx="0" lodBias="2" />
+        <Set idx="1" lodBias="1" />
+        <Set idx="2" lodBias="0" />
+    </BgFxDetail>
+    <BgFxDist>
+        <Set idx="0" distRatio="0.4" />
+        <Set idx="1" distRatio="0.55" />
+        <Set idx="2" distRatio="0.7" />
+        <Set idx="3" distRatio="0.85" />
+        <Set idx="4" distRatio="1" />
+    </BgFxDist>
+    <ChDetail>
+        <CharacterLOD d1="450" d2="1800" />
+        <Set idx="0" lodBias="2" lodDistRatio="0.4" />
+        <Set idx="1" lodBias="1" lodDistRatio="0.4" />
+        <Set idx="2" lodBias="1" lodDistRatio="0.6" />
+        <Set idx="3" lodBias="0" lodDistRatio="0.8" />
+        <Set idx="4" lodBias="0" lodDistRatio="1" />
+    </ChDetail>
+    <ChDistance>
+        <Set idx="0" cullDist="1000" />
+        <Set idx="1" cullDist="1200" />
+        <Set idx="2" cullDist="1400" />
+        <Set idx="3" cullDist="1600" />
+        <Set idx="4" cullDist="1800" />
+        <Set idx="5" cullDist="2000" />
+        <Set idx="6" cullDist="2500" />
+    </ChDistance>
+    <ChNumLimit>
+        <Set idx="0" numLimit="200" />
+        <Set idx="1" numLimit="50" />
+        <Set idx="2" numLimit="30" />
+        <Set idx="3" numLimit="20" />
+        <Set idx="4" numLimit="10" />
+    </ChNumLimit>
+    <ChShadow>
+        <CharacterShadow d1="300" d2="800" />
+        <Set idx="0" fakeShInD1="false" fakeShInD2="false" realSh="false" />
+        <Set idx="1" fakeShInD1="true" fakeShInD2="false" realSh="false" />
+        <Set idx="2" fakeShInD1="true" fakeShInD2="true" realSh="false" />
+        <Set idx="3" fakeShInD1="true" fakeShInD2="true" realSh="true" />
+        <Set idx="4" fakeShInD1="true" fakeShInD2="true" realSh="true" />
+    </ChShadow>
+    <FxMasterOpacity>
+        <PartyCompensation>
+            <Party opacity="1" person="1" />
+            <Party opacity="0.9" person="2" />
+            <Party opacity="0.8" person="3" />
+            <Party opacity="0.7" person="4" />
+            <Party opacity="0.5" person="5" />
+        </PartyCompensation>
+        <UserControl opacityMax="1" opacityMin="0.3" />
+    </FxMasterOpacity>
+    <GameFxDist>
+        <Set idx="0" distRatio="0.4" />
+        <Set idx="1" distRatio="0.55" />
+        <Set idx="2" distRatio="0.7" />
+        <Set idx="3" distRatio="0.85" />
+        <Set idx="4" distRatio="1" />
+    </GameFxDist>
+    <OverallQuality>
+        <Set clientLOD="0" bgFxDetail="0" idx="0" bEnvCaseEffect="false" bgDetail="0" bgDistance="0" bgFxDist="0" bLowEndLighting="true" chDetail="0" chDistance="0" chNumLimit="3" chShadow="0" clientLODInDungeon="0" gameFxDist="0" postprocess="0" realtimeOptimize="0" skyDetail="0" textureResolution="0" />
+        <Set clientLOD="0" bgFxDetail="0" idx="1" bEnvCaseEffect="false" bgDetail="0" bgDistance="1" bgFxDist="0" bLowEndLighting="false" chDetail="1" chDistance="2" chNumLimit="3" chShadow="0" clientLODInDungeon="0" gameFxDist="0" postprocess="0" realtimeOptimize="0" skyDetail="0" textureResolution="0" />
+        <Set clientLOD="0" bgFxDetail="1" idx="2" bEnvCaseEffect="false" bgDetail="0" bgDistance="2" bgFxDist="1" bLowEndLighting="false" chDetail="2" chDistance="3" chNumLimit="2" chShadow="1" clientLODInDungeon="0" gameFxDist="1" postprocess="1" realtimeOptimize="1" skyDetail="1" textureResolution="1" />
+        <Set clientLOD="1" bgFxDetail="1" idx="3" bEnvCaseEffect="false" bgDetail="1" bgDistance="3" bgFxDist="2" bLowEndLighting="false" chDetail="3" chDistance="4" chNumLimit="1" chShadow="2" clientLODInDungeon="1" gameFxDist="2" postprocess="1" realtimeOptimize="1" skyDetail="1" textureResolution="1" />
+        <Set clientLOD="1" bgFxDetail="2" idx="4" bEnvCaseEffect="true" bgDetail="2" bgDistance="4" bgFxDist="3" bLowEndLighting="false" chDetail="3" chDistance="4" chNumLimit="0" chShadow="3" clientLODInDungeon="1" gameFxDist="3" postprocess="1" realtimeOptimize="1" skyDetail="2" textureResolution="2" />
+        <Set clientLOD="2" bgFxDetail="2" idx="5" bEnvCaseEffect="true" bgDetail="3" bgDistance="5" bgFxDist="4" bLowEndLighting="false" chDetail="4" chDistance="5" chNumLimit="0" chShadow="4" clientLODInDungeon="2" gameFxDist="4" postprocess="2" realtimeOptimize="2" skyDetail="2" textureResolution="2" />
+        <Set clientLOD="2" bgFxDetail="2" idx="6" bEnvCaseEffect="true" bgDetail="4" bgDistance="6" bgFxDist="4" bLowEndLighting="false" chDetail="4" chDistance="6" chNumLimit="0" chShadow="4" clientLODInDungeon="2" gameFxDist="4" postprocess="2" realtimeOptimize="3" skyDetail="2" textureResolution="2" />
+    </OverallQuality>
+    <Postprocess>
+        <Set idx="0" bShowPostprocess="false" bUseFXAA="false" />
+        <Set idx="1" bShowPostprocess="true" bUseFXAA="false" />
+        <Set idx="2" bShowPostprocess="true" bUseFXAA="true" />
+    </Postprocess>
+    <RealtimeOptimize>
+        <Set idx="0" bUseFrameRateOptimize="true" bUseWeaponEnchantOptimize="true" nEffectCountLimitNum="10" nNPCCountLimitNum="20" nShadowLimitCharNum="20" nUserSpawnLimitNum="80" />
+        <Set idx="1" bUseFrameRateOptimize="true" bUseWeaponEnchantOptimize="true" nEffectCountLimitNum="20" nNPCCountLimitNum="30" nShadowLimitCharNum="30" nUserSpawnLimitNum="200" />
+        <Set idx="2" bUseFrameRateOptimize="true" bUseWeaponEnchantOptimize="false" nEffectCountLimitNum="30" nNPCCountLimitNum="50" nShadowLimitCharNum="50" nUserSpawnLimitNum="350" />
+        <Set idx="3" bUseFrameRateOptimize="true" bUseWeaponEnchantOptimize="false" nEffectCountLimitNum="50" nNPCCountLimitNum="100" nShadowLimitCharNum="100" nUserSpawnLimitNum="500" />
+    </RealtimeOptimize>
+    <SkyDetail>
+        <Set idx="0" bDrawCloud="false" bDrawSkyMesh="false" />
+        <Set idx="1" bDrawCloud="false" bDrawSkyMesh="true" />
+        <Set idx="2" bDrawCloud="true" bDrawSkyMesh="true" />
+    </SkyDetail>
+    <TextureResolution>
+        <Set idx="0" lodBias="2" />
+        <Set idx="1" lodBias="1" />
+        <Set idx="2" lodBias="0" />
+    </TextureResolution>
+</VideoOption>

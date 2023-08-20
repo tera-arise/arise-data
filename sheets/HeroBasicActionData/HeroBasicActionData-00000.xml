@@ -1,0 +1,1579 @@
+<HeroBasicActionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/HeroBasicActionData HeroBasicActionData.xsd" isNpc="0" xmlns="https://vezel.dev/novadrop/dc/HeroBasicActionData">
+    <BasicActions id="20100" name="브라가">
+        <AnimMotionList>
+            <AnimMotion id="1" animSet="Baraka_M_ANI.Anim.Baraka_M_Share_Anim" animName="enchant" />
+            <AnimMotion id="2" animSet="Baraka_M_ANI.Anim.Baraka_M_Share_Anim" animName="campItemUse" />
+            <AnimMotion id="3" animSet="Baraka_M_ANI.Anim.Baraka_M_Share_Anim" animName="herb" />
+            <AnimMotion id="4" animSet="Baraka_M_ANI.Anim.Baraka_M_Share_Anim" animName="Throw_Q" />
+            <AnimMotion id="5" animSet="Baraka_M_ANI.Anim.Baraka_M_Share_Anim" animName="PvpAttackshotStand" />
+            <AnimMotion id="6" animSet="Baraka_M_ANI.Anim.Baraka_M_Share_Anim" animName="Craft_energy" />
+            <AnimMotion id="7" animSet="Baraka_M_ANI.Anim.Baraka_M_Share_Anim" animName="PvpBuffShotStand" />
+            <AnimMotion id="8" animSet="Baraka_M_ANI.Anim.Baraka_M_Share_Anim" animName="PvpCastingStand" />
+            <AnimMotion id="9" animSet="Baraka_M_ANI.Anim.Baraka_M_Class02_Anim" animName="bReactionStart3" />
+            <AnimMotion id="10" animSet="Baraka_M_ANI.Anim.Baraka_M_Share_Anim" animName="summonPet" />
+            <AnimMotion id="11" animSet="Baraka_M_ANI.Anim.Baraka_M_Share_Anim" animName="recall" />
+            <AnimMotion id="12" animSet="Baraka_M_ANI.Anim.Baraka_M_Share_Anim_Level3S" animName="greet" />
+            <AnimMotion id="13" animSet="Baraka_M_ANI.Anim.Baraka_M_Share_Anim" animName="PvpAttackshotMove" />
+        </AnimMotionList>
+        <Death animSet="Baraka_M_ANI.Anim.Baraka_M_Class02_Anim" />
+        <DeathWait>
+            <HitCylinder>
+                <Cylinder radius="20" locAngle="0" locDistance="0" locZ="0" height="10" />
+            </HitCylinder>
+        </DeathWait>
+        <ModeList>
+            <Mode id="0" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="1.078572" cameraHeightRateNear="0.85" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="50" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+            <Mode id="20" blockMove="false" blockRotate="false" cameraHeightRate="0.6" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="false" cameraOffsetMaxMinSpeed="50" cameraOffsetMaxOffset="30" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="30" cameraOffsetMinOffset="0" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="2000" cameraPitchMin="-5000" cameraZoomMax="500" cameraZoomMin="100" cameraZoomSpeed="1000" crosshair="NORMAL" decalDirection="0" decalDistance="300" decalEffect="15" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="bRun2" modeWaitAnim="AtkWait2" modeWalkAnim="bRun2" />
+            <Mode id="30" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.8" cameraHeightRateNear="1.5" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="1" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7.000001" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="80" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+        </ModeList>
+        <PickSkillList>
+            <PickSkill type="1" anim="Herb" />
+            <PickSkill type="2" anim="mine" />
+            <PickSkill type="3" anim="bug" />
+            <PickSkill type="4" anim="charge" />
+            <PickSkill type="10" anim="Herb" />
+            <PickSkill type="11" anim="Herb" />
+            <PickSkill type="12" anim="mine" />
+            <PickSkill type="13" anim="bug" />
+            <PickSkill type="14" anim="charge" />
+        </PickSkillList>
+        <ReactionMotionList>
+            <ReactionMotion id="1" reaction="1110201" />
+            <ReactionMotion id="2" reaction="1110202" />
+            <ReactionMotion id="3" reaction="1110202" />
+            <ReactionMotion id="4" reaction="1110203" />
+            <ReactionMotion id="5" reaction="1110204" />
+            <ReactionMotion id="7" reaction="1110206" />
+            <ReactionMotion id="15" reaction="1110251" />
+            <ReactionMotion id="16" reaction="1110252" />
+            <ReactionMotion id="14" reaction="1110253" />
+            <ReactionMotion id="8" reaction="1110208" />
+            <ReactionMotion id="9" reaction="1110260" />
+            <ReactionMotion id="13" reaction="1110254" />
+        </ReactionMotionList>
+        <Run>
+            <HitCylinder>
+                <Cylinder />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder />
+            </MoveCylinder>
+        </Run>
+        <SocialAction socialMotionIdWhenAngerEnd="0" />
+        <SocialMotionList />
+        <Wait>
+            <HitCylinder>
+                <Cylinder radius="13" locAngle="0" locDistance="0" locZ="0" height="56" />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder radius="13" locAngle="0" locDistance="0" locZ="0" height="56" />
+            </MoveCylinder>
+        </Wait>
+    </BasicActions>
+    <BasicActions id="20200" name="길버트">
+        <AnimMotionList>
+            <AnimMotion id="1" animSet="Human_M_ANI.Anim.Human_M_Share_Anim" animName="enchant" />
+            <AnimMotion id="2" animSet="Human_M_ANI.Anim.Human_M_Share_Anim" animName="campItemUse" />
+            <AnimMotion id="3" animSet="Human_M_ANI.Anim.Human_M_Share_Anim" animName="herb" />
+            <AnimMotion id="4" animSet="Human_M_ANI.Anim.Human_M_Share_Anim" animName="Throw_Q" />
+            <AnimMotion id="5" animSet="Human_M_ANI.Anim.Human_M_Share_Anim" animName="PvpAttackshotStand" />
+            <AnimMotion id="6" animSet="Human_M_ANI.Anim.Human_M_Share_Anim" animName="Craft_energy" />
+            <AnimMotion id="7" animSet="Human_M_ANI.Anim.Human_M_Share_Anim" animName="PvpBuffShotStand" />
+            <AnimMotion id="8" animSet="Human_M_ANI.Anim.Human_M_Share_Anim" animName="PvpCastingStand" />
+            <AnimMotion id="9" animSet="Human_M_ANI.Anim.Human_M_Class02_Anim" animName="bReactionStart3" />
+            <AnimMotion id="10" animSet="Human_M_ANI.Anim.Human_M_Share_Anim" animName="summonPet" />
+            <AnimMotion id="11" animSet="Human_M_ANI.Anim.Human_M_Share_Anim" animName="recall" />
+            <AnimMotion id="12" animSet="Human_M_ANI.Anim.Human_M_Share_Anim_Level3S" animName="greet" />
+            <AnimMotion id="13" animSet="Human_M_ANI.Anim.Human_M_Share_Anim" animName="PvpAttackshotMove" />
+        </AnimMotionList>
+        <Death animSet="Human_M_ANI.Anim.Human_M_Class02_Anim" />
+        <DeathWait>
+            <HitCylinder>
+                <Cylinder radius="20" locAngle="0" locDistance="0" locZ="0" height="10" />
+            </HitCylinder>
+        </DeathWait>
+        <ModeList>
+            <Mode id="0" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="1.6" cameraHeightRateNear="0.9" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="50" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+            <Mode id="20" blockMove="false" blockRotate="false" cameraHeightRate="0.6" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="false" cameraOffsetMaxMinSpeed="50" cameraOffsetMaxOffset="30" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="30" cameraOffsetMinOffset="0" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="2000" cameraPitchMin="-5000" cameraZoomMax="500" cameraZoomMin="100" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" decalDirection="0" decalDistance="300" decalEffect="15" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="bRun2" modeWaitAnim="AtkWait2" modeWalkAnim="bRun2" />
+            <Mode id="30" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.8" cameraHeightRateNear="1.5" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="1" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7.000001" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="80" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+        </ModeList>
+        <PickSkillList>
+            <PickSkill type="1" anim="Herb" />
+            <PickSkill type="2" anim="mine" />
+            <PickSkill type="3" anim="bug" />
+            <PickSkill type="4" anim="charge" />
+            <PickSkill type="10" anim="Herb" />
+            <PickSkill type="11" anim="Herb" />
+            <PickSkill type="12" anim="mine" />
+            <PickSkill type="13" anim="bug" />
+            <PickSkill type="14" anim="charge" />
+        </PickSkillList>
+        <ReactionMotionList>
+            <ReactionMotion id="1" reaction="1010201" />
+            <ReactionMotion id="2" reaction="1010202" />
+            <ReactionMotion id="3" reaction="1010202" />
+            <ReactionMotion id="4" reaction="1010203" />
+            <ReactionMotion id="5" reaction="1010204" />
+            <ReactionMotion id="7" reaction="1010206" />
+            <ReactionMotion id="15" reaction="1010251" />
+            <ReactionMotion id="16" reaction="1010252" />
+            <ReactionMotion id="14" reaction="1010253" />
+            <ReactionMotion id="8" reaction="1010208" />
+            <ReactionMotion id="9" reaction="1010260" />
+            <ReactionMotion id="13" reaction="1010254" />
+        </ReactionMotionList>
+        <Run>
+            <HitCylinder>
+                <Cylinder />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder />
+            </MoveCylinder>
+        </Run>
+        <SocialAction socialMotionIdWhenAngerEnd="0" />
+        <SocialMotionList />
+        <Wait>
+            <HitCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="45" />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="45" />
+            </MoveCylinder>
+        </Wait>
+    </BasicActions>
+    <BasicActions id="20300" name="로도스">
+        <AnimMotionList>
+            <AnimMotion id="1" animSet="Human_M_ANI.Anim.Human_M_Share_Anim" animName="enchant" />
+            <AnimMotion id="2" animSet="Human_M_ANI.Anim.Human_M_Share_Anim" animName="campItemUse" />
+            <AnimMotion id="3" animSet="Human_M_ANI.Anim.Human_M_Share_Anim" animName="herb" />
+            <AnimMotion id="4" animSet="Human_M_ANI.Anim.Human_M_Share_Anim" animName="Throw_Q" />
+            <AnimMotion id="5" animSet="Human_M_ANI.Anim.Human_M_Share_Anim" animName="PvpAttackshotStand" />
+            <AnimMotion id="6" animSet="Human_M_ANI.Anim.Human_M_Share_Anim" animName="Craft_energy" />
+            <AnimMotion id="7" animSet="Human_M_ANI.Anim.Human_M_Share_Anim" animName="PvpBuffShotStand" />
+            <AnimMotion id="8" animSet="Human_M_ANI.Anim.Human_M_Share_Anim" animName="PvpCastingStand" />
+            <AnimMotion id="9" animSet="Human_M_ANI.Anim.Human_M_Class11_Anim" animName="bReactionStart3" />
+            <AnimMotion id="10" animSet="Human_M_ANI.Anim.Human_M_Share_Anim" animName="summonPet" />
+            <AnimMotion id="11" animSet="Human_M_ANI.Anim.Human_M_Share_Anim" animName="recall" />
+            <AnimMotion id="12" animSet="Human_M_ANI.Anim.Human_M_Share_Anim_Level3S" animName="greet" />
+            <AnimMotion id="13" animSet="Human_M_ANI.Anim.Human_M_Share_Anim" animName="PvpAttackshotMove" />
+        </AnimMotionList>
+        <AnimMotionList />
+        <Death animSet="Human_M_ANI.Anim.Human_M_Class11_Anim" />
+        <DeathWait>
+            <HitCylinder>
+                <Cylinder radius="20" locAngle="0" locDistance="0" locZ="0" height="10" />
+            </HitCylinder>
+        </DeathWait>
+        <ModeList>
+            <Mode id="0" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="1.87619" cameraHeightRateNear="0.85" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="50" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+            <Mode id="20" blockMove="false" blockRotate="false" cameraHeightRate="0.6" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="false" cameraOffsetMaxMinSpeed="50" cameraOffsetMaxOffset="30" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="30" cameraOffsetMinOffset="0" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="2000" cameraPitchMin="-5000" cameraZoomMax="500" cameraZoomMin="100" cameraZoomSpeed="1000" crosshair="NORMAL" decalDirection="0" decalDistance="300" decalEffect="15" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="bRun2" modeWaitAnim="AtkWait2" modeWalkAnim="bRun2" />
+            <Mode id="30" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.8" cameraHeightRateNear="1.5" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="1" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7.000001" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="80" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+        </ModeList>
+        <PickSkillList>
+            <PickSkill type="1" anim="Herb" />
+            <PickSkill type="2" anim="mine" />
+            <PickSkill type="3" anim="bug" />
+            <PickSkill type="4" anim="charge" />
+            <PickSkill type="10" anim="Herb" />
+            <PickSkill type="11" anim="Herb" />
+            <PickSkill type="12" anim="mine" />
+            <PickSkill type="13" anim="bug" />
+            <PickSkill type="14" anim="charge" />
+        </PickSkillList>
+        <ReactionMotionList>
+            <ReactionMotion id="1" reaction="1011101" />
+            <ReactionMotion id="2" reaction="1011102" />
+            <ReactionMotion id="3" reaction="1011102" />
+            <ReactionMotion id="4" reaction="1011103" />
+            <ReactionMotion id="5" reaction="1011104" />
+            <ReactionMotion id="7" reaction="1011106" />
+            <ReactionMotion id="15" reaction="1011151" />
+            <ReactionMotion id="16" reaction="1011152" />
+            <ReactionMotion id="14" reaction="1011153" />
+            <ReactionMotion id="8" reaction="1011108" />
+            <ReactionMotion id="9" reaction="1011160" />
+            <ReactionMotion id="13" reaction="1011154" />
+        </ReactionMotionList>
+        <Run>
+            <HitCylinder>
+                <Cylinder />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder />
+            </MoveCylinder>
+        </Run>
+        <SocialAction socialMotionIdWhenAngerEnd="0" />
+        <SocialMotionList />
+        <Wait>
+            <HitCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="42" />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="45" />
+            </MoveCylinder>
+        </Wait>
+    </BasicActions>
+    <BasicActions id="20400" name="프레이아로헨">
+        <AnimMotionList>
+            <AnimMotion id="1" animSet="HighElf_F_ANI.Anim.HighElf_F_Share_Anim" animName="enchant" />
+            <AnimMotion id="2" animSet="HighElf_F_ANI.Anim.HighElf_F_Share_Anim" animName="campItemUse" />
+            <AnimMotion id="3" animSet="HighElf_F_ANI.Anim.HighElf_F_Share_Anim" animName="herb" />
+            <AnimMotion id="4" animSet="HighElf_F_ANI.Anim.HighElf_F_Share_Anim" animName="Throw_Q" />
+            <AnimMotion id="5" animSet="HighElf_F_ANI.Anim.HighElf_F_Share_Anim" animName="PvpAttackshotStand" />
+            <AnimMotion id="6" animSet="HighElf_F_ANI.Anim.HighElf_F_Share_Anim" animName="Craft_energy" />
+            <AnimMotion id="7" animSet="HighElf_F_ANI.Anim.HighElf_F_Share_Anim" animName="PvpBuffShotStand" />
+            <AnimMotion id="8" animSet="HighElf_F_ANI.Anim.HighElf_F_Share_Anim" animName="PvpCastingStand" />
+            <AnimMotion id="9" animSet="HighElf_F_ANI.Anim.HighElf_F_Class05_Anim" animName="bReactionStart3" />
+            <AnimMotion id="10" animSet="HighElf_F_ANI.Anim.HighElf_F_Share_Anim" animName="summonPet" />
+            <AnimMotion id="11" animSet="HighElf_F_ANI.Anim.HighElf_F_Share_Anim" animName="recall" />
+            <AnimMotion id="12" animSet="HighElf_F_ANI.Anim.HighElf_F_Share_Anim_Level3S" animName="greet" />
+            <AnimMotion id="13" animSet="HighElf_F_ANI.Anim.HighElf_F_Share_Anim" animName="PvpAttackshotMove" />
+        </AnimMotionList>
+        <Death animSet="HighElf_F_ANI.Anim.HighElf_F_Class05_Anim" />
+        <DeathWait>
+            <HitCylinder>
+                <Cylinder radius="20" locAngle="0" locDistance="0" locZ="0" height="10" />
+            </HitCylinder>
+        </DeathWait>
+        <ModeList>
+            <Mode id="0" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="1.665116" cameraHeightRateNear="0.9" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="50" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+            <Mode id="20" blockMove="false" blockRotate="false" cameraHeightRate="0.6" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="false" cameraOffsetMaxMinSpeed="50" cameraOffsetMaxOffset="30" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="30" cameraOffsetMinOffset="0" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="2000" cameraPitchMin="-5000" cameraZoomMax="500" cameraZoomMin="100" cameraZoomSpeed="1000" crosshair="NORMAL" decalDirection="0" decalDistance="300" decalEffect="15" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="bRun2" modeWaitAnim="AtkWait2" modeWalkAnim="bRun2" />
+            <Mode id="30" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.8" cameraHeightRateNear="1.5" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="1" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7.000001" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="80" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+        </ModeList>
+        <PickSkillList>
+            <PickSkill type="1" anim="Herb" />
+            <PickSkill type="2" anim="mine" />
+            <PickSkill type="3" anim="bug" />
+            <PickSkill type="4" anim="charge" />
+            <PickSkill type="10" anim="Herb" />
+            <PickSkill type="11" anim="Herb" />
+            <PickSkill type="12" anim="mine" />
+            <PickSkill type="13" anim="bug" />
+            <PickSkill type="14" anim="charge" />
+        </PickSkillList>
+        <ReactionMotionList>
+            <ReactionMotion id="1" reaction="1040401" />
+            <ReactionMotion id="2" reaction="1040402" />
+            <ReactionMotion id="3" reaction="1040402" />
+            <ReactionMotion id="4" reaction="1040403" />
+            <ReactionMotion id="5" reaction="1040404" />
+            <ReactionMotion id="7" reaction="1040406" />
+            <ReactionMotion id="15" reaction="1040451" />
+            <ReactionMotion id="16" reaction="1040452" />
+            <ReactionMotion id="14" reaction="1040453" />
+            <ReactionMotion id="8" reaction="1040408" />
+            <ReactionMotion id="9" reaction="1040460" />
+            <ReactionMotion id="13" reaction="1040454" />
+        </ReactionMotionList>
+        <Run>
+            <HitCylinder>
+                <Cylinder />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder />
+            </MoveCylinder>
+        </Run>
+        <SocialAction socialMotionIdWhenAngerEnd="0" />
+        <SocialMotionList />
+        <Wait>
+            <HitCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="43" />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="45" />
+            </MoveCylinder>
+        </Wait>
+    </BasicActions>
+    <BasicActions id="20500" name="엘리온">
+        <AnimMotionList>
+            <AnimMotion id="1" animSet="HighElf_M_ANI.Anim.HighElf_M_Share_Anim" animName="enchant" />
+            <AnimMotion id="2" animSet="HighElf_M_ANI.Anim.HighElf_M_Share_Anim" animName="campItemUse" />
+            <AnimMotion id="3" animSet="HighElf_M_ANI.Anim.HighElf_M_Share_Anim" animName="herb" />
+            <AnimMotion id="4" animSet="HighElf_M_ANI.Anim.HighElf_M_Share_Anim" animName="Throw_Q" />
+            <AnimMotion id="5" animSet="HighElf_M_ANI.Anim.HighElf_M_Share_Anim" animName="PvpAttackshotStand" />
+            <AnimMotion id="6" animSet="HighElf_M_ANI.Anim.HighElf_M_Share_Anim" animName="Craft_energy" />
+            <AnimMotion id="7" animSet="HighElf_M_ANI.Anim.HighElf_M_Share_Anim" animName="PvpBuffShotStand" />
+            <AnimMotion id="8" animSet="HighElf_M_ANI.Anim.HighElf_M_Share_Anim" animName="PvpCastingStand" />
+            <AnimMotion id="9" animSet="HighElf_M_ANI.Anim.HighElf_M_Class01_Anim" animName="bReactionStart3" />
+            <AnimMotion id="10" animSet="HighElf_M_ANI.Anim.HighElf_M_Share_Anim" animName="summonPet" />
+            <AnimMotion id="11" animSet="HighElf_M_ANI.Anim.HighElf_M_Share_Anim" animName="recall" />
+            <AnimMotion id="12" animSet="HighElf_M_ANI.Anim.HighElf_M_Share_Anim_Level3S" animName="greet" />
+            <AnimMotion id="13" animSet="HighElf_M_ANI.Anim.HighElf_M_Share_Anim" animName="PvpAttackshotMove" />
+        </AnimMotionList>
+        <AnimMotionList />
+        <Death animSet="HighElf_M_ANI.Anim.HighElf_M_Class01_Anim" />
+        <DeathWait>
+            <HitCylinder>
+                <Cylinder radius="20" locAngle="0" locDistance="0" locZ="0" height="10" />
+            </HitCylinder>
+        </DeathWait>
+        <ModeList>
+            <Mode id="0" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="1.6" cameraHeightRateNear="0.925" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="50" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+            <Mode id="20" blockMove="false" blockRotate="false" cameraHeightRate="0.6" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="false" cameraOffsetMaxMinSpeed="50" cameraOffsetMaxOffset="30" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="30" cameraOffsetMinOffset="0" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="2000" cameraPitchMin="-5000" cameraZoomMax="500" cameraZoomMin="100" cameraZoomSpeed="1000" crosshair="NORMAL" decalDirection="0" decalDistance="300" decalEffect="15" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="bRun2" modeWaitAnim="AtkWait2" modeWalkAnim="bRun2" />
+            <Mode id="30" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.8" cameraHeightRateNear="1.5" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="1" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7.000001" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="80" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+        </ModeList>
+        <PickSkillList>
+            <PickSkill type="1" anim="Herb" />
+            <PickSkill type="2" anim="mine" />
+            <PickSkill type="3" anim="bug" />
+            <PickSkill type="4" anim="charge" />
+            <PickSkill type="10" anim="Herb" />
+            <PickSkill type="11" anim="Herb" />
+            <PickSkill type="12" anim="mine" />
+            <PickSkill type="13" anim="bug" />
+            <PickSkill type="14" anim="charge" />
+        </PickSkillList>
+        <ReactionMotionList>
+            <ReactionMotion id="1" reaction="1030101" />
+            <ReactionMotion id="2" reaction="1030102" />
+            <ReactionMotion id="3" reaction="1030102" />
+            <ReactionMotion id="4" reaction="1030103" />
+            <ReactionMotion id="5" reaction="1030104" />
+            <ReactionMotion id="7" reaction="1030106" />
+            <ReactionMotion id="15" reaction="1030151" />
+            <ReactionMotion id="16" reaction="1030152" />
+            <ReactionMotion id="14" reaction="1030153" />
+            <ReactionMotion id="8" reaction="1030108" />
+            <ReactionMotion id="9" reaction="1030160" />
+            <ReactionMotion id="13" reaction="1030154" />
+        </ReactionMotionList>
+        <Run>
+            <HitCylinder>
+                <Cylinder />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder />
+            </MoveCylinder>
+        </Run>
+        <SocialAction socialMotionIdWhenAngerEnd="0" />
+        <SocialMotionList />
+        <Wait>
+            <HitCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="45" />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="45" />
+            </MoveCylinder>
+        </Wait>
+    </BasicActions>
+    <BasicActions id="20600" name="인술사">
+        <AnimMotionList>
+            <AnimMotion id="1" animSet="Popori_F_ANI.Anim.Popori_F_AS_Share_Anim" animName="enchant" />
+            <AnimMotion id="2" animSet="Popori_F_ANI.Anim.Popori_F_AS_Share_Anim" animName="campItemUse" />
+            <AnimMotion id="3" animSet="Popori_F_ANI.Anim.Popori_F_AS_Share_Anim" animName="herb" />
+            <AnimMotion id="4" animSet="Popori_F_ANI.Anim.Popori_F_AS_Share_Anim" animName="Throw_Q" />
+            <AnimMotion id="5" animSet="Popori_F_ANI.Anim.Popori_F_AS_Share_Anim" animName="PvpAttackshotStand" />
+            <AnimMotion id="6" animSet="Popori_F_ANI.Anim.Popori_F_AS_Share_Anim" animName="Craft_energy" />
+            <AnimMotion id="7" animSet="Popori_F_ANI.Anim.Popori_F_AS_Share_Anim" animName="PvpBuffShotStand" />
+            <AnimMotion id="8" animSet="Popori_F_ANI.Anim.Popori_F_AS_Share_Anim" animName="PvpCastingStand" />
+            <AnimMotion id="9" animSet="Popori_F_ANI.Anim.Popori_F_Class12_Anim" animName="bReactionStart3" />
+            <AnimMotion id="10" animSet="Popori_F_ANI.Anim.Popori_F_AS_Share_Anim" animName="summonPet" />
+            <AnimMotion id="11" animSet="Popori_F_ANI.Anim.Popori_F_AS_Share_Anim" animName="recall" />
+            <AnimMotion id="12" animSet="Popori_F_ANI.Anim.Popori_F_AS_Share_Anim_Level3S" animName="greet" />
+            <AnimMotion id="13" animSet="Popori_F_ANI.Anim.Popori_F_AS_Share_Anim" animName="PvpAttackshotMove" />
+        </AnimMotionList>
+        <AnimMotionList />
+        <Death animSet="Popori_F_ANI.Anim.Popori_F_Class12_Anim" />
+        <DeathWait>
+            <HitCylinder>
+                <Cylinder radius="20" locAngle="0" locDistance="0" locZ="0" height="10" />
+            </HitCylinder>
+        </DeathWait>
+        <ModeList>
+            <Mode id="0" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.02353" cameraHeightRateNear="0.85" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="10000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="50" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+            <Mode id="20" blockMove="false" blockRotate="false" cameraHeightRate="0.6" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="false" cameraOffsetMaxMinSpeed="50" cameraOffsetMaxOffset="30" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="30" cameraOffsetMinOffset="0" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="2000" cameraPitchMin="-5000" cameraZoomMax="500" cameraZoomMin="100" cameraZoomSpeed="1000" crosshair="NORMAL" decalDirection="0" decalDistance="300" decalEffect="15" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="bRun2" modeWaitAnim="AtkWait2" modeWalkAnim="bRun2" />
+            <Mode id="30" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.8" cameraHeightRateNear="1.5" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="1" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7.000001" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="10000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="80" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+        </ModeList>
+        <PickSkillList>
+            <PickSkill type="1" anim="Herb" />
+            <PickSkill type="2" anim="mine" />
+            <PickSkill type="3" anim="bug" />
+            <PickSkill type="4" anim="charge" />
+            <PickSkill type="10" anim="Herb" />
+            <PickSkill type="11" anim="Herb" />
+            <PickSkill type="12" anim="mine" />
+            <PickSkill type="13" anim="bug" />
+            <PickSkill type="14" anim="charge" />
+        </PickSkillList>
+        <ReactionMotionList>
+            <ReactionMotion id="1" reaction="1101201" />
+            <ReactionMotion id="2" reaction="1101202" />
+            <ReactionMotion id="3" reaction="1101202" />
+            <ReactionMotion id="4" reaction="1101203" />
+            <ReactionMotion id="5" reaction="1101204" />
+            <ReactionMotion id="7" reaction="1101206" />
+            <ReactionMotion id="15" reaction="1101251" />
+            <ReactionMotion id="16" reaction="1101252" />
+            <ReactionMotion id="14" reaction="1101253" />
+            <ReactionMotion id="8" reaction="1101208" />
+            <ReactionMotion id="9" reaction="1101260" />
+            <ReactionMotion id="11" reaction="1111112" />
+            <ReactionMotion id="12" reaction="1111113" />
+            <ReactionMotion id="13" reaction="1101254" />
+        </ReactionMotionList>
+        <Run>
+            <HitCylinder>
+                <Cylinder />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder />
+            </MoveCylinder>
+        </Run>
+        <SocialAction socialMotionIdWhenAngerEnd="0" />
+        <SocialMotionList />
+        <Wait>
+            <HitCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="34" />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="45" />
+            </MoveCylinder>
+        </Wait>
+    </BasicActions>
+    <BasicActions id="20700" name="포포리궁수">
+        <AnimMotionList>
+            <AnimMotion id="1" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="enchant" />
+            <AnimMotion id="2" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="campItemUse" />
+            <AnimMotion id="3" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="herb" />
+            <AnimMotion id="4" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="Throw_Q" />
+            <AnimMotion id="5" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="PvpAttackshotStand" />
+            <AnimMotion id="6" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="Craft_energy" />
+            <AnimMotion id="7" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="PvpBuffShotStand" />
+            <AnimMotion id="8" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="PvpCastingStand" />
+            <AnimMotion id="9" animSet="Popori_M_ANI.Anim.Popori_M_Class06_Anim" animName="bReactionStart3" />
+            <AnimMotion id="10" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="summonPet" />
+            <AnimMotion id="11" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="recall" />
+            <AnimMotion id="12" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim_Level3S" animName="greet" />
+            <AnimMotion id="13" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="PvpAttackshotMove" />
+        </AnimMotionList>
+        <Death animSet="Popori_M_ANI.Anim.Popori_M_Class06_Anim" />
+        <DeathWait>
+            <HitCylinder>
+                <Cylinder radius="20" locAngle="0" locDistance="0" locZ="0" height="10" />
+            </HitCylinder>
+        </DeathWait>
+        <ModeList>
+            <Mode id="0" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.2" cameraHeightRateNear="0.85" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="50" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+            <Mode id="20" blockMove="false" blockRotate="false" cameraHeightRate="0.6" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="false" cameraOffsetMaxMinSpeed="50" cameraOffsetMaxOffset="30" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="30" cameraOffsetMinOffset="0" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="2000" cameraPitchMin="-5000" cameraZoomMax="500" cameraZoomMin="100" cameraZoomSpeed="1000" crosshair="NORMAL" decalDirection="0" decalDistance="300" decalEffect="15" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="bRun2" modeWaitAnim="AtkWait2" modeWalkAnim="bRun2" />
+            <Mode id="30" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.8" cameraHeightRateNear="1.5" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="1" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7.000001" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="80" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+        </ModeList>
+        <PickSkillList>
+            <PickSkill type="1" anim="Herb" />
+            <PickSkill type="2" anim="mine" />
+            <PickSkill type="3" anim="bug" />
+            <PickSkill type="4" anim="charge" />
+            <PickSkill type="10" anim="Herb" />
+            <PickSkill type="11" anim="Herb" />
+            <PickSkill type="12" anim="mine" />
+            <PickSkill type="13" anim="bug" />
+            <PickSkill type="14" anim="charge" />
+        </PickSkillList>
+        <ReactionMotionList>
+            <ReactionMotion id="1" reaction="1090601" />
+            <ReactionMotion id="2" reaction="1090602" />
+            <ReactionMotion id="3" reaction="1090602" />
+            <ReactionMotion id="4" reaction="1090603" />
+            <ReactionMotion id="5" reaction="1090604" />
+            <ReactionMotion id="7" reaction="1090606" />
+            <ReactionMotion id="15" reaction="1090651" />
+            <ReactionMotion id="16" reaction="1090652" />
+            <ReactionMotion id="14" reaction="1090653" />
+            <ReactionMotion id="8" reaction="1090608" />
+            <ReactionMotion id="9" reaction="1090660" />
+            <ReactionMotion id="13" reaction="1090654" />
+        </ReactionMotionList>
+        <Run>
+            <HitCylinder>
+                <Cylinder />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder />
+            </MoveCylinder>
+        </Run>
+        <SocialAction socialMotionIdWhenAngerEnd="0" />
+        <SocialMotionList />
+        <Wait>
+            <HitCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="32" />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="45" />
+            </MoveCylinder>
+        </Wait>
+    </BasicActions>
+    <BasicActions id="20800" name="시벨">
+        <AnimMotionList>
+            <AnimMotion id="1" animSet="HighElf_F_ANI.Anim.HighElf_F_Share_Anim" animName="enchant" />
+            <AnimMotion id="2" animSet="HighElf_F_ANI.Anim.HighElf_F_Share_Anim" animName="campItemUse" />
+            <AnimMotion id="3" animSet="HighElf_F_ANI.Anim.HighElf_F_Share_Anim" animName="herb" />
+            <AnimMotion id="4" animSet="HighElf_F_ANI.Anim.HighElf_F_Share_Anim" animName="Throw_Q" />
+            <AnimMotion id="5" animSet="HighElf_F_ANI.Anim.HighElf_F_Share_Anim" animName="PvpAttackshotStand" />
+            <AnimMotion id="6" animSet="HighElf_F_ANI.Anim.HighElf_F_Share_Anim" animName="Craft_energy" />
+            <AnimMotion id="7" animSet="HighElf_F_ANI.Anim.HighElf_F_Share_Anim" animName="PvpBuffShotStand" />
+            <AnimMotion id="8" animSet="HighElf_F_ANI.Anim.HighElf_F_Share_Anim" animName="PvpCastingStand" />
+            <AnimMotion id="9" animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" animName="bReactionStart3" />
+            <AnimMotion id="10" animSet="HighElf_F_ANI.Anim.HighElf_F_Share_Anim" animName="summonPet" />
+            <AnimMotion id="11" animSet="HighElf_F_ANI.Anim.HighElf_F_Share_Anim" animName="recall" />
+            <AnimMotion id="12" animSet="HighElf_F_ANI.Anim.HighElf_F_Share_Anim_Level3S" animName="greet" />
+            <AnimMotion id="13" animSet="HighElf_F_ANI.Anim.HighElf_F_Share_Anim" animName="PvpAttackshotMove" />
+        </AnimMotionList>
+        <Death animSet="HighElf_F_ANI.Anim.HighElf_F_Class06_Anim" />
+        <DeathWait>
+            <HitCylinder>
+                <Cylinder radius="20" locAngle="0" locDistance="0" locZ="0" height="10" />
+            </HitCylinder>
+        </DeathWait>
+        <ModeList>
+            <Mode id="0" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="1.665116" cameraHeightRateNear="0.9" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="50" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+            <Mode id="20" blockMove="false" blockRotate="false" cameraHeightRate="0.6" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="false" cameraOffsetMaxMinSpeed="50" cameraOffsetMaxOffset="30" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="30" cameraOffsetMinOffset="0" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="2000" cameraPitchMin="-5000" cameraZoomMax="500" cameraZoomMin="100" cameraZoomSpeed="1000" crosshair="NORMAL" decalDirection="0" decalDistance="300" decalEffect="15" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="bRun2" modeWaitAnim="AtkWait2" modeWalkAnim="bRun2" />
+            <Mode id="30" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.8" cameraHeightRateNear="1.5" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="1" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7.000001" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="80" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+        </ModeList>
+        <PickSkillList>
+            <PickSkill type="1" anim="Herb" />
+            <PickSkill type="2" anim="mine" />
+            <PickSkill type="3" anim="bug" />
+            <PickSkill type="4" anim="charge" />
+            <PickSkill type="10" anim="Herb" />
+            <PickSkill type="11" anim="Herb" />
+            <PickSkill type="12" anim="mine" />
+            <PickSkill type="13" anim="bug" />
+            <PickSkill type="14" anim="charge" />
+        </PickSkillList>
+        <ReactionMotionList>
+            <ReactionMotion id="1" reaction="1040601" />
+            <ReactionMotion id="2" reaction="1040602" />
+            <ReactionMotion id="3" reaction="1040602" />
+            <ReactionMotion id="4" reaction="1040603" />
+            <ReactionMotion id="5" reaction="1040604" />
+            <ReactionMotion id="7" reaction="1040606" />
+            <ReactionMotion id="15" reaction="1040651" />
+            <ReactionMotion id="16" reaction="1040652" />
+            <ReactionMotion id="14" reaction="1040653" />
+            <ReactionMotion id="8" reaction="1040608" />
+            <ReactionMotion id="9" reaction="1040660" />
+            <ReactionMotion id="13" reaction="1040654" />
+        </ReactionMotionList>
+        <Run>
+            <HitCylinder>
+                <Cylinder />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder />
+            </MoveCylinder>
+        </Run>
+        <SocialAction socialMotionIdWhenAngerEnd="0" />
+        <SocialMotionList />
+        <Wait>
+            <HitCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="43" />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="45" />
+            </MoveCylinder>
+        </Wait>
+    </BasicActions>
+    <BasicActions id="20900" name="에키오르라펠레이트">
+        <AnimMotionList>
+            <AnimMotion id="1" animSet="HighElf_M_ANI.Anim.HighElf_M_Share_Anim" animName="enchant" />
+            <AnimMotion id="2" animSet="HighElf_M_ANI.Anim.HighElf_M_Share_Anim" animName="campItemUse" />
+            <AnimMotion id="3" animSet="HighElf_M_ANI.Anim.HighElf_M_Share_Anim" animName="herb" />
+            <AnimMotion id="4" animSet="HighElf_M_ANI.Anim.HighElf_M_Share_Anim" animName="Throw_Q" />
+            <AnimMotion id="5" animSet="HighElf_M_ANI.Anim.HighElf_M_Share_Anim" animName="PvpAttackshotStand" />
+            <AnimMotion id="6" animSet="HighElf_M_ANI.Anim.HighElf_M_Share_Anim" animName="Craft_energy" />
+            <AnimMotion id="7" animSet="HighElf_M_ANI.Anim.HighElf_M_Share_Anim" animName="PvpBuffShotStand" />
+            <AnimMotion id="8" animSet="HighElf_M_ANI.Anim.HighElf_M_Share_Anim" animName="PvpCastingStand" />
+            <AnimMotion id="9" animSet="HighElf_M_ANI.Anim.HighElf_M_Class05_Anim" animName="bReactionStart3" />
+            <AnimMotion id="10" animSet="HighElf_M_ANI.Anim.HighElf_M_Share_Anim" animName="summonPet" />
+            <AnimMotion id="11" animSet="HighElf_M_ANI.Anim.HighElf_M_Share_Anim" animName="recall" />
+            <AnimMotion id="12" animSet="HighElf_M_ANI.Anim.HighElf_M_Share_Anim_Level3S" animName="greet" />
+            <AnimMotion id="13" animSet="HighElf_M_ANI.Anim.HighElf_M_Share_Anim" animName="PvpAttackshotMove" />
+        </AnimMotionList>
+        <AnimMotionList />
+        <Death animSet="HighElf_M_ANI.Anim.HighElf_M_Class05_Anim" />
+        <DeathWait>
+            <HitCylinder>
+                <Cylinder radius="20" locAngle="0" locDistance="0" locZ="0" height="10" />
+            </HitCylinder>
+        </DeathWait>
+        <ModeList>
+            <Mode id="0" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="1.6" cameraHeightRateNear="0.925" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="50" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+            <Mode id="20" blockMove="false" blockRotate="false" cameraHeightRate="0.6" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="false" cameraOffsetMaxMinSpeed="50" cameraOffsetMaxOffset="30" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="30" cameraOffsetMinOffset="0" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="2000" cameraPitchMin="-5000" cameraZoomMax="500" cameraZoomMin="100" cameraZoomSpeed="1000" crosshair="NORMAL" decalDirection="0" decalDistance="300" decalEffect="15" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="bRun2" modeWaitAnim="AtkWait2" modeWalkAnim="bRun2" />
+            <Mode id="30" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.8" cameraHeightRateNear="1.5" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="1" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7.000001" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="80" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+        </ModeList>
+        <PickSkillList>
+            <PickSkill type="1" anim="Herb" />
+            <PickSkill type="2" anim="mine" />
+            <PickSkill type="3" anim="bug" />
+            <PickSkill type="4" anim="charge" />
+            <PickSkill type="10" anim="Herb" />
+            <PickSkill type="11" anim="Herb" />
+            <PickSkill type="12" anim="mine" />
+            <PickSkill type="13" anim="bug" />
+            <PickSkill type="14" anim="charge" />
+        </PickSkillList>
+        <ReactionMotionList>
+            <ReactionMotion id="1" reaction="1030501" />
+            <ReactionMotion id="2" reaction="1030502" />
+            <ReactionMotion id="3" reaction="1030502" />
+            <ReactionMotion id="4" reaction="1030503" />
+            <ReactionMotion id="5" reaction="1030504" />
+            <ReactionMotion id="6" reaction="1030505" />
+            <ReactionMotion id="7" reaction="1030506" />
+            <ReactionMotion id="15" reaction="1030551" />
+            <ReactionMotion id="16" reaction="1030552" />
+            <ReactionMotion id="14" reaction="1030553" />
+            <ReactionMotion id="8" reaction="1030508" />
+            <ReactionMotion id="9" reaction="1030560" />
+            <ReactionMotion id="13" reaction="1030554" />
+        </ReactionMotionList>
+        <Run>
+            <HitCylinder>
+                <Cylinder />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder />
+            </MoveCylinder>
+        </Run>
+        <SocialAction socialMotionIdWhenAngerEnd="0" />
+        <SocialMotionList />
+        <Wait>
+            <HitCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="45" />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="45" />
+            </MoveCylinder>
+        </Wait>
+    </BasicActions>
+    <BasicActions id="21000" name="엘린마공사">
+        <AnimMotionList>
+            <AnimMotion id="1" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="enchant" />
+            <AnimMotion id="2" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="campItemUse" />
+            <AnimMotion id="3" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="herb" />
+            <AnimMotion id="4" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="Throw_Q" />
+            <AnimMotion id="5" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="PvpAttackshotStand" />
+            <AnimMotion id="6" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="Craft_energy" />
+            <AnimMotion id="7" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="PvpBuffShotStand" />
+            <AnimMotion id="8" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="PvpCastingStand" />
+            <AnimMotion id="9" animSet="Popori_F_ANI.Anim.Popori_F_Class10_Anim" animName="bReactionStart3" />
+            <AnimMotion id="10" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="summonPet" />
+            <AnimMotion id="11" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="recall" />
+            <AnimMotion id="12" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim_Level3S" animName="greet" />
+            <AnimMotion id="13" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="PvpAttackshotMove" />
+        </AnimMotionList>
+        <AnimMotionList />
+        <Death animSet="Popori_F_ANI.Anim.Popori_F_Class10_Anim" />
+        <DeathWait>
+            <HitCylinder>
+                <Cylinder radius="20" locAngle="0" locDistance="0" locZ="0" height="10" />
+            </HitCylinder>
+        </DeathWait>
+        <ModeList>
+            <Mode id="0" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.02353" cameraHeightRateNear="0.85" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="10000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="50" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+            <Mode id="20" blockMove="false" blockRotate="false" cameraHeightRate="0.6" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="false" cameraOffsetMaxMinSpeed="50" cameraOffsetMaxOffset="30" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="30" cameraOffsetMinOffset="0" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="2000" cameraPitchMin="-5000" cameraZoomMax="500" cameraZoomMin="100" cameraZoomSpeed="1000" crosshair="NORMAL" decalDirection="0" decalDistance="300" decalEffect="15" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="bRun2" modeWaitAnim="AtkWait2" modeWalkAnim="bRun2" />
+            <Mode id="30" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.8" cameraHeightRateNear="1.5" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="1" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7.000001" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="10000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="80" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+        </ModeList>
+        <PickSkillList>
+            <PickSkill type="1" anim="Herb" />
+            <PickSkill type="2" anim="mine" />
+            <PickSkill type="3" anim="bug" />
+            <PickSkill type="4" anim="charge" />
+            <PickSkill type="10" anim="Herb" />
+            <PickSkill type="11" anim="Herb" />
+            <PickSkill type="12" anim="mine" />
+            <PickSkill type="13" anim="bug" />
+            <PickSkill type="14" anim="charge" />
+        </PickSkillList>
+        <ReactionMotionList>
+            <ReactionMotion id="1" reaction="1101001" />
+            <ReactionMotion id="2" reaction="1101002" />
+            <ReactionMotion id="3" reaction="1101002" />
+            <ReactionMotion id="4" reaction="1101003" />
+            <ReactionMotion id="5" reaction="1101004" />
+            <ReactionMotion id="7" reaction="1101006" />
+            <ReactionMotion id="15" reaction="1101051" />
+            <ReactionMotion id="16" reaction="1101052" />
+            <ReactionMotion id="14" reaction="1101053" />
+            <ReactionMotion id="8" reaction="1101008" />
+            <ReactionMotion id="9" reaction="1101060" />
+            <ReactionMotion id="13" reaction="1100954" />
+        </ReactionMotionList>
+        <Run>
+            <HitCylinder>
+                <Cylinder />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder />
+            </MoveCylinder>
+        </Run>
+        <SocialAction socialMotionIdWhenAngerEnd="0" />
+        <SocialMotionList />
+        <Wait>
+            <HitCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="34" />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="45" />
+            </MoveCylinder>
+        </Wait>
+    </BasicActions>
+    <BasicActions id="21100" name="시오즈엘린">
+        <AnimMotionList>
+            <AnimMotion id="1" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="enchant" />
+            <AnimMotion id="2" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="campItemUse" />
+            <AnimMotion id="3" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="herb" />
+            <AnimMotion id="4" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="Throw_Q" />
+            <AnimMotion id="5" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="PvpAttackshotStand" />
+            <AnimMotion id="6" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="Craft_energy" />
+            <AnimMotion id="7" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="PvpBuffShotStand" />
+            <AnimMotion id="8" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="PvpCastingStand" />
+            <AnimMotion id="9" animSet="Popori_F_ANI.Anim.Popori_F_Class09_Anim" animName="bReactionStart3" />
+            <AnimMotion id="10" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="summonPet" />
+            <AnimMotion id="11" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="recall" />
+            <AnimMotion id="12" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim_Level3S" animName="greet" />
+            <AnimMotion id="13" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="PvpAttackshotMove" />
+        </AnimMotionList>
+        <AnimMotionList />
+        <Death animSet="Popori_F_ANI.Anim.Popori_F_Class09_Anim" />
+        <DeathWait>
+            <HitCylinder>
+                <Cylinder radius="20" locAngle="0" locDistance="0" locZ="0" height="10" />
+            </HitCylinder>
+        </DeathWait>
+        <ModeList>
+            <Mode id="0" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.02353" cameraHeightRateNear="0.85" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="10000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="50" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+            <Mode id="20" blockMove="false" blockRotate="false" cameraHeightRate="0.6" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="false" cameraOffsetMaxMinSpeed="50" cameraOffsetMaxOffset="30" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="30" cameraOffsetMinOffset="0" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="2000" cameraPitchMin="-5000" cameraZoomMax="500" cameraZoomMin="100" cameraZoomSpeed="1000" crosshair="NORMAL" decalDirection="0" decalDistance="300" decalEffect="15" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="bRun2" modeWaitAnim="AtkWait2" modeWalkAnim="bRun2" />
+            <Mode id="30" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.8" cameraHeightRateNear="1.5" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="1" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7.000001" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="10000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="80" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+        </ModeList>
+        <PickSkillList>
+            <PickSkill type="1" anim="Herb" />
+            <PickSkill type="2" anim="mine" />
+            <PickSkill type="3" anim="bug" />
+            <PickSkill type="4" anim="charge" />
+            <PickSkill type="10" anim="Herb" />
+            <PickSkill type="11" anim="Herb" />
+            <PickSkill type="12" anim="mine" />
+            <PickSkill type="13" anim="bug" />
+            <PickSkill type="14" anim="charge" />
+        </PickSkillList>
+        <ReactionMotionList>
+            <ReactionMotion id="1" reaction="1100901" />
+            <ReactionMotion id="2" reaction="1100902" />
+            <ReactionMotion id="3" reaction="1100902" />
+            <ReactionMotion id="4" reaction="1100903" />
+            <ReactionMotion id="5" reaction="1100904" />
+            <ReactionMotion id="7" reaction="1120906" />
+            <ReactionMotion id="15" reaction="1100961" />
+            <ReactionMotion id="16" reaction="1100962" />
+            <ReactionMotion id="14" reaction="1100963" />
+            <ReactionMotion id="8" reaction="1100908" />
+            <ReactionMotion id="9" reaction="1100960" />
+            <ReactionMotion id="13" reaction="1100954" />
+        </ReactionMotionList>
+        <Run>
+            <HitCylinder>
+                <Cylinder />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder />
+            </MoveCylinder>
+        </Run>
+        <SocialAction socialMotionIdWhenAngerEnd="0" />
+        <SocialMotionList />
+        <Wait>
+            <HitCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="34" />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="45" />
+            </MoveCylinder>
+        </Wait>
+    </BasicActions>
+    <BasicActions id="21200" name="케스타닉여자얼음마법사">
+        <AnimMotionList>
+            <AnimMotion id="1" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="enchant" />
+            <AnimMotion id="2" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="campItemUse" />
+            <AnimMotion id="3" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="herb" />
+            <AnimMotion id="4" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="Throw_Q" />
+            <AnimMotion id="5" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="PvpAttackshotStand" />
+            <AnimMotion id="6" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="Craft_energy" />
+            <AnimMotion id="7" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="PvpBuffShotStand" />
+            <AnimMotion id="8" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="PvpCastingStand" />
+            <AnimMotion id="9" animSet="Castanic_F_ANI.Anim.Castanic_F_Class05_Anim" animName="bReactionStart3" />
+            <AnimMotion id="10" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="summonPet" />
+            <AnimMotion id="11" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="recall" />
+            <AnimMotion id="12" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim_Level3S" animName="greet" />
+            <AnimMotion id="13" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="PvpAttackshotMove" />
+        </AnimMotionList>
+        <Death animSet="Castanic_F_ANI.Anim.Castanic_F_Class05_Anim" />
+        <DeathWait>
+            <HitCylinder>
+                <Cylinder radius="20" locAngle="0" locDistance="0" locZ="0" height="10" />
+            </HitCylinder>
+        </DeathWait>
+        <ModeList>
+            <Mode id="0" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="1.848648" cameraHeightRateNear="0.925" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="50" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+            <Mode id="20" blockMove="false" blockRotate="false" cameraHeightRate="0.6" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="false" cameraOffsetMaxMinSpeed="50" cameraOffsetMaxOffset="30" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="30" cameraOffsetMinOffset="0" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="2000" cameraPitchMin="-5000" cameraZoomMax="500" cameraZoomMin="100" cameraZoomSpeed="1000" crosshair="NORMAL" decalDirection="0" decalDistance="300" decalEffect="15" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="bRun2" modeWaitAnim="AtkWait2" modeWalkAnim="bRun2" />
+            <Mode id="30" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.8" cameraHeightRateNear="1.5" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="1" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7.000001" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="80" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+        </ModeList>
+        <PickSkillList>
+            <PickSkill type="1" anim="Herb" />
+            <PickSkill type="2" anim="mine" />
+            <PickSkill type="3" anim="bug" />
+            <PickSkill type="4" anim="charge" />
+            <PickSkill type="10" anim="Herb" />
+            <PickSkill type="11" anim="Herb" />
+            <PickSkill type="12" anim="mine" />
+            <PickSkill type="13" anim="bug" />
+            <PickSkill type="14" anim="charge" />
+        </PickSkillList>
+        <ReactionMotionList>
+            <ReactionMotion id="1" reaction="1080501" />
+            <ReactionMotion id="2" reaction="1080502" />
+            <ReactionMotion id="3" reaction="1080502" />
+            <ReactionMotion id="4" reaction="1080503" />
+            <ReactionMotion id="5" reaction="1080504" />
+            <ReactionMotion id="6" reaction="1080505" />
+            <ReactionMotion id="7" reaction="1080506" />
+            <ReactionMotion id="15" reaction="1080551" />
+            <ReactionMotion id="16" reaction="1080552" />
+            <ReactionMotion id="14" reaction="1080553" />
+            <ReactionMotion id="8" reaction="1080508" />
+            <ReactionMotion id="9" reaction="1080560" />
+            <ReactionMotion id="13" reaction="1080554" />
+        </ReactionMotionList>
+        <Run>
+            <HitCylinder>
+                <Cylinder />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder />
+            </MoveCylinder>
+        </Run>
+        <SocialAction socialMotionIdWhenAngerEnd="0" />
+        <SocialMotionList />
+        <Wait>
+            <HitCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="37" />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="45" />
+            </MoveCylinder>
+        </Wait>
+    </BasicActions>
+    <BasicActions id="21400" name="아만여자비전마법사">
+        <AnimMotionList>
+            <AnimMotion id="1" animSet="Aman_F_ANI.Anim.Aman_F_Share_Anim" animName="enchant" />
+            <AnimMotion id="2" animSet="Aman_F_ANI.Anim.Aman_F_Share_Anim" animName="campItemUse" />
+            <AnimMotion id="3" animSet="Aman_F_ANI.Anim.Aman_F_Share_Anim" animName="herb" />
+            <AnimMotion id="4" animSet="Aman_F_ANI.Anim.Aman_F_Share_Anim" animName="Throw_Q" />
+            <AnimMotion id="5" animSet="Aman_F_ANI.Anim.Aman_F_Share_Anim" animName="PvpAttackshotStand" />
+            <AnimMotion id="6" animSet="Aman_F_ANI.Anim.Aman_F_Share_Anim" animName="Craft_energy" />
+            <AnimMotion id="7" animSet="Aman_F_ANI.Anim.Aman_F_Share_Anim" animName="PvpBuffShotStand" />
+            <AnimMotion id="8" animSet="Aman_F_ANI.Anim.Aman_F_Share_Anim" animName="PvpCastingStand" />
+            <AnimMotion id="9" animSet="Aman_F_ANI.Anim.Aman_F_Class05_Anim" animName="bReactionStart3" />
+            <AnimMotion id="10" animSet="Aman_F_ANI.Anim.Aman_F_Share_Anim" animName="summonPet" />
+            <AnimMotion id="11" animSet="Aman_F_ANI.Anim.Aman_F_Share_Anim" animName="recall" />
+            <AnimMotion id="12" animSet="Aman_F_ANI.Anim.Aman_F_Share_Anim_Level3S" animName="greet" />
+            <AnimMotion id="13" animSet="Aman_F_ANI.Anim.Aman_F_Share_Anim" animName="PvpAttackshotMove" />
+        </AnimMotionList>
+        <AnimMotionList />
+        <Death animSet="Aman_F_ANI.Anim.Aman_F_Class05_Anim" />
+        <DeathWait>
+            <HitCylinder>
+                <Cylinder radius="20" locAngle="0" locDistance="0" locZ="0" height="10" />
+            </HitCylinder>
+        </DeathWait>
+        <ModeList>
+            <Mode id="0" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="1.513726" cameraHeightRateNear="0.9" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="50" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+            <Mode id="20" blockMove="false" blockRotate="false" cameraHeightRate="0.6" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="false" cameraOffsetMaxMinSpeed="50" cameraOffsetMaxOffset="30" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="30" cameraOffsetMinOffset="0" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="2000" cameraPitchMin="-5000" cameraZoomMax="500" cameraZoomMin="100" cameraZoomSpeed="1000" crosshair="NORMAL" decalDirection="0" decalDistance="300" decalEffect="15" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="bRun2" modeWaitAnim="AtkWait2" modeWalkAnim="bRun2" />
+            <Mode id="30" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.8" cameraHeightRateNear="1.5" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="1" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7.000001" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="80" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+        </ModeList>
+        <PickSkillList>
+            <PickSkill type="1" anim="Herb" />
+            <PickSkill type="2" anim="mine" />
+            <PickSkill type="3" anim="bug" />
+            <PickSkill type="4" anim="charge" />
+            <PickSkill type="10" anim="Herb" />
+            <PickSkill type="11" anim="Herb" />
+            <PickSkill type="12" anim="mine" />
+            <PickSkill type="13" anim="bug" />
+            <PickSkill type="14" anim="charge" />
+        </PickSkillList>
+        <ReactionMotionList>
+            <ReactionMotion id="1" reaction="1060501" />
+            <ReactionMotion id="2" reaction="1060502" />
+            <ReactionMotion id="3" reaction="1060502" />
+            <ReactionMotion id="4" reaction="1060503" />
+            <ReactionMotion id="5" reaction="1060504" />
+            <ReactionMotion id="6" reaction="1060505" />
+            <ReactionMotion id="7" reaction="1060606" />
+            <ReactionMotion id="15" reaction="1060551" />
+            <ReactionMotion id="16" reaction="1060552" />
+            <ReactionMotion id="14" reaction="1060553" />
+            <ReactionMotion id="8" reaction="1060508" />
+            <ReactionMotion id="9" reaction="1060560" />
+            <ReactionMotion id="13" reaction="1060554" />
+        </ReactionMotionList>
+        <Run>
+            <HitCylinder>
+                <Cylinder />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder />
+            </MoveCylinder>
+        </Run>
+        <SocialAction socialMotionIdWhenAngerEnd="0" />
+        <SocialMotionList />
+        <Wait>
+            <HitCylinder>
+                <Cylinder radius="12" locAngle="0" locDistance="0" locZ="0" height="51" />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder radius="12" locAngle="0" locDistance="0" locZ="0" height="52" />
+            </MoveCylinder>
+        </Wait>
+    </BasicActions>
+    <BasicActions id="21500" name="카이아">
+        <AnimMotionList>
+            <AnimMotion id="1" animSet="Aman_F_ANI.Anim.Aman_F_Share_Anim" animName="enchant" />
+            <AnimMotion id="2" animSet="Aman_F_ANI.Anim.Aman_F_Share_Anim" animName="campItemUse" />
+            <AnimMotion id="3" animSet="Aman_F_ANI.Anim.Aman_F_Share_Anim" animName="herb" />
+            <AnimMotion id="4" animSet="Aman_F_ANI.Anim.Aman_F_Share_Anim" animName="Throw_Q" />
+            <AnimMotion id="5" animSet="Aman_F_ANI.Anim.Aman_F_Share_Anim" animName="PvpAttackshotStand" />
+            <AnimMotion id="6" animSet="Aman_F_ANI.Anim.Aman_F_Share_Anim" animName="Craft_energy" />
+            <AnimMotion id="7" animSet="Aman_F_ANI.Anim.Aman_F_Share_Anim" animName="PvpBuffShotStand" />
+            <AnimMotion id="8" animSet="Aman_F_ANI.Anim.Aman_F_Share_Anim" animName="PvpCastingStand" />
+            <AnimMotion id="9" animSet="Aman_F_ANI.Anim.Aman_F_Class03_Anim" animName="bReactionStart3" />
+            <AnimMotion id="10" animSet="Aman_F_ANI.Anim.Aman_F_Share_Anim" animName="summonPet" />
+            <AnimMotion id="11" animSet="Aman_F_ANI.Anim.Aman_F_Share_Anim" animName="recall" />
+            <AnimMotion id="12" animSet="Aman_F_ANI.Anim.Aman_F_Share_Anim_Level3S" animName="greet" />
+            <AnimMotion id="13" animSet="Aman_F_ANI.Anim.Aman_F_Share_Anim" animName="PvpAttackshotMove" />
+        </AnimMotionList>
+        <AnimMotionList />
+        <Death animSet="Aman_F_ANI.Anim.Aman_F_Class03_Anim" />
+        <DeathWait>
+            <HitCylinder>
+                <Cylinder radius="20" locAngle="0" locDistance="0" locZ="0" height="10" />
+            </HitCylinder>
+        </DeathWait>
+        <ModeList>
+            <Mode id="0" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="1.513726" cameraHeightRateNear="0.9" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="50" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+            <Mode id="20" blockMove="false" blockRotate="false" cameraHeightRate="0.6" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="false" cameraOffsetMaxMinSpeed="50" cameraOffsetMaxOffset="30" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="30" cameraOffsetMinOffset="0" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="2000" cameraPitchMin="-5000" cameraZoomMax="500" cameraZoomMin="100" cameraZoomSpeed="1000" crosshair="NORMAL" decalDirection="0" decalDistance="300" decalEffect="15" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="bRun2" modeWaitAnim="AtkWait2" modeWalkAnim="bRun2" />
+            <Mode id="30" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.8" cameraHeightRateNear="1.5" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="1" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7.000001" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="80" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+        </ModeList>
+        <PickSkillList>
+            <PickSkill type="1" anim="Herb" />
+            <PickSkill type="2" anim="mine" />
+            <PickSkill type="3" anim="bug" />
+            <PickSkill type="4" anim="charge" />
+            <PickSkill type="10" anim="Herb" />
+            <PickSkill type="11" anim="Herb" />
+            <PickSkill type="12" anim="mine" />
+            <PickSkill type="13" anim="bug" />
+            <PickSkill type="14" anim="charge" />
+        </PickSkillList>
+        <ReactionMotionList>
+            <ReactionMotion id="1" reaction="1060301" />
+            <ReactionMotion id="2" reaction="1060302" />
+            <ReactionMotion id="3" reaction="1060302" />
+            <ReactionMotion id="4" reaction="1060303" />
+            <ReactionMotion id="5" reaction="1060304" />
+            <ReactionMotion id="7" reaction="1060306" />
+            <ReactionMotion id="15" reaction="1060351" />
+            <ReactionMotion id="16" reaction="1060352" />
+            <ReactionMotion id="14" reaction="1060353" />
+            <ReactionMotion id="8" reaction="1060308" />
+            <ReactionMotion id="9" reaction="1060360" />
+            <ReactionMotion id="13" reaction="1060354" />
+        </ReactionMotionList>
+        <Run>
+            <HitCylinder>
+                <Cylinder />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder />
+            </MoveCylinder>
+        </Run>
+        <SocialAction socialMotionIdWhenAngerEnd="0" />
+        <SocialMotionList />
+        <Wait>
+            <HitCylinder>
+                <Cylinder radius="12" locAngle="0" locDistance="0" locZ="0" height="51" />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder radius="12" locAngle="0" locDistance="0" locZ="0" height="52" />
+            </MoveCylinder>
+        </Wait>
+    </BasicActions>
+    <BasicActions id="21600" name="딕시핀쳐">
+        <AnimMotionList>
+            <AnimMotion id="1" animSet="Aman_M_ANI.Anim.Aman_M_Share_Anim" animName="enchant" />
+            <AnimMotion id="2" animSet="Aman_M_ANI.Anim.Aman_M_Share_Anim" animName="campItemUse" />
+            <AnimMotion id="3" animSet="Aman_M_ANI.Anim.Aman_M_Share_Anim" animName="herb" />
+            <AnimMotion id="4" animSet="Aman_M_ANI.Anim.Aman_M_Share_Anim" animName="Throw_Q" />
+            <AnimMotion id="5" animSet="Aman_M_ANI.Anim.Aman_M_Share_Anim" animName="PvpAttackshotStand" />
+            <AnimMotion id="6" animSet="Aman_M_ANI.Anim.Aman_M_Share_Anim" animName="Craft_energy" />
+            <AnimMotion id="7" animSet="Aman_M_ANI.Anim.Aman_M_Share_Anim" animName="PvpBuffShotStand" />
+            <AnimMotion id="8" animSet="Aman_M_ANI.Anim.Aman_M_Share_Anim" animName="PvpCastingStand" />
+            <AnimMotion id="9" animSet="Aman_M_ANI.Anim.Aman_M_Class04_Anim" animName="bReactionStart3" />
+            <AnimMotion id="10" animSet="Aman_M_ANI.Anim.Aman_M_Share_Anim" animName="summonPet" />
+            <AnimMotion id="11" animSet="Aman_M_ANI.Anim.Aman_M_Share_Anim" animName="recall" />
+            <AnimMotion id="12" animSet="Aman_M_ANI.Anim.Aman_M_Share_Anim_Level3S" animName="greet" />
+            <AnimMotion id="13" animSet="Aman_M_ANI.Anim.Aman_M_Share_Anim" animName="PvpAttackshotMove" />
+        </AnimMotionList>
+        <Death animSet="Aman_M_ANI.Anim.Aman_M_Class04_Anim" />
+        <DeathWait>
+            <HitCylinder>
+                <Cylinder radius="20" locAngle="0" locDistance="0" locZ="0" height="10" />
+            </HitCylinder>
+        </DeathWait>
+        <ModeList>
+            <Mode id="0" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="1.16923" cameraHeightRateNear="0.925" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="50" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+            <Mode id="20" blockMove="false" blockRotate="false" cameraHeightRate="0.6" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="false" cameraOffsetMaxMinSpeed="50" cameraOffsetMaxOffset="30" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="30" cameraOffsetMinOffset="0" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="2000" cameraPitchMin="-5000" cameraZoomMax="500" cameraZoomMin="100" cameraZoomSpeed="1000" crosshair="NORMAL" decalDirection="0" decalDistance="300" decalEffect="15" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="bRun2" modeWaitAnim="AtkWait2" modeWalkAnim="bRun2" />
+            <Mode id="30" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.8" cameraHeightRateNear="1.5" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="1" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7.000001" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="80" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+        </ModeList>
+        <PickSkillList>
+            <PickSkill type="1" anim="Herb" />
+            <PickSkill type="2" anim="mine" />
+            <PickSkill type="3" anim="bug" />
+            <PickSkill type="4" anim="charge" />
+            <PickSkill type="10" anim="Herb" />
+            <PickSkill type="11" anim="Herb" />
+            <PickSkill type="12" anim="mine" />
+            <PickSkill type="13" anim="bug" />
+            <PickSkill type="14" anim="charge" />
+        </PickSkillList>
+        <ReactionMotionList>
+            <ReactionMotion id="1" reaction="1050401" />
+            <ReactionMotion id="2" reaction="1050402" />
+            <ReactionMotion id="3" reaction="1050402" />
+            <ReactionMotion id="4" reaction="1050403" />
+            <ReactionMotion id="5" reaction="1050404" />
+            <ReactionMotion id="7" reaction="1050406" />
+            <ReactionMotion id="15" reaction="1050451" />
+            <ReactionMotion id="16" reaction="1050452" />
+            <ReactionMotion id="14" reaction="1050453" />
+            <ReactionMotion id="8" reaction="1050408" />
+            <ReactionMotion id="9" reaction="1050460" />
+            <ReactionMotion id="13" reaction="1050454" />
+        </ReactionMotionList>
+        <Run>
+            <HitCylinder>
+                <Cylinder />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder />
+            </MoveCylinder>
+        </Run>
+        <SocialAction socialMotionIdWhenAngerEnd="0" />
+        <SocialMotionList />
+        <Wait>
+            <HitCylinder>
+                <Cylinder radius="12" locAngle="0" locDistance="0" locZ="0" height="52" />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder radius="12" locAngle="0" locDistance="0" locZ="0" height="52" />
+            </MoveCylinder>
+        </Wait>
+    </BasicActions>
+    <BasicActions id="21800" name="케스타닉월광무사">
+        <AnimMotionList>
+            <AnimMotion id="1" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="enchant" />
+            <AnimMotion id="2" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="campItemUse" />
+            <AnimMotion id="3" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="herb" />
+            <AnimMotion id="4" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="Throw_Q" />
+            <AnimMotion id="5" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="PvpAttackshotStand" />
+            <AnimMotion id="6" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="Craft_energy" />
+            <AnimMotion id="7" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="PvpBuffShotStand" />
+            <AnimMotion id="8" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="PvpCastingStand" />
+            <AnimMotion id="9" animSet="Castanic_F_ANI.Anim.Castanic_F_Class05_Anim" animName="bReactionStart3" />
+            <AnimMotion id="10" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="summonPet" />
+            <AnimMotion id="11" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="recall" />
+            <AnimMotion id="12" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim_Level3S" animName="greet" />
+            <AnimMotion id="13" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="PvpAttackshotMove" />
+        </AnimMotionList>
+        <Death animSet="Castanic_F_ANI.Anim.Castanic_F_Class13_Anim" />
+        <DeathWait>
+            <HitCylinder>
+                <Cylinder radius="20" locAngle="0" locDistance="0" locZ="0" height="10" />
+            </HitCylinder>
+        </DeathWait>
+        <ModeList>
+            <Mode id="0" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="1.848648" cameraHeightRateNear="0.925" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="50" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+            <Mode id="20" blockMove="false" blockRotate="false" cameraHeightRate="0.6" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="false" cameraOffsetMaxMinSpeed="50" cameraOffsetMaxOffset="30" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="30" cameraOffsetMinOffset="0" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="2000" cameraPitchMin="-5000" cameraZoomMax="500" cameraZoomMin="100" cameraZoomSpeed="1000" crosshair="NORMAL" decalDirection="0" decalDistance="300" decalEffect="15" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="bRun2" modeWaitAnim="AtkWait2" modeWalkAnim="bRun2" />
+            <Mode id="30" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.8" cameraHeightRateNear="1.5" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="1" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7.000001" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="80" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+        </ModeList>
+        <PickSkillList>
+            <PickSkill type="1" anim="Herb" />
+            <PickSkill type="2" anim="mine" />
+            <PickSkill type="3" anim="bug" />
+            <PickSkill type="4" anim="charge" />
+            <PickSkill type="10" anim="Herb" />
+            <PickSkill type="11" anim="Herb" />
+            <PickSkill type="12" anim="mine" />
+            <PickSkill type="13" anim="bug" />
+            <PickSkill type="14" anim="charge" />
+        </PickSkillList>
+        <ReactionMotionList>
+            <ReactionMotion id="1" reaction="1080501" />
+            <ReactionMotion id="2" reaction="1080502" />
+            <ReactionMotion id="3" reaction="1080502" />
+            <ReactionMotion id="4" reaction="1080503" />
+            <ReactionMotion id="5" reaction="1080504" />
+            <ReactionMotion id="6" reaction="1080505" />
+            <ReactionMotion id="7" reaction="1080506" />
+            <ReactionMotion id="15" reaction="1080551" />
+            <ReactionMotion id="16" reaction="1080552" />
+            <ReactionMotion id="14" reaction="1080553" />
+            <ReactionMotion id="8" reaction="1080508" />
+            <ReactionMotion id="9" reaction="1080560" />
+            <ReactionMotion id="13" reaction="1080554" />
+        </ReactionMotionList>
+        <Run>
+            <HitCylinder>
+                <Cylinder />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder />
+            </MoveCylinder>
+        </Run>
+        <SocialAction socialMotionIdWhenAngerEnd="0" />
+        <SocialMotionList />
+        <Wait>
+            <HitCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="37" />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="45" />
+            </MoveCylinder>
+        </Wait>
+    </BasicActions>
+    <BasicActions id="21900" name="고양이 무도가">
+        <AnimMotionList>
+            <AnimMotion id="1" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="enchant" />
+            <AnimMotion id="2" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="campItemUse" />
+            <AnimMotion id="3" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="herb" />
+            <AnimMotion id="4" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="Throw_Q" />
+            <AnimMotion id="5" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="PvpAttackshotStand" />
+            <AnimMotion id="6" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="Craft_energy" />
+            <AnimMotion id="7" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="PvpBuffShotStand" />
+            <AnimMotion id="8" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="PvpCastingStand" />
+            <AnimMotion id="9" animSet="Popori_M_ANI.Anim.Popori_M_Class11_Anim" animName="bReactionStart3" />
+            <AnimMotion id="10" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="summonPet" />
+            <AnimMotion id="11" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="recall" />
+            <AnimMotion id="12" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim_Level3S" animName="greet" />
+            <AnimMotion id="13" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="PvpAttackshotMove" />
+        </AnimMotionList>
+        <Death animSet="Popori_M_ANI.Anim.Popori_M_Class11_Anim" />
+        <DeathWait>
+            <HitCylinder>
+                <Cylinder radius="20" locAngle="0" locDistance="0" locZ="0" height="10" />
+            </HitCylinder>
+        </DeathWait>
+        <ModeList>
+            <Mode id="0" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.2" cameraHeightRateNear="0.85" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="50" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+            <Mode id="20" blockMove="false" blockRotate="false" cameraHeightRate="0.6" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="false" cameraOffsetMaxMinSpeed="50" cameraOffsetMaxOffset="30" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="30" cameraOffsetMinOffset="0" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="2000" cameraPitchMin="-5000" cameraZoomMax="500" cameraZoomMin="100" cameraZoomSpeed="1000" crosshair="NORMAL" decalDirection="0" decalDistance="300" decalEffect="15" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="bRun2" modeWaitAnim="AtkWait2" modeWalkAnim="bRun2" />
+            <Mode id="30" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.8" cameraHeightRateNear="1.5" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="1" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7.000001" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="80" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+        </ModeList>
+        <PickSkillList>
+            <PickSkill type="1" anim="Herb" />
+            <PickSkill type="2" anim="mine" />
+            <PickSkill type="3" anim="bug" />
+            <PickSkill type="4" anim="charge" />
+            <PickSkill type="10" anim="Herb" />
+            <PickSkill type="11" anim="Herb" />
+            <PickSkill type="12" anim="mine" />
+            <PickSkill type="13" anim="bug" />
+            <PickSkill type="14" anim="charge" />
+        </PickSkillList>
+        <ReactionMotionList>
+            <ReactionMotion id="1" reaction="1101101" />
+            <ReactionMotion id="2" reaction="1101102" />
+            <ReactionMotion id="3" reaction="1101102" />
+            <ReactionMotion id="4" reaction="1101103" />
+            <ReactionMotion id="5" reaction="1101104" />
+            <ReactionMotion id="7" reaction="1101106" />
+            <ReactionMotion id="15" reaction="1101151" />
+            <ReactionMotion id="16" reaction="1101152" />
+            <ReactionMotion id="14" reaction="1101153" />
+            <ReactionMotion id="8" reaction="1101108" />
+            <ReactionMotion id="9" reaction="1101160" />
+            <ReactionMotion id="13" reaction="1101154" />
+        </ReactionMotionList>
+        <Run>
+            <HitCylinder>
+                <Cylinder />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder />
+            </MoveCylinder>
+        </Run>
+        <SocialAction socialMotionIdWhenAngerEnd="0" />
+        <SocialMotionList />
+        <Wait>
+            <HitCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="32" />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="45" />
+            </MoveCylinder>
+        </Wait>
+    </BasicActions>
+    <BasicActions id="22000" name="Castanic_Female_Engineer_Base">
+        <AnimMotionList>
+            <AnimMotion id="1" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="enchant" />
+            <AnimMotion id="2" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="campItemUse" />
+            <AnimMotion id="3" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="herb" />
+            <AnimMotion id="4" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="Throw_Q" />
+            <AnimMotion id="5" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="PvpAttackshotStand" />
+            <AnimMotion id="6" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="Craft_energy" />
+            <AnimMotion id="7" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="PvpBuffShotStand" />
+            <AnimMotion id="8" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="PvpCastingStand" />
+            <AnimMotion id="9" animSet="Castanic_F_ANI.Anim.Castanic_F_Class08_Anim" animName="bReactionStart3" />
+            <AnimMotion id="10" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="summonPet" />
+            <AnimMotion id="11" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="recall" />
+            <AnimMotion id="12" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim_Level3S" animName="greet" />
+            <AnimMotion id="13" animSet="Castanic_F_ANI.Anim.Castanic_F_Share_Anim" animName="PvpAttackshotMove" />
+        </AnimMotionList>
+        <Death animSet="Castanic_F_ANI.Anim.Castanic_F_Class10_Anim" />
+        <DeathWait>
+            <HitCylinder>
+                <Cylinder radius="20" locAngle="0" locDistance="0" locZ="0" height="10" />
+            </HitCylinder>
+        </DeathWait>
+        <ModeList>
+            <Mode id="0" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="1.848648" cameraHeightRateNear="0.925" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="50" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+            <Mode id="20" blockMove="false" blockRotate="false" cameraHeightRate="0.6" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="false" cameraOffsetMaxMinSpeed="50" cameraOffsetMaxOffset="30" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="30" cameraOffsetMinOffset="0" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="2000" cameraPitchMin="-5000" cameraZoomMax="500" cameraZoomMin="100" cameraZoomSpeed="1000" crosshair="NORMAL" decalDirection="0" decalDistance="300" decalEffect="15" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="bRun2" modeWaitAnim="AtkWait2" modeWalkAnim="bRun2" />
+            <Mode id="30" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.8" cameraHeightRateNear="1.5" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="1" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7.000001" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="80" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+        </ModeList>
+        <PickSkillList>
+            <PickSkill type="1" anim="Herb" />
+            <PickSkill type="2" anim="mine" />
+            <PickSkill type="3" anim="bug" />
+            <PickSkill type="4" anim="charge" />
+            <PickSkill type="10" anim="Herb" />
+            <PickSkill type="11" anim="Herb" />
+            <PickSkill type="12" anim="mine" />
+            <PickSkill type="13" anim="bug" />
+            <PickSkill type="14" anim="charge" />
+        </PickSkillList>
+        <ReactionMotionList>
+            <ReactionMotion id="1" reaction="1081001" />
+            <ReactionMotion id="2" reaction="1081002" />
+            <ReactionMotion id="3" reaction="1081002" />
+            <ReactionMotion id="4" reaction="1081003" />
+            <ReactionMotion id="5" reaction="1081004" />
+            <ReactionMotion id="7" reaction="1081006" />
+            <ReactionMotion id="15" reaction="1081051" />
+            <ReactionMotion id="16" reaction="1081052" />
+            <ReactionMotion id="14" reaction="1081053" />
+            <ReactionMotion id="8" reaction="1081008" />
+            <ReactionMotion id="9" reaction="1081060" />
+            <ReactionMotion id="13" reaction="1081054" />
+        </ReactionMotionList>
+        <Run>
+            <HitCylinder>
+                <Cylinder />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder />
+            </MoveCylinder>
+        </Run>
+        <SocialAction socialMotionIdWhenAngerEnd="0" />
+        <SocialMotionList />
+        <Wait>
+            <HitCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="37" />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="45" />
+            </MoveCylinder>
+        </Wait>
+    </BasicActions>
+    <BasicActions id="22100" name="트로">
+        <AnimMotionList>
+            <AnimMotion id="1" animSet="Castanic_M_ANI.Anim.Castanic_M_Share_Anim" animName="enchant" />
+            <AnimMotion id="2" animSet="Castanic_M_ANI.Anim.Castanic_M_Share_Anim" animName="campItemUse" />
+            <AnimMotion id="3" animSet="Castanic_M_ANI.Anim.Castanic_M_Share_Anim" animName="herb" />
+            <AnimMotion id="4" animSet="Castanic_M_ANI.Anim.Castanic_M_Share_Anim" animName="Throw_Q" />
+            <AnimMotion id="5" animSet="Castanic_M_ANI.Anim.Castanic_M_Share_Anim" animName="PvpAttackshotStand" />
+            <AnimMotion id="6" animSet="Castanic_M_ANI.Anim.Castanic_M_Share_Anim" animName="Craft_energy" />
+            <AnimMotion id="7" animSet="Castanic_M_ANI.Anim.Castanic_M_Share_Anim" animName="PvpBuffShotStand" />
+            <AnimMotion id="8" animSet="Castanic_M_ANI.Anim.Castanic_M_Share_Anim" animName="PvpCastingStand" />
+            <AnimMotion id="9" animSet="Castanic_M_ANI.Anim.Castanic_M_Class05_Anim" animName="bReactionStart3" />
+            <AnimMotion id="10" animSet="Castanic_M_ANI.Anim.Castanic_M_Share_Anim" animName="summonPet" />
+            <AnimMotion id="11" animSet="Castanic_M_ANI.Anim.Castanic_M_Share_Anim" animName="recall" />
+            <AnimMotion id="12" animSet="Castanic_M_ANI.Anim.Castanic_M_Share_Anim_Level3S" animName="greet" />
+            <AnimMotion id="13" animSet="Castanic_M_ANI.Anim.Castanic_M_Share_Anim" animName="PvpAttackshotMove" />
+        </AnimMotionList>
+        <AnimMotionList />
+        <Death animSet="Castanic_M_ANI.Anim.Castanic_M_Class05_Anim" />
+        <DeathWait>
+            <HitCylinder>
+                <Cylinder radius="20" locAngle="0" locDistance="0" locZ="0" height="10" />
+            </HitCylinder>
+        </DeathWait>
+        <ModeList>
+            <Mode id="0" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="1.60909" cameraHeightRateNear="0.925" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="50" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+            <Mode id="20" blockMove="false" blockRotate="false" cameraHeightRate="0.6" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="false" cameraOffsetMaxMinSpeed="50" cameraOffsetMaxOffset="30" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="30" cameraOffsetMinOffset="0" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="2000" cameraPitchMin="-5000" cameraZoomMax="500" cameraZoomMin="100" cameraZoomSpeed="1000" crosshair="NORMAL" decalDirection="0" decalDistance="300" decalEffect="15" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="bRun2" modeWaitAnim="AtkWait2" modeWalkAnim="bRun2" />
+            <Mode id="30" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.8" cameraHeightRateNear="1.5" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="1" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7.000001" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="80" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+        </ModeList>
+        <PickSkillList>
+            <PickSkill type="1" anim="Herb" />
+            <PickSkill type="2" anim="mine" />
+            <PickSkill type="3" anim="bug" />
+            <PickSkill type="4" anim="charge" />
+            <PickSkill type="10" anim="Herb" />
+            <PickSkill type="11" anim="Herb" />
+            <PickSkill type="12" anim="mine" />
+            <PickSkill type="13" anim="bug" />
+            <PickSkill type="14" anim="charge" />
+        </PickSkillList>
+        <ReactionMotionList>
+            <ReactionMotion id="1" reaction="1070501" />
+            <ReactionMotion id="2" reaction="1070502" />
+            <ReactionMotion id="3" reaction="1070502" />
+            <ReactionMotion id="4" reaction="1070503" />
+            <ReactionMotion id="5" reaction="1070504" />
+            <ReactionMotion id="6" reaction="1070505" />
+            <ReactionMotion id="7" reaction="1070606" />
+            <ReactionMotion id="15" reaction="1070551" />
+            <ReactionMotion id="16" reaction="1070552" />
+            <ReactionMotion id="14" reaction="1070553" />
+            <ReactionMotion id="8" reaction="1070508" />
+            <ReactionMotion id="9" reaction="1070560" />
+            <ReactionMotion id="13" reaction="1070554" />
+        </ReactionMotionList>
+        <Run>
+            <HitCylinder>
+                <Cylinder />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder />
+            </MoveCylinder>
+        </Run>
+        <SocialAction socialMotionIdWhenAngerEnd="0" />
+        <SocialMotionList />
+        <Wait>
+            <HitCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="44" />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="45" />
+            </MoveCylinder>
+        </Wait>
+    </BasicActions>
+    <BasicActions id="22300" name="포아룽">
+        <AnimMotionList>
+            <AnimMotion id="1" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="enchant" />
+            <AnimMotion id="2" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="campItemUse" />
+            <AnimMotion id="3" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="herb" />
+            <AnimMotion id="4" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="Throw_Q" />
+            <AnimMotion id="5" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="PvpAttackshotStand" />
+            <AnimMotion id="6" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="Craft_energy" />
+            <AnimMotion id="7" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="PvpBuffShotStand" />
+            <AnimMotion id="8" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="PvpCastingStand" />
+            <AnimMotion id="9" animSet="Popori_M_ANI.Anim.Popori_M_Class06_Anim" animName="bReactionStart3" />
+            <AnimMotion id="10" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="summonPet" />
+            <AnimMotion id="11" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="recall" />
+            <AnimMotion id="12" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim_Level3S" animName="greet" />
+            <AnimMotion id="13" animSet="Popori_M_ANI.Anim.Popori_M_Share_Anim" animName="PvpAttackshotMove" />
+        </AnimMotionList>
+        <Death animSet="Popori_M_ANI.Anim.Popori_M_Class06_Anim" />
+        <DeathWait>
+            <HitCylinder>
+                <Cylinder radius="20" locAngle="0" locDistance="0" locZ="0" height="10" />
+            </HitCylinder>
+        </DeathWait>
+        <ModeList>
+            <Mode id="0" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.2" cameraHeightRateNear="0.85" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="50" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+            <Mode id="20" blockMove="false" blockRotate="false" cameraHeightRate="0.6" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="false" cameraOffsetMaxMinSpeed="50" cameraOffsetMaxOffset="30" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="30" cameraOffsetMinOffset="0" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="2000" cameraPitchMin="-5000" cameraZoomMax="500" cameraZoomMin="100" cameraZoomSpeed="1000" crosshair="NORMAL" decalDirection="0" decalDistance="300" decalEffect="15" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="bRun2" modeWaitAnim="AtkWait2" modeWalkAnim="bRun2" />
+            <Mode id="30" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.8" cameraHeightRateNear="1.5" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="1" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7.000001" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="80" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+        </ModeList>
+        <PickSkillList>
+            <PickSkill type="1" anim="Herb" />
+            <PickSkill type="2" anim="mine" />
+            <PickSkill type="3" anim="bug" />
+            <PickSkill type="4" anim="charge" />
+            <PickSkill type="10" anim="Herb" />
+            <PickSkill type="11" anim="Herb" />
+            <PickSkill type="12" anim="mine" />
+            <PickSkill type="13" anim="bug" />
+            <PickSkill type="14" anim="charge" />
+        </PickSkillList>
+        <ReactionMotionList>
+            <ReactionMotion id="1" reaction="1090101" />
+            <ReactionMotion id="2" reaction="1090102" />
+            <ReactionMotion id="3" reaction="1090102" />
+            <ReactionMotion id="4" reaction="1090103" />
+            <ReactionMotion id="5" reaction="1090104" />
+            <ReactionMotion id="7" reaction="1090106" />
+            <ReactionMotion id="15" reaction="1090151" />
+            <ReactionMotion id="16" reaction="1090152" />
+            <ReactionMotion id="14" reaction="1090153" />
+            <ReactionMotion id="8" reaction="1090108" />
+            <ReactionMotion id="9" reaction="1090160" />
+            <ReactionMotion id="13" reaction="1090154" />
+        </ReactionMotionList>
+        <Run>
+            <HitCylinder>
+                <Cylinder />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder />
+            </MoveCylinder>
+        </Run>
+        <SocialAction socialMotionIdWhenAngerEnd="0" />
+        <SocialMotionList />
+        <Wait>
+            <HitCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="32" />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="45" />
+            </MoveCylinder>
+        </Wait>
+    </BasicActions>
+    <BasicActions id="22400" name="무타르">
+        <AnimMotionList>
+            <AnimMotion id="1" animSet="Baraka_M_ANI.Anim.Baraka_M_Share_Anim" animName="enchant" />
+            <AnimMotion id="2" animSet="Baraka_M_ANI.Anim.Baraka_M_Share_Anim" animName="campItemUse" />
+            <AnimMotion id="3" animSet="Baraka_M_ANI.Anim.Baraka_M_Share_Anim" animName="herb" />
+            <AnimMotion id="4" animSet="Baraka_M_ANI.Anim.Baraka_M_Share_Anim" animName="Throw_Q" />
+            <AnimMotion id="5" animSet="Baraka_M_ANI.Anim.Baraka_M_Share_Anim" animName="PvpAttackshotStand" />
+            <AnimMotion id="6" animSet="Baraka_M_ANI.Anim.Baraka_M_Share_Anim" animName="Craft_energy" />
+            <AnimMotion id="7" animSet="Baraka_M_ANI.Anim.Baraka_M_Share_Anim" animName="PvpBuffShotStand" />
+            <AnimMotion id="8" animSet="Baraka_M_ANI.Anim.Baraka_M_Share_Anim" animName="PvpCastingStand" />
+            <AnimMotion id="9" animSet="Baraka_M_ANI.Anim.Baraka_M_Class04_Anim" animName="bReactionStart3" />
+            <AnimMotion id="10" animSet="Baraka_M_ANI.Anim.Baraka_M_Share_Anim" animName="summonPet" />
+            <AnimMotion id="11" animSet="Baraka_M_ANI.Anim.Baraka_M_Share_Anim" animName="recall" />
+            <AnimMotion id="12" animSet="Baraka_M_ANI.Anim.Baraka_M_Share_Anim_Level3S" animName="greet" />
+            <AnimMotion id="13" animSet="Baraka_M_ANI.Anim.Baraka_M_Share_Anim" animName="PvpAttackshotMove" />
+        </AnimMotionList>
+        <Death animSet="Baraka_M_ANI.Anim.Baraka_M_Class04_Anim" />
+        <DeathWait>
+            <HitCylinder>
+                <Cylinder radius="20" locAngle="0" locDistance="0" locZ="0" height="10" />
+            </HitCylinder>
+        </DeathWait>
+        <ModeList>
+            <Mode id="0" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="1.078572" cameraHeightRateNear="0.85" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="50" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+            <Mode id="20" blockMove="false" blockRotate="false" cameraHeightRate="0.6" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="false" cameraOffsetMaxMinSpeed="50" cameraOffsetMaxOffset="30" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="30" cameraOffsetMinOffset="0" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="2000" cameraPitchMin="-5000" cameraZoomMax="500" cameraZoomMin="100" cameraZoomSpeed="1000" crosshair="NORMAL" decalDirection="0" decalDistance="300" decalEffect="15" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="bRun2" modeWaitAnim="AtkWait2" modeWalkAnim="bRun2" />
+            <Mode id="30" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.8" cameraHeightRateNear="1.5" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="1" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7.000001" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="80" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+        </ModeList>
+        <PickSkillList>
+            <PickSkill type="1" anim="Herb" />
+            <PickSkill type="2" anim="mine" />
+            <PickSkill type="3" anim="bug" />
+            <PickSkill type="4" anim="charge" />
+            <PickSkill type="10" anim="Herb" />
+            <PickSkill type="11" anim="Herb" />
+            <PickSkill type="12" anim="mine" />
+            <PickSkill type="13" anim="bug" />
+            <PickSkill type="14" anim="charge" />
+        </PickSkillList>
+        <ReactionMotionList>
+            <ReactionMotion id="1" reaction="1110401" />
+            <ReactionMotion id="2" reaction="1110402" />
+            <ReactionMotion id="3" reaction="1110402" />
+            <ReactionMotion id="4" reaction="1110403" />
+            <ReactionMotion id="5" reaction="1110404" />
+            <ReactionMotion id="7" reaction="1110406" />
+            <ReactionMotion id="15" reaction="1110451" />
+            <ReactionMotion id="16" reaction="1110452" />
+            <ReactionMotion id="14" reaction="1110453" />
+            <ReactionMotion id="8" reaction="1110408" />
+            <ReactionMotion id="9" reaction="1110460" />
+            <ReactionMotion id="13" reaction="1110454" />
+        </ReactionMotionList>
+        <Run>
+            <HitCylinder>
+                <Cylinder />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder />
+            </MoveCylinder>
+        </Run>
+        <SocialAction socialMotionIdWhenAngerEnd="0" />
+        <SocialMotionList />
+        <Wait>
+            <HitCylinder>
+                <Cylinder radius="13" locAngle="0" locDistance="0" locZ="0" height="56" />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder radius="13" locAngle="0" locDistance="0" locZ="0" height="56" />
+            </MoveCylinder>
+        </Wait>
+    </BasicActions>
+    <BasicActions id="22500" name="엘린월무">
+        <AnimMotionList>
+            <AnimMotion id="1" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="enchant" />
+            <AnimMotion id="2" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="campItemUse" />
+            <AnimMotion id="3" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="herb" />
+            <AnimMotion id="4" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="Throw_Q" />
+            <AnimMotion id="5" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="PvpAttackshotStand" />
+            <AnimMotion id="6" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="Craft_energy" />
+            <AnimMotion id="7" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="PvpBuffShotStand" />
+            <AnimMotion id="8" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="PvpCastingStand" />
+            <AnimMotion id="9" animSet="Popori_F_ANI.Anim.Popori_F_Class13_Anim" animName="bReactionStart3" />
+            <AnimMotion id="10" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="summonPet" />
+            <AnimMotion id="11" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim" animName="recall" />
+            <AnimMotion id="12" animSet="Popori_F_ANI.Anim.Popori_F_Share_Anim_Level3S" animName="greet" />
+        </AnimMotionList>
+        <Death animSet="Popori_F_ANI.Anim.Popori_F_Class13_Anim" />
+        <DeathWait>
+            <HitCylinder>
+                <Cylinder radius="20" locAngle="0" locDistance="0" locZ="0" height="10" />
+            </HitCylinder>
+        </DeathWait>
+        <ModeList>
+            <Mode id="0" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="1.848648" cameraHeightRateNear="0.925" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="50" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+            <Mode id="20" blockMove="false" blockRotate="false" cameraHeightRate="0.6" cameraOffsetExp="2" cameraOffsetInwardSpeed="2" cameraOffsetLeftSide="false" cameraOffsetMaxMinSpeed="50" cameraOffsetMaxOffset="30" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="30" cameraOffsetMinOffset="0" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="2000" cameraPitchMin="-5000" cameraZoomMax="500" cameraZoomMin="100" cameraZoomSpeed="1000" crosshair="NORMAL" decalDirection="0" decalDistance="300" decalEffect="15" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="bRun2" modeWaitAnim="AtkWait2" modeWalkAnim="bRun2" />
+            <Mode id="30" blockMove="false" blockRotate="false" cameraHeightExp="0.75" cameraHeightRate="2.8" cameraHeightRateNear="1.5" cameraHeightTransitionDist="500" cameraOffsetExp="2" cameraOffsetInwardSpeed="1" cameraOffsetLeftSide="true" cameraOffsetMaxMinSpeed="80" cameraOffsetMaxOffset="7" cameraOffsetMaxSpeed="100" cameraOffsetMinMaxSpeed="50" cameraOffsetMinOffset="7.000001" cameraOffsetMinSpeed="0" cameraOffsetOutwardSpeed="2" cameraPitchMax="12000" cameraPitchMin="-12000" cameraZoomMax="500" cameraZoomMin="80" cameraZoomSpeed="1000" crosshair="NORMAL" crosshairXPos="50" crosshairXPosOnHorse="50" crosshairYPos="44" crosshairYPosOnHorse="30" modeInAnim="" modeInEffect="0" modeLoopEffect="0" modeOutAnim="" modeOutEffect="0" modeRunAnim="" modeWaitAnim="" modeWalkAnim="" />
+        </ModeList>
+        <PickSkillList>
+            <PickSkill type="1" anim="Herb" />
+            <PickSkill type="2" anim="mine" />
+            <PickSkill type="3" anim="bug" />
+            <PickSkill type="4" anim="charge" />
+            <PickSkill type="10" anim="Herb" />
+            <PickSkill type="11" anim="Herb" />
+            <PickSkill type="12" anim="mine" />
+            <PickSkill type="13" anim="bug" />
+            <PickSkill type="14" anim="charge" />
+        </PickSkillList>
+        <ReactionMotionList>
+            <ReactionMotion id="1" reaction="1081301" />
+            <ReactionMotion id="2" reaction="1081302" />
+            <ReactionMotion id="3" reaction="1081302" />
+            <ReactionMotion id="4" reaction="1081303" />
+            <ReactionMotion id="5" reaction="1081304" />
+            <ReactionMotion id="7" reaction="1081306" />
+            <ReactionMotion id="15" reaction="1081351" />
+            <ReactionMotion id="16" reaction="1081352" />
+            <ReactionMotion id="14" reaction="1081353" />
+            <ReactionMotion id="8" reaction="1081308" />
+            <ReactionMotion id="9" reaction="1081360" />
+            <ReactionMotion id="13" reaction="1081354" />
+        </ReactionMotionList>
+        <Run>
+            <HitCylinder>
+                <Cylinder />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder />
+            </MoveCylinder>
+        </Run>
+        <SocialAction socialMotionIdWhenAngerEnd="0" />
+        <SocialMotionList />
+        <Wait>
+            <HitCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="37" />
+            </HitCylinder>
+            <MoveCylinder>
+                <Cylinder radius="10" locAngle="0" locDistance="0" locZ="0" height="45" />
+            </MoveCylinder>
+        </Wait>
+    </BasicActions>
+</HeroBasicActionData>

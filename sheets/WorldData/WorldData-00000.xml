@@ -1,0 +1,497 @@
+<WorldData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/WorldData WorldData.xsd" xmlns="https://vezel.dev/novadrop/dc/WorldData">
+    <AbnormalityEffectType id="190" linkWeaponEnchantLevel="10001" />
+    <AbnormalityUI deletePeriod="604800" focusUILimitNum="8" />
+    <ActionKey rangeStep="25">
+        <ActionType name="Stronghold" priority="3" activeRange="100" interactionDist="100" />
+        <ActionType name="Climb" priority="2" activeRange="100" interactionDist="20" />
+        <ActionType name="NpcTalk" priority="1" activeRange="150" interactionDist="150" />
+        <ActionType name="Collect" priority="1" activeRange="100" interactionDist="40" useAngle="30" />
+        <ActionType name="Homun" priority="1" activeRange="100" interactionDist="50" />
+        <ActionType name="DropItem" priority="1" activeRange="170" autoInteractionDist="40" interactionDist="75" />
+        <ActionType name="VehicleExFix" priority="1" activeRange="200" interactionDist="200" />
+        <ActionType name="SpiritFix" priority="1" activeRange="200" interactionDist="200" />
+        <ActionType name="WorkObject" priority="1" activeRange="100" interactionDist="70" />
+        <ActionType name="GuildTower" priority="1" activeRange="200" activeVolumeHeight="256" interactionDist="200" />
+        <ActionType name="JumpGear" priority="1" activeRange="400" interactionDist="30" />
+    </ActionKey>
+    <AutoLogout autoLogoutTimeInLobby="3600" autoLogoutTimeInWorld="7200" />
+    <AutoRefreshServerList sec="600" />
+    <BookmarkTeleport maxTeleportPosCount="15" />
+    <ChangeColor progressTime="3" socialOnFail="29" socialOnProgress="37" socialOnSuccess="20" />
+    <ChangeLook value="0.1" progressTime="5" socialOnFail="29" socialOnProgress="37" socialOnSuccess="20" />
+    <ChapterHouse maxTabCount="4" />
+    <ChatBanTime>
+        <Item seconds="1800" />
+        <Item seconds="3600" />
+        <Item seconds="18000" />
+        <Item seconds="36000" />
+    </ChatBanTime>
+    <ChatConfig>
+        <ChatSound noticeSoundId="2089" whisperSoundId="2001" />
+    </ChatConfig>
+    <ChronoScrollPetition id="41" time="5.f" />
+    <ClientLeaveWorld />
+    <CollisionRule collideInDarkRift="false" collideInRaid="false" />
+    <CriticalSoundConfig>
+        <CriticalSound class="warrior" soundCue="ModuleSound.ArmorCriticalHitCUE.CriticalHit" />
+        <CriticalSound class="lancer" soundCue="ModuleSound.ArmorCriticalHitCUE.CriticalHit" />
+        <CriticalSound class="slayer" soundCue="ModuleSound.ArmorCriticalHitCUE.CriticalHit" />
+        <CriticalSound class="berserker" soundCue="ModuleSound.ArmorCriticalHitCUE.CriticalHit" />
+        <CriticalSound class="sorcerer" soundCue="" />
+        <CriticalSound class="archer" soundCue="ModuleSound.ArmorCriticalHitCUE.CriticalHit" />
+        <CriticalSound class="priest" soundCue="" />
+        <CriticalSound class="elementalist" soundCue="" />
+        <CriticalSound class="soulless" soundCue="ModuleSound.ArmorCriticalHitCUE.CriticalHit" />
+        <CriticalSound class="engineer" soundCue="ModuleSound.ArmorCriticalHitCUE.CriticalHit" />
+        <CriticalSound class="fighter" soundCue="ModuleSound.ArmorCriticalHitCUE.CriticalHit" />
+        <CriticalSound class="assassin" soundCue="ModuleSound.ArmorCriticalHitCUE.CriticalHit" />
+        <CriticalSound class="glaiver" soundCue="ModuleSound.ArmorCriticalHitCUE.CriticalHit" />
+    </CriticalSoundConfig>
+    <CustomItemCrystalsWarning>
+        <Warning minLevel="30" target="weapon,armor" maxLevel="64" />
+        <Warning minLevel="65" target="weapon,armor,accessory" maxLevel="65" />
+    </CustomItemCrystalsWarning>
+    <DamagePenetrationConst value="10000" />
+    <Death dimConditionValue="100" />
+    <DungeonConfig>
+        <UnavailableItems>
+            <Item id="139729" />
+            <Item id="149051" />
+            <Item id="334" />
+            <Item id="335" />
+            <Item id="1194" />
+            <Item id="1195" />
+            <Item id="1196" />
+            <Item id="1197" />
+            <Item id="1164" />
+            <Item id="1167" />
+            <Item id="1170" />
+            <Item id="1185" />
+            <Item id="397" />
+            <Item id="70001" />
+            <Item id="854579" />
+            <Item id="70052" />
+            <Item id="98032" />
+            <Item id="99011" />
+            <Item id="99012" />
+            <Item id="99013" />
+            <Item id="99014" />
+            <Item id="99015" />
+            <Item id="99016" />
+            <Item id="99017" />
+            <Item id="99018" />
+        </UnavailableItems>
+    </DungeonConfig>
+    <DungeonResonance>
+        <Variant id="1" isChooseDungeonMode="true">
+            <DungeonResonanceEntranceItem>
+                <EntranceItem>
+                    <DefaultMaterial id="365009" />
+                    <SubstitutionalMaterial id="365006" priority="5" />
+                    <SubstitutionalMaterial id="365007" priority="4" />
+                    <SubstitutionalMaterial id="365009" priority="3" />
+                    <SubstitutionalMaterial id="365010" priority="2" />
+                </EntranceItem>
+            </DungeonResonanceEntranceItem>
+            <DungeonResonanceWarningTime value="180" />
+        </Variant>
+        <Variant id="2" isChooseDungeonMode="true">
+            <DungeonResonanceEntranceItem>
+                <EntranceItem>
+                    <DefaultMaterial id="365011" />
+                    <SubstitutionalMaterial id="365006" priority="5" />
+                    <SubstitutionalMaterial id="365007" priority="4" />
+                    <SubstitutionalMaterial id="365011" priority="3" />
+                    <SubstitutionalMaterial id="365012" priority="2" />
+                </EntranceItem>
+            </DungeonResonanceEntranceItem>
+            <DungeonResonanceWarningTime value="180" />
+        </Variant>
+        <Variant id="3" isChooseDungeonMode="true">
+            <DungeonResonanceEntranceItem>
+                <EntranceItem>
+                    <DefaultMaterial id="365011" />
+                    <SubstitutionalMaterial id="365006" priority="5" />
+                    <SubstitutionalMaterial id="365007" priority="4" />
+                    <SubstitutionalMaterial id="365011" priority="3" />
+                    <SubstitutionalMaterial id="365012" priority="2" />
+                </EntranceItem>
+            </DungeonResonanceEntranceItem>
+            <DungeonResonanceWarningTime value="180" />
+        </Variant>
+        <Variant id="4">
+            <DungeonResonanceEntranceItem>
+                <EntranceItem>
+                    <DefaultMaterial id="365008" />
+                    <SubstitutionalMaterial id="365008" priority="3" />
+                </EntranceItem>
+            </DungeonResonanceEntranceItem>
+            <DungeonResonanceWarningTime value="180" />
+        </Variant>
+    </DungeonResonance>
+    <EnchantIni>
+        <Resource effectOnSucess="" />
+    </EnchantIni>
+    <FollowConfig arriveDistanceThreshold="1" giveupFollowDistanceThreshold="500" maxFollowDistanceThreshold="110" minFollowDistanceThreshold="60" />
+    <Gachabox maxContinuousOpenNumberGachabox="1000" />
+    <GuildRecommendation coolTime="24" />
+    <HealAdjust archer="0" assassin="0" berserker="0" elementalist="0.001" engineer="0" fighter="0" glaiver="0" lancer="0" priest="0.001" slayer="0" sorcerer="0" soulless="0" warrior="0" />
+    <Homunculus promotionMemo="true" />
+    <LinkGuide>
+        <DeleteLink range="50" />
+    </LinkGuide>
+    <MagicalHealAdjust archer="0" assassin="0" berserker="0" elementalist="0.03" engineer="0" fighter="0" glaiver="0" lancer="0" priest="0.03" slayer="0" sorcerer="0" soulless="0" warrior="0" />
+    <MiniReactionPush>
+        <Target type="small" duration="180" distance="25" initAcc="-125" initVel="175" />
+        <Target type="medium" duration="180" distance="25" initAcc="-125" initVel="175" />
+    </MiniReactionPush>
+    <MoneyString>
+        <MoneyString type="SysMsgSmall">
+            <Copper start="&lt;font color='#C87551'&gt;" end="&lt;/font&gt;&lt;img src='Copper_smalltoken' vspace='-4'/&gt;" />
+            <Gold start="&lt;font color='#FFB033'&gt;" end="&lt;/font&gt;&lt;img src='Gold_smalltoken' vspace='-4'/&gt;" />
+            <Silver start="&lt;font color='#D7D7D7'&gt;" end="&lt;/font&gt;&lt;img src='Silver_smalltoken' vspace='-4'/&gt;" />
+        </MoneyString>
+        <MoneyString type="SysMsgLarge">
+            <Copper start="&lt;font color='#C87551'&gt;" end="&lt;/font&gt;&lt;img src='Copper_largetoken' vspace='-1'/&gt;" />
+            <Gold start="&lt;font color='#FFB033'&gt;" end="&lt;/font&gt;&lt;img src='Gold_largetoken' vspace='-1'/&gt;" />
+            <Silver start="&lt;font color='#D7D7D7'&gt;" end="&lt;/font&gt;&lt;img src='Silver_largetoken' vspace='-1'/&gt;" />
+        </MoneyString>
+        <MoneyString type="Chat">
+            <Copper start="&lt;font color='#C87551'&gt;" end="&lt;/font&gt;&lt;img src='Copper_smalltoken' vspace='-2'/&gt;" />
+            <Gold start="&lt;font color='#FFB033'&gt;" end="&lt;/font&gt;&lt;img src='Gold_smalltoken' vspace='-2'/&gt;" />
+            <Silver start="&lt;font color='#D7D7D7'&gt;" end="&lt;/font&gt;&lt;img src='Silver_smalltoken' vspace='-2'/&gt;" />
+        </MoneyString>
+        <MoneyString type="Popup">
+            <Copper start="&lt;font color='#C87551'&gt;" end="&lt;/font&gt;&lt;img src='Copper_smalltoken' vspace='-2'/&gt;" />
+            <Gold start="&lt;font color='#FFB033'&gt;" end="&lt;/font&gt;&lt;img src='Gold_smalltoken' vspace='-2'/&gt;" />
+            <Silver start="&lt;font color='#D7D7D7'&gt;" end="&lt;/font&gt;&lt;img src='Silver_smalltoken' vspace='-2'/&gt;" />
+        </MoneyString>
+        <MoneyString type="Achievement">
+            <Copper start="&lt;font color='#C87551'&gt;" end="&lt;/font&gt;&lt;img src='Copper_smalltoken' vspace='-2'/&gt;" />
+            <Gold start="&lt;font color='#FFB033'&gt;" end="&lt;/font&gt;&lt;img src='Gold_smalltoken' vspace='-2'/&gt;" />
+            <Silver start="&lt;font color='#D7D7D7'&gt;" end="&lt;/font&gt;&lt;img src='Silver_smalltoken' vspace='-2'/&gt;" />
+        </MoneyString>
+        <MoneyString type="Tooltip">
+            <Copper start="&lt;font color='#C87551'&gt;" end="&lt;/font&gt;&lt;img src='Copper_smalltoken' vspace='-2'/&gt;" />
+            <Gold start="&lt;font color='#FFB033'&gt;" end="&lt;/font&gt;&lt;img src='Gold_smalltoken' vspace='-2'/&gt;" />
+            <Silver start="&lt;font color='#D7D7D7'&gt;" end="&lt;/font&gt;&lt;img src='Silver_smalltoken' vspace='-2'/&gt;" />
+        </MoneyString>
+    </MoneyString>
+    <MoveConfig airFriction="1.5" climbingSpeed="60" fallingAngle="55" fallingDamageHeight="400" fallingLandingMotionHeight="400" fallingSpeed="600" fallingStartHeight="50" jumpDuration="800" jumpFallingStartHeight="100" jumpHeight="50" movingDefenceForwardSpeed="80" movingDefenceMaxRotationAngle="60" />
+    <NearTown countDownSec="10" />
+    <PCCollisionCheckInAction distance="130" thresholdSpeed="250" />
+    <Petition>
+        <Terapedia url="http://tera.hangame.com/helpdesk/faq.nhn" />
+    </Petition>
+    <PvEServer>
+        <MerchantVillagerException menuId="120" />
+        <QuestException questId="7289,7299" />
+    </PvEServer>
+    <QuestCompensationDecrease>
+        <CompensationDecrease numberOver="21" decreaseRatio="0.5" />
+        <CompensationDecrease numberOver="31" decreaseRatio="1" />
+    </QuestCompensationDecrease>
+    <QuestDifficultyByLevelDiff easyMax="-1" hardMax="2" normalMax="0" />
+    <QuestPriority>
+        <Kind name="NORMAL" property="100" value="0">
+            <State name="END" property="0" marker="6" />
+            <State name="PROGRESS" property="1" icon="WMap_Marker.MARKER_QUEST_STARTABLE" marker="7" />
+            <State name="PROGRESS_REPEAT" property="2" icon="WMap_Marker.MARKER_REPEAT_QUEST_STARTABLE" marker="8" />
+            <State name="STARTABLE" property="3" marker="9" />
+            <State name="STARTABLE_REPEAT" property="4" marker="10" />
+        </Kind>
+        <Kind name="MISSION" property="10" value="1">
+            <State name="END" property="0" marker="1" />
+            <State name="PROGRESS" property="1" icon="WMap_Marker.MARKER_MISSION_STARTABLE" marker="2" />
+            <State name="PROGRESS_REPEAT" property="2" icon="WMap_Marker.MARKER_REPEAT_MISSION_STARTABLE" marker="3" />
+            <State name="STARTABLE" property="3" marker="4" />
+            <State name="STARTABLE_REPEAT" property="4" marker="5" />
+        </Kind>
+        <Kind name="GUILD" property="300" value="2">
+            <State name="END" property="0" marker="11" />
+            <State name="PROGRESS" property="1" icon="WMap_Marker.MARKER_GUILDQ_STARTABLE" marker="12" />
+            <State name="PROGRESS_REPEAT" property="2" icon="WMap_Marker.MARKER_REPEAT_GUILDQ_STARTABLE" marker="13" />
+            <State name="STARTABLE" property="3" marker="14" />
+            <State name="STARTABLE_REPEAT" property="4" marker="15" />
+        </Kind>
+        <Kind name="DAILY" property="200" value="3">
+            <State name="END" property="0" marker="16" />
+            <State name="PROGRESS" property="1" icon="WMap_Marker.MARKER_DAYQUEST_STARTABLE" marker="17" />
+            <State name="PROGRESS_REPEAT" property="2" icon="WMap_Marker.MARKER_REPEAT_DAYQUEST_STARTABLE" marker="18" />
+            <State name="STARTABLE" property="3" marker="19" />
+            <State name="STARTABLE_REPEAT" property="4" marker="20" />
+        </Kind>
+        <Kind name="SCENARIO" property="10" value="6">
+            <State name="END" property="0" marker="1" />
+            <State name="PROGRESS" property="1" icon="WMap_Marker.MARKER_MISSION_STARTABLE" marker="2" />
+            <State name="PROGRESS_REPEAT" property="2" icon="WMap_Marker.MARKER_REPEAT_MISSION_STARTABLE" marker="3" />
+            <State name="STARTABLE" property="3" marker="4" />
+            <State name="STARTABLE_REPEAT" property="4" marker="5" />
+        </Kind>
+        <Kind name="RECOMMANDED_NORMAL" property="50" value="9">
+            <State name="END" property="0" marker="1" />
+            <State name="PROGRESS" property="1" icon="WMap_Marker.MARKER_RECQUEST_STARTABLE" marker="7" />
+            <State name="PROGRESS_REPEAT" property="2" icon="WMap_Marker.MARKER_REPEAT_RECQUEST_STARTABLE" marker="8" />
+            <State name="STARTABLE" property="3" marker="9" />
+            <State name="STARTABLE_REPEAT" property="4" marker="10" />
+        </Kind>
+        <Kind name="IMPORTANT" property="0" value="10">
+            <State name="END" property="0" marker="1" />
+            <State name="PROGRESS" property="1" icon="WMap_Marker.MARKER_UNIONQUEST_STARTABLE" marker="7" />
+            <State name="PROGRESS_REPEAT" property="2" icon="WMap_Marker.MARKER_REPEAT_UNIONQUEST_STARTABLE" marker="8" />
+            <State name="STARTABLE" property="3" marker="9" />
+            <State name="STARTABLE_REPEAT" property="4" marker="10" />
+        </Kind>
+    </QuestPriority>
+    <ReactionCancel defaultCancelTime="500" />
+    <RestrictionOpenList>
+        <RestrictionOpen level="1">
+            <BuyListException itemId="141,142,151,159" />
+            <CollectionException>
+                <ContinentList>
+                    <Continent continentId="7004">
+                        <Territory territoryId="1,116,125,126" />
+                    </Continent>
+                </ContinentList>
+            </CollectionException>
+            <HuntingZoneException hzId="61,361,4,204,304,8,208,308,10,210,310" />
+            <PegasusException pegasusId="21,29,30" />
+        </RestrictionOpen>
+        <RestrictionOpen level="2">
+            <BuyListException itemId="8200,8242" />
+            <HuntingZoneException hzId="1" />
+            <PegasusException pegasusId="1" />
+        </RestrictionOpen>
+        <RestrictionOpen level="3">
+            <BuyListException itemId="8200,8242" />
+            <HuntingZoneException hzId="2" />
+            <PegasusException pegasusId="1" />
+        </RestrictionOpen>
+    </RestrictionOpenList>
+    <SealItem socialOnProgress="37" socialOnSuccess="20" />
+    <SeasonType latestSeasonId="2">
+        <Season id="1" name="AWAKE" />
+        <Season id="2" name="FROZEN" />
+    </SeasonType>
+    <SkillConfig>
+        <AutoToggleOffSkill id="8400010" />
+        <AutoToggleOffSkill id="8400070" />
+        <AutoToggleOffSkill id="8400090" />
+        <AutoToggleOffSkill id="8400110" />
+        <AutoToggleOffSkill id="8400050" />
+        <DisableInBattleField id="8011" />
+        <DisableInBattleField id="7013" />
+        <DisableInBattleField id="925" />
+        <DisableInBattleField id="7039" />
+        <DisableInBattleField id="8012" />
+        <DisableInBattleField id="9991" />
+        <DisableInBattleField id="911002" />
+        <DisableInBattleField id="905002" />
+        <DisableInBattleField id="906002" />
+        <DisableInBattleField id="907002" />
+        <DisableInBattleField id="908002" />
+        <DisableInBattleField id="909002" />
+        <DisableInBattleField id="910002" />
+        <DisableInBattleField id="903002" />
+        <DisableInBattleField id="904002" />
+        <DisableInBattleField id="901002" />
+        <DisableInBattleField id="902002" />
+        <DisableInBattleField id="909003" />
+        <DisableInBattleField id="910003" />
+        <DisableInBattleField id="7149" />
+        <DisableInBattleField id="7150" />
+        <DisableInBattleField id="150" />
+        <DisableInBattleField id="151" />
+        <DisableInBattleField id="9992" />
+        <DisableInBattleField id="11111" />
+        <DisableInBattleField id="11112" />
+        <DisableInBattleField id="906001" />
+        <DisableInBattleField id="909001" />
+        <DisableInBattleField id="905001" />
+        <DisableInBattleField id="911001" />
+        <DisableInBattleField id="908001" />
+        <DisableInBattleField id="907001" />
+        <DisableInBattleField id="904001" />
+        <DisableInBattleField id="903001" />
+        <DisableInBattleField id="902001" />
+        <DisableInBattleField id="901001" />
+        <DisableInBattleField id="910001" />
+        <DisableInBattleField id="6500003" />
+        <DisableInBattleField id="6500004" />
+        <DisableInBattleField id="6500005" />
+        <DisableInBattleField id="6500006" />
+        <DisableInBattleField id="6500007" />
+        <DisableInBattleField id="30010" />
+        <DisableInBattleField id="8881001" />
+        <DisableInDungeon id="8011" />
+        <DisableInDungeon id="7013" />
+        <DisableInDungeon id="925" />
+        <DisableInDungeon id="909002" />
+        <DisableInDungeon id="910002" />
+        <DisableInDungeon id="7149" />
+        <DisableInDungeon id="150" />
+        <DisableInDungeon id="151" />
+        <DisableInDungeon id="8614" />
+        <DisableInDungeon id="9992" />
+        <DisableInDungeon id="8881001" />
+        <DisableInLawlessArea id="7013" />
+        <DisableInLawlessArea id="9992" />
+    </SkillConfig>
+    <SkillDamageTypeConstant skillDamageTypeDefenceConst="100000" />
+    <StackSystem updateInterval="100">
+        <Sorcerer>
+            <AllSlotEffect>
+                <Effect abnormalityId="502051" abnormalityStack="1" effectScale="0.5" />
+                <Effect abnormalityId="502051" abnormalityStack="2" effectScale="1" />
+            </AllSlotEffect>
+        </Sorcerer>
+        <Warrior periodSecondBeforeBlink="5000" />
+    </StackSystem>
+    <Stamina>
+        <Archer maxST="300" />
+        <Engineer maxST="0" />
+        <Fighter stDecreaseTime="1" />
+        <Lancer maxST="1500" />
+        <Warrior maxST="1500" />
+    </Stamina>
+    <StatByLevel>
+        <Stat level="1" expNeeded="840" antiReactionAdjForGrade="1" levelupMinStatistics="4" />
+        <Stat level="2" expNeeded="2686" antiReactionAdjForGrade="2" levelupMinStatistics="7" />
+        <Stat level="3" expNeeded="4800" antiReactionAdjForGrade="3" levelupMinStatistics="3" />
+        <Stat level="4" expNeeded="8300" antiReactionAdjForGrade="4" levelupMinStatistics="5" />
+        <Stat level="5" expNeeded="12000" antiReactionAdjForGrade="5" levelupMinStatistics="10" />
+        <Stat level="6" expNeeded="18600" antiReactionAdjForGrade="6" levelupMinStatistics="9" />
+        <Stat level="7" expNeeded="25000" antiReactionAdjForGrade="7" levelupMinStatistics="9" />
+        <Stat level="8" expNeeded="46000" antiReactionAdjForGrade="8" levelupMinStatistics="28" />
+        <Stat level="9" expNeeded="64000" antiReactionAdjForGrade="9" levelupMinStatistics="15" />
+        <Stat level="10" expNeeded="83795" antiReactionAdjForGrade="10" levelupMinStatistics="17" />
+        <Stat level="11" expNeeded="107904" antiReactionAdjForGrade="11" levelupMinStatistics="27" />
+        <Stat level="12" expNeeded="137844" antiReactionAdjForGrade="12" levelupMinStatistics="27" />
+        <Stat level="13" expNeeded="173664" antiReactionAdjForGrade="13" levelupMinStatistics="18" />
+        <Stat level="14" expNeeded="217412" antiReactionAdjForGrade="14" levelupMinStatistics="26" />
+        <Stat level="15" expNeeded="270045" antiReactionAdjForGrade="15" levelupMinStatistics="29" />
+        <Stat level="16" expNeeded="332904" antiReactionAdjForGrade="16" levelupMinStatistics="31" />
+        <Stat level="17" expNeeded="411478" antiReactionAdjForGrade="17" levelupMinStatistics="31" />
+        <Stat level="18" expNeeded="509555" antiReactionAdjForGrade="18" levelupMinStatistics="31" />
+        <Stat level="19" expNeeded="624045" antiReactionAdjForGrade="19" levelupMinStatistics="29" />
+        <Stat level="20" expNeeded="767158" antiReactionAdjForGrade="20" levelupMinStatistics="41" />
+        <Stat level="21" expNeeded="946049" antiReactionAdjForGrade="21" levelupMinStatistics="45" />
+        <Stat level="22" expNeeded="1169663" antiReactionAdjForGrade="22" levelupMinStatistics="51" />
+        <Stat level="23" expNeeded="1444708" antiReactionAdjForGrade="23" levelupMinStatistics="54" />
+        <Stat level="24" expNeeded="1780263" antiReactionAdjForGrade="24" levelupMinStatistics="63" />
+        <Stat level="25" expNeeded="2199707" antiReactionAdjForGrade="25" levelupMinStatistics="69" />
+        <Stat level="26" expNeeded="2714012" antiReactionAdjForGrade="26" levelupMinStatistics="68" />
+        <Stat level="27" expNeeded="3356893" antiReactionAdjForGrade="27" levelupMinStatistics="69" />
+        <Stat level="28" expNeeded="4104477" antiReactionAdjForGrade="28" levelupMinStatistics="71" />
+        <Stat level="29" expNeeded="4943952" antiReactionAdjForGrade="29" levelupMinStatistics="64" />
+        <Stat level="30" expNeeded="5898783" antiReactionAdjForGrade="30" levelupMinStatistics="76" />
+        <Stat level="31" expNeeded="7021426" antiReactionAdjForGrade="31" levelupMinStatistics="78" />
+        <Stat level="32" expNeeded="8275585" antiReactionAdjForGrade="32" levelupMinStatistics="83" />
+        <Stat level="33" expNeeded="9730408" antiReactionAdjForGrade="33" levelupMinStatistics="90" />
+        <Stat level="34" expNeeded="11450277" antiReactionAdjForGrade="34" levelupMinStatistics="101" />
+        <Stat level="35" expNeeded="13544471" antiReactionAdjForGrade="35" levelupMinStatistics="115" />
+        <Stat level="36" expNeeded="16137427" antiReactionAdjForGrade="36" levelupMinStatistics="127" />
+        <Stat level="37" expNeeded="19167071" antiReactionAdjForGrade="37" levelupMinStatistics="116" />
+        <Stat level="38" expNeeded="22590568" antiReactionAdjForGrade="38" levelupMinStatistics="128" />
+        <Stat level="39" expNeeded="26459120" antiReactionAdjForGrade="39" levelupMinStatistics="114" />
+        <Stat level="40" expNeeded="30907955" antiReactionAdjForGrade="40" levelupMinStatistics="119" />
+        <Stat level="41" expNeeded="36335533" antiReactionAdjForGrade="41" levelupMinStatistics="130" />
+        <Stat level="42" expNeeded="43011454" antiReactionAdjForGrade="42" levelupMinStatistics="154" />
+        <Stat level="43" expNeeded="51356356" antiReactionAdjForGrade="43" levelupMinStatistics="152" />
+        <Stat level="44" expNeeded="61787484" antiReactionAdjForGrade="44" levelupMinStatistics="160" />
+        <Stat level="45" expNeeded="74722083" antiReactionAdjForGrade="45" levelupMinStatistics="160" />
+        <Stat level="46" expNeeded="90114255" antiReactionAdjForGrade="46" levelupMinStatistics="184" />
+        <Stat level="47" expNeeded="107815253" antiReactionAdjForGrade="47" levelupMinStatistics="188" />
+        <Stat level="48" expNeeded="127817381" antiReactionAdjForGrade="48" levelupMinStatistics="190" />
+        <Stat level="49" expNeeded="149819509" antiReactionAdjForGrade="49" levelupMinStatistics="168" />
+        <Stat level="50" expNeeded="174770163" antiReactionAdjForGrade="50" levelupMinStatistics="180" />
+        <Stat level="51" expNeeded="202477270" antiReactionAdjForGrade="51" levelupMinStatistics="192" />
+        <Stat level="52" expNeeded="233242615" antiReactionAdjForGrade="52" levelupMinStatistics="199" />
+        <Stat level="53" expNeeded="267400774" antiReactionAdjForGrade="53" levelupMinStatistics="207" />
+        <Stat level="54" expNeeded="305322656" antiReactionAdjForGrade="54" levelupMinStatistics="209" />
+        <Stat level="55" expNeeded="347419424" antiReactionAdjForGrade="55" levelupMinStatistics="224" />
+        <Stat level="56" expNeeded="394146836" antiReactionAdjForGrade="56" levelupMinStatistics="229" />
+        <Stat level="57" expNeeded="446010054" antiReactionAdjForGrade="57" levelupMinStatistics="229" />
+        <Stat level="58" expNeeded="504615490" antiReactionAdjForGrade="58" levelupMinStatistics="268" />
+        <Stat level="59" expNeeded="570839632" antiReactionAdjForGrade="59" levelupMinStatistics="280" />
+        <Stat level="60" expNeeded="645672912" antiReactionAdjForGrade="60" levelupMinStatistics="401" />
+        <Stat level="61" expNeeded="730234518" antiReactionAdjForGrade="61" levelupMinStatistics="401" />
+        <Stat level="62" expNeeded="825789132" antiReactionAdjForGrade="62" levelupMinStatistics="401" />
+        <Stat level="63" expNeeded="933765845" antiReactionAdjForGrade="63" levelupMinStatistics="401" />
+        <Stat level="64" expNeeded="1055779530" antiReactionAdjForGrade="64" levelupMinStatistics="401" />
+        <Stat level="65" expNeeded="2031889010" antiReactionAdjForGrade="65" levelupMinStatistics="401" />
+        <Stat level="66" expNeeded="3496053230" antiReactionAdjForGrade="66" levelupMinStatistics="401" />
+        <Stat level="67" expNeeded="5692299560" antiReactionAdjForGrade="67" levelupMinStatistics="401" />
+        <Stat level="68" expNeeded="8986669055" antiReactionAdjForGrade="68" levelupMinStatistics="401" />
+        <Stat level="69" expNeeded="13928223298" antiReactionAdjForGrade="69" levelupMinStatistics="401" />
+        <Stat level="70" expNeeded="21340554663" antiReactionAdjForGrade="70" levelupMinStatistics="401" />
+    </StatByLevel>
+    <StormEffect distance="80" downAcc="450" downRotate="5600" downSpeed="10" fluctuation="5" fluctuationRate="7" fluctuationRotate="" upAcc="-300" upRotate="5600" upSpeed="200" />
+    <SuperArmor inaccessibleDistanceForLarge="40" />
+    <SwimStartDepthList>
+        <SwimStartDepth gender="male" race="human" height="37" />
+        <SwimStartDepth gender="female" race="human" height="33" />
+        <SwimStartDepth gender="male" race="highelf" height="38" />
+        <SwimStartDepth gender="female" race="highelf" height="34" />
+        <SwimStartDepth gender="male" race="aman" height="40" />
+        <SwimStartDepth gender="female" race="aman" height="39" />
+        <SwimStartDepth gender="male" race="castanic" height="34" />
+        <SwimStartDepth gender="female" race="castanic" height="29" />
+        <SwimStartDepth gender="male" race="popori" height="23" />
+        <SwimStartDepth gender="female" race="popori" height="25" />
+        <SwimStartDepth gender="male" race="baraka" height="41" />
+    </SwimStartDepthList>
+    <TCat showTCatInInventory="true" useInGameStoreCoin="false" />
+    <TradeBroker expireDays="7" />
+    <TutorialPlay activated="false" entryMsgId="31000" entryMsgTime="4000" />
+    <UnidentifyScroll>
+        <Item id="93" grade="0" />
+        <Item id="94" grade="0" />
+        <Item id="71" grade="1" />
+        <Item id="398" grade="1" />
+        <Item id="907" grade="1" rank="7" />
+        <Item id="908" grade="1" rank="8" />
+        <Item id="909" grade="1" rank="9" />
+        <Item id="910" grade="1" rank="10" />
+        <Item id="911" grade="1" rank="11" />
+        <Item id="912" grade="1" rank="12" />
+        <Item id="81208" grade="1" />
+        <Item id="100717" grade="0" />
+        <Item id="149427" grade="1" rank="8" />
+        <Item id="94000" grade="2" />
+        <Item id="100976" grade="2" />
+        <Item id="139710" grade="2" />
+        <Item id="139804" grade="3" />
+        <Item id="94001" grade="3" />
+        <Item id="149059" grade="3" />
+        <Item id="100977" grade="3" />
+        <Item id="149179" grade="3" />
+        <Item id="149243" grade="2" />
+        <Item id="149193" grade="1" />
+        <Item id="149194" grade="2" />
+        <Item id="132405" grade="2" />
+        <Item id="149270" grade="2" />
+        <Item id="149271" grade="3" />
+        <Item id="142269" grade="3" />
+        <Item id="149673" grade="2" />
+        <Item id="117491" grade="3" />
+        <Item id="181961" grade="2" />
+        <Item id="181962" grade="3" />
+        <Item id="179885" grade="2" />
+        <Item id="179886" grade="3" />
+        <Item id="212747" grade="2" />
+        <Item id="212748" grade="3" />
+        <Item id="212733" grade="0" />
+        <Item id="212731" grade="1" />
+        <Item id="220359" grade="0" />
+    </UnidentifyScroll>
+    <UserLevelLimit value="70" />
+    <UserWarningHp percent="0.25" />
+    <VillagePos>
+        <Tomb areaName="ANC_A_P" />
+        <Tomb areaName="ANC_A_P" />
+    </VillagePos>
+    <WeakPointSystem>
+        <Archer />
+    </WeakPointSystem>
+</WorldData>

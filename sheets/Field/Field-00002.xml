@@ -1,0 +1,62 @@
+<Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Field Field.xsd" continentId="7003" xmlns="https://vezel.dev/novadrop/dc/Field">
+    <FieldEvent id="1" startPos="-84817,-64338,740" reviveTownNameId="7777">
+        <Guide description="@field:7003010" titleString="@field:700301" eventSize="small">
+            <Task id="1" string="@field:100007" target="@creature:626#3002" iconId="1">
+                <Marker markerPos="-84817,-64338,740" markerScaleX="0.3" markerScaleY="0.3" markerType="MARKER_FIELD_EVENT_AREA_01" />
+            </Task>
+            <Task id="2" string="@field:100007" target="@creature:626#3002" iconId="1">
+                <Marker markerPos="-86559,-63969,828" markerScaleX="0.5" markerScaleY="0.5" markerType="MARKER_FIELD_EVENT_AREA_01" />
+            </Task>
+            <Task id="3" string="@field:100007" target="@creature:626#3002" iconId="2">
+                <Marker markerPos="-86559,-63969,828" markerScaleX="0.5" markerScaleY="0.5" markerType="MARKER_FIELD_EVENT_AREA_02" />
+            </Task>
+            <Task id="4" string="@field:100007" target="@creature:626#3002" iconId="3">
+                <Marker markerPos="-86559,-63969,828" markerScaleX="0.5" markerScaleY="0.5" markerType="MARKER_FIELD_EVENT_AREA_03" />
+            </Task>
+            <Task id="5" string="@field:100007" target="@creature:626#3002" iconId="1">
+                <Marker />
+            </Task>
+        </Guide>
+        <Progress dividerPercent="25,50,100" />
+    </FieldEvent>
+    <FieldEvent id="2" type="1" startPos="-44555,-20327,150" reviveTownNameId="7777">
+        <FieldEventCloud aeroBlendingRadiusFactor="0.85" aeroCylinderHeight="10000" areaSpreadSpeed="100000" asyncLoadDistance="1500000" primaryAeroWeight="40" secondaryAeroWeight="50" aeroLoc="-44555,-20327,150" targetRadius="100000">
+            <AeroList>
+                <Aero step="1" aeroName="AA_AEROSet.Special.Blackcrack_02_AERO" />
+            </AeroList>
+        </FieldEventCloud>
+        <Guide description="@field:7003020" titleString="@field:700302" eventSize="flying_medium">
+            <Task id="0" string="@field:100000" target="" iconId="1">
+                <Marker />
+            </Task>
+            <Task id="1" string="@field:630001" target="" iconId="1">
+                <Marker markerPos="-65260,-76225,163" markerScaleX="1" markerScaleY="1" markerType="MARKER_FIELD_EVENT_AREA_01" />
+                <Marker markerPos="-58563,-61517,307" markerScaleX="1" markerScaleY="1" markerType="MARKER_FIELD_EVENT_AREA_01" />
+                <Marker markerPos="-72074,-50536,690" markerScaleX="1" markerScaleY="1" markerType="MARKER_FIELD_EVENT_AREA_01" />
+                <Marker markerPos="-41136,-21352,101" markerScaleX="1" markerScaleY="1" markerType="MARKER_FIELD_EVENT_AREA_01" />
+            </Task>
+            <Task id="2" string="@field:630002" target="" iconId="1">
+                <Marker />
+            </Task>
+            <Task id="3" string="@field:630003" target="" iconId="3">
+                <Marker />
+            </Task>
+            <Task id="4" string="@field:630004" target="" iconId="3">
+                <Marker markerPos="-62427,-77662,97" markerScaleX="1.3" markerScaleY="2.6" markerType="MARKER_FIELD_EVENT_AREA_03" />
+                <Marker markerPos="-57393,-55944,1463" markerScaleX="2.6" markerScaleY="1.3" markerType="MARKER_FIELD_EVENT_AREA_03" />
+                <Marker markerPos="-73009,-55810,376" markerScaleX="2.6" markerScaleY="1.3" markerType="MARKER_FIELD_EVENT_AREA_03" />
+                <Marker markerPos="-42537,-14413,406" markerScaleX="2.6" markerScaleY="1.3" markerType="MARKER_FIELD_EVENT_AREA_03" />
+            </Task>
+            <Task id="5" string="@field:111111" target="" iconId="1">
+                <Marker />
+            </Task>
+        </Guide>
+        <Progress dividerPercent="30,70,100" />
+    </FieldEvent>
+    <FieldEvent id="93" startPos="-25661,-77148,4370" reviveTownNameId="7777">
+        <Guide description="@field:7014020" titleString="@field:701402" eventSize="dragon_island">
+            <Task />
+        </Guide>
+        <Progress dividerPercent="100" />
+    </FieldEvent>
+</Field>

@@ -1,0 +1,150 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="8421" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>84,21</Quest번호>
+        <Quest제목>@quest:8421001</Quest제목>
+        <반복퀘스트>1회성</반복퀘스트>
+        <발생조건>
+            <NPC대화>84,1217</NPC대화>
+        </발생조건>
+        <수행조건>
+            <길드레벨 />
+            <영주길드 />
+            <최소레벨>58</최소레벨>
+        </수행조건>
+        <스토리그룹Id />
+        <요약정보>100</요약정보>
+        <적정수행레벨>59</적정수행레벨>
+        <적정수행인원>1</적정수행인원>
+        <집회소분류 />
+        <퀘스트종류>일반</퀘스트종류>
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <대상NPC지정>84,1208</대상NPC지정>
+                <분기작성>
+                    <분기작성 />
+                    <분기작성 />
+                    <분기작성 />
+                    <분기작성 />
+                </분기작성>
+                <저널Text>@quest:8421008</저널Text>
+            </Body>
+            <Header>
+                <Id>1</Id>
+                <JournalScript>2</JournalScript>
+                <다음Task />
+                <이름>분기Task</이름>
+            </Header>
+        </Task>
+        <Task id="2">
+            <Body>
+                <수집아이템지정>
+                    <수집아이템지정>
+                        <목표수량>6</목표수량>
+                        <몬스터Id>2,8</몬스터Id>
+                        <획득아이템Id>45351</획득아이템Id>
+                    </수집아이템지정>
+                </수집아이템지정>
+                <저널Text>@quest:8421010</저널Text>
+            </Body>
+            <Header>
+                <Id>2</Id>
+                <JournalScript>2</JournalScript>
+                <다음Task>6</다음Task>
+                <이름>사냥수집Task</이름>
+            </Header>
+        </Task>
+        <Task id="3">
+            <Body>
+                <수집아이템지정>
+                    <수집아이템지정>
+                        <목표수량>6</목표수량>
+                        <몬스터Id>13,1</몬스터Id>
+                        <획득아이템Id>45351</획득아이템Id>
+                    </수집아이템지정>
+                </수집아이템지정>
+                <저널Text>@quest:8421011</저널Text>
+            </Body>
+            <Header>
+                <Id>3</Id>
+                <JournalScript>2</JournalScript>
+                <다음Task>6</다음Task>
+                <이름>사냥수집Task</이름>
+            </Header>
+        </Task>
+        <Task id="4">
+            <Body>
+                <수집아이템지정>
+                    <수집아이템지정>
+                        <목표수량>6</목표수량>
+                        <몬스터Id>19,1003</몬스터Id>
+                        <획득아이템Id>45351</획득아이템Id>
+                    </수집아이템지정>
+                </수집아이템지정>
+                <저널Text>@quest:8421012</저널Text>
+            </Body>
+            <Header>
+                <Id>4</Id>
+                <JournalScript>2</JournalScript>
+                <다음Task>6</다음Task>
+                <이름>사냥수집Task</이름>
+            </Header>
+        </Task>
+        <Task id="5">
+            <Body>
+                <수집아이템지정>
+                    <수집아이템지정>
+                        <목표수량>6</목표수량>
+                        <몬스터Id>23,4</몬스터Id>
+                        <획득아이템Id>45351</획득아이템Id>
+                    </수집아이템지정>
+                </수집아이템지정>
+                <저널Text>@quest:8421013</저널Text>
+            </Body>
+            <Header>
+                <Id>5</Id>
+                <JournalScript>2</JournalScript>
+                <다음Task>6</다음Task>
+                <이름>사냥수집Task</이름>
+            </Header>
+        </Task>
+        <Task id="6">
+            <Body>
+                <대상NPC지정>84,1208</대상NPC지정>
+                <보상>0</보상>
+                <아이템지정>
+                    <아이템지정>
+                        <아이템Id>45351</아이템Id>
+                        <전달수량>6</전달수량>
+                    </아이템지정>
+                </아이템지정>
+                <저널Text>@quest:8421015</저널Text>
+                <저널Text2>@quest:8421016</저널Text2>
+                <제한시간설정>0,0</제한시간설정>
+            </Body>
+            <Header>
+                <Id>6</Id>
+                <JournalScript>2</JournalScript>
+                <다음Task>7</다음Task>
+                <이름>아이템전달Task</이름>
+            </Header>
+        </Task>
+        <Task id="7">
+            <Body>
+                <Flag아이템이름>@quest:8421018</Flag아이템이름>
+                <대상NPC지정>84,1217</대상NPC지정>
+                <보상>1</보상>
+                <아이콘지정>200</아이콘지정>
+                <저널Text>@quest:8421019</저널Text>
+                <전달수량>1</전달수량>
+            </Body>
+            <Header>
+                <Id>7</Id>
+                <JournalScript>8</JournalScript>
+                <다음Task />
+                <이름>찔러준아이템전달Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

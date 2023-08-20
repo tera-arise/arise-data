@@ -1,0 +1,101 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="60210" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>602,10</Quest번호>
+        <Quest제목>@quest:60210001</Quest제목>
+        <반복퀘스트>1회성</반복퀘스트>
+        <발생조건>
+            <NPC대화>78,3004</NPC대화>
+        </발생조건>
+        <수행조건>
+            <길드레벨 />
+            <선행퀘스트>
+                <선행퀘스트>
+                    <퀘스트Id>602,18</퀘스트Id>
+                </선행퀘스트>
+            </선행퀘스트>
+            <영주길드 />
+            <최소레벨>63</최소레벨>
+        </수행조건>
+        <스토리그룹Id />
+        <요약정보>100</요약정보>
+        <적정수행레벨>65</적정수행레벨>
+        <적정수행인원>1</적정수행인원>
+        <집회소분류 />
+        <퀘스트종류>일일</퀘스트종류>
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <대상NPC지정>418,2003</대상NPC지정>
+                <분기작성>
+                    <분기작성 />
+                    <분기작성 />
+                </분기작성>
+                <저널Text>@quest:60210006</저널Text>
+            </Body>
+            <Header>
+                <Id>1</Id>
+                <JournalScript>2</JournalScript>
+                <다음Task />
+                <이름>분기Task</이름>
+            </Header>
+        </Task>
+        <Task id="2">
+            <Body>
+                <몬스터지정>
+                    <몬스터지정>
+                        <몬스터Id>418,1031</몬스터Id>
+                        <사냥마리수>1</사냥마리수>
+                    </몬스터지정>
+                </몬스터지정>
+                <저널Text>@quest:60210008</저널Text>
+                <진행조건>
+                    <제한시간>0,0</제한시간>
+                </진행조건>
+            </Body>
+            <Header>
+                <Id>2</Id>
+                <JournalScript>3</JournalScript>
+                <다음Task>4</다음Task>
+                <이름>사냥Task</이름>
+            </Header>
+        </Task>
+        <Task id="3">
+            <Body>
+                <몬스터지정>
+                    <몬스터지정>
+                        <몬스터Id>418,1041</몬스터Id>
+                        <사냥마리수>1</사냥마리수>
+                    </몬스터지정>
+                </몬스터지정>
+                <저널Text>@quest:60210009</저널Text>
+                <진행조건>
+                    <제한시간>0,0</제한시간>
+                </진행조건>
+            </Body>
+            <Header>
+                <Id>3</Id>
+                <JournalScript>3</JournalScript>
+                <다음Task>4</다음Task>
+                <이름>사냥Task</이름>
+            </Header>
+        </Task>
+        <Task id="4">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>418,2003</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>1</보상>
+                <저널Text>@quest:60210011</저널Text>
+            </Body>
+            <Header>
+                <Id>4</Id>
+                <JournalScript>3</JournalScript>
+                <다음Task />
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

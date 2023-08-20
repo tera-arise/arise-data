@@ -1,0 +1,78 @@
+<NpcData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/NpcData NpcData.xsd" huntingZoneId="3050" xmlns="https://vezel.dev/novadrop/dc/NpcData">
+    <Template id="1502" class="" name="나가는 곳 차원의 마법석" scale="0.625" race="" size="medium" shapeId="600920" basicActionId="200010" spawnScriptId="0" resourceSize="100" resourceType="medium" isWideBroadcaster="false" despawnScriptId="0" balanceType="인던_네임드_보스" collideOnMove="true" dontTurn="true" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="true" villagerVolumeActiveRange="0" villagerVolumeHalfHeight="0" villagerVolumeInteractionDist="0" villagerVolumeOffset="">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="193582" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="40" atk="672" def="804" maxHp="758842" />
+    </Template>
+    <Template id="46704" name="길리두의아버지" scale="0.5" gender="male" race="GhillieDhu" size="large" shapeId="302562" basicActionId="3031800" resourceSize="100" resourceType="large" isWideBroadcaster="true" parentId="30318000" balanceType="인던_네임드_보스" cameraPenetratable="true" cannotPassThrough="true" elite="true" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="true" showShorttermTarget="true" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="800000000000" />
+        <BalanceRef ignoreAttr="maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+        <NamePlate nameplateHeight="300" deathNameplateHeight="300" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="73" atk="12008518" def="362880" maxHp="80000000000" />
+    </Template>
+    <Template id="46731" name="유안티 광전사(중레벨)" scale="0.15" gender="male" race="YuantiBuserker" size="medium" shapeId="303210" basicActionId="3008500" resourceSize="100" resourceType="medium" parentId="30321000" balanceType="인던_네임드_보스" elite="false" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="69" atk="1700" def="8960" maxHp="15000000" />
+    </Template>
+    <Template id="46743" name="RottingDead 2" scale="1" size="medium" shapeId="611160" basicActionId="6111600" parentId="61116000" balanceType="인던_네임드_보스" elite="false" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <Aggro />
+        <Anger gaugeSize="1734217" />
+        <BalanceRef ignoreAttr="" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="69" atk="672" def="8960" maxHp="3298133" />
+    </Template>
+    <Template id="46750" name="투명NPC 3넴 60도 공격장판 사용" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="61164000" balanceType="인던_네임드_보스" elite="true" invincible="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <Anger gaugeSize="1734217" />
+        <BalanceRef ignoreAttr="" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="73" atk="12008518" def="12096" maxHp="170000000000" />
+    </Template>
+    <Template id="46753" name="연출용 투명 npc" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="61164000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <Anger gaugeSize="1734217" />
+        <BalanceRef ignoreAttr="" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="69" atk="672" def="8960" maxHp="6798133" />
+    </Template>
+    <Template id="467040" name="길리두의아버지(연출용)" scale="0.5" gender="male" race="GhillieDhu" size="large" shapeId="302562" basicActionId="3031800" resourceSize="100" resourceType="large" isWideBroadcaster="true" parentId="30328000" balanceType="인던_네임드_보스" cameraPenetratable="true" cannotPassThrough="true" elite="true" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="true" showShorttermTarget="true" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="1734217" />
+        <BalanceRef ignoreAttr="maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+        <NamePlate nameplateHeight="300" deathNameplateHeight="300" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="69" atk="672" def="8960" maxHp="560000000" />
+    </Template>
+</NpcData>

@@ -1,0 +1,59 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="18382" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>183,82</Quest번호>
+        <Quest제목>@quest:18382001</Quest제목>
+        <반복퀘스트>반복</반복퀘스트>
+        <발생조건>
+            <아이템사용>155601</아이템사용>
+        </발생조건>
+        <수행조건>
+            <길드레벨 />
+            <영주길드 />
+            <최소레벨>60</최소레벨>
+        </수행조건>
+        <수행지역 />
+        <스토리그룹Id />
+        <요약정보>100</요약정보>
+        <적정수행레벨>60</적정수행레벨>
+        <적정수행인원>1</적정수행인원>
+        <집회소분류 />
+        <추가보상 />
+        <퀘스트종류>일반</퀘스트종류>
+        <특수가이드 />
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <대상NPC지정>183,2058</대상NPC지정>
+                <보상>1</보상>
+                <아이템지정>
+                    <아이템지정>
+                        <아이템Id>155596</아이템Id>
+                        <전달수량>100</전달수량>
+                    </아이템지정>
+                    <아이템지정>
+                        <아이템Id>155599</아이템Id>
+                        <전달수량>1</전달수량>
+                    </아이템지정>
+                    <아이템지정>
+                        <아이템Id>155595</아이템Id>
+                        <전달수량>5</전달수량>
+                    </아이템지정>
+                </아이템지정>
+                <저널Text>@quest:18382002</저널Text>
+                <저널Text2>@quest:18382004</저널Text2>
+                <제한시간설정>
+                    <제한시간>0,0</제한시간>
+                </제한시간설정>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>1</Id>
+                <JournalScript>2</JournalScript>
+                <Pos />
+                <다음Task />
+                <이름>아이템전달Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

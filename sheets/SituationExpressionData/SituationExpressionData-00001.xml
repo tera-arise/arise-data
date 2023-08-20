@@ -1,0 +1,22 @@
+<SituationExpressionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/SituationExpressionData SituationExpressionData.xsd" xmlns="https://vezel.dev/novadrop/dc/SituationExpressionData">
+    <Data id="1" type="Player,User">
+        <ConditionInfo>
+            <ConditionList>
+                <UserCondition type="BF_OurTeam_Occupation" flag="true" />
+            </ConditionList>
+        </ConditionInfo>
+        <JobInfo>
+            <EffectJob id="50567" type="Infinity" delayTime="0" />
+        </JobInfo>
+    </Data>
+    <Data id="2" type="Player,User">
+        <ConditionInfo>
+            <ConditionList>
+                <UserCondition type="BF_Enemy_Occupation" flag="true" />
+            </ConditionList>
+        </ConditionInfo>
+        <JobInfo>
+            <EffectJob id="50568" type="Infinity" delayTime="0" />
+        </JobInfo>
+    </Data>
+</SituationExpressionData>

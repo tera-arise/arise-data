@@ -1,0 +1,93 @@
+<NpcInteractionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/NpcInteractionData NpcInteractionData.xsd" xmlns="https://vezel.dev/novadrop/dc/NpcInteractionData">
+    <InteractionRule id="1" point="250" distance="5000" interval="1000" inFieldEvent="true" interactOnFly="onFlyMove">
+        <EffectList />
+    </InteractionRule>
+    <InteractionRule id="2" point="250" distance="5000" interval="1000" inFieldEvent="true" interactOnFly="onFlyMove">
+        <EffectList />
+    </InteractionRule>
+    <InteractionRule id="100" point="1250" distance="100" interval="10000" inFieldEvent="true" interactOnFly="onFlyMove">
+        <EffectList />
+    </InteractionRule>
+    <InteractionRule id="101" point="1250" distance="100" interval="10000" inFieldEvent="true" interactOnFly="onFlyMove">
+        <EffectList />
+    </InteractionRule>
+    <InteractionRule id="102" point="1250" distance="100" interval="30000" inFieldEvent="true" interactOnFly="onFlyMove">
+        <EffectList />
+    </InteractionRule>
+    <InteractionRule id="103" point="1250" distance="100" interval="30000" inFieldEvent="true" interactOnFly="onFlyMove">
+        <EffectList />
+    </InteractionRule>
+    <InteractionRule id="104" point="1250" distance="100" interval="1000000" inFieldEvent="true" interactOnFly="onFlyMove">
+        <EffectList />
+    </InteractionRule>
+    <InteractionRule id="105" point="1250" distance="100" interval="1000000" inFieldEvent="true" interactOnFly="onFlyMove">
+        <EffectList />
+    </InteractionRule>
+    <InteractionRule id="106" point="0" distance="100" interval="10000" inFieldEvent="false" interactOnFly="none">
+        <EffectList />
+    </InteractionRule>
+    <InteractionRule id="107" point="0" distance="100" interval="10000" inFieldEvent="false" interactOnFly="none">
+        <EffectList />
+    </InteractionRule>
+    <InteractionRule id="200" point="10000" distance="500" interval="1000" checkAbnormality="630510" inFieldEvent="true" interactOnFly="onFly">
+        <EffectList>
+            <Effect effectId="631008" type="0" />
+            <Effect effectId="631008" type="1" />
+        </EffectList>
+        <HotKey type="0" icon="Icon_Status.BattleFieldBuff02_Tex" msg="@field:700302801" inputKey="LeftMouseButton" />
+    </InteractionRule>
+    <InteractionRule id="201" point="10000" distance="500" interval="1000" checkAbnormality="630410" inFieldEvent="true" interactOnFly="onFly">
+        <EffectList>
+            <Effect effectId="631006" type="0" />
+            <Effect effectId="631006" type="1" />
+        </EffectList>
+        <HotKey type="0" icon="Icon_Status.BattleFieldBuff01_Tex" msg="@field:700302802" inputKey="LeftMouseButton" />
+    </InteractionRule>
+    <InteractionRule id="202" point="10000" distance="3000" interval="3000" checkAbnormality="630510" inFieldEvent="true" interactOnFly="onFly">
+        <EffectList>
+            <Effect effectId="631002" type="3" />
+        </EffectList>
+        <HotKey type="0" icon="Icon_Status.BattleFieldBuff02_Tex" msg="@field:700302804" inputKey="LeftMouseButton" />
+    </InteractionRule>
+    <InteractionRule id="203" point="10000" distance="3000" interval="3000" checkAbnormality="630410" inFieldEvent="true" interactOnFly="onFly">
+        <EffectList>
+            <Effect effectId="631001" type="3" />
+        </EffectList>
+        <HotKey icon="Icon_Status.BattleFieldBuff01_Tex" msg="@field:700302803" inputKey="LeftMouseButton" />
+    </InteractionRule>
+    <InteractionRule id="300" point="500" distance="120" interval="30000" inFieldEvent="true" interactOnFly="onFlyMove">
+        <EffectList>
+            <Effect effectId="631012" type="0" />
+        </EffectList>
+    </InteractionRule>
+    <InteractionRule id="301" point="2500" distance="600" interval="200" inFieldEvent="true" interactOnFly="onFly">
+        <EffectList>
+            <Effect effectId="631003" type="3" />
+        </EffectList>
+        <HotKey type="1" icon="Icon_Status.GodSpell_Tex" msg="@field:702101801" inputKey="LeftMouseButton" />
+    </InteractionRule>
+    <InteractionRule id="302" point="2500" distance="1500" interval="200" inFieldEvent="true" interactOnFly="onFly">
+        <EffectList>
+            <Effect effectId="631003" type="3" />
+        </EffectList>
+        <HotKey type="1" icon="Icon_Status.GodSpell_Tex" msg="@field:702101802" inputKey="LeftMouseButton" />
+    </InteractionRule>
+    <InteractionRule id="303" point="0" distance="650" interval="250" inFieldEvent="true" interactOnFly="onFly">
+        <EffectList>
+            <Effect effectId="631004" type="2" />
+        </EffectList>
+        <HotKey type="1" icon="Icon_Status.minusfocus_Tex" msg="@field:702101803" inputKey="LeftMouseButton" />
+    </InteractionRule>
+    <InteractionRule id="304" point="0" distance="1200" interval="300" checkAbnormality="25020003" inFieldEvent="false" interactOnFly="none">
+        <EffectList>
+            <Effect effectId="250101" type="3" />
+        </EffectList>
+        <HotKey type="1" icon="Icon_Status.GodSpell_Tex" msg="@field:702101801" inputKey="LeftMouseButton" />
+    </InteractionRule>
+    <InteractionRule id="305" point="0" distance="1500" interval="300" checkAbnormality="25020004" inFieldEvent="false" interactOnFly="none">
+        <EffectList>
+            <Effect effectId="250102" type="3" />
+        </EffectList>
+        <HotKey type="1" icon="Icon_Status.GodSpell_Tex" msg="@field:702101801" inputKey="LeftMouseButton" />
+    </InteractionRule>
+</NpcInteractionData>

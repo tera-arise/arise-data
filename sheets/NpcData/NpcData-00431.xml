@@ -1,0 +1,658 @@
+<NpcData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/NpcData NpcData.xsd" huntingZoneId="3044" xmlns="https://vezel.dev/novadrop/dc/NpcData">
+    <Template id="101" name="연출_걸어가는 영혼 1_여주" scale="1" gender="male" race="Dark_Bishop" size="medium" shapeId="5001244" basicActionId="5001200" spawnScriptId="30410001" resourceSize="100" resourceType="large" isWideBroadcaster="true" parentId="500124000" despawnScriptId="30410002" elite="true" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="5" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation>
+            <AltAnim type="run" altAnimName="walk" />
+        </AltAnimation>
+        <Anger gaugeSize="42000000" />
+        <Emoticon forceHidden="true" />
+        <NamePlate nameplateHeight="35" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="10000" maxHp="42000" />
+    </Template>
+    <Template id="102" name="연출_걸어가는 영혼 2_남주" scale="1" gender="male" race="Dark_Bishop" size="medium" shapeId="5000900" basicActionId="5000800" spawnScriptId="30410001" resourceSize="100" resourceType="large" isWideBroadcaster="true" parentId="50009000" despawnScriptId="30410002" elite="true" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="5" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation>
+            <AltAnim type="run" altAnimName="walk" />
+        </AltAnimation>
+        <Anger gaugeSize="42000000" />
+        <Emoticon forceHidden="true" />
+        <NamePlate nameplateHeight="35" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="10000" maxHp="42000" />
+    </Template>
+    <Template id="103" name="연출_걸어가는 영혼 3_남코" scale="1" gender="male" race="Dark_Bishop" size="medium" shapeId="5001088" basicActionId="5000800" spawnScriptId="30410001" resourceSize="100" resourceType="large" isWideBroadcaster="true" parentId="500108000" despawnScriptId="30410002" elite="true" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="5" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation>
+            <AltAnim type="run" altAnimName="walk" />
+        </AltAnimation>
+        <Anger gaugeSize="42000000" />
+        <Emoticon forceHidden="true" />
+        <NamePlate nameplateHeight="35" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="10000" maxHp="42000" />
+    </Template>
+    <Template id="104" class="" name="버려진 서책" scale="2" gender="male" race="object" size="medium" shapeId="600246" basicActionId="200010" spawnScriptId="0" resourceSize="100" resourceType="medium" isWideBroadcaster="false" despawnScriptId="0" balanceType="밸런싱 안함" collideOnMove="true" dontTurn="true" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="true" villagerVolumeActiveRange="0" villagerVolumeHalfHeight="0" villagerVolumeInteractionDist="0" villagerVolumeOffset="">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="403799" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="65" atk="100" def="2000" maxHp="10000" />
+    </Template>
+    <Template id="105" name="투명 NPC(길막기)" scale="1.5" gender="" race="" size="large" shapeId="730271" basicActionId="7302710" resourceSize="100" resourceType="large" parentId="73027100" despawnScriptId="0" balanceType="밸런싱 안함" cannotPassThrough="true" collideOnMove="true" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="true">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="partyMember" />
+        <Reaction maxAdditionalGauge="0" />
+        <Stat level="65" atk="0" def="0" maxHp="0" />
+    </Template>
+    <Template id="106" class="" name="앉아있는 혁명단 시체(남)" scale="1" gender="male" race="object" size="medium" shapeId="600550" basicActionId="200010" spawnScriptId="0" resourceSize="100" resourceType="medium" isWideBroadcaster="false" despawnScriptId="0" balanceType="" dontTurn="true" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="true" partyMember="0" showAggroTarget="false" showShorttermTarget="false" villager="true">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="403799" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="40" atk="100" def="2000" maxHp="10000" />
+    </Template>
+    <Template id="107" class="" name="(연출용)시체" scale="1" gender="male" race="object" size="medium" shapeId="500520" basicActionId="200010" spawnScriptId="0" resourceSize="100" resourceType="medium" isWideBroadcaster="false" despawnScriptId="0" balanceType="밸런싱 안함" dontTurn="true" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="false" showShorttermTarget="false" villager="true">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="403799" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="20" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="40" atk="100" def="2000" maxHp="10000" />
+    </Template>
+    <Template id="108" class="" name="광부의 시체" scale="1" gender="male" race="object" size="medium" shapeId="600554" basicActionId="200010" spawnScriptId="0" resourceSize="100" resourceType="medium" isWideBroadcaster="false" despawnScriptId="0" balanceType="" dontTurn="true" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="false" showShorttermTarget="false" villager="true">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="403799" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="40" atk="100" def="2000" maxHp="10000" />
+    </Template>
+    <Template id="111" class="" name="버려진 서책" scale="2.3" gender="male" race="object" size="medium" shapeId="600246" basicActionId="200010" spawnScriptId="0" resourceSize="100" resourceType="medium" isWideBroadcaster="false" despawnScriptId="0" balanceType="밸런싱 안함" collideOnMove="true" dontTurn="true" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="true" villagerVolumeActiveRange="0" villagerVolumeHalfHeight="0" villagerVolumeInteractionDist="0" villagerVolumeOffset="">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="403799" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="65" atk="100" def="2000" maxHp="10000" />
+    </Template>
+    <Template id="120" name="투명 NPC(결계 이펙트 없음)" scale="1" gender="" race="" size="large" shapeId="730272" basicActionId="7302710" resourceSize="100" resourceType="large" parentId="73027200" balanceType="밸런싱 안함" cannotPassThrough="true" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Reaction maxAdditionalGauge="0" />
+        <Stat level="64" atk="0" def="0" maxHp="0" />
+    </Template>
+    <Template id="200" name="2페이즈_정신착란_4분원 장판 투명NPC" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="32440000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="201" name="2페이즈_정신착란_4분원 장판 투명NPC" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="32440000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="1000" name="다르니브_1페이즈" scale="1.1" gender="male" race="devil" size="large" shapeId="303541" basicActionId="3035400" resourceSize="100" resourceType="large" parentId="30411000" balanceType="" elite="true" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="true" showShorttermTarget="true" showTargetInfo="false" speciesId="10" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="1358280000" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="73" atk="11634051" def="12096" maxHp="13582800000" />
+    </Template>
+    <Template id="1001" name="2페이즈_바닥원 투명NPC 작은거 1" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="31411000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="1002" name="2페이즈_악마의 주문_지속뎀 투명NPC" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="31412000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="1003" name="2페이즈_바닥원 투명NPC 중간거 1" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="31413000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="1004" name="2페이즈_바닥원 투명NPC 큰거 1" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="31414000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="1005" name="2페이즈_바닥원 투명NPC 작은거 2" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="31415000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="1006" name="2페이즈_바닥원 투명NPC 중간거 2" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="31416000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="1007" name="2페이즈_바닥원 투명NPC 큰거 2" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="31417000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="1008" name="2페이즈_바닥원 투명NPC 큰거 3" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="31418000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="1009" name="2페이즈_바닥원 투명NPC 작은거 1" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="31411000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="1010" name="2페이즈_바닥원 투명NPC 중간거 1" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="31413000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="1011" name="2페이즈_바닥원 투명NPC 작은거 1" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="31411000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="1012" name="2페이즈_바닥원 투명NPC 작은거 1" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="31411000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="1013" name="2페이즈_바닥원 투명NPC 작은거 1" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="31411000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="1014" name="2페이즈_바닥원 투명NPC 작은거 1" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="31411000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="1015" name="2페이즈_바닥원 투명NPC 작은거 1" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="31411000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="1016" name="2페이즈_바닥원 투명NPC 작은거 1" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="31411000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="1017" name="2페이즈_바닥원 투명NPC 작은거 1" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="31411000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="1018" name="2페이즈_바닥원 투명NPC 작은거 1" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="31411000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="1019" name="2페이즈_바닥원 투명NPC 작은거 1" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="31411000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="1020" name="2페이즈_바닥원 투명NPC 작은거 1" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="31411000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="1021" name="2페이즈_바닥원 투명NPC 작은거 1" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="31411000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="1022" name="2페이즈_바닥원 투명NPC 작은거 1" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="31411000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="1023" name="2페이즈_바닥원 투명NPC 작은거 1" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="31411000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="1024" name="2페이즈_바닥원 투명NPC 작은거 1" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="31411000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="1501" class="" name="차원의 마법석_던전 입구로" scale="0.5" gender="male" race="object" size="medium" shapeId="600920" basicActionId="200010" spawnScriptId="0" resourceSize="100" resourceType="medium" isWideBroadcaster="false" despawnScriptId="0" balanceType="밸런싱 안함" collideOnMove="true" dontTurn="true" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" villager="true">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="40" atk="100" def="2000" maxHp="10000" />
+    </Template>
+    <Template id="2000" name="다르니브_2페이즈" scale="1.1" gender="male" race="devil" size="large" shapeId="303542" basicActionId="3035400" resourceSize="100" resourceType="large" parentId="30414000" balanceType="" elite="true" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="true" showShorttermTarget="true" showTargetInfo="false" speciesId="10" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="2522520000" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="73" atk="11634051" def="12096" maxHp="25225200000" />
+    </Template>
+    <Template id="2301" name="1페이즈_악마화 영혼_휴먼 여자 주민_타락" scale="1" gender="male" race="Dark_Bishop" size="medium" shapeId="5001244" basicActionId="5001200" spawnScriptId="30410001" resourceSize="100" resourceType="large" isWideBroadcaster="true" parentId="30441000" despawnScriptId="30410002" elite="true" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="5" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation>
+            <AltAnim type="run" altAnimName="walk" />
+        </AltAnimation>
+        <Anger gaugeSize="42000000" />
+        <Emoticon forceHidden="true" />
+        <NamePlate nameplateHeight="35" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10117117" def="12096" maxHp="420000" />
+    </Template>
+    <Template id="2302" name="1페이즈_악마화 영혼_휴먼 여자 주민_착함" scale="1" gender="male" race="Dark_Bishop" size="medium" shapeId="5001244" basicActionId="5001200" spawnScriptId="30410001" resourceSize="100" resourceType="large" isWideBroadcaster="true" parentId="30442000" despawnScriptId="30410002" elite="true" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="5" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation>
+            <AltAnim type="run" altAnimName="walk" />
+        </AltAnimation>
+        <Anger gaugeSize="42000000" />
+        <Emoticon forceHidden="true" />
+        <NamePlate nameplateHeight="35" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10117117" def="12096" maxHp="420000" />
+    </Template>
+    <Template id="2303" name="1페이즈_악마화 영혼_휴먼 남자 주민_타락" scale="1" gender="male" race="Dark_Bishop" size="medium" shapeId="5000900" basicActionId="5000800" spawnScriptId="30410001" resourceSize="100" resourceType="large" isWideBroadcaster="true" parentId="30443000" despawnScriptId="30410002" elite="true" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="5" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation>
+            <AltAnim type="run" altAnimName="walk" />
+        </AltAnimation>
+        <Anger gaugeSize="42000000" />
+        <Emoticon forceHidden="true" />
+        <NamePlate nameplateHeight="35" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10117117" def="12096" maxHp="420000" />
+    </Template>
+    <Template id="2304" name="1페이즈_악마화 영혼_휴먼 남자 주민_착함" scale="1" gender="male" race="Dark_Bishop" size="medium" shapeId="5000900" basicActionId="5000800" spawnScriptId="30410001" resourceSize="100" resourceType="large" isWideBroadcaster="true" parentId="30444000" despawnScriptId="30410002" elite="true" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="5" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation>
+            <AltAnim type="run" altAnimName="walk" />
+        </AltAnimation>
+        <Anger gaugeSize="42000000" />
+        <Emoticon forceHidden="true" />
+        <NamePlate nameplateHeight="35" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10117117" def="12096" maxHp="420000" />
+    </Template>
+    <Template id="2305" name="1페이즈_악마화 영혼_휴먼 남자 코트_타락" scale="1" gender="male" race="Dark_Bishop" size="medium" shapeId="5001088" basicActionId="5000800" spawnScriptId="30410001" resourceSize="100" resourceType="large" isWideBroadcaster="true" parentId="30445000" despawnScriptId="30410002" elite="true" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="5" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation>
+            <AltAnim type="run" altAnimName="walk" />
+        </AltAnimation>
+        <Anger gaugeSize="42000000" />
+        <Emoticon forceHidden="true" />
+        <NamePlate nameplateHeight="35" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10117117" def="12096" maxHp="420000" />
+    </Template>
+    <Template id="2306" name="1페이즈_악마화 영혼_휴먼 남자 코트_착함" scale="1" gender="male" race="Dark_Bishop" size="medium" shapeId="5001088" basicActionId="5000800" spawnScriptId="30410001" resourceSize="100" resourceType="large" isWideBroadcaster="true" parentId="30446000" despawnScriptId="30410002" elite="true" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="5" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation>
+            <AltAnim type="run" altAnimName="walk" />
+        </AltAnimation>
+        <Anger gaugeSize="42000000" />
+        <Emoticon forceHidden="true" />
+        <NamePlate nameplateHeight="35" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10117117" def="12096" maxHp="420000" />
+    </Template>
+    <Template id="3000" name="2페이즈 악마의 시종 1" scale="1.1" gender="male" race="devil" size="large" shapeId="303543" basicActionId="3035400" spawnScriptId="30410003" resourceSize="100" resourceType="large" parentId="30413000" despawnScriptId="30410004" balanceType="" dontTurn="false" elite="true" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" speciesId="10" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="201650000" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="7000" def="8960" maxHp="99999000000" />
+    </Template>
+    <Template id="3001" name="촉수 5인 누킹 타격 투명NPC" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="33411000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960" maxHp="100" />
+    </Template>
+    <Template id="3002" name="1페이즈 악마의 시종 맛보기" scale="1.1" gender="male" race="devil" size="large" shapeId="303543" basicActionId="3035400" resourceSize="100" resourceType="large" parentId="30354000" balanceType="" elite="true" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" speciesId="10" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="201650000" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="7000" def="89600" maxHp="2016500000" />
+    </Template>
+    <Template id="3003" name="2페이즈_악마의 시종_타임어택용" scale="1" race="" size="large" shapeId="303543" basicActionId="3035400" resourceSize="0" resourceType="" parentId="30413000" balanceType="인던_네임드_보스" dontTurn="true" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="999999000" />
+        <BalanceRef ignoreAttr="" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="7000" def="8960" maxHp="99999000000" />
+    </Template>
+    <Template id="3004" name="1페이즈 악마의 시종_가만히 있음" scale="1.1" gender="male" race="devil" size="large" shapeId="303543" basicActionId="3035400" resourceSize="100" resourceType="large" parentId="30354000" balanceType="" dontTurn="true" elite="true" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" speciesId="10" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="201650000" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="7000" def="89600" maxHp="2016500000" />
+    </Template>
+    <Template id="3005" name="2페이즈_보호막 체크용_4개" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960000" maxHp="100000000000" />
+    </Template>
+    <Template id="3006" name="2페이즈_보호막 체크용_3개" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960000" maxHp="100000000000" />
+    </Template>
+    <Template id="3007" name="2페이즈_보호막 체크용_2개" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960000" maxHp="100000000000" />
+    </Template>
+    <Template id="3008" name="2페이즈_보호막 체크용_1개" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="3600" def="8960000" maxHp="100000000000" />
+    </Template>
+</NpcData>

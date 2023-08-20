@@ -1,0 +1,217 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="250011" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>2500,11</Quest번호>
+        <Quest제목>@quest:250011001</Quest제목>
+        <반복퀘스트>1회성</반복퀘스트>
+        <발생조건>
+            <NPC대화>2500,210</NPC대화>
+        </발생조건>
+        <수행조건>
+            <선행퀘스트>
+                <선행퀘스트>
+                    <퀘스트Id>2500,01</퀘스트Id>
+                </선행퀘스트>
+            </선행퀘스트>
+            <최소레벨>1</최소레벨>
+        </수행조건>
+        <수행지역>2501</수행지역>
+        <스토리그룹Id>2500</스토리그룹Id>
+        <요약정보>2</요약정보>
+        <집회소분류 />
+        <추가보상 />
+        <퀘스트종류>중요미션</퀘스트종류>
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <목표지역>2501,250100023</목표지역>
+                <저널Text>@quest:250011003</저널Text>
+                <제한시간>0,0</제한시간>
+                <지역명>@quest:250011002</지역명>
+            </Body>
+            <Header>
+                <ContinentId>2501</ContinentId>
+                <Id>1</Id>
+                <JournalScript>1</JournalScript>
+                <Pos />
+                <다음Task>2</다음Task>
+                <이름>PC이동Task</이름>
+            </Header>
+        </Task>
+        <Task id="2">
+            <Body>
+                <저널Text>@quest:250011004</저널Text>
+            </Body>
+            <Header>
+                <ContinentId>2501</ContinentId>
+                <Id>2</Id>
+                <JournalScript>1</JournalScript>
+                <Pos />
+                <다음Task>3</다음Task>
+                <이름>던전이벤트Task</이름>
+            </Header>
+        </Task>
+        <Task id="3">
+            <Body>
+                <목표지역>2501,250100016</목표지역>
+                <저널Text>@quest:250011006</저널Text>
+                <제한시간>0,0</제한시간>
+                <지역명>@quest:250011005</지역명>
+            </Body>
+            <Header>
+                <ContinentId>2501</ContinentId>
+                <Id>3</Id>
+                <JournalScript>1</JournalScript>
+                <Pos />
+                <다음Task>4</다음Task>
+                <이름>PC이동Task</이름>
+            </Header>
+        </Task>
+        <Task id="4">
+            <Body>
+                <목표지역>2501,250100005</목표지역>
+                <저널Text>@quest:250011008</저널Text>
+                <제한시간>0,0</제한시간>
+                <지역명>@quest:250011007</지역명>
+            </Body>
+            <Header>
+                <ContinentId>2501</ContinentId>
+                <Id>4</Id>
+                <JournalScript>1</JournalScript>
+                <Pos />
+                <다음Task>5</다음Task>
+                <이름>PC이동Task</이름>
+            </Header>
+        </Task>
+        <Task id="5">
+            <Body>
+                <몬스터지정>
+                    <몬스터지정>
+                        <몬스터Id>2501,1101</몬스터Id>
+                        <사냥마리수>4</사냥마리수>
+                    </몬스터지정>
+                </몬스터지정>
+                <보상 />
+                <저널Text>@quest:250011009</저널Text>
+                <진행조건 />
+            </Body>
+            <Header>
+                <ContinentId>2501</ContinentId>
+                <Id>5</Id>
+                <JournalScript>1</JournalScript>
+                <Pos />
+                <다음Task>6</다음Task>
+                <이름>사냥Task</이름>
+            </Header>
+        </Task>
+        <Task id="6">
+            <Body>
+                <저널Text>@quest:250011010</저널Text>
+            </Body>
+            <Header>
+                <ContinentId>2501</ContinentId>
+                <Id>6</Id>
+                <JournalScript>1</JournalScript>
+                <Pos />
+                <다음Task>7</다음Task>
+                <이름>던전이벤트Task</이름>
+            </Header>
+        </Task>
+        <Task id="7">
+            <Body>
+                <몬스터지정>
+                    <몬스터지정>
+                        <몬스터Id>2501,1000</몬스터Id>
+                        <사냥마리수>6</사냥마리수>
+                    </몬스터지정>
+                </몬스터지정>
+                <보상 />
+                <저널Text>@quest:250011011</저널Text>
+                <진행조건 />
+            </Body>
+            <Header>
+                <ContinentId>2501</ContinentId>
+                <Id>7</Id>
+                <JournalScript>1</JournalScript>
+                <Pos />
+                <다음Task>8</다음Task>
+                <이름>사냥Task</이름>
+            </Header>
+        </Task>
+        <Task id="8">
+            <Body>
+                <목표지역>2501,250100007</목표지역>
+                <저널Text>@quest:250011013</저널Text>
+                <제한시간>0,0</제한시간>
+                <지역명>@quest:250011012</지역명>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>8</Id>
+                <JournalScript>1</JournalScript>
+                <Pos />
+                <다음Task>9</다음Task>
+                <이름>PC이동Task</이름>
+            </Header>
+        </Task>
+        <Task id="9">
+            <Body>
+                <몬스터지정>
+                    <몬스터지정>
+                        <몬스터Id>2501,1100</몬스터Id>
+                        <사냥마리수>5</사냥마리수>
+                    </몬스터지정>
+                    <몬스터지정>
+                        <몬스터Id>2501,1001</몬스터Id>
+                        <사냥마리수>4</사냥마리수>
+                    </몬스터지정>
+                </몬스터지정>
+                <보상 />
+                <저널Text>@quest:250011014</저널Text>
+                <진행조건 />
+            </Body>
+            <Header>
+                <ContinentId>2501</ContinentId>
+                <Id>9</Id>
+                <JournalScript>1</JournalScript>
+                <Pos />
+                <다음Task>10</다음Task>
+                <이름>사냥Task</이름>
+            </Header>
+        </Task>
+        <Task id="10">
+            <Body>
+                <저널Text>@quest:250011015</저널Text>
+            </Body>
+            <Header>
+                <ContinentId>2501</ContinentId>
+                <Id>10</Id>
+                <JournalScript>1</JournalScript>
+                <Pos />
+                <다음Task>11</다음Task>
+                <이름>던전이벤트Task</이름>
+            </Header>
+        </Task>
+        <Task id="11">
+            <Body>
+                <몬스터지정>
+                    <몬스터지정>
+                        <몬스터Id>2501,2000</몬스터Id>
+                        <사냥마리수>1</사냥마리수>
+                    </몬스터지정>
+                </몬스터지정>
+                <보상>1</보상>
+                <저널Text>@quest:250011017</저널Text>
+                <진행조건 />
+            </Body>
+            <Header>
+                <ContinentId>2501</ContinentId>
+                <Id>11</Id>
+                <JournalScript>1</JournalScript>
+                <Pos />
+                <다음Task />
+                <이름>사냥Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

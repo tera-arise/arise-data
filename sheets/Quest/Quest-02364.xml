@@ -1,0 +1,52 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="810053" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>8100,53</Quest번호>
+        <Quest제목>@quest:810053001</Quest제목>
+        <반복퀘스트>1회성</반복퀘스트>
+        <수행조건>
+            <최대레벨>40</최대레벨>
+            <최소레벨>36</최소레벨>
+        </수행조건>
+        <수행지역>118</수행지역>
+        <요약정보>100</요약정보>
+        <적정수행레벨>37</적정수행레벨>
+        <적정수행인원>5</적정수행인원>
+        <퀘스트종류>일일</퀘스트종류>
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <완료조건>
+                    <전장승리>
+                        <승리횟수>1</승리횟수>
+                        <전장Id>118</전장Id>
+                    </전장승리>
+                </완료조건>
+                <저널Text>@quest:810053002</저널Text>
+            </Body>
+            <Header>
+                <Id>1</Id>
+                <JournalScript>1</JournalScript>
+                <다음Task>2</다음Task>
+                <이름>조건Task</이름>
+            </Header>
+        </Task>
+        <Task id="2">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>9999,9999</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:810053003</저널Text>
+            </Body>
+            <Header>
+                <Id>2</Id>
+                <JournalScript>1</JournalScript>
+                <다음Task />
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

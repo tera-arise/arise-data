@@ -1,0 +1,61 @@
+<ActionCameraData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/ActionCameraData ActionCameraData.xsd" xmlns="https://vezel.dev/novadrop/dc/ActionCameraData">
+    <ActionCamera id="1" desc="점프기어 준비 동작 연출">
+        <Action time="0" type="reposition" duration="1000" startPitch="10" />
+        <Action time="0" type="zoom" duration="1000" endDistance="500" startDistance="0" />
+    </ActionCamera>
+    <ActionCamera id="2" desc="점프기어 점프 도중 연출용 예시">
+        <Action time="0" type="movelock" on="true" />
+        <Action time="100" type="movelock" on="false" />
+        <Action time="0" type="rotate" dependsOnPlayerDir="true" duration="6500" endAngle="0, -65, 0" startAngle="0, 10, 0" />
+    </ActionCamera>
+    <ActionCamera id="3" desc="점프기어 착지 연출">
+        <Action time="0" type="zoom" duration="1000" endDistance="350" startDistance="350" />
+        <Action time="500" type="shake" duration="500" shakePower="2" shakeSpeed="500" />
+    </ActionCamera>
+    <ActionCamera id="4" desc="점프기어 준비 동작 연출">
+        <Action time="0" type="rotate" dependsOnPlayerDir="true" duration="1000" endAngle="0, 15, 0" startAngle="0, 0, 0" />
+        <Action time="0" type="zoom" duration="1000" endDistance="500" startDistance="0" />
+    </ActionCamera>
+    <ActionCamera id="5" desc="점프기어 준비 동작 연출">
+        <Action time="0" type="movelock" on="true" />
+        <Action time="100" type="movelock" on="false" />
+        <Action time="0" type="zoom" duration="1000" endDistance="500" startDistance="500" />
+        <Action time="0" type="rotate" dependsOnPlayerDir="true" duration="2000" endAngle="0, -30, 0" startAngle="0, 15, 0" />
+        <Action time="2000" type="zoom" duration="2000" endDistance="500" startDistance="500" />
+        <Action time="2000" type="rotate" dependsOnPlayerDir="true" duration="2000" endAngle="0, -45, 0" startAngle="0, -30, 0" />
+        <Action time="3000" type="shake" duration="2500" shakePower="0.1" shakeSpeed="1000" />
+        <Action time="4000" type="shake" duration="1500" shakePower="0.1" shakeSpeed="1000" />
+        <Action time="4000" type="zoom" duration="1000" endDistance="350" startDistance="500" />
+    </ActionCamera>
+    <ActionCamera id="6" desc="점프기어 준비 동작 연출">
+        <Action time="0" type="zoom" duration="1000" endDistance="1000" startDistance="350" />
+        <Action time="0" type="rotate" dependsOnPlayerDir="true" duration="1000" endAngle="0, -30, 0" startAngle="0, -10, 0" />
+        <Action time="2000" type="zoom" duration="6500" endDistance="350" startDistance="1000" />
+        <Action time="2000" type="rotate" dependsOnPlayerDir="true" duration="3000" endAngle="0, -60, 0" startAngle="0, -30, 0" />
+        <Action time="3000" type="shake" duration="5000" shakePower="0.1" shakeSpeed="10" />
+    </ActionCamera>
+    <ActionCamera id="7" desc="점프기어 준비 동작 연출">
+        <Action time="0" type="zoom" duration="500" endDistance="50" startDistance="500" />
+        <Action time="0" type="rotate" dependsOnPlayerDir="true" duration="500" endAngle="0, -30, 0" startAngle="0, -10, 0" />
+    </ActionCamera>
+    <ActionCamera id="8" desc="점프기어 준비 동작 연출">
+        <Action time="0" type="movelock" on="true" />
+        <Action time="100" type="movelock" on="false" />
+        <Action time="0" type="rotate" dependsOnPlayerDir="true" duration="1" endAngle="0, 1, 0" startAngle="0, 1, 0" />
+    </ActionCamera>
+    <ActionCamera id="9" desc="기관실 내 순간이동_준비 동작 연출">
+        <Action time="0" type="zoom" duration="700" endDistance="1000" startDistance="0" />
+    </ActionCamera>
+    <ActionCamera id="10" desc="기관실 내 순간이동_점프 도중 연출용">
+        <Action time="0" type="reposition" duration="1500" />
+    </ActionCamera>
+    <ActionCamera id="11" desc="기관실 내 순간이동_착지 연출">
+        <Action time="0" type="zoom" duration="700" endDistance="500" startDistance="1000" />
+    </ActionCamera>
+    <ActionCamera id="12" desc="신규모드 standby용 카메라 연출">
+        <Action time="0" type="reposition" duration="1000" />
+    </ActionCamera>
+    <ActionCamera id="13" desc="신규모드 jumping용 카메라 연출">
+        <Action time="0" type="rotate" dependsOnPlayerDir="true" duration="5000" endAngle="0, -55, 0" />
+    </ActionCamera>
+</ActionCameraData>

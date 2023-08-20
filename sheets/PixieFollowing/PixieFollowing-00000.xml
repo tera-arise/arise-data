@@ -1,0 +1,27 @@
+<PixieFollowing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/PixieFollowing PixieFollowing.xsd" xmlns="https://vezel.dev/novadrop/dc/PixieFollowing">
+    <AttachLoc>
+        <RaceAttachLoc gender="male" race="human" adjustZ="-3" adjustX="-9" adjustY="-9" />
+        <RaceAttachLoc gender="female" race="human" adjustZ="-7" adjustX="-9" adjustY="-8" />
+        <RaceAttachLoc gender="male" race="highelf" adjustZ="-2" adjustX="-8" adjustY="-9.5" />
+        <RaceAttachLoc gender="female" race="highelf" adjustZ="-5.5" adjustX="-8" adjustY="-8" />
+        <RaceAttachLoc gender="male" race="aman" adjustZ="4" adjustX="-18" adjustY="10" />
+        <RaceAttachLoc gender="female" race="aman" adjustZ="2" adjustX="-13" adjustY="-9" />
+        <RaceAttachLoc gender="male" race="castanic" adjustZ="-6" adjustX="-10" adjustY="-9" />
+        <RaceAttachLoc gender="female" race="castanic" adjustZ="-11" adjustX="-8" adjustY="-6" />
+        <RaceAttachLoc gender="male" race="popori" adjustZ="-20" adjustX="-17" adjustY="12" />
+        <RaceAttachLoc gender="female" race="popori" adjustZ="-16" adjustX="-10" adjustY="-7" />
+        <RaceAttachLoc gender="male" race="baraka" adjustZ="5" adjustX="-18" adjustY="-15" />
+    </AttachLoc>
+    <FollowingMesh type="WorldEvent" animSet="Pixie_Event_ANI.Anim.Pixie_Event_anim" mesh="Pixie_event.Skel.Pixie_Event_Skel" scale="1.8" attachBoneName="FxBottom" animTree="S1Prototype.SimpleAnimTree">
+        <Effect time="0" type="normal" scale="0.08" posX="0" posY="0" posZ="0" absoluteOffsetLoc="false" bGround="false" boneName="FxCenter" detach="false" playRate="1" rescaleMethod="followShape" resource="FX_H.PS.H_8001_PS" pitch="0" yaw="0" roll="0" />
+    </FollowingMesh>
+    <FollowingMesh type="Begginer" animSet="Pixie_Beginner_ANI.Anim.Pixie_Beginner_anim" mesh="Pixie_Beginner.Skel.Pixie_Beginner_Skel" scale="1.8" attachBoneName="FxBottom" animTree="S1Prototype.SimpleAnimTree">
+        <Effect time="0" type="normal" scale="0.08" posX="0" posY="0" posZ="0" absoluteOffsetLoc="false" bGround="false" boneName="FxCenter" detach="false" playRate="1" rescaleMethod="followShape" resource="Pixie_Beginner.PS.Pixie_Beginner_H_8001_PS" pitch="0" yaw="0" roll="0" />
+    </FollowingMesh>
+    <FollowingMesh type="LittleFriend" animSet="Pixie_Beginner_ANI.Anim.Pixie_Beginner_anim" mesh="Pixie_Beginner.Skel.Pixie_Beginner_Skel" scale="1.8" attachBoneName="FxBottom" animTree="S1Prototype.SimpleAnimTree">
+        <Effect time="0" type="normal" scale="0.08" posX="0" posY="0" posZ="0" absoluteOffsetLoc="false" bGround="false" boneName="FxCenter" detach="false" playRate="1" rescaleMethod="followShape" resource="Pixie_Beginner.PS.Pixie_Beginner_H_8001_PS" pitch="0" yaw="0" roll="0" />
+    </FollowingMesh>
+    <FollowingMesh type="Senior" animSet="Pixie_Beginner_ANI.Anim.Pixie_Beginner_anim" mesh="Pixie_Beginner.Skel.Pixie_Beginner_B_Skel" scale="1.8" attachBoneName="FxBottom" animTree="S1Prototype.SimpleAnimTree">
+        <Effect time="0" type="normal" scale="0.08" posX="0" posY="0" posZ="0" absoluteOffsetLoc="false" bGround="false" boneName="FxCenter" detach="false" playRate="1" rescaleMethod="followShape" resource="Pixie_Beginner.PS.Pixie_Senior_PS" pitch="0" yaw="0" roll="0" />
+    </FollowingMesh>
+</PixieFollowing>

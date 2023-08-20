@@ -1,0 +1,88 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="3336" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>33,36</Quest번호>
+        <Quest제목>@quest:3336001</Quest제목>
+        <반복퀘스트>1회성</반복퀘스트>
+        <발생조건>
+            <NPC대화>233,1008</NPC대화>
+        </발생조건>
+        <수행조건>
+            <길드레벨 />
+            <영주길드 />
+            <최소레벨>43</최소레벨>
+        </수행조건>
+        <스토리그룹Id />
+        <요약정보>100</요약정보>
+        <적정수행레벨>45</적정수행레벨>
+        <적정수행인원>1</적정수행인원>
+        <집회소분류 />
+        <퀘스트종류>범용</퀘스트종류>
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <Flag아이템이름>@quest:3336005</Flag아이템이름>
+                <대상NPC지정>233,1015</대상NPC지정>
+                <보상>0</보상>
+                <아이콘지정>96</아이콘지정>
+                <저널Text>@quest:3336006</저널Text>
+                <전달수량>3</전달수량>
+            </Body>
+            <Header>
+                <Id>1</Id>
+                <JournalScript>2</JournalScript>
+                <다음Task>2</다음Task>
+                <이름>찔러준아이템전달Task</이름>
+            </Header>
+        </Task>
+        <Task id="2">
+            <Body>
+                <Flag아이템이름>@quest:3336009</Flag아이템이름>
+                <대상NPC지정>233,1016</대상NPC지정>
+                <보상>0</보상>
+                <아이콘지정>96</아이콘지정>
+                <저널Text>@quest:3336010</저널Text>
+                <전달수량>2</전달수량>
+            </Body>
+            <Header>
+                <Id>2</Id>
+                <JournalScript>3</JournalScript>
+                <다음Task>3</다음Task>
+                <이름>찔러준아이템전달Task</이름>
+            </Header>
+        </Task>
+        <Task id="3">
+            <Body>
+                <Flag아이템이름>@quest:3336013</Flag아이템이름>
+                <대상NPC지정>233,1017</대상NPC지정>
+                <보상>0</보상>
+                <아이콘지정>96</아이콘지정>
+                <저널Text>@quest:3336014</저널Text>
+                <전달수량>1</전달수량>
+            </Body>
+            <Header>
+                <Id>3</Id>
+                <JournalScript>4</JournalScript>
+                <다음Task>4</다음Task>
+                <이름>찔러준아이템전달Task</이름>
+            </Header>
+        </Task>
+        <Task id="4">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>233,1008</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>1</보상>
+                <저널Text>@quest:3336017</저널Text>
+            </Body>
+            <Header>
+                <Id>4</Id>
+                <JournalScript>5</JournalScript>
+                <다음Task />
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

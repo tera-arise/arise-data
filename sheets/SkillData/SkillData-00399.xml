@@ -1,0 +1,745 @@
+<SkillData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/SkillData SkillData.xsd" huntingZoneId="506" xmlns="https://vezel.dev/novadrop/dc/SkillData">
+    <Skill id="1101" category="0" name="항아리_깨질 때 밀어내기(환영의 탑 전용)_wait_공통" type="normal" templateId="5003" nextSkill="0" parentId="61149000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100" attackRangeMax="" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_T4_Battle_Pot_ANI.Anim.NPC_T4_Battle_Pot_Anim" duration="3200" animName="Wait" animRate="1" blendInTime="200" bAnimLooping="true" animMotionId="0" bEnableBlendInTimeWhenNpc="false" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse">
+            <Targeting id="-1" time="3000" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="enemy" rotateAngle="0" maxHeight="60" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="200" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <HpDiff value="0.000000" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="animationDamage" />
+                        <Reaction ignoreSkill="true" basicRate="100" miniRate="100">
+                            <DynamicReaction reactionAccel="-140" reactionEndSpeed="100" reactionSpeed="500" useInterpolation="true" />
+                        </Reaction>
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1102" category="0" name="항아리_깨질 때 밀어내기(환영의 탑 전용)_wait_공통" type="normal" templateId="5003" nextSkill="0" parentId="61149000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100" attackRangeMax="" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_T4_Battle_Pot_ANI.Anim.NPC_T4_Battle_Pot_Anim" duration="3200" animName="Wait" animRate="1" blendInTime="200" bAnimLooping="true" animMotionId="0" bEnableBlendInTimeWhenNpc="false" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse">
+            <Targeting id="-1" time="3000" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="enemy" rotateAngle="0" maxHeight="60" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="400" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <HpDiff value="0.000000" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="animationDamage" />
+                        <Reaction ignoreSkill="true" basicRate="100" miniRate="100">
+                            <DynamicReaction reactionAccel="-140" reactionEndSpeed="100" reactionSpeed="500" useInterpolation="true" />
+                        </Reaction>
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1103" category="0" name="항아리_깨질 때 밀어내기(환영의 탑 전용)_wait_공통" type="normal" templateId="5003" nextSkill="0" parentId="61149000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100" attackRangeMax="" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_T4_Battle_Pot_ANI.Anim.NPC_T4_Battle_Pot_Anim" duration="3200" animName="Wait" animRate="1" blendInTime="200" bAnimLooping="true" animMotionId="0" bEnableBlendInTimeWhenNpc="false" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse">
+            <Targeting id="-1" time="3000" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="enemy" rotateAngle="0" maxHeight="60" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="600" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <HpDiff value="0.000000" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="animationDamage" />
+                        <Reaction ignoreSkill="true" basicRate="100" miniRate="100">
+                            <DynamicReaction reactionAccel="-140" reactionEndSpeed="100" reactionSpeed="500" useInterpolation="true" />
+                        </Reaction>
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1104" category="0" name="항아리_깨질 때 밀어내기(환영의 탑 전용)_wait_공통" type="normal" templateId="5003" nextSkill="0" parentId="61149000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100" attackRangeMax="" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_T4_Battle_Pot_ANI.Anim.NPC_T4_Battle_Pot_Anim" duration="3200" animName="Wait" animRate="1" blendInTime="200" bAnimLooping="true" animMotionId="0" bEnableBlendInTimeWhenNpc="false" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse">
+            <Targeting id="-1" time="3000" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="enemy" rotateAngle="0" maxHeight="60" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="800" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <HpDiff value="0.000000" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="animationDamage" />
+                        <Reaction ignoreSkill="true" basicRate="100" miniRate="100">
+                            <DynamicReaction reactionAccel="-140" reactionEndSpeed="100" reactionSpeed="500" useInterpolation="true" />
+                        </Reaction>
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1101" category="0" name="베르고스_시작하자마자_터지기(자살)" type="normal" templateId="5015" nextSkill="0" parentId="71003000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100" changeDirToCenter="false" needWeapon="true" pushtarget="stop" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_TreasureBox01_ANI.Anim.NPC_TreasureBox01_Anim" duration="100" animName="atk01" animRate="1" blendInTime="200" bAnimLooping="true" bEnableBlendInTimeWhenNpc="false" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse">
+            <Targeting id="-1" time="0" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="me" rotateAngle="0" maxHeight="60" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="100" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <HpDiff value="-1000000.000000" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="animationDamage" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1101" category="0" name="베르고스_시작하자마자_터지기(자살)" type="normal" templateId="5019" nextSkill="0" parentId="71003000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100" changeDirToCenter="false" needWeapon="true" pushtarget="stop" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_TreasureBox01_ANI.Anim.NPC_TreasureBox01_Anim" duration="100" animName="atk01" animRate="1" blendInTime="200" bAnimLooping="true" bEnableBlendInTimeWhenNpc="false" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse">
+            <Targeting id="-1" time="0" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="me" rotateAngle="0" maxHeight="60" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="100" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <HpDiff value="-1000000.000000" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="animationDamage" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1101" category="0" name="베르고스_시작하자마자_터지기(자살)" type="normal" templateId="5020" nextSkill="0" parentId="71003000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100" changeDirToCenter="false" needWeapon="true" pushtarget="stop" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_TreasureBox01_ANI.Anim.NPC_TreasureBox01_Anim" duration="100" animName="atk01" animRate="1" blendInTime="200" bAnimLooping="true" bEnableBlendInTimeWhenNpc="false" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse">
+            <Targeting id="-1" time="0" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="me" rotateAngle="0" maxHeight="60" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="100" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <HpDiff value="-1000000.000000" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="animationDamage" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1101" category="0" name="베르고스_시작하자마자_터지기(자살)" type="normal" templateId="5021" nextSkill="0" parentId="71003000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100" changeDirToCenter="false" needWeapon="true" pushtarget="stop" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_TreasureBox01_ANI.Anim.NPC_TreasureBox01_Anim" duration="100" animName="atk01" animRate="1" blendInTime="200" bAnimLooping="true" bEnableBlendInTimeWhenNpc="false" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse">
+            <Targeting id="-1" time="0" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="me" rotateAngle="0" maxHeight="60" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="100" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <HpDiff value="-1000000.000000" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="animationDamage" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1101" category="0" name="베르고스_시작하자마자_터지기(자살)" type="normal" templateId="5022" nextSkill="0" parentId="71003000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100" changeDirToCenter="false" needWeapon="true" pushtarget="stop" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_TreasureBox01_ANI.Anim.NPC_TreasureBox01_Anim" duration="100" animName="atk01" animRate="1" blendInTime="200" bAnimLooping="true" bEnableBlendInTimeWhenNpc="false" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse">
+            <Targeting id="-1" time="0" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="me" rotateAngle="0" maxHeight="60" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="100" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <HpDiff value="-1000000.000000" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="animationDamage" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1378" category="0" name="각성 스토리텔링 벨리카 연회장 연출용 음표" type="normal" templateId="6001" nextSkill="0" parentId="61141000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100" changeDirToCenter="false" needWeapon="true" pushtarget="stop" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim" duration="3000" animName="Wait" animRate="1" blendInTime="200" bAnimLooping="true" bEnableBlendInTimeWhenNpc="false" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse">
+            <Targeting id="-1" time="0" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="enemy" rotateAngle="0" maxHeight="60" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="0" pierceDepth="1" minHeight="0" rangeAngle="0" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <HpDiff value="0.000000" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="animationDamage" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1379" category="0" name="각성 스토리텔링 벨리카 연회장 연출용 폭죽" type="normal" templateId="6001" nextSkill="0" parentId="61141000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100" changeDirToCenter="false" needWeapon="true" pushtarget="stop" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim" duration="3000" animName="Wait" animRate="1" blendInTime="200" bAnimLooping="true" bEnableBlendInTimeWhenNpc="false" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" />
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1380" category="0" name="각성 스토리텔링 벨리카 연회장 연출용 일체형 폭죽" type="normal" templateId="6001" nextSkill="0" parentId="61141000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100" changeDirToCenter="false" needWeapon="true" pushtarget="stop" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim" duration="3000" animName="Wait" animRate="1" blendInTime="200" bAnimLooping="true" bEnableBlendInTimeWhenNpc="false" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" />
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1378" category="0" name="각성 스토리텔링 벨리카 연회장 연출용 음표" type="normal" templateId="6002" nextSkill="0" parentId="61141000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100" changeDirToCenter="false" needWeapon="true" pushtarget="stop" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim" duration="3000" animName="Wait" animRate="1" blendInTime="200" bAnimLooping="true" bEnableBlendInTimeWhenNpc="false" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse">
+            <Targeting id="-1" time="0" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="enemy" rotateAngle="0" maxHeight="60" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="0" pierceDepth="1" minHeight="0" rangeAngle="0" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <HpDiff value="0.000000" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="animationDamage" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1379" category="0" name="각성 스토리텔링 벨리카 연회장 연출용 폭죽" type="normal" templateId="6002" nextSkill="0" parentId="61141000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100" changeDirToCenter="false" needWeapon="true" pushtarget="stop" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim" duration="3000" animName="Wait" animRate="1" blendInTime="200" bAnimLooping="true" bEnableBlendInTimeWhenNpc="false" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" />
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1380" category="0" name="각성 스토리텔링 벨리카 연회장 연출용 일체형 폭죽" type="normal" templateId="6002" nextSkill="0" parentId="61141000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100" changeDirToCenter="false" needWeapon="true" pushtarget="stop" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim" duration="3000" animName="Wait" animRate="1" blendInTime="200" bAnimLooping="true" bEnableBlendInTimeWhenNpc="false" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" />
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1378" category="0" name="각성 스토리텔링 벨리카 연회장 연출용 음표" type="normal" templateId="6003" nextSkill="0" parentId="61141000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100" changeDirToCenter="false" needWeapon="true" pushtarget="stop" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim" duration="3000" animName="Wait" animRate="1" blendInTime="200" bAnimLooping="true" bEnableBlendInTimeWhenNpc="false" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse">
+            <Targeting id="-1" time="0" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="enemy" rotateAngle="0" maxHeight="60" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="0" pierceDepth="1" minHeight="0" rangeAngle="0" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <HpDiff value="0.000000" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="animationDamage" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1379" category="0" name="각성 스토리텔링 벨리카 연회장 연출용 폭죽" type="normal" templateId="6003" nextSkill="0" parentId="61141000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100" changeDirToCenter="false" needWeapon="true" pushtarget="stop" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim" duration="3000" animName="Wait" animRate="1" blendInTime="200" bAnimLooping="true" bEnableBlendInTimeWhenNpc="false" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" />
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1380" category="0" name="각성 스토리텔링 벨리카 연회장 연출용 일체형 폭죽" type="normal" templateId="6003" nextSkill="0" parentId="61141000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100" changeDirToCenter="false" needWeapon="true" pushtarget="stop" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim" duration="3000" animName="Wait" animRate="1" blendInTime="200" bAnimLooping="true" bEnableBlendInTimeWhenNpc="false" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" />
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1101" category="0" name="none" type="normal" templateId="9500" nextSkill="0" parentId="65299000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="500" changeDirToCenter="false" needWeapon="true" pushtarget="stop" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <HitCylinderList />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="AWAKEN_DragonPortal_Ani.Anim.AWAKEN_DragonPortal_Anim" duration="4000" animName="Wait" animRate="1" blendInTime="200" bAnimLooping="true" bEnableBlendInTimeWhenNpc="false" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="toTarget">
+            <Targeting id="-1" time="3000" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="enemy" rotateAngle="0" maxHeight="60" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="100" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <HpDiff value="0.000000" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="animationDamage" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+                <ProjectileSkillList />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+</SkillData>

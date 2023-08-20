@@ -1,0 +1,161 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="306" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>3,6</Quest번호>
+        <Quest제목>@quest:306001</Quest제목>
+        <반복퀘스트>1회성</반복퀘스트>
+        <발생조건>
+            <NPC대화>203,1007</NPC대화>
+        </발생조건>
+        <수행조건>
+            <길드레벨 />
+            <선행퀘스트>
+                <선행퀘스트>
+                    <퀘스트Id>03,05</퀘스트Id>
+                </선행퀘스트>
+            </선행퀘스트>
+            <영주길드 />
+            <최소레벨>15</최소레벨>
+        </수행조건>
+        <수행지역>3</수행지역>
+        <스토리그룹Id>4</스토리그룹Id>
+        <요약정보>2</요약정보>
+        <적정수행레벨>16</적정수행레벨>
+        <적정수행인원>1</적정수행인원>
+        <집회소분류 />
+        <추가보상 />
+        <퀘스트종류>미션</퀘스트종류>
+        <특수가이드 />
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <목표지역>203,20300050</목표지역>
+                <저널Text>@quest:306005</저널Text>
+                <제한시간>0,0</제한시간>
+                <지역명>@quest:306003</지역명>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>1</Id>
+                <JournalScript>1</JournalScript>
+                <Pos />
+                <다음Task>2</다음Task>
+                <이름>PC이동Task</이름>
+            </Header>
+        </Task>
+        <Task id="2">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>203,1041</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:306007</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>2</Id>
+                <JournalScript>1</JournalScript>
+                <Pos />
+                <다음Task>3</다음Task>
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+        <Task id="3">
+            <Body>
+                <오브젝트지정>
+                    <오브젝트지정>
+                        <동작횟수>1</동작횟수>
+                        <오브젝트Id>127</오브젝트Id>
+                    </오브젝트지정>
+                </오브젝트지정>
+                <저널Text>@quest:306008</저널Text>
+                <제한시간>0,0</제한시간>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>3</Id>
+                <JournalScript>3</JournalScript>
+                <Pos />
+                <다음Task>4</다음Task>
+                <이름>오브젝트동작Task</이름>
+            </Header>
+        </Task>
+        <Task id="4">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>203,1042</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:306010</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>4</Id>
+                <JournalScript>3</JournalScript>
+                <Pos />
+                <다음Task>5</다음Task>
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+        <Task id="5">
+            <Body>
+                <몬스터그룹>
+                    <몬스터그룹>
+                        <그룹이름>@quest:306011</그룹이름>
+                        <몬스터지정>
+                            <몬스터지정>
+                                <몬스터Id>3,300160</몬스터Id>
+                            </몬스터지정>
+                            <몬스터지정>
+                                <몬스터Id>3,23</몬스터Id>
+                            </몬스터지정>
+                            <몬스터지정>
+                                <몬스터Id>3,19</몬스터Id>
+                            </몬스터지정>
+                            <몬스터지정>
+                                <몬스터Id>3,300141</몬스터Id>
+                            </몬스터지정>
+                        </몬스터지정>
+                        <사냥마리수>5</사냥마리수>
+                    </몬스터그룹>
+                </몬스터그룹>
+                <저널Text>@quest:306012</저널Text>
+                <진행조건>
+                    <사냥인원>혼자</사냥인원>
+                    <제한시간>0,0</제한시간>
+                </진행조건>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>5</Id>
+                <JournalScript>4</JournalScript>
+                <Pos />
+                <다음Task>6</다음Task>
+                <이름>그룹사냥Task</이름>
+            </Header>
+        </Task>
+        <Task id="6">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>203,1043</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>1</보상>
+                <저널Text>@quest:306014</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>6</Id>
+                <JournalScript>4</JournalScript>
+                <Pos />
+                <다음Task />
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

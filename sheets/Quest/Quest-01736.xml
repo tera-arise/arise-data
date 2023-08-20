@@ -1,0 +1,162 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="50538" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>505,38</Quest번호>
+        <Quest제목>@quest:50538001</Quest제목>
+        <반복퀘스트>1회성</반복퀘스트>
+        <발생조건>
+            <NPC대화>13,9005</NPC대화>
+            <즉시수주>1</즉시수주>
+        </발생조건>
+        <수행조건>
+            <길드레벨 />
+            <선행퀘스트>
+                <선행퀘스트>
+                    <퀘스트Id>505,37</퀘스트Id>
+                </선행퀘스트>
+            </선행퀘스트>
+            <영주길드 />
+            <최소레벨>68</최소레벨>
+        </수행조건>
+        <수행지역>13</수행지역>
+        <스토리그룹Id>27</스토리그룹Id>
+        <요약정보>2</요약정보>
+        <적정수행레벨>68</적정수행레벨>
+        <적정수행인원>1</적정수행인원>
+        <집회소분류 />
+        <추가보상 />
+        <퀘스트종류>미션</퀘스트종류>
+        <특수가이드 />
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>13,9005</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:50538003</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>1</Id>
+                <JournalScript>1</JournalScript>
+                <Pos />
+                <다음Task>2</다음Task>
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+        <Task id="2">
+            <Body>
+                <대상NPC지정>13,9005</대상NPC지정>
+                <보상>0</보상>
+                <아이템작성>
+                    <아이템작성>
+                        <Flag아이템이름>@quest:50538004</Flag아이템이름>
+                        <몬스터지정>
+                            <몬스터지정>
+                                <몬스터Id>13,7006</몬스터Id>
+                            </몬스터지정>
+                        </몬스터지정>
+                        <아이콘지정>19004</아이콘지정>
+                        <전달수량>10</전달수량>
+                    </아이템작성>
+                </아이템작성>
+                <저널Text>@quest:50538005</저널Text>
+                <저널Text2 />
+                <진행조건>
+                    <제한시간>0,0</제한시간>
+                </진행조건>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>2</Id>
+                <JournalScript>3</JournalScript>
+                <Pos />
+                <다음Task>3</다음Task>
+                <이름>사냥전달Task</이름>
+            </Header>
+        </Task>
+        <Task id="3">
+            <Body>
+                <아이템지정>
+                    <아이템지정>
+                        <아이템Id>88741</아이템Id>
+                    </아이템지정>
+                </아이템지정>
+                <저널Text>@quest:50538007</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>3</Id>
+                <JournalScript>4</JournalScript>
+                <Pos />
+                <다음Task>4</다음Task>
+                <이름>아이템사용Task</이름>
+            </Header>
+        </Task>
+        <Task id="4">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>13,9005</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:50538009</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>4</Id>
+                <JournalScript>4</JournalScript>
+                <Pos />
+                <다음Task>5</다음Task>
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+        <Task id="5">
+            <Body>
+                <아이템지정>
+                    <아이템지정>
+                        <아이템Id>88759</아이템Id>
+                    </아이템지정>
+                </아이템지정>
+                <저널Text>@quest:50538010</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>5</Id>
+                <JournalScript>6</JournalScript>
+                <Pos />
+                <다음Task>6</다음Task>
+                <이름>아이템사용Task</이름>
+            </Header>
+        </Task>
+        <Task id="6">
+            <Body>
+                <대상NPC지정>183,1151</대상NPC지정>
+                <보상>1</보상>
+                <아이템지정>
+                    <아이템지정>
+                        <아이템Id>88763</아이템Id>
+                        <전달수량>1</전달수량>
+                    </아이템지정>
+                </아이템지정>
+                <저널Text>@quest:50538012</저널Text>
+                <저널Text2 />
+                <제한시간설정>
+                    <제한시간>0,0</제한시간>
+                </제한시간설정>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>6</Id>
+                <JournalScript>6</JournalScript>
+                <Pos />
+                <다음Task />
+                <이름>아이템전달Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

@@ -1,0 +1,1189 @@
+<SkillData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/SkillData SkillData.xsd" huntingZoneId="139" xmlns="https://vezel.dev/novadrop/dc/SkillData">
+    <Skill id="1302" category="0" name="미니 공성포 소환" type="normal" templateId="3002" nextSkill="0" parentId="60096000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="NPC_SWC_Quest_ANI.Anim.Turret_Anim" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_SWC_Quest_ANI.Anim.Turret_Anim" duration="0" animName="Turret_atk01" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="0" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" MultiInstanceShoot="false">
+            <Targeting id="-1" time="0" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="allPcExceptMe" rotateAngle="0" maxHeight="25" maxCount="1" offsetAngle="0" offsetDistance="0" maxRadius="500" pierceDepth="1" minHeight="-25" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="0">
+                            <HpDiff value="0" />
+                            <MpDiff value="0" />
+                            <SummonNpc templateId="4000" atkRatio="2" defRatio="1.5" />
+                        </Effect>
+                        <HitEffect type="nothing" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1101" category="9012" name="포화의 전장 공성병기_공격_FireAtk01_공용" type="instance" templateId="4000" nextSkill="1102" parentId="72022000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="NPC_T4_Mion_Kanovia_ANI.Anim.NPC_T4_Mion_Kanovia_anim" totalAtk="10.000000">
+        <Action>
+            <CameraShakeList>
+                <CameraShake name="none" targetType="all" duration="200" startTime="1" power="2" innerRadius="0" outerRadius="200" speed="1" startValue="-1" shakeId="0" startCondition="skillStart" />
+                <CameraShake name="none" targetType="all" duration="1000" startTime="1" power="2" innerRadius="0" outerRadius="300" speed="4" startValue="-1" shakeId="0" startCondition="skillStart" />
+            </CameraShakeList>
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_T4_Mion_Kanovia_ANI.Anim.NPC_T4_Mion_Kanovia_anim" duration="0" animName="atk1" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="0" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="1101" createTime="0" flyingDuration="999" startSkill="1101" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="2000" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" MultiInstanceShoot="false">
+            <Targeting id="-1" time="999" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" combinedArea="false">
+                <AreaList>
+                    <Area type="enemyOrPvp" rotateAngle="0" maxHeight="33" maxCount="1" offsetAngle="0" offsetDistance="0" maxRadius="500" pierceDepth="1" minHeight="33" rangeAngle="0" crosshairRadius="4" minRadius="0" crosshairRadius2="4">
+                        <Effect atk="0">
+                            <HpDiff value="0" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="animationDamage" />
+                        <Reaction basicRate="55" miniRate="1.5" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="5" />
+                <ProjectileSkillList />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1102" category="9012" name="포화의 전장 공성병기_공격_FireAtk01_실공격용" type="notimeline" templateId="4000" nextSkill="0" parentId="72022000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="NPC_T4_Mion_Kanovia_ANI.Anim.NPC_T4_Mion_Kanovia_anim" totalAtk="300000.0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="0" />
+            <SpecialEffectList />
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="2000" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" MultiInstanceShoot="false">
+            <Targeting id="-1" time="999" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="enemyOrPvp" rotateAngle="0" maxHeight="200" maxCount="1" offsetAngle="0" offsetDistance="0" maxRadius="250" pierceDepth="100" minHeight="-200" rangeAngle="1" crosshairRadius="320" minRadius="0" crosshairRadius2="320">
+                        <Effect atk="1">
+                            <AbnormalityOnCommon id="0" />
+                            <HpDiff value="0" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="animationDamage" />
+                        <Reaction basicRate="55" miniRate="1.5" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1201" category="9012" name="포화의 전장 공성병기_하차" type="mount" templateId="4000" nextSkill="0" parentId="72022000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="NPC_T4_Mion_Kanovia_ANI.Anim.NPC_T4_Mion_Kanovia_anim" totalAtk="0.000000">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="-1" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_T4_Mion_Kanovia_ANI.Anim.NPC_T4_Mion_Kanovia_anim" duration="0" animName="Wait" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="2" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger speedUpRate="0" />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Mount vehicleId="0" vehicleSupplyItemId="0" />
+        <Precondition coolTime="3000" modeChangeMethod="2" modeNo="30" offModeNo="0">
+            <Cost hp="0" mp="0">
+                <ItemList />
+            </Cost>
+            <ExclusiveAbnormality />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0">
+            <TargetingList>
+                <Targeting>
+                    <AreaList>
+                        <Area time="0" maxCount="10">
+                            <Effect atk="0" abnormalityRate="0">
+                                <HpDiff value="0" />
+                                <MpDiff value="0" />
+                            </Effect>
+                            <HitEffect type="nothing" />
+                        </Area>
+                    </AreaList>
+                </Targeting>
+            </TargetingList>
+        </Projectile>
+        <Property weaponStatus="in" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" MultiInstanceShoot="false" />
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1101" category="0" name="살자" type="normal" templateId="4001" nextSkill="0" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="NPC_SWC_Quest_ANI.Anim.Turret_Anim" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_SWC_Quest_ANI.Anim.Turret_Anim" duration="0" animName="Turret_atk01" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="0" bEnableBlendInTimeWhenNpc="false" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" MultiInstanceShoot="false">
+            <Targeting id="-1" time="0" method="normal" type="none" startTime="0" endTime="0" interval="100" until="1000" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="me" rotateAngle="0" maxHeight="500" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="100" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <HpDiff value="-1.000000" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="nothing" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+            <Targeting id="-1" time="0" method="normal" type="none" startTime="0" endTime="0" interval="100" until="1000" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="me" rotateAngle="0" maxHeight="500" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="100" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <HpDiff value="-1.000000" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="nothing" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+            <Targeting id="-1" time="0" method="normal" type="none" startTime="0" endTime="0" interval="100" until="1000" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="me" rotateAngle="0" maxHeight="500" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="100" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <HpDiff value="-1.000000" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="nothing" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+            <Targeting id="-1" time="0" method="normal" type="none" startTime="0" endTime="0" interval="100" until="1000" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="me" rotateAngle="0" maxHeight="500" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="100" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <HpDiff value="-1.000000" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="nothing" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+            <Targeting id="-1" time="0" method="normal" type="none" startTime="0" endTime="0" interval="100" until="1000" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="me" rotateAngle="0" maxHeight="500" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="100" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <HpDiff value="-1.000000" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="nothing" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+            <Targeting id="-1" time="0" method="normal" type="none" startTime="0" endTime="0" interval="100" until="1000" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="me" rotateAngle="0" maxHeight="500" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="100" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <HpDiff value="-1.000000" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="nothing" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+            <Targeting id="-1" time="0" method="normal" type="none" startTime="0" endTime="0" interval="100" until="1000" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="me" rotateAngle="0" maxHeight="500" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="100" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <HpDiff value="-1.000000" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="nothing" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+            <Targeting id="-1" time="0" method="normal" type="none" startTime="0" endTime="0" interval="100" until="1000" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="me" rotateAngle="0" maxHeight="500" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="100" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <HpDiff value="-1.000000" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="nothing" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+            <Targeting id="-1" time="0" method="normal" type="none" startTime="0" endTime="0" interval="100" until="1000" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="me" rotateAngle="0" maxHeight="500" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="100" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <HpDiff value="-1000000000.000000" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="nothing" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1120" category="997501" name="받는피해 디버프 7.5%" type="normal" templateId="4005" nextSkill="0" parentId="60096000" breakInvincible="true" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="NPC_SWC_Quest_ANI.Anim.Turret_Anim" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_Transparent_ANI.Anim.NPC_Transparent_Anim" duration="0" animName="Atk_L" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="0" bEnableBlendInTimeWhenNpc="false" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" MultiInstanceShoot="false">
+            <Targeting id="-1" time="0" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="allPcIgnoreSpirit" rotateAngle="0" maxHeight="500" maxCount="1000" offsetAngle="0" offsetDistance="0" maxRadius="25000" pierceDepth="1" minHeight="-2000" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="0">
+                            <AbnormalityOnCommon id="999010029" />
+                            <HpDiff value="0" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="nothing" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1101" category="0" name="작동스위치_PC에게이로운버프_Atk01_노멀/분노공용" type="normal" templateId="5000" nextSkill="0" parentId="60096000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_SWC_Quest_ANI.Anim.NPC_Switch_Anim" duration="0" animName="atk01" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="0" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal" toCenterWhenNoMove="false">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" MultiInstanceShoot="false">
+            <Targeting id="-1" time="10" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="ally" rotateAngle="0" maxHeight="60" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="150" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="0">
+                            <AbnormalityOnCommon id="0" />
+                            <HpDiff value="0" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="nothing" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1102" category="0" name="작동스위치_결계해제_Wait" type="normal" templateId="5000" nextSkill="0" parentId="60096000" ignoreDefence="true" autoUse="false" timeRate="1" attackRange="625.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="50008" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_SWC_Quest_ANI.Anim.NPC_Switch_Anim" duration="0" animName="unarmedwait" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="0" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal" toCenterWhenNoMove="false">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" MultiInstanceShoot="false">
+            <Targeting id="-1" time="1000" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="all" rotateAngle="0" maxHeight="350" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="1800" pierceDepth="1" minHeight="170" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <AbnormalityOff />
+                            <AbnormalityOnCommon id="0" />
+                            <HpDiff value="0" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="nothing" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1103" category="0" name="작동스위치_광역디버프_Atk01_노멀/분노공용" type="normal" templateId="5000" nextSkill="0" parentId="60096000" ignoreDefence="true" autoUse="false" timeRate="1" attackRange="100.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_SWC_Quest_ANI.Anim.NPC_Switch_Anim" duration="0" animName="unarmedwait" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="0" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal" toCenterWhenNoMove="false">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" MultiInstanceShoot="false">
+            <Targeting id="-1" time="1000" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="enemy" rotateAngle="0" maxHeight="350" maxCount="100" offsetAngle="0" offsetDistance="0" maxRadius="1800" pierceDepth="1" minHeight="170" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="0">
+                            <AbnormalityOnCommon id="47500700" />
+                            <HpDiff value="0" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="nothing" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1104" category="0" name="작동스위치_화염디버프_Atk01_노멀/분노공용" type="normal" templateId="5000" nextSkill="0" parentId="60096000" ignoreDefence="true" autoUse="false" timeRate="1" attackRange="100.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_SWC_Quest_ANI.Anim.NPC_Switch_Anim" duration="0" animName="unarmedwait" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="0" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal" toCenterWhenNoMove="false">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" MultiInstanceShoot="false">
+            <Targeting id="-1" time="1000" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="enemy" rotateAngle="0" maxHeight="350" maxCount="100" offsetAngle="0" offsetDistance="0" maxRadius="1800" pierceDepth="1" minHeight="170" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="0">
+                            <AbnormalityOnCommon id="47501400" />
+                            <HpDiff value="0" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="nothing" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1105" category="0" name="작동스위치_냉기디버프_Atk01_노멀/분노공용" type="normal" templateId="5000" nextSkill="0" parentId="60096000" ignoreDefence="true" autoUse="false" timeRate="1" attackRange="100.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_SWC_Quest_ANI.Anim.NPC_Switch_Anim" duration="0" animName="unarmedwait" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="0" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal" toCenterWhenNoMove="false">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" MultiInstanceShoot="false">
+            <Targeting id="-1" time="1000" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="enemy" rotateAngle="0" maxHeight="350" maxCount="100" offsetAngle="0" offsetDistance="0" maxRadius="1800" pierceDepth="1" minHeight="170" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="0">
+                            <AbnormalityOnCommon id="0" />
+                            <HpDiff value="0" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="nothing" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1106" category="0" name="작동스위치_버프디버프_Atk01_노멀/분노공용" type="normal" templateId="5000" nextSkill="0" parentId="60096000" ignoreDefence="true" autoUse="false" timeRate="1" attackRange="100.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_SWC_Quest_ANI.Anim.NPC_Switch_Anim" duration="0" animName="unarmedwait" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="0" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal" toCenterWhenNoMove="false">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" MultiInstanceShoot="false">
+            <Targeting id="-1" time="1000" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="enemy" rotateAngle="0" maxHeight="350" maxCount="100" offsetAngle="0" offsetDistance="0" maxRadius="1800" pierceDepth="1" minHeight="170" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <AbnormalityOnCommon id="0" />
+                            <HpDiff value="0" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="nothing" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1107" category="0" name="작동스위치_200uu공격_atk01_공용" type="normal" templateId="5000" nextSkill="0" parentId="60096000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="NPC_SWC_Quest_ANI.Anim.Turret_Anim" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_SWC_Quest_ANI.Anim.Turret_Anim" duration="0" animName="Turret_atk01" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="0" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" MultiInstanceShoot="false">
+            <Targeting id="-1" time="1033" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="enemy" rotateAngle="0" maxHeight="60" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="200" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <AbnormalityOnCommon id="0" />
+                            <HpDiff value="0" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="animationDamage" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1108" category="0" name="작동스위치_1000uu버프_atk01_공용" type="normal" templateId="5000" nextSkill="0" parentId="60096000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="NPC_SWC_Quest_ANI.Anim.Turret_Anim" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_SWC_Quest_ANI.Anim.Turret_Anim" duration="0" animName="Turret_atk01" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="0" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" MultiInstanceShoot="false">
+            <Targeting id="-1" time="0" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="allPcExceptMe" rotateAngle="0" maxHeight="500" maxCount="100" offsetAngle="0" offsetDistance="0" maxRadius="1000" pierceDepth="1" minHeight="-500" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="0">
+                            <AbnormalityOnCommon id="2090" />
+                            <HpDiff value="0" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="nothing" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1201" category="0" name="작동스위치_전투대기_Wait_노멀/분노공용" type="normal" templateId="5000" nextSkill="0" parentId="60096000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_SWC_Quest_ANI.Anim.NPC_Switch_Anim" duration="0" animName="Wait" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="0" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal" toCenterWhenNoMove="false">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" MultiInstanceShoot="false" />
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1101" category="0" name="작동스위치_PC에게이로운버프_Atk01_노멀/분노공용" type="normal" templateId="5001" nextSkill="0" parentId="60096000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_SWC_Quest_ANI.Anim.NPC_Switch_Anim" duration="0" animName="atk01" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="0" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal" toCenterWhenNoMove="false">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" MultiInstanceShoot="false">
+            <Targeting id="-1" time="10" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="ally" rotateAngle="0" maxHeight="60" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="150" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="0">
+                            <AbnormalityOnCommon id="0" />
+                            <HpDiff value="0" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="nothing" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1102" category="0" name="작동스위치_결계해제_Wait" type="normal" templateId="5001" nextSkill="0" parentId="60096000" ignoreDefence="true" autoUse="false" timeRate="1" attackRange="625.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="50008" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_SWC_Quest_ANI.Anim.NPC_Switch_Anim" duration="0" animName="unarmedwait" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="0" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal" toCenterWhenNoMove="false">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" MultiInstanceShoot="false">
+            <Targeting id="-1" time="1000" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="all" rotateAngle="0" maxHeight="350" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="1800" pierceDepth="1" minHeight="170" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <AbnormalityOff />
+                            <AbnormalityOnCommon id="0" />
+                            <HpDiff value="0" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="nothing" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1103" category="0" name="작동스위치_광역디버프_Atk01_노멀/분노공용" type="normal" templateId="5001" nextSkill="0" parentId="60096000" ignoreDefence="true" autoUse="false" timeRate="1" attackRange="100.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_SWC_Quest_ANI.Anim.NPC_Switch_Anim" duration="0" animName="unarmedwait" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="0" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal" toCenterWhenNoMove="false">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" MultiInstanceShoot="false">
+            <Targeting id="-1" time="1000" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="enemy" rotateAngle="0" maxHeight="350" maxCount="100" offsetAngle="0" offsetDistance="0" maxRadius="1800" pierceDepth="1" minHeight="170" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="0">
+                            <AbnormalityOnCommon id="47500700" />
+                            <HpDiff value="0" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="nothing" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1104" category="0" name="작동스위치_화염디버프_Atk01_노멀/분노공용" type="normal" templateId="5001" nextSkill="0" parentId="60096000" ignoreDefence="true" autoUse="false" timeRate="1" attackRange="100.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_SWC_Quest_ANI.Anim.NPC_Switch_Anim" duration="0" animName="unarmedwait" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="0" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal" toCenterWhenNoMove="false">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" MultiInstanceShoot="false">
+            <Targeting id="-1" time="1000" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="enemy" rotateAngle="0" maxHeight="350" maxCount="100" offsetAngle="0" offsetDistance="0" maxRadius="1800" pierceDepth="1" minHeight="170" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="0">
+                            <AbnormalityOnCommon id="47501400" />
+                            <HpDiff value="0" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="nothing" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1105" category="0" name="작동스위치_냉기디버프_Atk01_노멀/분노공용" type="normal" templateId="5001" nextSkill="0" parentId="60096000" ignoreDefence="true" autoUse="false" timeRate="1" attackRange="100.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_SWC_Quest_ANI.Anim.NPC_Switch_Anim" duration="0" animName="unarmedwait" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="0" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal" toCenterWhenNoMove="false">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" MultiInstanceShoot="false">
+            <Targeting id="-1" time="1000" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="enemy" rotateAngle="0" maxHeight="350" maxCount="100" offsetAngle="0" offsetDistance="0" maxRadius="1800" pierceDepth="1" minHeight="170" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="0">
+                            <AbnormalityOnCommon id="0" />
+                            <HpDiff value="0" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="nothing" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1106" category="0" name="작동스위치_버프디버프_Atk01_노멀/분노공용" type="normal" templateId="5001" nextSkill="0" parentId="60096000" ignoreDefence="true" autoUse="false" timeRate="1" attackRange="100.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_SWC_Quest_ANI.Anim.NPC_Switch_Anim" duration="0" animName="unarmedwait" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="0" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal" toCenterWhenNoMove="false">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" MultiInstanceShoot="false">
+            <Targeting id="-1" time="1000" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="enemy" rotateAngle="0" maxHeight="350" maxCount="100" offsetAngle="0" offsetDistance="0" maxRadius="1800" pierceDepth="1" minHeight="170" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <AbnormalityOnCommon id="0" />
+                            <HpDiff value="0" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="nothing" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1107" category="0" name="작동스위치_200uu공격_atk01_공용" type="normal" templateId="5001" nextSkill="0" parentId="60096000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="NPC_SWC_Quest_ANI.Anim.Turret_Anim" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_SWC_Quest_ANI.Anim.Turret_Anim" duration="0" animName="Turret_atk01" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="0" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" MultiInstanceShoot="false">
+            <Targeting id="-1" time="1033" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="enemy" rotateAngle="0" maxHeight="60" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="200" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="1">
+                            <AbnormalityOnCommon id="0" />
+                            <HpDiff value="0" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="animationDamage" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1108" category="0" name="작동스위치_1000uu버프_atk01_공용" type="normal" templateId="5001" nextSkill="0" parentId="60096000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="NPC_SWC_Quest_ANI.Anim.Turret_Anim" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_SWC_Quest_ANI.Anim.Turret_Anim" duration="0" animName="Turret_atk01" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="0" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" MultiInstanceShoot="false">
+            <Targeting id="-1" time="0" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0" LoopRepeatTargeting="false">
+                <AreaList>
+                    <Area type="allPcExceptMe" rotateAngle="0" maxHeight="500" maxCount="100" offsetAngle="0" offsetDistance="0" maxRadius="1000" pierceDepth="1" minHeight="-500" rangeAngle="360" crosshairRadius="3" minRadius="0" crosshairRadius2="3">
+                        <Effect atk="0">
+                            <AbnormalityOnCommon id="999009732" />
+                            <AbnormalityOnCommon id="999009731" />
+                            <AbnormalityOnCommon id="99070036" />
+                            <AbnormalityOnCommon id="425103" />
+                            <HpDiff value="0" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="nothing" />
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="1201" category="0" name="작동스위치_전투대기_Wait_노멀/분노공용" type="normal" templateId="5001" nextSkill="0" parentId="60096000" ignoreDefence="false" autoUse="false" timeRate="1" attackRange="100.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="" totalAtk="0">
+        <Action>
+            <CameraShakeList />
+            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
+            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <Pending startTime="-1" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage scriptId="0" changeDirToTarget="false" changeDirToTargetMax="0" movable="false" variableMaxLoop="0" changeDirToPos="true" changeDirToPosMax="360" LoopRepeat="false">
+                    <AnimSeq animSet="NPC_SWC_Quest_ANI.Anim.NPC_Switch_Anim" duration="0" animName="Wait" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="0" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                    <Property animControlType="normal" adjustAnimToTarget="false" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
+        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <Property weaponStatus="out" defence="false" adjustLoopRepeat="false" reactionPendingType="normal" skillPendingType="normal" toCenterWhenNoMove="false">
+            <Direction toCenterWhenNoMove="false" />
+        </Property>
+        <TargetingList adjustTargetingPos="notUse" MultiInstanceShoot="false" />
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+    <Skill id="4999" category="61902000" name="대혼전 자폭" type="normal" templateId="9999" nextSkill="0" attackRange="100" changeDirToCenter="false" pushtarget="pass" returnAnimName="" returnAnimSet="Human_M_ANI.Anim.Human_M_Share_Anim">
+        <Action>
+            <CameraShakeList>
+                <CameraShake name="none" targetType="all" duration="2000" startTime="0" power="2" innerRadius="0" outerRadius="125" speed="3.5" startValue="-1" shakeId="0" startCondition="skillStart" />
+            </CameraShakeList>
+            <Cancel frontCancelEndTime="0" rearCancelStartTime="0" />
+            <MoveInvincible startTime="0" endTime="0" />
+            <SpecialEffectList />
+            <StageList>
+                <Stage changeDirToTarget="false">
+                    <AnimSeq animSet="Human_M_ANI.Anim.Human_M_Class05_Anim" duration="3000" animName="Groggy1" animRate="1" blendInTime="500" bAnimLooping="true" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" />
+                </Stage>
+            </StageList>
+        </Action>
+        <Anger />
+        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="0" />
+        <Defence successAnimName="" successAnimSet="" />
+        <Drain backSkillId="0" />
+        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
+            <Cost hp="0" mp="0" />
+        </Precondition>
+        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
+        <TargetingList>
+            <Targeting time="0" interval="0" until="0">
+                <AreaList>
+                    <Area type="enemyOrPvp" rotateAngle="0" maxHeight="75" maxCount="10" offsetAngle="0" offsetDistance="0" maxRadius="125" pierceDepth="1" minHeight="-20" rangeAngle="360" crosshairRadius="1" minRadius="0">
+                        <Effect atk="0" abnormalityRate="0">
+                            <AbnormalityOnCommon id="0" />
+                            <HpDiff value="-25000" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <Reaction basicRate="0" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+            <Targeting id="-1" time="2500" method="normal" interval="0" until="0" combinedArea="false">
+                <AreaList>
+                    <Area type="me" rotateAngle="0" maxHeight="0" maxCount="1" offsetAngle="0" offsetDistance="0" maxRadius="50" pierceDepth="1" minHeight="0" rangeAngle="0" crosshairRadius="1" minRadius="0">
+                        <Effect atk="0" abnormalityRate="0">
+                            <AbnormalityOnCommon id="999009751" />
+                            <HpDiff value="-1000000" />
+                            <MpDiff value="0" />
+                        </Effect>
+                        <HitEffect type="onlyDamage" />
+                        <Reaction basicRate="1.5" miniRate="0" />
+                    </Area>
+                </AreaList>
+                <Cost hp="0" mp="0" />
+            </Targeting>
+        </TargetingList>
+        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+    </Skill>
+</SkillData>

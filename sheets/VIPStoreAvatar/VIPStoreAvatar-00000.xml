@@ -1,0 +1,65 @@
+<VIPStoreAvatar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/VIPStoreAvatar VIPStoreAvatar.xsd" adminStringSize="22" boringInterval="14.8" multiClickActivatePercent="0.3" multiClickCount="6" xmlns="https://vezel.dev/novadrop/dc/VIPStoreAvatar">
+    <Event id="1" type="guide">
+        <Action type="Change" duration="7.4" args="Normal" />
+        <StringList>
+            <String id="1" string="@VIPAvatar:1" duration="7.4" size="22" prob="0.2" />
+            <String id="2" string="@VIPAvatar:2" duration="5.6" size="22" prob="0.3" />
+            <String id="3" string="@VIPAvatar:3" duration="7.1" size="22" prob="0.5" />
+        </StringList>
+    </Event>
+    <Event id="3" type="enter">
+        <Action type="Change" duration="5.2" args="Normal" />
+        <StringList>
+            <String id="4" string="@VIPAvatar:4" duration="3" size="22" prob="1" />
+        </StringList>
+    </Event>
+    <Event id="4" type="body">
+        <Action type="Change" duration="7.4" args="Normal" />
+        <StringList>
+            <String id="6" string="@VIPAvatar:6" duration="7.1" size="22" prob="0.3" />
+            <String id="19" string="@VIPAvatar:19" duration="7.1" size="22" prob="0.3" />
+            <String id="20" string="@VIPAvatar:20" duration="7.1" size="22" prob="0.4" />
+        </StringList>
+    </Event>
+    <Event id="5" type="bodyMultiClick">
+        <Action type="Change" duration="4" args="Angry" />
+        <Action type="Ignore" duration="4" args="" />
+        <StringList>
+            <String id="7" string="@VIPAvatar:7" duration="4" size="22" prob="1" />
+        </StringList>
+    </Event>
+    <Event id="6" type="renewal">
+        <Action type="Change" duration="7.4" args="Normal" />
+        <StringList>
+            <String id="8" string="@VIPAvatar:8" duration="7.1" size="22" prob="0.4" />
+            <String id="9" string="@VIPAvatar:9" duration="7.1" size="22" prob="0.6" />
+        </StringList>
+    </Event>
+    <Event id="7" type="boring">
+        <Action type="Change" duration="15" args="Boring" />
+        <StringList>
+            <String id="10" string="@VIPAvatar:10" duration="15" size="22" prob="1" />
+        </StringList>
+    </Event>
+    <Event id="8" type="renewalComplete">
+        <Action type="Change" duration="7.4" args="Normal" />
+        <StringList>
+            <String id="11" string="@VIPAvatar:11" duration="7.1" size="22" prob="1" />
+        </StringList>
+    </Event>
+    <Event id="10" type="itemBuyFailed">
+        <Action type="Change" duration="7.4" args="Sad" />
+        <StringList>
+            <String id="13" string="@VIPAvatar:13" duration="7.1" size="22" prob="0.4" />
+            <String id="21" string="@VIPAvatar:21" duration="7.1" size="22" prob="0.6" />
+        </StringList>
+    </Event>
+    <Event id="11" type="itemBuy" args="default">
+        <Action type="Change" duration="7.4" args="Smile" />
+        <StringList>
+            <String id="14" string="@VIPAvatar:14" duration="7.1" size="22" prob="0.2" />
+            <String id="15" string="@VIPAvatar:15" duration="7.1" size="22" prob="0.3" />
+            <String id="16" string="@VIPAvatar:16" duration="7.1" size="22" prob="0.5" />
+        </StringList>
+    </Event>
+</VIPStoreAvatar>

@@ -1,0 +1,56 @@
+<TBAPadButtonMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/TBAPadButtonMap TBAPadButtonMap.xsd" xmlns="https://vezel.dev/novadrop/dc/TBAPadButtonMap">
+    <KeyDefine name="ChangeUIMode" enableOnTBA="true" input="on|off" when="up" key1="XboxTypeS_Start" key2="Gamepad_Button_Ten" />
+    <KeyDefine name="PopupInteractionMenu" customizable="false" enableOnTBA="true" uiMode="on" when="down" key1="XboxTypeS_A" key2="Gamepad_Button_One" />
+    <KeyDefine name="SubjectObserve" customizable="false" enableOnTBA="true" input="on|off" uiMode="on" when="up" key1="XboxTypeS_RightTrigger" key2="Gamepad_Button_Eight" />
+    <KeyDefine name="MoveForward" command="Move" parameter="forward" customizable="false" enableOnTBA="true" when="down|up" key1="XboxTypeS_LeftStickUp" key2="Gamepad_LeftStick_Up" />
+    <KeyDefine name="MoveBackward" command="Move" parameter="backward" customizable="false" enableOnTBA="true" when="down|up" key1="XboxTypeS_LeftStickDown" key2="Gamepad_LeftStick_Down" />
+    <KeyDefine name="MoveLeft" command="Move" parameter="left" customizable="false" enableOnTBA="true" when="down|up" key1="XboxTypeS_LeftStickLeft" key2="Gamepad_LeftStick_Left" />
+    <KeyDefine name="MoveRight" command="Move" parameter="right" customizable="false" enableOnTBA="true" when="down|up" key1="XboxTypeS_LeftStickRight" key2="Gamepad_LeftStick_Right" />
+    <KeyDefine name="AutoMove" command="Move" parameter="automove" enableOnTBA="true" when="down" key1="XboxTypeS_LeftThumbstick" key2="Gamepad_Button_Eleven" />
+    <KeyDefine name="Jump" command="Jump" parameter="Jump" enableOnTBA="true" when="down|up" key1="XboxTypeS_X" key2="Gamepad_Button_One" />
+    <KeyDefine name="Shortcut00" command="Shortcut" parameter="0" enableOnTBA="true" when="down|up" key1="XboxTypeS_RightShoulder+XboxTypeS_A" key2="Gamepad_Button_Six+Gamepad_Button_Two" />
+    <KeyDefine name="Shortcut01" command="Shortcut" parameter="1" enableOnTBA="true" when="down|up" key1="XboxTypeS_RightShoulder+XboxTypeS_B" key2="Gamepad_Button_Six+Gamepad_Button_Three" />
+    <KeyDefine name="Shortcut02" command="Shortcut" parameter="22" enableOnTBA="true" when="down|up" key1="XboxTypeS_RightShoulder+XboxTypeS_X" key2="Gamepad_Button_Six+Gamepad_Button_One" />
+    <KeyDefine name="Shortcut03" command="Shortcut" parameter="3" enableOnTBA="false" when="down|up" key1="XboxTypeS_RightShoulder+XboxTypeS_Y" key2="Gamepad_Button_Six+Gamepad_Button_Four" />
+    <KeyDefine name="Shortcut04" command="Shortcut" parameter="4" enableOnTBA="false" when="down|up" key1="XboxTypeS_RightShoulder+XboxTypeS_RightTrigger" key2="Gamepad_Button_Six+Gamepad_Button_Eight" />
+    <KeyDefine name="Shortcut05" command="Shortcut" parameter="5" enableOnTBA="false" when="down|up" key1="XboxTypeS_RightShoulder+XboxTypeS_LeftTrigger" key2="Gamepad_Button_Six+Gamepad_Button_Seven" />
+    <KeyDefine name="Shortcut06" command="Shortcut" parameter="6" enableOnTBA="true" when="down|up" key1="XboxTypeS_Y" key2="Gamepad_Button_Four" />
+    <KeyDefine name="Shortcut07" command="Shortcut" parameter="7" enableOnTBA="true" when="down|up" key1="XboxTypeS_LeftShoulder+XboxTypeS_A" key2="Gamepad_Button_Five+Gamepad_Button_Two" />
+    <KeyDefine name="Shortcut08" command="Shortcut" parameter="8" enableOnTBA="true" when="down|up" key1="XboxTypeS_LeftShoulder+XboxTypeS_B" key2="Gamepad_Button_Five+Gamepad_Button_Three" />
+    <KeyDefine name="Shortcut09" command="Shortcut" parameter="9" enableOnTBA="true" when="down|up" key1="XboxTypeS_LeftShoulder+XboxTypeS_X" key2="Gamepad_Button_Five+Gamepad_Button_One" />
+    <KeyDefine name="Shortcut10" command="Shortcut" parameter="21" enableOnTBA="true" when="down|up" key1="XboxTypeS_LeftShoulder+XboxTypeS_Y" key2="Gamepad_Button_Five+Gamepad_Button_Four" />
+    <KeyDefine name="Shortcut11" command="Shortcut" parameter="11" enableOnTBA="false" when="down|up" key1="XboxTypeS_LeftShoulder+XboxTypeS_RightTrigger" key2="Gamepad_Button_Five+Gamepad_Button_Eight" />
+    <KeyDefine name="Shortcut12" command="Shortcut" parameter="12" enableOnTBA="false" when="down|up" key1="XboxTypeS_LeftShoulder+XboxTypeS_DPad_Left" key2="Gamepad_Button_Five+Gamepad_DPad_Left" />
+    <KeyDefine name="Shortcut13" command="Shortcut" parameter="13" enableOnTBA="false" when="down|up" key1="XboxTypeS_LeftShoulder+XboxTypeS_DPad_Right" key2="Gamepad_Button_Five+Gamepad_DPad_Right" />
+    <KeyDefine name="Shortcut14" command="Shortcut" parameter="14" enableOnTBA="false" when="down|up" key1="XboxTypeS_LeftShoulder+XboxTypeS_DPad_Up" key2="Gamepad_Button_Five+Gamepad_DPad_Up" />
+    <KeyDefine name="Shortcut15" command="Shortcut" parameter="15" enableOnTBA="false" when="down|up" key1="XboxTypeS_LeftShoulder+XboxTypeS_DPad_Down" key2="Gamepad_Button_Five+Gamepad_DPad_Down" />
+    <KeyDefine name="Shortcut16" command="Shortcut" parameter="16" enableOnTBA="false" when="down|up" key1="XboxTypeS_RightShoulder+XboxTypeS_DPad_Left" key2="Gamepad_Button_Six+Gamepad_DPad_Left" />
+    <KeyDefine name="Shortcut17" command="Shortcut" parameter="17" enableOnTBA="false" when="down|up" key1="XboxTypeS_RightShoulder+XboxTypeS_DPad_Right" key2="Gamepad_Button_Six+Gamepad_DPad_Right" />
+    <KeyDefine name="Shortcut18" command="Shortcut" parameter="18" enableOnTBA="true" when="down|up" key1="XboxTypeS_LeftShoulder+XboxTypeS_RightShoulder+XboxTypeS_A" key2="Gamepad_Button_Five+Gamepad_Button_Six+Gamepad_Button_Two" />
+    <KeyDefine name="Shortcut19" command="Shortcut" parameter="19" enableOnTBA="false" when="down|up" key1="XboxTypeS_LeftShoulder+XboxTypeS_RightShoulder+XboxTypeS_B" key2="Gamepad_Button_Five+Gamepad_Button_Six+Gamepad_Button_Three" />
+    <KeyDefine name="Shortcut20" command="Shortcut" parameter="20" enableOnTBA="false" when="down|up" key1="XboxTypeS_LeftShoulder+XboxTypeS_RightShoulder+XboxTypeS_X" key2="Gamepad_Button_Five+Gamepad_Button_Six+Gamepad_Button_One" />
+    <KeyDefine name="Shortcut21" command="Shortcut" parameter="21" enableOnTBA="false" when="down|up" key1="XboxTypeS_LeftShoulder+XboxTypeS_RightShoulder+XboxTypeS_Y" key2="Gamepad_Button_Five+Gamepad_Button_Six+Gamepad_Button_Four" />
+    <KeyDefine name="Shortcut22" command="Shortcut" parameter="22" enableOnTBA="false" when="down|up" key1="XboxTypeS_LeftShoulder+XboxTypeS_RightShoulder+XboxTypeS_RightTrigger" key2="Gamepad_Button_Five+Gamepad_Button_Six+Gamepad_Button_Eight" />
+    <KeyDefine name="Shortcut23" command="Shortcut" parameter="23" enableOnTBA="false" when="down|up" key1="XboxTypeS_LeftShoulder+XboxTypeS_RightShoulder+XboxTypeS_LeftTrigger" key2="Gamepad_Button_Five+Gamepad_Button_Six+Gamepad_Button_Seven" />
+    <KeyDefine name="PrimaryAttack" command="Shortcut" parameter="24" enableOnTBA="true" when="down|up" key1="XboxTypeS_A" key2="Gamepad_Button_Two" />
+    <KeyDefine name="SecondaryAttack" command="Shortcut" parameter="25" enableOnTBA="true" when="down|up" key1="XboxTypeS_B" key2="Gamepad_Button_Three" />
+    <KeyDefine name="CameraRotate" command="Camera" parameter="Rotate" customizable="false" enableOnTBA="true" input="on|off" uiMode="off" when="up" key1="XboxTypeS_RightMove" key2="Gamepad_RightMove" />
+    <KeyDefine name="CustomCameraZoomIn" command="Camera" parameter="DeepZoomIn" enableOnTBA="true" uiMode="off" when="down" key1="XboxTypeS_DPad_Up" key2="Gamepad_DPad_Up" />
+    <KeyDefine name="CustomCameraZoomOut" command="Camera" parameter="DeepZoomOut" enableOnTBA="true" uiMode="off" when="down" key1="XboxTypeS_DPad_Down" key2="Gamepad_DPad_Down" />
+    <KeyDefine name="CameraReposition" command="Camera" parameter="Reposition" enableOnTBA="true" uiMode="off" when="down" key1="XboxTypeS_RightThumbstick" key2="Gamepad_Button_Twelve" />
+    <KeyDefine name="CameraReverse" command="Camera" parameter="Reverse" enableOnTBA="true" uiMode="off" when="down" key1="" key2="" />
+    <KeyDefine name="CustomCameraOffsetUp" command="Camera" parameter="OffsetUp" enableOnTBA="false" input="on|off" uiMode="on|off" when="down" key1="XboxTypeS_LeftShoulder+XboxTypeS_RightShoulder+XboxTypeS_DPad_Up" key2="Gamepad_Button_Five+Gamepad_Button_Six+Gamepad_DPad_Up" />
+    <KeyDefine name="CustomCameraOffsetDown" command="Camera" parameter="OffsetDown" enableOnTBA="false" input="on|off" uiMode="on|off" when="down" key1="XboxTypeS_LeftShoulder+XboxTypeS_RightShoulder+XboxTypeS_DPad_Down" key2="Gamepad_Button_Five+Gamepad_Button_Six+Gamepad_DPad_Down" />
+    <KeyDefine name="CustomCameraOffsetLeft" command="Camera" parameter="OffsetLeft" enableOnTBA="false" input="on|off" uiMode="on|off" when="down" key1="XboxTypeS_LeftShoulder+XboxTypeS_RightShoulder+XboxTypeS_DPad_Left" key2="Gamepad_Button_Five+Gamepad_Button_Six+Gamepad_DPad_Left" />
+    <KeyDefine name="CustomCameraOffsetRight" command="Camera" parameter="OffsetRight" enableOnTBA="false" input="on|off" uiMode="on|off" when="down" key1="XboxTypeS_LeftShoulder+XboxTypeS_RightShoulder+XboxTypeS_DPad_Right" key2="Gamepad_Button_Five+Gamepad_Button_Six+Gamepad_DPad_Right" />
+    <KeyDefine name="ActionKey" enableOnTBA="true" when="down|up" key1="XboxTypeS_LeftTrigger" key2="Gamepad_Button_Seven" />
+    <KeyDefine name="PrevShortcutSet" command="ChangeShortcutSet" parameter="Prev" enableOnTBA="false" when="up" key1="" key2="" />
+    <KeyDefine name="NextShortcutSet" command="ChangeShortcutSet" parameter="Next" enableOnTBA="false" when="up" key1="" key2="" />
+    <KeyDefine name="QuickMenu01" command="QuickMenu" parameter="1" enableOnTBA="false" when="down|up" key1="" key2="" />
+    <KeyDefine name="QuickMenu02" command="QuickMenu" parameter="2" enableOnTBA="false" when="down|up" key1="" key2="" />
+    <KeyDefine name="OpenGameControllerOption" command="OpenUI" parameter="GameControllerOption" enableOnTBA="true" key1="XboxTypeS_Back" key2="Gamepad_Button_Nine" />
+    <KeyDefine name="OpenOption" command="OpenUI" parameter="SystemOption" enableOnTBA="true" key1="" key2="" />
+    <KeyDefine name="OpenInventory" command="OpenUI" parameter="Inventory" enableOnTBA="false" key1="XboxTypeS_DPad_Right" key2="Gamepad_DPad_Right" />
+    <KeyDefine name="OpenCharacter" command="OpenUI" parameter="PaperDoll" enableOnTBA="false" key1="XboxTypeS_DPad_Left" key2="Gamepad_DPad_Left" />
+    <KeyDefine name="OpenWorldMap" command="OpenUI" parameter="WorldMap" enableOnTBA="false" key1="XboxTypeS_LeftShoulder+XboxTypeS_LeftTrigger" key2="Gamepad_Button_Five+Gamepad_Button_Seven" />
+</TBAPadButtonMap>

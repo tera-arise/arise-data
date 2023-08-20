@@ -1,0 +1,61 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="60603" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>606,3</Quest번호>
+        <Quest제목>@quest:60603001</Quest제목>
+        <반복퀘스트>1회성</반복퀘스트>
+        <발생조건>
+            <NPC대화>1022,1002</NPC대화>
+        </발생조건>
+        <수행조건>
+            <길드레벨 />
+            <선행퀘스트>
+                <선행퀘스트>
+                    <퀘스트Id>1022,61</퀘스트Id>
+                </선행퀘스트>
+            </선행퀘스트>
+            <영주길드 />
+            <최소레벨>59</최소레벨>
+        </수행조건>
+        <스토리그룹Id />
+        <요약정보>100</요약정보>
+        <적정수행레벨>60</적정수행레벨>
+        <적정수행인원>1</적정수행인원>
+        <집회소분류 />
+        <퀘스트종류>일일</퀘스트종류>
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <완료조건>
+                    <아이템사용>
+                        <아이템Id>45279</아이템Id>
+                        <아이템갯수>1</아이템갯수>
+                    </아이템사용>
+                </완료조건>
+                <저널Text>@quest:60603004</저널Text>
+            </Body>
+            <Header>
+                <Id>1</Id>
+                <JournalScript>2</JournalScript>
+                <다음Task>2</다음Task>
+                <이름>조건Task</이름>
+            </Header>
+        </Task>
+        <Task id="2">
+            <Body>
+                <Flag아이템이름>@quest:60603007</Flag아이템이름>
+                <대상NPC지정>1022,1002</대상NPC지정>
+                <보상>1</보상>
+                <아이콘지정>241</아이콘지정>
+                <저널Text>@quest:60603008</저널Text>
+                <전달수량>1</전달수량>
+            </Body>
+            <Header>
+                <Id>2</Id>
+                <JournalScript>2</JournalScript>
+                <다음Task />
+                <이름>찔러준아이템전달Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

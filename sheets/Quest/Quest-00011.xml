@@ -1,0 +1,126 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="203" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>2,3</Quest번호>
+        <Quest제목>@quest:203001</Quest제목>
+        <반복퀘스트>1회성</반복퀘스트>
+        <발생조건>
+            <NPC대화>202,1011</NPC대화>
+        </발생조건>
+        <수행조건>
+            <길드레벨 />
+            <선행퀘스트>
+                <선행퀘스트>
+                    <퀘스트Id>99,9999</퀘스트Id>
+                </선행퀘스트>
+            </선행퀘스트>
+            <영주길드 />
+            <최소레벨>11</최소레벨>
+        </수행조건>
+        <수행지역 />
+        <스토리그룹Id />
+        <요약정보>100</요약정보>
+        <적정수행레벨>13</적정수행레벨>
+        <적정수행인원>1</적정수행인원>
+        <집회소분류 />
+        <추가보상 />
+        <퀘스트종류>일반</퀘스트종류>
+        <특수가이드 />
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>202,1024</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:203003</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>1</Id>
+                <JournalScript>2</JournalScript>
+                <Pos />
+                <다음Task>2</다음Task>
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+        <Task id="2">
+            <Body>
+                <오브젝트지정>
+                    <오브젝트지정>
+                        <동작횟수>3</동작횟수>
+                        <오브젝트Id>2</오브젝트Id>
+                    </오브젝트지정>
+                </오브젝트지정>
+                <저널Text>@quest:203004</저널Text>
+                <제한시간>0,0</제한시간>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>2</Id>
+                <JournalScript>3</JournalScript>
+                <Pos />
+                <다음Task>3</다음Task>
+                <이름>오브젝트동작Task</이름>
+            </Header>
+        </Task>
+        <Task id="3">
+            <Body />
+            <Header>
+                <ContinentId />
+                <Id>3</Id>
+                <JournalScript>3</JournalScript>
+                <Pos />
+                <다음Task>4</다음Task>
+                <이름>동영상재생Task</이름>
+            </Header>
+        </Task>
+        <Task id="4">
+            <Body>
+                <수집아이템지정>
+                    <수집아이템지정>
+                        <목표수량>1</목표수량>
+                        <몬스터Id>2,259</몬스터Id>
+                        <획득아이템Id>5050</획득아이템Id>
+                    </수집아이템지정>
+                </수집아이템지정>
+                <저널Text>@quest:203005</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>4</Id>
+                <JournalScript>3</JournalScript>
+                <Pos />
+                <다음Task>5</다음Task>
+                <이름>사냥수집Task</이름>
+            </Header>
+        </Task>
+        <Task id="5">
+            <Body>
+                <대상NPC지정>202,1024</대상NPC지정>
+                <보상>1</보상>
+                <아이템지정>
+                    <아이템지정>
+                        <아이템Id>5050</아이템Id>
+                        <전달수량>1</전달수량>
+                    </아이템지정>
+                </아이템지정>
+                <저널Text>@quest:203007</저널Text>
+                <저널Text2>@quest:203008</저널Text2>
+                <제한시간설정>
+                    <제한시간>0,0</제한시간>
+                </제한시간설정>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>5</Id>
+                <JournalScript>3</JournalScript>
+                <Pos />
+                <다음Task />
+                <이름>아이템전달Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

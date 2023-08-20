@@ -1,0 +1,25 @@
+<HeroAttachEffectData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/HeroAttachEffectData HeroAttachEffectData.xsd" xmlns="https://vezel.dev/novadrop/dc/HeroAttachEffectData">
+    <AttachEffect id="1" desc="특정 NPC에 대해 최대 어그로를 받고 있는 상태" bAccessById="false" heroTemplateId="9999">
+        <EffectCondition desc="어그로 중" condition="USER_AGGRO_ON">
+            <Effect id="4993" scale="2" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" startTime="0" bGround="false" boneName="FxBottom" detach="false" playRate="1" rescaleMethod="followBodyFxSize" resource="FX_J_Hotfix_151231.PS.A_0355_PS" scaleX="1" scaleY="1" scaleZ="1" worldSpawn="false" />
+        </EffectCondition>
+    </AttachEffect>
+    <AttachEffect id="2" desc="단기적 타겟 대상에 대한 이펙트" bAccessById="false" heroTemplateId="9999">
+        <EffectCondition desc="어그로 중" condition="USER_SHORTTERN_AGGRO_ON">
+            <Effect id="65324" scale="2" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" startTime="0" bGround="false" boneName="FxBottom" detach="false" playRate="1" rescaleMethod="followBodyFxSize" resource="FX_J_Hotfix_151231.PS.F_5324_PS" scaleX="1" scaleY="1" scaleZ="1" worldSpawn="false" />
+        </EffectCondition>
+    </AttachEffect>
+    <AttachEffect id="3" desc="유저pk 어그로마크" bAccessById="false" heroTemplateId="9999">
+        <EffectCondition desc="pk시 어그로 마크" condition="USER_PK_ON">
+            <Effect id="60923" scale="0.8" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" startTime="0" bGround="false" boneName="FxBottom" detach="false" playRate="1" rescaleMethod="followBodyFxSize" resource="FX_F_hotfix_0923.PS.pk_maker" scaleX="1" scaleY="1" scaleZ="1" worldSpawn="false" />
+        </EffectCondition>
+    </AttachEffect>
+    <AttachEffect id="161" desc="하엘여 바람의선율" bAccessById="false" heroTemplateId="9999">
+        <EffectCondition condition="ARCHER_VETERAN_START">
+            <Effect id="0" scale="1" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" startTime="0" bGround="false" boneName="FxBottom" detach="false" playRate="1" rescaleMethod="followBodyFxSize" resource="FX_Awaken_Archer.PS.L_VeteranRanger01_PS" scaleX="1" scaleY="1" scaleZ="1" worldSpawn="false" />
+        </EffectCondition>
+        <EffectCondition condition="ARCHER_VETERAN_ON">
+            <Effect id="0" scale="1" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" startTime="500" bGround="false" boneName="FxCenter" detach="false" playRate="1" rescaleMethod="followBodyFxSize" resource="FX_Awaken_Archer.PS.L_VeteranRanger02_PS" scaleX="1" scaleY="1" scaleZ="1" worldSpawn="false" />
+        </EffectCondition>
+    </AttachEffect>
+</HeroAttachEffectData>

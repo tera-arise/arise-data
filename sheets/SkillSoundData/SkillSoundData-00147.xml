@@ -1,0 +1,38 @@
+<SkillSoundData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/SkillSoundData SkillSoundData.xsd" huntingZoneId="111" xmlns="https://vezel.dev/novadrop/dc/SkillSoundData">
+    <SkillSound templateId="1000" skillId="2101">
+        <ChargeSoundList />
+        <HitSoundList />
+        <Sound time="0" radius="0.5" soundcue="PC_Skill.ArcherCUE.Archer_TimerTrap_Casting_01Cue" volume="1.5" stageIndex="-1" />
+    </SkillSound>
+    <SkillSound templateId="1000" skillId="2102">
+        <ChargeSoundList />
+        <HitSoundList>
+            <HitSound soundcue="PC_Skill.ArcherCUE.Archer_TimerTrap_ExplosionCue" isPlayArmorSound="false" areaIndex="0" targetingIndex="0" />
+            <HitSound soundcue="PC_Skill.ArcherCUE.Archer_TimerTrap_ExplosionCue" isPlayArmorSound="false" areaIndex="0" targetingIndex="1" />
+        </HitSoundList>
+    </SkillSound>
+    <SkillSound templateId="1000" skillId="3102">
+        <ChargeSoundList />
+        <HitSoundList>
+            <HitSound soundcue="PC_Skill_00.SorcererCUE.Sorcerer_IceStorm_ExplosionCue" isPlayArmorSound="false" areaIndex="0" targetingIndex="0" />
+        </HitSoundList>
+    </SkillSound>
+    <SkillSound templateId="7000" skillId="2101">
+        <ChargeSoundList />
+        <HitSoundList />
+        <Sound time="0" radius="0.5" soundcue="PC_Skill.ArcherCUE.Archer_TimerTrap_Casting_01Cue" volume="1.5" stageIndex="-1" />
+    </SkillSound>
+    <SkillSound templateId="7000" skillId="2102">
+        <ChargeSoundList />
+        <HitSoundList>
+            <HitSound soundcue="PC_Skill.ArcherCUE.Archer_TimerTrap_ExplosionCue" isPlayArmorSound="false" areaIndex="0" targetingIndex="0" />
+            <HitSound soundcue="PC_Skill.ArcherCUE.Archer_TimerTrap_ExplosionCue" isPlayArmorSound="false" areaIndex="0" targetingIndex="1" />
+        </HitSoundList>
+    </SkillSound>
+    <SkillSound templateId="7000" skillId="3102">
+        <ChargeSoundList />
+        <HitSoundList>
+            <HitSound soundcue="PC_Skill_00.SorcererCUE.Sorcerer_IceStorm_ExplosionCue" isPlayArmorSound="false" areaIndex="0" targetingIndex="0" />
+        </HitSoundList>
+    </SkillSound>
+</SkillSoundData>

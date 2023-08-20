@@ -1,0 +1,23 @@
+<BeamEffectData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/BeamEffectData BeamEffectData.xsd" xmlns="https://vezel.dev/novadrop/dc/BeamEffectData">
+    <BeamEffect id="1" lifeTime="6000" fixEndpointTime="200" from="target" to="doer">
+        <Effect startTime="200" resource="FX_Awaken_Soulless.PS.L_Chain_A001_PS" attachTerm="150" attachTime="200" count="3" detachTerm="0" detachTime="200">
+            <Attach type="From" boneName="Target" offsetAngle="0" offsetDistance="0" offsetHeight="0" offsetJitter="0" />
+            <Attach type="To" offsetAngle="120" offsetDistance="250" offsetHeight="8" offsetJitter="8" />
+        </Effect>
+        <Effect startTime="666" resource="FX_Awaken_Soulless.PS.L_Chain_A001_PS" attachTerm="150" attachTime="200" count="3" detachTerm="0" detachTime="200">
+            <Attach type="From" boneName="Target" offsetAngle="0" offsetDistance="0" offsetHeight="0" offsetJitter="0" />
+            <Attach type="To" offsetAngle="240" offsetDistance="250" offsetHeight="8" offsetJitter="8" />
+        </Effect>
+        <Effect startTime="1332" resource="FX_Awaken_Soulless.PS.L_Chain_A001_PS" attachTerm="150" attachTime="200" count="3" detachTerm="0" detachTime="200">
+            <Attach type="From" boneName="Target" offsetAngle="0" offsetDistance="0" offsetHeight="0" offsetJitter="0" />
+            <Attach type="To" offsetAngle="360" offsetDistance="250" offsetHeight="8" offsetJitter="8" />
+        </Effect>
+    </BeamEffect>
+    <BeamEffect id="2" from="doer" to="target">
+        <Effect startTime="0" resource="FX_A.PS.A_0224_PS" attachTime="300" detachTime="0" holdTime="500">
+            <Attach type="From" boneName="R_Sword" />
+            <Attach type="To" boneName="FxCenter" />
+        </Effect>
+    </BeamEffect>
+    <TargetData defaultBoneList="Bip01-Neck,Bip01-Spine2,Bip01-Spine,Bip01-Pelvis,Bip01-L-Calf,Bip01-R-Calf,Bip01-L-Forearm,Bip01-R-Forearm,Bip01-L-Hand,Bip01-R-Hand" defaultBoneName="FxCenter" />
+</BeamEffectData>

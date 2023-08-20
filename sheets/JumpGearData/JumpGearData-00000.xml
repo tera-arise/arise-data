@@ -1,0 +1,751 @@
+<JumpGearData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/JumpGearData JumpGearData.xsd" xmlns="https://vezel.dev/novadrop/dc/JumpGearData">
+    <JumpGear id="11111113">
+        <JumpGearCost money="0" />
+        <JumpGearOption maxHeight="1000" maxHeightRate="0.5">
+            <State type="standby" duration="1000">
+                <ActionCamera id="12" />
+                <AnimSeqList>
+                    <AnimSeq duration="2000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+            <State type="jumping" duration="5000">
+                <ActionCamera id="13" />
+                <AnimSeqList>
+                    <AnimSeq duration="3000" animName="jumpstart" animRate="0.8" bAnimLooping="false" />
+                    <AnimSeq duration="2000" animName="jumpLoop" animRate="1" bAnimLooping="true" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" designPlayRate="0.75" />
+            </State>
+            <State type="landing" duration="1000">
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+            </State>
+        </JumpGearOption>
+    </JumpGear>
+    <JumpGear id="11111114">
+        <JumpGearCost abnormalityId="99910800" money="0" abnormalityTurnoff="true" />
+        <JumpGearOption maxHeight="1000" maxHeightRate="0.5">
+            <State type="standby" duration="1000">
+                <ActionCamera id="12" />
+                <AnimSeqList>
+                    <AnimSeq duration="2000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+            <State type="jumping" duration="5000">
+                <ActionCamera id="13" />
+                <AnimSeqList>
+                    <AnimSeq duration="3000" animName="jumpstart" animRate="0.8" bAnimLooping="false" />
+                    <AnimSeq duration="2000" animName="jumpLoop" animRate="1" bAnimLooping="true" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" designPlayRate="0.75" />
+            </State>
+            <State type="landing" duration="1000">
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+            </State>
+        </JumpGearOption>
+    </JumpGear>
+    <JumpGear id="200900001">
+        <JumpGearCost abnormalityId="" money="0" />
+        <JumpGearHighwaySetting resourceName="JumpGear.sm.JumpGear_sm">
+            <HighwayState id="1" time="1200" changeMICParamValue="0.3" paramChangeDuration="500" />
+            <HighwayState id="2" time="6100" changeMICParamValue="1" paramChangeDuration="1000" />
+        </JumpGearHighwaySetting>
+        <JumpGearOption maxHeight="4000" maxHeightRate="0.5">
+            <State type="standby" duration="1000">
+                <ActionCamera id="4" />
+                <AnimSeqList>
+                    <AnimSeq duration="2000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+            <State type="jumping" duration="6000">
+                <ActionCamera id="5" />
+                <AnimSeqList>
+                    <AnimSeq duration="3000" animName="jumpstart" animRate="0.8" bAnimLooping="false" />
+                    <AnimSeq duration="2500" animName="R05FlyDescent" animRate="1" bAnimLooping="true" />
+                    <AnimSeq duration="1000" animName="jumpLoop" animRate="1" bAnimLooping="true" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" designPlayRate="0.75" />
+            </State>
+            <State type="landing" duration="1000">
+                <ActionCamera id="3" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+        </JumpGearOption>
+    </JumpGear>
+    <JumpGear id="200900002">
+        <JumpGearCost abnormalityId="" money="0" />
+        <JumpGearHighwaySetting resourceName="JumpGear.sm.JumpGear_sm">
+            <HighwayState id="1" time="1200" changeMICParamValue="0.3" paramChangeDuration="500" />
+            <HighwayState id="2" time="6100" changeMICParamValue="1" paramChangeDuration="1000" />
+        </JumpGearHighwaySetting>
+        <JumpGearOption maxHeight="2000" maxHeightRate="0.75">
+            <State type="standby" duration="1000">
+                <ActionCamera id="4" />
+                <AnimSeqList>
+                    <AnimSeq duration="2000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+            <State type="jumping" duration="6000">
+                <ActionCamera id="5" />
+                <AnimSeqList>
+                    <AnimSeq duration="3000" animName="jumpstart" animRate="0.8" bAnimLooping="false" />
+                    <AnimSeq duration="2500" animName="R05FlyDescent" animRate="1" bAnimLooping="true" />
+                    <AnimSeq duration="1000" animName="jumpLoop" animRate="1" bAnimLooping="true" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" designPlayRate="0.75" />
+            </State>
+            <State type="landing" duration="1000">
+                <ActionCamera id="3" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+        </JumpGearOption>
+    </JumpGear>
+    <JumpGear id="200900003">
+        <JumpGearCost abnormalityId="" money="0" />
+        <JumpGearHighwaySetting resourceName="JumpGear.sm.JumpGear_sm">
+            <HighwayState id="1" time="1200" changeMICParamValue="0.3" paramChangeDuration="500" />
+            <HighwayState id="2" time="6100" changeMICParamValue="1" paramChangeDuration="1000" />
+        </JumpGearHighwaySetting>
+        <JumpGearOption maxHeight="2500" maxHeightRate="0.5">
+            <State type="standby" duration="1000">
+                <ActionCamera id="4" />
+                <AnimSeqList>
+                    <AnimSeq duration="2000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+            <State type="jumping" duration="6000">
+                <ActionCamera id="5" />
+                <AnimSeqList>
+                    <AnimSeq duration="3000" animName="jumpstart" animRate="0.8" bAnimLooping="false" />
+                    <AnimSeq duration="2500" animName="R05FlyDescent" animRate="1" bAnimLooping="true" />
+                    <AnimSeq duration="1000" animName="jumpLoop" animRate="1" bAnimLooping="true" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" designPlayRate="0.75" />
+            </State>
+            <State type="landing" duration="1000">
+                <ActionCamera id="3" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+        </JumpGearOption>
+    </JumpGear>
+    <JumpGear id="200900004">
+        <JumpGearCost money="0" />
+        <JumpGearOption maxHeight="5000" maxHeightRate="0.5">
+            <State type="standby" duration="1000">
+                <ActionCamera id="4" />
+                <AnimSeqList>
+                    <AnimSeq duration="2000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+            <State type="jumping" duration="6000">
+                <ActionCamera id="5" />
+                <AnimSeqList>
+                    <AnimSeq duration="3000" animName="jumpstart" animRate="0.8" bAnimLooping="false" />
+                    <AnimSeq duration="2500" animName="R05FlyDescent" animRate="1" bAnimLooping="true" />
+                    <AnimSeq duration="1000" animName="jumpLoop" animRate="1" bAnimLooping="true" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" designPlayRate="0.75" />
+                <PostProcess id="9999999" />
+            </State>
+            <State type="landing" duration="1000">
+                <ActionCamera id="3" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+        </JumpGearOption>
+    </JumpGear>
+    <JumpGear id="200900005">
+        <JumpGearCost money="0" />
+        <JumpGearOption maxHeight="1500" maxHeightRate="0.5">
+            <State type="standby" duration="1000">
+                <ActionCamera id="4" />
+                <AnimSeqList>
+                    <AnimSeq duration="2000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+            <State type="jumping" duration="6000">
+                <ActionCamera id="5" />
+                <AnimSeqList>
+                    <AnimSeq duration="3000" animName="jumpstart" animRate="0.8" bAnimLooping="false" />
+                    <AnimSeq duration="2500" animName="R05FlyDescent" animRate="1" bAnimLooping="true" />
+                    <AnimSeq duration="1000" animName="jumpLoop" animRate="1" bAnimLooping="true" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" designPlayRate="0.75" />
+                <PostProcess id="9999999" />
+            </State>
+            <State type="landing" duration="1000">
+                <ActionCamera id="3" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+        </JumpGearOption>
+    </JumpGear>
+    <JumpGear id="200900006">
+        <JumpGearCost money="0" />
+        <JumpGearOption maxHeight="2500" maxHeightRate="0.5">
+            <State type="standby" duration="1000">
+                <ActionCamera id="4" />
+                <AnimSeqList>
+                    <AnimSeq duration="2000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+            <State type="jumping" duration="6000">
+                <ActionCamera id="5" />
+                <AnimSeqList>
+                    <AnimSeq duration="3000" animName="jumpstart" animRate="0.8" bAnimLooping="false" />
+                    <AnimSeq duration="2500" animName="R05FlyDescent" animRate="1" bAnimLooping="true" />
+                    <AnimSeq duration="1000" animName="jumpLoop" animRate="1" bAnimLooping="true" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" designPlayRate="0.75" />
+                <PostProcess id="9999999" />
+            </State>
+            <State type="landing" duration="1000">
+                <ActionCamera id="3" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+        </JumpGearOption>
+    </JumpGear>
+    <JumpGear id="200900007">
+        <JumpGearCost money="0" />
+        <JumpGearOption maxHeight="2000" maxHeightRate="0.5">
+            <State type="standby" duration="1000">
+                <ActionCamera id="4" />
+                <AnimSeqList>
+                    <AnimSeq duration="2000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+            <State type="jumping" duration="6000">
+                <ActionCamera id="5" />
+                <AnimSeqList>
+                    <AnimSeq duration="3000" animName="jumpstart" animRate="0.8" bAnimLooping="false" />
+                    <AnimSeq duration="2500" animName="R05FlyDescent" animRate="1" bAnimLooping="true" />
+                    <AnimSeq duration="1000" animName="jumpLoop" animRate="1" bAnimLooping="true" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" designPlayRate="0.75" />
+                <PostProcess id="9999999" />
+            </State>
+            <State type="landing" duration="1000">
+                <ActionCamera id="3" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+        </JumpGearOption>
+    </JumpGear>
+    <JumpGear id="200900008">
+        <JumpGearCost money="0" />
+        <JumpGearOption maxHeight="4000" maxHeightRate="0.5">
+            <State type="standby" duration="1000">
+                <ActionCamera id="4" />
+                <AnimSeqList>
+                    <AnimSeq duration="2000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+            <State type="jumping" duration="6000">
+                <ActionCamera id="5" />
+                <AnimSeqList>
+                    <AnimSeq duration="3000" animName="jumpstart" animRate="0.8" bAnimLooping="false" />
+                    <AnimSeq duration="2500" animName="R05FlyDescent" animRate="1" bAnimLooping="true" />
+                    <AnimSeq duration="1000" animName="jumpLoop" animRate="1" bAnimLooping="true" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" designPlayRate="0.75" />
+                <PostProcess id="9999999" />
+            </State>
+            <State type="landing" duration="1000">
+                <ActionCamera id="3" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+        </JumpGearOption>
+    </JumpGear>
+    <JumpGear id="200900009">
+        <JumpGearCost money="0" />
+        <JumpGearOption maxHeight="1000" maxHeightRate="0.5">
+            <State type="standby" duration="1000">
+                <ActionCamera id="4" />
+                <AnimSeqList>
+                    <AnimSeq duration="2000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+            <State type="jumping" duration="4000">
+                <ActionCamera id="5" />
+                <AnimSeqList>
+                    <AnimSeq duration="3000" animName="jumpstart" animRate="0.8" bAnimLooping="false" />
+                    <AnimSeq duration="2500" animName="R05FlyDescent" animRate="1" bAnimLooping="true" />
+                    <AnimSeq duration="1000" animName="jumpLoop" animRate="1" bAnimLooping="true" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" designPlayRate="0.75" />
+                <PostProcess id="9999999" />
+            </State>
+            <State type="landing" duration="1000">
+                <ActionCamera id="3" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+        </JumpGearOption>
+    </JumpGear>
+    <JumpGear id="200900010">
+        <JumpGearCost money="0" />
+        <JumpGearOption maxHeight="5000" maxHeightRate="0.5">
+            <State type="standby" duration="1000">
+                <ActionCamera id="4" />
+                <AnimSeqList>
+                    <AnimSeq duration="2000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+            <State type="jumping" duration="6000">
+                <ActionCamera id="5" />
+                <AnimSeqList>
+                    <AnimSeq duration="3000" animName="jumpstart" animRate="0.8" bAnimLooping="false" />
+                    <AnimSeq duration="2500" animName="R05FlyDescent" animRate="1" bAnimLooping="true" />
+                    <AnimSeq duration="1000" animName="jumpLoop" animRate="1" bAnimLooping="true" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" designPlayRate="0.75" />
+                <PostProcess id="9999999" />
+            </State>
+            <State type="landing" duration="1000">
+                <ActionCamera id="3" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+        </JumpGearOption>
+    </JumpGear>
+    <JumpGear id="210300001">
+        <JumpGearCost abnormalityId="21030001" money="0" />
+        <JumpGearOption maxHeight="10" maxHeightRate="1">
+            <State type="standby" duration="1000">
+                <ActionCamera id="9" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpend" animRate="1" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1003" designPlayRate="1" />
+            </State>
+            <State type="jumping" duration="1500">
+                <ActionCamera id="10" />
+                <AnimSeqList>
+                    <AnimSeq duration="1500" animName="jumpstart" animRate="1" bAnimLooping="true" />
+                </AnimSeqList>
+                <JumpGearEffect id="1003" designPlayRate="1" />
+                <PostProcess id="9999998" />
+            </State>
+            <State type="landing" duration="1000">
+                <ActionCamera id="11" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpstart" animRate="1" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1003" designPlayRate="0.5" />
+                <PostProcess id="9999997" />
+            </State>
+        </JumpGearOption>
+    </JumpGear>
+    <JumpGear id="210300002">
+        <JumpGearCost abnormalityId="21030002" money="0" />
+        <JumpGearOption maxHeight="10" maxHeightRate="1">
+            <State type="standby" duration="1000">
+                <ActionCamera id="9" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpend" animRate="1" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1003" designPlayRate="1" />
+            </State>
+            <State type="jumping" duration="1500">
+                <ActionCamera id="10" />
+                <AnimSeqList>
+                    <AnimSeq duration="1500" animName="jumpstart" animRate="1" bAnimLooping="true" />
+                </AnimSeqList>
+                <JumpGearEffect id="1003" designPlayRate="1" />
+                <PostProcess id="9999998" />
+            </State>
+            <State type="landing" duration="1000">
+                <ActionCamera id="11" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpstart" animRate="1" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1003" designPlayRate="0.5" />
+                <PostProcess id="9999997" />
+            </State>
+        </JumpGearOption>
+    </JumpGear>
+    <JumpGear id="210300004">
+        <JumpGearCost money="0" />
+        <JumpGearOption maxHeight="10" maxHeightRate="1">
+            <State type="standby" duration="1000">
+                <ActionCamera id="9" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpend" animRate="1" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1003" designPlayRate="1" />
+            </State>
+            <State type="jumping" duration="1500">
+                <ActionCamera id="10" />
+                <AnimSeqList>
+                    <AnimSeq duration="1500" animName="jumpstart" animRate="1" bAnimLooping="true" />
+                </AnimSeqList>
+                <JumpGearEffect id="1003" designPlayRate="1" />
+                <PostProcess id="9999998" />
+            </State>
+            <State type="landing" duration="1000">
+                <ActionCamera id="11" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpstart" animRate="1" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1003" designPlayRate="0.5" />
+                <PostProcess id="9999997" />
+            </State>
+        </JumpGearOption>
+    </JumpGear>
+    <JumpGear id="210300005">
+        <JumpGearCost money="0" />
+        <JumpGearOption maxHeight="10" maxHeightRate="1">
+            <State type="standby" duration="1000">
+                <ActionCamera id="9" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpend" animRate="1" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1003" designPlayRate="1" />
+            </State>
+            <State type="jumping" duration="1500">
+                <ActionCamera id="10" />
+                <AnimSeqList>
+                    <AnimSeq duration="1500" animName="jumpstart" animRate="1" bAnimLooping="true" />
+                </AnimSeqList>
+                <JumpGearEffect id="1003" designPlayRate="1" />
+                <PostProcess id="9999998" />
+            </State>
+            <State type="landing" duration="1000">
+                <ActionCamera id="11" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpstart" animRate="1" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1003" designPlayRate="0.5" />
+                <PostProcess id="9999997" />
+            </State>
+        </JumpGearOption>
+    </JumpGear>
+    <JumpGear id="975000001">
+        <JumpGearCost money="0" />
+        <JumpGearHighwaySetting resourceName="JumpGear.sm.JumpGear_sm">
+            <HighwayState id="1" time="1200" changeMICParamValue="0.3" paramChangeDuration="500" />
+            <HighwayState id="2" time="6100" changeMICParamValue="1" paramChangeDuration="1000" />
+        </JumpGearHighwaySetting>
+        <JumpGearOption maxHeight="3500" maxHeightRate="0.5">
+            <State type="standby" duration="1000">
+                <ActionCamera id="4" />
+                <AnimSeqList>
+                    <AnimSeq duration="2000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+            <State type="jumping" duration="6000">
+                <ActionCamera id="5" />
+                <AnimSeqList>
+                    <AnimSeq duration="3000" animName="jumpstart" animRate="0.8" bAnimLooping="false" />
+                    <AnimSeq duration="2500" animName="R05FlyDescent" animRate="1" bAnimLooping="true" />
+                    <AnimSeq duration="1000" animName="jumpLoop" animRate="1" bAnimLooping="true" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" designPlayRate="0.75" />
+            </State>
+            <State type="landing" duration="1000">
+                <ActionCamera id="3" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+        </JumpGearOption>
+    </JumpGear>
+    <JumpGear id="302600001">
+        <JumpGearCost abnormalityId="30261701" money="0" />
+        <JumpGearHighwaySetting resourceName="JumpGear.sm.JumpGear_sm">
+            <HighwayState id="1" time="1200" changeMICParamValue="0.3" paramChangeDuration="500" />
+            <HighwayState id="2" time="6100" changeMICParamValue="1" paramChangeDuration="1000" />
+        </JumpGearHighwaySetting>
+        <JumpGearOption maxHeight="2500" maxHeightRate="0.5">
+            <State type="standby" duration="1000">
+                <ActionCamera id="4" />
+                <AnimSeqList>
+                    <AnimSeq duration="2000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+            <State type="jumping" duration="6000">
+                <ActionCamera id="5" />
+                <AnimSeqList>
+                    <AnimSeq duration="3000" animName="jumpstart" animRate="0.8" bAnimLooping="false" />
+                    <AnimSeq duration="2500" animName="R05FlyDescent" animRate="1" bAnimLooping="true" />
+                    <AnimSeq duration="1000" animName="jumpLoop" animRate="1" bAnimLooping="true" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" designPlayRate="0.75" />
+            </State>
+            <State type="landing" duration="1000">
+                <ActionCamera id="3" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+        </JumpGearOption>
+    </JumpGear>
+    <JumpGear id="302600002">
+        <JumpGearCost abnormalityId="30260028" money="0" />
+        <JumpGearHighwaySetting resourceName="JumpGear.sm.JumpGear_sm">
+            <HighwayState id="1" time="1200" changeMICParamValue="0.3" paramChangeDuration="500" />
+            <HighwayState id="2" time="6100" changeMICParamValue="1" paramChangeDuration="1000" />
+        </JumpGearHighwaySetting>
+        <JumpGearOption maxHeight="2500" maxHeightRate="0.5">
+            <State type="standby" duration="1000">
+                <ActionCamera id="4" />
+                <AnimSeqList>
+                    <AnimSeq duration="2000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+            <State type="jumping" duration="6000">
+                <ActionCamera id="5" />
+                <AnimSeqList>
+                    <AnimSeq duration="3000" animName="jumpstart" animRate="0.8" bAnimLooping="false" />
+                    <AnimSeq duration="2500" animName="R05FlyDescent" animRate="1" bAnimLooping="true" />
+                    <AnimSeq duration="1000" animName="jumpLoop" animRate="1" bAnimLooping="true" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" designPlayRate="0.75" />
+            </State>
+            <State type="landing" duration="1000">
+                <ActionCamera id="3" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+        </JumpGearOption>
+    </JumpGear>
+    <JumpGear id="312600001">
+        <JumpGearCost abnormalityId="31261701" money="0" />
+        <JumpGearHighwaySetting resourceName="JumpGear.sm.JumpGear_sm">
+            <HighwayState id="1" time="1200" changeMICParamValue="0.3" paramChangeDuration="500" />
+            <HighwayState id="2" time="6100" changeMICParamValue="1" paramChangeDuration="1000" />
+        </JumpGearHighwaySetting>
+        <JumpGearOption maxHeight="2500" maxHeightRate="0.5">
+            <State type="standby" duration="1000">
+                <ActionCamera id="4" />
+                <AnimSeqList>
+                    <AnimSeq duration="2000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+            <State type="jumping" duration="6000">
+                <ActionCamera id="5" />
+                <AnimSeqList>
+                    <AnimSeq duration="3000" animName="jumpstart" animRate="0.8" bAnimLooping="false" />
+                    <AnimSeq duration="2500" animName="R05FlyDescent" animRate="1" bAnimLooping="true" />
+                    <AnimSeq duration="1000" animName="jumpLoop" animRate="1" bAnimLooping="true" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" designPlayRate="0.75" />
+            </State>
+            <State type="landing" duration="1000">
+                <ActionCamera id="3" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+        </JumpGearOption>
+    </JumpGear>
+    <JumpGear id="312600002">
+        <JumpGearCost abnormalityId="31260028" money="0" />
+        <JumpGearHighwaySetting resourceName="JumpGear.sm.JumpGear_sm">
+            <HighwayState id="1" time="1200" changeMICParamValue="0.3" paramChangeDuration="500" />
+            <HighwayState id="2" time="6100" changeMICParamValue="1" paramChangeDuration="1000" />
+        </JumpGearHighwaySetting>
+        <JumpGearOption maxHeight="2500" maxHeightRate="0.5">
+            <State type="standby" duration="1000">
+                <ActionCamera id="4" />
+                <AnimSeqList>
+                    <AnimSeq duration="2000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+            <State type="jumping" duration="6000">
+                <ActionCamera id="5" />
+                <AnimSeqList>
+                    <AnimSeq duration="3000" animName="jumpstart" animRate="0.8" bAnimLooping="false" />
+                    <AnimSeq duration="2500" animName="R05FlyDescent" animRate="1" bAnimLooping="true" />
+                    <AnimSeq duration="1000" animName="jumpLoop" animRate="1" bAnimLooping="true" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" designPlayRate="0.75" />
+            </State>
+            <State type="landing" duration="1000">
+                <ActionCamera id="3" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+        </JumpGearOption>
+    </JumpGear>
+    <JumpGear id="303100001">
+        <JumpGearCost abnormalityId="303100006" money="0" />
+        <JumpGearHighwaySetting resourceName="JumpGear.sm.JumpGear_sm">
+            <HighwayState id="1" time="1200" changeMICParamValue="0.3" paramChangeDuration="500" />
+            <HighwayState id="2" time="6100" changeMICParamValue="1" paramChangeDuration="1000" />
+        </JumpGearHighwaySetting>
+        <JumpGearOption maxHeight="2500" maxHeightRate="0.5">
+            <State type="standby" duration="1000">
+                <ActionCamera id="4" />
+                <AnimSeqList>
+                    <AnimSeq duration="2000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+            <State type="jumping" duration="6000">
+                <ActionCamera id="5" />
+                <AnimSeqList>
+                    <AnimSeq duration="3000" animName="jumpstart" animRate="0.8" bAnimLooping="false" />
+                    <AnimSeq duration="2500" animName="R05FlyDescent" animRate="1" bAnimLooping="true" />
+                    <AnimSeq duration="1000" animName="jumpLoop" animRate="1" bAnimLooping="true" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" designPlayRate="0.75" />
+            </State>
+            <State type="landing" duration="1000">
+                <ActionCamera id="3" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+        </JumpGearOption>
+    </JumpGear>
+    <JumpGear id="303100002">
+        <JumpGearCost abnormalityId="303100006" money="0" />
+        <JumpGearHighwaySetting resourceName="JumpGear.sm.JumpGear_sm">
+            <HighwayState id="1" time="1200" changeMICParamValue="0.3" paramChangeDuration="500" />
+            <HighwayState id="2" time="6100" changeMICParamValue="1" paramChangeDuration="1000" />
+        </JumpGearHighwaySetting>
+        <JumpGearOption maxHeight="2500" maxHeightRate="0.5">
+            <State type="standby" duration="1000">
+                <ActionCamera id="4" />
+                <AnimSeqList>
+                    <AnimSeq duration="2000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+            <State type="jumping" duration="6000">
+                <ActionCamera id="5" />
+                <AnimSeqList>
+                    <AnimSeq duration="3000" animName="jumpstart" animRate="0.8" bAnimLooping="false" />
+                    <AnimSeq duration="2500" animName="R05FlyDescent" animRate="1" bAnimLooping="true" />
+                    <AnimSeq duration="1000" animName="jumpLoop" animRate="1" bAnimLooping="true" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" designPlayRate="0.75" />
+            </State>
+            <State type="landing" duration="1000">
+                <ActionCamera id="3" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+        </JumpGearOption>
+    </JumpGear>
+    <JumpGear id="303100003">
+        <JumpGearCost abnormalityId="303100006" money="0" />
+        <JumpGearHighwaySetting resourceName="JumpGear.sm.JumpGear_sm">
+            <HighwayState id="1" time="1200" changeMICParamValue="0.3" paramChangeDuration="500" />
+            <HighwayState id="2" time="6100" changeMICParamValue="1" paramChangeDuration="1000" />
+        </JumpGearHighwaySetting>
+        <JumpGearOption maxHeight="2500" maxHeightRate="0.5">
+            <State type="standby" duration="1000">
+                <ActionCamera id="4" />
+                <AnimSeqList>
+                    <AnimSeq duration="2000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+            <State type="jumping" duration="6000">
+                <ActionCamera id="5" />
+                <AnimSeqList>
+                    <AnimSeq duration="3000" animName="jumpstart" animRate="0.8" bAnimLooping="false" />
+                    <AnimSeq duration="2500" animName="R05FlyDescent" animRate="1" bAnimLooping="true" />
+                    <AnimSeq duration="1000" animName="jumpLoop" animRate="1" bAnimLooping="true" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" designPlayRate="0.75" />
+            </State>
+            <State type="landing" duration="1000">
+                <ActionCamera id="3" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+        </JumpGearOption>
+    </JumpGear>
+    <JumpGear id="303100004">
+        <JumpGearCost abnormalityId="303100006" money="0" />
+        <JumpGearHighwaySetting resourceName="JumpGear.sm.JumpGear_sm">
+            <HighwayState id="1" time="1200" changeMICParamValue="0.3" paramChangeDuration="500" />
+            <HighwayState id="2" time="6100" changeMICParamValue="1" paramChangeDuration="1000" />
+        </JumpGearHighwaySetting>
+        <JumpGearOption maxHeight="2500" maxHeightRate="0.5">
+            <State type="standby" duration="1000">
+                <ActionCamera id="4" />
+                <AnimSeqList>
+                    <AnimSeq duration="2000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+            <State type="jumping" duration="6000">
+                <ActionCamera id="5" />
+                <AnimSeqList>
+                    <AnimSeq duration="3000" animName="jumpstart" animRate="0.8" bAnimLooping="false" />
+                    <AnimSeq duration="2500" animName="R05FlyDescent" animRate="1" bAnimLooping="true" />
+                    <AnimSeq duration="1000" animName="jumpLoop" animRate="1" bAnimLooping="true" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" designPlayRate="0.75" />
+            </State>
+            <State type="landing" duration="1000">
+                <ActionCamera id="3" />
+                <AnimSeqList>
+                    <AnimSeq duration="1000" animName="jumpend" bAnimLooping="false" />
+                </AnimSeqList>
+                <JumpGearEffect id="1001" />
+            </State>
+        </JumpGearOption>
+    </JumpGear>
+</JumpGearData>

@@ -1,0 +1,112 @@
+<JumpGearEffectData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/JumpGearEffectData JumpGearEffectData.xsd" xmlns="https://vezel.dev/novadrop/dc/JumpGearEffectData">
+    <JumpGearEffect id="1001">
+        <State name="standby">
+            <EffectData>
+                <Effect scale="0.3" posX="0" posY="0" posZ="10" rotX="0" rotY="0" rotZ="0" startTime="0" bGround="false" boneName="FxBottom" detach="true" playRate="1" rescaleMethod="followShape" resource="FX_O_Hotfix_190503.PS.O_start02_PS" scaleX="1" scaleY="1" scaleZ="1" subBoneName="None" subBoneName2="None" worldSpawn="false" absoluteRate="false" bChangeAbleScaleByRange="false" stageIndex="-1" />
+                <Effect scale="0.3" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" startTime="0" bGround="false" boneName="FxBottom" detach="true" playRate="1" rescaleMethod="followBodyFxSize" resource="FX_O_Hotfix_190503.PS.O_start02_01_PS" scaleX="1" scaleY="1" scaleZ="1" subBoneName="None" subBoneName2="None" worldSpawn="false" absoluteRate="false" bChangeAbleScaleByRange="false" stageIndex="-1" />
+            </EffectData>
+            <SoundData>
+                <Sound startTime="0" soundcue="InterfaceSound.Transportation.Transportation_GateStartCue" isLoop="false" />
+            </SoundData>
+        </State>
+        <State name="jumping">
+            <EffectData>
+                <Effect scale="1" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" startTime="0" bGround="false" boneName="Dummy_root" detach="false" playRate="1" rescaleMethod="followBodyFxSize" resource="FX_O_Hotfix_190503.PS.O_trail01_ps" scaleX="1" scaleY="1" scaleZ="1" worldSpawn="false" absoluteRate="false" />
+            </EffectData>
+            <SoundData>
+                <Sound startTime="0" soundcue="InterfaceSound.Transportation.Transportation_GateLoopCue" isLoop="true" />
+            </SoundData>
+        </State>
+        <State name="landing">
+            <EffectData>
+                <Effect scale="1" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" startTime="7" bGround="false" boneName="FxBottom" detach="true" playRate="1" rescaleMethod="followShape" resource="FX_O_Hotfix_190503.PS.O_end03_PS" scaleX="1" scaleY="1" scaleZ="1" worldSpawn="false" absoluteRate="false" />
+                <Effect scale="0.6" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" startTime="7" bGround="false" boneName="FxBottom" detach="true" playRate="1" rescaleMethod="followShape" resource="FX_O_HotFix_170512.PS.B_1306_02_PS" scaleX="1" scaleY="1" scaleZ="1" worldSpawn="false" absoluteRate="false" />
+            </EffectData>
+            <SoundData>
+                <Sound startTime="0" soundcue="InterfaceSound.Transportation.Transportation_GateEndCue" isLoop="false" />
+            </SoundData>
+        </State>
+    </JumpGearEffect>
+    <JumpGearEffect id="1002">
+        <State name="standby">
+            <EffectData>
+                <Effect scale="0.3" posX="0" posY="0" posZ="10" rotX="0" rotY="0" rotZ="0" startTime="0" bGround="false" boneName="FxBottom" detach="true" playRate="1" rescaleMethod="followShape" resource="FX_O_Hotfix_190503.PS.O_start02_PS" scaleX="1" scaleY="1" scaleZ="1" subBoneName="None" subBoneName2="None" worldSpawn="false" absoluteRate="false" bChangeAbleScaleByRange="false" stageIndex="-1" />
+                <Effect scale="0.3" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" startTime="0" bGround="false" boneName="FxBottom" detach="true" playRate="1" rescaleMethod="followBodyFxSize" resource="FX_O_Hotfix_190503.PS.O_start02_01_PS" scaleX="1" scaleY="1" scaleZ="1" subBoneName="None" subBoneName2="None" worldSpawn="false" absoluteRate="false" bChangeAbleScaleByRange="false" stageIndex="-1" />
+            </EffectData>
+            <SoundData>
+                <Sound startTime="0" soundcue="InterfaceSound.Transportation.Transportation_GateStartCue" isLoop="false" />
+            </SoundData>
+        </State>
+        <State name="jumping">
+            <EffectData>
+                <Effect scale="1" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" startTime="0" bGround="false" boneName="Dummy_root" detach="false" playRate="1" rescaleMethod="followBodyFxSize" resource="FX_O_Hotfix_190503.PS.O_trail01_ps" scaleX="1" scaleY="1" scaleZ="1" worldSpawn="false" absoluteRate="false" />
+            </EffectData>
+            <SoundData>
+                <Sound startTime="0" soundcue="InterfaceSound.Transportation.Transportation_GateLoopCue" isLoop="true" />
+            </SoundData>
+        </State>
+        <State name="landing">
+            <EffectData>
+                <Effect scale="1" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" startTime="7" bGround="false" boneName="FxBottom" detach="true" playRate="1" rescaleMethod="followShape" resource="FX_O_Hotfix_190503.PS.O_end03_PS" scaleX="1" scaleY="1" scaleZ="1" worldSpawn="false" absoluteRate="false" />
+                <Effect scale="0.6" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" startTime="7" bGround="false" boneName="FxBottom" detach="true" playRate="1" rescaleMethod="followShape" resource="FX_O_HotFix_170512.PS.B_1306_02_PS" scaleX="1" scaleY="1" scaleZ="1" worldSpawn="false" absoluteRate="false" />
+            </EffectData>
+            <SoundData>
+                <Sound startTime="0" soundcue="InterfaceSound.Transportation.Transportation_GateEndCue" isLoop="false" />
+            </SoundData>
+        </State>
+    </JumpGearEffect>
+    <JumpGearEffect id="1003">
+        <State name="standby">
+            <EffectData>
+                <Effect scale="2" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" startTime="0" bGround="false" boneName="FxCenter" detach="true" playRate="1" rescaleMethod="followShape" resource="FX_L_Hotfix_160203.PS.L_16020410_PS" scaleX="4" scaleY="4" scaleZ="0.7" subBoneName="None" subBoneName2="None" worldSpawn="false" absoluteRate="false" bChangeAbleScaleByRange="false" stageIndex="-1" />
+            </EffectData>
+            <SoundData>
+                <Sound startTime="0" soundcue="InterfaceSound.Transportation.Transportation_GateStartCue" isLoop="false" />
+            </SoundData>
+        </State>
+        <State name="jumping">
+            <EffectData>
+                <Effect scale="1.5" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" startTime="0" bGround="false" boneName="FxCenter" detach="false" playRate="1" rescaleMethod="followShape" resource="FX_L_Hotfix_160203.PS.L_16020410_PS" scaleX="1" scaleY="1" scaleZ="1" subBoneName="None" subBoneName2="None" worldSpawn="false" absoluteRate="false" bChangeAbleScaleByRange="false" stageIndex="-1" />
+            </EffectData>
+            <SoundData>
+                <Sound startTime="0" soundcue="InterfaceSound.Transportation.Transportation_GateLoopCue" isLoop="true" />
+            </SoundData>
+        </State>
+        <State name="landing">
+            <EffectData>
+                <Effect scale="2" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" startTime="210" bGround="false" boneName="FxCenter" detach="true" playRate="1" rescaleMethod="followShape" resource="FX_L_Hotfix_160203.PS.L_16020410_PS" scaleX="4" scaleY="4" scaleZ="0.7" subBoneName="None" subBoneName2="None" worldSpawn="false" absoluteRate="false" bChangeAbleScaleByRange="false" stageIndex="-1" />
+            </EffectData>
+            <SoundData>
+                <Sound startTime="0" soundcue="InterfaceSound.Transportation.Transportation_GateEndCue" isLoop="false" />
+            </SoundData>
+        </State>
+    </JumpGearEffect>
+    <JumpGearEffect id="1004">
+        <State name="standby">
+            <EffectData>
+                <Effect scale="0.3" posX="0" posY="0" posZ="10" rotX="0" rotY="0" rotZ="0" startTime="0" bGround="false" boneName="FxBottom" detach="true" playRate="1" rescaleMethod="followShape" resource="FX_L_Hotfix_200410.PS.O_start02_PS" scaleX="1" scaleY="1" scaleZ="1" subBoneName="None" subBoneName2="None" worldSpawn="false" absoluteRate="false" bChangeAbleScaleByRange="false" stageIndex="-1" />
+                <Effect scale="0.3" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" startTime="0" bGround="false" boneName="FxBottom" detach="true" playRate="1" rescaleMethod="followBodyFxSize" resource="FX_O_Hotfix_190503.PS.O_start02_01_PS" scaleX="1" scaleY="1" scaleZ="1" subBoneName="None" subBoneName2="None" worldSpawn="false" absoluteRate="false" bChangeAbleScaleByRange="false" stageIndex="-1" />
+            </EffectData>
+            <SoundData>
+                <Sound startTime="0" soundcue="InterfaceSound.Transportation.Transportation_GateStartCue" isLoop="false" />
+            </SoundData>
+        </State>
+        <State name="jumping">
+            <EffectData>
+                <Effect scale="1" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" startTime="0" bGround="false" boneName="Dummy_root" detach="false" playRate="1" rescaleMethod="followBodyFxSize" resource="FX_L_Hotfix_200410.PS.O_trail01_ps" scaleX="1" scaleY="1" scaleZ="1" worldSpawn="false" absoluteRate="false" />
+            </EffectData>
+            <SoundData>
+                <Sound startTime="0" soundcue="InterfaceSound.Transportation.Transportation_GateLoopCue" isLoop="true" />
+            </SoundData>
+        </State>
+        <State name="landing">
+            <EffectData>
+                <Effect scale="1" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" startTime="7" bGround="false" boneName="FxBottom" detach="true" playRate="1" rescaleMethod="followShape" resource="FX_L_Hotfix_200410.PS.O_end03_PS" scaleX="1" scaleY="1" scaleZ="1" worldSpawn="false" absoluteRate="false" />
+                <Effect scale="0.6" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" startTime="7" bGround="false" boneName="FxBottom" detach="true" playRate="1" rescaleMethod="followShape" resource="FX_O_HotFix_170512.PS.B_1306_02_PS" scaleX="1" scaleY="1" scaleZ="1" worldSpawn="false" absoluteRate="false" />
+            </EffectData>
+            <SoundData>
+                <Sound startTime="0" soundcue="InterfaceSound.Transportation.Transportation_GateEndCue" isLoop="false" />
+            </SoundData>
+        </State>
+    </JumpGearEffect>
+</JumpGearEffectData>

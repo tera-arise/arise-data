@@ -1,0 +1,98 @@
+<CardCollectionBookFilterData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/CardCollectionBookFilterData CardCollectionBookFilterData.xsd" xmlns="https://vezel.dev/novadrop/dc/CardCollectionBookFilterData">
+    <CardStatDefine>
+        <Stat statRefId="6" typeId="1" />
+        <Stat statRefId="6" typeId="2" />
+        <Stat statRefId="11" typeId="3" />
+        <Stat statRefId="5" typeId="4" />
+        <Stat statRefId="7" typeId="5" />
+        <Stat statRefId="1" typeId="6" />
+        <Stat statRefId="5" typeId="7" />
+        <Stat statRefId="7" typeId="17" />
+        <Stat statRefId="7" typeId="18" />
+        <Stat statRefId="8" typeId="20" />
+        <Stat statRefId="6" typeId="21" />
+        <Stat statRefId="6" typeId="26" />
+        <Stat statRefId="11" typeId="47" />
+        <Stat statRefId="6" typeId="51" />
+        <Stat statRefId="6" typeId="52" />
+        <Stat statRefId="10" typeId="64" />
+        <Stat statRefId="10" typeId="65" />
+        <Stat statRefId="11" typeId="68" />
+        <Stat statRefId="5" typeId="102" />
+        <Stat statRefId="11" typeId="106" />
+        <Stat statRefId="6" typeId="110" />
+        <Stat statRefId="4,5" typeId="113" />
+        <Stat statRefId="5,9" typeId="116" />
+        <Stat statRefId="5,9" typeId="117" />
+        <Stat statRefId="11" typeId="152" />
+        <Stat statRefId="8" typeId="164" />
+        <Stat statRefId="4" typeId="176" />
+        <Stat statRefId="11" typeId="189" />
+        <Stat statRefId="11" typeId="206" />
+        <Stat statRefId="11" typeId="207" />
+        <Stat statRefId="11" typeId="224" />
+        <Stat statRefId="7" typeId="249" />
+        <Stat statRefId="10" typeId="257" />
+        <Stat statRefId="10" typeId="258" />
+        <Stat statRefId="2" typeId="1001" />
+        <Stat statRefId="3" typeId="1002" />
+        <Stat statRefId="2,5" typeId="1003" />
+        <Stat statRefId="3,5" typeId="1004" />
+        <Stat statRefId="1,2" typeId="1005" />
+        <Stat statRefId="1,3" typeId="1006" />
+        <Stat statRefId="2,9" typeId="1101" />
+        <Stat statRefId="3,9" typeId="1102" />
+        <Stat statRefId="1,2,9" typeId="1103" />
+        <Stat statRefId="1,3,9" typeId="1104" />
+    </CardStatDefine>
+    <CollectionBookFilter mainTab="card" subTab="card">
+        <CheckBoxFilter>
+            <Filter readableId="property" labelStringId="@cardsystem:10011">
+                <ChildFilter labelStringId="@cardsystem:10301" refId="1" />
+                <ChildFilter labelStringId="@cardsystem:10302" refId="2" />
+                <ChildFilter labelStringId="@cardsystem:10303" refId="3" />
+                <ChildFilter labelStringId="@cardsystem:10304" refId="4" />
+                <ChildFilter labelStringId="@cardsystem:10305" refId="5" />
+                <ChildFilter labelStringId="@cardsystem:10306" refId="6" />
+            </Filter>
+            <Filter readableId="level" labelStringId="@cardsystem:10012">
+                <ChildFilter labelStringId="@cardsystem:10201" refId="0" />
+                <ChildFilter labelStringId="@cardsystem:10202" refId="1" />
+                <ChildFilter labelStringId="@cardsystem:10203" refId="2" />
+                <ChildFilter labelStringId="@cardsystem:10204" refId="3" />
+            </Filter>
+            <Filter readableId="cost" labelStringId="@cardsystem:10013">
+                <ChildFilter labelStringId="@cardsystem:10014" refIdRange="2,3" />
+                <ChildFilter labelStringId="@cardsystem:10014" refIdRange="4,5" />
+                <ChildFilter labelStringId="@cardsystem:10014" refIdRange="6,0" />
+            </Filter>
+            <Filter readableId="stat" labelStringId="@cardsystem:10015">
+                <ChildFilter labelStringId="@cardsystem:10401" refId="1" />
+                <ChildFilter labelStringId="@cardsystem:10402" refId="2" />
+                <ChildFilter labelStringId="@cardsystem:10403" refId="3" />
+                <ChildFilter labelStringId="@cardsystem:10404" refId="4" />
+                <ChildFilter labelStringId="@cardsystem:10405" refId="5" />
+                <ChildFilter labelStringId="@cardsystem:10406" refId="6" />
+                <ChildFilter labelStringId="@cardsystem:10407" refId="7" />
+                <ChildFilter labelStringId="@cardsystem:10408" refId="8" />
+                <ChildFilter labelStringId="@cardsystem:10409" refId="9" />
+                <ChildFilter labelStringId="@cardsystem:10410" refId="10" />
+                <ChildFilter labelStringId="@cardsystem:10411" refId="11" />
+            </Filter>
+        </CheckBoxFilter>
+        <DropBoxFilter>
+            <Filter readableId="All" labelStringId="@cardsystem:10001" />
+            <Filter readableId="ActivatedItem" labelStringId="@cardsystem:10002" />
+            <Filter readableId="DeactivatedItem" labelStringId="@cardsystem:10003" />
+            <Filter readableId="MountedItem" labelStringId="@cardsystem:10004" />
+        </DropBoxFilter>
+    </CollectionBookFilter>
+    <CollectionBookFilter mainTab="card" subTab="album">
+        <DropBoxFilter>
+            <Filter readableId="All" labelStringId="@cardsystem:10001" />
+            <Filter readableId="ActivatedData" labelStringId="@cardsystem:10002" />
+            <Filter readableId="DeactivatedData" labelStringId="@cardsystem:10003" />
+            <Filter readableId="MountedData" labelStringId="@cardsystem:10004" />
+        </DropBoxFilter>
+    </CollectionBookFilter>
+</CardCollectionBookFilterData>

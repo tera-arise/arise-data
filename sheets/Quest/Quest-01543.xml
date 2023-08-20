@@ -1,0 +1,157 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="18113" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>181,13</Quest번호>
+        <Quest제목>@quest:18113001</Quest제목>
+        <반복퀘스트>1회성</반복퀘스트>
+        <발생조건>
+            <NPC대화>181,3004</NPC대화>
+        </발생조건>
+        <수행조건>
+            <길드레벨 />
+            <선행퀘스트>
+                <선행퀘스트>
+                    <퀘스트Id>181,12</퀘스트Id>
+                </선행퀘스트>
+            </선행퀘스트>
+            <영주길드 />
+            <최소레벨>60</최소레벨>
+        </수행조건>
+        <수행지역 />
+        <스토리그룹Id>22</스토리그룹Id>
+        <요약정보>100</요약정보>
+        <적정수행레벨>63</적정수행레벨>
+        <적정수행인원>1</적정수행인원>
+        <집회소분류 />
+        <추가보상 />
+        <퀘스트종류>미션</퀘스트종류>
+        <특수가이드 />
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>181,1011</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:18113004</저널Text>
+            </Body>
+            <Header>
+                <ContinentId>7031</ContinentId>
+                <Id>1</Id>
+                <JournalScript>2</JournalScript>
+                <Pos>30820,-3515,4424</Pos>
+                <다음Task>2</다음Task>
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+        <Task id="2">
+            <Body>
+                <오브젝트지정>
+                    <오브젝트지정>
+                        <동작횟수>5</동작횟수>
+                        <오브젝트Id>81804</오브젝트Id>
+                    </오브젝트지정>
+                </오브젝트지정>
+                <저널Text>@quest:18113005</저널Text>
+                <제한시간>0,0</제한시간>
+            </Body>
+            <Header>
+                <ContinentId>7031</ContinentId>
+                <Id>2</Id>
+                <JournalScript>3</JournalScript>
+                <Pos>29832,-3454,4396</Pos>
+                <다음Task>3</다음Task>
+                <이름>오브젝트동작Task</이름>
+            </Header>
+        </Task>
+        <Task id="3">
+            <Body>
+                <Flag아이템이름>@quest:18113007</Flag아이템이름>
+                <대상NPC지정>181,1011</대상NPC지정>
+                <보상>0</보상>
+                <아이콘지정>81112</아이콘지정>
+                <저널Text>@quest:18113008</저널Text>
+                <전달수량>5</전달수량>
+            </Body>
+            <Header>
+                <ContinentId>7031</ContinentId>
+                <Id>3</Id>
+                <JournalScript>3</JournalScript>
+                <Pos>30820,-3515,4424</Pos>
+                <다음Task>4</다음Task>
+                <이름>찔러준아이템전달Task</이름>
+            </Header>
+        </Task>
+        <Task id="4">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>181,1010</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:18113011</저널Text>
+            </Body>
+            <Header>
+                <ContinentId>7031</ContinentId>
+                <Id>4</Id>
+                <JournalScript>4</JournalScript>
+                <Pos>29908,-4299,4310</Pos>
+                <다음Task>5</다음Task>
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+        <Task id="5">
+            <Body>
+                <대상NPC지정>181,1010</대상NPC지정>
+                <보상>0</보상>
+                <아이템작성>
+                    <아이템작성>
+                        <Flag아이템이름>@quest:18113012</Flag아이템이름>
+                        <몬스터지정>
+                            <몬스터지정>
+                                <몬스터Id>181,2033</몬스터Id>
+                            </몬스터지정>
+                        </몬스터지정>
+                        <아이콘지정>81104</아이콘지정>
+                        <전달수량>5</전달수량>
+                    </아이템작성>
+                </아이템작성>
+                <저널Text>@quest:18113013</저널Text>
+                <저널Text2>@quest:18113014</저널Text2>
+                <진행조건>
+                    <제한시간>0,0</제한시간>
+                </진행조건>
+            </Body>
+            <Header>
+                <ContinentId>7031</ContinentId>
+                <Id>5</Id>
+                <JournalScript>5</JournalScript>
+                <Pos>30263,-5383,4207</Pos>
+                <다음Task>6</다음Task>
+                <이름>사냥전달Task</이름>
+            </Header>
+        </Task>
+        <Task id="6">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>181,1010</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>1</보상>
+                <저널Text>@quest:18113017</저널Text>
+            </Body>
+            <Header>
+                <ContinentId>7031</ContinentId>
+                <Id>6</Id>
+                <JournalScript>6</JournalScript>
+                <Pos>29908,-4299,4310</Pos>
+                <다음Task />
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

@@ -1,0 +1,23 @@
+<AnimSoundData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/AnimSoundData AnimSoundData.xsd" animSet="Vehicle_Halloween_ANI.Anim.Vehicle_Halloween_B_Anim" xmlns="https://vezel.dev/novadrop/dc/AnimSoundData">
+    <AnimSound animName="Jump01">
+        <Sound time="0.1" type="Normal" fadeOutTime="0" radius="1" shapeId="0" soundcue="Vehicle.ElementalAircraft_Cue.Vehicles_ElementalAircraft_Start" volume="0.6" />
+        <Sound time="0" type="Normal" fadeOutTime="0" radius="1" shapeId="0" soundcue="ModuleSound_02.Rustle_Cue.Rustle_Chainmail_SCUE" volume="1" />
+        <Sound time="0" type="Normal" fadeOutTime="0" radius="1" shapeId="0" soundcue="ModuleSound_02.Rustle_Cue.Rustle_Fire_LCUE" volume="0.3" />
+    </AnimSound>
+    <AnimSound animName="JumpEnd">
+        <Sound time="0" type="Normal" fadeOutTime="0" radius="1" shapeId="0" soundcue="ModuleSound_02.Rustle_Cue.Rustle_Chainmail_SCUE" volume="0.5" />
+        <Sound time="0" type="Normal" fadeOutTime="0" radius="1" shapeId="0" soundcue="ModuleSound_01.FootSteps_Monster_Cue.BigMonStep_WingFlap_Big01" volume="1" />
+    </AnimSound>
+    <AnimSound animName="JumpEndLand">
+        <Sound time="0" type="Normal" fadeOutTime="0" radius="1" shapeId="0" soundcue="ModuleSound_02.Rustle_Cue.Rustle_Chainmail_SCUE" volume="0.5" />
+        <Sound time="0" type="Normal" fadeOutTime="0" radius="1" shapeId="0" soundcue="ModuleSound_01.FootSteps_Monster_Cue.BigMonStep_WingFlap_Big01" volume="1" />
+    </AnimSound>
+    <AnimSound animName="JumpStart">
+        <Sound time="0" type="Normal" fadeOutTime="0" radius="1" shapeId="0" soundcue="ModuleSound.MovingCUE.Moving_Carpet_Jump_01Cue" volume="2" />
+    </AnimSound>
+    <AnimSound animName="run">
+        <Sound time="0" type="FootStep" fadeOutTime="0" radius="1" shapeId="0" volume="1" />
+        <Sound time="0.2" type="FootStep" fadeOutTime="0" radius="1" shapeId="0" volume="1" />
+        <Sound time="0" type="Normal" fadeOutTime="0" radius="1" shapeId="0" soundcue="ModuleSound_02.Rustle_Cue.Rustle_Chainmail_SCUE" volume="0.4" />
+    </AnimSound>
+</AnimSoundData>

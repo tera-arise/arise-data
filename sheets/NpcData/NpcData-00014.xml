@@ -1,0 +1,479 @@
+<NpcData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/NpcData NpcData.xsd" huntingZoneId="16" xmlns="https://vezel.dev/novadrop/dc/NpcData">
+    <Template id="1" name="광기의 마석" scale="1" size="medium" shapeId="600400" basicActionId="6004000" parentId="60040000" balanceType="밸런싱 안함" elite="false" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <Aggro />
+        <Anger gaugeSize="2716.19579027901" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="-2" deathNameplateHeight="0" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="26" atk="147" def="273" maxHp="6518" />
+    </Template>
+    <Template id="2" name="밤피르 신사(바이카)" scale="1" gender="male" race="VampirGentleman" size="medium" shapeId="300491" basicActionId="3004900" resourceSize="100" resourceType="medium" parentId="30049000" balanceType="밸런싱 안함" elite="false" invincible="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="true">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="2930.56511525598" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="5" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="27" atk="151" def="295" maxHp="7033" />
+    </Template>
+    <Template id="203" name="백작부인 관 가이드 표시" scale="2" gender="male" race="marker" size="medium" shapeId="730250" basicActionId="7203700" resourceSize="100" resourceType="medium" parentId="72037100" elite="false" invincible="true" isObjectNpc="true" unionElite="false" villager="true">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <Reaction maxAdditionalGauge="0" />
+        <Stat level="1" atk="0" def="0" maxHp="0" />
+    </Template>
+    <Template id="204" name="백작 관 가이드 표시" scale="2" gender="male" race="marker" size="medium" shapeId="730250" basicActionId="7203700" resourceSize="100" resourceType="medium" parentId="72037100" elite="false" invincible="true" isObjectNpc="true" unionElite="false" villager="true">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <Reaction maxAdditionalGauge="0" />
+        <Stat level="1" atk="0" def="0" maxHp="0" />
+    </Template>
+    <Template id="1001" name="밤피르 하수인" scale="1.62" gender="male" race="VampirHandyman" size="medium" shapeId="300440" basicActionId="3004400" parentId="30044002" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="6361.18095013951" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="1" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="28" atk="77" def="319" maxHp="12722.361900279" />
+    </Template>
+    <Template id="1002" name="밤피르 신사" scale="1.38" gender="male" race="VampirGentleman" size="medium" shapeId="300490" basicActionId="3004900" spawnScriptId="10016011" resourceSize="100" resourceType="medium" parentId="30049001" balanceType="솔로_네임드_기본" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="8778.42971119252" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="6" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="28" atk="261" def="383" maxHp="16539.0704703627" />
+    </Template>
+    <Template id="1003" name="밤피르 숙녀" scale="1.74" gender="female" race="VampirLady" size="medium" shapeId="300320" basicActionId="3003200" spawnScriptId="10016012" resourceSize="100" resourceType="medium" parentId="30032001" balanceType="솔로_네임드_기본" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="8778.42971119252" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="13" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="28" atk="261" def="383" maxHp="16539.0704703627" />
+    </Template>
+    <Template id="1004" name="암흑의 조교마녀" scale="1.62" gender="male" race="DarkWitchMaster" size="medium" shapeId="300641" basicActionId="3006400" resourceSize="100" resourceType="medium" parentId="30064002" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="4319.98835295447" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="10" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="29" atk="53" def="345" maxHp="8639.97670590895" />
+    </Template>
+    <Template id="1005" name="암흑의 조교마녀" scale="1.62" gender="male" race="DarkWitchMaster" size="medium" shapeId="300641" basicActionId="3006400" resourceSize="100" resourceType="medium" parentId="30064001" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="4319.98835295447" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="10" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="29" atk="53" def="345" maxHp="8639.97670590895" />
+    </Template>
+    <Template id="1006" name="밤피르 신사" scale="1.38" gender="male" race="VampirGentleman" size="medium" shapeId="300490" basicActionId="3004900" spawnScriptId="101610061" resourceSize="100" resourceType="medium" parentId="30049001" balanceType="솔로_네임드_기본" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="9462.83163028123" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="5" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="29" atk="265" def="414" maxHp="17828.5233613994" />
+    </Template>
+    <Template id="1007" name="살바도적단강도" scale="1.74" gender="male" race="SalvaGangBurglar" size="medium" shapeId="301201" basicActionId="3012000" resourceSize="100" resourceType="medium" parentId="30120100" balanceType="솔로_네임드_기본" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="7549.24673730529" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="15" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="26" atk="254" def="328" maxHp="14223.2184905752" />
+    </Template>
+    <Template id="1271" class="" name="포포리아 가드 유랑 상인" scale="1" gender="male" race="BlackMarketer" size="medium" shapeId="506040" basicActionId="3020402" spawnScriptId="0" resourceSize="100" resourceType="medium" isWideBroadcaster="false" despawnScriptId="0" balanceType="" collideOnMove="false" dontTurn="false" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="false" showShorttermTarget="false" villager="true" villagerVolumeActiveRange="0" villagerVolumeHalfHeight="0" villagerVolumeInteractionDist="0" villagerVolumeOffset="">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="403799" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="15" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="40" atk="100" def="2000" maxHp="10000" />
+    </Template>
+    <Template id="2201" name="밤피르 하수인" scale="1.62" gender="male" race="VampirHandyman" size="medium" shapeId="300440" basicActionId="3004400" parentId="30044000" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="5470.46865022122" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="1" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="26" atk="73" def="273" maxHp="10940.9373004424" />
+    </Template>
+    <Template id="2202" name="밤피르 약탈자" scale="1.62" gender="male" race="VampirHandyman" size="medium" shapeId="300441" basicActionId="3004400" parentId="30044100" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="5470.46865022122" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="-2" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="26" atk="73" def="273" maxHp="10940.9373004424" />
+    </Template>
+    <Template id="2203" name="난쟁이 광인" scale="0.6" gender="male" race="DwarfMadman" size="small" shapeId="300551" basicActionId="3005500" parentId="30055002" balanceType="솔로_풀-자코" elite="false" isFreeNamed="false" partyMember="8" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="21" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="25" atk="24" def="253" maxHp="820.440371512952" />
+    </Template>
+    <Template id="2204" name="사나운 도베르만" scale="1.38" gender="male" race="FierceDoberman" size="medium" shapeId="300010" basicActionId="3000100" parentId="30001000" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" speciesId="8">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="5470.46865022122" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="23" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="26" atk="73" def="273" maxHp="10940.9373004424" />
+    </Template>
+    <Template id="2205" name="살바도적단좀도둑" scale="1.74" gender="male" race="SalvaGangBurglar" size="medium" shapeId="301200" basicActionId="3012000" resourceSize="100" resourceType="medium" parentId="30120000" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="5071.20296244684" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="14" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="25" atk="71" def="253" maxHp="10142.4059248937" />
+    </Template>
+    <Template id="2206" name="살바도적단강도" scale="1.74" gender="male" race="SalvaGangBurglar" size="medium" shapeId="301201" basicActionId="3012000" resourceSize="100" resourceType="medium" parentId="30120100" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="5071.20296244684" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="16" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="25" atk="71" def="253" maxHp="10142.4059248937" />
+    </Template>
+    <Template id="2207" name="살바도적단좀도둑" scale="1.74" gender="male" race="SalvaGangBurglar" size="medium" shapeId="301200" basicActionId="3012000" resourceSize="100" resourceType="medium" parentId="30120000" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="3194.85786634151" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="11" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="25" atk="48" def="253" maxHp="6389.71573268302" />
+    </Template>
+    <Template id="2208" name="살바도적단좀도둑" scale="1.74" gender="male" race="SalvaGangBurglar" size="medium" shapeId="301201" basicActionId="3012000" resourceSize="100" resourceType="medium" parentId="30120000" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="3194.85786634151" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="11" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="25" atk="48" def="253" maxHp="6389.71573268302" />
+    </Template>
+    <Template id="2209" name="롱 터스크(기본)" scale="1.38" gender="male" race="LongTusk" size="medium" shapeId="300050" basicActionId="3000500" resourceSize="100" resourceType="medium" parentId="30005001" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" speciesId="8">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="5071.20296244684" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="1" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="25" atk="71" def="253" maxHp="10142.4059248937" />
+    </Template>
+    <Template id="2301" name="밤피르 숙녀" scale="1.74" gender="female" race="VampirLady" size="medium" shapeId="300320" basicActionId="3003200" resourceSize="100" resourceType="medium" parentId="30032001" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="5470.46865022122" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="14" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="26" atk="73" def="273" maxHp="10940.9373004424" />
+    </Template>
+    <Template id="2302" name="밤피르 신사" scale="1.38" gender="male" race="VampirGentleman" size="medium" shapeId="300490" basicActionId="3004900" resourceSize="100" resourceType="medium" parentId="30049001" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="5470.46865022122" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="6" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="26" atk="73" def="273" maxHp="10940.9373004424" />
+    </Template>
+    <Template id="2303" name="킬리언의 광대" scale="1.14" gender="male" race="ClownOfKillian" size="medium" shapeId="301070" basicActionId="3010700" resourceSize="100" resourceType="medium" parentId="30107000" balanceType="솔로_풀-목표" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="3929.99490418932" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="60" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="26" atk="73" def="273" maxHp="7859.98980837863" />
+    </Template>
+    <Template id="2304" name="비스크 돌" scale="0.6" gender="male" race="BisqueDoll" size="small" shapeId="301250" basicActionId="3012500" resourceSize="100" resourceType="medium" parentId="30125001" balanceType="솔로_풀-자코" elite="false" isFreeNamed="false" partyMember="5" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="15" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="26" atk="27" def="273" maxHp="1193.73595214751" />
+    </Template>
+    <Template id="2305" name="암흑의 조교마녀" scale="1.62" gender="male" race="DarkWitchMaster" size="medium" shapeId="300641" basicActionId="3006400" resourceSize="100" resourceType="medium" parentId="30064001" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="5470.46865022122" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="8" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="26" atk="73" def="273" maxHp="10940.9373004424" />
+    </Template>
+    <Template id="2401" name="교활한 아라크네아" scale="1.15" gender="male" race="CraftyArachne" size="large" shapeId="300880" basicActionId="3008800" resourceSize="100" resourceType="medium" parentId="30088000" balanceType="솔로_중형" elite="true" isFreeNamed="false" partyMember="1" showAggroTarget="true" showShorttermTarget="true" speciesId="7">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="19395.0686658314" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="155" deathNameplateHeight="139" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="27" atk="317" def="295" maxHp="77580.2746633254" />
+    </Template>
+    <Template id="2402" name="교활한 아라크네아" scale="1.15" gender="male" race="CraftyArachne" size="large" shapeId="300880" basicActionId="3008800" resourceSize="100" resourceType="medium" parentId="30088000" balanceType="솔로_중형" elite="true" isFreeNamed="false" partyMember="1" showAggroTarget="true" showShorttermTarget="true" speciesId="7">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="19395.0686658314" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="163" deathNameplateHeight="139" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="27" atk="317" def="295" maxHp="77580.2746633254" />
+    </Template>
+    <Template id="2403" name="밤피르 하수인" scale="1.62" gender="male" race="VampirHandyman" size="medium" shapeId="300440" basicActionId="3004400" parentId="30044000" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="5899.73707881332" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="1" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="27" atk="75" def="295" maxHp="11799.4741576266" />
+    </Template>
+    <Template id="2404" name="밤피르 약탈자" scale="1.62" gender="male" race="VampirHandyman" size="medium" shapeId="300441" basicActionId="3004400" parentId="30044100" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="5899.73707881332" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="-2" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="27" atk="75" def="295" maxHp="11799.4741576266" />
+    </Template>
+    <Template id="2405" name="사나운 도베르만" scale="1.38" gender="male" race="FierceDoberman" size="medium" shapeId="300010" basicActionId="3000100" parentId="30001000" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false" speciesId="8">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="3716.83435965239" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="23" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="27" atk="51" def="295" maxHp="7433.66871930478" />
+    </Template>
+    <Template id="2406" name="데바 사교도 하급 사제" scale="1.3" gender="male" race="Elementalist_Darker" size="medium" shapeId="301403" basicActionId="3014000" resourceSize="100" resourceType="medium" parentId="30140300" balanceType="솔로_네임드_기본" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="8778.42971119252" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="7" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="28" atk="261" def="383" maxHp="16539.0704703627" />
+    </Template>
+    <Template id="2501" name="교활한 아라크네아" scale="1.15" gender="male" race="CraftyArachne" size="large" shapeId="300880" basicActionId="3008800" resourceSize="100" resourceType="medium" parentId="30088000" balanceType="솔로_중형" elite="true" isFreeNamed="false" partyMember="1" showAggroTarget="true" showShorttermTarget="true" speciesId="7">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="19395.0686658314" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="165" deathNameplateHeight="139" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="27" atk="317" def="295" maxHp="77580.2746633254" />
+    </Template>
+    <Template id="2502" name="Elementalist_Darker" scale="1.3" gender="male" race="Elementalist_Darker" size="medium" shapeId="301403" basicActionId="3014000" resourceSize="100" resourceType="medium" parentId="30140000" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="3" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="3307.81409407254" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="7" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="28" atk="46" def="319" maxHp="6615.62818814509" />
+    </Template>
+    <Template id="5001" name="혼돈의 조교마녀" scale="1.62" gender="male" race="DarkWitchMaster" size="medium" shapeId="300641" basicActionId="3006400" resourceSize="100" resourceType="medium" parentId="30064100" balanceType="밸런싱 안함" elite="true" isFreeNamed="true" partyMember="3" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="12086.0886327834" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="9" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="29" atk="244" def="345" maxHp="29004" />
+    </Template>
+    <Template id="5002" name="밤피르 하수인" scale="1.62" gender="male" race="VampirHandyman" size="medium" shapeId="300440" basicActionId="3004400" parentId="30044000" balanceType="밸런싱 안함" elite="true" isFreeNamed="true" partyMember="3" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="12086.0886327834" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="1" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="29" atk="244" def="345" maxHp="29004" />
+    </Template>
+    <Template id="5003" name="교활한 아라크네아 키드" scale="0.5" gender="male" race="CraftyArachne" size="medium" shapeId="300883" basicActionId="3008800" resourceSize="100" resourceType="medium" parentId="30189000" balanceType="솔로_기본" elite="true" isFreeNamed="true" partyMember="5" showAggroTarget="false" showShorttermTarget="false" speciesId="7">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="3085.70596639605" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="58" deathNameplateHeight="59" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="29" atk="47" def="345" maxHp="6171.41193279211" />
+    </Template>
+    <Template id="7000" name="(환경몬스터)두더지" scale="1" gender="male" race="Mole" size="small" shapeId="301600" basicActionId="3016000" parentId="30160000" balanceType="밸런싱 안함" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="26" atk="18" def="82" maxHp="5.43239158055801" />
+    </Template>
+</NpcData>

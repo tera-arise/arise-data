@@ -1,0 +1,158 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="8707" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>87,7</Quest번호>
+        <Quest제목>@quest:8707001</Quest제목>
+        <반복퀘스트>1회성</반복퀘스트>
+        <발생조건>
+            <NPC대화>87,1010</NPC대화>
+        </발생조건>
+        <수행조건>
+            <길드레벨 />
+            <선행퀘스트>
+                <선행퀘스트>
+                    <퀘스트Id>87,06</퀘스트Id>
+                </선행퀘스트>
+            </선행퀘스트>
+            <영주길드 />
+            <최소레벨>50</최소레벨>
+        </수행조건>
+        <수행지역 />
+        <스토리그룹Id>16</스토리그룹Id>
+        <요약정보>100</요약정보>
+        <적정수행레벨>57</적정수행레벨>
+        <적정수행인원>1</적정수행인원>
+        <집회소분류 />
+        <추가보상 />
+        <퀘스트종류>미션</퀘스트종류>
+        <특수가이드 />
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <몬스터지정>
+                    <몬스터지정>
+                        <몬스터Id>87,2060</몬스터Id>
+                        <사냥마리수>3</사냥마리수>
+                    </몬스터지정>
+                    <몬스터지정>
+                        <몬스터Id>87,2061</몬스터Id>
+                        <사냥마리수>3</사냥마리수>
+                    </몬스터지정>
+                    <몬스터지정>
+                        <몬스터Id>87,2080</몬스터Id>
+                        <사냥마리수>15</사냥마리수>
+                    </몬스터지정>
+                </몬스터지정>
+                <보상>0</보상>
+                <저널Text>@quest:8707003</저널Text>
+                <진행조건 />
+            </Body>
+            <Header>
+                <ContinentId>7087</ContinentId>
+                <Id>1</Id>
+                <JournalScript>2</JournalScript>
+                <Pos>-49830,-75872,2079</Pos>
+                <다음Task>2</다음Task>
+                <이름>사냥Task</이름>
+            </Header>
+        </Task>
+        <Task id="2">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>87,1029</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:8707005</저널Text>
+            </Body>
+            <Header>
+                <ContinentId>7087</ContinentId>
+                <Id>2</Id>
+                <JournalScript>2</JournalScript>
+                <Pos>-46643,-73976,2097</Pos>
+                <다음Task>3</다음Task>
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+        <Task id="3">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>87,1012</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:8707007</저널Text>
+            </Body>
+            <Header>
+                <ContinentId>7087</ContinentId>
+                <Id>3</Id>
+                <JournalScript>3</JournalScript>
+                <Pos>-46759,-72388,2046</Pos>
+                <다음Task>4</다음Task>
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+        <Task id="4">
+            <Body>
+                <몬스터지정>
+                    <몬스터지정>
+                        <몬스터Id>87,2068</몬스터Id>
+                        <사냥마리수>3</사냥마리수>
+                    </몬스터지정>
+                    <몬스터지정>
+                        <몬스터Id>87,2081</몬스터Id>
+                        <사냥마리수>9</사냥마리수>
+                    </몬스터지정>
+                    <몬스터지정>
+                        <몬스터Id>87,2082</몬스터Id>
+                        <사냥마리수>9</사냥마리수>
+                    </몬스터지정>
+                </몬스터지정>
+                <보상>0</보상>
+                <저널Text>@quest:8707008</저널Text>
+                <진행조건 />
+            </Body>
+            <Header>
+                <ContinentId>7087</ContinentId>
+                <Id>4</Id>
+                <JournalScript>4</JournalScript>
+                <Pos>-46759,-72388,2046</Pos>
+                <다음Task>5</다음Task>
+                <이름>사냥Task</이름>
+            </Header>
+        </Task>
+        <Task id="5">
+            <Body>
+                <대상NPC지정>87,1030</대상NPC지정>
+                <보상>1</보상>
+                <아이템작성>
+                    <아이템작성>
+                        <Flag아이템이름>@quest:8707009</Flag아이템이름>
+                        <몬스터지정>
+                            <몬스터지정>
+                                <몬스터Id>87,2064</몬스터Id>
+                            </몬스터지정>
+                        </몬스터지정>
+                        <아이콘지정>45446</아이콘지정>
+                        <전달수량>1</전달수량>
+                    </아이템작성>
+                </아이템작성>
+                <저널Text>@quest:8707010</저널Text>
+                <저널Text2>@quest:8707011</저널Text2>
+                <진행조건>
+                    <제한시간>0,0</제한시간>
+                </진행조건>
+            </Body>
+            <Header>
+                <ContinentId>7087</ContinentId>
+                <Id>5</Id>
+                <JournalScript>4</JournalScript>
+                <Pos>-50718,-69141,1903</Pos>
+                <다음Task />
+                <이름>사냥전달Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

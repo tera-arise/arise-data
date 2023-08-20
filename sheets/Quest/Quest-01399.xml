@@ -1,0 +1,71 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="5735" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>57,35</Quest번호>
+        <Quest제목>@quest:5735001</Quest제목>
+        <반복퀘스트>1회성</반복퀘스트>
+        <발생조건>
+            <NPC대화>257,1017</NPC대화>
+        </발생조건>
+        <수행조건>
+            <길드레벨 />
+            <영주길드 />
+            <최소레벨>50</최소레벨>
+        </수행조건>
+        <스토리그룹Id />
+        <요약정보>100</요약정보>
+        <적정수행레벨>53</적정수행레벨>
+        <적정수행인원>1</적정수행인원>
+        <집회소분류 />
+        <퀘스트종류>범용</퀘스트종류>
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <몬스터지정>
+                    <몬스터지정>
+                        <몬스터Id>57,38</몬스터Id>
+                        <사냥마리수>1</사냥마리수>
+                    </몬스터지정>
+                </몬스터지정>
+                <저널Text>@quest:5735004</저널Text>
+                <진행조건>
+                    <제한시간>0,0</제한시간>
+                </진행조건>
+            </Body>
+            <Header>
+                <Id>1</Id>
+                <JournalScript>2</JournalScript>
+                <다음Task>2</다음Task>
+                <이름>사냥Task</이름>
+            </Header>
+        </Task>
+        <Task id="2">
+            <Body>
+                <대상NPC지정>257,1017</대상NPC지정>
+                <보상>1</보상>
+                <저널Text>@quest:5735006</저널Text>
+                <저널Text2>@quest:5735007</저널Text2>
+                <전달아이템지정>
+                    <전달아이템지정>
+                        <아이템Id>9077</아이템Id>
+                        <전달수량>8</전달수량>
+                    </전달아이템지정>
+                </전달아이템지정>
+                <제한시간설정>
+                    <제한시간>0,0</제한시간>
+                </제한시간설정>
+                <채집물지정>
+                    <채집물지정>
+                        <콜렉션Id>520</콜렉션Id>
+                    </채집물지정>
+                </채집물지정>
+            </Body>
+            <Header>
+                <Id>2</Id>
+                <JournalScript>2</JournalScript>
+                <다음Task />
+                <이름>채집Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

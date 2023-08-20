@@ -1,0 +1,149 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="60515" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>605,15</Quest번호>
+        <Quest제목>@quest:60515001</Quest제목>
+        <반복퀘스트 />
+        <발생조건>
+            <NPC대화>63,3002</NPC대화>
+        </발생조건>
+        <수행조건>
+            <길드레벨 />
+            <선행퀘스트>
+                <선행퀘스트>
+                    <퀘스트Id>605,28</퀘스트Id>
+                </선행퀘스트>
+            </선행퀘스트>
+            <영주길드 />
+            <최소레벨>60</최소레벨>
+        </수행조건>
+        <스토리그룹Id />
+        <요약정보>100</요약정보>
+        <적정수행레벨>60</적정수행레벨>
+        <적정수행인원>1</적정수행인원>
+        <집회소분류 />
+        <퀘스트종류>일일</퀘스트종류>
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <대상NPC지정>63,3003</대상NPC지정>
+                <분기작성>
+                    <분기작성 />
+                    <분기작성 />
+                    <분기작성 />
+                </분기작성>
+                <저널Text>@quest:60515006</저널Text>
+            </Body>
+            <Header>
+                <Id>1</Id>
+                <JournalScript>2</JournalScript>
+                <다음Task />
+                <이름>분기Task</이름>
+            </Header>
+        </Task>
+        <Task id="2">
+            <Body>
+                <대상NPC지정>63,3002</대상NPC지정>
+                <보상>0</보상>
+                <아이템작성>
+                    <아이템작성>
+                        <Flag아이템이름>@quest:60515008</Flag아이템이름>
+                        <몬스터지정>
+                            <몬스터지정>
+                                <몬스터Id>23,9</몬스터Id>
+                            </몬스터지정>
+                        </몬스터지정>
+                        <아이콘지정>36</아이콘지정>
+                        <전달수량>4</전달수량>
+                    </아이템작성>
+                </아이템작성>
+                <저널Text>@quest:60515009</저널Text>
+                <저널Text2>@quest:60515010</저널Text2>
+                <진행조건>
+                    <제한시간>0,0</제한시간>
+                </진행조건>
+            </Body>
+            <Header>
+                <Id>2</Id>
+                <JournalScript>3</JournalScript>
+                <다음Task>5</다음Task>
+                <이름>사냥전달Task</이름>
+            </Header>
+        </Task>
+        <Task id="3">
+            <Body>
+                <대상NPC지정>63,3002</대상NPC지정>
+                <보상>0</보상>
+                <아이템작성>
+                    <아이템작성>
+                        <Flag아이템이름>@quest:60515012</Flag아이템이름>
+                        <몬스터지정>
+                            <몬스터지정>
+                                <몬스터Id>23,13</몬스터Id>
+                            </몬스터지정>
+                        </몬스터지정>
+                        <아이콘지정>36</아이콘지정>
+                        <전달수량>4</전달수량>
+                    </아이템작성>
+                </아이템작성>
+                <저널Text>@quest:60515013</저널Text>
+                <저널Text2>@quest:60515014</저널Text2>
+                <진행조건>
+                    <제한시간>0,0</제한시간>
+                </진행조건>
+            </Body>
+            <Header>
+                <Id>3</Id>
+                <JournalScript>3</JournalScript>
+                <다음Task>5</다음Task>
+                <이름>사냥전달Task</이름>
+            </Header>
+        </Task>
+        <Task id="4">
+            <Body>
+                <대상NPC지정>63,3002</대상NPC지정>
+                <보상>0</보상>
+                <아이템작성>
+                    <아이템작성>
+                        <Flag아이템이름>@quest:60515016</Flag아이템이름>
+                        <몬스터지정>
+                            <몬스터지정>
+                                <몬스터Id>23,14</몬스터Id>
+                            </몬스터지정>
+                        </몬스터지정>
+                        <아이콘지정>36</아이콘지정>
+                        <전달수량>4</전달수량>
+                    </아이템작성>
+                </아이템작성>
+                <저널Text>@quest:60515017</저널Text>
+                <저널Text2>@quest:60515018</저널Text2>
+                <진행조건>
+                    <제한시간>0,0</제한시간>
+                </진행조건>
+            </Body>
+            <Header>
+                <Id>4</Id>
+                <JournalScript>3</JournalScript>
+                <다음Task>5</다음Task>
+                <이름>사냥전달Task</이름>
+            </Header>
+        </Task>
+        <Task id="5">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>63,3003</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>1</보상>
+                <저널Text>@quest:60515021</저널Text>
+            </Body>
+            <Header>
+                <Id>5</Id>
+                <JournalScript>11</JournalScript>
+                <다음Task />
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

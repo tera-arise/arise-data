@@ -1,0 +1,1539 @@
+<S1ActionScripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/S1ActionScripts S1ActionScripts.xsd" type="Skill" xmlns="https://vezel.dev/novadrop/dc/S1ActionScripts">
+    <Script id="50000" playingTime="0">
+        <Action time="7600" type="emitter" on="true" tag="DoorOn_FloorEffect00" />
+    </Script>
+    <Script id="50001" playingTime="0">
+        <Action time="0" type="emitter" on="true" tag="DoorOn_FloorEffect01" />
+        <Action time="2000" type="emitter" on="true" tag="DoorOn_FloorEffect02" />
+        <Action time="0" type="emitter" on="true" tag="DoorOff_FloorEffect01" />
+        <Action time="2000" type="emitter" on="true" tag="DoorOff_FloorEffect02" />
+        <Action time="1250" type="emitter" on="true" tag="R_Door_Effect01" />
+        <Action time="1250" type="emitter" on="true" tag="L_Door_Effect01" />
+        <Action time="1500" type="emitter" on="true" tag="R_Door_Effect00" />
+        <Action time="1500" type="emitter" on="true" tag="L_Door_Effect00" />
+        <Action time="0" type="PostProcess" on="true" postprocessSet="1">
+            <Action time="0" type="PostProcessMaterial" duration="900" from="0" to="1.2" param="Strength" postprocessSet="1">
+                <Action time="2000" type="PostProcessMaterial" duration="2500" from="1.2" to="0.3" param="Strength" postprocessSet="1">
+                    <Action time="0" type="PostProcessMaterial" duration="1500" from="0.3" to="0" param="Strength" postprocessSet="1" />
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="1" />
+    </Script>
+    <Script id="50002" playingTime="0">
+        <Action time="760" type="Sound" radius="1" volume="4.5" cueName="Quest_Skill.QuestCUE.Quest_65180Cue" pitch="2.2" />
+        <Action time="0" type="Sound" radius="3" volume="10" cueName="Ambient_Emiter.Ak_God_CUE.Ak_God_CUE" pitch="2.2" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset2" blendTime="2.85" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset1" blendTime="2.85" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset3" blendTime="2.85" />
+        <Action time="0" type="aero" on="true" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset2" blendTime="2.85" />
+        <Action time="2850" type="emitter" on="true" tag="Acsin_InHp" />
+    </Script>
+    <Script id="50003" playingTime="0">
+        <Action time="760" type="Sound" radius="1" volume="4.5" cueName="Quest_Skill.QuestCUE.Quest_65180Cue" pitch="2.2" />
+        <Action time="0" type="Sound" radius="1" volume="4.5" cueName="Ambient_Emiter.Ak_God_CUE.Ak_God_CUE" pitch="2.2" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset2" blendTime="2.85" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset1" blendTime="2.85" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset3" blendTime="2.85" />
+        <Action time="0" type="aero" on="true" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset1" blendTime="2.85" />
+        <Action time="2850" type="emitter" on="true" tag="Acsin_OutHp" />
+    </Script>
+    <Script id="50004" playingTime="0">
+        <Action time="760" type="Sound" radius="1" volume="4.5" cueName="Quest_Skill.QuestCUE.Quest_65180Cue" pitch="2.2" />
+        <Action time="0" type="Sound" radius="1" volume="4.5" cueName="Ambient_Emiter.Ak_God_CUE.Ak_God_CUE" pitch="2.2" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset2" blendTime="2.85" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset1" blendTime="2.85" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset3" blendTime="2.85" />
+        <Action time="0" type="aero" on="true" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset3" blendTime="2.85" />
+        <Action time="2850" type="emitter" on="true" tag="Acsin_Mp" />
+    </Script>
+    <Script id="50005" playingTime="0">
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset2" blendTime="2.85" />
+        <Action time="2850" type="emitter" on="false" tag="Acsin_InHp" />
+    </Script>
+    <Script id="50006" playingTime="0">
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset1" blendTime="2.85" />
+        <Action time="2850" type="emitter" on="false" tag="Acsin_OutHp" />
+    </Script>
+    <Script id="50007" playingTime="0">
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset3" blendTime="2.85" />
+        <Action time="2850" type="emitter" on="false" tag="Acsin_Mp" />
+    </Script>
+    <Script id="50008" playingTime="0">
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset2" blendTime="2.85" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset1" blendTime="2.85" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset3" blendTime="2.85" />
+        <Action time="2850" type="emitter" on="false" tag="Acsin_InHp" />
+        <Action time="2850" type="emitter" on="false" tag="Acsin_OutHp" />
+        <Action time="2850" type="emitter" on="false" tag="Acsin_Mp" />
+    </Script>
+    <Script id="50009" playingTime="0">
+        <Action type="actionScript" templateId="1000" huntingZoneId="475" scriptId="50008" />
+        <Action type="actionScript" templateId="1000" huntingZoneId="775" scriptId="50008" />
+    </Script>
+    <Script id="50010" playingTime="0">
+        <Action time="0" type="Sound" cueName="Ambient_Emiter.Balder_CUE.Balder_START_CUE" />
+        <Action time="0" type="emitter" on="true" tag="ElectricOn_Effect01" />
+        <Action time="0" type="emitter" on="true" tag="ElectricOn_Effect02" />
+        <Action time="0" type="Sound" cueName="Ambient_Emiter.Balder_CUE.Balder_LOOP_CUE" />
+    </Script>
+    <Script id="50011" playingTime="0">
+        <Action time="0" type="removeSound" cueName="Ambient_Emiter.Balder_CUE.Balder_LOOP_CUE" />
+        <Action time="0" type="Sound" cueName="Ambient_Emiter.Balder_CUE.Balder_END_CUE" />
+        <Action time="0" type="emitter" on="false" tag="ElectricOn_Effect01" />
+        <Action time="0" type="emitter" on="false" tag="ElectricOn_Effect02" />
+    </Script>
+    <Script id="50020" playingTime="0">
+        <Action time="0" type="Sound" cueName="Ambient_Emiter.Balder_CUE.Balder_START_CUE" />
+        <Action time="0" type="emitter" on="true" tag="ElectricOn_Effect03" />
+        <Action time="0" type="emitter" on="true" tag="ElectricOn_Effect04" />
+        <Action time="0" type="emitter" on="true" tag="ElectricOn_Effect05" />
+        <Action time="0" type="Sound" cueName="Ambient_Emiter.Balder_CUE.Balder_LOOP_CUE" />
+    </Script>
+    <Script id="50021" playingTime="0">
+        <Action time="0" type="removeSound" cueName="Ambient_Emiter.Balder_CUE.Balder_LOOP_CUE" />
+        <Action time="0" type="Sound" cueName="Ambient_Emiter.Balder_CUE.Balder_END_CUE" />
+        <Action time="0" type="emitter" on="false" tag="ElectricOn_Effect03" />
+        <Action time="0" type="emitter" on="false" tag="ElectricOn_Effect04" />
+        <Action time="0" type="emitter" on="false" tag="ElectricOn_Effect05" />
+    </Script>
+    <Script id="60000" playingTime="0">
+        <Action time="0" type="PostProcess" on="false" postprocessSet="2" />
+        <Action time="0" type="PostProcess" on="false" postprocessSet="3">
+            <Action time="0" type="PostProcess" on="true" postprocessSet="2">
+                <Action time="0" type="PostProcessMaterial" duration="20000" from="0" to="1" param="Strength" postprocessSet="2">
+                    <Action time="40000" type="PostProcessMaterial" duration="5000" from="1" to="0" param="Strength" postprocessSet="2">
+                        <Action time="0" type="PostProcess" on="false" postprocessSet="2" />
+                    </Action>
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="2" />
+    </Script>
+    <Script id="60001" playingTime="0">
+        <Action time="0" type="PostProcess" on="false" postprocessSet="2" />
+        <Action time="0" type="PostProcess" on="false" postprocessSet="3">
+            <Action time="2577" type="PostProcess" on="true" postprocessSet="3">
+                <Action time="0" type="PostProcessMaterial" duration="500" from="0" to="0.9" param="Strength" postprocessSet="3">
+                    <Action time="1000" type="PostProcessMaterial" duration="1500" from="0.9" to="0" param="Strength" postprocessSet="3">
+                        <Action time="0" type="PostProcess" on="false" postprocessSet="3" />
+                    </Action>
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="3" />
+    </Script>
+    <Script id="60002" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="2">
+            <Action time="0" type="PostProcessMaterial" duration="30000" from="0" to="0.5" param="Strength" postprocessSet="2" />
+        </Action>
+    </Script>
+    <Script id="60003" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="2">
+            <Action time="0" type="PostProcessMaterial" duration="30000" from="0.5" to="0.8" param="Strength" postprocessSet="2" />
+        </Action>
+    </Script>
+    <Script id="60004" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="2">
+            <Action time="0" type="PostProcessMaterial" duration="30000" from="0.8" to="0.9" param="Strength" postprocessSet="2" />
+        </Action>
+    </Script>
+    <Script id="60005" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="2">
+            <Action time="0" type="PostProcessMaterial" duration="30000" from="0.9" to="0.95" param="Strength" postprocessSet="2" />
+        </Action>
+    </Script>
+    <Script id="60006" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="2">
+            <Action time="0" type="PostProcessMaterial" duration="30000" from="0.95" to="0.995" param="Strength" postprocessSet="2" />
+        </Action>
+    </Script>
+    <Script id="60007" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="2">
+            <Action time="0" type="PostProcessMaterial" duration="30000" from="0.995" to="1" param="Strength" postprocessSet="2" />
+        </Action>
+    </Script>
+    <Script id="60008" playingTime="0">
+        <Action time="0" type="PostProcess" on="false" postprocessSet="3">
+            <Action time="0" type="PostProcessMaterial" duration="5000" from="1" to="0" param="Strength" postprocessSet="2">
+                <Action time="0" type="PostProcess" on="false" postprocessSet="2" />
+            </Action>
+        </Action>
+    </Script>
+    <Script id="60009" playingTime="0">
+        <Action time="0" type="PostProcess" on="false" postprocessSet="2" />
+        <Action time="0" type="PostProcess" on="false" postprocessSet="3">
+            <Action time="0" type="PostProcess" on="true" postprocessSet="3">
+                <Action time="0" type="PostProcessMaterial" duration="1000" from="0" to="1" param="Strength" postprocessSet="3">
+                    <Action time="5000" type="PostProcessMaterial" duration="5000" from="1" to="0" param="Strength" postprocessSet="3">
+                        <Action time="0" type="PostProcess" on="false" postprocessSet="3" />
+                    </Action>
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="3" />
+    </Script>
+    <Script id="60010" playingTime="0">
+        <Action time="0" type="PostProcess" on="false" postprocessSet="2" />
+        <Action time="0" type="PostProcess" on="false" postprocessSet="3">
+            <Action time="0" type="PostProcess" on="true" postprocessSet="2">
+                <Action time="0" type="PostProcessMaterial" duration="20000" from="0" to="1" param="Strength" postprocessSet="2">
+                    <Action time="10000" type="PostProcessMaterial" duration="3000" from="1" to="0" param="Strength" postprocessSet="2">
+                        <Action time="0" type="PostProcess" on="false" postprocessSet="2" />
+                    </Action>
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="2" />
+    </Script>
+    <Script id="60011" playingTime="0">
+        <Action time="0" type="PostProcess" on="false" postprocessSet="2" />
+        <Action time="0" type="PostProcess" on="false" postprocessSet="3">
+            <Action time="2577" type="PostProcess" on="true" postprocessSet="3">
+                <Action time="0" type="PostProcessMaterial" duration="500" from="0" to="1" param="Strength" postprocessSet="3">
+                    <Action time="500" type="PostProcessMaterial" duration="1000" from="1" to="0" param="Strength" postprocessSet="3">
+                        <Action time="0" type="PostProcess" on="false" postprocessSet="3" />
+                    </Action>
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="3" />
+    </Script>
+    <Script id="60012" playingTime="0">
+        <Action time="0" type="PostProcess" on="false" postprocessSet="2" />
+        <Action time="0" type="PostProcess" on="false" postprocessSet="3">
+            <Action time="0" type="PostProcess" on="true" postprocessSet="3">
+                <Action time="0" type="PostProcessMaterial" duration="500" from="0" to="1" param="Strength" postprocessSet="3">
+                    <Action time="1000" type="PostProcessMaterial" duration="1500" from="1" to="0" param="Strength" postprocessSet="3">
+                        <Action time="0" type="PostProcess" on="false" postprocessSet="3" />
+                    </Action>
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="3" />
+    </Script>
+    <Script id="60013" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="2">
+            <Action time="0" type="PostProcessMaterial" duration="500" from="0" to="0.5" param="Strength" postprocessSet="2" />
+        </Action>
+    </Script>
+    <Script id="60014" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="1">
+            <Action time="0" type="PostProcessMaterial" duration="500" from="0" to="1" param="Strength" postprocessSet="1">
+                <Action time="0" type="PostProcessMaterial" duration="500" from="1" to="0" param="Strength" postprocessSet="1">
+                    <Action time="0" type="PostProcess" on="false" postprocessSet="1" />
+                </Action>
+            </Action>
+        </Action>
+    </Script>
+    <Script id="60015" playingTime="0">
+        <Action time="0" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@dungeon:9012001" />
+        <Action time="800" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@dungeon:9012002" />
+        <Action time="0" type="PostProcess" on="true" postprocessSet="1">
+            <Action time="0" type="PostProcessMaterial" duration="500" from="0" to="1" param="Strength" postprocessSet="1">
+                <Action time="500" type="PostProcessMaterial" duration="500" from="1" to="0" param="Strength" postprocessSet="1">
+                    <Action time="0" type="PostProcess" on="false" postprocessSet="1" />
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="1" />
+    </Script>
+    <Script id="60016" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="4" />
+        <Action time="2900" type="PostProcess" on="false" postprocessSet="4" />
+    </Script>
+    <Script id="60017" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="5">
+            <Action time="2500" type="PostProcessMaterial" duration="500" from="0.5" to="1" param="Strength" postprocessSet="5">
+                <Action time="5000" type="PostProcessMaterial" duration="500" from="1" to="0" param="Strength" postprocessSet="5" />
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="5" />
+    </Script>
+    <Script id="60018" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="5">
+            <Action time="0" type="PostProcessMaterial" duration="500" from="0.5" to="1" param="Strength" postprocessSet="5">
+                <Action time="9500" type="PostProcessMaterial" duration="500" from="1" to="0" param="Strength" postprocessSet="5" />
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="5" />
+    </Script>
+    <Script id="60019" playingTime="0">
+        <Action time="0" type="Sound" cueName="InterfaceSound.SYSMSGCUE.SYSMSG_2077Cue" />
+    </Script>
+    <Script id="60020" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="1">
+            <Action time="0" type="PostProcessMaterial" duration="500" from="0.1" to="0.5" param="Strength" postprocessSet="1">
+                <Action time="3500" type="PostProcessMaterial" duration="500" from="1" to="0" param="Strength" postprocessSet="1" />
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="1" />
+    </Script>
+    <Script id="60021" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="3">
+            <Action time="0" type="PostProcessMaterial" duration="1000" from="0" to="1" param="Strength" postprocessSet="3">
+                <Action time="2000" type="PostProcessMaterial" duration="2000" from="1" to="0" param="Strength" postprocessSet="3">
+                    <Action time="0" type="PostProcess" on="false" postprocessSet="3" />
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="3" />
+    </Script>
+    <Script id="60022" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="3">
+            <Action time="0" type="PostProcessMaterial" duration="300" from="0" to="0.5" param="Strength" postprocessSet="3">
+                <Action time="0" type="PostProcessMaterial" duration="200" from="0.5" to="0" param="Strength" postprocessSet="3">
+                    <Action time="0" type="PostProcess" on="false" postprocessSet="3" />
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="3" />
+    </Script>
+    <Script id="60023" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="10">
+            <Action time="0" type="PostProcessMaterial" duration="1000" from="0" to="0.7" param="Strength" postprocessSet="10" />
+            <Action time="2000" type="PostProcessMaterial" duration="7000" from="7" to="0" param="Strength" postprocessSet="10" />
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="10" />
+    </Script>
+    <Script id="60024" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="7">
+            <Action time="0" type="PostProcessMaterial" duration="50000" from="0" to="0.5" param="Strength" postprocessSet="7" />
+            <Action time="50000" type="PostProcessMaterial" duration="2000" from="0.5" to="0.4" param="Strength" postprocessSet="7" />
+            <Action time="52000" type="PostProcessMaterial" duration="3000" from="0.4" to="0.3" param="Strength" postprocessSet="7" />
+            <Action time="55000" type="PostProcessMaterial" duration="5000" from="0.3" to="0" param="Strength" postprocessSet="7" />
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="7" />
+    </Script>
+    <Script id="60025" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="7">
+            <Action time="0" type="PostProcessMaterial" duration="50000" from="0.5" to="0.8" param="Strength" postprocessSet="7" />
+            <Action time="50000" type="PostProcessMaterial" duration="2000" from="0.8" to="0.5" param="Strength" postprocessSet="7" />
+            <Action time="52000" type="PostProcessMaterial" duration="3000" from="0.5" to="0.3" param="Strength" postprocessSet="7" />
+            <Action time="55000" type="PostProcessMaterial" duration="5000" from="0.3" to="0" param="Strength" postprocessSet="7" />
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="7" />
+    </Script>
+    <Script id="60026" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="7">
+            <Action time="0" type="PostProcessMaterial" duration="50000" from="0.8" to="1" param="Strength" postprocessSet="7" />
+            <Action time="50000" type="PostProcessMaterial" duration="2000" from="1" to="0.8" param="Strength" postprocessSet="7" />
+            <Action time="52000" type="PostProcessMaterial" duration="3000" from="0.8" to="0.5" param="Strength" postprocessSet="7" />
+            <Action time="55000" type="PostProcessMaterial" duration="5000" from="0.5" to="0" param="Strength" postprocessSet="7" />
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="7" />
+    </Script>
+    <Script id="60027" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="7">
+            <Action time="0" type="PostProcessMaterial" duration="50000" from="1" to="2" param="Strength" postprocessSet="7" />
+            <Action time="50000" type="PostProcessMaterial" duration="2000" from="2" to="1" param="Strength" postprocessSet="7" />
+            <Action time="52000" type="PostProcessMaterial" duration="3000" from="1" to="0.5" param="Strength" postprocessSet="7" />
+            <Action time="55000" type="PostProcessMaterial" duration="5000" from="0.5" to="0" param="Strength" postprocessSet="7" />
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="7" />
+    </Script>
+    <Script id="60028" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="7">
+            <Action time="0" type="PostProcessMaterial" duration="50000" from="2" to="3" param="Strength" postprocessSet="7" />
+            <Action time="50000" type="PostProcessMaterial" duration="2000" from="3" to="2" param="Strength" postprocessSet="7" />
+            <Action time="52000" type="PostProcessMaterial" duration="3000" from="2" to="1" param="Strength" postprocessSet="7" />
+            <Action time="55000" type="PostProcessMaterial" duration="5000" from="1" to="0" param="Strength" postprocessSet="7" />
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="7" />
+    </Script>
+    <Script id="60029" isOnlyPlayerTarget="true" playingTime="0">
+        <Action time="0" type="PostProcess" on="false" postprocessSet="11">
+            <Action time="0" type="PostProcessMaterial" duration="1000" from="1" to="0" param="Strength" postprocessSet="11">
+                <Action time="0" type="PostProcess" on="false" postprocessSet="11" />
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="11" />
+    </Script>
+    <Script id="60030" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="11">
+            <Action time="0" type="PostProcessMaterial" duration="5000" from="0" to="1" param="Strength" postprocessSet="11" />
+            <Action time="63000" type="PostProcessMaterial" duration="1000" from="1" to="0" param="Strength" postprocessSet="11" />
+            <Action time="64000" type="PostProcess" on="false" postprocessSet="11" />
+            <Action type="PostProcess" on="false" isFinal="true" postprocessSet="11" />
+        </Action>
+    </Script>
+    <Script id="60031" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="7">
+            <Action time="0" type="PostProcessMaterial" duration="1000" from="3" to="0" param="Strength" postprocessSet="7" />
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="7" />
+    </Script>
+    <Script id="60032" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="7">
+            <Action time="0" type="PostProcessMaterial" duration="2000" from="0" to="1" param="Strength" postprocessSet="7" />
+            <Action time="6000" type="PostProcessMaterial" duration="2000" from="1" to="0.5" param="Strength" postprocessSet="7" />
+            <Action time="8000" type="PostProcessMaterial" duration="2000" from="0.5" to="0" param="Strength" postprocessSet="7" />
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="7" />
+    </Script>
+    <Script id="60033" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="7">
+            <Action time="0" type="PostProcessMaterial" duration="500" from="0" to="1" param="Strength" postprocessSet="7" />
+            <Action time="2000" type="PostProcessMaterial" duration="2000" from="1" to="0.5" param="Strength" postprocessSet="7" />
+            <Action time="4000" type="PostProcessMaterial" duration="1000" from="0.5" to="0" param="Strength" postprocessSet="7" />
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="7" />
+    </Script>
+    <Script id="60034" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="5">
+            <Action time="2500" type="PostProcessMaterial" duration="500" from="0.5" to="1" param="Strength" postprocessSet="5">
+                <Action time="5000" type="PostProcessMaterial" duration="500" from="1" to="0" param="Strength" postprocessSet="5" />
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="5" />
+    </Script>
+    <Script id="97501" playingTime="0">
+        <Action time="760" type="Sound" radius="1" volume="4.5" cueName="Quest_Skill.QuestCUE.Quest_65180Cue" pitch="2.2" />
+        <Action time="0" type="Sound" radius="1" volume="4.5" cueName="Ambient_Emiter.Ak_God_CUE.Ak_God_CUE" pitch="2.2" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20B_Aeroset" blendTime="2.85" />
+        <Action time="0" type="aero" on="true" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20B_Aeroset2" blendTime="2.85" />
+    </Script>
+    <Script id="97502" playingTime="0">
+        <Action time="760" type="Sound" radius="1" volume="4.5" cueName="Quest_Skill.QuestCUE.Quest_65180Cue" pitch="2.2" />
+        <Action time="0" type="Sound" radius="1" volume="4.5" cueName="Ambient_Emiter.Ak_God_CUE.Ak_God_CUE" pitch="2.2" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20B_Aeroset" blendTime="2.85" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20B_Aeroset2" blendTime="2.85" />
+        <Action time="0" type="aero" on="true" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20B_Aeroset3" blendTime="2.85" />
+    </Script>
+    <Script id="97503" playingTime="0">
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20B_Aeroset2" blendTime="2.85" />
+    </Script>
+    <Script id="97504" playingTime="0">
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20B_Aeroset3" blendTime="2.85" />
+    </Script>
+    <Script id="97505" playingTime="0">
+        <Action time="760" type="Sound" radius="1" volume="4.5" cueName="Quest_Skill.QuestCUE.Quest_65180Cue" pitch="2.2" />
+        <Action time="0" type="Sound" radius="1" volume="4.5" cueName="Ambient_Emiter.Ak_God_CUE.Ak_God_CUE" pitch="2.2" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20B_Aeroset3" blendTime="2.85" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20B_Aeroset2" blendTime="2.85" />
+        <Action time="0" type="aero" on="true" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20B_Aeroset" blendTime="2.85" />
+    </Script>
+    <Script id="97511" playingTime="0">
+        <Action time="760" type="Sound" radius="1" volume="4.5" cueName="Quest_Skill.QuestCUE.Quest_65180Cue" pitch="2.2" />
+        <Action time="0" type="Sound" radius="1" volume="4.5" cueName="Ambient_Emiter.Ak_God_CUE.Ak_God_CUE" pitch="2.2" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset" blendTime="2.85" />
+        <Action time="0" type="aero" on="true" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset2" blendTime="2.85" />
+    </Script>
+    <Script id="97512" playingTime="0">
+        <Action time="760" type="Sound" radius="1" volume="4.5" cueName="Quest_Skill.QuestCUE.Quest_65180Cue" pitch="2.2" />
+        <Action time="0" type="Sound" radius="1" volume="4.5" cueName="Ambient_Emiter.Ak_God_CUE.Ak_God_CUE" pitch="2.2" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset" blendTime="2.85" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset2" blendTime="2.85" />
+        <Action time="0" type="aero" on="true" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset3" blendTime="2.85" />
+    </Script>
+    <Script id="97513" playingTime="0">
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset2" blendTime="2.85" />
+    </Script>
+    <Script id="97514" playingTime="0">
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset3" blendTime="2.85" />
+    </Script>
+    <Script id="97515" playingTime="0">
+        <Action time="760" type="Sound" radius="1" volume="4.5" cueName="Quest_Skill.QuestCUE.Quest_65180Cue" pitch="2.2" />
+        <Action time="0" type="Sound" radius="1" volume="4.5" cueName="Ambient_Emiter.Ak_God_CUE.Ak_God_CUE" pitch="2.2" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset3" blendTime="2.85" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset2" blendTime="2.85" />
+        <Action time="0" type="aero" on="true" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset" blendTime="2.85" />
+    </Script>
+    <Script id="250201" enableInput="true" playingTime="1000000">
+        <Action time="0" type="animation" animName="Close" />
+        <Action time="0" type="defaultAnim" waitAnim="unarmedwait" moveAnim="unarmedwait" />
+    </Script>
+    <Script id="250210">
+        <Action time="0" type="materialParam" duration="1" from="0" to="0" param="ProgressSwitch" />
+        <Action time="1300" type="materialParam" duration="4000" from="0" to="1" param="Progress" />
+        <Action time="5300" type="materialParam" duration="800" from="0" to="1" param="Dissolve_Ctrl" />
+    </Script>
+    <Script id="250211">
+        <Action time="0" type="materialParam" duration="380" from="1" to="0" param="ProgressSwitch" />
+        <Action time="0" type="materialParam" duration="500" from="1" to="0" param="Progress" />
+        <Action time="800" type="materialParam" duration="0" from="1" to="0" param="Dissolve_Ctrl" />
+    </Script>
+    <Script id="250212">
+        <Action time="0" type="materialParam" duration="1" from="0" to="0" param="ProgressSwitch" />
+        <Action time="1300" type="materialParam" duration="2200" from="9" to="1" param="Progress" />
+    </Script>
+    <Script id="250213">
+        <Action time="0" type="materialParam" duration="1" from="0" to="0" param="ProgressSwitch" />
+        <Action time="0" type="materialParam" duration="100" from="0" to="1" param="Progress" />
+    </Script>
+    <Script id="250221">
+        <Action time="0" type="materialParam" duration="1000" from="0" to="1" param="BlendWeight" />
+    </Script>
+    <Script id="250222">
+        <Action time="0" type="materialParam" duration="1000" from="1" to="0" param="BlendWeight" />
+    </Script>
+    <Script id="250223" isOnlyPlayerTarget="true" playingTime="1500">
+        <Action time="1000" type="PostProcess" on="true" postprocessSet="40">
+            <Action time="0" type="PostProcessMaterial" duration="500" from="0" to="1" param="Strength" postprocessSet="40" />
+            <Action time="500" type="cameraShake" duration="300" power="5" speed="10" />
+        </Action>
+        <Action type="none" isFinal="true">
+            <Action time="0" type="PostProcess" on="false" isOnlyPlayerTarget="true" postprocessSet="40" />
+        </Action>
+    </Script>
+    <Script id="302601">
+        <Action time="10300" type="mesh" templateId="1004" huntingZoneId="3026" playAttachedEffect="true" />
+        <Action time="10500" type="materialParam" duration="10700" from="0" to="1" param="BlendWeight" />
+        <Action time="0" type="PostProcess" on="true" postprocessSet="1">
+            <Action time="0" type="PostProcessMaterial" duration="500" from="0" to="1.2" param="Strength" postprocessSet="1">
+                <Action time="3000" type="PostProcessMaterial" duration="500" from="1.2" to="0.3" param="Strength" postprocessSet="1">
+                    <Action time="0" type="PostProcessMaterial" duration="500" from="0.3" to="0" param="Strength" postprocessSet="1" />
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="1" />
+    </Script>
+    <Script id="302602" playingTime="0">
+        <Action time="0" type="aero" on="true" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset2" blendTime="2.85" />
+    </Script>
+    <Script id="302603" playingTime="0">
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset2" blendTime="2.85" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset3" blendTime="2.85" />
+    </Script>
+    <Script id="302604" playingTime="0">
+        <Action time="0" type="aero" on="true" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset3" blendTime="2.85" />
+    </Script>
+    <Script id="302605" playingTime="0">
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset2" blendTime="2.85" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset1" blendTime="2.85" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset3" blendTime="2.85" />
+    </Script>
+    <Script id="303301" enableInput="true" playingTime="1000000">
+        <Action time="0" type="animation" animName="Close" />
+        <Action time="0" type="defaultAnim" waitAnim="unarmedwait" moveAnim="unarmedwait" />
+    </Script>
+    <Script id="303310">
+        <Action time="0" type="materialParam" duration="1" from="0" to="0" param="ProgressSwitch" />
+        <Action time="1300" type="materialParam" duration="4000" from="0" to="1" param="Progress" />
+        <Action time="5300" type="materialParam" duration="800" from="0" to="1" param="Dissolve_Ctrl" />
+    </Script>
+    <Script id="303311">
+        <Action time="0" type="materialParam" duration="380" from="1" to="0" param="ProgressSwitch" />
+        <Action time="0" type="materialParam" duration="500" from="1" to="0" param="Progress" />
+        <Action time="800" type="materialParam" duration="0" from="1" to="0" param="Dissolve_Ctrl" />
+    </Script>
+    <Script id="303312">
+        <Action time="0" type="materialParam" duration="1" from="0" to="0" param="ProgressSwitch" />
+        <Action time="1300" type="materialParam" duration="2200" from="9" to="1" param="Progress" />
+    </Script>
+    <Script id="303313">
+        <Action time="0" type="materialParam" duration="1" from="0" to="0" param="ProgressSwitch" />
+        <Action time="0" type="materialParam" duration="100" from="0" to="1" param="Progress" />
+    </Script>
+    <Script id="303321">
+        <Action time="0" type="materialParam" duration="1000" from="0" to="1" param="BlendWeight" />
+    </Script>
+    <Script id="303322">
+        <Action time="0" type="materialParam" duration="1000" from="1" to="0" param="BlendWeight" />
+    </Script>
+    <Script id="320101" enableInput="true" playingTime="1000000">
+        <Action time="0" type="animation" animName="Close" />
+        <Action time="0" type="defaultAnim" waitAnim="unarmedwait" moveAnim="unarmedwait" />
+    </Script>
+    <Script id="320110">
+        <Action time="0" type="materialParam" duration="1" from="0" to="0" param="ProgressSwitch" />
+        <Action time="1300" type="materialParam" duration="4000" from="0" to="1" param="Progress" />
+        <Action time="5300" type="materialParam" duration="800" from="0" to="1" param="Dissolve_Ctrl" />
+    </Script>
+    <Script id="320111">
+        <Action time="0" type="materialParam" duration="380" from="1" to="0" param="ProgressSwitch" />
+        <Action time="0" type="materialParam" duration="500" from="1" to="0" param="Progress" />
+        <Action time="800" type="materialParam" duration="0" from="1" to="0" param="Dissolve_Ctrl" />
+    </Script>
+    <Script id="320112">
+        <Action time="0" type="materialParam" duration="1" from="0" to="0" param="ProgressSwitch" />
+        <Action time="1300" type="materialParam" duration="2200" from="9" to="1" param="Progress" />
+    </Script>
+    <Script id="320113">
+        <Action time="0" type="materialParam" duration="1" from="0" to="0" param="ProgressSwitch" />
+        <Action time="0" type="materialParam" duration="100" from="0" to="1" param="Progress" />
+    </Script>
+    <Script id="320121">
+        <Action time="0" type="materialParam" duration="1000" from="0" to="1" param="BlendWeight" />
+    </Script>
+    <Script id="320122">
+        <Action time="0" type="materialParam" duration="1000" from="1" to="0" param="BlendWeight" />
+    </Script>
+    <Script id="320123" isOnlyPlayerTarget="true" playingTime="1500">
+        <Action time="1000" type="PostProcess" on="true" postprocessSet="40">
+            <Action time="0" type="PostProcessMaterial" duration="500" from="0" to="1" param="Strength" postprocessSet="40" />
+            <Action time="500" type="cameraShake" duration="300" power="5" speed="10" />
+        </Action>
+        <Action type="none" isFinal="true">
+            <Action time="0" type="PostProcess" on="false" isOnlyPlayerTarget="true" postprocessSet="40" />
+        </Action>
+    </Script>
+    <Script id="426001" playingTime="2100000000">
+        <Action time="0" type="actionScript" templateId="2006" huntingZoneId="427" scriptId="426002" />
+        <Action time="0" type="actionScript" templateId="2002" huntingZoneId="427" scriptId="426003" />
+        <Action time="8500" type="actionScript" templateId="2005" huntingZoneId="427" scriptId="426002" />
+        <Action time="0" type="animation" animName="Death">
+            <Action time="0" type="visible" visibility="false" />
+            <Action time="0" type="actionScript" templateId="2003" huntingZoneId="427" scriptId="426991" />
+            <Action time="0" type="actionScript" templateId="2005" huntingZoneId="427" scriptId="426992" />
+            <Action time="6500" type="actionScript" templateId="2002" huntingZoneId="427" scriptId="426994" />
+            <Action time="7533" type="actionScript" templateId="2005" huntingZoneId="427" scriptId="426003" />
+            <Action time="7533" type="actionScript" templateId="2007" huntingZoneId="427" scriptId="426995" />
+            <Action time="7600" type="actionScript" templateId="2007" huntingZoneId="427" scriptId="426993" />
+            <Action time="6000" type="actionScript" templateId="2006" huntingZoneId="427" scriptId="426991" />
+            <Action time="7700" type="actionScript" templateId="2003" huntingZoneId="427" scriptId="426003" />
+            <Action time="9033" type="actionScript" templateId="2006" huntingZoneId="427" scriptId="426003" />
+        </Action>
+    </Script>
+    <Script id="426002" playingTime="2100000000">
+        <Action time="0" type="visible" visibility="true" />
+    </Script>
+    <Script id="426003" playingTime="2100000000">
+        <Action time="0" type="visible" visibility="false" />
+    </Script>
+    <Script id="426700" playingTime="10000">
+        <Action type="translationZ" duration="1000" power="4" from="0" to="-200" />
+        <Action time="2000" type="visible" visibility="false" />
+    </Script>
+    <Script id="426701" playingTime="0">
+        <Action type="cameraShake" duration="10000" power="0.5" speed="10" />
+    </Script>
+    <Script id="426703" playingTime="0">
+        <Action time="0" type="Mesh" templateId="42759" huntingZoneId="427" />
+    </Script>
+    <Script id="426704" enableInput="true" playingTime="6000">
+        <Action time="0" type="animation" animName="unarmedwait" />
+        <Action time="2700" type="animation" animName="Command" />
+        <Action time="4000" type="actionScript" templateId="42758" huntingZoneId="427" scriptId="426792" />
+    </Script>
+    <Script id="426705" enableInput="true" playingTime="6000">
+        <Action time="0" type="animation" animName="unarmedwait" />
+        <Action time="2033" type="animation" animName="Idle" />
+        <Action time="4000" type="actionScript" templateId="42743" huntingZoneId="427" scriptId="426703" />
+    </Script>
+    <Script id="426710" enableInput="true" playingTime="1000000">
+        <Action time="1529" type="actionScript" templateId="42737" huntingZoneId="427" scriptId="426714" />
+    </Script>
+    <Script id="426711" enableInput="true" playingTime="1000000">
+        <Action time="2700" type="actionScript" templateId="42734" huntingZoneId="427" scriptId="426715" />
+    </Script>
+    <Script id="426712" enableInput="true" playingTime="1000000">
+        <Action time="3367" type="actionScript" templateId="42733" huntingZoneId="427" scriptId="426714" />
+    </Script>
+    <Script id="426713" enableInput="true" playingTime="1000000">
+        <Action time="2697" type="actionScript" templateId="42741" huntingZoneId="427" scriptId="426714" />
+    </Script>
+    <Script id="426714" playingTime="10000">
+        <Action type="translationZ" duration="3000" power="1" from="0" to="-200" />
+        <Action time="1000" type="visible" visibility="false" />
+    </Script>
+    <Script id="426715" playingTime="10000">
+        <Action type="translationZ" duration="3000" power="1" from="0" to="-200" />
+        <Action time="500" type="visible" visibility="false" />
+    </Script>
+    <Script id="426716" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="6">
+            <Action time="0" type="PostProcessMaterial" duration="1000" from="0" to="0.5" param="Strength" postprocessSet="6">
+                <Action time="0" type="PostProcessMaterial" duration="4000" from="0.5" to="1" param="Strength" postprocessSet="6">
+                    <Action time="0" type="PostProcessMaterial" duration="1000" from="1" to="0" param="Strength" postprocessSet="6">
+                        <Action time="0" type="PostProcess" on="false" postprocessSet="6" />
+                    </Action>
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="6" />
+    </Script>
+    <Script id="426717" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="8">
+            <Action time="0" type="PostProcessMaterial" duration="6000" from="0" to="0.5" param="Strength" postprocessSet="8">
+                <Action time="0" type="PostProcessMaterial" duration="20000" from="0.5" to="0.5" param="Strength" postprocessSet="8">
+                    <Action time="0" type="PostProcessMaterial" duration="3000" from="0.5" to="0" param="Strength" postprocessSet="8">
+                        <Action time="0" type="PostProcess" on="false" postprocessSet="8" />
+                    </Action>
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="8" />
+    </Script>
+    <Script id="426718" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="8">
+            <Action time="0" type="PostProcessMaterial" duration="0" from="1" to="1" param="Strength" postprocessSet="8">
+                <Action time="0" type="PostProcessMaterial" duration="1500" from="1" to="0" param="Strength" postprocessSet="8">
+                    <Action time="0" type="PostProcess" on="false" postprocessSet="8" />
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="8" />
+    </Script>
+    <Script id="426719" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="8">
+            <Action time="0" type="PostProcessMaterial" duration="1000" from="0.5" to="0" param="Strength" postprocessSet="8">
+                <Action time="0" type="PostProcess" on="false" postprocessSet="8" />
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="8" />
+    </Script>
+    <Script id="426792" enableInput="true" playingTime="0">
+        <Action time="0" type="Mesh" templateId="42760" huntingZoneId="427" />
+    </Script>
+    <Script id="426991" playingTime="2100000000">
+        <Action time="0" type="animation" animName="Death" />
+    </Script>
+    <Script id="426992" playingTime="2100000000">
+        <Action time="0" type="animation" animName="Spawn" />
+    </Script>
+    <Script id="426993" playingTime="2700">
+        <Action time="0" type="animation" animName="Command" />
+    </Script>
+    <Script id="426994" playingTime="0">
+        <Action type="cameraShake" duration="7000" power="2" speed="5" />
+    </Script>
+    <Script id="426995" playingTime="0">
+        <Action time="0" type="visible" visibility="true" />
+    </Script>
+    <Script id="426996" playingTime="0">
+        <Action time="0" type="visible" visibility="false" />
+    </Script>
+    <Script id="426997" playingTime="0">
+        <Action time="0" type="Mesh" templateId="42732" huntingZoneId="427" />
+    </Script>
+    <Script id="426998" playingTime="0">
+        <Action time="0" type="Mesh" templateId="42702" huntingZoneId="427" />
+    </Script>
+    <Script id="426999" enableInput="true" playingTime="6000">
+        <Action time="0" type="animation" animName="Wait" />
+        <Action time="1366" type="animation" animName="Wait" />
+        <Action time="1366" type="CameraFocus" templateId="2011" on="true" huntingZoneId="427" />
+        <Action time="4366" type="CameraFocus" templateId="2011" on="false" huntingZoneId="427" />
+        <Action time="2732" type="animation" animName="Wait" />
+        <Action time="4098" type="animation" animName="command2" />
+        <Action time="6131" type="animation" animName="Wait" />
+        <Action time="2366" type="SystemMessage" style="SMS_MSG_DUNGEON_ROLLING_MSG" message="@dungeon:9027016" />
+        <Action time="5366" type="SystemMessage" style="SMS_MSG_DUNGEON_ROLLING_MSG" message="@dungeon:9027017" />
+        <Action time="8366" type="SystemMessage" style="SMS_DEFAULT" message="@dungeon:9027018" />
+        <Action time="6131" type="actionScript" templateId="2011" huntingZoneId="427" scriptId="426700" />
+    </Script>
+    <Script id="427001" playingTime="2100000000">
+        <Action time="0" type="visible" visibility="false" />
+    </Script>
+    <Script id="427002" playingTime="2100000000">
+        <Action time="0" type="visible" visibility="true" />
+    </Script>
+    <Script id="443001" playingTime="0">
+        <Action time="0" type="PostProcess" on="false" postprocessSet="2">
+            <Action time="0" type="PostProcess" on="true" postprocessSet="2">
+                <Action time="0" type="PostProcessMaterial" duration="7000" from="0" to="0.85" param="Strength" postprocessSet="2">
+                    <Action time="6200" type="PostProcessMaterial" duration="500" from="0.85" to="0" param="Strength" postprocessSet="2">
+                        <Action time="0" type="PostProcess" on="false" postprocessSet="2" />
+                    </Action>
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="2" />
+    </Script>
+    <Script id="443002" playingTime="10000">
+        <Action type="translationZ" duration="1000" power="4" from="-200" to="0" />
+        <Action time="0" type="Sound" radius="1" volume="4.5" cueName="ObjectSound_03.Expansion_CUE.OpenSteelBarCUE" pitch="2.2" />
+    </Script>
+    <Script id="443003" playingTime="10000">
+        <Action type="translationZ" duration="1000" power="4" from="0" to="-200" />
+        <Action time="0" type="Sound" radius="1" volume="4.5" cueName="ObjectSound_03.Expansion_CUE.OpenSteelBarCUE" pitch="2.2" />
+    </Script>
+    <Script id="443004" playingTime="2100000000">
+        <Action type="translationZ" duration="2000" power="3" from="0" to="-300" />
+    </Script>
+    <Script id="443005" playingTime="2100000000">
+        <Action time="0" type="animation" animName="Opening" />
+    </Script>
+    <Script id="443006" playingTime="2100000000">
+        <Action time="0" type="animation" animName="Closing" />
+    </Script>
+    <Script id="443007" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="7">
+            <Action time="0" type="PostProcessMaterial" duration="1000" from="0" to="2" param="Strength" postprocessSet="7">
+                <Action time="0" type="PostProcessMaterial" duration="10000" from="2" to="3.5" param="Strength" postprocessSet="7">
+                    <Action time="0" type="PostProcessMaterial" duration="4000" from="3.5" to="0" param="Strength" postprocessSet="7">
+                        <Action time="0" type="PostProcess" on="false" postprocessSet="7" />
+                    </Action>
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="7" />
+    </Script>
+    <Script id="443008" playingTime="2100000000">
+        <Action time="0" type="mesh" templateId="44403" huntingZoneId="443">
+            <Action time="0" type="animation" animName="death" />
+            <Action time="2000" effectId="300005" type="effect" rate="0.5" />
+            <Action time="4000" type="actionScript" templateId="44403" huntingZoneId="443" scriptId="427001" />
+        </Action>
+        <Action time="0" type="mesh" templateId="44403" huntingZoneId="643">
+            <Action time="0" type="animation" animName="death" />
+            <Action time="2000" effectId="300005" type="effect" rate="0.5" />
+            <Action time="4000" type="actionScript" templateId="44403" huntingZoneId="643" scriptId="427001" />
+        </Action>
+    </Script>
+    <Script id="443009" enableInput="false" playingTime="12000">
+        <Action time="0" type="CameraFocus" templateId="44375" on="true" huntingZoneId="443" />
+        <Action time="0" type="CameraFocus" templateId="44375" on="true" huntingZoneId="643" />
+        <Action time="7366" type="CameraFocus" templateId="44375" on="false" huntingZoneId="443" />
+        <Action time="7366" type="CameraFocus" templateId="44375" on="false" huntingZoneId="643" />
+    </Script>
+    <Script id="443010" enableInput="false" playingTime="12000">
+        <Action time="0" type="CameraFocus" templateId="44375" on="true" huntingZoneId="743" />
+        <Action time="7366" type="CameraFocus" templateId="44375" on="false" huntingZoneId="743" />
+    </Script>
+    <Script id="443011" playingTime="0">
+        <Action time="0" type="animation" animName="Death" />
+        <Action time="2000" type="visible" visibility="false" />
+    </Script>
+    <Script id="443012" playingTime="0">
+        <Action time="0" type="animation" animName="heavyAtk01" />
+        <Action time="2150" type="cameraShake" duration="2000" power="1" speed="8" />
+        <Action time="4150" type="cameraShake" duration="2000" power="1.8" speed="9" />
+        <Action time="2150" type="actionScript" templateId="44371" huntingZoneId="443" scriptId="443011" />
+        <Action time="2150" type="actionScript" templateId="44371" huntingZoneId="643" scriptId="443011" />
+        <Action time="0" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@dungeon:9043056" />
+        <Action time="4150" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@dungeon:9043057" />
+        <Action time="2150" type="Sound" radius="1" volume="4.5" cueName="ObjectSound_03.Expansion_CUE.BrokenRoadCUE" pitch="2.2" />
+    </Script>
+    <Script id="443013" playingTime="0">
+        <Action time="0" type="animation" animName="heavyAtk01" />
+        <Action time="2150" type="cameraShake" duration="2000" power="1" speed="8" />
+        <Action time="4150" type="cameraShake" duration="2000" power="1.8" speed="9" />
+        <Action time="2150" type="actionScript" templateId="44371" huntingZoneId="743" scriptId="443011" />
+        <Action time="0" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@dungeon:9043056" />
+        <Action time="4150" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@dungeon:9043057" />
+        <Action time="2150" type="Sound" radius="1" volume="4.5" cueName="ObjectSound_03.Expansion_CUE.BrokenRoadCUE" pitch="2.2" />
+    </Script>
+    <Script id="443711" playingTime="0">
+        <Action time="0" type="PostProcess" on="false" postprocessSet="2">
+            <Action time="0" type="PostProcess" on="true" postprocessSet="2">
+                <Action time="0" type="PostProcessMaterial" duration="7000" from="0" to="0.85" param="Strength" postprocessSet="2">
+                    <Action time="3600000" type="PostProcessMaterial" duration="500" from="0.85" to="0" param="Strength" postprocessSet="2">
+                        <Action time="0" type="PostProcess" on="false" postprocessSet="2" />
+                    </Action>
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="2" />
+    </Script>
+    <Script id="443712" playingTime="0">
+        <Action time="0" type="PostProcess" on="false" postprocessSet="2">
+            <Action time="0" type="PostProcess" on="true" postprocessSet="2">
+                <Action time="0" type="PostProcessMaterial" duration="0" from="0" to="0.85" param="Strength" postprocessSet="2">
+                    <Action time="0" type="PostProcessMaterial" duration="500" from="0.85" to="0" param="Strength" postprocessSet="2">
+                        <Action time="0" type="PostProcess" on="false" postprocessSet="2" />
+                    </Action>
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="2" />
+    </Script>
+    <Script id="444001">
+        <Action time="1000" type="materialParam" duration="500" from="0" to="1" param="BlendWeight" />
+        <Action time="3410" type="materialParam" duration="500" from="1" to="0" param="BlendWeight" />
+    </Script>
+    <Script id="444002">
+        <Action time="0" type="materialParam" duration="0" from="1" to="0" param="ChangeOn" />
+        <Action time="100" type="mesh" templateId="2000" huntingZoneId="444" />
+        <Action time="110" type="materialParam" duration="6900" from="0" to="1" param="ChangeOn" />
+    </Script>
+    <Script id="444003" enableInput="false" playingTime="8000">
+        <Action time="100" type="CameraFocus" templateId="1101" on="true" huntingZoneId="444" distance="1200" pitch="-12" yaw="0" />
+        <Action time="4100" type="CameraFocus" templateId="1101" on="true" huntingZoneId="444" distance="3500" pitch="-12" yaw="0" />
+        <Action time="7000" type="CameraFocus" templateId="1101" on="false" huntingZoneId="444" />
+    </Script>
+    <Script id="450001" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="1">
+            <Action time="0" type="PostProcessMaterial" duration="1000" from="0" to="0.5" param="Strength" postprocessSet="1">
+                <Action time="0" type="PostProcessMaterial" duration="10000" from="0.5" to="1" param="Strength" postprocessSet="1">
+                    <Action time="0" type="PostProcessMaterial" duration="4000" from="1" to="0" param="Strength" postprocessSet="1">
+                        <Action time="0" type="PostProcess" on="false" postprocessSet="1" />
+                    </Action>
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="1" />
+    </Script>
+    <Script id="450002" playingTime="0">
+        <Action time="0" type="scale" scale="1.6" duration="5000" power="5" />
+    </Script>
+    <Script id="450003" playingTime="0">
+        <Action time="0" type="PostProcess" on="false" postprocessSet="1" />
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="1" />
+    </Script>
+    <Script id="450004" playingTime="2100000000">
+        <Action time="12000" type="visible" visibility="false" />
+    </Script>
+    <Script id="450005" playingTime="0">
+        <Action time="0" type="scale" scale="1.2" duration="5000" power="5" />
+    </Script>
+    <Script id="600180" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="5">
+            <Action time="0" type="PostProcessMaterial" duration="500" from="0.5" to="1" param="Strength" postprocessSet="5">
+                <Action time="60000" type="PostProcessMaterial" duration="500" from="1" to="0" param="Strength" postprocessSet="5" />
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="5" />
+    </Script>
+    <Script id="628002" enableInput="true" playingTime="0">
+        <Action time="500" type="SystemMessage" style="SMS_MSG_BIG_CENTER" message="@MonsterBehavior:628004" />
+    </Script>
+    <Script id="628003" enableInput="true" playingTime="0">
+        <Action time="500" type="SystemMessage" style="SMS_MSG_BIG_CENTER" message="@MonsterBehavior:628005" />
+    </Script>
+    <Script id="727001" playingTime="2100000000">
+        <Action time="0" type="actionScript" templateId="2006" huntingZoneId="727" scriptId="426002" />
+        <Action time="0" type="actionScript" templateId="2002" huntingZoneId="727" scriptId="426003" />
+        <Action time="8500" type="actionScript" templateId="2005" huntingZoneId="727" scriptId="426002" />
+        <Action time="0" type="animation" animName="Death">
+            <Action time="0" type="visible" visibility="false" />
+            <Action time="0" type="actionScript" templateId="2003" huntingZoneId="727" scriptId="426991" />
+            <Action time="0" type="actionScript" templateId="2005" huntingZoneId="727" scriptId="426992" />
+            <Action time="6500" type="actionScript" templateId="2002" huntingZoneId="727" scriptId="426994" />
+            <Action time="7533" type="actionScript" templateId="2005" huntingZoneId="727" scriptId="426003" />
+            <Action time="7533" type="actionScript" templateId="2007" huntingZoneId="727" scriptId="426995" />
+            <Action time="7600" type="actionScript" templateId="2007" huntingZoneId="727" scriptId="426993" />
+            <Action time="6000" type="actionScript" templateId="2006" huntingZoneId="727" scriptId="426991" />
+            <Action time="7700" type="actionScript" templateId="2003" huntingZoneId="727" scriptId="426003" />
+            <Action time="9033" type="actionScript" templateId="2006" huntingZoneId="727" scriptId="426003" />
+        </Action>
+    </Script>
+    <Script id="727703" playingTime="0">
+        <Action time="0" type="Mesh" templateId="42759" huntingZoneId="727" />
+    </Script>
+    <Script id="727704" enableInput="true" playingTime="6000">
+        <Action time="0" type="animation" animName="unarmedwait" />
+        <Action time="2700" type="animation" animName="Command" />
+        <Action time="4000" type="actionScript" templateId="42758" huntingZoneId="727" scriptId="727792" />
+    </Script>
+    <Script id="727705" enableInput="true" playingTime="6000">
+        <Action time="0" type="animation" animName="unarmedwait" />
+        <Action time="2033" type="animation" animName="Idle" />
+        <Action time="4000" type="actionScript" templateId="42743" huntingZoneId="727" scriptId="727703" />
+    </Script>
+    <Script id="727710" enableInput="true" playingTime="1000000">
+        <Action time="1529" type="actionScript" templateId="42737" huntingZoneId="727" scriptId="426714" />
+    </Script>
+    <Script id="727711" enableInput="true" playingTime="1000000">
+        <Action time="2700" type="actionScript" templateId="42734" huntingZoneId="727" scriptId="426715" />
+    </Script>
+    <Script id="727712" enableInput="true" playingTime="1000000">
+        <Action time="3367" type="actionScript" templateId="42733" huntingZoneId="727" scriptId="426714" />
+    </Script>
+    <Script id="727713" enableInput="true" playingTime="1000000">
+        <Action time="2697" type="actionScript" templateId="42741" huntingZoneId="727" scriptId="426714" />
+    </Script>
+    <Script id="727792" enableInput="true" playingTime="0">
+        <Action time="0" type="Mesh" templateId="42760" huntingZoneId="727" />
+    </Script>
+    <Script id="727997" playingTime="0">
+        <Action time="0" type="Mesh" templateId="42732" huntingZoneId="727" />
+    </Script>
+    <Script id="727998" playingTime="0">
+        <Action time="0" type="Mesh" templateId="42702" huntingZoneId="727" />
+    </Script>
+    <Script id="727999" enableInput="true" playingTime="6000">
+        <Action time="0" type="animation" animName="Wait" />
+        <Action time="1366" type="animation" animName="Wait" />
+        <Action time="1366" type="CameraFocus" templateId="2011" on="true" huntingZoneId="727" />
+        <Action time="4366" type="CameraFocus" templateId="2011" on="false" huntingZoneId="727" />
+        <Action time="2732" type="animation" animName="Wait" />
+        <Action time="4098" type="animation" animName="command2" />
+        <Action time="6131" type="animation" animName="Wait" />
+        <Action time="2366" type="SystemMessage" style="SMS_MSG_DUNGEON_ROLLING_MSG" message="@dungeon:9027016" />
+        <Action time="5366" type="SystemMessage" style="SMS_MSG_DUNGEON_ROLLING_MSG" message="@dungeon:9027017" />
+        <Action time="8366" type="SystemMessage" style="SMS_DEFAULT" message="@dungeon:9027018" />
+        <Action time="6131" type="actionScript" templateId="2011" huntingZoneId="727" scriptId="426700" />
+    </Script>
+    <Script id="739001">
+        <Action time="100" type="mesh" templateId="3000" huntingZoneId="739" />
+        <Action time="110" type="materialParam" duration="5400" from="0" to="1" param="BlendWeight" />
+    </Script>
+    <Script id="766001" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="3">
+            <Action time="0" type="PostProcessMaterial" duration="1000" from="0" to="1" param="Strength" postprocessSet="3">
+                <Action time="0" type="PostProcessMaterial" duration="1000" from="1" to="0" param="Strength" postprocessSet="3">
+                    <Action time="0" type="PostProcess" on="false" postprocessSet="3" />
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="3" />
+    </Script>
+    <Script id="766002" playingTime="0">
+        <Action time="760" type="Sound" radius="1" volume="4.5" cueName="Quest_Skill.QuestCUE.Quest_65180Cue" pitch="2.2" />
+        <Action time="0" type="Sound" radius="1" volume="4.5" cueName="Ambient_Emiter.Ak_God_CUE.Ak_God_CUE" pitch="2.2" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset3" blendTime="2.85" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset2" blendTime="2.85" />
+        <Action time="0" type="aero" on="true" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset" blendTime="2.85" />
+    </Script>
+    <Script id="766003" playingTime="0">
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset" blendTime="2.85" />
+    </Script>
+    <Script id="766004" playingTime="0">
+        <Action time="760" type="Sound" radius="1" volume="4.5" cueName="Quest_Skill.QuestCUE.Quest_65180Cue" pitch="2.2" />
+        <Action time="0" type="Sound" radius="1" volume="4.5" cueName="Ambient_Emiter.Ak_God_CUE.Ak_God_CUE" pitch="2.2" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset3" blendTime="2.85" />
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset2" blendTime="2.85" />
+        <Action time="0" type="aero" on="true" aeroSet="AncientForest_AEROSet.AERO.AncientForest_Boss_Switch_Aeroset" blendTime="2.85" />
+    </Script>
+    <Script id="766005" playingTime="0">
+        <Action time="0" type="aero" on="false" aeroSet="AncientForest_AEROSet.AERO.AncientForest_Boss_Switch_Aeroset" blendTime="2.85" />
+    </Script>
+    <Script id="781001" playingTime="0">
+        <Action time="760" type="Sound" radius="1" volume="4.5" cueName="Quest_Skill.QuestCUE.Quest_65180Cue" pitch="2.2" />
+        <Action time="0" type="Sound" radius="1" volume="4.5" cueName="Ambient_Emiter.Ak_God_CUE.Ak_God_CUE" pitch="2.2" />
+        <Action time="0" type="aero" on="true" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset" blendTime="2.85" />
+    </Script>
+    <Script id="781002" playingTime="0">
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset" blendTime="2.85" />
+    </Script>
+    <Script id="781003" playingTime="2100000000">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="5">
+            <Action time="0" type="PostProcessMaterial" duration="500" from="0.5" to="1" param="Strength" postprocessSet="5">
+                <Action time="6000000" type="PostProcessMaterial" duration="500" from="1" to="0" param="Strength" postprocessSet="5" />
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="5" />
+    </Script>
+    <Script id="781004" playingTime="0">
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="5" />
+    </Script>
+    <Script id="783011">
+        <Action time="0" type="materialParam" duration="750" from="1" to="0" param="Strength" />
+        <Action time="750" type="mesh" templateId="2011" huntingZoneId="783" />
+        <Action time="751" type="materialParam" duration="1149" from="0" to="1" param="Strength" />
+    </Script>
+    <Script id="783012">
+        <Action time="0" type="materialParam" duration="750" from="1" to="0" param="Strength" />
+        <Action time="750" type="mesh" templateId="2012" huntingZoneId="783" />
+        <Action time="751" type="materialParam" duration="1149" from="0" to="1" param="Strength" />
+    </Script>
+    <Script id="783013">
+        <Action time="0" type="materialParam" duration="750" from="1" to="0" param="Strength" />
+        <Action time="750" type="mesh" templateId="2013" huntingZoneId="783" />
+        <Action time="751" type="materialParam" duration="1149" from="0" to="1" param="Strength" />
+    </Script>
+    <Script id="905401" playingTime="13000">
+        <Action time="0" type="aero" on="true" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset3" blendTime="2.5" />
+        <Action time="0" type="PostProcess" on="false" postprocessSet="2">
+            <Action time="0" type="PostProcess" on="true" postprocessSet="2">
+                <Action time="0" type="PostProcessMaterial" duration="500" from="0" to="0.15" param="Strength" postprocessSet="2">
+                    <Action time="12000" type="PostProcessMaterial" duration="500" from="0.15" to="0" param="Strength" postprocessSet="2">
+                        <Action time="12000" type="PostProcess" on="false" postprocessSet="2" />
+                    </Action>
+                </Action>
+            </Action>
+        </Action>
+        <Action time="10200" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset3" blendTime="2.5" />
+        <Action time="11000" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset3" blendTime="2.5" />
+        <Action time="12000" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset3" blendTime="2.5" />
+        <Action time="13000" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset3" blendTime="2.5" />
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="2" />
+    </Script>
+    <Script id="905402" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="4">
+            <Action time="0" type="PostProcessMaterial" duration="500" from="0" to="2.2" param="Strength" postprocessSet="4">
+                <Action time="0" type="PostProcessMaterial" duration="500" from="2.2" to="0" param="Strength" postprocessSet="4">
+                    <Action time="0" type="PostProcess" on="false" postprocessSet="4" />
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="4" />
+    </Script>
+    <Script id="905403" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="9">
+            <Action time="0" type="PostProcessMaterial" duration="1000" from="0" to="0.5" param="Strength" postprocessSet="9">
+                <Action time="0" type="PostProcess" on="false" postprocessSet="9" />
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="9" />
+    </Script>
+    <Script id="905404" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="7">
+            <Action time="0" type="PostProcessMaterial" duration="8000" from="0" to="0.3" param="Strength" postprocessSet="7" />
+            <Action time="8000" type="PostProcessMaterial" duration="2000" from="0.3" to="0" param="Strength" postprocessSet="7" />
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="7" />
+    </Script>
+    <Script id="905491" playingTime="5000">
+        <Action time="1000" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset3" blendTime="2.5" />
+        <Action time="2000" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset3" blendTime="2.5" />
+        <Action time="3000" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset3" blendTime="2.5" />
+        <Action time="4000" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset3" blendTime="2.5" />
+        <Action time="5000" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset3" blendTime="2.5" />
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="2" />
+    </Script>
+    <Script id="905601" playingTime="15000">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="5">
+            <Action time="0" type="PostProcessMaterial" duration="500" from="0" to="0.8" param="Strength" postprocessSet="5">
+                <Action time="1000" type="PostProcessMaterial" duration="500" from="0.8" to="1.2" param="Strength" postprocessSet="5">
+                    <Action time="2000" type="PostProcessMaterial" duration="500" from="1.2" to="1.4" param="Strength" postprocessSet="5">
+                        <Action time="11000" type="PostProcessMaterial" duration="500" from="1.4" to="1.2" param="Strength" postprocessSet="5" />
+                        <Action time="12000" type="PostProcessMaterial" duration="500" from="1.2" to="0.8" param="Strength" postprocessSet="5" />
+                        <Action time="13000" type="PostProcessMaterial" duration="500" from="0.8" to="0.4" param="Strength" postprocessSet="5" />
+                    </Action>
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="5" />
+    </Script>
+    <Script id="905801" playingTime="0">
+        <Action time="0" type="PostProcess" on="false" postprocessSet="2">
+            <Action time="0" type="PostProcess" on="true" postprocessSet="2">
+                <Action time="0" type="PostProcessMaterial" duration="500" from="0" to="1" param="Strength" postprocessSet="2">
+                    <Action time="1000" type="PostProcessMaterial" duration="1500" from="1" to="0" param="Strength" postprocessSet="2">
+                        <Action time="0" type="PostProcess" on="false" postprocessSet="2" />
+                    </Action>
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="false" postprocessSet="2" />
+    </Script>
+    <Script id="905901" playingTime="30000">
+        <Action time="0" type="aero" on="true" aeroSet="Lilith_DarkTown_OBJ.AERO.LDT_SD_20A_Aereset3" blendTime="2.5" />
+        <Action time="1000" type="aero" on="true" aeroSet="Lilith_DarkTown_OBJ.AERO.LDT_SD_20A_Aereset3" blendTime="2.5" />
+        <Action type="aero" on="true" aeroSet="Lilith_DarkTown_OBJ.AERO.LDT_SD_20A_Aereset3" blendTime="2.5" isFinal="true" />
+    </Script>
+    <Script id="905902" playingTime="1000">
+        <Action time="0" type="aero" on="false" aeroSet="Lilith_DarkTown_OBJ.AERO.LDT_SD_20A_Aereset3" blendTime="2.5" />
+        <Action time="1000" type="aero" on="false" aeroSet="Lilith_DarkTown_OBJ.AERO.LDT_SD_20A_Aereset3" blendTime="2.5" />
+        <Action type="aero" on="false" aeroSet="Lilith_DarkTown_OBJ.AERO.LDT_SD_20A_Aereset3" blendTime="2.5" isFinal="true" />
+    </Script>
+    <Script id="905903" playingTime="5000">
+        <Action time="0" type="aero" on="true" aeroSet="Lilith_DarkTown_OBJ.AERO.LDT_SD_20A_Aereset3" blendTime="3.5" />
+        <Action time="1000" type="aero" on="true" aeroSet="Lilith_DarkTown_OBJ.AERO.LDT_SD_20A_Aereset3" blendTime="3.5" />
+        <Action type="aero" on="true" aeroSet="Lilith_DarkTown_OBJ.AERO.LDT_SD_20A_Aereset3" blendTime="3.5" isFinal="true" />
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="2" />
+    </Script>
+    <Script id="905904" playingTime="10000">
+        <Action time="0" type="mesh" templateId="330" huntingZoneId="759" />
+    </Script>
+    <Script id="906000" playingTime="1000">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="6" />
+        <Action time="0" type="PostProcessMaterial" duration="1000" from="0" to="0.3" param="Strength" postprocessSet="6" />
+    </Script>
+    <Script id="906001" playingTime="0">
+        <Action time="0" type="PostProcess" on="false" postprocessSet="6" />
+    </Script>
+    <Script id="935001" playingTime="0">
+        <Action type="cameraShake" duration="2000" power="1.2" speed="7" />
+    </Script>
+    <Script id="939001">
+        <Action time="100" type="mesh" templateId="3000" huntingZoneId="939" />
+        <Action time="110" type="materialParam" duration="5400" from="0" to="1" param="BlendWeight" />
+    </Script>
+    <Script id="939002" playingTime="1500">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="27">
+            <Action time="0" type="PostProcessMaterial" duration="1000" from="0" to="1" param="Strength" postprocessSet="27">
+                <Action time="1000" type="PostProcessMaterial" duration="500" from="1" to="0" param="Strength" postprocessSet="27" />
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="27" />
+    </Script>
+    <Script id="939003" playingTime="1500">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="27">
+            <Action time="0" type="PostProcessMaterial" duration="500" from="0" to="1" param="Strength" postprocessSet="27">
+                <Action time="500" type="PostProcessMaterial" duration="700" from="1" to="0" param="Strength" postprocessSet="27" />
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="27" />
+    </Script>
+    <Script id="939004">
+        <Action time="100" type="mesh" templateId="3002" huntingZoneId="939" />
+        <Action time="110" type="materialParam" duration="3850" from="0" to="1" param="BlendWeight" />
+    </Script>
+    <Script id="939010" playingTime="0">
+        <Action time="0" type="aero" on="false" aeroSet="RevoltVillage_AERO.AERO.RevoltVillage_Aeroset" blendTime="2.85" />
+        <Action time="0" type="aero" on="false" aeroSet="RevoltVillage_AERO.AERO.RevoltVillage_Aeroset2" blendTime="2.85" />
+        <Action time="0" type="aero" on="false" aeroSet="RevoltVillage_AERO.AERO.RevoltVillage_Aeroset3" blendTime="2.85" />
+        <Action time="0" type="aero" on="true" aeroSet="RevoltVillage_AERO.AERO.RevoltVillage_Aeroset" blendTime="2.85" />
+    </Script>
+    <Script id="939020" playingTime="0">
+        <Action time="0" type="aero" on="false" aeroSet="RevoltVillage_AERO.AERO.RevoltVillage_Aeroset" blendTime="2.85" />
+        <Action time="0" type="aero" on="false" aeroSet="RevoltVillage_AERO.AERO.RevoltVillage_Aeroset2" blendTime="2.85" />
+        <Action time="0" type="aero" on="false" aeroSet="RevoltVillage_AERO.AERO.RevoltVillage_Aeroset3" blendTime="2.85" />
+        <Action time="0" type="aero" on="true" aeroSet="RevoltVillage_AERO.AERO.RevoltVillage_Aeroset2" blendTime="2.85" />
+    </Script>
+    <Script id="939030" playingTime="0">
+        <Action time="0" type="aero" on="false" aeroSet="RevoltVillage_AERO.AERO.RevoltVillage_Aeroset" blendTime="2.85" />
+        <Action time="0" type="aero" on="false" aeroSet="RevoltVillage_AERO.AERO.RevoltVillage_Aeroset2" blendTime="2.85" />
+        <Action time="0" type="aero" on="false" aeroSet="RevoltVillage_AERO.AERO.RevoltVillage_Aeroset3" blendTime="2.85" />
+        <Action time="0" type="aero" on="true" aeroSet="RevoltVillage_AERO.AERO.RevoltVillage_Aeroset3" blendTime="2.85" />
+    </Script>
+    <Script id="971001" playingTime="0">
+        <Action time="0" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@dungeon:9710016" />
+    </Script>
+    <Script id="971002" playingTime="0">
+        <Action time="0" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@dungeon:9710017" />
+    </Script>
+    <Script id="971003" playingTime="0">
+        <Action time="0" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@dungeon:9710018" />
+    </Script>
+    <Script id="971004" playingTime="0">
+        <Action time="0" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@dungeon:9710019" />
+    </Script>
+    <Script id="975601" playingTime="5000">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="5">
+            <Action time="0" type="PostProcessMaterial" duration="500" from="0" to="1.2" param="Strength" postprocessSet="5">
+                <Action time="1000" type="PostProcessMaterial" duration="4000" from="1.2" to="1.2" param="Strength" postprocessSet="5" />
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="true" isFinal="true" postprocessSet="5" />
+    </Script>
+    <Script id="975602" playingTime="5000">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="5">
+            <Action time="0" type="PostProcessMaterial" duration="5000" from="1.2" to="0" param="Strength" postprocessSet="5" />
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="5" />
+    </Script>
+    <Script id="975901" playingTime="0">
+        <Action time="0" type="PostProcess" on="false" postprocessSet="2" />
+        <Action time="0" type="PostProcess" on="true" postprocessSet="2">
+            <Action time="0" type="PostProcessMaterial" duration="1000" from="0" to="1" param="Strength" postprocessSet="2">
+                <Action time="3000" type="PostProcessMaterial" duration="3000" from="1" to="0.95" param="Strength" postprocessSet="2">
+                    <Action time="0" type="PostProcessMaterial" duration="5000" from="0.95" to="0" param="Strength" postprocessSet="2">
+                        <Action time="0" type="PostProcess" on="false" postprocessSet="2" />
+                    </Action>
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="2" />
+    </Script>
+    <Script id="982001" playingTime="6000000">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="5">
+            <Action time="0" type="PostProcessMaterial" duration="200" from="0" to="1.5" param="Strength" postprocessSet="5">
+                <Action time="6000000" type="PostProcessMaterial" duration="200" from="1.5" to="0" param="Strength" postprocessSet="5" />
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="5" />
+    </Script>
+    <Script id="982002" playingTime="1000">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="5">
+            <Action time="0" type="PostProcessMaterial" duration="200" from="1.5" to="0" param="Strength" postprocessSet="5" />
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="5" />
+    </Script>
+    <Script id="982003">
+        <Action time="1000" type="materialParam" duration="800" from="0" to="0.7" param="bIsAwakenMode" />
+    </Script>
+    <Script id="982004">
+        <Action time="1150" type="materialParam" duration="2500" from="1" to="0" param="bIsAwakenMode" />
+    </Script>
+    <Script id="982005" playingTime="6000000">
+        <Action time="10" type="aero" on="true" aeroSet="BF_KumasWorld_aeroset.AERO.JungleCoast_AERO" blendTime="2.85" />
+    </Script>
+    <Script id="982006" playingTime="0">
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset" blendTime="2.85" />
+    </Script>
+    <Script id="982007" playingTime="0">
+        <Action type="cameraShake" duration="3000" power="2" speed="3" />
+    </Script>
+    <Script id="982008">
+        <Action time="0" type="materialParam" duration="12000" from="0" to="1" param="Progress" />
+        <Action time="12000" type="materialParam" duration="1" from="1" to="0" param="Progress" />
+    </Script>
+    <Script id="982009">
+        <Action time="1000" type="materialParam" duration="800" from="0.7" to="1.2" param="bIsAwakenMode" />
+    </Script>
+    <Script id="983001" playingTime="900000">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="21">
+            <Action time="0" type="PostProcessMaterial" duration="90000" from="0.5" to="1" param="Strength" postprocessSet="21">
+                <Action time="90000" type="PostProcessMaterial" duration="90000" from="1" to="1" param="Strength" postprocessSet="21" />
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="21" />
+    </Script>
+    <Script id="983002" playingTime="900000">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="20">
+            <Action time="0" type="PostProcessMaterial" duration="90000" from="0.5" to="1" param="Strength" postprocessSet="20">
+                <Action time="90000" type="PostProcessMaterial" duration="90000" from="1" to="1" param="Strength" postprocessSet="20" />
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="20" />
+    </Script>
+    <Script id="983003" playingTime="900000">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="5">
+            <Action time="0" type="PostProcessMaterial" duration="1000" from="0" to="1" param="Strength" postprocessSet="5">
+                <Action time="1000" type="PostProcessMaterial" duration="90000" from="1" to="1" param="Strength" postprocessSet="5" />
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="5" />
+    </Script>
+    <Script id="983011">
+        <Action time="0" type="materialParam" duration="750" from="1" to="0" param="Strength" />
+        <Action time="750" type="mesh" templateId="2011" huntingZoneId="983" />
+        <Action time="751" type="materialParam" duration="1149" from="0" to="1" param="Strength" />
+    </Script>
+    <Script id="983012">
+        <Action time="0" type="materialParam" duration="750" from="1" to="0" param="Strength" />
+        <Action time="750" type="mesh" templateId="2012" huntingZoneId="983" />
+        <Action time="751" type="materialParam" duration="1149" from="0" to="1" param="Strength" />
+    </Script>
+    <Script id="983013">
+        <Action time="0" type="materialParam" duration="750" from="1" to="0" param="Strength" />
+        <Action time="750" type="mesh" templateId="2013" huntingZoneId="983" />
+        <Action time="751" type="materialParam" duration="1149" from="0" to="1" param="Strength" />
+    </Script>
+    <Script id="3011001" playingTime="2100000000">
+        <Action time="0" type="actionScript" templateId="2006" huntingZoneId="3011" scriptId="426002" />
+        <Action time="0" type="actionScript" templateId="2002" huntingZoneId="3011" scriptId="426003" />
+        <Action time="8500" type="actionScript" templateId="2005" huntingZoneId="3011" scriptId="426002" />
+        <Action time="0" type="animation" animName="Death">
+            <Action time="0" type="visible" visibility="false" />
+            <Action time="0" type="actionScript" templateId="2003" huntingZoneId="3011" scriptId="426991" />
+            <Action time="0" type="actionScript" templateId="2005" huntingZoneId="3011" scriptId="426992" />
+            <Action time="6500" type="actionScript" templateId="2002" huntingZoneId="3011" scriptId="426994" />
+            <Action time="7533" type="actionScript" templateId="2005" huntingZoneId="3011" scriptId="426003" />
+            <Action time="7533" type="actionScript" templateId="2007" huntingZoneId="3011" scriptId="426995" />
+            <Action time="7600" type="actionScript" templateId="2007" huntingZoneId="3011" scriptId="426993" />
+            <Action time="6000" type="actionScript" templateId="2006" huntingZoneId="3011" scriptId="426991" />
+            <Action time="7700" type="actionScript" templateId="2003" huntingZoneId="3011" scriptId="426003" />
+            <Action time="9033" type="actionScript" templateId="2006" huntingZoneId="3011" scriptId="426003" />
+        </Action>
+    </Script>
+    <Script id="3011703" playingTime="0">
+        <Action time="0" type="Mesh" templateId="42759" huntingZoneId="3011" />
+    </Script>
+    <Script id="3011704" enableInput="true" playingTime="6000">
+        <Action time="0" type="animation" animName="unarmedwait" />
+        <Action time="2700" type="animation" animName="Command" />
+        <Action time="4000" type="actionScript" templateId="42758" huntingZoneId="3011" scriptId="727792" />
+    </Script>
+    <Script id="3011705" enableInput="true" playingTime="6000">
+        <Action time="0" type="animation" animName="unarmedwait" />
+        <Action time="2033" type="animation" animName="Idle" />
+        <Action time="4000" type="actionScript" templateId="42743" huntingZoneId="3011" scriptId="727703" />
+    </Script>
+    <Script id="3011710" enableInput="true" playingTime="1000000">
+        <Action time="1529" type="actionScript" templateId="42737" huntingZoneId="3011" scriptId="426714" />
+    </Script>
+    <Script id="3011711" enableInput="true" playingTime="1000000">
+        <Action time="2700" type="actionScript" templateId="42734" huntingZoneId="3011" scriptId="426715" />
+    </Script>
+    <Script id="3011712" enableInput="true" playingTime="1000000">
+        <Action time="3367" type="actionScript" templateId="42733" huntingZoneId="3011" scriptId="426714" />
+    </Script>
+    <Script id="3011713" enableInput="true" playingTime="1000000">
+        <Action time="2697" type="actionScript" templateId="42741" huntingZoneId="3011" scriptId="426714" />
+    </Script>
+    <Script id="3011792" enableInput="true" playingTime="0">
+        <Action time="0" type="Mesh" templateId="42760" huntingZoneId="3011" />
+    </Script>
+    <Script id="3011997" playingTime="0">
+        <Action time="0" type="Mesh" templateId="42732" huntingZoneId="3011" />
+    </Script>
+    <Script id="3011998" playingTime="0">
+        <Action time="0" type="Mesh" templateId="42702" huntingZoneId="3011" />
+    </Script>
+    <Script id="3011999" enableInput="true" playingTime="6000">
+        <Action time="0" type="animation" animName="Wait" />
+        <Action time="1366" type="animation" animName="Wait" />
+        <Action time="1366" type="CameraFocus" templateId="2011" on="true" huntingZoneId="3011" />
+        <Action time="4366" type="CameraFocus" templateId="2011" on="false" huntingZoneId="3011" />
+        <Action time="2732" type="animation" animName="Wait" />
+        <Action time="4098" type="animation" animName="command2" />
+        <Action time="6131" type="animation" animName="Wait" />
+        <Action time="2366" type="SystemMessage" style="SMS_MSG_DUNGEON_ROLLING_MSG" message="@dungeon:9027016" />
+        <Action time="5366" type="SystemMessage" style="SMS_MSG_DUNGEON_ROLLING_MSG" message="@dungeon:9027017" />
+        <Action time="8366" type="SystemMessage" style="SMS_DEFAULT" message="@dungeon:9027018" />
+        <Action time="6131" type="actionScript" templateId="2011" huntingZoneId="3011" scriptId="426700" />
+    </Script>
+    <Script id="3028001" playingTime="6000000">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="5">
+            <Action time="0" type="PostProcessMaterial" duration="200" from="0" to="1.5" param="Strength" postprocessSet="5">
+                <Action time="6000000" type="PostProcessMaterial" duration="200" from="1.5" to="0" param="Strength" postprocessSet="5" />
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="5" />
+    </Script>
+    <Script id="3028002" playingTime="1000">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="5">
+            <Action time="0" type="PostProcessMaterial" duration="200" from="1.5" to="0" param="Strength" postprocessSet="5" />
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="5" />
+    </Script>
+    <Script id="3028004">
+        <Action time="1150" type="materialParam" duration="2500" from="1" to="0" param="bIsAwakenMode" />
+    </Script>
+    <Script id="3028005" playingTime="6000000">
+        <Action time="10" type="aero" on="true" aeroSet="BF_KumasWorld_aeroset.AERO.JungleCoast_AERO" blendTime="2.85" />
+    </Script>
+    <Script id="3028006" playingTime="0">
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_20A_Aeroset" blendTime="2.85" />
+    </Script>
+    <Script id="3028007" playingTime="0">
+        <Action type="cameraShake" duration="3000" power="2" speed="3" />
+    </Script>
+    <Script id="3028008">
+        <Action time="0" type="materialParam" duration="12000" from="0" to="1" param="Progress" />
+        <Action time="12000" type="materialParam" duration="1" from="1" to="0" param="Progress" />
+    </Script>
+    <Script id="3028009">
+        <Action time="1000" type="materialParam" duration="800" from="0.7" to="1.2" param="bIsAwakenMode" />
+    </Script>
+    <Script id="3037001">
+        <Action time="1000" type="materialParam" duration="500" from="0" to="1" param="BlendWeight" />
+        <Action time="3410" type="materialParam" duration="500" from="1" to="0" param="BlendWeight" />
+    </Script>
+    <Script id="3037002">
+        <Action time="0" type="materialParam" duration="0" from="1" to="0" param="ChangeOn" />
+        <Action time="100" type="mesh" templateId="2000" huntingZoneId="3037" />
+        <Action time="110" type="materialParam" duration="6900" from="0" to="1" param="ChangeOn" />
+    </Script>
+    <Script id="3037003" enableInput="false" playingTime="8000">
+        <Action time="100" type="CameraFocus" templateId="1101" on="true" huntingZoneId="3037" distance="1200" pitch="-12" yaw="0" />
+        <Action time="4100" type="CameraFocus" templateId="1101" on="true" huntingZoneId="3037" distance="3500" pitch="-12" yaw="0" />
+        <Action time="7000" type="CameraFocus" templateId="1101" on="false" huntingZoneId="3037" />
+    </Script>
+    <Script id="3041003" playingTime="0">
+        <Action time="760" type="Sound" radius="1" volume="4.5" cueName="Quest_Skill.QuestCUE.Quest_65180Cue" pitch="2.2" />
+        <Action time="0" type="Sound" radius="1" volume="4.5" cueName="Ambient_Emiter.Ak_God_CUE.Ak_God_CUE" pitch="2.2" />
+        <Action time="0" type="aero" on="true" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset3" blendTime="2.85" />
+    </Script>
+    <Script id="3041004" playingTime="0">
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset3" blendTime="2.85" />
+    </Script>
+    <Script id="3043003" playingTime="0">
+        <Action time="760" type="Sound" radius="1" volume="4.5" cueName="Quest_Skill.QuestCUE.Quest_65180Cue" pitch="2.2" />
+        <Action time="0" type="Sound" radius="1" volume="4.5" cueName="Ambient_Emiter.Ak_God_CUE.Ak_God_CUE" pitch="2.2" />
+        <Action time="0" type="aero" on="true" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset3" blendTime="2.85" />
+    </Script>
+    <Script id="3043004" playingTime="0">
+        <Action time="0" type="aero" on="false" aeroSet="SWC_SD_AERO.AERO.SWC_SD_Aeroset3" blendTime="2.85" />
+    </Script>
+    <Script id="3056001" playingTime="0">
+        <Action time="0" type="Mesh" templateId="1001" huntingZoneId="3056" />
+    </Script>
+    <Script id="3056002" playingTime="0">
+        <Action time="0" type="Mesh" templateId="1000" huntingZoneId="3056" />
+    </Script>
+    <Script id="3056005" playingTime="0">
+        <Action time="0" type="Mesh" templateId="2002" huntingZoneId="3056" />
+    </Script>
+    <Script id="3056006" playingTime="0">
+        <Action time="0" type="Mesh" templateId="2000" huntingZoneId="3056" />
+    </Script>
+    <Script id="3103001">
+        <Action time="100" type="mesh" templateId="1001" huntingZoneId="3103" />
+        <Action time="110" type="materialParam" duration="1400" from="0" to="1" param="BlendWeight" />
+    </Script>
+    <Script id="3107001" playingTime="0">
+        <Action time="0" type="PostProcess" on="false" postprocessSet="2" />
+        <Action time="0" type="PostProcess" on="true" postprocessSet="2">
+            <Action time="0" type="PostProcessMaterial" duration="500" from="0" to="1" param="Strength" postprocessSet="2">
+                <Action time="2000" type="PostProcessMaterial" duration="1000" from="1" to="0.95" param="Strength" postprocessSet="2">
+                    <Action time="0" type="PostProcessMaterial" duration="1000" from="0.95" to="0" param="Strength" postprocessSet="2">
+                        <Action time="0" type="PostProcess" on="false" postprocessSet="2" />
+                    </Action>
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="2" />
+    </Script>
+    <Script id="3107002" playingTime="0">
+        <Action time="0" type="PostProcess" on="false" postprocessSet="2" />
+        <Action time="0" type="PostProcess" on="true" postprocessSet="2">
+            <Action time="0" type="PostProcessMaterial" duration="1000" from="0" to="1" param="Strength" postprocessSet="2">
+                <Action time="3000" type="PostProcessMaterial" duration="3000" from="1" to="0.95" param="Strength" postprocessSet="2">
+                    <Action time="0" type="PostProcessMaterial" duration="5000" from="0.95" to="0" param="Strength" postprocessSet="2">
+                        <Action time="0" type="PostProcess" on="false" postprocessSet="2" />
+                    </Action>
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="2" />
+    </Script>
+    <Script id="3109001" playingTime="0">
+        <Action time="0" type="Mesh" templateId="1001" huntingZoneId="3056" />
+    </Script>
+    <Script id="3109002" playingTime="0">
+        <Action time="0" type="Mesh" templateId="1000" huntingZoneId="3056" />
+    </Script>
+    <Script id="3109005" playingTime="0">
+        <Action time="0" type="Mesh" templateId="2002" huntingZoneId="3056" />
+    </Script>
+    <Script id="3109006" playingTime="0">
+        <Action time="0" type="Mesh" templateId="2000" huntingZoneId="3056" />
+    </Script>
+    <Script id="3203001">
+        <Action time="100" type="mesh" templateId="1001" huntingZoneId="3203" />
+        <Action time="110" type="materialParam" duration="1400" from="0" to="1" param="BlendWeight" />
+    </Script>
+    <Script id="3203002">
+        <Action time="1800" type="mesh" templateId="1002" huntingZoneId="3203" />
+        <Action time="1810" type="materialParam" duration="2400" from="0" to="1" param="BlendWeight" />
+    </Script>
+    <Script id="3204001" playingTime="0">
+        <Action time="0" type="Mesh" templateId="1001" huntingZoneId="3204" />
+    </Script>
+    <Script id="3204002" playingTime="0">
+        <Action time="0" type="Mesh" templateId="1000" huntingZoneId="3204" />
+    </Script>
+    <Script id="3206001">
+        <Action time="3600" type="mesh" templateId="1001" huntingZoneId="3206" />
+        <Action time="3610" type="materialParam" duration="1400" from="0" to="1" param="BlendWeight" />
+    </Script>
+    <Script id="3206002">
+        <Action time="500" type="mesh" templateId="1000" huntingZoneId="3206" />
+        <Action time="510" type="materialParam" duration="1400" from="0" to="1" param="BlendWeight" />
+    </Script>
+    <Script id="3209001" playingTime="0">
+        <Action time="0" type="Mesh" templateId="1001" huntingZoneId="3209" />
+    </Script>
+    <Script id="3209002" playingTime="0">
+        <Action time="0" type="Mesh" templateId="1000" huntingZoneId="3209" />
+    </Script>
+    <Script id="3209003" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="1">
+            <Action time="0" type="PostProcessMaterial" duration="900" from="0" to="1.2" param="Strength" postprocessSet="1">
+                <Action time="1000" type="PostProcessMaterial" duration="2500" from="1.2" to="0.3" param="Strength" postprocessSet="1">
+                    <Action time="0" type="PostProcessMaterial" duration="1500" from="0.3" to="0" param="Strength" postprocessSet="1" />
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="1" />
+    </Script>
+    <Script id="3209004" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="3">
+            <Action time="0" type="PostProcessMaterial" duration="500" from="0" to="0.8" param="Strength" postprocessSet="3">
+                <Action time="2000" type="PostProcessMaterial" duration="1500" from="0.8" to="0" param="Strength" postprocessSet="3">
+                    <Action time="0" type="PostProcess" on="false" postprocessSet="3" />
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="3" />
+    </Script>
+    <Script id="3209005" playingTime="0">
+        <Action time="0" type="Mesh" templateId="2002" huntingZoneId="3209" />
+    </Script>
+    <Script id="3209006" playingTime="0">
+        <Action time="0" type="Mesh" templateId="2000" huntingZoneId="3209" />
+    </Script>
+    <Script id="3209007" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="10">
+            <Action time="0" type="PostProcessMaterial" duration="3500" from="0" to="0.7" param="Strength" postprocessSet="10" />
+            <Action time="4000" type="PostProcessMaterial" duration="1000" from="7" to="0" param="Strength" postprocessSet="10" />
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="10" />
+    </Script>
+    <Script id="9203105">
+        <Action time="100" type="mesh" templateId="3105" huntingZoneId="920" />
+        <Action time="110" type="materialParam" duration="110" from="0" to="1" param="BlendWeight" />
+    </Script>
+    <Script id="10238001" playingTime="0">
+        <Action time="5000" type="materialParam" duration="11000" from="0" to="1" param="SkillClearOn" />
+        <Action time="11000" type="visible" visibility="false" />
+    </Script>
+    <Script id="30293105">
+        <Action time="100" type="mesh" templateId="3105" huntingZoneId="3029" />
+        <Action time="110" type="materialParam" duration="110" from="0" to="1" param="BlendWeight" />
+    </Script>
+    <Script id="31083105">
+        <Action time="100" type="mesh" templateId="1105" huntingZoneId="3108" />
+        <Action time="110" type="materialParam" duration="110" from="0" to="1" param="BlendWeight" />
+    </Script>
+    <Script id="93028003">
+        <Action time="1000" type="materialParam" duration="800" from="0" to="0.7" param="bIsAwakenMode" />
+    </Script>
+</S1ActionScripts>

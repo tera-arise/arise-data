@@ -1,0 +1,54 @@
+<TBAChatClientConfigData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/TBAChatClientConfigData TBAChatClientConfigData.xsd" xmlns="https://vezel.dev/novadrop/dc/TBAChatClientConfigData">
+    <AwesomiumUrl string="@chat:10001" />
+    <ChannelList>
+        <Group id="BasicGroup" name="@chat:101">
+            <Channel id="CHATTYPE_NORMAL" color="0xffffff" makeNameLink="true" showChannelName="true" static="true" useHtml="true" />
+            <Channel id="CHATTYPE_PARTY" color="0x34bbff" makeNameLink="true" showChannelName="true" useHtml="true" />
+            <Channel id="CHATTYPE_TEAM" color="0xb8ff0c" makeNameLink="true" showChannelName="true" useHtml="true" />
+            <Channel id="CHATTYPE_WHISPER" color="0xee99ff" makeNameLink="true" showChannelName="true" static="true" useHtml="false" />
+            <Channel id="CHATTYPE_PARTY_NOTICE" color="0x00e4ff" makeNameLink="true" showChannelName="true" useHtml="true" />
+            <Channel id="CHATTYPE_GENERAL" color="0xf0ff89" makeNameLink="true" showChannelName="true" static="true" useHtml="true" />
+            <Channel id="CHATTYPE_SOCIAL" color="0x9d9d9d" makeNameLink="false" showChannelName="false" useHtml="true" />
+            <Channel id="CHATTYPE_RP" color="0x9d9d9d" makeNameLink="false" showChannelName="false" static="false" useHtml="true" />
+            <Channel id="CHATTYPE_SKILL" color="0x9d9d9d" makeNameLink="true" showChannelName="true" static="false" useHtml="true" />
+        </Group>
+        <Group id="BattleInfoGroup" name="@chat:111">
+            <Channel id="CHATTYPE_MY_ATTACK" color="0x9d9d9d" makeNameLink="false" showChannelName="false" useHtml="false" />
+            <Channel id="CHATTYPE_MY_CRITICAL_ATTACK" color="0xaaccff" makeNameLink="false" showChannelName="false" useHtml="false" />
+            <Channel id="CHATTYPE_MY_FALLING_DAMAGE" color="0xff7f7f" makeNameLink="false" showChannelName="false" useHtml="false" />
+            <Channel id="CHATTYPE_MY_DAMAGE_SMALL" color="0xff7f7f" makeNameLink="false" showChannelName="false" useHtml="false" />
+            <Channel id="CHATTYPE_MY_CRITICAL_DAMAGE_SMALL" color="0xff5757" makeNameLink="false" showChannelName="false" useHtml="false" />
+            <Channel id="CHATTYPE_MY_DAMAGE" color="0xff7f7f" makeNameLink="false" showChannelName="false" useHtml="false" />
+            <Channel id="CHATTYPE_MY_CRITICAL_DAMAGE" color="0xff5757" makeNameLink="false" showChannelName="false" useHtml="false" />
+            <Channel id="CHATTYPE_MY_DAMAGE_LARGE" color="0xff7f7f" makeNameLink="false" showChannelName="false" useHtml="false" />
+            <Channel id="CHATTYPE_MY_CRITICAL_DAMAGE_LARGE" color="0xff5757" makeNameLink="false" showChannelName="false" useHtml="false" />
+        </Group>
+        <Group id="SystemInfoGroup" name="@chat:121">
+            <Channel id="CHATTYPE_ADMIN_NOTICE" color="0xffbf7f" makeNameLink="false" showChannelName="true" useHtml="false" />
+            <Channel id="CHATTYPE_INFO" color="0x9d9d9d" makeNameLink="false" showChannelName="false" useHtml="false" />
+            <Channel id="CHATTYPE_ERROR_INFO" color="0xee1c24" makeNameLink="false" showChannelName="false" useHtml="false" />
+            <Channel id="CHATTYPE_PARTY_INFO" color="0x34bbff" makeNameLink="false" showChannelName="false" useHtml="false" />
+            <Channel id="CHATTYPE_GUILD_INFO" color="0x00ea74" makeNameLink="false" showChannelName="false" useHtml="false" />
+            <Channel id="CHATTYPE_TEAM_INFO" color="0xb8ff0c" makeNameLink="false" showChannelName="false" useHtml="false" />
+            <Channel id="CHATTYPE_INTERACTION_INFO" color="0xff9c9c" makeNameLink="false" showChannelName="false" useHtml="false" />
+            <Channel id="CHATTYPE_WARNING" color="0xee1c24" makeNameLink="false" showChannelName="false" useHtml="false" />
+            <Channel id="CHATTYPE_GET_ITEM_COMMON" color="0x9d9d9d" makeNameLink="false" showChannelName="false" useHtml="false" />
+            <Channel id="CHATTYPE_GET_ITEM_UNCOMMON" color="0x9d9d9d" makeNameLink="false" showChannelName="false" useHtml="false" />
+            <Channel id="CHATTYPE_GET_ITEM_RARE" color="0x9d9d9d" makeNameLink="false" showChannelName="false" useHtml="false" />
+            <Channel id="CHATTYPE_GET_ITEM_LEGEND" color="0x9d9d9d" makeNameLink="false" showChannelName="false" useHtml="false" />
+            <Channel id="CHATTYPE_GET_EXP" color="0x9d9d9d" makeNameLink="false" showChannelName="false" useHtml="false" />
+            <Channel id="CHATTYPE_GET_MONEY" color="0x9d9d9d" makeNameLink="false" showChannelName="false" useHtml="false" />
+        </Group>
+    </ChannelList>
+    <ChatWindowCloseRemainTime time="30" />
+    <DefaultChatWindowSize height="216" width="328" />
+    <DefaultTabList>
+        <Tab name="@chat:1" type="Default" fontSize="100" autoInputChange="true" defaultInputChannel="CHATTYPE_NORMAL" includeChannels="CHATTYPE_ADMIN_NOTICE,CHATTYPE_NORMAL,CHATTYPE_GUARD,CHATTYPE_WHISPER,CHATTYPE_PARTY,CHATTYPE_PARTY_NOTICE,CHATTYPE_GUILD,CHATTYPE_GUILD_INFO,CHATTYPE_RAID,CHATTYPE_RAID_LEADER,CHATTYPE_RAID_NOTICE,CHATTYPE_ERROR_INFO,CHATTYPE_PARTY_INFO,CHATTYPE_SKILL,CHATTYPE_MEGAPHONE,CHATTYPE_SOCIAL,CHATTYPE_WARNING,CHATTYPE_RP,CHATTYPE_INTERACTION_INFO,CHATTYPE_DEALING" opacity="100" partyAutoInputChange="true" />
+        <Tab name="@chat:3" type="System" fontSize="100" autoInputChange="true" defaultInputChannel="CHATTYPE_NORMAL" includeGroups="BattleInfoGroup,SystemInfoGroup" opacity="100" />
+        <Tab name="@chat:4" type="Whisper" fontSize="100" autoInputChange="true" defaultInputChannel="CHATTYPE_WHISPER" includeChannels="CHATTYPE_ADMIN_NOTICE,CHATTYPE_WHISPER,CHATTYPE_DEALING" opacity="100" />
+        <Tab name="@chat:8" type="New" fontSize="100" includeChannels="CHATTYPE_ADMIN_NOTICE,CHATTYPE_NORMAL,CHATTYPE_GUARD,CHATTYPE_WHISPER,CHATTYPE_PARTY,CHATTYPE_PARTY_NOTICE,CHATTYPE_GUILD,CHATTYPE_GUILD_INFO,CHATTYPE_RAID,CHATTYPE_RAID_LEADER,CHATTYPE_RAID_NOTICE,CHATTYPE_ERROR_INFO,CHATTYPE_PARTY_INFO,CHATTYPE_SKILL,CHATTYPE_MEGAPHONE,CHATTYPE_SOCIAL,CHATTYPE_WARNING,CHATTYPE_RP,CHATTYPE_INTERACTION_INFO" opacity="100" />
+    </DefaultTabList>
+    <FastReplyShortcut string="@chat:200" />
+    <Megaphone maxExposeSec="12" maxLength="50" minExposeSec="1" msgColor="0xffffff" userColor="0x00ffff" />
+    <PartySearchLimit high="4" low="-4" />
+</TBAChatClientConfigData>

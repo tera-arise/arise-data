@@ -1,0 +1,134 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="18109" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>181,9</Quest번호>
+        <Quest제목>@quest:18109001</Quest제목>
+        <반복퀘스트>1회성</반복퀘스트>
+        <발생조건>
+            <NPC대화>181,1022</NPC대화>
+        </발생조건>
+        <수행조건>
+            <길드레벨 />
+            <선행퀘스트>
+                <선행퀘스트>
+                    <퀘스트Id>181,08</퀘스트Id>
+                </선행퀘스트>
+            </선행퀘스트>
+            <영주길드 />
+            <최소레벨>60</최소레벨>
+        </수행조건>
+        <수행지역 />
+        <스토리그룹Id>22</스토리그룹Id>
+        <요약정보>100</요약정보>
+        <적정수행레벨>63</적정수행레벨>
+        <적정수행인원>1</적정수행인원>
+        <집회소분류 />
+        <추가보상 />
+        <퀘스트종류>미션</퀘스트종류>
+        <특수가이드 />
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <목표지역>181,18100688</목표지역>
+                <저널Text>@quest:18109005</저널Text>
+                <제한시간>0,0</제한시간>
+                <지역명>@quest:18109003</지역명>
+            </Body>
+            <Header>
+                <ContinentId>7031</ContinentId>
+                <Id>1</Id>
+                <JournalScript>2</JournalScript>
+                <Pos>26628,-14417,2912</Pos>
+                <다음Task>2</다음Task>
+                <이름>PC이동Task</이름>
+            </Header>
+        </Task>
+        <Task id="2">
+            <Body>
+                <완료조건>
+                    <아이템사용>
+                        <아이템Id>81107</아이템Id>
+                        <아이템갯수>1</아이템갯수>
+                    </아이템사용>
+                </완료조건>
+                <저널Text>@quest:18109006</저널Text>
+            </Body>
+            <Header>
+                <ContinentId>7031</ContinentId>
+                <Id>2</Id>
+                <JournalScript>2</JournalScript>
+                <Pos>26628,-14417,2912</Pos>
+                <다음Task>3</다음Task>
+                <이름>조건Task</이름>
+            </Header>
+        </Task>
+        <Task id="3">
+            <Body>
+                <대상NPC지정>181,1018</대상NPC지정>
+                <보상>0</보상>
+                <저널Text>@quest:18109009</저널Text>
+                <저널Text2>@quest:18109010</저널Text2>
+                <전달아이템지정>
+                    <전달아이템지정>
+                        <아이템Id>81101</아이템Id>
+                        <전달수량>10</전달수량>
+                    </전달아이템지정>
+                </전달아이템지정>
+                <제한시간설정>
+                    <제한시간>0,10</제한시간>
+                </제한시간설정>
+                <채집물지정>
+                    <채집물지정>
+                        <콜렉션Id>544</콜렉션Id>
+                    </채집물지정>
+                </채집물지정>
+            </Body>
+            <Header>
+                <ContinentId>7031</ContinentId>
+                <Id>3</Id>
+                <JournalScript>2</JournalScript>
+                <Pos>24351,-18203,2011</Pos>
+                <다음Task>4</다음Task>
+                <이름>채집Task</이름>
+            </Header>
+        </Task>
+        <Task id="4">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>181,1018</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:18109012</저널Text>
+            </Body>
+            <Header>
+                <ContinentId>7031</ContinentId>
+                <Id>4</Id>
+                <JournalScript>3</JournalScript>
+                <Pos>20200,-22981,1574</Pos>
+                <다음Task>5</다음Task>
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+        <Task id="5">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>181,2064</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>1</보상>
+                <저널Text>@quest:18109014</저널Text>
+            </Body>
+            <Header>
+                <ContinentId>7031</ContinentId>
+                <Id>5</Id>
+                <JournalScript>5</JournalScript>
+                <Pos>16870,-22183,1998</Pos>
+                <다음Task />
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

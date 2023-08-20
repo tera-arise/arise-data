@@ -1,0 +1,16 @@
+<StackAttendanceEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/StackAttendanceEvent StackAttendanceEvent.xsd" resetHourString="@StackAttendanceEvent:2" xmlns="https://vezel.dev/novadrop/dc/StackAttendanceEvent">
+    <Button>
+        <ButtonToolTip buttonToolTip_1="@StackAttendanceEvent:500" />
+    </Button>
+    <CheckConditions>
+        <CheckCondition id="1" string="@StackAttendanceEvent:100" />
+        <CheckCondition id="2" string="@StackAttendanceEvent:101" />
+    </CheckConditions>
+    <IconTooltip tooltipAttended="@StackAttendanceEvent:11" tooltipNotAttended="@StackAttendanceEvent:10" />
+    <MainMenu notReceived="@StackAttendanceEvent:501" received="@StackAttendanceEvent:502" />
+    <RewardTypes>
+        <RewardType id="0" string="@StackAttendanceEvent:3" />
+        <RewardType id="1" string="@StackAttendanceEvent:4" />
+        <RewardType id="2" string="@StackAttendanceEvent:5" />
+    </RewardTypes>
+</StackAttendanceEvent>

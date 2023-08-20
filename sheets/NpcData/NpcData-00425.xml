@@ -1,0 +1,811 @@
+<NpcData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/NpcData NpcData.xsd" huntingZoneId="3037" xmlns="https://vezel.dev/novadrop/dc/NpcData">
+    <Template id="999" class="" name="명품관 상인(남)" scale="1" gender="male" race="Aman" size="medium" shapeId="500170" basicActionId="5001700" spawnScriptId="0" resourceSize="100" resourceType="medium" isWideBroadcaster="false" unionId="2" despawnScriptId="0" balanceType="" collideOnMove="false" dontTurn="false" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="false" showShorttermTarget="false" villager="true" villagerVolumeActiveRange="0" villagerVolumeHalfHeight="0" villagerVolumeInteractionDist="0" villagerVolumeOffset="">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="403799" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="40" atk="100" def="2000" maxHp="10000" />
+    </Template>
+    <Template id="1000" name="Baharr_1Phase" scale="1" gender="male" race="god" size="large" shapeId="303510" basicActionId="3035100" resourceSize="100" resourceType="large" isWideBroadcaster="true" parentId="30351000" elite="true" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="5" showAggroTarget="true" showShorttermTarget="true" showTargetInfo="false" speciesId="4" unionElite="false" useAutoTurnTime="true" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation>
+            <AltAnim type="run" altAnimName="ActiveMoveR_Loop" />
+            <AltAnim type="walk" altAnimName="ActiveMoveR_Loop" />
+            <AltAnim type="wait" altAnimName="Wait_R" />
+            <AltAnim type="unarmedwait" altAnimName="Wait_R" />
+            <AltAnim type="roundmove01" altAnimName="roundmove01" />
+            <AltAnim type="roundmove02" altAnimName="roundmove03" />
+            <AltAnim type="death" altAnimName="Death_R" />
+            <AltAnim type="deathwait" altAnimName="DeathWait_R" />
+        </AltAnimation>
+        <Anger gaugeSize="1008933125" />
+        <Emoticon forceHidden="true" />
+        <NamePlate nameplateHeight="35" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="73" atk="2000000" def="8960" maxHp="10089331250" />
+    </Template>
+    <Template id="1001" name="Baharr_1Phase_Scene" scale="1" gender="male" race="god" size="large" shapeId="303510" basicActionId="3035101" resourceSize="100" resourceType="large" isWideBroadcaster="true" elite="true" invincible="true" isFreeNamed="false" isIgnoreSelect="true" isObjectNpc="false" partyMember="5" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" speciesId="4" unionElite="false" useAutoTurnTime="true" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation>
+            <AltAnim type="run" altAnimName="ActiveMoveR_Loop" />
+            <AltAnim type="walk" altAnimName="ActiveMoveR_Loop" />
+            <AltAnim type="wait" altAnimName="Scene01_Sit" />
+            <AltAnim type="unarmedwait" altAnimName="Scene01_Sit" />
+            <AltAnim type="roundmove01" altAnimName="roundmove01" />
+            <AltAnim type="roundmove02" altAnimName="roundmove03" />
+            <AltAnim type="death" altAnimName="Death_R" />
+            <AltAnim type="deathwait" altAnimName="DeathWait_R" />
+        </AltAnimation>
+        <Anger gaugeSize="0" />
+        <Emoticon forceHidden="true" />
+        <NamePlate nameplateHeight="0" hideNameplate="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="1050" name="1페이즈_창기사 소환 마석" scale="1" gender="" race="" size="medium" shapeId="600960" basicActionId="6009600" resourceSize="0" resourceType="" parentId="60096000" balanceType="밸런싱 안함" deathShapeId="600961" elite="false" invincible="false" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <Anger gaugeSize="65100009" />
+        <BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="65" atk="62" def="143" maxHp="10" />
+    </Template>
+    <Template id="1051" name="1페이즈_창기사" scale="2" gender="male" race="Highelf" size="medium" shapeId="530510" basicActionId="5305100" resourceSize="100" resourceType="medium" parentId="53051000" balanceType="파티_중형" elite="false" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="true">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="1220479.92315681" />
+        <BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="73" atk="300000" def="8960" maxHp="99999999999" />
+    </Template>
+    <Template id="1052" name="1페이즈 사제 소환 마석" scale="1" gender="" race="" size="medium" shapeId="600962" basicActionId="6009600" resourceSize="0" resourceType="" parentId="60096200" balanceType="밸런싱 안함" deathShapeId="600965" elite="false" invincible="false" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <Anger gaugeSize="65100009" />
+        <BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+        <ObjectNpcAiParam>
+            <RepeatSkill />
+        </ObjectNpcAiParam>
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="65" atk="62" def="143" maxHp="10" />
+    </Template>
+    <Template id="1053" name="1페이즈 사제" scale="2" gender="female" race="Human" size="medium" shapeId="527020" basicActionId="5270200" resourceSize="100" resourceType="medium" parentId="52702000" balanceType="파티_중형" elite="false" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="true">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="1220479.92315681" />
+        <BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="73" atk="150000" def="9999999" maxHp="99999999999" />
+    </Template>
+    <Template id="1054" name="1페이즈 설명" scale="1" gender="" race="" size="medium" shapeId="600962" basicActionId="6009600" resourceSize="0" resourceType="" parentId="60096200" balanceType="밸런싱 안함" deathShapeId="600965" elite="false" invincible="false" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <Anger gaugeSize="65100009" />
+        <BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+        <ObjectNpcAiParam>
+            <RepeatSkill />
+        </ObjectNpcAiParam>
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="65" atk="62" def="143" maxHp="5000000" />
+    </Template>
+    <Template id="1100" name="Baharr_1Phase_TNPC_AggroController" scale="1" race="object" size="large" shapeId="680000" basicActionId="6800000" resourceSize="0" resourceType="" parentId="68000000" elite="false" invincible="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <Emoticon forceHidden="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="1101" name="Baharr_1Phase_TNPC_CameraFocus" scale="1" race="object" size="large" shapeId="680000" basicActionId="6800000" resourceSize="0" resourceType="" parentId="68000000" elite="false" invincible="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <Emoticon forceHidden="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="1501" name="Baharr_Sanctuary_Teleportal_Exit" scale="0.625" race="object" size="medium" shapeId="600920" basicActionId="200010" resourceSize="100" resourceType="medium" collideOnMove="true" dontTurn="true" elite="false" invincible="true" isObjectNpc="false" villager="true">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="0" def="0" maxHp="10000" />
+    </Template>
+    <Template id="1502" name="Baharr_Sanctuary_Teleportal_1Phase_TNPC" scale="1" race="object" size="medium" shapeId="680000" basicActionId="6800000" resourceSize="100" resourceType="medium" collideOnMove="true" dontTurn="true" elite="false" invincible="true" isObjectNpc="false" villager="true">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="0" hideNameplate="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="0" def="0" maxHp="10000" />
+    </Template>
+    <Template id="1503" name="Baharr_Sanctuary_Teleportal_2Phase_TNPC" scale="1" race="object" size="medium" shapeId="680000" basicActionId="6800000" resourceSize="100" resourceType="medium" collideOnMove="true" dontTurn="true" elite="false" invincible="true" isObjectNpc="false" villager="true">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <NamePlate nameplateHeight="0" hideNameplate="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="0" def="0" maxHp="10000" />
+    </Template>
+    <Template id="2000" name="Baharr_2Phase" scale="1" gender="male" race="god" size="large" shapeId="303520" basicActionId="3035200" resourceSize="100" resourceType="large" isWideBroadcaster="true" parentId="30352000" elite="true" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="5" showAggroTarget="true" showBalloonAlways="true" showShorttermTarget="true" showTargetInfo="false" speciesId="4" unionElite="false" useAutoTurnTime="true" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation>
+            <AltAnim type="run" altAnimName="ActiveMoveR_Loop" />
+            <AltAnim type="walk" altAnimName="ActiveMoveR_Loop" />
+            <AltAnim type="wait" altAnimName="Wait_R" />
+            <AltAnim type="unarmedwait" altAnimName="Wait_R" />
+            <AltAnim type="roundmove01" altAnimName="roundmove01" />
+            <AltAnim type="roundmove02" altAnimName="roundmove03" />
+            <AltAnim type="death" altAnimName="Death_R" />
+            <AltAnim type="deathwait" altAnimName="DeathWait_R" />
+        </AltAnimation>
+        <Anger gaugeSize="3008933125" />
+        <Emoticon forceHidden="true" />
+        <NamePlate nameplateHeight="0" hideNameplate="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="73" atk="1800000" def="8960" maxHp="30089331250" />
+    </Template>
+    <Template id="2001" name="Baharr_2Phase_Scene" scale="1" gender="male" race="god" size="large" shapeId="303510" basicActionId="3035200" resourceSize="100" resourceType="large" isWideBroadcaster="true" parentId="30352000" elite="true" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="5" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" speciesId="4" unionElite="false" useAutoTurnTime="true" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation>
+            <AltAnim type="run" altAnimName="ActiveMoveR_Loop" />
+            <AltAnim type="walk" altAnimName="ActiveMoveR_Loop" />
+            <AltAnim type="wait" altAnimName="Wait_R" />
+            <AltAnim type="unarmedwait" altAnimName="Wait_R" />
+            <AltAnim type="roundmove01" altAnimName="roundmove01" />
+            <AltAnim type="roundmove02" altAnimName="roundmove03" />
+            <AltAnim type="death" altAnimName="Death_R" />
+            <AltAnim type="deathwait" altAnimName="DeathWait_R" />
+        </AltAnimation>
+        <Anger gaugeSize="0" />
+        <Emoticon forceHidden="true" />
+        <NamePlate nameplateHeight="0" hideNameplate="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="2002" name="Baharr_2Phase_TEST" scale="1" gender="male" race="god" size="large" shapeId="303520" basicActionId="3035200" resourceSize="100" resourceType="large" isWideBroadcaster="true" parentId="30352000" elite="true" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="5" showAggroTarget="true" showBalloonAlways="true" showShorttermTarget="true" showTargetInfo="false" unionElite="false" useAutoTurnTime="true" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation>
+            <AltAnim type="run" altAnimName="ActiveMoveR_Loop" />
+            <AltAnim type="walk" altAnimName="ActiveMoveR_Loop" />
+            <AltAnim type="wait" altAnimName="Wait_R" />
+            <AltAnim type="unarmedwait" altAnimName="Wait_R" />
+            <AltAnim type="roundmove01" altAnimName="roundmove01" />
+            <AltAnim type="roundmove02" altAnimName="roundmove03" />
+            <AltAnim type="death" altAnimName="Death_R" />
+            <AltAnim type="deathwait" altAnimName="DeathWait_R" />
+        </AltAnimation>
+        <Anger gaugeSize="2007250000" />
+        <Emoticon forceHidden="true" />
+        <NamePlate nameplateHeight="0" hideNameplate="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="8960" maxHp="20072500000" />
+    </Template>
+    <Template id="2010" name="Baharr_2Phase_TNPC_RageController" scale="1" race="object" size="large" shapeId="680000" basicActionId="6800000" guideEffectId="0" resourceSize="0" resourceType="" parentId="68000000" elite="false" invincible="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <Emoticon forceHidden="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="2020" name="Baharr_2Phase_TNPC_WrathANDCancelDebuffController" scale="1" race="object" size="large" shapeId="680000" basicActionId="6800000" guideEffectId="0" resourceSize="0" resourceType="" parentId="68000000" elite="false" invincible="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <Emoticon forceHidden="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="2030" name="Baharr_2Phase_TNPC_ArdensStrike" scale="1" race="object" size="large" shapeId="680000" basicActionId="6800000" guideEffectId="44401" resourceSize="0" resourceType="" isWideBroadcaster="true" parentId="68000000" elite="false" invincible="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <Emoticon forceHidden="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="2050" name="2페이즈_창기사 소환 마석" scale="1" gender="" race="" size="medium" shapeId="600960" basicActionId="6009600" resourceSize="0" resourceType="" parentId="60096000" balanceType="밸런싱 안함" deathShapeId="600961" elite="false" invincible="false" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <Anger gaugeSize="65100009" />
+        <BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="65" atk="62" def="143" maxHp="10" />
+    </Template>
+    <Template id="2051" name="2페이즈_창기사" scale="2" gender="male" race="Highelf" size="medium" shapeId="530510" basicActionId="5305100" resourceSize="100" resourceType="medium" parentId="53051000" balanceType="파티_중형" elite="false" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="true">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="1220479.92315681" />
+        <BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="73" atk="390000" def="8960" maxHp="99999999999" />
+    </Template>
+    <Template id="2052" name="2페이즈 사제 소환 마석" scale="1" gender="" race="" size="medium" shapeId="600962" basicActionId="6009600" resourceSize="0" resourceType="" parentId="60096200" balanceType="밸런싱 안함" deathShapeId="600965" elite="false" invincible="false" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <Anger gaugeSize="65100009" />
+        <BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+        <ObjectNpcAiParam>
+            <RepeatSkill />
+        </ObjectNpcAiParam>
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="65" atk="62" def="143" maxHp="10" />
+    </Template>
+    <Template id="2053" name="2페이즈 사제" scale="2" gender="female" race="Human" size="medium" shapeId="527020" basicActionId="5270200" resourceSize="100" resourceType="medium" parentId="52702000" balanceType="파티_중형" elite="false" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="true">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="1220479.92315681" />
+        <BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="73" atk="150000" def="9999999" maxHp="99999999999" />
+    </Template>
+    <Template id="2054" name="2페이즈 설명" scale="1" gender="" race="" size="medium" shapeId="600962" basicActionId="6009600" resourceSize="0" resourceType="" parentId="60096200" balanceType="밸런싱 안함" deathShapeId="600965" elite="false" invincible="false" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <Anger gaugeSize="65100009" />
+        <BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
+        <ObjectNpcAiParam>
+            <RepeatSkill />
+        </ObjectNpcAiParam>
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="65" atk="62" def="143" maxHp="5000000" />
+    </Template>
+    <Template id="2100" name="Baharr_2Phase_TNPC_MagmaArea_1Lv" scale="1" race="object" size="large" shapeId="680000" basicActionId="6800000" resourceSize="0" resourceType="" isWideBroadcaster="true" parentId="68000000" elite="false" invincible="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <Emoticon forceHidden="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="2101" name="Baharr_2Phase_TNPC_MagmaArea_2Lv" scale="1" race="object" size="large" shapeId="680000" basicActionId="6800000" resourceSize="0" resourceType="" isWideBroadcaster="true" elite="false" invincible="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <Emoticon forceHidden="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="2102" name="Baharr_2Phase_TNPC_MagmaArea_3Lv" scale="1" race="object" size="large" shapeId="680000" basicActionId="6800000" resourceSize="0" resourceType="" isWideBroadcaster="true" elite="false" invincible="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <Emoticon forceHidden="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="2103" name="Baharr_2Phase_TNPC_MagmaArea_4Lv" scale="1" race="object" size="large" shapeId="680000" basicActionId="6800000" resourceSize="0" resourceType="" isWideBroadcaster="true" elite="false" invincible="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <Emoticon forceHidden="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="2104" name="Baharr_2Phase_TNPC_MagmaArea_5Lv" scale="1" race="object" size="large" shapeId="680000" basicActionId="6800000" resourceSize="0" resourceType="" isWideBroadcaster="true" elite="false" invincible="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <Emoticon forceHidden="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="2105" name="Baharr_2Phase_TNPC_MagmaArea_6Lv" scale="1" race="object" size="large" shapeId="680000" basicActionId="6800000" resourceSize="0" resourceType="" isWideBroadcaster="true" elite="false" invincible="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <Emoticon forceHidden="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="2200" name="Baharr_2Phase_TNPC_FlameWorriorController" scale="1" race="object" size="large" shapeId="680000" basicActionId="6800000" guideEffectId="0" resourceSize="0" resourceType="" parentId="68000000" elite="false" invincible="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <Emoticon forceHidden="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="2201" name="Baharr_2Phase_FlameWorrior" scale="2.5" gender="male" race="Dark_Bishop" size="large" shapeId="301514" basicActionId="3015101" spawnScriptId="30370001" resourceSize="100" resourceType="large" isWideBroadcaster="true" parentId="30151000" despawnScriptId="0" elite="true" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="5" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="true" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation>
+            <AltAnim type="run" altAnimName="walk" />
+        </AltAnimation>
+        <Anger gaugeSize="42000000" />
+        <Emoticon forceHidden="true" />
+        <NamePlate nameplateHeight="35" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="10000" maxHp="42000000" />
+    </Template>
+    <Template id="2202" name="Baharr_2Phase_TNPC_FlameWorriorMoveTarget" scale="1" race="object" size="large" shapeId="680000" basicActionId="6800000" guideEffectId="0" resourceSize="0" resourceType="" parentId="68000000" elite="false" invincible="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <Emoticon forceHidden="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="2400" name="Baharr_2Phase_TNPC_VolcanoEruptionFXController" scale="1" race="object" size="large" shapeId="680000" basicActionId="6800000" guideEffectId="0" resourceSize="0" resourceType="" isWideBroadcaster="true" parentId="68000000" elite="false" invincible="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <Emoticon forceHidden="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="2401" name="Baharr_2Phase_TNPC_VolcanoEruption" scale="1" race="object" size="large" shapeId="680000" basicActionId="6800000" guideEffectId="0" resourceSize="0" resourceType="" isWideBroadcaster="true" parentId="68000000" elite="false" invincible="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <Emoticon forceHidden="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="2500" name="Baharr_3Phase_TNPC_BaharrEyebeam" scale="1" race="object" size="large" shapeId="680000" basicActionId="6800000" guideEffectId="0" resourceSize="0" resourceType="" isWideBroadcaster="true" parentId="68000000" elite="false" invincible="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <Emoticon forceHidden="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="2501" name="Baharr_3Phase_TNPC_BaharrEyebeamController" scale="1" race="object" size="large" shapeId="680000" basicActionId="6800000" guideEffectId="0" resourceSize="0" resourceType="" parentId="68000000" elite="false" invincible="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <Emoticon forceHidden="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="3000" name="Baharr_SubNpc" scale="1" gender="male" race="object" size="large" shapeId="303530" basicActionId="3035300" resourceSize="100" resourceType="large" isWideBroadcaster="true" parentId="30353000" elite="false" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="5" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" smoothTurnTime="200" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation>
+            <AltAnim type="Run" altAnimName="activeMove_Loop" />
+            <AltAnim type="Walk" altAnimName="activeMove_Loop" />
+            <AltAnim type="Wait" altAnimName="Wait_02" />
+            <AltAnim type="unarmedWait" altAnimName="Wait_02" />
+        </AltAnimation>
+        <Anger gaugeSize="0" />
+        <Emoticon forceHidden="true" />
+        <NamePlate nameplateHeight="0" hideNameplate="true" />
+        <Reaction maxAdditionalGauge="1000000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="3001" name="Baharr_SubNpc_Scene" scale="1" gender="male" race="object" size="large" shapeId="303530" basicActionId="3035300" resourceSize="100" resourceType="large" isWideBroadcaster="true" parentId="30353000" elite="false" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="5" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" smoothTurnTime="200" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation>
+            <AltAnim type="Run" altAnimName="activeMove_Loop" />
+            <AltAnim type="Walk" altAnimName="activeMove_Loop" />
+            <AltAnim type="Wait" altAnimName="Wait_02" />
+            <AltAnim type="unarmedWait" altAnimName="Wait_02" />
+        </AltAnimation>
+        <Anger gaugeSize="0" />
+        <Emoticon forceHidden="true" />
+        <NamePlate nameplateHeight="0" hideNameplate="true" />
+        <Reaction maxAdditionalGauge="1000000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="5000" name="GuideQuest_Halrath01" scale="2" gender="male" race="god" size="medium" shapeId="532120" basicActionId="5321201" resourceSize="200" resourceType="medium" elite="false" invincible="true" isObjectNpc="false" unionElite="false" villager="true">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <NamePlate nameplateHeight="35" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="0" def="0" maxHp="10000" />
+    </Template>
+    <Template id="5001" name="GuideQuest_BalderSymbol_Broken" scale="1" gender="male" race="object" size="medium" shapeId="600108" basicActionId="6001080" resourceSize="250" resourceType="medium" parentId="600108000" collideOnMove="true" dontTurn="true" elite="false" invincible="true" isObjectNpc="false" unionElite="false" villager="true">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="0" def="0" maxHp="10000" />
+    </Template>
+    <Template id="5002" name="GuideQuest_Halrath02" scale="2" gender="male" race="god" size="medium" shapeId="532120" basicActionId="5321201" resourceSize="200" resourceType="medium" elite="false" invincible="true" isObjectNpc="false" unionElite="false" villager="true">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <NamePlate nameplateHeight="35" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="0" def="0" maxHp="10000" />
+    </Template>
+    <Template id="6000" name="Baharr_Sanctuary_TNPC_GateController" scale="1" race="object" size="large" shapeId="680000" basicActionId="6800000" guideEffectId="0" resourceSize="0" resourceType="" parentId="68000000" elite="false" invincible="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <Emoticon forceHidden="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="6001" name="Baharr_Sanctuary_Gate_1st" scale="1" race="object" size="large" shapeId="600000" basicActionId="6000000" resourceSize="100" isWideBroadcaster="true" parentId="60000000" cameraPenetratable="true" cannotPassThrough="true" dontTurn="true" invincible="false" isIgnoreSelect="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation>
+            <AltAnim type="run" altAnimName="Closed" />
+            <AltAnim type="walk" altAnimName="Closed" />
+            <AltAnim type="wait" altAnimName="Closed" />
+            <AltAnim type="unarmedWait" altAnimName="Closed" />
+            <AltAnim type="roundmove01" altAnimName="Closed" />
+            <AltAnim type="roundmove02" altAnimName="Closed" />
+            <AltAnim type="death" altAnimName="Closed" />
+            <AltAnim type="deathwait" altAnimName="Closed" />
+        </AltAnimation>
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <NamePlate nameplateHeight="0" hideNameplate="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="6002" name="Baharr_Sanctuary_Gate_2nd" scale="1" race="object" size="large" shapeId="600000" basicActionId="6000000" resourceSize="100" isWideBroadcaster="true" cameraPenetratable="true" cannotPassThrough="true" dontTurn="true" invincible="false" isIgnoreSelect="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation>
+            <AltAnim type="run" altAnimName="Closed" />
+            <AltAnim type="walk" altAnimName="Closed" />
+            <AltAnim type="wait" altAnimName="Closed" />
+            <AltAnim type="unarmedWait" altAnimName="Closed" />
+            <AltAnim type="roundmove01" altAnimName="Closed" />
+            <AltAnim type="roundmove02" altAnimName="Closed" />
+            <AltAnim type="death" altAnimName="Closed" />
+            <AltAnim type="deathwait" altAnimName="Closed" />
+        </AltAnimation>
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <NamePlate nameplateHeight="0" hideNameplate="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="6003" name="Baharr_Sanctuary_Gate_3rd" scale="1" race="object" size="large" shapeId="600000" basicActionId="6000000" resourceSize="100" isWideBroadcaster="true" cameraPenetratable="true" cannotPassThrough="true" dontTurn="true" invincible="false" isIgnoreSelect="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation>
+            <AltAnim type="run" altAnimName="Closed" />
+            <AltAnim type="walk" altAnimName="Closed" />
+            <AltAnim type="wait" altAnimName="Closed" />
+            <AltAnim type="unarmedWait" altAnimName="Closed" />
+            <AltAnim type="roundmove01" altAnimName="Closed" />
+            <AltAnim type="roundmove02" altAnimName="Closed" />
+            <AltAnim type="death" altAnimName="Closed" />
+            <AltAnim type="deathwait" altAnimName="Closed" />
+        </AltAnimation>
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <NamePlate nameplateHeight="0" hideNameplate="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="6004" name="Baharr_Sanctuary_Gate_4th" scale="1" race="object" size="large" shapeId="600000" basicActionId="6000000" resourceSize="100" isWideBroadcaster="true" cameraPenetratable="true" cannotPassThrough="true" dontTurn="true" invincible="false" isIgnoreSelect="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation>
+            <AltAnim type="run" altAnimName="Closed" />
+            <AltAnim type="walk" altAnimName="Closed" />
+            <AltAnim type="wait" altAnimName="Closed" />
+            <AltAnim type="unarmedWait" altAnimName="Closed" />
+            <AltAnim type="roundmove01" altAnimName="Closed" />
+            <AltAnim type="roundmove02" altAnimName="Closed" />
+            <AltAnim type="death" altAnimName="Closed" />
+            <AltAnim type="deathwait" altAnimName="Closed" />
+        </AltAnimation>
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <NamePlate nameplateHeight="0" hideNameplate="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="6005" name="Baharr_Sanctuary_TNPC_GateCylinder" scale="1" race="object" size="large" shapeId="680000" basicActionId="6800001" resourceSize="0" resourceType="" parentId="68000000" cannotPassThrough="true" collideOnMove="true" elite="false" invincible="true" isIgnoreSelect="true" isObjectNpc="true" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="true">
+        <AbnormalityResistanceOverride>
+            <Abnormality />
+            <Abnormality />
+            <Abnormality />
+        </AbnormalityResistanceOverride>
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <Emoticon forceHidden="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="6006" name="Baharr_Sanctuary_Gate_NonWideBroadCaster" scale="1" race="object" size="large" shapeId="600000" basicActionId="6000000" resourceSize="100" isWideBroadcaster="false" parentId="60000000" cannotPassThrough="true" dontTurn="true" invincible="true" isIgnoreSelect="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation>
+            <AltAnim type="run" altAnimName="Opened" />
+            <AltAnim type="walk" altAnimName="Opened" />
+            <AltAnim type="wait" altAnimName="Opened" />
+            <AltAnim type="unarmedWait" altAnimName="Opened" />
+            <AltAnim type="roundmove01" altAnimName="Opened" />
+            <AltAnim type="roundmove02" altAnimName="Opened" />
+            <AltAnim type="death" altAnimName="Opened" />
+            <AltAnim type="deathwait" altAnimName="Opened" />
+        </AltAnimation>
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <NamePlate nameplateHeight="0" hideNameplate="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="6007" name="Baharr_Sanctuary_Gate_4th_Substitution" scale="1" race="object" size="large" shapeId="600000" basicActionId="6000000" resourceSize="100" isWideBroadcaster="true" parentId="60000000" cannotPassThrough="true" dontTurn="true" invincible="true" isIgnoreSelect="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation>
+            <AltAnim type="run" altAnimName="Opened" />
+            <AltAnim type="walk" altAnimName="Opened" />
+            <AltAnim type="wait" altAnimName="Opened" />
+            <AltAnim type="unarmedWait" altAnimName="Opened" />
+            <AltAnim type="roundmove01" altAnimName="Opened" />
+            <AltAnim type="roundmove02" altAnimName="Opened" />
+            <AltAnim type="death" altAnimName="Opened" />
+            <AltAnim type="deathwait" altAnimName="Opened" />
+        </AltAnimation>
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <NamePlate nameplateHeight="0" hideNameplate="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="6008" name="Baharr_Sanctuary_Gate_4th_Closed" scale="1" race="object" size="large" shapeId="600000" basicActionId="6000000" resourceSize="100" isWideBroadcaster="true" parentId="60000000" cameraPenetratable="true" cannotPassThrough="true" dontTurn="true" invincible="true" isIgnoreSelect="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation>
+            <AltAnim type="run" altAnimName="Opened" />
+            <AltAnim type="walk" altAnimName="Opened" />
+            <AltAnim type="wait" altAnimName="Opened" />
+            <AltAnim type="unarmedWait" altAnimName="Opened" />
+            <AltAnim type="roundmove01" altAnimName="Opened" />
+            <AltAnim type="roundmove02" altAnimName="Opened" />
+            <AltAnim type="death" altAnimName="Opened" />
+            <AltAnim type="deathwait" altAnimName="Opened" />
+        </AltAnimation>
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <NamePlate nameplateHeight="0" hideNameplate="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="6009" name="Baharr_Sanctuary_Gate_4th_AutoOpening" scale="1" race="object" size="large" shapeId="600000" basicActionId="6000000" resourceSize="100" isWideBroadcaster="true" parentId="60000000" cannotPassThrough="true" dontTurn="true" invincible="false" isIgnoreSelect="true" isObjectNpc="false" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation>
+            <AltAnim type="run" altAnimName="Closed" />
+            <AltAnim type="walk" altAnimName="Closed" />
+            <AltAnim type="wait" altAnimName="Closed" />
+            <AltAnim type="unarmedWait" altAnimName="Closed" />
+            <AltAnim type="roundmove01" altAnimName="Closed" />
+            <AltAnim type="roundmove02" altAnimName="Closed" />
+            <AltAnim type="death" altAnimName="Closed" />
+            <AltAnim type="deathwait" altAnimName="Closed" />
+        </AltAnimation>
+        <Anger gaugeSize="0" />
+        <BalanceRef ignoreAttr="" />
+        <Emoticon forceHidden="true" />
+        <NamePlate nameplateHeight="0" hideNameplate="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="70" atk="10000000" def="1000000000" maxHp="1000000000" />
+    </Template>
+    <Template id="7000" name="Baharr_Sanctuary_1PhaseCompensationBox" scale="2" gender="male" race="NPC_TreasureBox01" size="large" shapeId="710030" basicActionId="7100300" resourceSize="100" resourceType="" parentId="71003000" elite="false" invincible="false" isObjectNpc="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <AltAnimation />
+        <Anger gaugeSize="0" />
+        <ObjectNpcAiParam>
+            <RepeatSkill />
+        </ObjectNpcAiParam>
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="68" atk="100" def="8960" maxHp="500000" />
+    </Template>
+    <Template id="7001" name="사제 버프" scale="1" size="medium" shapeId="600962" basicActionId="6009600" parentId="60096200" balanceType="" deathShapeId="600965" elite="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <Aggro />
+        <Anger gaugeSize="102890.796875" />
+        <BalanceRef ignoreAttr="" />
+        <ObjectNpcAiParam>
+            <RepeatSkill />
+        </ObjectNpcAiParam>
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="54" atk="265" def="2338" maxHp="0" />
+    </Template>
+    <Template id="7002" name="정령 버프" scale="1" size="medium" shapeId="600963" basicActionId="6009600" parentId="60096300" balanceType="" deathShapeId="600966" elite="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+        <Aggro />
+        <Anger gaugeSize="102890.796875" />
+        <BalanceRef ignoreAttr="" />
+        <ObjectNpcAiParam>
+            <RepeatSkill />
+        </ObjectNpcAiParam>
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="54" atk="265" def="2338" maxHp="0" />
+    </Template>
+</NpcData>

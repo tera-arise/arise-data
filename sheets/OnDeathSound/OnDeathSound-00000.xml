@@ -1,0 +1,10 @@
+<OnDeathSound xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/OnDeathSound OnDeathSound.xsd" xmlns="https://vezel.dev/novadrop/dc/OnDeathSound">
+    <Status string="Lower" bgmVolume="0.3">
+        <Sound music="InterfaceSound.Screen.PC_Death_01StartCue" />
+        <Sound music="InterfaceSound.Screen.PC_Death_02LoopCue" />
+    </Status>
+    <Status string="OnDeath" bgmVolume="1">
+        <BGM fadeTime="1" music="Event.Pc_Death_Cue.Pc_Death" />
+        <Sound music="InterfaceSound.Screen.PC_Death_03EndCue" />
+    </Status>
+</OnDeathSound>

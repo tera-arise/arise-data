@@ -1,0 +1,40 @@
+<S1ActionScripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/S1ActionScripts S1ActionScripts.xsd" type="Skill" xmlns="https://vezel.dev/novadrop/dc/S1ActionScripts">
+    <Script id="51160" enableInput="false" playingTime="0">
+        <Action time="0" type="PostProcess" on="true" postprocessSet="5">
+            <Action time="0" type="PostProcessMaterial" duration="500" from="0" to="1" param="Strength" postprocessSet="5">
+                <Action time="500" type="PostProcessMaterial" duration="2000" from="1" to="2" param="Strength" postprocessSet="5">
+                    <Action time="2000" type="PostProcess" on="true" postprocessSet="5">
+                        <Action time="2000" type="PostProcessMaterial" duration="2000" from="2" to="0" param="Strength" postprocessSet="5" />
+                    </Action>
+                </Action>
+            </Action>
+        </Action>
+        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="5" />
+    </Script>
+    <Script id="1185000">
+        <Action time="0" type="CameraFocus" templateId="5000" on="true" huntingZoneId="118" />
+        <Action time="0" type="animation" animName="Death" rate="1.5" />
+        <Action time="3000" type="CameraFocus" templateId="5000" on="false" huntingZoneId="118" />
+    </Script>
+    <Script id="1185001">
+        <Action time="0" type="CameraFocus" templateId="5001" on="true" huntingZoneId="118" />
+        <Action time="0" type="animation" animName="Death" rate="1.5" />
+        <Action time="3000" type="CameraFocus" templateId="5001" on="false" huntingZoneId="118" />
+    </Script>
+    <Script id="1186000">
+        <Action time="0" type="animation" animName="Death" rate="1.5" />
+    </Script>
+    <Script id="1188000">
+        <Action time="0" type="CameraFocus" templateId="8000" on="true" huntingZoneId="118" />
+        <Action time="0" type="animation" animName="Death" rate="1.5" />
+        <Action time="3000" type="CameraFocus" templateId="8000" on="false" huntingZoneId="118" />
+    </Script>
+    <Script id="1188001">
+        <Action time="0" type="CameraFocus" templateId="8001" on="true" huntingZoneId="118" />
+        <Action time="0" type="animation" animName="Death" rate="1.5" />
+        <Action time="3000" type="CameraFocus" templateId="8001" on="false" huntingZoneId="118" />
+    </Script>
+    <Script id="1189000">
+        <Action time="0" type="animation" animName="Death" rate="1.5" />
+    </Script>
+</S1ActionScripts>

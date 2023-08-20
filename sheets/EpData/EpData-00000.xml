@@ -1,0 +1,38 @@
+<EpData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/EpData EpData.xsd" titleText="1" isSystemOn="true" maxEp="500" maxEpLevel="443" xmlns="https://vezel.dev/novadrop/dc/EpData">
+    <CommonPerkSkillInfo iconName="Icon_Status.plusmove_Tex" />
+    <EPWindowTabInfo>
+        <TabInfo index="0" iconAttrList="0,1,2,3,4,5,6" />
+        <TabInfo index="1" iconAttrList="0" />
+        <TabInfo index="2" iconAttrList="1" />
+        <TabInfo index="3" iconAttrList="2" />
+        <TabInfo index="4" iconAttrList="3" />
+        <TabInfo index="5" iconAttrList="4,5,6" />
+    </EPWindowTabInfo>
+    <EpPageData cost="5000000" maxPage="5" />
+    <ExpEffectList>
+        <ExpEffect from="0" to="5">
+            <Effect effectId="8200" />
+        </ExpEffect>
+        <ExpEffect from="5" to="20">
+            <Effect effectId="8201" />
+        </ExpEffect>
+        <ExpEffect from="20" to="100">
+            <Effect effectId="8202" />
+            <Effect effectId="8203" />
+        </ExpEffect>
+    </ExpEffectList>
+    <ExpUpdateDelay delay="0.5" />
+    <LevelUpEffect>
+        <Effect effectId="7222">
+            <Texture name="Icon_Ep.EpLv_0000_Tex" maxEpLevel="9" epGrade="0" minEpLevel="0" parameter="Tex" />
+            <Texture name="Icon_Ep.EpLv_0010_Tex" maxEpLevel="19" epGrade="1" minEpLevel="10" parameter="Tex" />
+            <Texture name="Icon_Ep.EpLv_0020_Tex" maxEpLevel="29" epGrade="2" minEpLevel="20" parameter="Tex" />
+            <Texture name="Icon_Ep.EpLv_0030_Tex" maxEpLevel="39" epGrade="3" minEpLevel="30" parameter="Tex" />
+            <Texture name="Icon_Ep.EpLv_0040_Tex" maxEpLevel="49" epGrade="4" minEpLevel="40" parameter="Tex" />
+            <Texture name="Icon_Ep.EpLv_0050_Tex" maxEpLevel="442" epGrade="5" minEpLevel="50" parameter="Tex" />
+        </Effect>
+        <Effect effectId="5329">
+            <Texture maxEpLevel="999" epGrade="5" minEpLevel="443" />
+        </Effect>
+    </LevelUpEffect>
+</EpData>

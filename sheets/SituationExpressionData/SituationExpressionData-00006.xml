@@ -1,0 +1,24 @@
+<SituationExpressionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/SituationExpressionData SituationExpressionData.xsd" xmlns="https://vezel.dev/novadrop/dc/SituationExpressionData">
+    <Data id="200101" type="Player" tutorial="false">
+        <ConditionInfo>
+            <ConditionList>
+                <QuestCondition type="Progress" questId="200102" taskId="8" />
+                <SearchCondition type="Creature" templateId="20201" huntingZoneId="2001" checkInterval="500" maxDistance="500" minDistance="1" haveMarker="" maxNumber="1" minNumber="1" />
+            </ConditionList>
+        </ConditionInfo>
+        <JobInfo>
+            <ActionScriptJob id="20010207" type="OnlyOnce" />
+        </JobInfo>
+    </Data>
+    <Data id="200102" type="Player" tutorial="false">
+        <ConditionInfo>
+            <ConditionList>
+                <QuestCondition type="Progress" questId="200101" taskId="4" />
+                <SearchCondition type="Creature" templateId="20302" huntingZoneId="2001" checkInterval="500" maxDistance="500" minDistance="1" haveMarker="" maxNumber="1" minNumber="1" />
+            </ConditionList>
+        </ConditionInfo>
+        <JobInfo>
+            <ActionScriptJob id="20010103" type="OnlyOnce" />
+        </JobInfo>
+    </Data>
+</SituationExpressionData>

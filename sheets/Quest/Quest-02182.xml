@@ -1,0 +1,92 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="250001" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>2500,1</Quest번호>
+        <Quest제목>@quest:250001001</Quest제목>
+        <반복퀘스트>1회성</반복퀘스트>
+        <발생조건>
+            <NPC대화>2500,100</NPC대화>
+            <테리토리진입>2500,250000002</테리토리진입>
+        </발생조건>
+        <수행조건>
+            <최소레벨>1</최소레벨>
+        </수행조건>
+        <수행지역>2500</수행지역>
+        <스토리그룹Id>2500</스토리그룹Id>
+        <요약정보>2</요약정보>
+        <집회소분류 />
+        <추가보상 />
+        <퀘스트종류>중요미션</퀘스트종류>
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <목표지역>2500,250000005</목표지역>
+                <저널Text>@quest:250001004</저널Text>
+                <제한시간>0,0</제한시간>
+                <지역명>@quest:250001002</지역명>
+            </Body>
+            <Header>
+                <ContinentId>2500</ContinentId>
+                <Id>1</Id>
+                <JournalScript>1</JournalScript>
+                <Pos />
+                <다음Task>2</다음Task>
+                <이름>PC이동Task</이름>
+            </Header>
+        </Task>
+        <Task id="2">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>2500,100</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:250001006</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>2</Id>
+                <JournalScript>1</JournalScript>
+                <Pos />
+                <다음Task>3</다음Task>
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+        <Task id="3">
+            <Body>
+                <목표지역>2500,250000008</목표지역>
+                <저널Text>@quest:250001008</저널Text>
+                <제한시간>0,0</제한시간>
+                <지역명>@quest:250001007</지역명>
+            </Body>
+            <Header>
+                <ContinentId>2500</ContinentId>
+                <Id>3</Id>
+                <JournalScript>3</JournalScript>
+                <Pos />
+                <다음Task>4</다음Task>
+                <이름>PC이동Task</이름>
+            </Header>
+        </Task>
+        <Task id="4">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>2500,120</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:250001010</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>4</Id>
+                <JournalScript>3</JournalScript>
+                <Pos />
+                <다음Task />
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

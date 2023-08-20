@@ -1,0 +1,746 @@
+<HeroData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/HeroData HeroData.xsd" huntingZoneId="0" xmlns="https://vezel.dev/novadrop/dc/HeroData">
+    <Template id="20100" class="hero" desc="브라가" gender="male" race="baraka" basicActionId="20100" classType="1" deathEffectId="5383" defaultSkinId="20100" heroSkinGroup="20100,20101,20102" iconResource="0" referenceClass="lancer" staminaType="1" thumbnailPath="Icon_Hero.Icon_Hero_Braga_20100_face_Tex" useStack="false">
+        <CombatPropensity attack="30" crowdControl="60" move="20" operationDifficulty="40" survival="100" />
+        <DefaultShortcutData>
+            <Shortcut id="8900" type="Skill" column="0" line="0" inputString="950028" sequence="8" />
+            <Shortcut id="9000" type="Skill" column="1" line="0" inputString="950029" sequence="9" />
+            <Shortcut id="1000" type="Skill" column="24" line="0" inputString="950026" sequence="6" />
+            <Shortcut id="2000" type="Skill" column="25" line="0" inputString="950027" sequence="7" />
+            <Shortcut id="3000" type="Skill" column="21" line="0" inputString="950024" sequence="4" />
+            <Shortcut id="8500" type="Skill" column="22" line="0" inputString="950025" sequence="5" />
+            <Shortcut id="4000" type="Skill" column="6" line="0" inputString="950020" sequence="0" />
+            <Shortcut id="5000" type="Skill" column="7" line="0" inputString="950021" sequence="1" />
+            <Shortcut id="6000" type="Skill" column="8" line="0" inputString="950022" sequence="2" />
+            <Shortcut id="7000" type="Skill" column="9" line="0" inputString="950023" sequence="3" />
+        </DefaultShortcutData>
+        <DefaultSkillList activeSkillIdList="1000,2000,3000,4000,5000,6000,7000,8000,8500,8900,9000,9001,9002,9003,9004,9005" passiveSkillIdList="1020002,1020003,1020100,1020101" />
+        <ManaPoint recoveryStartTime="100" />
+        <NamePlate nameplateHeight="10" deathNameplateHeight="0" />
+        <RangeAtkSkillList>
+            <RangeAtkSkill id="1000" lv="0" />
+        </RangeAtkSkillList>
+        <Reaction maxAdditionalGauge="400" />
+        <Stat atk="34" def="151" attackSpeed="145" runSpeed="182" walkSpeed="50" />
+        <StatByLevelTable>
+            <StatByLevel level="1" />
+            <StatByLevel level="2" atk="40" def="160" />
+            <StatByLevel level="3" atk="46" def="169" />
+            <StatByLevel level="4" atk="52" def="178" />
+            <StatByLevel level="5" atk="58" def="187" />
+            <StatByLevel level="6" atk="64" def="196" />
+            <StatByLevel level="7" atk="70" def="205" />
+            <StatByLevel level="8" atk="76" def="214" />
+            <StatByLevel level="9" atk="82" def="223" />
+            <StatByLevel level="10" atk="88" def="232" />
+        </StatByLevelTable>
+    </Template>
+    <Template id="20200" class="hero" desc="길버트 그레이스" gender="male" race="human" basicActionId="20200" classType="1" deathEffectId="5383" defaultSkinId="20200" heroSkinGroup="20200,20201,20202" iconResource="0" referenceClass="lancer" staminaType="1" thumbnailPath="Icon_Hero.Icon_Hero_Dougal_20200_face_Tex" useStack="false">
+        <CombatPropensity attack="50" crowdControl="50" move="40" operationDifficulty="40" survival="50" />
+        <DefaultShortcutData>
+            <Shortcut id="8900" type="Skill" column="0" line="0" inputString="950028" sequence="8" />
+            <Shortcut id="9000" type="Skill" column="1" line="0" inputString="950029" sequence="9" />
+            <Shortcut id="1000" type="Skill" column="24" line="0" inputString="950026" sequence="6" />
+            <Shortcut id="2000" type="Skill" column="25" line="0" inputString="950027" sequence="7" />
+            <Shortcut id="3000" type="Skill" column="21" line="0" inputString="950024" sequence="4" />
+            <Shortcut id="8500" type="Skill" column="22" line="0" inputString="950025" sequence="5" />
+            <Shortcut id="4000" type="Skill" column="6" line="0" inputString="950020" sequence="0" />
+            <Shortcut id="5000" type="Skill" column="7" line="0" inputString="950021" sequence="1" />
+            <Shortcut id="6000" type="Skill" column="8" line="0" inputString="950022" sequence="2" />
+            <Shortcut id="7000" type="Skill" column="9" line="0" inputString="950023" sequence="3" />
+        </DefaultShortcutData>
+        <DefaultSkillList activeSkillIdList="1000,2000,3000,4000,5000,6000,7000,8000,8500,8900,9000,9001,9002,9003,9004,9005" passiveSkillIdList="1020005,1020003" />
+        <ManaPoint recoveryStartTime="100" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <RangeAtkSkillList>
+            <RangeAtkSkill id="1000" lv="0" />
+        </RangeAtkSkillList>
+        <Reaction maxAdditionalGauge="400" />
+        <Stat atk="34" def="151" attackSpeed="145" runSpeed="182" walkSpeed="50" />
+        <StatByLevelTable>
+            <StatByLevel level="1" />
+            <StatByLevel level="2" atk="40" def="160" />
+            <StatByLevel level="3" atk="46" def="169" />
+            <StatByLevel level="4" atk="52" def="178" />
+            <StatByLevel level="5" atk="58" def="187" />
+            <StatByLevel level="6" atk="64" def="196" />
+            <StatByLevel level="7" atk="70" def="205" />
+            <StatByLevel level="8" atk="76" def="214" />
+            <StatByLevel level="9" atk="82" def="223" />
+            <StatByLevel level="10" atk="88" def="232" />
+        </StatByLevelTable>
+    </Template>
+    <Template id="20300" class="hero" desc="로도스" gender="male" race="human" basicActionId="20300" classType="2" deathEffectId="5383" defaultSkinId="20300" heroSkinGroup="20300,20301,20302" iconResource="0" referenceClass="fighter" staminaType="3" thumbnailPath="Icon_Hero.Icon_Hero_Rhodos_20300_face_Tex" useStack="false">
+        <CombatPropensity attack="70" crowdControl="50" move="50" operationDifficulty="30" survival="20" />
+        <DefaultShortcutData>
+            <Shortcut id="8900" type="Skill" column="0" line="0" inputString="950028" sequence="8" />
+            <Shortcut id="9000" type="Skill" column="1" line="0" inputString="950029" sequence="9" />
+            <Shortcut id="1000" type="Skill" column="24" line="0" inputString="950026" sequence="6" />
+            <Shortcut id="2000" type="Skill" column="25" line="0" inputString="950027" sequence="7" />
+            <Shortcut id="3000" type="Skill" column="21" line="0" inputString="950024" sequence="4" />
+            <Shortcut id="8500" type="Skill" column="22" line="0" inputString="950025" sequence="5" />
+            <Shortcut id="4000" type="Skill" column="6" line="0" inputString="950020" sequence="0" />
+            <Shortcut id="5000" type="Skill" column="7" line="0" inputString="950021" sequence="1" />
+            <Shortcut id="6000" type="Skill" column="8" line="0" inputString="950022" sequence="2" />
+            <Shortcut id="7000" type="Skill" column="9" line="0" inputString="950023" sequence="3" />
+        </DefaultShortcutData>
+        <DefaultSkillList activeSkillIdList="1000,2000,3000,4000,5000,6000,7000,8000,8500,8900,9000,9001,9002,9003,9004,9005" passiveSkillIdList="1020003" />
+        <ManaPoint recoveryStartTime="16" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <RangeAtkSkillList>
+            <RangeAtkSkill id="1000" lv="0" />
+        </RangeAtkSkillList>
+        <Reaction maxAdditionalGauge="400" />
+        <Stat atk="34" def="151" attackSpeed="115" runSpeed="182" walkSpeed="50" />
+        <StatByLevelTable>
+            <StatByLevel level="1" />
+            <StatByLevel level="2" atk="40" def="160" />
+            <StatByLevel level="3" atk="46" def="169" />
+            <StatByLevel level="4" atk="52" def="178" />
+            <StatByLevel level="5" atk="58" def="187" />
+            <StatByLevel level="6" atk="64" def="196" />
+            <StatByLevel level="7" atk="70" def="205" />
+            <StatByLevel level="8" atk="76" def="214" />
+            <StatByLevel level="9" atk="82" def="223" />
+            <StatByLevel level="10" atk="88" def="232" />
+        </StatByLevelTable>
+    </Template>
+    <Template id="20400" class="hero" desc="프레이아 로헨" gender="female" race="highelf" basicActionId="20400" classType="2" deathEffectId="5383" defaultSkinId="20400" heroSkinGroup="20400,20401,20402,20403" iconResource="0" referenceClass="lancer" staminaType="1" thumbnailPath="Icon_Hero.Icon_Hero_Fraya_20400_face_Tex" useStack="false">
+        <CombatPropensity attack="60" crowdControl="40" move="30" operationDifficulty="40" survival="50" />
+        <DefaultShortcutData>
+            <Shortcut id="8900" type="Skill" column="0" line="0" inputString="950028" sequence="8" />
+            <Shortcut id="9000" type="Skill" column="1" line="0" inputString="950029" sequence="9" />
+            <Shortcut id="1000" type="Skill" column="24" line="0" inputString="950026" sequence="6" />
+            <Shortcut id="2000" type="Skill" column="25" line="0" inputString="950027" sequence="7" />
+            <Shortcut id="3000" type="Skill" column="21" line="0" inputString="950024" sequence="4" />
+            <Shortcut id="8500" type="Skill" column="22" line="0" inputString="950025" sequence="5" />
+            <Shortcut id="4000" type="Skill" column="6" line="0" inputString="950020" sequence="0" />
+            <Shortcut id="5000" type="Skill" column="7" line="0" inputString="950021" sequence="1" />
+            <Shortcut id="6000" type="Skill" column="8" line="0" inputString="950022" sequence="2" />
+            <Shortcut id="7000" type="Skill" column="9" line="0" inputString="950023" sequence="3" />
+        </DefaultShortcutData>
+        <DefaultSkillList activeSkillIdList="1000,2000,3000,4000,5000,6000,7000,8000,8500,8900,9000,9001,9002,9003,9004,9005" passiveSkillIdList="1020004,1020003,1020400,1020401,1020402" />
+        <ManaPoint recoveryStartTime="100" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <RangeAtkSkillList>
+            <RangeAtkSkill id="1000" lv="0" />
+        </RangeAtkSkillList>
+        <Reaction maxAdditionalGauge="400" />
+        <Stat atk="34" def="151" attackSpeed="145" runSpeed="182" walkSpeed="50" />
+        <StatByLevelTable>
+            <StatByLevel level="1" />
+            <StatByLevel level="2" atk="40" def="160" />
+            <StatByLevel level="3" atk="46" def="169" />
+            <StatByLevel level="4" atk="52" def="178" />
+            <StatByLevel level="5" atk="58" def="187" />
+            <StatByLevel level="6" atk="64" def="196" />
+            <StatByLevel level="7" atk="70" def="205" />
+            <StatByLevel level="8" atk="76" def="214" />
+            <StatByLevel level="9" atk="82" def="223" />
+            <StatByLevel level="10" atk="88" def="232" />
+        </StatByLevelTable>
+    </Template>
+    <Template id="20500" class="hero" desc="엘리온 쿠벨" gender="male" race="highelf" basicActionId="20500" classType="3" deathEffectId="5383" defaultSkinId="20500" heroSkinGroup="20500,20501,20502" iconResource="Icon_Servants.Pet_Watermelon_Tex" promotionHero="true" referenceClass="warrior" staminaType="1" thumbnailPath="Icon_Hero.Icon_Hero_Elleon_20500_face_Tex" useStack="true">
+        <CombatPropensity attack="70" crowdControl="10" move="40" operationDifficulty="70" survival="30" />
+        <DefaultShortcutData>
+            <Shortcut id="8900" type="Skill" column="0" line="0" inputString="950028" sequence="8" />
+            <Shortcut id="9000" type="Skill" column="1" line="0" inputString="950029" sequence="9" />
+            <Shortcut id="1000" type="Skill" column="24" line="0" inputString="950026" sequence="6" />
+            <Shortcut id="2000" type="Skill" column="25" line="0" inputString="950027" sequence="7" />
+            <Shortcut id="3000" type="Skill" column="21" line="0" inputString="950024" sequence="4" />
+            <Shortcut id="8500" type="Skill" column="22" line="0" inputString="950025" sequence="5" />
+            <Shortcut id="4000" type="Skill" column="6" line="0" inputString="950020" sequence="0" />
+            <Shortcut id="5000" type="Skill" column="7" line="0" inputString="950021" sequence="1" />
+            <Shortcut id="6000" type="Skill" column="8" line="0" inputString="950022" sequence="2" />
+            <Shortcut id="7000" type="Skill" column="9" line="0" inputString="950023" sequence="3" />
+        </DefaultShortcutData>
+        <DefaultSkillList activeSkillIdList="1000,2000,3000,4000,5000,6000,7000,8000,8500,8900,9000,9001,9002,9003,9004,9005" passiveSkillIdList="1020003,1020500" />
+        <ManaPoint recoveryStartTime="100" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <RangeAtkSkillList>
+            <RangeAtkSkill id="1000" lv="0" />
+        </RangeAtkSkillList>
+        <Reaction maxAdditionalGauge="400" />
+        <StackSystem>
+            <Warrior maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" periodSecondBeforeBlink="5000" />
+        </StackSystem>
+        <Stat atk="34" def="151" attackSpeed="145" runSpeed="189" walkSpeed="50" />
+        <StatByLevelTable>
+            <StatByLevel level="1" />
+            <StatByLevel level="2" atk="40" def="160" />
+            <StatByLevel level="3" atk="46" def="169" />
+            <StatByLevel level="4" atk="52" def="178" />
+            <StatByLevel level="5" atk="58" def="187" />
+            <StatByLevel level="6" atk="64" def="196" />
+            <StatByLevel level="7" atk="70" def="205" />
+            <StatByLevel level="8" atk="76" def="214" />
+            <StatByLevel level="9" atk="82" def="223" />
+            <StatByLevel level="10" atk="88" def="232" />
+        </StatByLevelTable>
+    </Template>
+    <Template id="20600" class="hero" desc="시즈나" gender="female" race="popori" basicActionId="20600" classType="3" deathEffectId="5383" defaultSkinId="20600" heroSkinGroup="20600,20601,20602" iconResource="0" referenceClass="assassin" staminaType="0" thumbnailPath="Icon_Hero.Icon_Hero_Syzna_20600_face_Tex" useStack="false">
+        <CombatPropensity attack="40" crowdControl="50" move="70" operationDifficulty="40" survival="40" />
+        <DefaultShortcutData>
+            <Shortcut id="8900" type="Skill" column="0" line="0" inputString="950028" sequence="8" />
+            <Shortcut id="9000" type="Skill" column="1" line="0" inputString="950029" sequence="9" />
+            <Shortcut id="1000" type="Skill" column="24" line="0" inputString="950026" sequence="6" />
+            <Shortcut id="2000" type="Skill" column="25" line="0" inputString="950027" sequence="7" />
+            <Shortcut id="3000" type="Skill" column="21" line="0" inputString="950024" sequence="4" />
+            <Shortcut id="8500" type="Skill" column="22" line="0" inputString="950025" sequence="5" />
+            <Shortcut id="4000" type="Skill" column="6" line="0" inputString="950020" sequence="0" />
+            <Shortcut id="5000" type="Skill" column="7" line="0" inputString="950021" sequence="1" />
+            <Shortcut id="6000" type="Skill" column="8" line="0" inputString="950022" sequence="2" />
+            <Shortcut id="7000" type="Skill" column="9" line="0" inputString="950023" sequence="3" />
+        </DefaultShortcutData>
+        <DefaultSkillList activeSkillIdList="1000,2000,3000,4000,5000,6000,7000,8000,8500,8900,9000,9001,9002,9003,9004,9005" passiveSkillIdList="1020003,1020600,1020601,93011" />
+        <ManaPoint recoveryStartTime="100" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <RangeAtkSkillList>
+            <RangeAtkSkill id="1000" lv="0" />
+        </RangeAtkSkillList>
+        <Reaction maxAdditionalGauge="400" />
+        <Stat atk="34" def="151" attackSpeed="145" runSpeed="189" walkSpeed="50" />
+        <StatByLevelTable>
+            <StatByLevel level="1" />
+            <StatByLevel level="2" atk="40" def="160" />
+            <StatByLevel level="3" atk="46" def="169" />
+            <StatByLevel level="4" atk="52" def="178" />
+            <StatByLevel level="5" atk="58" def="187" />
+            <StatByLevel level="6" atk="64" def="196" />
+            <StatByLevel level="7" atk="70" def="205" />
+            <StatByLevel level="8" atk="76" def="214" />
+            <StatByLevel level="9" atk="82" def="223" />
+            <StatByLevel level="10" atk="88" def="232" />
+        </StatByLevelTable>
+    </Template>
+    <Template id="20700" class="hero" desc="테오룽" gender="male" race="popori" basicActionId="20700" classType="4" deathEffectId="5383" defaultSkinId="20700" heroSkinGroup="20700,20701,20702" iconResource="0" referenceClass="archer" staminaType="0" thumbnailPath="Icon_Hero.Icon_Hero_Teorung_20700_face_Tex" useStack="false">
+        <CombatPropensity attack="70" crowdControl="40" move="30" operationDifficulty="30" survival="30" />
+        <DefaultShortcutData>
+            <Shortcut id="8900" type="Skill" column="0" line="0" inputString="950028" sequence="8" />
+            <Shortcut id="9000" type="Skill" column="1" line="0" inputString="950029" sequence="9" />
+            <Shortcut id="1000" type="Skill" column="24" line="0" inputString="950026" sequence="6" />
+            <Shortcut id="2000" type="Skill" column="25" line="0" inputString="950027" sequence="7" />
+            <Shortcut id="3000" type="Skill" column="21" line="0" inputString="950024" sequence="4" />
+            <Shortcut id="8500" type="Skill" column="22" line="0" inputString="950025" sequence="5" />
+            <Shortcut id="4000" type="Skill" column="6" line="0" inputString="950020" sequence="0" />
+            <Shortcut id="5000" type="Skill" column="7" line="0" inputString="950021" sequence="1" />
+            <Shortcut id="6000" type="Skill" column="8" line="0" inputString="950022" sequence="2" />
+            <Shortcut id="7000" type="Skill" column="9" line="0" inputString="950023" sequence="3" />
+        </DefaultShortcutData>
+        <DefaultSkillList activeSkillIdList="1000,2000,3000,4000,5000,6000,7000,8000,8500,8900,9000,9001,9002,9003,9004,9005" passiveSkillIdList="1020003,1020700" />
+        <ManaPoint recoveryStartTime="100" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <RangeAtkSkillList>
+            <RangeAtkSkill id="1000" lv="0" />
+        </RangeAtkSkillList>
+        <Reaction maxAdditionalGauge="400" />
+        <Stat atk="34" def="151" attackSpeed="145" runSpeed="175" walkSpeed="50" />
+        <StatByLevelTable>
+            <StatByLevel level="1" />
+            <StatByLevel level="2" atk="40" def="160" />
+            <StatByLevel level="3" atk="46" def="169" />
+            <StatByLevel level="4" atk="52" def="178" />
+            <StatByLevel level="5" atk="58" def="187" />
+            <StatByLevel level="6" atk="64" def="196" />
+            <StatByLevel level="7" atk="70" def="205" />
+            <StatByLevel level="8" atk="76" def="214" />
+            <StatByLevel level="9" atk="82" def="223" />
+            <StatByLevel level="10" atk="88" def="232" />
+        </StatByLevelTable>
+    </Template>
+    <Template id="20800" class="hero" desc="시벨" gender="female" race="highelf" basicActionId="20800" classType="4" deathEffectId="5383" defaultSkinId="20800" heroSkinGroup="20800,20801,20802,20803" iconResource="0" referenceClass="archer" staminaType="1" thumbnailPath="Icon_Hero.Icon_Hero_Ciebel_20800_face_Tex" useStack="false">
+        <CombatPropensity attack="40" crowdControl="10" move="70" operationDifficulty="80" survival="30" />
+        <DefaultShortcutData>
+            <Shortcut id="8900" type="Skill" column="0" line="0" inputString="950028" sequence="8" />
+            <Shortcut id="9000" type="Skill" column="1" line="0" inputString="950029" sequence="9" />
+            <Shortcut id="1000" type="Skill" column="24" line="0" inputString="950026" sequence="6" />
+            <Shortcut id="2000" type="Skill" column="25" line="0" inputString="950027" sequence="7" />
+            <Shortcut id="3000" type="Skill" column="21" line="0" inputString="950024" sequence="4" />
+            <Shortcut id="8500" type="Skill" column="22" line="0" inputString="950025" sequence="5" />
+            <Shortcut id="4000" type="Skill" column="6" line="0" inputString="950020" sequence="0" />
+            <Shortcut id="5000" type="Skill" column="7" line="0" inputString="950021" sequence="1" />
+            <Shortcut id="6000" type="Skill" column="8" line="0" inputString="950022" sequence="2" />
+            <Shortcut id="7000" type="Skill" column="9" line="0" inputString="950023" sequence="3" />
+        </DefaultShortcutData>
+        <DefaultSkillList activeSkillIdList="1000,2000,3000,4000,5000,6000,7000,8000,8500,8900,9000,9001,9002,9003,9004,9005" passiveSkillIdList="1020003,1020800,1020801,1020802" />
+        <ManaPoint recoveryStartTime="100" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <RangeAtkSkillList>
+            <RangeAtkSkill id="1000" lv="0" />
+        </RangeAtkSkillList>
+        <Reaction maxAdditionalGauge="400" />
+        <Stat atk="34" def="151" attackSpeed="145" runSpeed="175" walkSpeed="50" />
+        <StatByLevelTable>
+            <StatByLevel level="1" />
+            <StatByLevel level="2" atk="40" def="160" />
+            <StatByLevel level="3" atk="46" def="169" />
+            <StatByLevel level="4" atk="52" def="178" />
+            <StatByLevel level="5" atk="58" def="187" />
+            <StatByLevel level="6" atk="64" def="196" />
+            <StatByLevel level="7" atk="70" def="205" />
+            <StatByLevel level="8" atk="76" def="214" />
+            <StatByLevel level="9" atk="82" def="223" />
+            <StatByLevel level="10" atk="88" def="232" />
+        </StatByLevelTable>
+    </Template>
+    <Template id="20900" class="hero" desc="에키오르 라펠레이트" gender="male" race="highelf" basicActionId="20900" classType="5" deathEffectId="5383" defaultSkinId="20900" heroSkinGroup="20900,20901,20902" iconResource="0" referenceClass="sorcerer" staminaType="0" thumbnailPath="Icon_Hero.Icon_Hero_Ryshan_20900_face_Tex" useStack="false">
+        <CombatPropensity attack="90" crowdControl="40" move="10" operationDifficulty="30" survival="20" />
+        <DefaultShortcutData>
+            <Shortcut id="8900" type="Skill" column="0" line="0" inputString="950028" sequence="8" />
+            <Shortcut id="9000" type="Skill" column="1" line="0" inputString="950029" sequence="9" />
+            <Shortcut id="1000" type="Skill" column="24" line="0" inputString="950026" sequence="6" />
+            <Shortcut id="2000" type="Skill" column="25" line="0" inputString="950027" sequence="7" />
+            <Shortcut id="3000" type="Skill" column="21" line="0" inputString="950024" sequence="4" />
+            <Shortcut id="8500" type="Skill" column="22" line="0" inputString="950025" sequence="5" />
+            <Shortcut id="4000" type="Skill" column="6" line="0" inputString="950020" sequence="0" />
+            <Shortcut id="5000" type="Skill" column="7" line="0" inputString="950021" sequence="1" />
+            <Shortcut id="6000" type="Skill" column="8" line="0" inputString="950022" sequence="2" />
+            <Shortcut id="7000" type="Skill" column="9" line="0" inputString="950023" sequence="3" />
+        </DefaultShortcutData>
+        <DefaultSkillList activeSkillIdList="1000,2000,3000,4000,5000,6000,7000,8000,8500,8900,9000,9001,9002,9003,9004,9005" passiveSkillIdList="1020003,1020900" />
+        <ManaPoint recoveryStartTime="100" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <RangeAtkSkillList>
+            <RangeAtkSkill id="1000" lv="0" />
+        </RangeAtkSkillList>
+        <Reaction maxAdditionalGauge="400" />
+        <Stat atk="34" def="151" attackSpeed="145" runSpeed="168" walkSpeed="50" />
+        <StatByLevelTable>
+            <StatByLevel level="1" />
+            <StatByLevel level="2" atk="40" def="160" />
+            <StatByLevel level="3" atk="46" def="169" />
+            <StatByLevel level="4" atk="52" def="178" />
+            <StatByLevel level="5" atk="58" def="187" />
+            <StatByLevel level="6" atk="64" def="196" />
+            <StatByLevel level="7" atk="70" def="205" />
+            <StatByLevel level="8" atk="76" def="214" />
+            <StatByLevel level="9" atk="82" def="223" />
+            <StatByLevel level="10" atk="88" def="232" />
+        </StatByLevelTable>
+    </Template>
+    <Template id="21000" class="hero" desc="니나" gender="female" race="popori" basicActionId="21000" classType="4" deathEffectId="5383" defaultSkinId="21000" heroSkinGroup="21000,21001,21002" iconResource="0" referenceClass="engineer" staminaType="2" thumbnailPath="Icon_Hero.Icon_Hero_Nina_21000_face_Tex" useStack="false">
+        <CombatPropensity attack="70" crowdControl="40" move="30" operationDifficulty="20" survival="30" />
+        <DefaultShortcutData>
+            <Shortcut id="8900" type="Skill" column="0" line="0" inputString="950028" sequence="8" />
+            <Shortcut id="9000" type="Skill" column="1" line="0" inputString="950029" sequence="9" />
+            <Shortcut id="1000" type="Skill" column="24" line="0" inputString="950026" sequence="6" />
+            <Shortcut id="2000" type="Skill" column="25" line="0" inputString="950027" sequence="7" />
+            <Shortcut id="3000" type="Skill" column="21" line="0" inputString="950024" sequence="4" />
+            <Shortcut id="8500" type="Skill" column="22" line="0" inputString="950025" sequence="5" />
+            <Shortcut id="4000" type="Skill" column="6" line="0" inputString="950020" sequence="0" />
+            <Shortcut id="5000" type="Skill" column="7" line="0" inputString="950021" sequence="1" />
+            <Shortcut id="6000" type="Skill" column="8" line="0" inputString="950022" sequence="2" />
+            <Shortcut id="7000" type="Skill" column="9" line="0" inputString="950023" sequence="3" />
+        </DefaultShortcutData>
+        <DefaultSkillList activeSkillIdList="1000,2000,3000,4000,5000,6000,7000,8000,8500,8900,9000,9001,9002,9003,9003,9004,9005" passiveSkillIdList="1020003,1021000" />
+        <ManaPoint recoveryStartTime="100" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <RangeAtkSkillList>
+            <RangeAtkSkill id="1000" lv="0" />
+        </RangeAtkSkillList>
+        <Reaction maxAdditionalGauge="400" />
+        <Stat atk="34" def="151" attackSpeed="145" runSpeed="175" walkSpeed="50" />
+        <StatByLevelTable>
+            <StatByLevel level="1" />
+            <StatByLevel level="2" atk="40" def="160" />
+            <StatByLevel level="3" atk="46" def="169" />
+            <StatByLevel level="4" atk="52" def="178" />
+            <StatByLevel level="5" atk="58" def="187" />
+            <StatByLevel level="6" atk="64" def="196" />
+            <StatByLevel level="7" atk="70" def="205" />
+            <StatByLevel level="8" atk="76" def="214" />
+            <StatByLevel level="9" atk="82" def="223" />
+            <StatByLevel level="10" atk="88" def="232" />
+        </StatByLevelTable>
+    </Template>
+    <Template id="21100" class="hero" desc="시오즈" gender="female" race="popori" basicActionId="21100" classType="3" deathEffectId="5383" defaultSkinId="21100" heroSkinGroup="21100,21101,21102,21103" iconResource="0" referenceClass="soulless" staminaType="0" thumbnailPath="Icon_Hero.Icon_Hero_Zolyn_21100_face_Tex" useStack="false">
+        <CombatPropensity attack="70" crowdControl="20" move="30" operationDifficulty="60" survival="30" />
+        <DefaultShortcutData>
+            <Shortcut id="8900" type="Skill" column="0" line="0" inputString="950028" sequence="8" />
+            <Shortcut id="9000" type="Skill" column="1" line="0" inputString="950029" sequence="9" />
+            <Shortcut id="1000" type="Skill" column="24" line="0" inputString="950026" sequence="6" />
+            <Shortcut id="2000" type="Skill" column="25" line="0" inputString="950027" sequence="7" />
+            <Shortcut id="3000" type="Skill" column="21" line="0" inputString="950024" sequence="4" />
+            <Shortcut id="8500" type="Skill" column="22" line="0" inputString="950025" sequence="5" />
+            <Shortcut id="4000" type="Skill" column="6" line="0" inputString="950020" sequence="0" />
+            <Shortcut id="5000" type="Skill" column="7" line="0" inputString="950021" sequence="1" />
+            <Shortcut id="6000" type="Skill" column="8" line="0" inputString="950022" sequence="2" />
+            <Shortcut id="7000" type="Skill" column="9" line="0" inputString="950023" sequence="3" />
+        </DefaultShortcutData>
+        <DefaultSkillList activeSkillIdList="1000,2000,3000,4000,5000,6000,7000,8000,8500,8900,9000,9001,9002,9003,9004,9005" passiveSkillIdList="1020003" />
+        <ManaPoint recoveryStartTime="100" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <RangeAtkSkillList>
+            <RangeAtkSkill id="5000" lv="0" />
+        </RangeAtkSkillList>
+        <Reaction maxAdditionalGauge="400" />
+        <Stat atk="34" def="151" attackSpeed="145" runSpeed="189" walkSpeed="50" />
+        <StatByLevelTable>
+            <StatByLevel level="1" />
+            <StatByLevel level="2" atk="40" def="160" />
+            <StatByLevel level="3" atk="46" def="169" />
+            <StatByLevel level="4" atk="52" def="178" />
+            <StatByLevel level="5" atk="58" def="187" />
+            <StatByLevel level="6" atk="64" def="196" />
+            <StatByLevel level="7" atk="70" def="205" />
+            <StatByLevel level="8" atk="76" def="214" />
+            <StatByLevel level="9" atk="82" def="223" />
+            <StatByLevel level="10" atk="88" def="232" />
+        </StatByLevelTable>
+    </Template>
+    <Template id="21200" class="hero" desc="아스티나" gender="female" race="castanic" basicActionId="21200" classType="5" deathEffectId="5383" defaultSkinId="21200" heroSkinGroup="21200,21201,21202,21203" iconResource="0" referenceClass="sorcerer" staminaType="0" thumbnailPath="Icon_Hero.Icon_Hero_Astina_21200_face_Tex" useStack="false">
+        <CombatPropensity attack="50" crowdControl="60" move="20" operationDifficulty="50" survival="20" />
+        <DefaultShortcutData>
+            <Shortcut id="8900" type="Skill" column="0" line="0" inputString="950028" sequence="8" />
+            <Shortcut id="9000" type="Skill" column="1" line="0" inputString="950029" sequence="9" />
+            <Shortcut id="1000" type="Skill" column="24" line="0" inputString="950026" sequence="6" />
+            <Shortcut id="2000" type="Skill" column="25" line="0" inputString="950027" sequence="7" />
+            <Shortcut id="3000" type="Skill" column="21" line="0" inputString="950024" sequence="4" />
+            <Shortcut id="8500" type="Skill" column="22" line="0" inputString="950025" sequence="5" />
+            <Shortcut id="4000" type="Skill" column="6" line="0" inputString="950020" sequence="0" />
+            <Shortcut id="5000" type="Skill" column="7" line="0" inputString="950021" sequence="1" />
+            <Shortcut id="6000" type="Skill" column="8" line="0" inputString="950022" sequence="2" />
+            <Shortcut id="7000" type="Skill" column="9" line="0" inputString="950023" sequence="3" />
+        </DefaultShortcutData>
+        <DefaultSkillList activeSkillIdList="1000,2000,3000,4000,5000,6000,7000,8000,8500,8900,9000,9001,9002,9003,9004,9005" passiveSkillIdList="1020003,1021200" />
+        <ManaPoint recoveryStartTime="100" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <RangeAtkSkillList>
+            <RangeAtkSkill id="1000" lv="0" />
+            <RangeAtkSkill id="1010" lv="0" />
+            <RangeAtkSkill id="1020" lv="0" />
+            <RangeAtkSkill id="1030" lv="0" />
+        </RangeAtkSkillList>
+        <Reaction maxAdditionalGauge="400" />
+        <Stat atk="34" def="151" attackSpeed="145" runSpeed="168" walkSpeed="50" />
+        <StatByLevelTable>
+            <StatByLevel level="1" />
+            <StatByLevel level="2" atk="40" def="160" />
+            <StatByLevel level="3" atk="46" def="169" />
+            <StatByLevel level="4" atk="52" def="178" />
+            <StatByLevel level="5" atk="58" def="187" />
+            <StatByLevel level="6" atk="64" def="196" />
+            <StatByLevel level="7" atk="70" def="205" />
+            <StatByLevel level="8" atk="76" def="214" />
+            <StatByLevel level="9" atk="82" def="223" />
+            <StatByLevel level="10" atk="88" def="232" />
+        </StatByLevelTable>
+    </Template>
+    <Template id="21400" class="hero" desc="에르한" gender="female" race="aman" basicActionId="21400" classType="6" deathEffectId="5383" defaultSkinId="21400" heroSkinGroup="21400,21401,21402,21403" iconResource="0" referenceClass="sorcerer" staminaType="0" thumbnailPath="Icon_Hero.Icon_Hero_Errhan_21400_face_Tex" useStack="false">
+        <CombatPropensity attack="50" crowdControl="30" move="10" operationDifficulty="70" survival="30" />
+        <DefaultShortcutData>
+            <Shortcut id="8900" type="Skill" column="0" line="0" inputString="950028" sequence="8" />
+            <Shortcut id="9000" type="Skill" column="1" line="0" inputString="950029" sequence="9" />
+            <Shortcut id="1000" type="Skill" column="24" line="0" inputString="950026" sequence="6" />
+            <Shortcut id="2000" type="Skill" column="25" line="0" inputString="950027" sequence="7" />
+            <Shortcut id="3000" type="Skill" column="21" line="0" inputString="950024" sequence="4" />
+            <Shortcut id="8500" type="Skill" column="22" line="0" inputString="950025" sequence="5" />
+            <Shortcut id="4000" type="Skill" column="6" line="0" inputString="950020" sequence="0" />
+            <Shortcut id="5000" type="Skill" column="7" line="0" inputString="950021" sequence="1" />
+            <Shortcut id="6000" type="Skill" column="8" line="0" inputString="950022" sequence="2" />
+            <Shortcut id="7000" type="Skill" column="9" line="0" inputString="950023" sequence="3" />
+        </DefaultShortcutData>
+        <DefaultSkillList activeSkillIdList="1000,2000,3000,4000,5000,6000,7000,8000,8500,8900,9000,9001,9002,9003,9004,9005" passiveSkillIdList="1020003" />
+        <ManaPoint recoveryStartTime="100" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <RangeAtkSkillList>
+            <RangeAtkSkill id="7000" lv="0" />
+        </RangeAtkSkillList>
+        <Reaction maxAdditionalGauge="400" />
+        <Stat atk="34" def="151" attackSpeed="145" runSpeed="182" walkSpeed="50" />
+        <StatByLevelTable>
+            <StatByLevel level="1" />
+            <StatByLevel level="2" atk="40" def="160" />
+            <StatByLevel level="3" atk="46" def="169" />
+            <StatByLevel level="4" atk="52" def="178" />
+            <StatByLevel level="5" atk="58" def="187" />
+            <StatByLevel level="6" atk="64" def="196" />
+            <StatByLevel level="7" atk="70" def="205" />
+            <StatByLevel level="8" atk="76" def="214" />
+            <StatByLevel level="9" atk="82" def="223" />
+            <StatByLevel level="10" atk="88" def="232" />
+        </StatByLevelTable>
+    </Template>
+    <Template id="21500" class="hero" desc="카이아" gender="female" race="aman" basicActionId="21500" classType="2" deathEffectId="5383" defaultSkinId="21500" heroSkinGroup="21500,21501,21502" iconResource="0" referenceClass="slayer" staminaType="0" thumbnailPath="Icon_Hero.Icon_Hero_Kaia_21500_face_Tex" useStack="false">
+        <CombatPropensity attack="70" crowdControl="20" move="60" operationDifficulty="30" survival="20" />
+        <DefaultShortcutData>
+            <Shortcut id="8900" type="Skill" column="0" line="0" inputString="950028" sequence="8" />
+            <Shortcut id="9000" type="Skill" column="1" line="0" inputString="950029" sequence="9" />
+            <Shortcut id="1000" type="Skill" column="24" line="0" inputString="950026" sequence="6" />
+            <Shortcut id="2000" type="Skill" column="25" line="0" inputString="950027" sequence="7" />
+            <Shortcut id="3000" type="Skill" column="21" line="0" inputString="950024" sequence="4" />
+            <Shortcut id="8500" type="Skill" column="22" line="0" inputString="950025" sequence="5" />
+            <Shortcut id="4000" type="Skill" column="6" line="0" inputString="950020" sequence="0" />
+            <Shortcut id="5000" type="Skill" column="7" line="0" inputString="950021" sequence="1" />
+            <Shortcut id="6000" type="Skill" column="8" line="0" inputString="950022" sequence="2" />
+            <Shortcut id="7000" type="Skill" column="9" line="0" inputString="950023" sequence="3" />
+        </DefaultShortcutData>
+        <DefaultSkillList activeSkillIdList="1000,2000,3000,4000,5000,6000,7000,8000,8500,8900,9000,9001,9002,9003,9004,9005" passiveSkillIdList="1020003,1021500" />
+        <ManaPoint recoveryStartTime="100" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <RangeAtkSkillList>
+            <RangeAtkSkill id="1000" lv="0" />
+        </RangeAtkSkillList>
+        <Reaction maxAdditionalGauge="400" />
+        <Stat atk="34" def="151" attackSpeed="145" runSpeed="182" walkSpeed="50" />
+        <StatByLevelTable>
+            <StatByLevel level="1" />
+            <StatByLevel level="2" atk="40" def="160" />
+            <StatByLevel level="3" atk="46" def="169" />
+            <StatByLevel level="4" atk="52" def="178" />
+            <StatByLevel level="5" atk="58" def="187" />
+            <StatByLevel level="6" atk="64" def="196" />
+            <StatByLevel level="7" atk="70" def="205" />
+            <StatByLevel level="8" atk="76" def="214" />
+            <StatByLevel level="9" atk="82" def="223" />
+            <StatByLevel level="10" atk="88" def="232" />
+        </StatByLevelTable>
+    </Template>
+    <Template id="21600" class="hero" desc="딕시핀쳐" gender="male" race="aman" basicActionId="21600" classType="1" deathEffectId="5383" defaultSkinId="21600" heroSkinGroup="21600,21601,21602" iconResource="Icon_Servants.Pet_Watermelon_Tex" referenceClass="berserker" staminaType="1" thumbnailPath="Icon_Hero.Icon_Hero_Dixie_21600_face_Tex" useStack="false">
+        <CombatPropensity attack="60" crowdControl="40" move="30" operationDifficulty="70" survival="30" />
+        <DefaultShortcutData>
+            <Shortcut id="8900" type="Skill" column="0" line="0" inputString="950028" sequence="8" />
+            <Shortcut id="9000" type="Skill" column="1" line="0" inputString="950029" sequence="9" />
+            <Shortcut id="1000" type="Skill" column="24" line="0" inputString="950026" sequence="6" />
+            <Shortcut id="2000" type="Skill" column="25" line="0" inputString="950027" sequence="7" />
+            <Shortcut id="3000" type="Skill" column="21" line="0" inputString="950024" sequence="4" />
+            <Shortcut id="8500" type="Skill" column="22" line="0" inputString="950025" sequence="5" />
+            <Shortcut id="4000" type="Skill" column="6" line="0" inputString="950020" sequence="0" />
+            <Shortcut id="5000" type="Skill" column="7" line="0" inputString="950021" sequence="1" />
+            <Shortcut id="6000" type="Skill" column="8" line="0" inputString="950022" sequence="2" />
+            <Shortcut id="7000" type="Skill" column="9" line="0" inputString="950023" sequence="3" />
+        </DefaultShortcutData>
+        <DefaultSkillList activeSkillIdList="1000,2000,3000,4000,5000,6000,7000,8000,8500,8900,9000,9001,9002,9003,9004,9005" passiveSkillIdList="1020004,1020003,1021601,1021602,1021603,1021604,1021605" />
+        <ManaPoint recoveryStartTime="100" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <RangeAtkSkillList>
+            <RangeAtkSkill id="1000" lv="0" />
+        </RangeAtkSkillList>
+        <Reaction maxAdditionalGauge="400" />
+        <Stat atk="34" def="151" attackSpeed="145" runSpeed="182" walkSpeed="50" />
+        <StatByLevelTable>
+            <StatByLevel level="1" />
+            <StatByLevel level="2" atk="40" def="160" />
+            <StatByLevel level="3" atk="46" def="169" />
+            <StatByLevel level="4" atk="52" def="178" />
+            <StatByLevel level="5" atk="58" def="187" />
+            <StatByLevel level="6" atk="64" def="196" />
+            <StatByLevel level="7" atk="70" def="205" />
+            <StatByLevel level="8" atk="76" def="214" />
+            <StatByLevel level="9" atk="82" def="223" />
+            <StatByLevel level="10" atk="88" def="232" />
+        </StatByLevelTable>
+    </Template>
+    <Template id="21900" class="hero" desc="샤오룽" gender="male" race="popori" basicActionId="21900" classType="2" deathEffectId="5383" defaultSkinId="21900" heroSkinGroup="21900,21901,21902" iconResource="0" referenceClass="archer" staminaType="3" thumbnailPath="Icon_Hero.Icon_Hero_shaorung_21900_face_Tex" useStack="false">
+        <CombatPropensity attack="50" crowdControl="50" move="40" operationDifficulty="70" survival="20" />
+        <DefaultShortcutData>
+            <Shortcut id="8900" type="Skill" column="0" line="0" inputString="950028" sequence="8" />
+            <Shortcut id="9000" type="Skill" column="1" line="0" inputString="950029" sequence="9" />
+            <Shortcut id="1000" type="Skill" column="24" line="0" inputString="950026" sequence="6" />
+            <Shortcut id="2000" type="Skill" column="25" line="0" inputString="950027" sequence="7" />
+            <Shortcut id="3000" type="Skill" column="21" line="0" inputString="950024" sequence="4" />
+            <Shortcut id="8500" type="Skill" column="22" line="0" inputString="950025" sequence="5" />
+            <Shortcut id="4000" type="Skill" column="6" line="0" inputString="950020" sequence="0" />
+            <Shortcut id="5000" type="Skill" column="7" line="0" inputString="950021" sequence="1" />
+            <Shortcut id="6000" type="Skill" column="8" line="0" inputString="950022" sequence="2" />
+            <Shortcut id="7000" type="Skill" column="9" line="0" inputString="950023" sequence="3" />
+        </DefaultShortcutData>
+        <DefaultSkillList activeSkillIdList="1000,2000,3000,4000,5000,6000,7000,8000,8500,8900,9000,9001,9002,9003,9004,9005" passiveSkillIdList="1020003,1021900" />
+        <ManaPoint recoveryStartTime="100" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <RangeAtkSkillList>
+            <RangeAtkSkill id="1000" lv="0" />
+        </RangeAtkSkillList>
+        <Reaction maxAdditionalGauge="400" />
+        <Stat atk="34" def="151" attackSpeed="115" runSpeed="182" walkSpeed="50" />
+        <StatByLevelTable>
+            <StatByLevel level="1" />
+            <StatByLevel level="2" atk="40" def="160" />
+            <StatByLevel level="3" atk="46" def="169" />
+            <StatByLevel level="4" atk="52" def="178" />
+            <StatByLevel level="5" atk="58" def="187" />
+            <StatByLevel level="6" atk="64" def="196" />
+            <StatByLevel level="7" atk="70" def="205" />
+            <StatByLevel level="8" atk="76" def="214" />
+            <StatByLevel level="9" atk="82" def="223" />
+            <StatByLevel level="10" atk="88" def="232" />
+        </StatByLevelTable>
+    </Template>
+    <Template id="22000" class="hero" desc="우푸" gender="female" race="castanic" basicActionId="22000" classType="4" deathEffectId="5383" defaultSkinId="22000" heroSkinGroup="22000,22001,22002" iconResource="0" referenceClass="engineer" staminaType="2" thumbnailPath="Icon_Hero.Icon_Hero_Upoo_22000_face_Tex" useStack="false">
+        <CombatPropensity attack="70" crowdControl="30" move="30" operationDifficulty="70" survival="20" />
+        <DefaultShortcutData>
+            <Shortcut id="8900" type="Skill" column="0" line="0" inputString="950028" sequence="8" />
+            <Shortcut id="9000" type="Skill" column="1" line="0" inputString="950029" sequence="9" />
+            <Shortcut id="1000" type="Skill" column="24" line="0" inputString="950026" sequence="6" />
+            <Shortcut id="2000" type="Skill" column="25" line="0" inputString="950027" sequence="7" />
+            <Shortcut id="3000" type="Skill" column="21" line="0" inputString="950024" sequence="4" />
+            <Shortcut id="8500" type="Skill" column="22" line="0" inputString="950025" sequence="5" />
+            <Shortcut id="4000" type="Skill" column="6" line="0" inputString="950020" sequence="0" />
+            <Shortcut id="5000" type="Skill" column="7" line="0" inputString="950021" sequence="1" />
+            <Shortcut id="6000" type="Skill" column="8" line="0" inputString="950022" sequence="2" />
+            <Shortcut id="7000" type="Skill" column="9" line="0" inputString="950023" sequence="3" />
+        </DefaultShortcutData>
+        <DefaultSkillList activeSkillIdList="1000,2000,3000,4000,5000,6000,7000,8000,8500,8900,9000,9001,9002,9003,9004,9005" passiveSkillIdList="1020003" />
+        <ManaPoint recoveryStartTime="100" />
+        <NamePlate nameplateHeight="-5" deathNameplateHeight="0" />
+        <RangeAtkSkillList>
+            <RangeAtkSkill id="1000" lv="0" />
+        </RangeAtkSkillList>
+        <Reaction maxAdditionalGauge="400" />
+        <Stat atk="34" def="151" attackSpeed="145" runSpeed="182" walkSpeed="50" />
+        <StatByLevelTable>
+            <StatByLevel level="1" />
+            <StatByLevel level="2" atk="40" def="160" />
+            <StatByLevel level="3" atk="46" def="169" />
+            <StatByLevel level="4" atk="52" def="178" />
+            <StatByLevel level="5" atk="58" def="187" />
+            <StatByLevel level="6" atk="64" def="196" />
+            <StatByLevel level="7" atk="70" def="205" />
+            <StatByLevel level="8" atk="76" def="214" />
+            <StatByLevel level="9" atk="82" def="223" />
+            <StatByLevel level="10" atk="88" def="232" />
+        </StatByLevelTable>
+    </Template>
+    <Template id="22100" class="hero" desc="트로" gender="male" race="castanic" basicActionId="22100" classType="6" deathEffectId="5383" defaultSkinId="22100" heroSkinGroup="22100,22101,22102" iconResource="0" referenceClass="sorcerer" staminaType="0" thumbnailPath="Icon_Hero.Icon_Hero_Titus_22100_face_Tex" useStack="false">
+        <CombatPropensity attack="60" crowdControl="90" move="20" operationDifficulty="50" survival="20" />
+        <DefaultShortcutData>
+            <Shortcut id="8900" type="Skill" column="0" line="0" inputString="950028" sequence="8" />
+            <Shortcut id="9000" type="Skill" column="1" line="0" inputString="950029" sequence="9" />
+            <Shortcut id="1000" type="Skill" column="24" line="0" inputString="950026" sequence="6" />
+            <Shortcut id="2000" type="Skill" column="25" line="0" inputString="950027" sequence="7" />
+            <Shortcut id="3000" type="Skill" column="21" line="0" inputString="950024" sequence="4" />
+            <Shortcut id="8500" type="Skill" column="22" line="0" inputString="950025" sequence="5" />
+            <Shortcut id="4000" type="Skill" column="6" line="0" inputString="950020" sequence="0" />
+            <Shortcut id="5000" type="Skill" column="7" line="0" inputString="950021" sequence="1" />
+            <Shortcut id="6000" type="Skill" column="8" line="0" inputString="950022" sequence="2" />
+            <Shortcut id="7000" type="Skill" column="9" line="0" inputString="950023" sequence="3" />
+        </DefaultShortcutData>
+        <DefaultSkillList activeSkillIdList="1000,2000,3000,4000,5000,6000,7000,8000,8500,8900,9000,9001,9002,9003,9004,9005" passiveSkillIdList="1020003" />
+        <ManaPoint recoveryStartTime="100" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <RangeAtkSkillList>
+            <RangeAtkSkill id="7000" lv="0" />
+        </RangeAtkSkillList>
+        <Reaction maxAdditionalGauge="400" />
+        <Stat atk="34" def="151" attackSpeed="145" runSpeed="182" walkSpeed="50" />
+        <StatByLevelTable>
+            <StatByLevel level="1" />
+            <StatByLevel level="2" atk="40" def="160" />
+            <StatByLevel level="3" atk="46" def="169" />
+            <StatByLevel level="4" atk="52" def="178" />
+            <StatByLevel level="5" atk="58" def="187" />
+            <StatByLevel level="6" atk="64" def="196" />
+            <StatByLevel level="7" atk="70" def="205" />
+            <StatByLevel level="8" atk="76" def="214" />
+            <StatByLevel level="9" atk="82" def="223" />
+            <StatByLevel level="10" atk="88" def="232" />
+        </StatByLevelTable>
+    </Template>
+    <Template id="22300" class="hero" desc="포아룽" gender="male" race="popori" basicActionId="22300" classType="6" deathEffectId="5383" defaultSkinId="22300" heroSkinGroup="22300,22301,22302" iconResource="0" referenceClass="warrior" staminaType="0" thumbnailPath="Icon_Hero.Icon_Hero_Paesyn_22300_face_Tex" useStack="false">
+        <CombatPropensity attack="60" crowdControl="10" move="10" operationDifficulty="70" survival="60" />
+        <DefaultShortcutData>
+            <Shortcut id="8900" type="Skill" column="0" line="0" inputString="950028" sequence="8" />
+            <Shortcut id="9000" type="Skill" column="1" line="0" inputString="950029" sequence="9" />
+            <Shortcut id="1000" type="Skill" column="24" line="0" inputString="950026" sequence="6" />
+            <Shortcut id="2000" type="Skill" column="25" line="0" inputString="950027" sequence="7" />
+            <Shortcut id="3000" type="Skill" column="21" line="0" inputString="950024" sequence="4" />
+            <Shortcut id="8500" type="Skill" column="22" line="0" inputString="950025" sequence="5" />
+            <Shortcut id="4000" type="Skill" column="6" line="0" inputString="950020" sequence="0" />
+            <Shortcut id="5000" type="Skill" column="7" line="0" inputString="950021" sequence="1" />
+            <Shortcut id="6000" type="Skill" column="8" line="0" inputString="950022" sequence="2" />
+            <Shortcut id="7000" type="Skill" column="9" line="0" inputString="950023" sequence="3" />
+        </DefaultShortcutData>
+        <DefaultSkillList activeSkillIdList="1000,2000,3000,4000,5000,6000,7000,8000,8500,8900,9000,9001,9002,9003,9004,9005" passiveSkillIdList="1020003" />
+        <ManaPoint recoveryStartTime="100" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <RangeAtkSkillList>
+            <RangeAtkSkill id="7000" lv="0" />
+        </RangeAtkSkillList>
+        <Reaction maxAdditionalGauge="400" />
+        <StackSystem>
+            <Warrior maxStackPoint="10" minStackPointRequire="3" stackPointPeriod="8000" periodSecondBeforeBlink="5000" />
+        </StackSystem>
+        <Stat atk="34" def="151" attackSpeed="145" runSpeed="182" walkSpeed="50" />
+        <StatByLevelTable>
+            <StatByLevel level="1" />
+            <StatByLevel level="2" atk="40" def="160" />
+            <StatByLevel level="3" atk="46" def="169" />
+            <StatByLevel level="4" atk="52" def="178" />
+            <StatByLevel level="5" atk="58" def="187" />
+            <StatByLevel level="6" atk="64" def="196" />
+            <StatByLevel level="7" atk="70" def="205" />
+            <StatByLevel level="8" atk="76" def="214" />
+            <StatByLevel level="9" atk="82" def="223" />
+            <StatByLevel level="10" atk="88" def="232" />
+        </StatByLevelTable>
+    </Template>
+    <Template id="22400" class="hero" desc="무타르" gender="male" race="baraka" basicActionId="22400" classType="1" deathEffectId="5383" defaultSkinId="22400" heroSkinGroup="22400,22401,22402" iconResource="0" referenceClass="fighter" staminaType="3" thumbnailPath="Icon_Hero.Icon_Hero_Mootarr_22400_face_Tex" useStack="false">
+        <CombatPropensity attack="60" crowdControl="20" move="40" operationDifficulty="50" survival="50" />
+        <DefaultShortcutData>
+            <Shortcut id="8900" type="Skill" column="0" line="0" inputString="950028" sequence="8" />
+            <Shortcut id="9000" type="Skill" column="1" line="0" inputString="950029" sequence="9" />
+            <Shortcut id="1000" type="Skill" column="24" line="0" inputString="950026" sequence="6" />
+            <Shortcut id="2000" type="Skill" column="25" line="0" inputString="950027" sequence="7" />
+            <Shortcut id="3000" type="Skill" column="21" line="0" inputString="950024" sequence="4" />
+            <Shortcut id="8500" type="Skill" column="22" line="0" inputString="950025" sequence="5" />
+            <Shortcut id="4000" type="Skill" column="6" line="0" inputString="950020" sequence="0" />
+            <Shortcut id="5000" type="Skill" column="7" line="0" inputString="950021" sequence="1" />
+            <Shortcut id="6000" type="Skill" column="8" line="0" inputString="950022" sequence="2" />
+            <Shortcut id="7000" type="Skill" column="9" line="0" inputString="950023" sequence="3" />
+        </DefaultShortcutData>
+        <DefaultSkillList activeSkillIdList="1000,2000,3000,4000,5000,6000,7000,7100,7400,7800,8000,8500,8900,9000,9001,9002,9003,9004,9005" passiveSkillIdList="1020003,1022400,1022401,1022402" />
+        <ManaPoint recoveryStartTime="100" />
+        <NamePlate nameplateHeight="8" deathNameplateHeight="0" />
+        <RangeAtkSkillList>
+            <RangeAtkSkill id="1000" lv="0" />
+        </RangeAtkSkillList>
+        <Reaction maxAdditionalGauge="400" />
+        <Stat atk="34" def="151" attackSpeed="145" runSpeed="182" walkSpeed="50" />
+        <StatByLevelTable>
+            <StatByLevel level="1" />
+            <StatByLevel level="2" atk="40" def="160" />
+            <StatByLevel level="3" atk="46" def="169" />
+            <StatByLevel level="4" atk="52" def="178" />
+            <StatByLevel level="5" atk="58" def="187" />
+            <StatByLevel level="6" atk="64" def="196" />
+            <StatByLevel level="7" atk="70" def="205" />
+            <StatByLevel level="8" atk="76" def="214" />
+            <StatByLevel level="9" atk="82" def="223" />
+            <StatByLevel level="10" atk="88" def="232" />
+        </StatByLevelTable>
+    </Template>
+    <Template id="22500" class="hero" desc="엘린 월광무사" gender="female" race="popori" basicActionId="22500" classType="2" deathEffectId="5383" defaultSkinId="22500" heroSkinGroup="22500,22501,22502" iconResource="0" referenceClass="glaiver" staminaType="0" thumbnailPath="Icon_Hero.Icon_Hero_Riwon_22500_face_Tex" useStack="false">
+        <CombatPropensity attack="60" crowdControl="70" move="20" operationDifficulty="50" survival="10" />
+        <DefaultShortcutData>
+            <Shortcut id="8900" type="Skill" column="0" line="0" inputString="950028" sequence="8" />
+            <Shortcut id="9000" type="Skill" column="1" line="0" inputString="950029" sequence="9" />
+            <Shortcut id="1000" type="Skill" column="24" line="0" inputString="950026" sequence="6" />
+            <Shortcut id="2000" type="Skill" column="25" line="0" inputString="950027" sequence="7" />
+            <Shortcut id="3000" type="Skill" column="21" line="0" inputString="950024" sequence="4" />
+            <Shortcut id="8500" type="Skill" column="22" line="0" inputString="950025" sequence="5" />
+            <Shortcut id="4000" type="Skill" column="6" line="0" inputString="950020" sequence="0" />
+            <Shortcut id="5000" type="Skill" column="7" line="0" inputString="950021" sequence="1" />
+            <Shortcut id="6000" type="Skill" column="8" line="0" inputString="950022" sequence="2" />
+            <Shortcut id="7000" type="Skill" column="9" line="0" inputString="950023" sequence="3" />
+        </DefaultShortcutData>
+        <DefaultSkillList activeSkillIdList="1000,2000,3000,4000,5000,6000,7000,8000,8500,8900,9000,9001,9002,9003,9004,9005" passiveSkillIdList="1020003,1022500,1022501" />
+        <ManaPoint recoveryStartTime="100" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <RangeAtkSkillList>
+            <RangeAtkSkill id="4000" lv="0" />
+        </RangeAtkSkillList>
+        <Reaction maxAdditionalGauge="400" />
+        <Stat atk="34" def="151" attackSpeed="145" runSpeed="182" walkSpeed="50" />
+        <StatByLevelTable>
+            <StatByLevel level="1" />
+            <StatByLevel level="2" atk="40" def="160" />
+            <StatByLevel level="3" atk="46" def="169" />
+            <StatByLevel level="4" atk="52" def="178" />
+            <StatByLevel level="5" atk="58" def="187" />
+            <StatByLevel level="6" atk="64" def="196" />
+            <StatByLevel level="7" atk="70" def="205" />
+            <StatByLevel level="8" atk="76" def="214" />
+            <StatByLevel level="9" atk="82" def="223" />
+            <StatByLevel level="10" atk="88" def="232" />
+        </StatByLevelTable>
+    </Template>
+</HeroData>

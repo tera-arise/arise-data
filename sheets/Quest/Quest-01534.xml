@@ -1,0 +1,99 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="18104" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>181,4</Quest번호>
+        <Quest제목>@quest:18104001</Quest제목>
+        <반복퀘스트>1회성</반복퀘스트>
+        <발생조건>
+            <NPC대화>183,2033</NPC대화>
+        </발생조건>
+        <수행조건>
+            <길드레벨 />
+            <선행퀘스트>
+                <선행퀘스트>
+                    <퀘스트Id>181,03</퀘스트Id>
+                </선행퀘스트>
+            </선행퀘스트>
+            <영주길드 />
+            <최소레벨>60</최소레벨>
+        </수행조건>
+        <수행지역 />
+        <스토리그룹Id>22</스토리그룹Id>
+        <요약정보>2</요약정보>
+        <적정수행레벨>62</적정수행레벨>
+        <적정수행인원>1</적정수행인원>
+        <집회소분류 />
+        <추가보상 />
+        <퀘스트종류>미션</퀘스트종류>
+        <특수가이드 />
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <목표지역>181,18100356</목표지역>
+                <저널Text>@quest:18104005</저널Text>
+                <제한시간>0,0</제한시간>
+                <지역명>@quest:18104003</지역명>
+            </Body>
+            <Header>
+                <ContinentId>7031</ContinentId>
+                <Id>1</Id>
+                <JournalScript>1</JournalScript>
+                <Pos>18519,-1152,4199</Pos>
+                <다음Task>2</다음Task>
+                <이름>PC이동Task</이름>
+            </Header>
+        </Task>
+        <Task id="2">
+            <Body>
+                <몬스터그룹>
+                    <몬스터그룹>
+                        <그룹이름>@quest:18104006</그룹이름>
+                        <몬스터지정>
+                            <몬스터지정>
+                                <몬스터Id>181,2136</몬스터Id>
+                            </몬스터지정>
+                            <몬스터지정>
+                                <몬스터Id>181,2023</몬스터Id>
+                            </몬스터지정>
+                            <몬스터지정>
+                                <몬스터Id>181,2015</몬스터Id>
+                            </몬스터지정>
+                        </몬스터지정>
+                        <사냥마리수>12</사냥마리수>
+                    </몬스터그룹>
+                </몬스터그룹>
+                <저널Text>@quest:18104007</저널Text>
+                <진행조건>
+                    <제한시간>0,0</제한시간>
+                </진행조건>
+            </Body>
+            <Header>
+                <ContinentId>7031</ContinentId>
+                <Id>2</Id>
+                <JournalScript>1</JournalScript>
+                <Pos>18380,-2405,3648</Pos>
+                <다음Task>3</다음Task>
+                <이름>그룹사냥Task</이름>
+            </Header>
+        </Task>
+        <Task id="3">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>181,1031</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>1</보상>
+                <저널Text>@quest:18104009</저널Text>
+            </Body>
+            <Header>
+                <ContinentId>7031</ContinentId>
+                <Id>3</Id>
+                <JournalScript>1</JournalScript>
+                <Pos>21063,-6445,3531</Pos>
+                <다음Task />
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

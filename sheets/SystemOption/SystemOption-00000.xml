@@ -1,0 +1,69 @@
+<SystemOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/SystemOption SystemOption.xsd" xmlns="https://vezel.dev/novadrop/dc/SystemOption">
+    <Etc>
+        <RemoveOverlap accel="-600" velocity="200" />
+    </Etc>
+    <Interface>
+        <Camera>
+            <RotationSpeed>
+                <Data value="0.1" />
+                <Data value="0.15" />
+                <Data value="0.2" />
+                <Data value="0.3" />
+                <Data value="0.5" />
+                <Data value="0.7" />
+            </RotationSpeed>
+            <ZoomLimit defaultForNewbie="0.6" />
+        </Camera>
+    </Interface>
+    <Video>
+        <AutoFrameRateOptimize>
+            <AutoFrameRate level="1" targetFPS="50" />
+            <AutoFrameRate level="2" targetFPS="45" />
+            <AutoFrameRate level="3" targetFPS="40" />
+            <AutoFrameRate level="4" targetFPS="35" />
+            <AutoFrameRate level="5" targetFPS="30" />
+            <AutoFrameRate level="6" targetFPS="25" />
+            <AutoFrameRate level="7" targetFPS="20" />
+            <AutoFrameRate level="8" targetFPS="15" />
+        </AutoFrameRateOptimize>
+        <CullDistance>
+            <BackgroundObject>
+                <Data>
+                    <Value distance="5000" size="0" />
+                </Data>
+                <Data>
+                    <Value distance="9000" size="0" />
+                </Data>
+                <Data>
+                    <Value distance="15000" size="0" />
+                </Data>
+                <Data>
+                    <Value distance="0" size="0" />
+                </Data>
+                <Data>
+                    <Value distance="0" size="0" />
+                </Data>
+            </BackgroundObject>
+            <S1GameObject>
+                <Data>
+                    <Value distance="800" size="0" />
+                </Data>
+                <Data>
+                    <Value distance="1845" size="0" />
+                </Data>
+                <Data>
+                    <Value distance="2150" size="0" />
+                </Data>
+                <Data>
+                    <Value distance="2458" size="0" />
+                </Data>
+                <Data>
+                    <Value distance="2765" size="0" />
+                </Data>
+                <Data>
+                    <Value distance="3072" size="0" />
+                </Data>
+            </S1GameObject>
+        </CullDistance>
+    </Video>
+</SystemOption>

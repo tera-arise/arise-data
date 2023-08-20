@@ -1,0 +1,45 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="999909" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>9999,9</Quest번호>
+        <Quest제목>@quest:999909001</Quest제목>
+        <반복퀘스트>1회성</반복퀘스트>
+        <수행조건>
+            <최대레벨>64</최대레벨>
+            <최소레벨>60</최소레벨>
+        </수행조건>
+        <요약정보>100</요약정보>
+        <적정수행레벨>60</적정수행레벨>
+        <적정수행인원>5</적정수행인원>
+        <퀘스트종류>일일</퀘스트종류>
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <저널Text>@quest:999909002</저널Text>
+            </Body>
+            <Header>
+                <Id>1</Id>
+                <JournalScript>1</JournalScript>
+                <다음Task>2</다음Task>
+                <이름>성장구간인던지원Task</이름>
+            </Header>
+        </Task>
+        <Task id="2">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>9999,9999</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:999909003</저널Text>
+            </Body>
+            <Header>
+                <Id>2</Id>
+                <JournalScript>1</JournalScript>
+                <다음Task />
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

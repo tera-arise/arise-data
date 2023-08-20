@@ -1,0 +1,276 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="48701" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>487,1</Quest번호>
+        <Quest제목>@quest:48701001</Quest제목>
+        <반복퀘스트>1회성</반복퀘스트>
+        <발생조건>
+            <NPC대화>203,1006</NPC대화>
+        </발생조건>
+        <수행조건>
+            <길드레벨 />
+            <선행퀘스트>
+                <선행퀘스트>
+                    <퀘스트Id>6,05</퀘스트Id>
+                </선행퀘스트>
+            </선행퀘스트>
+            <영주길드 />
+            <최소레벨>20</최소레벨>
+        </수행조건>
+        <수행지역>487</수행지역>
+        <스토리그룹Id>5</스토리그룹Id>
+        <요약정보>100</요약정보>
+        <적정수행레벨>20</적정수행레벨>
+        <적정수행인원>1</적정수행인원>
+        <집회소분류 />
+        <추가보상 />
+        <퀘스트종류>미션</퀘스트종류>
+        <특수가이드 />
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <대상NPC지정>203,1006</대상NPC지정>
+                <분기작성>
+                    <분기작성 />
+                    <분기작성 />
+                </분기작성>
+                <저널Text>@quest:48701005</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>1</Id>
+                <JournalScript>2</JournalScript>
+                <Pos />
+                <다음Task />
+                <이름>분기Task</이름>
+            </Header>
+        </Task>
+        <Task id="2">
+            <Body>
+                <몬스터지정>
+                    <몬스터지정>
+                        <몬스터Id>3,300811</몬스터Id>
+                        <사냥마리수>3</사냥마리수>
+                    </몬스터지정>
+                </몬스터지정>
+                <보상>0</보상>
+                <저널Text>@quest:48701008</저널Text>
+                <진행조건>
+                    <제한시간>0,0</제한시간>
+                </진행조건>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>2</Id>
+                <JournalScript>3</JournalScript>
+                <Pos />
+                <다음Task>3</다음Task>
+                <이름>사냥Task</이름>
+            </Header>
+        </Task>
+        <Task id="3">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>203,1033</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:48701010</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>3</Id>
+                <JournalScript>2</JournalScript>
+                <Pos />
+                <다음Task>4</다음Task>
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+        <Task id="4">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>3001,1111</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:48701012</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>4</Id>
+                <JournalScript>6</JournalScript>
+                <Pos />
+                <다음Task>5</다음Task>
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+        <Task id="5">
+            <Body />
+            <Header>
+                <ContinentId />
+                <Id>5</Id>
+                <JournalScript>7</JournalScript>
+                <Pos />
+                <다음Task>6</다음Task>
+                <이름>동영상재생Task</이름>
+            </Header>
+        </Task>
+        <Task id="6">
+            <Body>
+                <몬스터지정>
+                    <몬스터지정>
+                        <몬스터Id>3001,1005</몬스터Id>
+                        <사냥마리수>1</사냥마리수>
+                    </몬스터지정>
+                </몬스터지정>
+                <보상>0</보상>
+                <저널Text>@quest:48701015</저널Text>
+                <진행조건>
+                    <제한시간>0,0뿐</제한시간>
+                </진행조건>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>6</Id>
+                <JournalScript>7</JournalScript>
+                <Pos />
+                <다음Task>7</다음Task>
+                <이름>사냥Task</이름>
+            </Header>
+        </Task>
+        <Task id="7">
+            <Body>
+                <몬스터지정>
+                    <몬스터지정>
+                        <몬스터Id>3001,1006</몬스터Id>
+                        <사냥마리수>1</사냥마리수>
+                    </몬스터지정>
+                </몬스터지정>
+                <보상>0</보상>
+                <저널Text>@quest:48701017</저널Text>
+                <진행조건>
+                    <제한시간>0,0뿐</제한시간>
+                </진행조건>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>7</Id>
+                <JournalScript>7</JournalScript>
+                <Pos />
+                <다음Task>8</다음Task>
+                <이름>사냥Task</이름>
+            </Header>
+        </Task>
+        <Task id="8">
+            <Body>
+                <몬스터지정>
+                    <몬스터지정>
+                        <몬스터Id>3001,101</몬스터Id>
+                        <사냥마리수>1</사냥마리수>
+                    </몬스터지정>
+                </몬스터지정>
+                <보상>0</보상>
+                <저널Text>@quest:48701020</저널Text>
+                <진행조건>
+                    <제한시간>0,0</제한시간>
+                </진행조건>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>8</Id>
+                <JournalScript>7</JournalScript>
+                <Pos />
+                <다음Task>9</다음Task>
+                <이름>사냥Task</이름>
+            </Header>
+        </Task>
+        <Task id="9">
+            <Body />
+            <Header>
+                <ContinentId />
+                <Id>9</Id>
+                <JournalScript>7</JournalScript>
+                <Pos />
+                <다음Task>10</다음Task>
+                <이름>동영상재생Task</이름>
+            </Header>
+        </Task>
+        <Task id="10">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>3001,1109</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:48701022</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>10</Id>
+                <JournalScript>7</JournalScript>
+                <Pos />
+                <다음Task>11</다음Task>
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+        <Task id="11">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>203,1006</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>0</보상>
+                <저널Text>@quest:48701024</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>11</Id>
+                <JournalScript>8</JournalScript>
+                <Pos />
+                <다음Task>12</다음Task>
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+        <Task id="12">
+            <Body>
+                <아이템지정>
+                    <아이템지정>
+                        <아이템Id>602034</아이템Id>
+                    </아이템지정>
+                </아이템지정>
+                <저널Text>@quest:48701025</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>12</Id>
+                <JournalScript>9</JournalScript>
+                <Pos />
+                <다음Task>13</다음Task>
+                <이름>아이템사용Task</이름>
+            </Header>
+        </Task>
+        <Task id="13">
+            <Body>
+                <방문그룹>
+                    <방문그룹>
+                        <NPCId>59,1009</NPCId>
+                    </방문그룹>
+                </방문그룹>
+                <보상>1</보상>
+                <저널Text>@quest:48701027</저널Text>
+            </Body>
+            <Header>
+                <ContinentId />
+                <Id>13</Id>
+                <JournalScript>9</JournalScript>
+                <Pos />
+                <다음Task />
+                <이름>방문Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

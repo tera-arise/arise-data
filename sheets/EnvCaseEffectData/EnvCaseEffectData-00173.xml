@@ -1,0 +1,17 @@
+<EnvCaseEffectData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/EnvCaseEffectData EnvCaseEffectData.xsd" animSet="Vehicle_Ostrich_B_ANI.Anim.Vehicle_Ostrich_B_Anim" xmlns="https://vezel.dev/novadrop/dc/EnvCaseEffectData">
+    <EnvCaseEffect animName="run">
+        <Effect time="298" type="OnGround" scale="1" condition="Normal" posX="10" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" boneName="FxHand00" detach="true" playRate="1" rescaleMethod="followBodyFxSize" />
+        <Effect time="42.2" type="OnGround" scale="1" condition="Normal" posX="10" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" boneName="FxHand01" detach="true" playRate="1" rescaleMethod="followBodyFxSize" />
+        <Effect time="0" type="InWater" scale="1.3" condition="Always" posX="75" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" boneName="FxCenter" detach="true" playRate="1.5" rescaleMethod="followBodyFxSize" />
+    </EnvCaseEffect>
+    <EnvCaseEffect animName="JumpEnd">
+        <Effect time="200" type="OnGround" scale="1" condition="Normal" posX="2" posY="2" posZ="0" rotX="0" rotY="0" rotZ="0" boneName="FxHand00" detach="true" playRate="1.5" rescaleMethod="followBodyFxSize" />
+        <Effect time="200" type="OnGround" scale="1" condition="Normal" posX="2" posY="-2" posZ="0" rotX="0" rotY="0" rotZ="0" boneName="FxHand01" detach="true" playRate="1.5" rescaleMethod="followBodyFxSize" />
+        <Effect time="0" type="InWater" scale="1.3" condition="Always" posX="75" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" boneName="FxCenter" detach="true" playRate="2" rescaleMethod="followBodyFxSize" />
+    </EnvCaseEffect>
+    <EnvCaseEffect animName="JumpEndLand">
+        <Effect time="145.8" type="OnGround" scale="1" condition="Normal" posX="2" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" boneName="FxHand00" detach="true" playRate="1.5" rescaleMethod="followBodyFxSize" />
+        <Effect time="78.2" type="OnGround" scale="1" condition="Normal" posX="2" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" boneName="FxHand01" detach="true" playRate="1.5" rescaleMethod="followBodyFxSize" />
+        <Effect time="0" type="InWater" scale="1.3" condition="Always" posX="75" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" boneName="FxCenter" detach="true" playRate="2" rescaleMethod="followBodyFxSize" />
+    </EnvCaseEffect>
+</EnvCaseEffectData>

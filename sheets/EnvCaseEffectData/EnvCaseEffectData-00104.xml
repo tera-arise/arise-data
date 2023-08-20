@@ -1,0 +1,44 @@
+<EnvCaseEffectData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/EnvCaseEffectData EnvCaseEffectData.xsd" animSet="Popori_F_ANI.Anim.Popori_F_D_Share_Anim" xmlns="https://vezel.dev/novadrop/dc/EnvCaseEffectData">
+    <EnvCaseEffect id="0" animName="swim">
+        <Effect time="744" type="InWater" scale="1" condition="Always" posX="30" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" boneName="FxCenter" detach="true" playRate="1" rescaleMethod="followBodyFxSize" />
+    </EnvCaseEffect>
+    <EnvCaseEffect id="1" animName="unarmedrun">
+        <Effect time="10" type="OnGround" scale="0.8" condition="Normal" posX="0" posY="0" posZ="0" rotX="-90" rotY="0" rotZ="0" boneName="Bip01-R-Toe0" detach="true" playRate="1.5" rescaleMethod="followBodyFxSize" />
+        <Effect time="450" type="OnGround" scale="0.8" condition="Normal" posX="0" posY="0" posZ="0" rotX="-90" rotY="0" rotZ="0" boneName="Bip01-L-Toe0" detach="true" playRate="1.5" rescaleMethod="followBodyFxSize" />
+        <Effect time="0" type="InWater" scale="1" condition="Always" posX="35" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" boneName="FxCenter" detach="true" playRate="1" rescaleMethod="followBodyFxSize" />
+        <Effect time="389" type="InWater" scale="1" condition="Always" posX="35" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" boneName="FxCenter" detach="true" playRate="1" rescaleMethod="followBodyFxSize" />
+        <Effect time="10" type="OnGround" scale="0.6" condition="Cursed" posX="0" posY="0" posZ="0" rotX="-90" rotY="0" rotZ="0" boneName="Bip01-R-Toe0" detach="true" playRate="1.5" rescaleMethod="followBodyFxSize" />
+        <Effect time="450" type="OnGround" scale="0.6" condition="Cursed" posX="0" posY="0" posZ="0" rotX="-90" rotY="0" rotZ="0" boneName="Bip01-L-Toe0" detach="true" playRate="1.5" rescaleMethod="followBodyFxSize" />
+        <Effect time="55" type="StyleFootPrint" scale="1" condition="RIGHT" posX="3.453" posY="1.024" posZ="0" rotX="0" rotY="0" rotZ="0" boneName="FxBottom" detach="true" playRate="1" rescaleMethod="followShape" />
+        <Effect time="350" type="StyleFootPrint" scale="1" condition="LEFT" posX="3.657" posY="-0.837" posZ="0" rotX="0" rotY="0" rotZ="0" boneName="FxBottom" detach="true" playRate="1" rescaleMethod="followShape" />
+    </EnvCaseEffect>
+    <EnvCaseEffect animName="JumpEnd">
+        <Effect time="120" type="OnGround" scale="0.8" condition="Normal" posX="0" posY="0" posZ="0" rotX="-90" rotY="0" rotZ="0" boneName="Bip01-R-Toe0" detach="true" playRate="2" rescaleMethod="followBodyFxSize" />
+        <Effect time="120" type="OnGround" scale="0.8" condition="Normal" posX="0" posY="0" posZ="0" rotX="-90" rotY="0" rotZ="0" boneName="Bip01-L-Toe0" detach="true" playRate="2" rescaleMethod="followBodyFxSize" />
+        <Effect time="0" type="InWater" scale="1" condition="Always" posX="33" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" boneName="FxCenter" detach="true" playRate="1.5" rescaleMethod="followBodyFxSize" />
+        <Effect time="120" type="OnGround" scale="0.6" condition="Cursed" posX="0" posY="0" posZ="0" rotX="-90" rotY="0" rotZ="0" boneName="Bip01-R-Toe0" detach="true" playRate="2" rescaleMethod="followBodyFxSize" />
+        <Effect time="120" type="OnGround" scale="0.6" condition="Cursed" posX="0" posY="0" posZ="0" rotX="-90" rotY="0" rotZ="0" boneName="Bip01-L-Toe0" detach="true" playRate="2" rescaleMethod="followBodyFxSize" />
+        <Effect time="120" type="StyleFootPrint" scale="1" condition="RIGHT" posX="4.421" posY="3.555" posZ="0" rotX="0" rotY="0" rotZ="0" boneName="FxBottom" detach="true" playRate="1" rescaleMethod="followShape" />
+        <Effect time="120" type="StyleFootPrint" scale="1" condition="LEFT" posX="1" posY="-4.725" posZ="0" rotX="0" rotY="0" rotZ="0" boneName="FxBottom" detach="true" playRate="1" rescaleMethod="followShape" />
+    </EnvCaseEffect>
+    <EnvCaseEffect animName="JumpEndLand">
+        <Effect time="100" type="OnGround" scale="0.8" condition="Normal" posX="0" posY="0" posZ="0" rotX="-90" rotY="0" rotZ="0" boneName="Bip01-R-Toe0" detach="true" playRate="2" rescaleMethod="followBodyFxSize" />
+        <Effect time="80" type="OnGround" scale="0.8" condition="Normal" posX="0" posY="0" posZ="0" rotX="-90" rotY="0" rotZ="0" boneName="Bip01-L-Toe0" detach="true" playRate="2" rescaleMethod="followBodyFxSize" />
+        <Effect time="0" type="InWater" scale="1" condition="Always" posX="33" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" boneName="FxCenter" detach="true" playRate="1.5" rescaleMethod="followBodyFxSize" />
+        <Effect time="100" type="OnGround" scale="0.6" condition="Cursed" posX="0" posY="0" posZ="0" rotX="-90" rotY="0" rotZ="0" boneName="Bip01-R-Toe0" detach="true" playRate="2" rescaleMethod="followBodyFxSize" />
+        <Effect time="80" type="OnGround" scale="0.6" condition="Cursed" posX="0" posY="0" posZ="0" rotX="-90" rotY="0" rotZ="0" boneName="Bip01-L-Toe0" detach="true" playRate="2" rescaleMethod="followBodyFxSize" />
+        <Effect time="100" type="StyleFootPrint" scale="1" condition="RIGHT" posX="9.599" posY="1.428" posZ="0" rotX="0" rotY="0" rotZ="0" boneName="FxBottom" detach="true" playRate="1" rescaleMethod="followShape" />
+        <Effect time="80" type="StyleFootPrint" scale="1" condition="LEFT" posX="-5.016" posY="-2.441" posZ="0" rotX="0" rotY="0" rotZ="0" boneName="FxBottom" detach="true" playRate="1" rescaleMethod="followShape" />
+        <Effect time="500" type="StyleFootPrint" scale="1" condition="LEFT" posX="2.087" posY="-1.064" posZ="0" rotX="0" rotY="0" rotZ="0" boneName="FxBottom" detach="true" playRate="1" rescaleMethod="followShape" />
+    </EnvCaseEffect>
+    <EnvCaseEffect animName="Walk">
+        <Effect time="10" type="OnGround" scale="0.8" condition="Normal" posX="0" posY="0" posZ="0" rotX="-90" rotY="0" rotZ="0" boneName="Bip01-R-Toe0" detach="true" playRate="1.5" rescaleMethod="followBodyFxSize" />
+        <Effect time="450" type="OnGround" scale="0.8" condition="Normal" posX="0" posY="0" posZ="0" rotX="-90" rotY="0" rotZ="0" boneName="Bip01-L-Toe0" detach="true" playRate="1.5" rescaleMethod="followBodyFxSize" />
+        <Effect time="0" type="InWater" scale="1" condition="Always" posX="35" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" boneName="FxCenter" detach="true" playRate="1" rescaleMethod="followBodyFxSize" />
+        <Effect time="389" type="InWater" scale="1" condition="Always" posX="35" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" boneName="FxCenter" detach="true" playRate="1" rescaleMethod="followBodyFxSize" />
+        <Effect time="10" type="OnGround" scale="0.6" condition="Cursed" posX="0" posY="0" posZ="0" rotX="-90" rotY="0" rotZ="0" boneName="Bip01-R-Toe0" detach="true" playRate="1.5" rescaleMethod="followBodyFxSize" />
+        <Effect time="450" type="OnGround" scale="0.6" condition="Cursed" posX="0" posY="0" posZ="0" rotX="-90" rotY="0" rotZ="0" boneName="Bip01-L-Toe0" detach="true" playRate="1.5" rescaleMethod="followBodyFxSize" />
+        <Effect time="700" type="StyleFootPrint" scale="1" condition="RIGHT" posX="0.616" posY="0.589" posZ="0" rotX="0" rotY="0" rotZ="0" boneName="FxBottom" detach="true" playRate="1" rescaleMethod="followShape" />
+        <Effect time="225" type="StyleFootPrint" scale="1" condition="LEFT" posX="0.001" posY="-0.551" posZ="0" rotX="0" rotY="0" rotZ="0" boneName="FxBottom" detach="true" playRate="1" rescaleMethod="followShape" />
+    </EnvCaseEffect>
+</EnvCaseEffectData>

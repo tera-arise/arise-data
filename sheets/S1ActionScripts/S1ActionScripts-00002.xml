@@ -1,0 +1,65 @@
+<S1ActionScripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/S1ActionScripts S1ActionScripts.xsd" type="Field" xmlns="https://vezel.dev/novadrop/dc/S1ActionScripts">
+    <Script id="620001" playingTime="3000">
+        <Action time="0" type="cameraShake" duration="3000" power="1" speed="100" />
+    </Script>
+    <Script id="621001" playingTime="12000">
+        <Action time="0" type="animation" animName="onstart" blendInTime="1" />
+        <Action time="4000" type="animation" animName="On" />
+        <Action time="7000" type="animation" animName="On" />
+    </Script>
+    <Script id="621002" playingTime="12000">
+        <Action time="0" type="animation" animName="craft_energy" blendInTime="0.2" />
+        <Action time="3500" type="cameraShake" duration="8000" power="0.5" speed="100" />
+    </Script>
+    <Script id="621003" playingTime="15000">
+        <Action time="0" type="ActionScript" templateId="2003" huntingZoneId="621" scriptId="621002" />
+        <Action time="0" type="ActionScript" templateId="2002" huntingZoneId="621" scriptId="621001" />
+        <Action time="0" type="ActionScript" templateId="2004" huntingZoneId="621" scriptId="621001" />
+    </Script>
+    <Script id="622001" playingTime="3000">
+        <Action time="0" type="cameraShake" duration="3000" power="1" speed="100" />
+    </Script>
+    <Script id="630000" playingTime="3000">
+        <Action time="0" type="cameraShake" duration="2000" power="0.5" speed="100" />
+        <Action time="0" type="Sound" radius="1" volume="3.5" cueName="Monster_Skill01._Common_CUE.BigMonster_Common_Impact_Stereo_02CUE" pitch="1" />
+    </Script>
+    <Script id="630001" playingTime="3000">
+        <Action time="0" type="animation" animName="Roar" rate="0.5" />
+        <Action time="0" type="Sound" radius="1" volume="3.5" cueName="ObjectSound_03.FlyingNB_Cue.FlyingNB_Whale_Roar_CUE" pitch="1" />
+    </Script>
+    <Script id="630002" playingTime="1000">
+        <Action time="0" type="postProcess" on="true" postprocessSet="30" />
+        <Action time="0" type="PostProcessMaterial" duration="1000" from="0" to="1" param="Strength" postprocessSet="30" />
+    </Script>
+    <Script id="630003" playingTime="1000">
+        <Action time="0" type="postProcess" on="true" postprocessSet="31" />
+        <Action time="0" type="PostProcessMaterial" duration="1000" from="0" to="1" param="Strength" postprocessSet="31" />
+    </Script>
+    <Script id="630004" playingTime="1000">
+        <Action time="0" type="postProcess" on="false" postprocessSet="30" />
+    </Script>
+    <Script id="630005" playingTime="1000">
+        <Action time="0" type="postProcess" on="false" postprocessSet="31" />
+    </Script>
+    <Script id="630006" playingTime="2000">
+        <Action time="1000" type="animation" animName="DownEnd" rate="2" />
+    </Script>
+    <Script id="630007" isOnlyPlayerTarget="true" playingTime="1000">
+        <Action time="0" type="postProcess" on="true" postprocessSet="40" />
+        <Action time="0" type="PostProcessMaterial" duration="1000" from="0" to="0.2" param="Strength" postprocessSet="40" />
+    </Script>
+    <Script id="630008" playingTime="1000">
+        <Action time="0" type="postProcess" on="false" postprocessSet="40" />
+    </Script>
+    <Script id="631001" playingTime="2000">
+        <Action time="0" type="animation" animName="Opening" rate="1" />
+        <Action time="3000" type="animation" animName="Closing" rate="1" />
+    </Script>
+    <Script id="631002" playingTime="1000">
+        <Action time="0" type="postProcess" on="true" postprocessSet="32" />
+        <Action time="0" type="PostProcessMaterial" duration="1000" from="0" to="1" param="Strength" postprocessSet="32" />
+    </Script>
+    <Script id="631003" playingTime="1000">
+        <Action time="0" type="postProcess" on="false" postprocessSet="32" />
+    </Script>
+</S1ActionScripts>

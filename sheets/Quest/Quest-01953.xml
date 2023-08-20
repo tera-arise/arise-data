@@ -1,0 +1,129 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="60214" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>602,14</Quest번호>
+        <Quest제목>@quest:60214001</Quest제목>
+        <반복퀘스트>1회성</반복퀘스트>
+        <발생조건>
+            <NPC대화>78,3003</NPC대화>
+        </발생조건>
+        <수행조건>
+            <길드레벨 />
+            <선행퀘스트>
+                <선행퀘스트>
+                    <퀘스트Id>602,18</퀘스트Id>
+                </선행퀘스트>
+            </선행퀘스트>
+            <영주길드 />
+            <최소레벨>63</최소레벨>
+        </수행조건>
+        <스토리그룹Id />
+        <요약정보>100</요약정보>
+        <적정수행레벨>65</적정수행레벨>
+        <적정수행인원>1</적정수행인원>
+        <집회소분류 />
+        <퀘스트종류>일일</퀘스트종류>
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <대상NPC지정>78,3008</대상NPC지정>
+                <분기작성>
+                    <분기작성 />
+                    <분기작성 />
+                    <분기작성 />
+                </분기작성>
+                <저널Text>@quest:60214007</저널Text>
+            </Body>
+            <Header>
+                <Id>1</Id>
+                <JournalScript>2</JournalScript>
+                <다음Task />
+                <이름>분기Task</이름>
+            </Header>
+        </Task>
+        <Task id="2">
+            <Body>
+                <대상NPC지정>418,2006</대상NPC지정>
+                <보상>1</보상>
+                <저널Text>@quest:60214010</저널Text>
+                <저널Text2>@quest:60214011</저널Text2>
+                <전달아이템지정>
+                    <전달아이템지정>
+                        <아이템Id>45256</아이템Id>
+                        <전달수량>3</전달수량>
+                    </전달아이템지정>
+                </전달아이템지정>
+                <제한시간설정>
+                    <제한시간>0,0</제한시간>
+                </제한시간설정>
+                <채집물지정>
+                    <채집물지정>
+                        <콜렉션Id>560</콜렉션Id>
+                    </채집물지정>
+                </채집물지정>
+            </Body>
+            <Header>
+                <Id>2</Id>
+                <JournalScript>3</JournalScript>
+                <다음Task />
+                <이름>채집Task</이름>
+            </Header>
+        </Task>
+        <Task id="3">
+            <Body>
+                <대상NPC지정>418,2006</대상NPC지정>
+                <보상>1</보상>
+                <저널Text>@quest:60214013</저널Text>
+                <저널Text2>@quest:60214014</저널Text2>
+                <전달아이템지정>
+                    <전달아이템지정>
+                        <아이템Id>45256</아이템Id>
+                        <전달수량>5</전달수량>
+                    </전달아이템지정>
+                </전달아이템지정>
+                <제한시간설정>
+                    <제한시간>0,0</제한시간>
+                </제한시간설정>
+                <채집물지정>
+                    <채집물지정>
+                        <콜렉션Id>560</콜렉션Id>
+                    </채집물지정>
+                </채집물지정>
+            </Body>
+            <Header>
+                <Id>3</Id>
+                <JournalScript>3</JournalScript>
+                <다음Task />
+                <이름>채집Task</이름>
+            </Header>
+        </Task>
+        <Task id="4">
+            <Body>
+                <대상NPC지정>418,2006</대상NPC지정>
+                <보상>1</보상>
+                <저널Text>@quest:60214016</저널Text>
+                <저널Text2>@quest:60214017</저널Text2>
+                <전달아이템지정>
+                    <전달아이템지정>
+                        <아이템Id>45256</아이템Id>
+                        <전달수량>7</전달수량>
+                    </전달아이템지정>
+                </전달아이템지정>
+                <제한시간설정>
+                    <제한시간>0,0</제한시간>
+                </제한시간설정>
+                <채집물지정>
+                    <채집물지정>
+                        <콜렉션Id>560</콜렉션Id>
+                    </채집물지정>
+                </채집물지정>
+            </Body>
+            <Header>
+                <Id>4</Id>
+                <JournalScript>3</JournalScript>
+                <다음Task />
+                <이름>채집Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

@@ -1,0 +1,20 @@
+<TrialAccount xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/TrialAccount TrialAccount.xsd" xmlns="https://vezel.dev/novadrop/dc/TrialAccount">
+    <Popup>
+        <Condition>
+            <Event type="after_movie_played" delayTime="4" movieId="1000" popupId="1" />
+            <Event type="after_movie_played" delayTime="4" movieId="6" popupId="2" />
+            <Event type="after_movie_played" delayTime="4" movieId="24" popupId="3" />
+            <Event type="meet_designed_level" delayTime="2" popupId="4" />
+            <Event type="after_movie_played" delayTime="4" movieId="1000" popupId="10" raf="true" />
+            <Event level="11" type="meet_designed_level" delayTime="2" popupId="11" raf="true" />
+            <Event level="30" type="meet_designed_level" delayTime="2" popupId="12" raf="true" />
+        </Condition>
+        <Type id="1" bodyStr="2" buttonStr="3" titleStr="1" />
+        <Type id="2" bodyStr="5" buttonStr="6" titleStr="4" />
+        <Type id="3" bodyStr="8" buttonStr="9" titleStr="7" />
+        <Type id="4" bodyStr="11" buttonStr="12" titleStr="10" />
+        <Type id="10" bodyStr="14" buttonStr="15" titleStr="13" />
+        <Type id="11" bodyStr="17" buttonStr="18" titleStr="16" />
+        <Type id="12" bodyStr="20" buttonStr="21" titleStr="19" />
+    </Popup>
+</TrialAccount>

@@ -1,0 +1,33 @@
+<SituationExpressionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/SituationExpressionData SituationExpressionData.xsd" xmlns="https://vezel.dev/novadrop/dc/SituationExpressionData">
+    <Data id="518001" type="Villager" templateId="1001" huntingZoneId="518" tutorial="false">
+        <ConditionInfo>
+            <ConditionList>
+                <QuestCondition type="Complete" questId="6000" taskId="1" />
+                <SearchCondition type="Player" checkInterval="500" maxDistance="300" minDistance="1" haveMarker="" maxNumber="1" minNumber="1" />
+            </ConditionList>
+        </ConditionInfo>
+        <JobInfo>
+            <ActionScriptJob id="5180001" type="OnlyOnce" />
+        </JobInfo>
+    </Data>
+    <Data id="518002" type="Player" tutorial="false">
+        <ConditionInfo>
+            <ConditionList>
+                <QuestCondition type="progress" questId="6001" taskId="4" />
+            </ConditionList>
+        </ConditionInfo>
+        <JobInfo>
+            <ActionScriptJob id="6001003" type="OnlyOnce" />
+        </JobInfo>
+    </Data>
+    <Data id="518003" type="Player" tutorial="false">
+        <ConditionInfo>
+            <ConditionList>
+                <QuestCondition type="progress" questId="6001" taskId="5" />
+            </ConditionList>
+        </ConditionInfo>
+        <JobInfo>
+            <ActionScriptJob id="6001004" type="OnlyOnce" />
+        </JobInfo>
+    </Data>
+</SituationExpressionData>

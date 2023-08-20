@@ -1,0 +1,52 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="5522" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>55,22</Quest번호>
+        <Quest제목>@quest:5522001</Quest제목>
+        <반복퀘스트>1회성</반복퀘스트>
+        <발생조건>
+            <NPC대화>80,1020</NPC대화>
+        </발생조건>
+        <수행조건>
+            <길드레벨 />
+            <영주길드 />
+            <최소레벨>50</최소레벨>
+        </수행조건>
+        <스토리그룹Id />
+        <요약정보>100</요약정보>
+        <적정수행레벨>51</적정수행레벨>
+        <적정수행인원>1</적정수행인원>
+        <집회소분류 />
+        <퀘스트종류>범용</퀘스트종류>
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <대상NPC지정>80,1020</대상NPC지정>
+                <보상>1</보상>
+                <아이템작성>
+                    <아이템작성>
+                        <Flag아이템이름>@quest:5522004</Flag아이템이름>
+                        <몬스터지정>
+                            <몬스터지정>
+                                <몬스터Id>56,17</몬스터Id>
+                            </몬스터지정>
+                        </몬스터지정>
+                        <아이콘지정>177</아이콘지정>
+                        <전달수량>10</전달수량>
+                    </아이템작성>
+                </아이템작성>
+                <저널Text>@quest:5522005</저널Text>
+                <저널Text2>@quest:5522006</저널Text2>
+                <진행조건>
+                    <제한시간>0,0</제한시간>
+                </진행조건>
+            </Body>
+            <Header>
+                <Id>1</Id>
+                <JournalScript>2</JournalScript>
+                <다음Task />
+                <이름>사냥전달Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

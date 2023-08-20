@@ -1,0 +1,54 @@
+<Quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Quest Quest.xsd" id="4873" xmlns="https://vezel.dev/novadrop/dc/Quest">
+    <Header>
+        <Quest번호>48,73</Quest번호>
+        <Quest제목>@quest:4873001</Quest제목>
+        <반복퀘스트>1회성</반복퀘스트>
+        <발생조건>
+            <NPC대화>0,0</NPC대화>
+        </발생조건>
+        <수행조건>
+            <길드레벨>1</길드레벨>
+            <영주길드 />
+            <최대레벨>65</최대레벨>
+            <최소레벨>58</최소레벨>
+        </수행조건>
+        <스토리그룹Id />
+        <요약정보>100</요약정보>
+        <적정수행레벨>60</적정수행레벨>
+        <적정수행인원>1</적정수행인원>
+        <집회소분류>0</집회소분류>
+        <퀘스트종류>길드</퀘스트종류>
+    </Header>
+    <Tasks>
+        <Task id="1">
+            <Body>
+                <대상NPC지정>0,0</대상NPC지정>
+                <몬스터지정>
+                    <몬스터지정>
+                        <몬스터Id>48,8</몬스터Id>
+                    </몬스터지정>
+                </몬스터지정>
+                <반복목표>사냥</반복목표>
+                <반복방식>무한</반복방식>
+                <반복횟수>1</반복횟수>
+                <보상>1</보상>
+                <아이템작성>
+                    <Flag아이템이름>@quest:4873002</Flag아이템이름>
+                    <아이콘지정>119</아이콘지정>
+                    <전달수량>1</전달수량>
+                </아이템작성>
+                <저널Text>@quest:4873004</저널Text>
+                <저널Text2>@quest:4873005</저널Text2>
+                <전장승리 />
+                <진행조건 />
+                <최대Flag소지량>10</최대Flag소지량>
+            </Body>
+            <Header>
+                <Id>1</Id>
+                <JournalScript>2</JournalScript>
+                <다음Task />
+                <이름>반복Task</이름>
+            </Header>
+        </Task>
+    </Tasks>
+</Quest>

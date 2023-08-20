@@ -1,0 +1,306 @@
+<KeyGuide xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/KeyGuide KeyGuide.xsd" xmlns="https://vezel.dev/novadrop/dc/KeyGuide">
+    <ConditionList id="1">
+        <Condition type="firstworld" />
+    </ConditionList>
+    <ConditionList id="10">
+        <Condition type="quest" value="59903" subValue="2" />
+    </ConditionList>
+    <ConditionList id="11">
+        <Condition type="keyguide" value="10" />
+    </ConditionList>
+    <ConditionList id="12">
+        <Condition type="quest" value="59903" subValue="2" />
+    </ConditionList>
+    <ConditionList id="13">
+        <Condition type="keyguide" value="12" />
+    </ConditionList>
+    <ConditionList id="14">
+        <Condition type="quest" value="59903" subValue="2" />
+    </ConditionList>
+    <ConditionList id="15">
+        <Condition type="keyguide" value="14" />
+    </ConditionList>
+    <ConditionList id="16">
+        <Condition type="quest" value="59903" subValue="2" />
+    </ConditionList>
+    <ConditionList id="17">
+        <Condition type="keyguide" value="16" />
+    </ConditionList>
+    <ConditionList id="18">
+        <Condition type="quest" value="59903" subValue="2" />
+    </ConditionList>
+    <ConditionList id="19">
+        <Condition type="keyguide" value="18" />
+    </ConditionList>
+    <ConditionList id="20">
+        <Condition type="quest" value="59903" subValue="2" />
+    </ConditionList>
+    <ConditionList id="21">
+        <Condition type="keyguide" value="20" />
+    </ConditionList>
+    <ConditionList id="22">
+        <Condition type="quest" value="59903" subValue="2" />
+    </ConditionList>
+    <ConditionList id="23">
+        <Condition type="keyguide" value="22" />
+    </ConditionList>
+    <ConditionList id="24">
+        <Condition type="quest" value="59903" subValue="2" />
+    </ConditionList>
+    <ConditionList id="25">
+        <Condition type="keyguide" value="24" />
+    </ConditionList>
+    <ConditionList id="26">
+        <Condition type="quest" value="59903" subValue="2" />
+    </ConditionList>
+    <ConditionList id="27">
+        <Condition type="keyguide" value="26" />
+    </ConditionList>
+    <ConditionList id="28">
+        <Condition type="quest" value="59903" subValue="2" />
+    </ConditionList>
+    <ConditionList id="29">
+        <Condition type="keyguide" value="28" />
+    </ConditionList>
+    <ConditionList id="103">
+        <Condition type="quest" value="59903" subValue="1" />
+    </ConditionList>
+    <ConditionList id="104">
+        <Condition type="keyGuide" value="103" />
+    </ConditionList>
+    <ConditionList id="106">
+        <Condition type="keyGuide" value="104" />
+    </ConditionList>
+    <ConditionList id="108">
+        <Condition type="keyGuide" value="106" />
+    </ConditionList>
+    <ConditionList id="110">
+        <Condition type="keyGuide" value="108" />
+    </ConditionList>
+    <ConditionList id="112">
+        <Condition type="keyGuide" value="110" />
+    </ConditionList>
+    <ConditionList id="200">
+        <Condition type="abnormality" value="10153053" />
+    </ConditionList>
+    <ConditionList id="400">
+        <Condition type="keyguide" subValue="29" />
+    </ConditionList>
+    <ConditionList id="401">
+        <Condition type="skillLearn" value="40100" />
+    </ConditionList>
+    <ConditionList id="501">
+        <Condition type="abnormality" value="10155205" />
+        <Condition type="skillLearn" value="160199" />
+    </ConditionList>
+    <ConditionList id="502">
+        <Condition type="abnormality" value="10155206" />
+        <Condition type="skillLearn" value="160199" />
+    </ConditionList>
+    <ConditionList id="503">
+        <Condition type="abnormality" value="10155206" />
+    </ConditionList>
+    <ConditionList id="504">
+        <Condition type="abnormality" value="10155205" />
+    </ConditionList>
+    <ConditionList id="550">
+        <Condition type="quest" value="59902" subValue="1" />
+    </ConditionList>
+    <ConditionList id="551">
+        <Condition type="keyGuide" value="550" />
+    </ConditionList>
+    <ConditionList id="552">
+        <Condition type="keyGuide" value="551" />
+    </ConditionList>
+    <ConditionList id="2500">
+        <Condition type="quest" value="250001" subValue="1" />
+    </ConditionList>
+    <Guide id="1" class="common" priority="0" time="60000" type="infinity" stringId="1" interval="0">
+        <Action type="move" step="1" actionTime="0" inputKeyValue="forward" inputTime="0" nextStep="2" prevStep="0" showSkillIcon="false" />
+        <Action type="move" step="2" actionTime="0" inputKeyValue="backward" inputTime="0" nextStep="3" prevStep="1" showSkillIcon="false" />
+        <Action type="move" step="3" actionTime="0" inputKeyValue="left" inputTime="0" nextStep="4" prevStep="2" showSkillIcon="false" />
+        <Action type="move" step="4" actionTime="0" inputKeyValue="right" inputTime="0" nextStep="4" prevStep="3" showSkillIcon="false" />
+    </Guide>
+    <Guide id="10" class="Warrior" priority="0" time="30000" type="infinity" stringId="10" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="10100" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="11" class="Warrior" priority="0" time="30000" type="infinity" stringId="11" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="20100" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="12" class="Lancer" priority="0" time="30000" type="infinity" stringId="10" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="10100" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="13" class="Lancer" priority="0" time="30000" type="infinity" stringId="11" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="20100" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="14" class="Slayer" priority="0" time="30000" type="infinity" stringId="10" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="10100" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="15" class="Slayer" priority="0" time="30000" type="infinity" stringId="11" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="40100" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="16" class="Sorcerer" priority="0" time="30000" type="infinity" stringId="10" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="10100" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="17" class="Sorcerer" priority="0" time="30000" type="infinity" stringId="11" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="80100" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="18" class="Berserker" priority="0" time="30000" type="infinity" stringId="10" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="10100" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="19" class="Berserker" priority="0" time="30000" type="infinity" stringId="11" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="20100" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="20" class="Archer" priority="0" time="30000" type="infinity" stringId="10" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="10100" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="21" class="Archer" priority="0" time="30000" type="infinity" stringId="11" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="60100" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="22" class="Priest" priority="0" time="30000" type="infinity" stringId="10" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="10100" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="23" class="Priest" priority="0" time="30000" type="infinity" stringId="11" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="180100" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="24" class="Elementalist" priority="0" time="30000" type="infinity" stringId="10" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="10100" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="25" class="Elementalist" priority="0" time="30000" type="infinity" stringId="11" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="180100" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="26" class="Engineer" priority="0" time="30000" type="infinity" stringId="10" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="10100" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="27" class="Engineer" priority="0" time="30000" type="infinity" stringId="11" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="400100" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="28" class="Assassin" priority="0" time="30000" type="infinity" stringId="10" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="10100" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="29" class="Assassin" priority="0" time="30000" type="infinity" stringId="12" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="20100" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="102" class="fighter" priority="102" time="180000" type="infinity" stringId="102" interval="0" preDelay="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="20100,20110" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="103" class="fighter" priority="103" time="180000" type="infinity" stringId="103" interval="0" preDelay="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="20100,20110" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="104" class="fighter" priority="104" time="180000" type="infinity" stringId="104" interval="0" preDelay="1.5">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="10100" nextStep="2" prevStep="0" showSkillIcon="true" />
+        <Action type="skill" step="2" actionTime="0" inputSkillValue="20100,20101" nextStep="0" prevStep="1" showSkillIcon="true" />
+    </Guide>
+    <Guide id="105" class="fighter" priority="105" time="180000" type="infinity" stringId="105" interval="0" preDelay="1.5">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="10100" nextStep="2" prevStep="0" showSkillIcon="true" />
+        <Action type="skill" step="2" actionTime="0" inputSkillValue="20100,20101" nextStep="0" prevStep="1" showSkillIcon="true" />
+    </Guide>
+    <Guide id="106" class="fighter" priority="106" time="180000" type="infinity" stringId="106" interval="0" preDelay="1.5">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="10100" nextStep="2" prevStep="0" showSkillIcon="true" />
+        <Action type="skill" step="2" actionTime="0" inputSkillValue="10100,10101" nextStep="3" prevStep="1" showSkillIcon="true" />
+        <Action type="skill" step="3" actionTime="0" inputSkillValue="20100,20102" nextStep="0" prevStep="1" showSkillIcon="true" />
+    </Guide>
+    <Guide id="107" class="fighter" priority="107" time="180000" type="infinity" stringId="107" interval="0" preDelay="1.5">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="10100" nextStep="2" prevStep="0" showSkillIcon="true" />
+        <Action type="skill" step="2" actionTime="0" inputSkillValue="10100,10101" nextStep="3" prevStep="1" showSkillIcon="true" />
+        <Action type="skill" step="3" actionTime="0" inputSkillValue="20100,20102" nextStep="0" prevStep="1" showSkillIcon="true" />
+    </Guide>
+    <Guide id="108" class="fighter" priority="108" time="180000" type="infinity" stringId="108" interval="0" preDelay="1.5">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="10100" nextStep="2" prevStep="0" showSkillIcon="true" />
+        <Action type="skill" step="2" actionTime="0" inputSkillValue="10100,10101" nextStep="3" prevStep="1" showSkillIcon="true" />
+        <Action type="skill" step="3" actionTime="0" inputSkillValue="10100,10102" nextStep="4" prevStep="1" showSkillIcon="true" />
+        <Action type="skill" step="4" actionTime="0" inputSkillValue="20100,20103" nextStep="0" prevStep="1" showSkillIcon="true" />
+    </Guide>
+    <Guide id="109" class="fighter" priority="109" time="180000" type="infinity" stringId="109" interval="0" preDelay="1.5">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="10100" nextStep="2" prevStep="0" showSkillIcon="true" />
+        <Action type="skill" step="2" actionTime="0" inputSkillValue="10100,10101" nextStep="3" prevStep="1" showSkillIcon="true" />
+        <Action type="skill" step="3" actionTime="0" inputSkillValue="10100,10102" nextStep="4" prevStep="1" showSkillIcon="true" />
+        <Action type="skill" step="4" actionTime="0" inputSkillValue="20100,20103" nextStep="0" prevStep="1" showSkillIcon="true" />
+    </Guide>
+    <Guide id="110" class="fighter" priority="110" time="180000" type="infinity" stringId="110" interval="0" preDelay="1.5">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="10100" nextStep="2" prevStep="0" showSkillIcon="true" />
+        <Action type="skill" step="2" actionTime="0" inputSkillValue="10100,10101" nextStep="3" prevStep="1" showSkillIcon="true" />
+        <Action type="skill" step="3" actionTime="0" inputSkillValue="10100,10102" nextStep="4" prevStep="1" showSkillIcon="true" />
+        <Action type="skill" step="4" actionTime="0" inputSkillValue="10100,10103" nextStep="5" prevStep="1" showSkillIcon="true" />
+        <Action type="skill" step="5" actionTime="0" inputSkillValue="20100,20104" nextStep="0" prevStep="1" showSkillIcon="true" />
+    </Guide>
+    <Guide id="111" class="fighter" priority="111" time="180000" type="infinity" stringId="111" interval="0" preDelay="1.5">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="10100" inputTime="0" nextStep="2" prevStep="0" showSkillIcon="true" />
+        <Action type="skill" step="2" actionTime="0" inputSkillValue="10100,10101" inputTime="0" nextStep="3" prevStep="1" showSkillIcon="true" />
+        <Action type="skill" step="3" actionTime="0" inputSkillValue="10100,10102" inputTime="0" nextStep="4" prevStep="1" showSkillIcon="true" />
+        <Action type="skill" step="4" actionTime="0" inputSkillValue="10100,10103" inputTime="0" nextStep="5" prevStep="1" showSkillIcon="true" />
+        <Action type="skill" step="5" actionTime="0" inputSkillValue="20100,20104" inputTime="0" nextStep="0" prevStep="1" showSkillIcon="true" />
+    </Guide>
+    <Guide id="112" class="fighter" priority="112" time="180000" type="infinity" stringId="112" interval="0" preDelay="1.5">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="400100" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="200" class="fighter" priority="100" time="60000" type="infinity" stringId="200" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="170100" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="201" class="fighter" priority="101" time="60000" type="infinity" stringId="200" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="170100" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="202" class="fighter" priority="101" time="60000" type="infinity" stringId="0" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="170200" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="203" class="fighter" priority="101" time="60000" type="infinity" stringId="0" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="170300" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="204" class="fighter" priority="101" time="60000" type="infinity" stringId="0" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="170400" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="205" class="fighter" priority="101" time="60000" type="infinity" stringId="0" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="170500" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="206" class="fighter" priority="101" time="60000" type="infinity" stringId="0" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="170600" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="207" class="fighter" priority="101" time="60000" type="infinity" stringId="0" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="170700" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="208" class="fighter" priority="101" time="60000" type="infinity" stringId="0" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="170800" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="209" class="fighter" priority="101" time="60000" type="infinity" stringId="0" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="170900" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="210" class="fighter" priority="101" time="60000" type="infinity" stringId="0" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="171000" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="400" class="Assassin" priority="0" time="180000" type="infinity" stringId="400" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="70100" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="401" class="Assassin" priority="0" time="180000" type="infinity" stringId="401" interval="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="40100" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="501" class="Glaiver" priority="3" time="8000" type="infinity" stringId="501" interval="0" needCheckCoolTime="true">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="160199" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="502" class="Glaiver" priority="3" time="8000" type="infinity" stringId="501" interval="0" needCheckCoolTime="true">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="160199" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="503" class="Glaiver" priority="2" time="8000" type="infinity" stringId="0" interval="0" needCheckCoolTime="true">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="110499,110399,110299,110199,161299,161199,161099,160999,160899,160799,160699,160599,160499,160399,160299,160199" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="504" class="Glaiver" priority="1" time="8000" type="infinity" stringId="0" interval="0" needCheckCoolTime="true">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="161299,161199,161099,160999,160899,160799,160699,160599,160499,160399,160299,160199" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="550" class="Glaiver" priority="3" time="30000" type="infinity" stringId="550" interval="0" needCheckCoolTime="true" preDelay="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="60199,61299,60100,60130" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="551" class="Glaiver" priority="2" time="30000" type="infinity" stringId="551" interval="0" preDelay="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="10199,10100,10130" nextStep="2" prevStep="0" showSkillIcon="true" />
+        <Action type="skill" step="2" actionTime="0" inputSkillValue="10199,10101" nextStep="3" prevStep="1" showSkillIcon="true" />
+        <Action type="skill" step="3" actionTime="0" inputSkillValue="10199,10102" nextStep="4" prevStep="1" showSkillIcon="true" />
+        <Action type="skill" step="4" actionTime="0" inputSkillValue="10199,10103" nextStep="0" prevStep="1" showSkillIcon="true" />
+    </Guide>
+    <Guide id="552" class="Glaiver" priority="1" time="30000" type="infinity" stringId="552" interval="0" needCheckCoolTime="true" preDelay="0">
+        <Action type="skill" step="1" actionTime="0" inputSkillValue="60199,60100,60130" inputTime="0" nextStep="0" prevStep="0" showSkillIcon="true" />
+    </Guide>
+    <Guide id="2500" class="common" priority="0" time="60000" type="infinity" stringId="1" interval="0">
+        <Action type="move" step="1" actionTime="0" inputKeyValue="forward" inputTime="0" nextStep="2" prevStep="0" showSkillIcon="false" />
+        <Action type="move" step="2" actionTime="0" inputKeyValue="backward" inputTime="0" nextStep="3" prevStep="1" showSkillIcon="false" />
+        <Action type="move" step="3" actionTime="0" inputKeyValue="left" inputTime="0" nextStep="4" prevStep="2" showSkillIcon="false" />
+        <Action type="move" step="4" actionTime="0" inputKeyValue="right" inputTime="0" nextStep="4" prevStep="3" showSkillIcon="false" />
+    </Guide>
+</KeyGuide>

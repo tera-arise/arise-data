@@ -1,0 +1,25 @@
+<InventoryFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/InventoryFilter InventoryFilter.xsd" xmlns="https://vezel.dev/novadrop/dc/InventoryFilter">
+    <FilterList>
+        <FilterListByCombatItemType>
+            <Filter id="1" desc="장비" labelStringId="72001" targetCombatItemSubTypeList="accessoryFace,accessoryHair,axe,belt,blaster,bodyLeather,bodyMail,bodyRobe,bow,brooch,chain,charm,circle,dual,earring,feetLeather,feetMail,feetRobe,gauntlet,glaive,handLeather,handMail,handRobe,holyThing,lance,necklace,relic,ring,rod,shuriken,staff,twohand,underwear" />
+            <Filter id="2" desc="외형 장비" labelStringId="72002" targetCombatItemSubTypeList="style_axe,style_back,style_blaster,style_body,style_bow,style_chain,style_circle,style_dual,style_face,style_foot_print,style_gauntlet,style_glaive,style_hair,style_lance,style_partner,style_rod,style_shuriken,style_staff,style_twohand" />
+            <Filter id="3" desc="전투 보조" labelStringId="72003" targetCombatItemSubTypeList="crest,enchantSeal,enchantScroll,weaponComponent,weaponMaterial,enchantScroll,Green_custormaize,skillbook,custormaize,collection_card" />
+            <Filter id="4" desc="재료" labelStringId="72004" targetCombatItemSubTypeList="leather,enchant_material,enchant_agent,keyItem,alchemy,alchemyMaterial,armorComponent,armorMaterial,dyeRaw,fiber,generalMaterial,metal,dyeRecipe" />
+            <Filter id="5" desc="도안" labelStringId="72005" targetCombatItemSubTypeList="combatRecipe,extractRecipe,recipe" />
+            <Filter id="6" desc="소모품" labelStringId="72006" targetCombatItemSubTypeList="artisan,combat,dyeItem,magical,recovery,vitality" />
+            <Filter id="7" desc="기타" labelStringId="72007" targetCombatItemSubTypeList="document,etc,medal,order,petOrb,pkitem,quest,servant,service,token,petAdult" />
+        </FilterListByCombatItemType>
+        <FilterListByState>
+            <Filter desc="기간제" readableId="byPeriod" labelStringId="72011" />
+            <Filter desc="상점판매 가능" readableId="byStoreSellable" labelStringId="72012" />
+            <Filter desc="분해 가능" readableId="byDismantlable" labelStringId="72013" />
+            <Filter desc="거래 가능" readableId="byTradeable" labelStringId="72014" />
+        </FilterListByState>
+    </FilterList>
+    <SorterList>
+        <Sorter desc="획득 시기" readableId="Newest" labelStringId="72021" />
+        <Sorter desc="등급" readableId="RareGrade" labelStringId="72022" />
+        <Sorter desc="강화 레벨" readableId="EnhanceLevel" labelStringId="72023" />
+        <Sorter desc="상점판매 가격" readableId="SellPrice" labelStringId="72024" />
+    </SorterList>
+</InventoryFilter>

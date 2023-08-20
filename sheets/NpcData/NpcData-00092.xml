@@ -1,0 +1,89 @@
+<NpcData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/NpcData NpcData.xsd" huntingZoneId="118" xmlns="https://vezel.dev/novadrop/dc/NpcData">
+    <Template id="4000" name="회복의 마석" scale="2" race="" size="medium" shapeId="600964" basicActionId="6009600" resourceSize="0" resourceType="" isWideBroadcaster="true" parentId="60096400" deathShapeId="600967" dontTurn="true" elite="true" invincible="false" isObjectNpc="false" unionElite="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <Anger gaugeSize="6519" />
+        <BattleFieldOnly abnormalId="2099" addPoint="0" applyTarget="cannon" bossMarker="false" hideMarker="true" isLastHit="true" />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="30" atk="0" def="9000" maxHp="50000" />
+    </Template>
+    <Template id="4001" name="투명NPC(가이드연출용)" scale="1" race="" size="medium" shapeId="611410" basicActionId="6114100" resourceSize="0" resourceType="" parentId="61141000" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <Anger gaugeSize="230936.269860561" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="59" atk="365" def="3118" maxHp="461872.539721122" />
+    </Template>
+    <Template id="4002" name="투명NPC(이동방해용)" scale="1" race="" size="medium" shapeId="611410" basicActionId="6114110" resourceSize="0" resourceType="" parentId="61141000" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="false">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <Anger gaugeSize="230936.269860561" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="59" atk="365" def="3118" maxHp="461872.539721122" />
+    </Template>
+    <Template id="4003" name="투명NPC(가이드연출용)" scale="1" race="" size="medium" shapeId="730273" basicActionId="7302710" resourceSize="0" resourceType="" isWideBroadcaster="true" parentId="73027300" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="true">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <Anger gaugeSize="230936.269860561" />
+        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <ObjectNpcAiParam />
+        <Reaction maxAdditionalGauge="600000" />
+        <Stat level="59" atk="365" def="3118" maxHp="461872.539721122" />
+    </Template>
+    <Template id="5000" name="대장_쿠마스_Red" scale="1.3" gender="male" race="NPC_T4_Mion_Kanovia" size="large" shapeId="300670" basicActionId="3006704" guideEffectId="11801" resourceSize="1000" resourceType="medium" isWideBroadcaster="true" parentId="30067000" despawnScriptId="0" allyShapeId="300670" deathShapeId="302540" elite="true" enemyShapeId="302540" invincible="false" isFreeNamed="false" isVehicleEx="true" partyMember="1" showAggroTarget="true" showShorttermTarget="true" villager="false" villagerVolumeActiveRange="200">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <BattleFieldOnly />
+        <NamePlate nameplateHeight="100" />
+        <Reaction maxAdditionalGauge="600000" />
+        <SeatList>
+            <Seat id="1304" />
+        </SeatList>
+        <Stat level="30" atk="1890" def="6000" maxHp="500000" />
+        <VehicleEx kind="avatarCarrier" battleType="keyboard" enemyTeamEffectId="" firstTaskId="10" fixable="false" headToCameraDir="true" isForQuestId="0" lastTaskId="11" moveType="player" oneUserRepairPerSec="10" ourTeamEffectId="" repairGage="100" repairTryLimitUser="2" />
+    </Template>
+    <Template id="6000" name="파티원_쿠마스_Red" scale="0.75" gender="male" race="NPC_T4_Mion_Kanovia" size="large" shapeId="302521" basicActionId="3025200" resourceSize="100" resourceType="medium" isWideBroadcaster="true" parentId="30252000" despawnScriptId="0" allyShapeId="302521" deathShapeId="302522" elite="true" enemyShapeId="302522" invincible="false" isFreeNamed="false" isVehicleEx="true" partyMember="1" showAggroTarget="true" showShorttermTarget="true" villager="false" villagerVolumeActiveRange="200">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <BattleFieldOnly />
+        <NamePlate nameplateHeight="60" />
+        <Reaction maxAdditionalGauge="600000" />
+        <SeatList>
+            <Seat id="1306" />
+        </SeatList>
+        <Stat level="30" atk="1983" def="3000" maxHp="60000" />
+        <VehicleEx kind="avatar" battleType="keyboard" enemyTeamEffectId="" firstTaskId="10" fixable="false" headToCameraDir="true" isForQuestId="0" isRider="true" lastTaskId="11" moveType="player" oneUserRepairPerSec="10" ourTeamEffectId="" repairGage="100" repairTryLimitUser="2" />
+    </Template>
+    <Template id="8000" name="대장 쿠마스_Blue" scale="1.3" gender="male" race="NPC_T4_Mion_Kanovia" size="large" shapeId="300670" basicActionId="3006704" guideEffectId="11801" resourceSize="1000" resourceType="medium" isWideBroadcaster="true" parentId="30067000" despawnScriptId="0" allyShapeId="300670" deathShapeId="300670" elite="true" enemyShapeId="302540" invincible="false" isFreeNamed="false" isVehicleEx="true" partyMember="1" showAggroTarget="true" showShorttermTarget="true" villager="false" villagerVolumeActiveRange="200">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <BattleFieldOnly />
+        <NamePlate nameplateHeight="100" />
+        <Reaction maxAdditionalGauge="600000" />
+        <SeatList>
+            <Seat id="1305" />
+        </SeatList>
+        <Stat level="30" atk="1890" def="6000" maxHp="500000" />
+        <VehicleEx kind="avatarCarrier" battleType="keyboard" enemyTeamEffectId="" firstTaskId="10" fixable="false" headToCameraDir="true" isForQuestId="0" isRider="false" lastTaskId="11" moveType="player" oneUserRepairPerSec="10" ourTeamEffectId="" repairGage="100" repairTryLimitUser="2" />
+    </Template>
+    <Template id="9000" name="파티원_쿠마스_Blue" scale="0.75" gender="male" race="NPC_T4_Mion_Kanovia" size="large" shapeId="302521" basicActionId="3025200" resourceSize="100" resourceType="medium" isWideBroadcaster="true" parentId="30252000" despawnScriptId="0" allyShapeId="302521" deathShapeId="302521" elite="true" enemyShapeId="302522" invincible="false" isFreeNamed="false" isVehicleEx="true" partyMember="1" showAggroTarget="true" showShorttermTarget="true" villager="false" villagerVolumeActiveRange="200">
+        <AbnormalityResistanceOverride />
+        <Aggro />
+        <Anger gaugeSize="0" />
+        <BattleFieldOnly />
+        <NamePlate nameplateHeight="60" />
+        <Reaction maxAdditionalGauge="600000" />
+        <SeatList>
+            <Seat id="1307" />
+        </SeatList>
+        <Stat level="30" atk="1983" def="3000" maxHp="60000" />
+        <VehicleEx kind="avatar" battleType="keyboard" enemyTeamEffectId="" firstTaskId="10" fixable="false" headToCameraDir="true" isForQuestId="0" isRider="true" lastTaskId="11" moveType="player" oneUserRepairPerSec="10" ourTeamEffectId="" repairGage="100" repairTryLimitUser="2" />
+    </Template>
+</NpcData>
