@@ -1,55 +1,140 @@
-<Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Field Field.xsd" continentId="7005" xmlns="https://vezel.dev/novadrop/dc/Field">
-    <FieldEvent id="1" startPos="-7429,-10899,478" reviveTownNameId="7777">
-        <FieldEventCloud aeroBlendingRadiusFactor="0.85" aeroCylinderHeight="5000" areaSpreadSpeed="700" asyncLoadDistance="1500000" primaryAeroWeight="40" secondaryAeroWeight="50" aeroLoc="-4346,-10489,401" targetRadius="50000">
+<Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="https://vezel.dev/novadrop/dc/Field Field.xsd"
+       continentId="7005"
+       xmlns="https://vezel.dev/novadrop/dc/Field">
+    <FieldEvent id="1"
+                startPos="-7429,-10899,478"
+                reviveTownNameId="7777">
+        <FieldEventCloud aeroBlendingRadiusFactor="0.85"
+                         aeroCylinderHeight="5000"
+                         areaSpreadSpeed="700"
+                         asyncLoadDistance="1500000"
+                         primaryAeroWeight="40"
+                         secondaryAeroWeight="50"
+                         aeroLoc="-4346,-10489,401"
+                         targetRadius="50000">
             <AeroList>
-                <Aero step="1" aeroName="AA_AEROSet.FieldEvent.FieldEvent_01_Step00_AERO" />
-                <Aero step="2" aeroName="AA_AEROSet.FieldEvent.FieldEvent_01_Step01_AERO" />
-                <Aero step="3" effectIdList="628000" aeroName="AA_AEROSet.FieldEvent.FieldEvent_01_Step01_AERO" />
-                <Aero step="4" effectIdList="628002" aeroName="AA_AEROSet.FieldEvent.FieldEvent_01_Step01_AERO" />
-                <Aero step="5" aeroName="AA_AEROSet.FieldEvent.FieldEvent_01_Step03_AERO" />
-                <Aero step="6" aeroName="AA_AEROSet.FieldEvent.FieldEvent_01_Step04_AERO" />
-                <Aero step="7" aeroName="VK_Aeroset.VK_AERO_FINAL" />
+                <Aero step="1"
+                      aeroName="AA_AEROSet.FieldEvent.FieldEvent_01_Step00_AERO" />
+                <Aero step="2"
+                      aeroName="AA_AEROSet.FieldEvent.FieldEvent_01_Step01_AERO" />
+                <Aero step="3"
+                      effectIdList="628000"
+                      aeroName="AA_AEROSet.FieldEvent.FieldEvent_01_Step01_AERO" />
+                <Aero step="4"
+                      effectIdList="628002"
+                      aeroName="AA_AEROSet.FieldEvent.FieldEvent_01_Step01_AERO" />
+                <Aero step="5"
+                      aeroName="AA_AEROSet.FieldEvent.FieldEvent_01_Step03_AERO" />
+                <Aero step="6"
+                      aeroName="AA_AEROSet.FieldEvent.FieldEvent_01_Step04_AERO" />
+                <Aero step="7"
+                      aeroName="VK_Aeroset.VK_AERO_FINAL" />
             </AeroList>
         </FieldEventCloud>
-        <Guide description="@field:7005010" titleString="@field:700501" eventSize="large">
-            <Task id="1" string="@field:100002" target="@creature:628#1206" iconId="1">
-                <Marker markerPos="-5690,-10796,401" markerScaleX="0.3" markerScaleY="0.3" markerType="MARKER_FIELD_EVENT_AREA_01" />
+        <Guide description="@field:7005010"
+               titleString="@field:700501"
+               eventSize="large">
+            <Task id="1"
+                  string="@field:100002"
+                  target="@creature:628#1206"
+                  iconId="1">
+                <Marker markerPos="-5690,-10796,401"
+                        markerScaleX="0.3"
+                        markerScaleY="0.3"
+                        markerType="MARKER_FIELD_EVENT_AREA_01" />
             </Task>
-            <Task id="2" string="@field:100001" target="@creature:628#3000" iconId="1">
-                <Marker markerPos="-4831,-10920,401" markerScaleX="0.3" markerScaleY="0.3" markerType="MARKER_FIELD_EVENT_AREA_01" />
+            <Task id="2"
+                  string="@field:100001"
+                  target="@creature:628#3000"
+                  iconId="1">
+                <Marker markerPos="-4831,-10920,401"
+                        markerScaleX="0.3"
+                        markerScaleY="0.3"
+                        markerType="MARKER_FIELD_EVENT_AREA_01" />
             </Task>
-            <Task id="3" string="@field:100001" target="@creature:628#3001" iconId="2">
-                <Marker markerPos="-4895,-10282,401" markerScaleX="0.75" markerScaleY="0.75" markerType="MARKER_FIELD_EVENT_AREA_02" />
+            <Task id="3"
+                  string="@field:100001"
+                  target="@creature:628#3001"
+                  iconId="2">
+                <Marker markerPos="-4895,-10282,401"
+                        markerScaleX="0.75"
+                        markerScaleY="0.75"
+                        markerType="MARKER_FIELD_EVENT_AREA_02" />
             </Task>
-            <Task id="4" string="@field:100001" target="@creature:628#1000" iconId="1">
-                <Marker markerPos="-4346,-10489,401" markerScaleX="0.75" markerScaleY="0.75" markerType="MARKER_FIELD_EVENT_AREA_01" />
+            <Task id="4"
+                  string="@field:100001"
+                  target="@creature:628#1000"
+                  iconId="1">
+                <Marker markerPos="-4346,-10489,401"
+                        markerScaleX="0.75"
+                        markerScaleY="0.75"
+                        markerType="MARKER_FIELD_EVENT_AREA_01" />
             </Task>
-            <Task id="5" string="@field:111111" target="" iconId="1">
+            <Task id="5"
+                  string="@field:111111"
+                  target=""
+                  iconId="1">
                 <Marker />
             </Task>
         </Guide>
         <Progress dividerPercent="20,100" />
     </FieldEvent>
-    <FieldEvent id="2" startPos="-7429,-10899,478" reviveTownNameId="7777">
-        <FieldEventCloud aeroBlendingRadiusFactor="0.85" aeroCylinderHeight="5000" areaSpreadSpeed="700" asyncLoadDistance="1500000" primaryAeroWeight="40" secondaryAeroWeight="50" aeroLoc="-4346,-10489,401" targetRadius="50000">
+    <FieldEvent id="2"
+                startPos="-7429,-10899,478"
+                reviveTownNameId="7777">
+        <FieldEventCloud aeroBlendingRadiusFactor="0.85"
+                         aeroCylinderHeight="5000"
+                         areaSpreadSpeed="700"
+                         asyncLoadDistance="1500000"
+                         primaryAeroWeight="40"
+                         secondaryAeroWeight="50"
+                         aeroLoc="-4346,-10489,401"
+                         targetRadius="50000">
             <AeroList>
-                <Aero step="1" aeroName="AA_AEROSet.FieldEvent.FieldEvent_01_Step00_AERO" />
-                <Aero step="2" aeroName="AA_AEROSet.FieldEvent.FieldEvent_01_Step01_AERO" />
-                <Aero step="3" effectIdList="628000" aeroName="AA_AEROSet.FieldEvent.FieldEvent_01_Step01_AERO" />
-                <Aero step="4" effectIdList="628002" aeroName="AA_AEROSet.FieldEvent.FieldEvent_01_Step01_AERO" />
-                <Aero step="5" aeroName="AA_AEROSet.FieldEvent.FieldEvent_01_Step03_AERO" />
-                <Aero step="6" aeroName="AA_AEROSet.FieldEvent.FieldEvent_01_Step04_AERO" />
-                <Aero step="7" aeroName="VK_Aeroset.VK_AERO_FINAL" />
+                <Aero step="1"
+                      aeroName="AA_AEROSet.FieldEvent.FieldEvent_01_Step00_AERO" />
+                <Aero step="2"
+                      aeroName="AA_AEROSet.FieldEvent.FieldEvent_01_Step01_AERO" />
+                <Aero step="3"
+                      effectIdList="628000"
+                      aeroName="AA_AEROSet.FieldEvent.FieldEvent_01_Step01_AERO" />
+                <Aero step="4"
+                      effectIdList="628002"
+                      aeroName="AA_AEROSet.FieldEvent.FieldEvent_01_Step01_AERO" />
+                <Aero step="5"
+                      aeroName="AA_AEROSet.FieldEvent.FieldEvent_01_Step03_AERO" />
+                <Aero step="6"
+                      aeroName="AA_AEROSet.FieldEvent.FieldEvent_01_Step04_AERO" />
+                <Aero step="7"
+                      aeroName="VK_Aeroset.VK_AERO_FINAL" />
             </AeroList>
         </FieldEventCloud>
-        <Guide description="@field:7005020" titleString="@field:700502" eventSize="large">
-            <Task id="1" string="@field:100002" target="@creature:628#1006" iconId="1">
-                <Marker markerPos="-5690,-10796,401" markerScaleX="0.3" markerScaleY="0.3" markerType="MARKER_FIELD_EVENT_AREA_01" />
+        <Guide description="@field:7005020"
+               titleString="@field:700502"
+               eventSize="large">
+            <Task id="1"
+                  string="@field:100002"
+                  target="@creature:628#1006"
+                  iconId="1">
+                <Marker markerPos="-5690,-10796,401"
+                        markerScaleX="0.3"
+                        markerScaleY="0.3"
+                        markerType="MARKER_FIELD_EVENT_AREA_01" />
             </Task>
-            <Task id="2" string="@field:100001" target="@creature:628#1001" iconId="3">
-                <Marker markerPos="-4346,-10489,401" markerScaleX="0.75" markerScaleY="0.75" markerType="MARKER_FIELD_EVENT_AREA_01" />
+            <Task id="2"
+                  string="@field:100001"
+                  target="@creature:628#1001"
+                  iconId="3">
+                <Marker markerPos="-4346,-10489,401"
+                        markerScaleX="0.75"
+                        markerScaleY="0.75"
+                        markerType="MARKER_FIELD_EVENT_AREA_01" />
             </Task>
-            <Task id="3" string="@field:111111" target="" iconId="1">
+            <Task id="3"
+                  string="@field:111111"
+                  target=""
+                  iconId="1">
                 <Marker />
             </Task>
         </Guide>

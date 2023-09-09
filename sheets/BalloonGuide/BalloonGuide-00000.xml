@@ -1,105 +1,718 @@
-<BalloonGuide xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/BalloonGuide BalloonGuide.xsd" xmlns="https://vezel.dev/novadrop/dc/BalloonGuide">
+<BalloonGuide xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="https://vezel.dev/novadrop/dc/BalloonGuide BalloonGuide.xsd"
+              xmlns="https://vezel.dev/novadrop/dc/BalloonGuide">
     <DialogEvent>
-        <Event id="3" type="bf_attack" value="2" by="ally" dialogList="1" guideId="2" rate="0" />
-        <Event id="4" type="bf_attack" value="2" by="enemy" dialogList="2" guideId="2" rate="0" />
-        <Event id="5" type="bf_attack" value="3" by="ally" dialogList="3" guideId="2" rate="0" />
-        <Event id="6" type="bf_attack" value="3" by="enemy" dialogList="4" guideId="2" rate="0" />
-        <Event id="7" type="bf_attack" value="1" by="ally" dialogList="5" guideId="2" rate="0" />
-        <Event id="8" type="bf_attack" value="1" by="enemy" dialogList="6" guideId="2" rate="0" />
-        <Event id="9" type="bf_action" value="1" by="ally" dialogList="7" guideId="2" rate="0" />
-        <Event id="10" type="bf_action" value="1" by="enemy" dialogList="8" guideId="2" rate="0" />
-        <Event id="11" type="bf_action" value="2" by="ally" dialogList="9" guideId="2" rate="0" />
-        <Event id="12" type="bf_action" value="2" by="enemy" dialogList="10" guideId="2" rate="0" />
-        <Event id="13" type="bf_action" value="3" by="ally" dialogList="11" guideId="2" rate="0" />
-        <Event id="14" type="bf_action" value="3" by="enemy" dialogList="12" guideId="2" rate="0" />
-        <Event id="15" type="bf_attack" value="10" by="ally" dialogList="13" guideId="2" rate="0" />
-        <Event id="16" type="bf_attack" value="10" by="enemy" dialogList="14" guideId="2" rate="0" />
-        <Event id="18" type="bf_attack" value="11" by="enemy" dialogList="14" guideId="2" rate="0" />
-        <Event id="29" type="epTutorial_plus" value="2" dialogList="1" guideId="6" subValue="111000" />
-        <Event id="30" type="epTutorial_plus" value="3" dialogList="2,3" guideId="6" subValue="111000" />
-        <Event id="31" type="epTutorial_minus" value="1" dialogList="4" guideId="6" subValue="111000" />
-        <Event id="32" type="epTutorial_applycancel" value="1" dialogList="5,6" guideId="6" />
-        <Event id="33" type="vipSystem" value="1" dialogList="1,2,3,4,5,6" guideId="7" />
-        <Event id="34" type="vipShop" value="1" dialogList="1,2,3" guideId="8" />
-        <Event id="35" type="quest" value="50540" dialogList="1,2,3" guideId="9" subValue="3" />
-        <Event id="36" type="level" value="66" dialogList="3" guideId="3" />
-        <Event id="37" type="quest" value="301" dialogList="1" guideId="11" subValue="4" />
-        <Event id="38" type="quest" value="301" dialogList="1" guideId="12" subValue="3" />
-        <Event id="39" type="quest" value="48701" dialogList="2" guideId="3" subValue="2" />
-        <Event id="40" type="quest" value="48701" dialogList="1" guideId="14" subValue="11" />
-        <Event id="41" type="pocket_ui_first_unlock" dialogList="2,3,4,5,6" guideId="11" />
-        <Event id="42" type="level" value="2" dialogList="4" guideId="3" />
+        <Event id="3"
+               type="bf_attack"
+               value="2"
+               by="ally"
+               dialogList="1"
+               guideId="2"
+               rate="0" />
+        <Event id="4"
+               type="bf_attack"
+               value="2"
+               by="enemy"
+               dialogList="2"
+               guideId="2"
+               rate="0" />
+        <Event id="5"
+               type="bf_attack"
+               value="3"
+               by="ally"
+               dialogList="3"
+               guideId="2"
+               rate="0" />
+        <Event id="6"
+               type="bf_attack"
+               value="3"
+               by="enemy"
+               dialogList="4"
+               guideId="2"
+               rate="0" />
+        <Event id="7"
+               type="bf_attack"
+               value="1"
+               by="ally"
+               dialogList="5"
+               guideId="2"
+               rate="0" />
+        <Event id="8"
+               type="bf_attack"
+               value="1"
+               by="enemy"
+               dialogList="6"
+               guideId="2"
+               rate="0" />
+        <Event id="9"
+               type="bf_action"
+               value="1"
+               by="ally"
+               dialogList="7"
+               guideId="2"
+               rate="0" />
+        <Event id="10"
+               type="bf_action"
+               value="1"
+               by="enemy"
+               dialogList="8"
+               guideId="2"
+               rate="0" />
+        <Event id="11"
+               type="bf_action"
+               value="2"
+               by="ally"
+               dialogList="9"
+               guideId="2"
+               rate="0" />
+        <Event id="12"
+               type="bf_action"
+               value="2"
+               by="enemy"
+               dialogList="10"
+               guideId="2"
+               rate="0" />
+        <Event id="13"
+               type="bf_action"
+               value="3"
+               by="ally"
+               dialogList="11"
+               guideId="2"
+               rate="0" />
+        <Event id="14"
+               type="bf_action"
+               value="3"
+               by="enemy"
+               dialogList="12"
+               guideId="2"
+               rate="0" />
+        <Event id="15"
+               type="bf_attack"
+               value="10"
+               by="ally"
+               dialogList="13"
+               guideId="2"
+               rate="0" />
+        <Event id="16"
+               type="bf_attack"
+               value="10"
+               by="enemy"
+               dialogList="14"
+               guideId="2"
+               rate="0" />
+        <Event id="18"
+               type="bf_attack"
+               value="11"
+               by="enemy"
+               dialogList="14"
+               guideId="2"
+               rate="0" />
+        <Event id="29"
+               type="epTutorial_plus"
+               value="2"
+               dialogList="1"
+               guideId="6"
+               subValue="111000" />
+        <Event id="30"
+               type="epTutorial_plus"
+               value="3"
+               dialogList="2,3"
+               guideId="6"
+               subValue="111000" />
+        <Event id="31"
+               type="epTutorial_minus"
+               value="1"
+               dialogList="4"
+               guideId="6"
+               subValue="111000" />
+        <Event id="32"
+               type="epTutorial_applycancel"
+               value="1"
+               dialogList="5,6"
+               guideId="6" />
+        <Event id="33"
+               type="vipSystem"
+               value="1"
+               dialogList="1,2,3,4,5,6"
+               guideId="7" />
+        <Event id="34"
+               type="vipShop"
+               value="1"
+               dialogList="1,2,3"
+               guideId="8" />
+        <Event id="35"
+               type="quest"
+               value="50540"
+               dialogList="1,2,3"
+               guideId="9"
+               subValue="3" />
+        <Event id="36"
+               type="level"
+               value="66"
+               dialogList="3"
+               guideId="3" />
+        <Event id="37"
+               type="quest"
+               value="301"
+               dialogList="1"
+               guideId="11"
+               subValue="4" />
+        <Event id="38"
+               type="quest"
+               value="301"
+               dialogList="1"
+               guideId="12"
+               subValue="3" />
+        <Event id="39"
+               type="quest"
+               value="48701"
+               dialogList="2"
+               guideId="3"
+               subValue="2" />
+        <Event id="40"
+               type="quest"
+               value="48701"
+               dialogList="1"
+               guideId="14"
+               subValue="11" />
+        <Event id="41"
+               type="pocket_ui_first_unlock"
+               dialogList="2,3,4,5,6"
+               guideId="11" />
+        <Event id="42"
+               type="level"
+               value="2"
+               dialogList="4"
+               guideId="3" />
     </DialogEvent>
-    <Guide id="1" type="normal" enableList="1,2,3,4,5" specialbutton="1,2,3" uiName="PlayGuide">
-        <Dialog id="1" time="5" tab="1" posX="25" posY="18" dialogSide="Left" interval="1" rectEnd="135,3" rectStart="0,-17" scriptId="101" />
-        <Dialog id="2" time="5" tab="1" posX="30" posY="350" dialogSide="Left" interval="1" rectEnd="420,300" rectStart="0,-40" scriptId="102" />
-        <Dialog id="3" time="5" tab="1" posX="1000" posY="700" dialogSide="bottom_right" interval="1" rectEnd="30,-395" rectStart="-55,-390" scriptId="103" />
-        <Dialog id="5" time="5" tab="1" posX="5" posY="350" dialogSide="bottom" interval="1" rectEnd="1110,-17" rectStart="0,-50" scriptId="105" />
+    <Guide id="1"
+           type="normal"
+           enableList="1,2,3,4,5"
+           specialbutton="1,2,3"
+           uiName="PlayGuide">
+        <Dialog id="1"
+                time="5"
+                tab="1"
+                posX="25"
+                posY="18"
+                dialogSide="Left"
+                interval="1"
+                rectEnd="135,3"
+                rectStart="0,-17"
+                scriptId="101" />
+        <Dialog id="2"
+                time="5"
+                tab="1"
+                posX="30"
+                posY="350"
+                dialogSide="Left"
+                interval="1"
+                rectEnd="420,300"
+                rectStart="0,-40"
+                scriptId="102" />
+        <Dialog id="3"
+                time="5"
+                tab="1"
+                posX="1000"
+                posY="700"
+                dialogSide="bottom_right"
+                interval="1"
+                rectEnd="30,-395"
+                rectStart="-55,-390"
+                scriptId="103" />
+        <Dialog id="5"
+                time="5"
+                tab="1"
+                posX="5"
+                posY="350"
+                dialogSide="bottom"
+                interval="1"
+                rectEnd="1110,-17"
+                rectStart="0,-50"
+                scriptId="105" />
     </Guide>
-    <Guide id="2" type="map" enableList="1" isShowOverlayOnly="false" mapId="BF_RainFire_P" uiName="OverlayMap2">
-        <Dialog id="1" time="3" posX="314" posY="120" dialogSide="Top" interval="6" isShowScriptOnly="true" scriptId="202" />
-        <Dialog id="2" time="3" posX="314" posY="120" dialogSide="Top" interval="6" isShowScriptOnly="true" scriptId="203" />
-        <Dialog id="3" time="3" posX="424" posY="223" dialogSide="Top" interval="6" isShowScriptOnly="true" scriptId="202" />
-        <Dialog id="4" time="3" posX="424" posY="223" dialogSide="Top" interval="6" isShowScriptOnly="true" scriptId="203" />
-        <Dialog id="5" time="3" posX="420" posY="120" dialogSide="Top" interval="6" isShowScriptOnly="true" scriptId="202" />
-        <Dialog id="6" time="3" posX="420" posY="120" dialogSide="Top" interval="6" isShowScriptOnly="true" scriptId="203" />
-        <Dialog id="7" time="3" posX="390" posY="155" dialogSide="bottom" interval="6" isShowScriptOnly="true" scriptId="204" />
-        <Dialog id="8" time="3" posX="390" posY="155" dialogSide="bottom" interval="6" isShowScriptOnly="true" scriptId="205" />
-        <Dialog id="9" time="3" posX="287" posY="130" dialogSide="Top" interval="6" isShowScriptOnly="true" scriptId="204" />
-        <Dialog id="10" time="3" posX="287" posY="130" dialogSide="Top" interval="6" isShowScriptOnly="true" scriptId="205" />
-        <Dialog id="11" time="3" posX="408" posY="255" dialogSide="Top" interval="6" isShowScriptOnly="true" scriptId="204" />
-        <Dialog id="12" time="3" posX="408" posY="255" dialogSide="Top" interval="6" isShowScriptOnly="true" scriptId="205" />
-        <Dialog id="13" time="3" posX="460" posY="80" dialogSide="Top" interval="6" isShowScriptOnly="true" scriptId="206" />
-        <Dialog id="14" time="3" posX="460" posY="80" dialogSide="Top" interval="6" isShowScriptOnly="true" scriptId="207" />
+    <Guide id="2"
+           type="map"
+           enableList="1"
+           isShowOverlayOnly="false"
+           mapId="BF_RainFire_P"
+           uiName="OverlayMap2">
+        <Dialog id="1"
+                time="3"
+                posX="314"
+                posY="120"
+                dialogSide="Top"
+                interval="6"
+                isShowScriptOnly="true"
+                scriptId="202" />
+        <Dialog id="2"
+                time="3"
+                posX="314"
+                posY="120"
+                dialogSide="Top"
+                interval="6"
+                isShowScriptOnly="true"
+                scriptId="203" />
+        <Dialog id="3"
+                time="3"
+                posX="424"
+                posY="223"
+                dialogSide="Top"
+                interval="6"
+                isShowScriptOnly="true"
+                scriptId="202" />
+        <Dialog id="4"
+                time="3"
+                posX="424"
+                posY="223"
+                dialogSide="Top"
+                interval="6"
+                isShowScriptOnly="true"
+                scriptId="203" />
+        <Dialog id="5"
+                time="3"
+                posX="420"
+                posY="120"
+                dialogSide="Top"
+                interval="6"
+                isShowScriptOnly="true"
+                scriptId="202" />
+        <Dialog id="6"
+                time="3"
+                posX="420"
+                posY="120"
+                dialogSide="Top"
+                interval="6"
+                isShowScriptOnly="true"
+                scriptId="203" />
+        <Dialog id="7"
+                time="3"
+                posX="390"
+                posY="155"
+                dialogSide="bottom"
+                interval="6"
+                isShowScriptOnly="true"
+                scriptId="204" />
+        <Dialog id="8"
+                time="3"
+                posX="390"
+                posY="155"
+                dialogSide="bottom"
+                interval="6"
+                isShowScriptOnly="true"
+                scriptId="205" />
+        <Dialog id="9"
+                time="3"
+                posX="287"
+                posY="130"
+                dialogSide="Top"
+                interval="6"
+                isShowScriptOnly="true"
+                scriptId="204" />
+        <Dialog id="10"
+                time="3"
+                posX="287"
+                posY="130"
+                dialogSide="Top"
+                interval="6"
+                isShowScriptOnly="true"
+                scriptId="205" />
+        <Dialog id="11"
+                time="3"
+                posX="408"
+                posY="255"
+                dialogSide="Top"
+                interval="6"
+                isShowScriptOnly="true"
+                scriptId="204" />
+        <Dialog id="12"
+                time="3"
+                posX="408"
+                posY="255"
+                dialogSide="Top"
+                interval="6"
+                isShowScriptOnly="true"
+                scriptId="205" />
+        <Dialog id="13"
+                time="3"
+                posX="460"
+                posY="80"
+                dialogSide="Top"
+                interval="6"
+                isShowScriptOnly="true"
+                scriptId="206" />
+        <Dialog id="14"
+                time="3"
+                posX="460"
+                posY="80"
+                dialogSide="Top"
+                interval="6"
+                isShowScriptOnly="true"
+                scriptId="207" />
     </Guide>
-    <Guide id="3" type="normal" enableList="1,2,3" uiName="SkillWindow">
-        <Dialog id="1" time="5" posX="150" posY="100" dialogSide="Top_Right" interval="0" isShowScriptOnly="true" rectEnd="0,0" rectStart="0,0" scriptId="201" />
-        <Dialog id="2" time="3" posX="300" posY="120" dialogSide="Top_Right" interval="0" isShowScriptOnly="true" rectEnd="0,0" rectStart="0,0" scriptId="423" />
-        <Dialog id="3" time="0" posX="282" posY="68" dialogSide="Right" interval="0" isShowScriptOnly="false" rectEnd="-96,-34" rectStart="0,0" scriptId="419" />
-        <Dialog id="4" time="0" posX="414" posY="135" dialogSide="Right" interval="0" isShowScriptOnly="false" rectEnd="-408,-42" rectStart="0,0" scriptId="430" />
+    <Guide id="3"
+           type="normal"
+           enableList="1,2,3"
+           uiName="SkillWindow">
+        <Dialog id="1"
+                time="5"
+                posX="150"
+                posY="100"
+                dialogSide="Top_Right"
+                interval="0"
+                isShowScriptOnly="true"
+                rectEnd="0,0"
+                rectStart="0,0"
+                scriptId="201" />
+        <Dialog id="2"
+                time="3"
+                posX="300"
+                posY="120"
+                dialogSide="Top_Right"
+                interval="0"
+                isShowScriptOnly="true"
+                rectEnd="0,0"
+                rectStart="0,0"
+                scriptId="423" />
+        <Dialog id="3"
+                time="0"
+                posX="282"
+                posY="68"
+                dialogSide="Right"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="-96,-34"
+                rectStart="0,0"
+                scriptId="419" />
+        <Dialog id="4"
+                time="0"
+                posX="414"
+                posY="135"
+                dialogSide="Right"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="-408,-42"
+                rectStart="0,0"
+                scriptId="430" />
     </Guide>
-    <Guide id="4" type="normal" enableList="1,2" uiName="ItemSeal">
-        <Dialog id="1" time="0" posX="475" posY="290" dialogSide="Top_Right" interval="0" isScriptEditable="true" isShowScriptOnly="true" rectEnd="0,0" rectStart="0,0" />
-        <Dialog id="2" time="0" posX="-5" posY="340" dialogSide="Left" interval="0" isScriptEditable="true" isShowScriptOnly="true" rectEnd="0,0" rectStart="0,0" />
+    <Guide id="4"
+           type="normal"
+           enableList="1,2"
+           uiName="ItemSeal">
+        <Dialog id="1"
+                time="0"
+                posX="475"
+                posY="290"
+                dialogSide="Top_Right"
+                interval="0"
+                isScriptEditable="true"
+                isShowScriptOnly="true"
+                rectEnd="0,0"
+                rectStart="0,0" />
+        <Dialog id="2"
+                time="0"
+                posX="-5"
+                posY="340"
+                dialogSide="Left"
+                interval="0"
+                isScriptEditable="true"
+                isShowScriptOnly="true"
+                rectEnd="0,0"
+                rectStart="0,0" />
     </Guide>
-    <Guide id="6" type="normal" enableList="1,2,3,4,5,6" uiName="EpWindow">
-        <Dialog id="1" time="0" posX="101" posY="232" dialogSide="top_left" interval="0" isShowScriptOnly="false" rectEnd="81,195" rectStart="-31,0" scriptId="402" />
-        <Dialog id="2" time="0" posX="175" posY="388" dialogSide="top_left" interval="0" isShowScriptOnly="false" rectEnd="-1,30" rectStart="-35,30" scriptId="403" />
-        <Dialog id="3" time="0" posX="175" posY="450" dialogSide="bottom" interval="0" isShowScriptOnly="true" rectEnd="0,-35" rectStart="-30,-35" scriptId="404" />
-        <Dialog id="4" time="0" posX="105" posY="388" dialogSide="top" interval="0" isShowScriptOnly="false" rectEnd="-1,30" rectStart="-35,30" scriptId="405" />
-        <Dialog id="5" time="0" posX="342" posY="905" dialogSide="bottom_right" interval="0" isShowScriptOnly="false" rectEnd="104,-41" rectStart="-25,-40" scriptId="406" />
-        <Dialog id="6" time="0" posX="498" posY="905" dialogSide="bottom" interval="0" isShowScriptOnly="false" rectEnd="104,-41" rectStart="-25,-40" scriptId="407" />
+    <Guide id="6"
+           type="normal"
+           enableList="1,2,3,4,5,6"
+           uiName="EpWindow">
+        <Dialog id="1"
+                time="0"
+                posX="101"
+                posY="232"
+                dialogSide="top_left"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="81,195"
+                rectStart="-31,0"
+                scriptId="402" />
+        <Dialog id="2"
+                time="0"
+                posX="175"
+                posY="388"
+                dialogSide="top_left"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="-1,30"
+                rectStart="-35,30"
+                scriptId="403" />
+        <Dialog id="3"
+                time="0"
+                posX="175"
+                posY="450"
+                dialogSide="bottom"
+                interval="0"
+                isShowScriptOnly="true"
+                rectEnd="0,-35"
+                rectStart="-30,-35"
+                scriptId="404" />
+        <Dialog id="4"
+                time="0"
+                posX="105"
+                posY="388"
+                dialogSide="top"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="-1,30"
+                rectStart="-35,30"
+                scriptId="405" />
+        <Dialog id="5"
+                time="0"
+                posX="342"
+                posY="905"
+                dialogSide="bottom_right"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="104,-41"
+                rectStart="-25,-40"
+                scriptId="406" />
+        <Dialog id="6"
+                time="0"
+                posX="498"
+                posY="905"
+                dialogSide="bottom"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="104,-41"
+                rectStart="-25,-40"
+                scriptId="407" />
     </Guide>
-    <Guide id="7" type="normal" enableList="1,2,3,4,5,6" uiName="VipWindow">
-        <Dialog id="1" time="0" posX="20" posY="140" dialogSide="Left" interval="0" isShowScriptOnly="false" rectEnd="135,0" rectStart="0,-90" scriptId="408" />
-        <Dialog id="2" time="0" posX="660" posY="80" dialogSide="Right" interval="0" isShowScriptOnly="false" rectEnd="-490,20" rectStart="-495,-20" scriptId="409" />
-        <Dialog id="3" time="0" posX="660" posY="170" dialogSide="Right" interval="0" isShowScriptOnly="false" rectEnd="-490,0" rectStart="-495,-40" scriptId="410" />
-        <Dialog id="4" time="0" posX="680" posY="420" dialogSide="Right" interval="0" isShowScriptOnly="false" rectEnd="-660,180" rectStart="-665,-80" scriptId="411" />
-        <Dialog id="5" time="0" posX="680" posY="275" dialogSide="Right" interval="0" isShowScriptOnly="false" rectEnd="-660,20" rectStart="-665,-35" scriptId="412" />
-        <Dialog id="6" time="0" posX="540" posY="745" dialogSide="Right" interval="0" isShowScriptOnly="false" rectEnd="-390,-5" rectStart="0,-30" scriptId="414" />
+    <Guide id="7"
+           type="normal"
+           enableList="1,2,3,4,5,6"
+           uiName="VipWindow">
+        <Dialog id="1"
+                time="0"
+                posX="20"
+                posY="140"
+                dialogSide="Left"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="135,0"
+                rectStart="0,-90"
+                scriptId="408" />
+        <Dialog id="2"
+                time="0"
+                posX="660"
+                posY="80"
+                dialogSide="Right"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="-490,20"
+                rectStart="-495,-20"
+                scriptId="409" />
+        <Dialog id="3"
+                time="0"
+                posX="660"
+                posY="170"
+                dialogSide="Right"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="-490,0"
+                rectStart="-495,-40"
+                scriptId="410" />
+        <Dialog id="4"
+                time="0"
+                posX="680"
+                posY="420"
+                dialogSide="Right"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="-660,180"
+                rectStart="-665,-80"
+                scriptId="411" />
+        <Dialog id="5"
+                time="0"
+                posX="680"
+                posY="275"
+                dialogSide="Right"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="-660,20"
+                rectStart="-665,-35"
+                scriptId="412" />
+        <Dialog id="6"
+                time="0"
+                posX="540"
+                posY="745"
+                dialogSide="Right"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="-390,-5"
+                rectStart="0,-30"
+                scriptId="414" />
     </Guide>
-    <Guide id="8" type="normal" enableList="1,2,3" uiName="VipShop">
-        <Dialog id="1" time="0" posX="110" posY="170" dialogSide="Left" interval="0" isShowScriptOnly="false" rectEnd="620,560" rectStart="0,-15" scriptId="413" />
-        <Dialog id="2" time="0" posX="770" posY="825" dialogSide="Right" interval="0" isShowScriptOnly="false" rectEnd="-390,-5" rectStart="-390,-27" scriptId="414" />
-        <Dialog id="3" time="0" posX="110" posY="770" dialogSide="Left" interval="0" isShowScriptOnly="false" rectEnd="620,5" rectStart="0,-20" scriptId="415" />
+    <Guide id="8"
+           type="normal"
+           enableList="1,2,3"
+           uiName="VipShop">
+        <Dialog id="1"
+                time="0"
+                posX="110"
+                posY="170"
+                dialogSide="Left"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="620,560"
+                rectStart="0,-15"
+                scriptId="413" />
+        <Dialog id="2"
+                time="0"
+                posX="770"
+                posY="825"
+                dialogSide="Right"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="-390,-5"
+                rectStart="-390,-27"
+                scriptId="414" />
+        <Dialog id="3"
+                time="0"
+                posX="110"
+                posY="770"
+                dialogSide="Left"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="620,5"
+                rectStart="0,-20"
+                scriptId="415" />
     </Guide>
-    <Guide id="9" type="normal" enableList="1,2,3" uiName="WorldMap2">
-        <Dialog id="1" time="0" posX="120" posY="150" dialogSide="Right" interval="0" isShowScriptOnly="false" rectEnd="0,0" rectStart="0,0" scriptId="416" />
-        <Dialog id="2" time="0" posX="350" posY="860" dialogSide="top" interval="0" isShowScriptOnly="false" rectEnd="0,0" rectStart="0,0" scriptId="417" />
-        <Dialog id="3" time="0" posX="1035" posY="850" dialogSide="Right" interval="0" isShowScriptOnly="false" rectEnd="-1025,-770" rectStart="0,0" scriptId="418" />
+    <Guide id="9"
+           type="normal"
+           enableList="1,2,3"
+           uiName="WorldMap2">
+        <Dialog id="1"
+                time="0"
+                posX="120"
+                posY="150"
+                dialogSide="Right"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="0,0"
+                rectStart="0,0"
+                scriptId="416" />
+        <Dialog id="2"
+                time="0"
+                posX="350"
+                posY="860"
+                dialogSide="top"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="0,0"
+                rectStart="0,0"
+                scriptId="417" />
+        <Dialog id="3"
+                time="0"
+                posX="1035"
+                posY="850"
+                dialogSide="Right"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="-1025,-770"
+                rectStart="0,0"
+                scriptId="418" />
     </Guide>
-    <Guide id="11" type="normal" enableList="1,2" uiName="Inventory">
-        <Dialog id="1" time="4" posX="120" posY="420" dialogSide="left" interval="0" isShowScriptOnly="false" rectEnd="0,0" rectStart="0,0" scriptId="421" />
-        <Dialog id="2" time="0" posX="-170" posY="226" dialogSide="bottom_right" interval="0" isShowScriptOnly="false" rectEnd="-31,-31" rectStart="-31,-31" scriptId="425" />
-        <Dialog id="3" time="0" posX="-363" posY="72" dialogSide="Left" interval="0" isShowScriptOnly="false" rectEnd="212,28" rectStart="0,0" scriptId="426" />
-        <Dialog id="4" time="0" posX="-248" posY="40" dialogSide="Top_Left" interval="0" isShowScriptOnly="false" rectEnd="122,32" rectStart="0,0" scriptId="427" />
-        <Dialog id="5" time="0" posX="68" posY="5" dialogSide="Top_Left" interval="0" isShowScriptOnly="false" rectEnd="36,36" rectStart="0,0" scriptId="428" />
-        <Dialog id="6" time="0" posX="-590" posY="-41" dialogSide="Left" interval="0" isShowScriptOnly="false" rectEnd="585,586" rectStart="0,0" scriptId="429" />
+    <Guide id="11"
+           type="normal"
+           enableList="1,2"
+           uiName="Inventory">
+        <Dialog id="1"
+                time="4"
+                posX="120"
+                posY="420"
+                dialogSide="left"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="0,0"
+                rectStart="0,0"
+                scriptId="421" />
+        <Dialog id="2"
+                time="0"
+                posX="-170"
+                posY="226"
+                dialogSide="bottom_right"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="-31,-31"
+                rectStart="-31,-31"
+                scriptId="425" />
+        <Dialog id="3"
+                time="0"
+                posX="-363"
+                posY="72"
+                dialogSide="Left"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="212,28"
+                rectStart="0,0"
+                scriptId="426" />
+        <Dialog id="4"
+                time="0"
+                posX="-248"
+                posY="40"
+                dialogSide="Top_Left"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="122,32"
+                rectStart="0,0"
+                scriptId="427" />
+        <Dialog id="5"
+                time="0"
+                posX="68"
+                posY="5"
+                dialogSide="Top_Left"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="36,36"
+                rectStart="0,0"
+                scriptId="428" />
+        <Dialog id="6"
+                time="0"
+                posX="-590"
+                posY="-41"
+                dialogSide="Left"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="585,586"
+                rectStart="0,0"
+                scriptId="429" />
     </Guide>
-    <Guide id="12" type="normal" enableList="1,2,3" uiName="EquipmentUpgrade">
-        <Dialog id="1" time="4" posX="300" posY="200" dialogSide="Top_Right" interval="0" isShowScriptOnly="false" rectEnd="0,0" rectStart="0,0" scriptId="422" />
+    <Guide id="12"
+           type="normal"
+           enableList="1,2,3"
+           uiName="EquipmentUpgrade">
+        <Dialog id="1"
+                time="4"
+                posX="300"
+                posY="200"
+                dialogSide="Top_Right"
+                interval="0"
+                isShowScriptOnly="false"
+                rectEnd="0,0"
+                rectStart="0,0"
+                scriptId="422" />
     </Guide>
-    <Guide id="14" type="normal" enableList="1,2,3" uiName="PaperDoll">
-        <Dialog id="1" time="4" posX="450" posY="510" dialogSide="Top_Right" interval="0" isShowScriptOnly="true" rectEnd="0,0" rectStart="0,0" scriptId="424" />
+    <Guide id="14"
+           type="normal"
+           enableList="1,2,3"
+           uiName="PaperDoll">
+        <Dialog id="1"
+                time="4"
+                posX="450"
+                posY="510"
+                dialogSide="Top_Right"
+                interval="0"
+                isShowScriptOnly="true"
+                rectEnd="0,0"
+                rectStart="0,0"
+                scriptId="424" />
     </Guide>
 </BalloonGuide>

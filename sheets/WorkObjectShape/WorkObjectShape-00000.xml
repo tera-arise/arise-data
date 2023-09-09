@@ -1,722 +1,2452 @@
-<WorkObjectShape xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/WorkObjectShape WorkObjectShape.xsd" xmlns="https://vezel.dev/novadrop/dc/WorkObjectShape">
-    <Shape id="600070" animSet="NPC_Objects_ANI.Anim.elementalstone_anim" mesh="NPC_Objects.Skel.elementalstone_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="600090" animSet="NPC_Objects_ANI.Anim.magicstone_anim" mesh="NPC_Objects.Skel.magicstone_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="600293" animSet="NPC_Relic_ANI.Anim.NPC_Altar_A_01_Anim" mesh="NPC_Relic.Skel.NPC_Altar_A_01_Skel" resourceSize="250" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="600321" animSet="NPC_Door_ANI.Anim.NPC_AEN_Door_Anim" mesh="NPC_Door.Skel.NPC_AEN_Door_Skel" resourceSize="250" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Closed" effect="0" transitionAnim="Closing" />
-        <State id="1" waitAnim="Open" effect="0" transitionAnim="Opening" />
-    </Shape>
-    <Shape id="600400" animSet="NPC_MagicStone02_ANI.Anim.NPC_MagicStone02_Anim" mesh="NPC_MagicStone02.Skel.NPC_MagicStone02_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="2153" transitionAnim="DownEnd" />
-        <State id="1" waitAnim="DownLoop" effect="0" transitionAnim="DownStart" />
-    </Shape>
-    <Shape id="600430" animSet="NPC_StoneGrave_ANI.Anim.NPC_StoneGrave_Anim" mesh="NPC_StoneGrave.Skel.NPC_StoneGrave_Skel" resourceSize="250" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Wait" effect="4222" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="600440" animSet="NPC_Coffin_ANI.Anim.NPC_Coffin_M_Anim" mesh="NPC_Coffin.Skel.NPC_Coffin_M_Skel" resourceSize="250" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Off" effect="0" transitionAnim="Off" />
-        <State id="1" waitAnim="OnLoop" effect="0" transitionAnim="On" />
-    </Shape>
-    <Shape id="600450" animSet="NPC_Coffin_ANI.Anim.NPC_Coffin_F_Anim" mesh="NPC_Coffin.Skel.NPC_Coffin_F_Skel" resourceSize="250" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Off" effect="0" transitionAnim="Off" />
-        <State id="1" waitAnim="OnLoop" effect="0" transitionAnim="On" />
-    </Shape>
-    <Shape id="600460" animSet="NPC_AncientStone_ANI.Anim.NPC_AncientStone_Anim" mesh="NPC_AncientStone.Skel.NPC_AncientStone_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="600480" animSet="NPC_SteelDoor_ANI.Anim.NPC_SteelDoor_Anim" mesh="NPC_SteelDoor.Skel.NPC_SteelDoor_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Closed" effect="0" transitionAnim="Closing" />
-        <State id="1" waitAnim="Open" effect="0" transitionAnim="Opening" />
-    </Shape>
-    <Shape id="600520" animSet="NPC_TreasureBox_ANI.Anim.NPC_TreasureBox_Anim" mesh="NPC_TreasureBox.Skel.NPC_TreasureBox_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Closed" effect="0" transitionAnim="Closing" />
-        <State id="1" waitAnim="Open" effect="50343" transitionAnim="Opening" />
-    </Shape>
-    <Shape id="600580" animSet="NPC_Machine_ANI.Anim.NPC_SealMachine_Anim" mesh="NPC_Machine.Skel.NPC_SealMachine_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Closed" effect="0" transitionAnim="Closing" />
-        <State id="1" waitAnim="Open" effect="50345" transitionAnim="Closing" />
-    </Shape>
-    <Shape id="600590" animSet="NPC_Machine_ANI.Anim.NPC_PurgeMachine_Anim" mesh="NPC_Machine.Skel.NPC_PurgeMachine_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="off" effect="0" transitionAnim="off" />
-        <State id="1" waitAnim="on" effect="50346" transitionAnim="on" />
-    </Shape>
-    <Shape id="600660" animSet="NPC_MagicDevice_01_ANI.Anim.NPC_MagicDevice_01_Anim" mesh="NPC_MagicDevice_01.Skel.NPC_MagicDevice_01_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="off" effect="0" transitionAnim="offStart" />
-        <State id="1" waitAnim="Idle" effect="50347" transitionAnim="onStart" />
-    </Shape>
-    <Shape id="600661" animSet="NPC_MagicDevice_02_ANI.Anim.NPC_MagicDevice_02_Anim" mesh="NPC_MagicDevice_02.Skel.NPC_MagicDevice_02_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="off" effect="0" transitionAnim="off" />
-        <State id="1" waitAnim="on" effect="50348" transitionAnim="on" />
-    </Shape>
-    <Shape id="600720" animSet="NPC_Cultist_ANI.Anim.NPC_CultistMachine_Anim" mesh="NPC_Cultist.Skel.NPC_CultistMachine_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Closed" effect="0" transitionAnim="Closing" />
-        <State id="1" waitAnim="Open" effect="0" transitionAnim="Opening" />
-    </Shape>
-    <Shape id="600760" animSet="NPC_DaganHalidom_ANI.Anim.NPC_DaganHalidom_Anim" mesh="NPC_DaganHalidom.Skel.NPC_DaganHalidom_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Up" effect="0" transitionAnim="UpStart" />
-        <State id="1" waitAnim="Down" effect="50290" transitionAnim="DownStart" />
-    </Shape>
-    <Shape id="600780" animSet="NPC_WitchSeal_ANI.Anim.NPC_WitchSeal_Anim" mesh="NPC_WitchSeal.Skel.NPC_WitchSeal_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Down" effect="0" transitionAnim="DownStart" />
-        <State id="1" waitAnim="UpLoop" effect="50351" transitionAnim="UpStart" />
-    </Shape>
-    <Shape id="600800" animSet="NPC_MIX_CIC_ElevDoor_ANI.Anim.NPC_MIX_CIC_ElevDoor_Anim" mesh="NPC_MIX_CIC_ElevDoor.Skel.NPC_MIX_CIC_ElevDoor_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Closed" effect="0" transitionAnim="Closing" />
-        <State id="1" waitAnim="Open" effect="0" transitionAnim="Opening" />
-    </Shape>
-    <Shape id="600840" animSet="NPC_Arogonn_ANI.Anim.NPC_Brainwashing_Anim" mesh="NPC_Arogonn.Skel.NPC_Brainwashing_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="On" effect="55550238" transitionAnim="OnStart" />
-        <State id="1" waitAnim="Off" effect="0" transitionAnim="OffStart" />
-    </Shape>
-    <Shape id="600860" animSet="NPC_ANC_MagicStone_ANI.Anim.NPC_ANC_MagicStone_Anim" mesh="NPC_ANC_MagicStone.Skel.NPC_ANC_MagicStone_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="On" effect="50349" transitionAnim="OnStart" />
-        <State id="1" waitAnim="Off" effect="0" transitionAnim="OffStart" />
-    </Shape>
-    <Shape id="600880" animSet="NPC_Microscope_ANI.Anim.NPC_Microscope_Anim" mesh="NPC_Microscope.Skel.NPC_Microscope_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Off" effect="0" transitionAnim="OffStart" />
-        <State id="1" waitAnim="On" effect="50350" transitionAnim="OnStart" />
-    </Shape>
-    <Shape id="600900" animSet="NPC_ARG_TES_ElevDoor_ANI.Anim.NPC_ARG_TES_ElevDoor_Anim" mesh="NPC_ARG_TES_ElevDoor.Skel.NPC_ARG_TES_ElevDoor_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Closed" effect="0" transitionAnim="Closing" />
-        <State id="1" waitAnim="Open" effect="0" transitionAnim="Opening" />
-    </Shape>
-    <Shape id="600910" animSet="NPC_ED_ANI.Anim.NPC_AL_ED_Down_Anim" mesh="NPC_ED.Skel.NPC_AL_ED_Down_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Closed" effect="0" transitionAnim="Closing" />
-        <State id="1" waitAnim="Open" effect="0" transitionAnim="Opening" />
-    </Shape>
-    <Shape id="600920" animSet="NPC_MovementStone_ANI.Anim.NPC_MovementStone_Anim" mesh="NPC_MovementStone.Skel.NPC_MovementStone_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Off" effect="0" transitionAnim="OffStart" />
-        <State id="1" waitAnim="On" effect="50352" transitionAnim="OnStart" />
-    </Shape>
-    <Shape id="600970" animSet="NPC_SWC_Quest_ANI.Anim.NPC_ShieldWall_Anim" mesh="NPC_SWC_Quest.Skel.NPC_ShieldWall_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Off" effect="0" transitionAnim="OffStart" />
-        <State id="1" waitAnim="On" effect="50352" transitionAnim="OnStart" />
-    </Shape>
-    <Shape id="611190" animSet="NPC_EslenFlower_ANI.Anim.NPC_EslenFlower_Anim" mesh="NPC_EslenFlower.Skel.NPC_EslenFlower_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Off" effect="0" transitionAnim="OffStart" />
-        <State id="1" waitAnim="On" effect="50352" transitionAnim="OnStart" />
-    </Shape>
-    <Shape id="611240" animSet="NPC_SSC_ARG_Obj_ANI.Anim.NPC_SSC_ARG_Obj_Anim" mesh="NPC_SSC_ARG_Obj.Skel.NPC_SSC_ARG_Obj_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Off" effect="0" transitionAnim="OffStart" />
-        <State id="1" waitAnim="On" effect="50352" transitionAnim="OnStart" />
-    </Shape>
-    <Shape id="611260" animSet="NPC_Isren_SealDevice_ANI.Anim.NPC_Isren_SealDevice_Anim" mesh="NPC_Isren_SealDevice.Skel.NPC_Isren_SealDevice_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="On" effect="0" transitionAnim="OnStart" />
-        <State id="1" waitAnim="Off" effect="50352" transitionAnim="OffStart" />
-    </Shape>
-    <Shape id="611271" animSet="NPC_Relic_B_ANI.Anim.NPC_Relic_B_02_Anim" mesh="NPC_Relic_B.Skel.NPC_Relic_B_02_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="UnarmedWait" effect="0" transitionAnim="UnarmedWait" />
-        <State id="1" waitAnim="UnarmedWait" effect="50352" transitionAnim="UnarmedWait" />
-    </Shape>
-    <Shape id="611272" animSet="NPC_Relic_B_ANI.Anim.NPC_Relic_B_03_Anim" mesh="NPC_Relic_B.Skel.NPC_Relic_B_03_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="UnarmedWait" effect="0" transitionAnim="UnarmedWait" />
-        <State id="1" waitAnim="UnarmedWait" effect="50352" transitionAnim="UnarmedWait" />
-    </Shape>
-    <Shape id="611273" animSet="NPC_Relic_B_ANI.Anim.NPC_Relic_B_04_Anim" mesh="NPC_Relic_B.Skel.NPC_Relic_B_04_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="UnarmedWait" effect="0" transitionAnim="UnarmedWait" />
-        <State id="1" waitAnim="UnarmedWait" effect="50352" transitionAnim="UnarmedWait" />
-    </Shape>
-    <Shape id="720040" animSet="NPC_T4_Daily_BananaTree_ANI.Anim.NPC_T4_Daily_BananaTree_anim" mesh="NPC_T4_Daily_BananaTree.Skel.NPC_T4_Daily_BananaTree_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Off" effect="0" transitionAnim="offstart" />
-        <State id="1" waitAnim="On" effect="0" transitionAnim="onstart" />
-    </Shape>
-    <Shape id="720050" animSet="NPC_T4_Daily_LightHouseDev_ANI.Anim.NPC_T4_Daily_LightHouseDev_anim" mesh="NPC_T4_Daily_LightHouseDev.Skel.NPC_T4_Daily_LightHouseDev_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Off" effect="0" transitionAnim="offstart" />
-        <State id="1" waitAnim="On" effect="0" transitionAnim="onstart" />
-    </Shape>
-    <Shape id="720060" animSet="NPC_T4_Daily_Feed_ANI.Anim.NPC_T4_Daily_Feed_anim" mesh="NPC_T4_Daily_Feed.Skel.NPC_T4_Daily_Feed_skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Off" effect="0" transitionAnim="offstart" />
-        <State id="1" waitAnim="On" effect="0" transitionAnim="onstart" />
-    </Shape>
-    <Shape id="720080" animSet="NPC_T4_Mion_LifeTree_ANI.Anim.NPC_T4_Mion_LifeTree_Anim" mesh="NPC_T4_Mion_LifeTree.Skel.NPC_T4_Mion_LifeTree_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Off" effect="2218" transitionAnim="offstart" />
-        <State id="1" waitAnim="On" effect="2217" transitionAnim="onstart" />
-    </Shape>
-    <Shape id="600562" animSet="NPC_Cultist_ANI.Anim.NPC_CultistMachine_02_Anim" mesh="NPC_Cultist.Skel.NPC_CultistMachine_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Closed" effect="0" transitionAnim="Closing" />
-        <State id="1" waitAnim="Open" effect="0" transitionAnim="Opening" />
-    </Shape>
-    <Shape id="700261" animSet="NPC_T4_Camp_Flag_ANI.Anim.NPC_T4_Camp_Flag_02_Anim" mesh="NPC_T4_Camp_Flag.Skel.NPC_T4_Camp_Flag_02_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Off" effect="0" transitionAnim="OffStart" />
-        <State id="1" waitAnim="On" effect="0" transitionAnim="OnStart" />
-    </Shape>
-    <Shape id="611360" animSet="NPC_PVE_ANI.Anim.NPC_PVE_Switch_Anim" mesh="NPC_PVE.Skel.NPC_PVE_Switch_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Off" effect="0" transitionAnim="OffStart" />
-        <State id="1" waitAnim="On" effect="0" transitionAnim="OnStart" />
-    </Shape>
-    <Shape id="700240" animSet="NPC_T4_militaryBase_ANI.Anim.NPC_T4_militaryBase_Anim" mesh="NPC_T4_militaryBase.Skel.NPC_T4_militaryBase_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Off" effect="0" transitionAnim="offstart" />
-        <State id="1" waitAnim="On" effect="504081" transitionAnim="onstart" />
-    </Shape>
-    <Shape id="720240" animSet="NPC_T4_Mion_MysteriousRD_ANI.Anim.NPC_T4_Mion_MysteriousRD_anim" mesh="NPC_T4_Mion_MysteriousRD.skel.NPC_T4_Mion_MysteriousRD_skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Off" effect="0" transitionAnim="offstart" />
-        <State id="1" waitAnim="On" effect="2216" transitionAnim="onstart" />
-    </Shape>
-    <Shape id="720350" animSet="EX01_QuestCollection_ANI.Anim.Item_Pipe_anim" mesh="EX01_QuestCollection.skel.Item_Pipe_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="700180" animSet="NPC_T4_Stonelantern_ANI.Anim.NPC_Stonelantern_Anim" mesh="NPC_T4_Stonelantern.Skel.NPC_Stonelantern_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Off" effect="0" transitionAnim="offstart" />
-        <State id="1" waitAnim="On" effect="502881" transitionAnim="onstart" />
-    </Shape>
-    <Shape id="720130" animSet="NPC_T4_Mion_seren_ANI.Anim.NPC_T4_StoneSeren_anim" mesh="NPC_T4_Mion_seren.Skel.NPC_T4_StoneSeren_skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Off" effect="0" transitionAnim="offstart" />
-        <State id="1" waitAnim="On" effect="4577" transitionAnim="onstart" />
-    </Shape>
-    <Shape id="700131" animSet="NPC_T4_CylinderBookcase_ANI.Anim.NPC_CylinderBookcase_Broken_Anim" mesh="NPC_T4_CylinderBookcase.Skel.NPC_CylinderBookcase_Broken_skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Off" effect="0" transitionAnim="offstart" />
-        <State id="1" waitAnim="On" effect="50540" transitionAnim="onstart" />
-    </Shape>
-    <Shape id="611460" animSet="NPC_T4_Battle_Mirror_ANI.Anim.NPC_T4_Battle_Mirror_Anim" mesh="NPC_T4_Battle_Mirror.Skel.NPC_T4_Battle_Mirror_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="600244" animSet="NPC_Article_ANI.Anim.NPC_Book_Anim" mesh="NPC_Article.Skel.NPC_Book_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="700130" animSet="NPC_T4_CylinderBookcase_ANI.Anim.NPC_CylinderBookcase_Anim" mesh="NPC_T4_CylinderBookcase.Skel.NPC_CylinderBookcase_skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Off" effect="0" transitionAnim="offstart" />
-        <State id="1" waitAnim="On" effect="50539" transitionAnim="onstart" />
-    </Shape>
-    <Shape id="720090" animSet="NPC_T4_Mion_Arogonn_ANI.Anim.NPC_T4_mission_Argonn_anim" mesh="NPC_T4_Mion_Arogonn.Skel.NPC_T4_Mission_Arogonn_skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Off" effect="0" transitionAnim="offstart" />
-        <State id="1" waitAnim="On" effect="0" transitionAnim="onstart" />
-    </Shape>
-    <Shape id="720150" animSet="NPC_T4_Daily_SolarMonster_02_ANI.Anim.NPC_T4_Daily_SolarMonster_02_anim_death" mesh="NPC_T4_Daily_SolarMonster_02.Skel.NPC_T4_Daily_SolarMonster_02_skel_death" resourceSize="100" resourceType="medium" animTree="S1Prototype.AnimTree_0">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="deathwait" effect="0" transitionAnim="Death" />
-        <State id="1" waitAnim="Death" effect="0" transitionAnim="deathwait" />
-    </Shape>
-    <Shape id="700133" animSet="NPC_T4_CylinderBookcase_ANI.Anim.NPC_T4_CylinderBookcase_02_Anim" mesh="NPC_T4_CylinderBookcase.Skel.NPC_T4_CylinderBookcase_02_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="50539" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="640040" animSet="FV_SUM_Coffin_ANI.Anim.FV_SUM_Coffin_Anim" mesh="FV_SUM_Coffin.Skel.FV_SUM_Coffin_Skel" resourceSize="250" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Off" effect="0" transitionAnim="Offstart" />
-        <State id="1" waitAnim="On" effect="0" transitionAnim="Onstart" />
-    </Shape>
-    <Shape id="611462" animSet="NPC_T4_Battle_Mirror_ANI.Anim.NPC_T4_Battle_Mirror_Anim" mesh="NPC_T4_Battle_Mirror.Skel.NPC_T4_Battle_Mirror_02_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="640010" animSet="FV_SUM_Fountain_ANI.Anim.FV_SUM_Fountain_Anim" mesh="FV_SUM_Fountain.Skel.FV_SUM_Fountain_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="300" height="300" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="640020" animSet="FV_SUM_Incense_ANI.Anim.FV_SUM_Incense_Anim" mesh="FV_SUM_Incense.Skel.FV_SUM_Incense_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="640060" animSet="FV_SUM_Food_ANI.Anim.FV_SUM_Food_Anim" mesh="FV_SUM_Food.Skel.FV_SUM_Food_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="640080" animSet="FV_SUM_Box01_ANI.Anim.FV_SUM_Box01_Anim" mesh="FV_SUM_Box01.Skel.FV_SUM_Box01_Skel" resourceSize="250" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Off" effect="0" transitionAnim="OffStart" />
-        <State id="1" waitAnim="On" effect="0" transitionAnim="OnStart" />
-    </Shape>
-    <Shape id="640110" animSet="FV_SUM_IceMachine_ANI.Anim.FV_SUM_IceMachine_Anim" mesh="FV_SUM_IceMachine.Skel.FV_SUM_IceMachine_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="640170" animSet="FV_SUM_Ice_ANI.Anim.FV_SUM_Ice_Anim" mesh="FV_SUM_Ice.Skel.FV_SUM_Ice_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="640171" animSet="NPC_UserSign_C_ANI.Anim.NPC_UserSign_C_Anim" mesh="NPC_UserSign_C.Skel.NPC_UserSign_C_SkeL" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="640172" animSet="MoneyTree_ANI.Anim.MoneyTree_Anim" mesh="MoneyTree.Skel.MoneyTree_Skel" resourceSize="75" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="640173" animSet="NPC_Cultist_ANI.Anim.NPC_CultistMachine_02_Anim" mesh="NPC_Cultist.Skel.NPC_CultistMachine_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="640174" animSet="LaboratoryDoor_ANI.Anim.LaboratoryDoor_Anim" mesh="LaboratoryDoor.Skel.LaboratoryDoor_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="640175" animSet="NPC_SpatotemporalGenerator_ANI.Anim.NPC_SpatotemporalGenerator_Anim" mesh="NPC_SpatotemporalGenerator.Skel.NPC_SpatotemporalGenerator_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="On" effect="514062402" transitionAnim="OnStart" />
-        <State id="1" waitAnim="Off" effect="0" transitionAnim="OffStart" />
-    </Shape>
-    <Shape id="640176" animSet="A_Island_Root_ANI.Anim.A_Island_Root_Anim" mesh="A_Island_Root.Skel.A_Island_Root_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="200" height="200" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="640177" animSet="A_Island_SapJar_ANI.Anim.A_Island_SapJar_Anim" mesh="A_Island_SapJar.Skel.A_Island_SapJar_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="640178" animSet="NPC_T4_ArgonFieldInhaler_ANI.Anim.NPC_ArgonFieldInhaler_Anim_Death" mesh="NPC_T4_ArgonFieldInhaler.Skel.NPC_ArgonFieldInhaler_Skel_Death" resourceSize="60" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="deathwait" />
-        <State id="1" waitAnim="deathwait" effect="0" transitionAnim="Death" />
-    </Shape>
-    <Shape id="640179" animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim" mesh="NPC_Trans.Skel.NPC_Trans_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="200" height="200" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="640180" animSet="A_Island_Bush_ANI.Anim.A_Island_Bush_Anim" mesh="A_Island_Bush.Skel.A_Island_Bush_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="400" height="400" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="640181" animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim" mesh="NPC_Trans.Skel.NPC_Trans_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="500" height="200" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="640182" animSet="NPC_SWC_Quest_ANI.Anim.NPC_Switch_Anim" mesh="NPC_SWC_Quest.Skel.NPC_Switch_Green_Skel" resourceSize="60" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="640183" animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim" mesh="NPC_Trans.Skel.NPC_Trans_Skel" resourceSize="60" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="640184" animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim" mesh="NPC_Trans.Skel.NPC_Trans_Skel" resourceSize="60" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="640185" animSet="NPC_A_Island_Girl_ANI.Anim.NPC_A_Island_Girl_Anim" mesh="NPC_A_Island_Girl.Skel.NPC_A_Island_Girl_Skel" resourceSize="60" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="640186" animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim" mesh="NPC_Trans.Skel.NPC_Trans_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="500" height="200" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="640187" animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim" mesh="NPC_Trans.Skel.NPC_Trans_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="500" height="200" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="730260" animSet="HollyPlace_ANI.Anim.HollyPlace_Anim" mesh="HollyPlace.Skel.HollyPlace_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="5140609" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="run" effect="0" transitionAnim="run" />
-    </Shape>
-    <Shape id="630100" animSet="MovingTank_ANI.Anim.MovingTank_Anim" mesh="MovingTank.Skel.MovingTank_Skel" resourceSize="250" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="change_unarmedwait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="change_wait" />
-    </Shape>
-    <Shape id="302422" animSet="AnonSoldier_ANI.Anim.AnonSoldier_Anim" mesh="ProArcdeva_Guard.Skel.ProArcdeva_Guard_Skel" resourceSize="100" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="deathwait" effect="0" transitionAnim="deathwait" />
-        <State id="1" waitAnim="deathwait" effect="0" transitionAnim="deathwait" />
-    </Shape>
-    <Shape id="302582" animSet="Anon_warrior_ANI.Anim.Anon_warrior_Anim" mesh="ProArcdeva_Warrior.Skel.ProArcdeva_Warrior_Skel" resourceSize="100" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="deathwait" effect="0" transitionAnim="deathwait" />
-        <State id="1" waitAnim="deathwait" effect="0" transitionAnim="deathwait" />
-    </Shape>
-    <Shape id="302591" animSet="Anon_Sorcerer_ANI.Anim.Anon_Sorcerer_Anim" mesh="ProArcdeva_Sorcerer.Skel.ProArcdeva_Sorcerer_Skel" resourceSize="100" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="deathwait" effect="0" transitionAnim="deathwait" />
-        <State id="1" waitAnim="deathwait" effect="0" transitionAnim="deathwait" />
-    </Shape>
-    <Shape id="642010" animSet="AirshipCore_ANI.Anim.AirshipCore_Anim" mesh="AirshipCore.Skel.AirshipCore_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Off" effect="0" transitionAnim="OffStart" />
-        <State id="1" waitAnim="On" effect="0" transitionAnim="OnStart" />
-    </Shape>
-    <Shape id="641090" animSet="ArcDeva_UpstairDoor_ANI.Anim.ArcDeva_UpstairDoor_Anim" mesh="ArcDeva_UpstairDoor.Skel.ArcDeva_UpstairDoor_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="10" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="641095" animSet="ArcDeva_DownstairDoor_ANI.Anim.ArcDeva_DownstairDoor_Anim" mesh="ArcDeva_DownstairDoor.Skel.ArcDeva_DownstairDoor_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="10" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="720511" animSet="NPC_Tuto_CrashStone_ANI.Anim.NPC_Tuto_CrashStone_anim_death" mesh="NPC_Tuto_CrashStone.Skel.NPC_Tuto_CrashStone_02_skel" resourceSize="100" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="300" height="300" />
-        <State id="0" waitAnim="deathwait" effect="0" transitionAnim="Death" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="302430" animSet="ElementalSpiritWater_ANI.Anim.ElementalSpiritWater_Anim" mesh="ElementalSpiritWater.Skel.ElementalSpiritWater_Skel" resourceSize="100" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="652010" animSet="Boss_Obj_ANI.Anim.Boss_Obj_Anim" mesh="Boss_Obj.Skel.Boss_Obj_Skel" resourceSize="100" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="200" height="200" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="611550" animSet="DefenceTower_ANI.Anim.DefenceTower_Anim" mesh="DefenceTower.Skel.DefenceTower_Skel" resourceSize="100" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="200" height="200" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="611590" animSet="Pile_of_books_ANI.Anim.Pile_of_books_Anim" mesh="Pile_of_books.Skel.Pile_of_books_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="200" height="200" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="600299" animSet="NPC_Relic_ANI.Anim.NPC_Magic_equipment_A_Anim" mesh="NPC_Relic.Skel.NPC_Magic_equipment_A_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="200" height="200" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="531034" animSet="A_Island_Bush_ANI.Anim.A_Island_Bush_Anim" mesh="A_Island_Bush.Skel.A_Island_Bush_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="200" height="200" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="531035" animSet="ArcDeva_Lab_Crystal_ANI.Anim.ArcDeva_Lab_Crystal_Green_Anim" mesh="ArcDeva_Lab_Crystal.Skel.ArcDeva_Lab_Crystal_Green_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="200" height="200" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="950501" animSet="General_M_Belica_ANI.Anim.General_M_Belica_Anim" mesh="General_M_Belica.Skel.General_M_Belica_Skel" resourceSize="100" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="950502" animSet="AWAKEN_DragonPortal_Ani.Anim.AWAKEN_DragonPortal_Anim" mesh="AWAKEN_DragonPortal.Skel.Awaken_DragonPortal_Skel" resourceSize="150" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="OpenWait" effect="0" transitionAnim="OpenWait" />
-        <State id="1" waitAnim="OpenWait" effect="0" transitionAnim="OpenWait" />
-    </Shape>
-    <Shape id="950503" animSet="NPC_TreasureBox01_ANI.Anim.NPC_TreasureBox01_Anim" mesh="NPC_TreasureBox01.Skel.NPC_TreasureBox01_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Death" />
-    </Shape>
-    <Shape id="950504" animSet="AWAKEN_Brainwash_Ani.Anim.Awaken_Brainwash_Anim" mesh="AWAKEN_Brainwash.Skel.Awaken_Brainwash_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="950505" animSet="NPC_Tuto_CrashStone_ANI.Anim.NPC_Tuto_CrashStone_anim_death" mesh="NPC_Tuto_CrashStone.Skel.NPC_Tuto_CrashStone_skel" resourceSize="100" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="210" height="200" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Death" />
-        <State id="1" waitAnim="deathWait" effect="0" transitionAnim="Death" />
-    </Shape>
-    <Shape id="652230" animSet="LaKan_Stone_ANI.Anim.LaKan_Stone_01_Anim" mesh="LaKan_Stone.Skel.LaKan_Stone_01_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="983301" animSet="AWAKEN_DragonPortal_Ani.Anim.AWAKEN_DragonPortal_Anim" mesh="AWAKEN_DragonPortal.Skel.Awaken_DragonPortal_Skel" resourceSize="150" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Open" />
-        <State id="1" waitAnim="Open" effect="0" transitionAnim="OpenWait" />
-    </Shape>
-    <Shape id="983302" animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim" mesh="NPC_Trans.Skel.NPC_Trans_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="500" height="200" />
-        <State id="0" waitAnim="Wait" effect="7101018" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="7101018" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="973901" animSet="TreasureBox_ANI.Anim.TreasureBox_Anim" mesh="TreasureBox.Skel.TreasureBox_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="973902" animSet="NPC_Monster_ANI.Anim.NPC_Malygos_Totem_Anim" mesh="NPC_Monster.Skel.NPC_Malygos_Totem_Skel" resourceSize="30" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="3" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="978301" animSet="LieDown_Body_ANI.Anim.LieDown_Body_Anim" mesh="LieDown_Body.Skel.LieDown_Body_Skel" resourceSize="30" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="3" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Death" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Death" />
-    </Shape>
-    <Shape id="978302" animSet="Kubel_Fortress_2N_tBook_ANI.Anim.Kubel_Fortress_2N_tBook_Anim" mesh="Kubel_Fortress_2N_tBook.Skel.Kubel_Fortress_2N_tBook_Skel" resourceSize="30" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="3" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Move" />
-    </Shape>
-    <Shape id="998301" animSet="LieDown_Body_ANI.Anim.LieDown_Body_Anim" mesh="LieDown_Body.Skel.LieDown_Body_Skel" resourceSize="30" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="3" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Death" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Death" />
-    </Shape>
-    <Shape id="998302" animSet="Kubel_Fortress_2N_tBook_ANI.Anim.Kubel_Fortress_2N_tBook_Anim" mesh="Kubel_Fortress_2N_tBook.Skel.Kubel_Fortress_2N_tBook_Skel" resourceSize="30" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="3" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Move" />
-    </Shape>
-    <Shape id="600220" animSet="Bones_Heap02_ANI.Anim.Bones_Heap02_Anim" mesh="Bones_Heap02.Skel.Bones_Heap02_Skel" resourceSize="100" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="3" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="600282" animSet="NPC_Plant_ANI.Anim.NPC_Flower_Npcobj_03_Anim" mesh="NPC_Plant.Skel.NPC_Flower_Npcobj_03_Skel" resourceSize="100" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="3" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="600283" animSet="NPC_Plant_ANI.Anim.NPC_Flower_Npcobj_04_Anim" mesh="NPC_Plant.Skel.NPC_Flower_Npcobj_04_Skel" resourceSize="100" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="3" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="600286" animSet="NPC_Plant_ANI.Anim.NPC_Medicinalherb_03_Anim" mesh="NPC_Plant.Skel.NPC_Medicinalherb_03_Skel" resourceSize="100" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="3" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="600295" animSet="NPC_Relic_ANI.Anim.NPC_Altar_A_03_Anim" mesh="NPC_Relic.Skel.NPC_Altar_A_03_Skel" resourceSize="100" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="3" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="400001" animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim" mesh="NPC_Trans.Skel.NPC_Trans_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="200" height="200" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="400002" animSet="A_Island_SapJar_ANI.Anim.A_Island_SapJar_Anim" mesh="A_Island_SapJar.Skel.A_Island_SapJar_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="400003" animSet="LaKan_Stone_ANI.Anim.LaKan_Stone_01_Anim" mesh="LaKan_Stone.Skel.LaKan_Stone_01_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="400005" animSet="NPC_Tuto_CrashStone_ANI.Anim.NPC_Tuto_CrashStone_anim_death" mesh="NPC_Tuto_CrashStone.Skel.NPC_Tuto_CrashStone_02_skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="500" height="200" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="400006" animSet="NPC_Objects_ANI.Anim.Supplychest_Destroyed_anim" mesh="NPC_Objects.Skel.Supplychest_Destroyed_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="400008" animSet="NPC_T4_Mion_Kanovia_ANI.Anim.NPC_T4_Mion_Kanovia_anim" mesh="FDI_autumn_tank.Skel.FDI_autumn_tank_Alpha_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="500" height="200" />
-        <State id="0" waitAnim="deathwait" effect="0" transitionAnim="deathwait" />
-        <State id="1" waitAnim="deathwait" effect="0" transitionAnim="deathwait" />
-    </Shape>
-    <Shape id="400009" animSet="WoodBox_ANI.Anim.WoodBox_Anim" mesh="WoodBox.Skel.WoodBox_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="400010" animSet="TreasureBox_ANI.Anim.TreasureBox_Anim" mesh="TreasureBox.Skel.TreasureBox_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="400013" animSet="NPC_WoodDoor_ANI.Anim.NPC_WoodDoor_Anim" mesh="NPC_WoodDoor.Skel.NPC_WoodDoor_Skel" resourceSize="35" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="400014" animSet="NPC_Article_ANI.Anim.NPC_Book_Anim" mesh="NPC_Article.Skel.NPC_Book_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="400015" animSet="NPC_HeavyWagon_ANI.Anim.NPC_HeavyWagon_04_anim" mesh="NPC_HeavyWagon.Skel.NPC_Heavywagon_04_skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="200" height="200" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="400016" animSet="NPC_T4_Battle_Pot_ANI.Anim.NPC_T4_Battle_Pot_Anim" mesh="NPC_T4_Battle_Pot.Skel.NPC_T4_Battle_Pot_Skel" resourceSize="100" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="300" height="300" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="400017" animSet="Human_M_Corpse_ANI.Anim.Human_M_Corpse_Anim" mesh="Human_M_Corpse.Skel.Human_M_Corpse_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-    </Shape>
-    <Shape id="60016" animSet="DooBean_ANI.Anim.DooBean_Anim" mesh="DooBean.Skel.DooBean_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="400018" animSet="NPC_Article_ANI.Anim.NPC_Shank_02_Anim" mesh="NPC_Article.Skel.NPC_Shank_02_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="400019" animSet="NPC_T4_Mission_Illu_ANI.Anim.NPC_T4_Mission_Illu_anim_death" mesh="NPC_T4_Mission_Illu.skel.NPC_T4_Mission_Illu_skel_death" resourceSize="250" resourceType="large" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="deathwait" effect="0" transitionAnim="deathwait" />
-        <State id="1" waitAnim="deathwait" effect="0" transitionAnim="deathwait" />
-    </Shape>
-    <Shape id="200201" animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim" mesh="NPC_Trans.Skel.NPC_Trans_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="200" height="200" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="200202" animSet="FDI_GemStone_ANI.ANI.FDI_GemStone01_Anim" mesh="FDI_GemStone.Skel.FDI_GemStone01_Skel" resourceSize="150" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="200" height="200" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="200203" animSet="FDI_GemStone_ANI.ANI.FDI_GemStone01_Anim" mesh="FDI_GemStone.Skel.FDI_GemStone02_Skel" resourceSize="150" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="200" height="200" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="210201" animSet="NPC_HugeDragon_Rock_Ani.Anim.HD_Rock_01_Anim" mesh="NPC_HugeDragon_Rock.Skel.HD_Rock_01_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="200" height="200" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="Death" effect="0" transitionAnim="deathWait" />
-    </Shape>
-    <Shape id="200301" animSet="NPC_Cultist_ANI.Anim.NPC_CultistMachine_02_Anim" mesh="NPC_Cultist.Skel.NPC_CultistMachine_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="200" height="200" />
-        <State id="0" waitAnim="Closed" effect="0" transitionAnim="Closing" />
-        <State id="1" waitAnim="Open" effect="0" transitionAnim="Opening" />
-    </Shape>
-    <Shape id="200302" animSet="NPC_Cube_ANI.Anim.NPC_Cube_Anim" mesh="NPC_Cube.Skel.NPC_Cube_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="200" height="200" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="200303" animSet="Laknan_Cage_ANI.Anim.Laknan_Cage_Anim" mesh="Laknan_Cage.Skel.Laknan_Cage_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="200" height="200" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="200304" animSet="ElionKubel_Memorial_stone_ANI.Anim.ElionKubel_Memorial_stone_Anim" mesh="ElionKubel_Memorial_stone.Skel.ElionKubel_Memorial_stone_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="200" height="200" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="200305" animSet="FDI_DragonOBJ_NPC_ANI.Anim.FDI_Sculpture_Anim" mesh="FDI_DragonOBJ_NPC.Skel.FDI_Sculpture_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="200" height="200" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="200306" animSet="FDI_DragonOBJ_NPC_ANI.Anim.FDI_Flag_Anim" mesh="FDI_DragonOBJ_NPC.Skel.FDI_Flag_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="200" height="200" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="600241" animSet="NPC_Article_ANI.Anim.NPC_Desk_Anim" mesh="NPC_Article.Skel.NPC_Desk_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="202001" animSet="ArcDeva_Lab_Crystal_ANI.Anim.ArcDeva_Lab_Crystal_Green_Anim" mesh="Queen_Nest_Crystal.Skel.Queen_Nest_Crystal_03_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="Wait" effect="0" transitionAnim="Wait" />
-        <State id="1" waitAnim="Explodewait" effect="0" transitionAnim="Explode" />
-    </Shape>
-    <Shape id="320501" animSet="FDI_Dragonian_Captain_ANI.Anim.FDI_Dragonian_Captain_Anim" mesh="FDI_Dragonian_Overseer.Skel.FDI_Dragonian_Overseer_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="deathWait" effect="0" transitionAnim="deathWait" />
-        <State id="1" waitAnim="deathWait" effect="0" transitionAnim="deathWait" />
-    </Shape>
-    <Shape id="10201" animSet="NPC_Mana_Contrivance_ANI.Anim.NPC_Mana_Contrivance_Anim" mesh="NPC_Mana_Contrivance.Skel.NPC_Mana_Contrivance_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="200" height="200" />
-        <State id="0" waitAnim="unarmedwait" effect="121062501" transitionAnim="wait" />
-        <State id="1" waitAnim="deathwait" effect="0" transitionAnim="death" />
-    </Shape>
-    <Shape id="600061" animSet="NPC_Objects_ANI.Anim.demonstone_anim" mesh="NPC_Demonstone02.Skel.NPC_Demonstone02_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="720550" animSet="NPC_MagicStone02_ANI.Anim.NPC_MagicStone02_S_Anim" mesh="NPC_MagicStone02.Skel.NPC_MagicStone02_S_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="100" height="100" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-    </Shape>
-    <Shape id="12001" animSet="NPC_Article_ANI.Anim.NPC_Cooker_Anim" mesh="NPC_Article.Skel.NPC_Cooker_Skel" resourceSize="100" resourceType="medium" animTree="S1Prototype.SimpleAnimTree">
-        <Cylinder radius="200" height="200" />
-        <State id="0" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
-        <State id="1" waitAnim="unarmedwait" effect="0" transitionAnim="unarmedwait" />
+<WorkObjectShape xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="https://vezel.dev/novadrop/dc/WorkObjectShape WorkObjectShape.xsd"
+                 xmlns="https://vezel.dev/novadrop/dc/WorkObjectShape">
+    <Shape id="600070"
+           animSet="NPC_Objects_ANI.Anim.elementalstone_anim"
+           mesh="NPC_Objects.Skel.elementalstone_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="600090"
+           animSet="NPC_Objects_ANI.Anim.magicstone_anim"
+           mesh="NPC_Objects.Skel.magicstone_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="600293"
+           animSet="NPC_Relic_ANI.Anim.NPC_Altar_A_01_Anim"
+           mesh="NPC_Relic.Skel.NPC_Altar_A_01_Skel"
+           resourceSize="250"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="600321"
+           animSet="NPC_Door_ANI.Anim.NPC_AEN_Door_Anim"
+           mesh="NPC_Door.Skel.NPC_AEN_Door_Skel"
+           resourceSize="250"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Closed"
+               effect="0"
+               transitionAnim="Closing" />
+        <State id="1"
+               waitAnim="Open"
+               effect="0"
+               transitionAnim="Opening" />
+    </Shape>
+    <Shape id="600400"
+           animSet="NPC_MagicStone02_ANI.Anim.NPC_MagicStone02_Anim"
+           mesh="NPC_MagicStone02.Skel.NPC_MagicStone02_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="2153"
+               transitionAnim="DownEnd" />
+        <State id="1"
+               waitAnim="DownLoop"
+               effect="0"
+               transitionAnim="DownStart" />
+    </Shape>
+    <Shape id="600430"
+           animSet="NPC_StoneGrave_ANI.Anim.NPC_StoneGrave_Anim"
+           mesh="NPC_StoneGrave.Skel.NPC_StoneGrave_Skel"
+           resourceSize="250"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="4222"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="600440"
+           animSet="NPC_Coffin_ANI.Anim.NPC_Coffin_M_Anim"
+           mesh="NPC_Coffin.Skel.NPC_Coffin_M_Skel"
+           resourceSize="250"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Off"
+               effect="0"
+               transitionAnim="Off" />
+        <State id="1"
+               waitAnim="OnLoop"
+               effect="0"
+               transitionAnim="On" />
+    </Shape>
+    <Shape id="600450"
+           animSet="NPC_Coffin_ANI.Anim.NPC_Coffin_F_Anim"
+           mesh="NPC_Coffin.Skel.NPC_Coffin_F_Skel"
+           resourceSize="250"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Off"
+               effect="0"
+               transitionAnim="Off" />
+        <State id="1"
+               waitAnim="OnLoop"
+               effect="0"
+               transitionAnim="On" />
+    </Shape>
+    <Shape id="600460"
+           animSet="NPC_AncientStone_ANI.Anim.NPC_AncientStone_Anim"
+           mesh="NPC_AncientStone.Skel.NPC_AncientStone_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="600480"
+           animSet="NPC_SteelDoor_ANI.Anim.NPC_SteelDoor_Anim"
+           mesh="NPC_SteelDoor.Skel.NPC_SteelDoor_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Closed"
+               effect="0"
+               transitionAnim="Closing" />
+        <State id="1"
+               waitAnim="Open"
+               effect="0"
+               transitionAnim="Opening" />
+    </Shape>
+    <Shape id="600520"
+           animSet="NPC_TreasureBox_ANI.Anim.NPC_TreasureBox_Anim"
+           mesh="NPC_TreasureBox.Skel.NPC_TreasureBox_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Closed"
+               effect="0"
+               transitionAnim="Closing" />
+        <State id="1"
+               waitAnim="Open"
+               effect="50343"
+               transitionAnim="Opening" />
+    </Shape>
+    <Shape id="600580"
+           animSet="NPC_Machine_ANI.Anim.NPC_SealMachine_Anim"
+           mesh="NPC_Machine.Skel.NPC_SealMachine_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Closed"
+               effect="0"
+               transitionAnim="Closing" />
+        <State id="1"
+               waitAnim="Open"
+               effect="50345"
+               transitionAnim="Closing" />
+    </Shape>
+    <Shape id="600590"
+           animSet="NPC_Machine_ANI.Anim.NPC_PurgeMachine_Anim"
+           mesh="NPC_Machine.Skel.NPC_PurgeMachine_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="off"
+               effect="0"
+               transitionAnim="off" />
+        <State id="1"
+               waitAnim="on"
+               effect="50346"
+               transitionAnim="on" />
+    </Shape>
+    <Shape id="600660"
+           animSet="NPC_MagicDevice_01_ANI.Anim.NPC_MagicDevice_01_Anim"
+           mesh="NPC_MagicDevice_01.Skel.NPC_MagicDevice_01_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="off"
+               effect="0"
+               transitionAnim="offStart" />
+        <State id="1"
+               waitAnim="Idle"
+               effect="50347"
+               transitionAnim="onStart" />
+    </Shape>
+    <Shape id="600661"
+           animSet="NPC_MagicDevice_02_ANI.Anim.NPC_MagicDevice_02_Anim"
+           mesh="NPC_MagicDevice_02.Skel.NPC_MagicDevice_02_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="off"
+               effect="0"
+               transitionAnim="off" />
+        <State id="1"
+               waitAnim="on"
+               effect="50348"
+               transitionAnim="on" />
+    </Shape>
+    <Shape id="600720"
+           animSet="NPC_Cultist_ANI.Anim.NPC_CultistMachine_Anim"
+           mesh="NPC_Cultist.Skel.NPC_CultistMachine_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Closed"
+               effect="0"
+               transitionAnim="Closing" />
+        <State id="1"
+               waitAnim="Open"
+               effect="0"
+               transitionAnim="Opening" />
+    </Shape>
+    <Shape id="600760"
+           animSet="NPC_DaganHalidom_ANI.Anim.NPC_DaganHalidom_Anim"
+           mesh="NPC_DaganHalidom.Skel.NPC_DaganHalidom_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Up"
+               effect="0"
+               transitionAnim="UpStart" />
+        <State id="1"
+               waitAnim="Down"
+               effect="50290"
+               transitionAnim="DownStart" />
+    </Shape>
+    <Shape id="600780"
+           animSet="NPC_WitchSeal_ANI.Anim.NPC_WitchSeal_Anim"
+           mesh="NPC_WitchSeal.Skel.NPC_WitchSeal_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Down"
+               effect="0"
+               transitionAnim="DownStart" />
+        <State id="1"
+               waitAnim="UpLoop"
+               effect="50351"
+               transitionAnim="UpStart" />
+    </Shape>
+    <Shape id="600800"
+           animSet="NPC_MIX_CIC_ElevDoor_ANI.Anim.NPC_MIX_CIC_ElevDoor_Anim"
+           mesh="NPC_MIX_CIC_ElevDoor.Skel.NPC_MIX_CIC_ElevDoor_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Closed"
+               effect="0"
+               transitionAnim="Closing" />
+        <State id="1"
+               waitAnim="Open"
+               effect="0"
+               transitionAnim="Opening" />
+    </Shape>
+    <Shape id="600840"
+           animSet="NPC_Arogonn_ANI.Anim.NPC_Brainwashing_Anim"
+           mesh="NPC_Arogonn.Skel.NPC_Brainwashing_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="On"
+               effect="55550238"
+               transitionAnim="OnStart" />
+        <State id="1"
+               waitAnim="Off"
+               effect="0"
+               transitionAnim="OffStart" />
+    </Shape>
+    <Shape id="600860"
+           animSet="NPC_ANC_MagicStone_ANI.Anim.NPC_ANC_MagicStone_Anim"
+           mesh="NPC_ANC_MagicStone.Skel.NPC_ANC_MagicStone_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="On"
+               effect="50349"
+               transitionAnim="OnStart" />
+        <State id="1"
+               waitAnim="Off"
+               effect="0"
+               transitionAnim="OffStart" />
+    </Shape>
+    <Shape id="600880"
+           animSet="NPC_Microscope_ANI.Anim.NPC_Microscope_Anim"
+           mesh="NPC_Microscope.Skel.NPC_Microscope_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Off"
+               effect="0"
+               transitionAnim="OffStart" />
+        <State id="1"
+               waitAnim="On"
+               effect="50350"
+               transitionAnim="OnStart" />
+    </Shape>
+    <Shape id="600900"
+           animSet="NPC_ARG_TES_ElevDoor_ANI.Anim.NPC_ARG_TES_ElevDoor_Anim"
+           mesh="NPC_ARG_TES_ElevDoor.Skel.NPC_ARG_TES_ElevDoor_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Closed"
+               effect="0"
+               transitionAnim="Closing" />
+        <State id="1"
+               waitAnim="Open"
+               effect="0"
+               transitionAnim="Opening" />
+    </Shape>
+    <Shape id="600910"
+           animSet="NPC_ED_ANI.Anim.NPC_AL_ED_Down_Anim"
+           mesh="NPC_ED.Skel.NPC_AL_ED_Down_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Closed"
+               effect="0"
+               transitionAnim="Closing" />
+        <State id="1"
+               waitAnim="Open"
+               effect="0"
+               transitionAnim="Opening" />
+    </Shape>
+    <Shape id="600920"
+           animSet="NPC_MovementStone_ANI.Anim.NPC_MovementStone_Anim"
+           mesh="NPC_MovementStone.Skel.NPC_MovementStone_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Off"
+               effect="0"
+               transitionAnim="OffStart" />
+        <State id="1"
+               waitAnim="On"
+               effect="50352"
+               transitionAnim="OnStart" />
+    </Shape>
+    <Shape id="600970"
+           animSet="NPC_SWC_Quest_ANI.Anim.NPC_ShieldWall_Anim"
+           mesh="NPC_SWC_Quest.Skel.NPC_ShieldWall_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Off"
+               effect="0"
+               transitionAnim="OffStart" />
+        <State id="1"
+               waitAnim="On"
+               effect="50352"
+               transitionAnim="OnStart" />
+    </Shape>
+    <Shape id="611190"
+           animSet="NPC_EslenFlower_ANI.Anim.NPC_EslenFlower_Anim"
+           mesh="NPC_EslenFlower.Skel.NPC_EslenFlower_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Off"
+               effect="0"
+               transitionAnim="OffStart" />
+        <State id="1"
+               waitAnim="On"
+               effect="50352"
+               transitionAnim="OnStart" />
+    </Shape>
+    <Shape id="611240"
+           animSet="NPC_SSC_ARG_Obj_ANI.Anim.NPC_SSC_ARG_Obj_Anim"
+           mesh="NPC_SSC_ARG_Obj.Skel.NPC_SSC_ARG_Obj_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Off"
+               effect="0"
+               transitionAnim="OffStart" />
+        <State id="1"
+               waitAnim="On"
+               effect="50352"
+               transitionAnim="OnStart" />
+    </Shape>
+    <Shape id="611260"
+           animSet="NPC_Isren_SealDevice_ANI.Anim.NPC_Isren_SealDevice_Anim"
+           mesh="NPC_Isren_SealDevice.Skel.NPC_Isren_SealDevice_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="On"
+               effect="0"
+               transitionAnim="OnStart" />
+        <State id="1"
+               waitAnim="Off"
+               effect="50352"
+               transitionAnim="OffStart" />
+    </Shape>
+    <Shape id="611271"
+           animSet="NPC_Relic_B_ANI.Anim.NPC_Relic_B_02_Anim"
+           mesh="NPC_Relic_B.Skel.NPC_Relic_B_02_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="UnarmedWait"
+               effect="0"
+               transitionAnim="UnarmedWait" />
+        <State id="1"
+               waitAnim="UnarmedWait"
+               effect="50352"
+               transitionAnim="UnarmedWait" />
+    </Shape>
+    <Shape id="611272"
+           animSet="NPC_Relic_B_ANI.Anim.NPC_Relic_B_03_Anim"
+           mesh="NPC_Relic_B.Skel.NPC_Relic_B_03_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="UnarmedWait"
+               effect="0"
+               transitionAnim="UnarmedWait" />
+        <State id="1"
+               waitAnim="UnarmedWait"
+               effect="50352"
+               transitionAnim="UnarmedWait" />
+    </Shape>
+    <Shape id="611273"
+           animSet="NPC_Relic_B_ANI.Anim.NPC_Relic_B_04_Anim"
+           mesh="NPC_Relic_B.Skel.NPC_Relic_B_04_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="UnarmedWait"
+               effect="0"
+               transitionAnim="UnarmedWait" />
+        <State id="1"
+               waitAnim="UnarmedWait"
+               effect="50352"
+               transitionAnim="UnarmedWait" />
+    </Shape>
+    <Shape id="720040"
+           animSet="NPC_T4_Daily_BananaTree_ANI.Anim.NPC_T4_Daily_BananaTree_anim"
+           mesh="NPC_T4_Daily_BananaTree.Skel.NPC_T4_Daily_BananaTree_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Off"
+               effect="0"
+               transitionAnim="offstart" />
+        <State id="1"
+               waitAnim="On"
+               effect="0"
+               transitionAnim="onstart" />
+    </Shape>
+    <Shape id="720050"
+           animSet="NPC_T4_Daily_LightHouseDev_ANI.Anim.NPC_T4_Daily_LightHouseDev_anim"
+           mesh="NPC_T4_Daily_LightHouseDev.Skel.NPC_T4_Daily_LightHouseDev_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Off"
+               effect="0"
+               transitionAnim="offstart" />
+        <State id="1"
+               waitAnim="On"
+               effect="0"
+               transitionAnim="onstart" />
+    </Shape>
+    <Shape id="720060"
+           animSet="NPC_T4_Daily_Feed_ANI.Anim.NPC_T4_Daily_Feed_anim"
+           mesh="NPC_T4_Daily_Feed.Skel.NPC_T4_Daily_Feed_skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Off"
+               effect="0"
+               transitionAnim="offstart" />
+        <State id="1"
+               waitAnim="On"
+               effect="0"
+               transitionAnim="onstart" />
+    </Shape>
+    <Shape id="720080"
+           animSet="NPC_T4_Mion_LifeTree_ANI.Anim.NPC_T4_Mion_LifeTree_Anim"
+           mesh="NPC_T4_Mion_LifeTree.Skel.NPC_T4_Mion_LifeTree_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Off"
+               effect="2218"
+               transitionAnim="offstart" />
+        <State id="1"
+               waitAnim="On"
+               effect="2217"
+               transitionAnim="onstart" />
+    </Shape>
+    <Shape id="600562"
+           animSet="NPC_Cultist_ANI.Anim.NPC_CultistMachine_02_Anim"
+           mesh="NPC_Cultist.Skel.NPC_CultistMachine_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Closed"
+               effect="0"
+               transitionAnim="Closing" />
+        <State id="1"
+               waitAnim="Open"
+               effect="0"
+               transitionAnim="Opening" />
+    </Shape>
+    <Shape id="700261"
+           animSet="NPC_T4_Camp_Flag_ANI.Anim.NPC_T4_Camp_Flag_02_Anim"
+           mesh="NPC_T4_Camp_Flag.Skel.NPC_T4_Camp_Flag_02_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Off"
+               effect="0"
+               transitionAnim="OffStart" />
+        <State id="1"
+               waitAnim="On"
+               effect="0"
+               transitionAnim="OnStart" />
+    </Shape>
+    <Shape id="611360"
+           animSet="NPC_PVE_ANI.Anim.NPC_PVE_Switch_Anim"
+           mesh="NPC_PVE.Skel.NPC_PVE_Switch_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Off"
+               effect="0"
+               transitionAnim="OffStart" />
+        <State id="1"
+               waitAnim="On"
+               effect="0"
+               transitionAnim="OnStart" />
+    </Shape>
+    <Shape id="700240"
+           animSet="NPC_T4_militaryBase_ANI.Anim.NPC_T4_militaryBase_Anim"
+           mesh="NPC_T4_militaryBase.Skel.NPC_T4_militaryBase_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Off"
+               effect="0"
+               transitionAnim="offstart" />
+        <State id="1"
+               waitAnim="On"
+               effect="504081"
+               transitionAnim="onstart" />
+    </Shape>
+    <Shape id="720240"
+           animSet="NPC_T4_Mion_MysteriousRD_ANI.Anim.NPC_T4_Mion_MysteriousRD_anim"
+           mesh="NPC_T4_Mion_MysteriousRD.skel.NPC_T4_Mion_MysteriousRD_skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Off"
+               effect="0"
+               transitionAnim="offstart" />
+        <State id="1"
+               waitAnim="On"
+               effect="2216"
+               transitionAnim="onstart" />
+    </Shape>
+    <Shape id="720350"
+           animSet="EX01_QuestCollection_ANI.Anim.Item_Pipe_anim"
+           mesh="EX01_QuestCollection.skel.Item_Pipe_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="700180"
+           animSet="NPC_T4_Stonelantern_ANI.Anim.NPC_Stonelantern_Anim"
+           mesh="NPC_T4_Stonelantern.Skel.NPC_Stonelantern_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Off"
+               effect="0"
+               transitionAnim="offstart" />
+        <State id="1"
+               waitAnim="On"
+               effect="502881"
+               transitionAnim="onstart" />
+    </Shape>
+    <Shape id="720130"
+           animSet="NPC_T4_Mion_seren_ANI.Anim.NPC_T4_StoneSeren_anim"
+           mesh="NPC_T4_Mion_seren.Skel.NPC_T4_StoneSeren_skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Off"
+               effect="0"
+               transitionAnim="offstart" />
+        <State id="1"
+               waitAnim="On"
+               effect="4577"
+               transitionAnim="onstart" />
+    </Shape>
+    <Shape id="700131"
+           animSet="NPC_T4_CylinderBookcase_ANI.Anim.NPC_CylinderBookcase_Broken_Anim"
+           mesh="NPC_T4_CylinderBookcase.Skel.NPC_CylinderBookcase_Broken_skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Off"
+               effect="0"
+               transitionAnim="offstart" />
+        <State id="1"
+               waitAnim="On"
+               effect="50540"
+               transitionAnim="onstart" />
+    </Shape>
+    <Shape id="611460"
+           animSet="NPC_T4_Battle_Mirror_ANI.Anim.NPC_T4_Battle_Mirror_Anim"
+           mesh="NPC_T4_Battle_Mirror.Skel.NPC_T4_Battle_Mirror_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="600244"
+           animSet="NPC_Article_ANI.Anim.NPC_Book_Anim"
+           mesh="NPC_Article.Skel.NPC_Book_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="700130"
+           animSet="NPC_T4_CylinderBookcase_ANI.Anim.NPC_CylinderBookcase_Anim"
+           mesh="NPC_T4_CylinderBookcase.Skel.NPC_CylinderBookcase_skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Off"
+               effect="0"
+               transitionAnim="offstart" />
+        <State id="1"
+               waitAnim="On"
+               effect="50539"
+               transitionAnim="onstart" />
+    </Shape>
+    <Shape id="720090"
+           animSet="NPC_T4_Mion_Arogonn_ANI.Anim.NPC_T4_mission_Argonn_anim"
+           mesh="NPC_T4_Mion_Arogonn.Skel.NPC_T4_Mission_Arogonn_skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Off"
+               effect="0"
+               transitionAnim="offstart" />
+        <State id="1"
+               waitAnim="On"
+               effect="0"
+               transitionAnim="onstart" />
+    </Shape>
+    <Shape id="720150"
+           animSet="NPC_T4_Daily_SolarMonster_02_ANI.Anim.NPC_T4_Daily_SolarMonster_02_anim_death"
+           mesh="NPC_T4_Daily_SolarMonster_02.Skel.NPC_T4_Daily_SolarMonster_02_skel_death"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.AnimTree_0">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="deathwait"
+               effect="0"
+               transitionAnim="Death" />
+        <State id="1"
+               waitAnim="Death"
+               effect="0"
+               transitionAnim="deathwait" />
+    </Shape>
+    <Shape id="700133"
+           animSet="NPC_T4_CylinderBookcase_ANI.Anim.NPC_T4_CylinderBookcase_02_Anim"
+           mesh="NPC_T4_CylinderBookcase.Skel.NPC_T4_CylinderBookcase_02_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="50539"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="640040"
+           animSet="FV_SUM_Coffin_ANI.Anim.FV_SUM_Coffin_Anim"
+           mesh="FV_SUM_Coffin.Skel.FV_SUM_Coffin_Skel"
+           resourceSize="250"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Off"
+               effect="0"
+               transitionAnim="Offstart" />
+        <State id="1"
+               waitAnim="On"
+               effect="0"
+               transitionAnim="Onstart" />
+    </Shape>
+    <Shape id="611462"
+           animSet="NPC_T4_Battle_Mirror_ANI.Anim.NPC_T4_Battle_Mirror_Anim"
+           mesh="NPC_T4_Battle_Mirror.Skel.NPC_T4_Battle_Mirror_02_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="640010"
+           animSet="FV_SUM_Fountain_ANI.Anim.FV_SUM_Fountain_Anim"
+           mesh="FV_SUM_Fountain.Skel.FV_SUM_Fountain_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="300"
+                  height="300" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="640020"
+           animSet="FV_SUM_Incense_ANI.Anim.FV_SUM_Incense_Anim"
+           mesh="FV_SUM_Incense.Skel.FV_SUM_Incense_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="640060"
+           animSet="FV_SUM_Food_ANI.Anim.FV_SUM_Food_Anim"
+           mesh="FV_SUM_Food.Skel.FV_SUM_Food_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="640080"
+           animSet="FV_SUM_Box01_ANI.Anim.FV_SUM_Box01_Anim"
+           mesh="FV_SUM_Box01.Skel.FV_SUM_Box01_Skel"
+           resourceSize="250"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Off"
+               effect="0"
+               transitionAnim="OffStart" />
+        <State id="1"
+               waitAnim="On"
+               effect="0"
+               transitionAnim="OnStart" />
+    </Shape>
+    <Shape id="640110"
+           animSet="FV_SUM_IceMachine_ANI.Anim.FV_SUM_IceMachine_Anim"
+           mesh="FV_SUM_IceMachine.Skel.FV_SUM_IceMachine_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="640170"
+           animSet="FV_SUM_Ice_ANI.Anim.FV_SUM_Ice_Anim"
+           mesh="FV_SUM_Ice.Skel.FV_SUM_Ice_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="640171"
+           animSet="NPC_UserSign_C_ANI.Anim.NPC_UserSign_C_Anim"
+           mesh="NPC_UserSign_C.Skel.NPC_UserSign_C_SkeL"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="640172"
+           animSet="MoneyTree_ANI.Anim.MoneyTree_Anim"
+           mesh="MoneyTree.Skel.MoneyTree_Skel"
+           resourceSize="75"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="640173"
+           animSet="NPC_Cultist_ANI.Anim.NPC_CultistMachine_02_Anim"
+           mesh="NPC_Cultist.Skel.NPC_CultistMachine_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="640174"
+           animSet="LaboratoryDoor_ANI.Anim.LaboratoryDoor_Anim"
+           mesh="LaboratoryDoor.Skel.LaboratoryDoor_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="640175"
+           animSet="NPC_SpatotemporalGenerator_ANI.Anim.NPC_SpatotemporalGenerator_Anim"
+           mesh="NPC_SpatotemporalGenerator.Skel.NPC_SpatotemporalGenerator_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="On"
+               effect="514062402"
+               transitionAnim="OnStart" />
+        <State id="1"
+               waitAnim="Off"
+               effect="0"
+               transitionAnim="OffStart" />
+    </Shape>
+    <Shape id="640176"
+           animSet="A_Island_Root_ANI.Anim.A_Island_Root_Anim"
+           mesh="A_Island_Root.Skel.A_Island_Root_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="200"
+                  height="200" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="640177"
+           animSet="A_Island_SapJar_ANI.Anim.A_Island_SapJar_Anim"
+           mesh="A_Island_SapJar.Skel.A_Island_SapJar_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="640178"
+           animSet="NPC_T4_ArgonFieldInhaler_ANI.Anim.NPC_ArgonFieldInhaler_Anim_Death"
+           mesh="NPC_T4_ArgonFieldInhaler.Skel.NPC_ArgonFieldInhaler_Skel_Death"
+           resourceSize="60"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="deathwait" />
+        <State id="1"
+               waitAnim="deathwait"
+               effect="0"
+               transitionAnim="Death" />
+    </Shape>
+    <Shape id="640179"
+           animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim"
+           mesh="NPC_Trans.Skel.NPC_Trans_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="200"
+                  height="200" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="640180"
+           animSet="A_Island_Bush_ANI.Anim.A_Island_Bush_Anim"
+           mesh="A_Island_Bush.Skel.A_Island_Bush_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="400"
+                  height="400" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="640181"
+           animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim"
+           mesh="NPC_Trans.Skel.NPC_Trans_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="500"
+                  height="200" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="640182"
+           animSet="NPC_SWC_Quest_ANI.Anim.NPC_Switch_Anim"
+           mesh="NPC_SWC_Quest.Skel.NPC_Switch_Green_Skel"
+           resourceSize="60"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="640183"
+           animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim"
+           mesh="NPC_Trans.Skel.NPC_Trans_Skel"
+           resourceSize="60"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="640184"
+           animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim"
+           mesh="NPC_Trans.Skel.NPC_Trans_Skel"
+           resourceSize="60"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="640185"
+           animSet="NPC_A_Island_Girl_ANI.Anim.NPC_A_Island_Girl_Anim"
+           mesh="NPC_A_Island_Girl.Skel.NPC_A_Island_Girl_Skel"
+           resourceSize="60"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="640186"
+           animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim"
+           mesh="NPC_Trans.Skel.NPC_Trans_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="500"
+                  height="200" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="640187"
+           animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim"
+           mesh="NPC_Trans.Skel.NPC_Trans_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="500"
+                  height="200" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="730260"
+           animSet="HollyPlace_ANI.Anim.HollyPlace_Anim"
+           mesh="HollyPlace.Skel.HollyPlace_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="5140609"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="run"
+               effect="0"
+               transitionAnim="run" />
+    </Shape>
+    <Shape id="630100"
+           animSet="MovingTank_ANI.Anim.MovingTank_Anim"
+           mesh="MovingTank.Skel.MovingTank_Skel"
+           resourceSize="250"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="change_unarmedwait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="change_wait" />
+    </Shape>
+    <Shape id="302422"
+           animSet="AnonSoldier_ANI.Anim.AnonSoldier_Anim"
+           mesh="ProArcdeva_Guard.Skel.ProArcdeva_Guard_Skel"
+           resourceSize="100"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="deathwait"
+               effect="0"
+               transitionAnim="deathwait" />
+        <State id="1"
+               waitAnim="deathwait"
+               effect="0"
+               transitionAnim="deathwait" />
+    </Shape>
+    <Shape id="302582"
+           animSet="Anon_warrior_ANI.Anim.Anon_warrior_Anim"
+           mesh="ProArcdeva_Warrior.Skel.ProArcdeva_Warrior_Skel"
+           resourceSize="100"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="deathwait"
+               effect="0"
+               transitionAnim="deathwait" />
+        <State id="1"
+               waitAnim="deathwait"
+               effect="0"
+               transitionAnim="deathwait" />
+    </Shape>
+    <Shape id="302591"
+           animSet="Anon_Sorcerer_ANI.Anim.Anon_Sorcerer_Anim"
+           mesh="ProArcdeva_Sorcerer.Skel.ProArcdeva_Sorcerer_Skel"
+           resourceSize="100"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="deathwait"
+               effect="0"
+               transitionAnim="deathwait" />
+        <State id="1"
+               waitAnim="deathwait"
+               effect="0"
+               transitionAnim="deathwait" />
+    </Shape>
+    <Shape id="642010"
+           animSet="AirshipCore_ANI.Anim.AirshipCore_Anim"
+           mesh="AirshipCore.Skel.AirshipCore_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Off"
+               effect="0"
+               transitionAnim="OffStart" />
+        <State id="1"
+               waitAnim="On"
+               effect="0"
+               transitionAnim="OnStart" />
+    </Shape>
+    <Shape id="641090"
+           animSet="ArcDeva_UpstairDoor_ANI.Anim.ArcDeva_UpstairDoor_Anim"
+           mesh="ArcDeva_UpstairDoor.Skel.ArcDeva_UpstairDoor_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="10"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="641095"
+           animSet="ArcDeva_DownstairDoor_ANI.Anim.ArcDeva_DownstairDoor_Anim"
+           mesh="ArcDeva_DownstairDoor.Skel.ArcDeva_DownstairDoor_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="10"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="720511"
+           animSet="NPC_Tuto_CrashStone_ANI.Anim.NPC_Tuto_CrashStone_anim_death"
+           mesh="NPC_Tuto_CrashStone.Skel.NPC_Tuto_CrashStone_02_skel"
+           resourceSize="100"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="300"
+                  height="300" />
+        <State id="0"
+               waitAnim="deathwait"
+               effect="0"
+               transitionAnim="Death" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="302430"
+           animSet="ElementalSpiritWater_ANI.Anim.ElementalSpiritWater_Anim"
+           mesh="ElementalSpiritWater.Skel.ElementalSpiritWater_Skel"
+           resourceSize="100"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="652010"
+           animSet="Boss_Obj_ANI.Anim.Boss_Obj_Anim"
+           mesh="Boss_Obj.Skel.Boss_Obj_Skel"
+           resourceSize="100"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="200"
+                  height="200" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="611550"
+           animSet="DefenceTower_ANI.Anim.DefenceTower_Anim"
+           mesh="DefenceTower.Skel.DefenceTower_Skel"
+           resourceSize="100"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="200"
+                  height="200" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="611590"
+           animSet="Pile_of_books_ANI.Anim.Pile_of_books_Anim"
+           mesh="Pile_of_books.Skel.Pile_of_books_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="200"
+                  height="200" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="600299"
+           animSet="NPC_Relic_ANI.Anim.NPC_Magic_equipment_A_Anim"
+           mesh="NPC_Relic.Skel.NPC_Magic_equipment_A_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="200"
+                  height="200" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="531034"
+           animSet="A_Island_Bush_ANI.Anim.A_Island_Bush_Anim"
+           mesh="A_Island_Bush.Skel.A_Island_Bush_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="200"
+                  height="200" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="531035"
+           animSet="ArcDeva_Lab_Crystal_ANI.Anim.ArcDeva_Lab_Crystal_Green_Anim"
+           mesh="ArcDeva_Lab_Crystal.Skel.ArcDeva_Lab_Crystal_Green_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="200"
+                  height="200" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="950501"
+           animSet="General_M_Belica_ANI.Anim.General_M_Belica_Anim"
+           mesh="General_M_Belica.Skel.General_M_Belica_Skel"
+           resourceSize="100"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="950502"
+           animSet="AWAKEN_DragonPortal_Ani.Anim.AWAKEN_DragonPortal_Anim"
+           mesh="AWAKEN_DragonPortal.Skel.Awaken_DragonPortal_Skel"
+           resourceSize="150"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="OpenWait"
+               effect="0"
+               transitionAnim="OpenWait" />
+        <State id="1"
+               waitAnim="OpenWait"
+               effect="0"
+               transitionAnim="OpenWait" />
+    </Shape>
+    <Shape id="950503"
+           animSet="NPC_TreasureBox01_ANI.Anim.NPC_TreasureBox01_Anim"
+           mesh="NPC_TreasureBox01.Skel.NPC_TreasureBox01_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Death" />
+    </Shape>
+    <Shape id="950504"
+           animSet="AWAKEN_Brainwash_Ani.Anim.Awaken_Brainwash_Anim"
+           mesh="AWAKEN_Brainwash.Skel.Awaken_Brainwash_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="950505"
+           animSet="NPC_Tuto_CrashStone_ANI.Anim.NPC_Tuto_CrashStone_anim_death"
+           mesh="NPC_Tuto_CrashStone.Skel.NPC_Tuto_CrashStone_skel"
+           resourceSize="100"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="210"
+                  height="200" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Death" />
+        <State id="1"
+               waitAnim="deathWait"
+               effect="0"
+               transitionAnim="Death" />
+    </Shape>
+    <Shape id="652230"
+           animSet="LaKan_Stone_ANI.Anim.LaKan_Stone_01_Anim"
+           mesh="LaKan_Stone.Skel.LaKan_Stone_01_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="983301"
+           animSet="AWAKEN_DragonPortal_Ani.Anim.AWAKEN_DragonPortal_Anim"
+           mesh="AWAKEN_DragonPortal.Skel.Awaken_DragonPortal_Skel"
+           resourceSize="150"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Open" />
+        <State id="1"
+               waitAnim="Open"
+               effect="0"
+               transitionAnim="OpenWait" />
+    </Shape>
+    <Shape id="983302"
+           animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim"
+           mesh="NPC_Trans.Skel.NPC_Trans_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="500"
+                  height="200" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="7101018"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="7101018"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="973901"
+           animSet="TreasureBox_ANI.Anim.TreasureBox_Anim"
+           mesh="TreasureBox.Skel.TreasureBox_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="973902"
+           animSet="NPC_Monster_ANI.Anim.NPC_Malygos_Totem_Anim"
+           mesh="NPC_Monster.Skel.NPC_Malygos_Totem_Skel"
+           resourceSize="30"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="3"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="978301"
+           animSet="LieDown_Body_ANI.Anim.LieDown_Body_Anim"
+           mesh="LieDown_Body.Skel.LieDown_Body_Skel"
+           resourceSize="30"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="3"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Death" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Death" />
+    </Shape>
+    <Shape id="978302"
+           animSet="Kubel_Fortress_2N_tBook_ANI.Anim.Kubel_Fortress_2N_tBook_Anim"
+           mesh="Kubel_Fortress_2N_tBook.Skel.Kubel_Fortress_2N_tBook_Skel"
+           resourceSize="30"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="3"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Move" />
+    </Shape>
+    <Shape id="998301"
+           animSet="LieDown_Body_ANI.Anim.LieDown_Body_Anim"
+           mesh="LieDown_Body.Skel.LieDown_Body_Skel"
+           resourceSize="30"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="3"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Death" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Death" />
+    </Shape>
+    <Shape id="998302"
+           animSet="Kubel_Fortress_2N_tBook_ANI.Anim.Kubel_Fortress_2N_tBook_Anim"
+           mesh="Kubel_Fortress_2N_tBook.Skel.Kubel_Fortress_2N_tBook_Skel"
+           resourceSize="30"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="3"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Move" />
+    </Shape>
+    <Shape id="600220"
+           animSet="Bones_Heap02_ANI.Anim.Bones_Heap02_Anim"
+           mesh="Bones_Heap02.Skel.Bones_Heap02_Skel"
+           resourceSize="100"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="3"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="600282"
+           animSet="NPC_Plant_ANI.Anim.NPC_Flower_Npcobj_03_Anim"
+           mesh="NPC_Plant.Skel.NPC_Flower_Npcobj_03_Skel"
+           resourceSize="100"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="3"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="600283"
+           animSet="NPC_Plant_ANI.Anim.NPC_Flower_Npcobj_04_Anim"
+           mesh="NPC_Plant.Skel.NPC_Flower_Npcobj_04_Skel"
+           resourceSize="100"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="3"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="600286"
+           animSet="NPC_Plant_ANI.Anim.NPC_Medicinalherb_03_Anim"
+           mesh="NPC_Plant.Skel.NPC_Medicinalherb_03_Skel"
+           resourceSize="100"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="3"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="600295"
+           animSet="NPC_Relic_ANI.Anim.NPC_Altar_A_03_Anim"
+           mesh="NPC_Relic.Skel.NPC_Altar_A_03_Skel"
+           resourceSize="100"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="3"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="400001"
+           animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim"
+           mesh="NPC_Trans.Skel.NPC_Trans_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="200"
+                  height="200" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="400002"
+           animSet="A_Island_SapJar_ANI.Anim.A_Island_SapJar_Anim"
+           mesh="A_Island_SapJar.Skel.A_Island_SapJar_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="400003"
+           animSet="LaKan_Stone_ANI.Anim.LaKan_Stone_01_Anim"
+           mesh="LaKan_Stone.Skel.LaKan_Stone_01_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="400005"
+           animSet="NPC_Tuto_CrashStone_ANI.Anim.NPC_Tuto_CrashStone_anim_death"
+           mesh="NPC_Tuto_CrashStone.Skel.NPC_Tuto_CrashStone_02_skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="500"
+                  height="200" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="400006"
+           animSet="NPC_Objects_ANI.Anim.Supplychest_Destroyed_anim"
+           mesh="NPC_Objects.Skel.Supplychest_Destroyed_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="400008"
+           animSet="NPC_T4_Mion_Kanovia_ANI.Anim.NPC_T4_Mion_Kanovia_anim"
+           mesh="FDI_autumn_tank.Skel.FDI_autumn_tank_Alpha_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="500"
+                  height="200" />
+        <State id="0"
+               waitAnim="deathwait"
+               effect="0"
+               transitionAnim="deathwait" />
+        <State id="1"
+               waitAnim="deathwait"
+               effect="0"
+               transitionAnim="deathwait" />
+    </Shape>
+    <Shape id="400009"
+           animSet="WoodBox_ANI.Anim.WoodBox_Anim"
+           mesh="WoodBox.Skel.WoodBox_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="400010"
+           animSet="TreasureBox_ANI.Anim.TreasureBox_Anim"
+           mesh="TreasureBox.Skel.TreasureBox_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="400013"
+           animSet="NPC_WoodDoor_ANI.Anim.NPC_WoodDoor_Anim"
+           mesh="NPC_WoodDoor.Skel.NPC_WoodDoor_Skel"
+           resourceSize="35"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="400014"
+           animSet="NPC_Article_ANI.Anim.NPC_Book_Anim"
+           mesh="NPC_Article.Skel.NPC_Book_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="400015"
+           animSet="NPC_HeavyWagon_ANI.Anim.NPC_HeavyWagon_04_anim"
+           mesh="NPC_HeavyWagon.Skel.NPC_Heavywagon_04_skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="200"
+                  height="200" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="400016"
+           animSet="NPC_T4_Battle_Pot_ANI.Anim.NPC_T4_Battle_Pot_Anim"
+           mesh="NPC_T4_Battle_Pot.Skel.NPC_T4_Battle_Pot_Skel"
+           resourceSize="100"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="300"
+                  height="300" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="400017"
+           animSet="Human_M_Corpse_ANI.Anim.Human_M_Corpse_Anim"
+           mesh="Human_M_Corpse.Skel.Human_M_Corpse_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+    </Shape>
+    <Shape id="60016"
+           animSet="DooBean_ANI.Anim.DooBean_Anim"
+           mesh="DooBean.Skel.DooBean_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="400018"
+           animSet="NPC_Article_ANI.Anim.NPC_Shank_02_Anim"
+           mesh="NPC_Article.Skel.NPC_Shank_02_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="400019"
+           animSet="NPC_T4_Mission_Illu_ANI.Anim.NPC_T4_Mission_Illu_anim_death"
+           mesh="NPC_T4_Mission_Illu.skel.NPC_T4_Mission_Illu_skel_death"
+           resourceSize="250"
+           resourceType="large"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="deathwait"
+               effect="0"
+               transitionAnim="deathwait" />
+        <State id="1"
+               waitAnim="deathwait"
+               effect="0"
+               transitionAnim="deathwait" />
+    </Shape>
+    <Shape id="200201"
+           animSet="NPC_Trans_ANI.Anim.NPC_Trans_Anim"
+           mesh="NPC_Trans.Skel.NPC_Trans_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="200"
+                  height="200" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="200202"
+           animSet="FDI_GemStone_ANI.ANI.FDI_GemStone01_Anim"
+           mesh="FDI_GemStone.Skel.FDI_GemStone01_Skel"
+           resourceSize="150"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="200"
+                  height="200" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="200203"
+           animSet="FDI_GemStone_ANI.ANI.FDI_GemStone01_Anim"
+           mesh="FDI_GemStone.Skel.FDI_GemStone02_Skel"
+           resourceSize="150"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="200"
+                  height="200" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="210201"
+           animSet="NPC_HugeDragon_Rock_Ani.Anim.HD_Rock_01_Anim"
+           mesh="NPC_HugeDragon_Rock.Skel.HD_Rock_01_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="200"
+                  height="200" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="Death"
+               effect="0"
+               transitionAnim="deathWait" />
+    </Shape>
+    <Shape id="200301"
+           animSet="NPC_Cultist_ANI.Anim.NPC_CultistMachine_02_Anim"
+           mesh="NPC_Cultist.Skel.NPC_CultistMachine_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="200"
+                  height="200" />
+        <State id="0"
+               waitAnim="Closed"
+               effect="0"
+               transitionAnim="Closing" />
+        <State id="1"
+               waitAnim="Open"
+               effect="0"
+               transitionAnim="Opening" />
+    </Shape>
+    <Shape id="200302"
+           animSet="NPC_Cube_ANI.Anim.NPC_Cube_Anim"
+           mesh="NPC_Cube.Skel.NPC_Cube_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="200"
+                  height="200" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="200303"
+           animSet="Laknan_Cage_ANI.Anim.Laknan_Cage_Anim"
+           mesh="Laknan_Cage.Skel.Laknan_Cage_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="200"
+                  height="200" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="200304"
+           animSet="ElionKubel_Memorial_stone_ANI.Anim.ElionKubel_Memorial_stone_Anim"
+           mesh="ElionKubel_Memorial_stone.Skel.ElionKubel_Memorial_stone_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="200"
+                  height="200" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="200305"
+           animSet="FDI_DragonOBJ_NPC_ANI.Anim.FDI_Sculpture_Anim"
+           mesh="FDI_DragonOBJ_NPC.Skel.FDI_Sculpture_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="200"
+                  height="200" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="200306"
+           animSet="FDI_DragonOBJ_NPC_ANI.Anim.FDI_Flag_Anim"
+           mesh="FDI_DragonOBJ_NPC.Skel.FDI_Flag_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="200"
+                  height="200" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="600241"
+           animSet="NPC_Article_ANI.Anim.NPC_Desk_Anim"
+           mesh="NPC_Article.Skel.NPC_Desk_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="202001"
+           animSet="ArcDeva_Lab_Crystal_ANI.Anim.ArcDeva_Lab_Crystal_Green_Anim"
+           mesh="Queen_Nest_Crystal.Skel.Queen_Nest_Crystal_03_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="Wait"
+               effect="0"
+               transitionAnim="Wait" />
+        <State id="1"
+               waitAnim="Explodewait"
+               effect="0"
+               transitionAnim="Explode" />
+    </Shape>
+    <Shape id="320501"
+           animSet="FDI_Dragonian_Captain_ANI.Anim.FDI_Dragonian_Captain_Anim"
+           mesh="FDI_Dragonian_Overseer.Skel.FDI_Dragonian_Overseer_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="deathWait"
+               effect="0"
+               transitionAnim="deathWait" />
+        <State id="1"
+               waitAnim="deathWait"
+               effect="0"
+               transitionAnim="deathWait" />
+    </Shape>
+    <Shape id="10201"
+           animSet="NPC_Mana_Contrivance_ANI.Anim.NPC_Mana_Contrivance_Anim"
+           mesh="NPC_Mana_Contrivance.Skel.NPC_Mana_Contrivance_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="200"
+                  height="200" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="121062501"
+               transitionAnim="wait" />
+        <State id="1"
+               waitAnim="deathwait"
+               effect="0"
+               transitionAnim="death" />
+    </Shape>
+    <Shape id="600061"
+           animSet="NPC_Objects_ANI.Anim.demonstone_anim"
+           mesh="NPC_Demonstone02.Skel.NPC_Demonstone02_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="720550"
+           animSet="NPC_MagicStone02_ANI.Anim.NPC_MagicStone02_S_Anim"
+           mesh="NPC_MagicStone02.Skel.NPC_MagicStone02_S_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="100"
+                  height="100" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+    </Shape>
+    <Shape id="12001"
+           animSet="NPC_Article_ANI.Anim.NPC_Cooker_Anim"
+           mesh="NPC_Article.Skel.NPC_Cooker_Skel"
+           resourceSize="100"
+           resourceType="medium"
+           animTree="S1Prototype.SimpleAnimTree">
+        <Cylinder radius="200"
+                  height="200" />
+        <State id="0"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
+        <State id="1"
+               waitAnim="unarmedwait"
+               effect="0"
+               transitionAnim="unarmedwait" />
     </Shape>
 </WorkObjectShape>

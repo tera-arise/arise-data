@@ -1,16 +1,26 @@
-<LobbyData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/LobbyData LobbyData.xsd" xmlns="https://vezel.dev/novadrop/dc/LobbyData">
-    <ClassScene inWeaponStart="0" outWeaponStart="45">
-        <ChangeClass fadeIn="0.6" fadeOut="0.6" weaponStart="0.1" />
-        <FadeIn fadeIn="0.7" weaponStart="0.1" />
-        <FadeOutToCustomize fadeOut="0.7" fadeOutStart="0.1" />
+<LobbyData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://vezel.dev/novadrop/dc/LobbyData LobbyData.xsd"
+           xmlns="https://vezel.dev/novadrop/dc/LobbyData">
+    <ClassScene inWeaponStart="0"
+                outWeaponStart="45">
+        <ChangeClass fadeIn="0.6"
+                     fadeOut="0.6"
+                     weaponStart="0.1" />
+        <FadeIn fadeIn="0.7"
+                weaponStart="0.1" />
+        <FadeOutToCustomize fadeOut="0.7"
+                            fadeOutStart="0.1" />
     </ClassScene>
     <CustomizeScene>
-        <CustomizeGalleryWebSize height="680" width="1116" />
+        <CustomizeGalleryWebSize height="680"
+                                 width="1116" />
         <FadeIn fadeIn="0.7" />
-        <FadeOut fadeOut="1" fadeOutStart="0.2" />
+        <FadeOut fadeOut="1"
+                 fadeOutStart="0.2" />
     </CustomizeScene>
     <GameModeSelectScene>
-        <Camera pos="-22660, -139750, 67140" fov="60" />
+        <Camera pos="-22660, -139750, 67140"
+                fov="60" />
         <Continent id="10005" />
         <FadeIn fadeIn="0.7" />
     </GameModeSelectScene>
@@ -20,62 +30,198 @@
     <RaceScene>
         <Background image="LoadingImages.Loading.LoadingImage31_Tex" />
         <Continent id="10001" />
-        <FadeIn fadeIn="0.7" matineeStart="0" uiStart="1.3" />
+        <FadeIn fadeIn="0.7"
+                matineeStart="0"
+                uiStart="1.3" />
         <FadeOut fadeOut="0.7" />
-        <FadeOutToSelect fadeOut="0.7" fadeOutStart="0.1" />
+        <FadeOutToSelect fadeOut="0.7"
+                         fadeOutStart="0.1" />
     </RaceScene>
     <SceneOccluder>
-        <DefaultOccluder flowRate="1.5" minimumShow="0.2" occludeFadeIn="0.7" occludeFadeOut="0.4" occluderMesh="FX_0.Transport.Transport00_lobby_SM" occludeStart="0.6" whiteColor="0,0,0" whiteFadeIn="0.2" whiteFadeOut="2" />
+        <DefaultOccluder flowRate="1.5"
+                         minimumShow="0.2"
+                         occludeFadeIn="0.7"
+                         occludeFadeOut="0.4"
+                         occluderMesh="FX_0.Transport.Transport00_lobby_SM"
+                         occludeStart="0.6"
+                         whiteColor="0,0,0"
+                         whiteFadeIn="0.2"
+                         whiteFadeOut="2" />
     </SceneOccluder>
     <SelectScene>
         <Background image="LoadingImages.Loading.LoadingImage31_Tex" />
-        <Camera pos="1422, 5944, 1252" fov="60">
+        <Camera pos="1422, 5944, 1252"
+                fov="60">
             <AttachDofMesh resourcePath="S1_Technique_J.Lobby.sm.DOF_wnt_Sheet" />
             <AttachFogMesh resourcePath="S1_Technique_J.Lobby.sm.FOG_wnt_Sheet" />
         </Camera>
-        <FadeIn fadeIn="0.7" uiStart="1.3" />
-        <FadeOutToRace fadeOut="0.7" fadeOutStart="0.1" />
-        <FadeOutToWorld fadeOut="0.7" fadeOutStart="0.5" />
+        <FadeIn fadeIn="0.7"
+                uiStart="1.3" />
+        <FadeOutToRace fadeOut="0.7"
+                       fadeOutStart="0.1" />
+        <FadeOutToWorld fadeOut="0.7"
+                        fadeOutStart="0.5" />
         <MapChange continentId="10004" />
-        <Matinee from="16" to="18" firstFrom="0" firstTo="0.2" />
-        <PageChange image="LoadingImages.Loading.LoadingImage11_Tex" fadeIn="0.5" fadeOut="0.5" />
+        <Matinee from="16"
+                 to="18"
+                 firstFrom="0"
+                 firstTo="0.2" />
+        <PageChange image="LoadingImages.Loading.LoadingImage11_Tex"
+                    fadeIn="0.5"
+                    fadeOut="0.5" />
     </SelectScene>
     <ServerScene>
-        <Camera pos="-22660, -139750, 67140" fov="60" />
+        <Camera pos="-22660, -139750, 67140"
+                fov="60" />
         <Continent id="10000" />
         <FadeIn fadeIn="0.7" />
     </ServerScene>
     <TBALobbyScene>
-        <BackGroundSetting scale="4" location="-100.0, 0.0, 00.0" dir="-16384" packageName="BF_NewBattle_AERO.sm.BF_BackGround" aeroSetPackageName="SkySystem30.AERO.AEN_DefaultSky_AERO" />
-        <CameraSetting location="200.0, -40.0, 30.0" fov="85" lookAtLocation="0.0, -35.0, 60.0" />
-        <FloorSetting location="0.0, 0.0, -19.0" packageName="BF_NewBattle_AERO.sm.CH_Select_Floor_Sm" />
+        <BackGroundSetting scale="4"
+                           location="-100.0, 0.0, 00.0"
+                           dir="-16384"
+                           packageName="BF_NewBattle_AERO.sm.BF_BackGround"
+                           aeroSetPackageName="SkySystem30.AERO.AEN_DefaultSky_AERO" />
+        <CameraSetting location="200.0, -40.0, 30.0"
+                       fov="85"
+                       lookAtLocation="0.0, -35.0, 60.0" />
+        <FloorSetting location="0.0, 0.0, -19.0"
+                      packageName="BF_NewBattle_AERO.sm.CH_Select_Floor_Sm" />
         <HeroSettingList>
-            <HeroSetting scale="1.9" location="0.0, 0.0, 0.0" spawnEffectId="6251" dir="0" heroTemplateId="20100" />
-            <HeroSetting scale="2.5" location="0.0, 0.0, 0.0" spawnEffectId="6251" dir="-4000" heroTemplateId="20200" />
-            <HeroSetting scale="2.5" location="0.0, 0.0, 0.0" spawnEffectId="6251" dir="-4000" heroTemplateId="20300" />
-            <HeroSetting scale="2.6" location="0.0, 5.0, 0.0" spawnEffectId="6251" dir="0" heroTemplateId="20400" />
-            <HeroSetting scale="2.5" location="0.0, 0.0, 0.0" spawnEffectId="6251" dir="-5000" heroTemplateId="20500" />
-            <HeroSetting scale="3" location="0.0, 0.0, 0.0" spawnEffectId="6251" dir="-3000" heroTemplateId="20600" />
-            <HeroSetting scale="3" location="0.0, 0.0, 0.0" spawnEffectId="6251" dir="-3000" heroTemplateId="20700" />
-            <HeroSetting scale="2.6" location="0.0, 5.0, 0.0" spawnEffectId="6251" dir="0" heroTemplateId="20800" />
-            <HeroSetting scale="2.5" location="0.0, 0.0, 0.0" spawnEffectId="6251" dir="-5000" heroTemplateId="20900" />
-            <HeroSetting scale="3" location="0.0, -5.0, 0.0" spawnEffectId="6251" dir="-3000" heroTemplateId="21000" />
-            <HeroSetting scale="3" location="0.0, 0.0, 0.0" spawnEffectId="6251" dir="-3000" heroTemplateId="21100" />
-            <HeroSetting scale="2.8" location="0.0, 0.0, 0.0" spawnEffectId="6251" dir="-3000" heroTemplateId="21200" />
-            <HeroSetting scale="2.3" location="0.0, 0.0, 0.0" spawnEffectId="6251" dir="0" heroTemplateId="21400" />
-            <HeroSetting scale="2.3" location="0.0, 0.0, 0.0" spawnEffectId="6251" dir="0" heroTemplateId="21500" />
-            <HeroSetting scale="2.2" location="0.0, 0.0, 0.0" spawnEffectId="6251" dir="-1000" heroTemplateId="21600" />
-            <HeroSetting scale="3" location="0.0, 0.0, 0.0" spawnEffectId="6251" dir="-3000" heroTemplateId="21900" />
-            <HeroSetting scale="2.5" location="0.0, 0.0, 0.0" spawnEffectId="6251" dir="-2000" heroTemplateId="22000" />
-            <HeroSetting scale="2.5" location="0.0, 0.0, 0.0" spawnEffectId="6251" dir="0" heroTemplateId="22100" />
-            <HeroSetting scale="3" location="0.0, 0.0, 0.0" spawnEffectId="6251" dir="-3000" heroTemplateId="22300" />
-            <HeroSetting scale="1.9" location="0.0, 0.0, 0.0" spawnEffectId="6251" dir="0" heroTemplateId="22400" />
-            <HeroSetting scale="3" location="0.0, -5.0, 0.0" spawnEffectId="6251" dir="-3000" heroTemplateId="22500" />
+            <HeroSetting scale="1.9"
+                         location="0.0, 0.0, 0.0"
+                         spawnEffectId="6251"
+                         dir="0"
+                         heroTemplateId="20100" />
+            <HeroSetting scale="2.5"
+                         location="0.0, 0.0, 0.0"
+                         spawnEffectId="6251"
+                         dir="-4000"
+                         heroTemplateId="20200" />
+            <HeroSetting scale="2.5"
+                         location="0.0, 0.0, 0.0"
+                         spawnEffectId="6251"
+                         dir="-4000"
+                         heroTemplateId="20300" />
+            <HeroSetting scale="2.6"
+                         location="0.0, 5.0, 0.0"
+                         spawnEffectId="6251"
+                         dir="0"
+                         heroTemplateId="20400" />
+            <HeroSetting scale="2.5"
+                         location="0.0, 0.0, 0.0"
+                         spawnEffectId="6251"
+                         dir="-5000"
+                         heroTemplateId="20500" />
+            <HeroSetting scale="3"
+                         location="0.0, 0.0, 0.0"
+                         spawnEffectId="6251"
+                         dir="-3000"
+                         heroTemplateId="20600" />
+            <HeroSetting scale="3"
+                         location="0.0, 0.0, 0.0"
+                         spawnEffectId="6251"
+                         dir="-3000"
+                         heroTemplateId="20700" />
+            <HeroSetting scale="2.6"
+                         location="0.0, 5.0, 0.0"
+                         spawnEffectId="6251"
+                         dir="0"
+                         heroTemplateId="20800" />
+            <HeroSetting scale="2.5"
+                         location="0.0, 0.0, 0.0"
+                         spawnEffectId="6251"
+                         dir="-5000"
+                         heroTemplateId="20900" />
+            <HeroSetting scale="3"
+                         location="0.0, -5.0, 0.0"
+                         spawnEffectId="6251"
+                         dir="-3000"
+                         heroTemplateId="21000" />
+            <HeroSetting scale="3"
+                         location="0.0, 0.0, 0.0"
+                         spawnEffectId="6251"
+                         dir="-3000"
+                         heroTemplateId="21100" />
+            <HeroSetting scale="2.8"
+                         location="0.0, 0.0, 0.0"
+                         spawnEffectId="6251"
+                         dir="-3000"
+                         heroTemplateId="21200" />
+            <HeroSetting scale="2.3"
+                         location="0.0, 0.0, 0.0"
+                         spawnEffectId="6251"
+                         dir="0"
+                         heroTemplateId="21400" />
+            <HeroSetting scale="2.3"
+                         location="0.0, 0.0, 0.0"
+                         spawnEffectId="6251"
+                         dir="0"
+                         heroTemplateId="21500" />
+            <HeroSetting scale="2.2"
+                         location="0.0, 0.0, 0.0"
+                         spawnEffectId="6251"
+                         dir="-1000"
+                         heroTemplateId="21600" />
+            <HeroSetting scale="3"
+                         location="0.0, 0.0, 0.0"
+                         spawnEffectId="6251"
+                         dir="-3000"
+                         heroTemplateId="21900" />
+            <HeroSetting scale="2.5"
+                         location="0.0, 0.0, 0.0"
+                         spawnEffectId="6251"
+                         dir="-2000"
+                         heroTemplateId="22000" />
+            <HeroSetting scale="2.5"
+                         location="0.0, 0.0, 0.0"
+                         spawnEffectId="6251"
+                         dir="0"
+                         heroTemplateId="22100" />
+            <HeroSetting scale="3"
+                         location="0.0, 0.0, 0.0"
+                         spawnEffectId="6251"
+                         dir="-3000"
+                         heroTemplateId="22300" />
+            <HeroSetting scale="1.9"
+                         location="0.0, 0.0, 0.0"
+                         spawnEffectId="6251"
+                         dir="0"
+                         heroTemplateId="22400" />
+            <HeroSetting scale="3"
+                         location="0.0, -5.0, 0.0"
+                         spawnEffectId="6251"
+                         dir="-3000"
+                         heroTemplateId="22500" />
         </HeroSettingList>
         <LobbySpotLightList>
-            <LobbySpotLight radius="1000" location="80.0,-150.0,220.0" color="255,255,255" brightness="2.5" castShadow="true" fallOffExponent="1" innerConeAngle="45" lookAtPosition="0.0, 0.0, 100.0" outerConeAngle="60" />
-            <LobbySpotLight radius="1000" location="0.0,-45.0,0.0" color="204,0,255" brightness="0.3" castShadow="false" fallOffExponent="1" innerConeAngle="45" lookAtPosition="0.0, 0.0, 100.0" outerConeAngle="60" />
-            <LobbySpotLight radius="100" location="0.0,90.0,45.0" color="255,108,0" brightness="5" castShadow="false" fallOffExponent="1" innerConeAngle="100" lookAtPosition="0.0, 0.0, 100.0" outerConeAngle="200" />
+            <LobbySpotLight radius="1000"
+                            location="80.0,-150.0,220.0"
+                            color="255,255,255"
+                            brightness="2.5"
+                            castShadow="true"
+                            fallOffExponent="1"
+                            innerConeAngle="45"
+                            lookAtPosition="0.0, 0.0, 100.0"
+                            outerConeAngle="60" />
+            <LobbySpotLight radius="1000"
+                            location="0.0,-45.0,0.0"
+                            color="204,0,255"
+                            brightness="0.3"
+                            castShadow="false"
+                            fallOffExponent="1"
+                            innerConeAngle="45"
+                            lookAtPosition="0.0, 0.0, 100.0"
+                            outerConeAngle="60" />
+            <LobbySpotLight radius="100"
+                            location="0.0,90.0,45.0"
+                            color="255,108,0"
+                            brightness="5"
+                            castShadow="false"
+                            fallOffExponent="1"
+                            innerConeAngle="100"
+                            lookAtPosition="0.0, 0.0, 100.0"
+                            outerConeAngle="200" />
         </LobbySpotLightList>
     </TBALobbyScene>
     <TeleportScene>
@@ -141,6 +287,7 @@
         <Background image="LoadingImages.Loading.LoadingImage77_Tex" />
         <Background image="LoadingImages.Loading.LoadingImage78_Tex" />
         <Background image="LoadingImages.Loading.LoadingImage79_Tex" />
-        <Fade fadeIn="1" fadeOut="1" />
+        <Fade fadeIn="1"
+              fadeOut="1" />
     </TeleportScene>
 </LobbyData>

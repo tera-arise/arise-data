@@ -1,534 +1,1625 @@
-<BossGage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/BossGage BossGage.xsd" active="true" xmlns="https://vezel.dev/novadrop/dc/BossGage">
+<BossGage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="https://vezel.dev/novadrop/dc/BossGage BossGage.xsd"
+          active="true"
+          xmlns="https://vezel.dev/novadrop/dc/BossGage">
     <BossList>
-        <Boss templateId="3000" huntingZoneId="116" range="750" />
-        <Boss templateId="3001" huntingZoneId="116" range="750" />
-        <Boss templateId="2000" huntingZoneId="116" range="750" />
-        <Boss templateId="5001" huntingZoneId="401" range="1000" />
-        <Boss templateId="2000" huntingZoneId="403" range="2000" />
-        <Boss templateId="3006711" huntingZoneId="419" range="1000" />
-        <Boss templateId="1000" huntingZoneId="825" range="1200" />
-        <Boss templateId="3000" huntingZoneId="825" range="1000" />
-        <Boss templateId="6000" huntingZoneId="825" range="1200" />
-        <Boss templateId="8005" huntingZoneId="825" range="1200" />
-        <Boss templateId="1000" huntingZoneId="425" range="1200" />
-        <Boss templateId="3000" huntingZoneId="425" range="1000" />
-        <Boss templateId="4000" huntingZoneId="425" range="1000" />
-        <Boss templateId="6000" huntingZoneId="425" range="1200" />
-        <Boss templateId="8005" huntingZoneId="425" range="1200" />
-        <Boss templateId="12" huntingZoneId="471" range="1000" />
-        <Boss templateId="13" huntingZoneId="471" range="2000" />
-        <Boss templateId="15" huntingZoneId="471" range="1000" />
-        <Boss templateId="14" huntingZoneId="471" range="1000" />
-        <Boss templateId="12" huntingZoneId="871" range="1000" />
-        <Boss templateId="13" huntingZoneId="871" range="2000" />
-        <Boss templateId="15" huntingZoneId="871" range="1000" />
-        <Boss templateId="14" huntingZoneId="871" range="1000" />
-        <Boss templateId="22" huntingZoneId="472" range="800" />
-        <Boss templateId="23" huntingZoneId="472" range="800" />
-        <Boss templateId="19" huntingZoneId="472" range="700" canDouble="true" />
-        <Boss templateId="5000" huntingZoneId="472" range="700" canDouble="true" />
-        <Boss templateId="100" huntingZoneId="472" range="800" />
-        <Boss templateId="101" huntingZoneId="472" range="800" />
-        <Boss templateId="22" huntingZoneId="872" range="800" />
-        <Boss templateId="23" huntingZoneId="872" range="800" />
-        <Boss templateId="19" huntingZoneId="872" range="700" canDouble="true" />
-        <Boss templateId="5000" huntingZoneId="872" range="700" canDouble="true" />
-        <Boss templateId="100" huntingZoneId="872" range="800" />
-        <Boss templateId="101" huntingZoneId="872" range="800" />
-        <Boss templateId="2101" huntingZoneId="473" range="1000" />
-        <Boss templateId="5102" huntingZoneId="473" range="800" />
-        <Boss templateId="5101" huntingZoneId="473" range="800" />
-        <Boss templateId="5103" huntingZoneId="473" range="1000" />
-        <Boss templateId="2101" huntingZoneId="873" range="1000" />
-        <Boss templateId="5102" huntingZoneId="873" range="800" />
-        <Boss templateId="5101" huntingZoneId="873" range="800" />
-        <Boss templateId="5103" huntingZoneId="873" range="1000" />
-        <Boss templateId="1000" huntingZoneId="475" range="1500" />
-        <Boss templateId="10000" huntingZoneId="426" range="800" />
-        <Boss templateId="200" huntingZoneId="426" range="800" />
-        <Boss templateId="300" huntingZoneId="426" range="600" />
-        <Boss templateId="20000" huntingZoneId="426" range="800" />
-        <Boss templateId="2901" huntingZoneId="476" range="900" />
-        <Boss templateId="2902" huntingZoneId="476" range="900" />
-        <Boss templateId="2903" huntingZoneId="476" range="900" />
-        <Boss templateId="3902" huntingZoneId="476" range="1000" />
-        <Boss templateId="4000" huntingZoneId="476" range="1000" />
-        <Boss templateId="47951" huntingZoneId="979" range="1000" />
-        <Boss templateId="47952" huntingZoneId="979" range="600" />
-        <Boss templateId="47953" huntingZoneId="979" range="900" />
-        <Boss templateId="47955" huntingZoneId="979" range="900" />
-        <Boss templateId="47956" huntingZoneId="979" range="900" />
-        <Boss templateId="47954" huntingZoneId="979" range="1200" />
-        <Boss templateId="5001" huntingZoneId="493" range="1400" />
-        <Boss templateId="5002" huntingZoneId="493" range="1000" />
-        <Boss templateId="5003" huntingZoneId="493" range="900" />
-        <Boss templateId="5004" huntingZoneId="493" range="800" />
-        <Boss templateId="5005" huntingZoneId="493" range="1000" />
-        <Boss templateId="5010" huntingZoneId="494" range="1000" />
-        <Boss templateId="5008" huntingZoneId="494" range="1000" />
-        <Boss templateId="5006" huntingZoneId="494" range="1000" />
-        <Boss templateId="5021" huntingZoneId="494" range="1000" />
-        <Boss templateId="5031" huntingZoneId="494" range="1000" />
-        <Boss templateId="5033" huntingZoneId="494" range="1000" />
-        <Boss templateId="5032" huntingZoneId="494" range="1000" />
-        <Boss templateId="5051" huntingZoneId="494" range="1000" />
-        <Boss templateId="5049" huntingZoneId="494" range="1000" />
-        <Boss templateId="5050" huntingZoneId="494" range="1000" />
-        <Boss templateId="5053" huntingZoneId="494" range="1000" />
-        <Boss templateId="42701" huntingZoneId="727" range="700" />
-        <Boss templateId="42702" huntingZoneId="727" range="700" />
-        <Boss templateId="2001" huntingZoneId="727" range="1000" />
-        <Boss templateId="2007" huntingZoneId="727" range="1000" />
-        <Boss templateId="1001" huntingZoneId="750" range="600" />
-        <Boss templateId="1002" huntingZoneId="750" range="1000" />
-        <Boss templateId="1003" huntingZoneId="750" range="1500" />
-        <Boss templateId="1001" huntingZoneId="450" range="600" />
-        <Boss templateId="1002" huntingZoneId="450" range="1000" />
-        <Boss templateId="1003" huntingZoneId="450" range="1500" />
-        <Boss templateId="999" huntingZoneId="453" range="1500" />
-        <Boss templateId="81101" huntingZoneId="611" range="1000" />
-        <Boss templateId="81102" huntingZoneId="611" range="1000" />
-        <Boss templateId="81101" huntingZoneId="511" range="1000" />
-        <Boss templateId="81102" huntingZoneId="511" range="1000" />
-        <Boss templateId="81101" huntingZoneId="811" range="1000" />
-        <Boss templateId="81102" huntingZoneId="811" range="1000" />
-        <Boss templateId="81118" huntingZoneId="811" range="1000" />
-        <Boss templateId="1005" huntingZoneId="487" range="600" />
-        <Boss templateId="1006" huntingZoneId="487" range="800" />
-        <Boss templateId="3006" huntingZoneId="487" range="1000" />
-        <Boss templateId="101" huntingZoneId="487" range="1000" />
-        <Boss templateId="1005" huntingZoneId="887" range="600" />
-        <Boss templateId="1006" huntingZoneId="887" range="800" />
-        <Boss templateId="3006" huntingZoneId="887" range="1000" />
-        <Boss templateId="101" huntingZoneId="887" range="1000" />
-        <Boss templateId="23" huntingZoneId="488" range="400" />
-        <Boss templateId="10" huntingZoneId="488" range="1000" />
-        <Boss templateId="13" huntingZoneId="488" range="1000" />
-        <Boss templateId="18" huntingZoneId="488" range="1500" />
-        <Boss templateId="23" huntingZoneId="888" range="400" />
-        <Boss templateId="10" huntingZoneId="888" range="1000" />
-        <Boss templateId="13" huntingZoneId="888" range="1000" />
-        <Boss templateId="18" huntingZoneId="888" range="1500" />
-        <Boss templateId="3609" huntingZoneId="489" range="800" />
-        <Boss templateId="3801" huntingZoneId="489" range="800" />
-        <Boss templateId="3707" huntingZoneId="489" range="800" />
-        <Boss templateId="3802" huntingZoneId="489" range="800" />
-        <Boss templateId="3609" huntingZoneId="889" range="800" />
-        <Boss templateId="3801" huntingZoneId="889" range="800" />
-        <Boss templateId="3707" huntingZoneId="889" range="800" />
-        <Boss templateId="3802" huntingZoneId="889" range="800" />
-        <Boss templateId="81398" huntingZoneId="713" range="1400">
+        <Boss templateId="3000"
+              huntingZoneId="116"
+              range="750" />
+        <Boss templateId="3001"
+              huntingZoneId="116"
+              range="750" />
+        <Boss templateId="2000"
+              huntingZoneId="116"
+              range="750" />
+        <Boss templateId="5001"
+              huntingZoneId="401"
+              range="1000" />
+        <Boss templateId="2000"
+              huntingZoneId="403"
+              range="2000" />
+        <Boss templateId="3006711"
+              huntingZoneId="419"
+              range="1000" />
+        <Boss templateId="1000"
+              huntingZoneId="825"
+              range="1200" />
+        <Boss templateId="3000"
+              huntingZoneId="825"
+              range="1000" />
+        <Boss templateId="6000"
+              huntingZoneId="825"
+              range="1200" />
+        <Boss templateId="8005"
+              huntingZoneId="825"
+              range="1200" />
+        <Boss templateId="1000"
+              huntingZoneId="425"
+              range="1200" />
+        <Boss templateId="3000"
+              huntingZoneId="425"
+              range="1000" />
+        <Boss templateId="4000"
+              huntingZoneId="425"
+              range="1000" />
+        <Boss templateId="6000"
+              huntingZoneId="425"
+              range="1200" />
+        <Boss templateId="8005"
+              huntingZoneId="425"
+              range="1200" />
+        <Boss templateId="12"
+              huntingZoneId="471"
+              range="1000" />
+        <Boss templateId="13"
+              huntingZoneId="471"
+              range="2000" />
+        <Boss templateId="15"
+              huntingZoneId="471"
+              range="1000" />
+        <Boss templateId="14"
+              huntingZoneId="471"
+              range="1000" />
+        <Boss templateId="12"
+              huntingZoneId="871"
+              range="1000" />
+        <Boss templateId="13"
+              huntingZoneId="871"
+              range="2000" />
+        <Boss templateId="15"
+              huntingZoneId="871"
+              range="1000" />
+        <Boss templateId="14"
+              huntingZoneId="871"
+              range="1000" />
+        <Boss templateId="22"
+              huntingZoneId="472"
+              range="800" />
+        <Boss templateId="23"
+              huntingZoneId="472"
+              range="800" />
+        <Boss templateId="19"
+              huntingZoneId="472"
+              range="700"
+              canDouble="true" />
+        <Boss templateId="5000"
+              huntingZoneId="472"
+              range="700"
+              canDouble="true" />
+        <Boss templateId="100"
+              huntingZoneId="472"
+              range="800" />
+        <Boss templateId="101"
+              huntingZoneId="472"
+              range="800" />
+        <Boss templateId="22"
+              huntingZoneId="872"
+              range="800" />
+        <Boss templateId="23"
+              huntingZoneId="872"
+              range="800" />
+        <Boss templateId="19"
+              huntingZoneId="872"
+              range="700"
+              canDouble="true" />
+        <Boss templateId="5000"
+              huntingZoneId="872"
+              range="700"
+              canDouble="true" />
+        <Boss templateId="100"
+              huntingZoneId="872"
+              range="800" />
+        <Boss templateId="101"
+              huntingZoneId="872"
+              range="800" />
+        <Boss templateId="2101"
+              huntingZoneId="473"
+              range="1000" />
+        <Boss templateId="5102"
+              huntingZoneId="473"
+              range="800" />
+        <Boss templateId="5101"
+              huntingZoneId="473"
+              range="800" />
+        <Boss templateId="5103"
+              huntingZoneId="473"
+              range="1000" />
+        <Boss templateId="2101"
+              huntingZoneId="873"
+              range="1000" />
+        <Boss templateId="5102"
+              huntingZoneId="873"
+              range="800" />
+        <Boss templateId="5101"
+              huntingZoneId="873"
+              range="800" />
+        <Boss templateId="5103"
+              huntingZoneId="873"
+              range="1000" />
+        <Boss templateId="1000"
+              huntingZoneId="475"
+              range="1500" />
+        <Boss templateId="10000"
+              huntingZoneId="426"
+              range="800" />
+        <Boss templateId="200"
+              huntingZoneId="426"
+              range="800" />
+        <Boss templateId="300"
+              huntingZoneId="426"
+              range="600" />
+        <Boss templateId="20000"
+              huntingZoneId="426"
+              range="800" />
+        <Boss templateId="2901"
+              huntingZoneId="476"
+              range="900" />
+        <Boss templateId="2902"
+              huntingZoneId="476"
+              range="900" />
+        <Boss templateId="2903"
+              huntingZoneId="476"
+              range="900" />
+        <Boss templateId="3902"
+              huntingZoneId="476"
+              range="1000" />
+        <Boss templateId="4000"
+              huntingZoneId="476"
+              range="1000" />
+        <Boss templateId="47951"
+              huntingZoneId="979"
+              range="1000" />
+        <Boss templateId="47952"
+              huntingZoneId="979"
+              range="600" />
+        <Boss templateId="47953"
+              huntingZoneId="979"
+              range="900" />
+        <Boss templateId="47955"
+              huntingZoneId="979"
+              range="900" />
+        <Boss templateId="47956"
+              huntingZoneId="979"
+              range="900" />
+        <Boss templateId="47954"
+              huntingZoneId="979"
+              range="1200" />
+        <Boss templateId="5001"
+              huntingZoneId="493"
+              range="1400" />
+        <Boss templateId="5002"
+              huntingZoneId="493"
+              range="1000" />
+        <Boss templateId="5003"
+              huntingZoneId="493"
+              range="900" />
+        <Boss templateId="5004"
+              huntingZoneId="493"
+              range="800" />
+        <Boss templateId="5005"
+              huntingZoneId="493"
+              range="1000" />
+        <Boss templateId="5010"
+              huntingZoneId="494"
+              range="1000" />
+        <Boss templateId="5008"
+              huntingZoneId="494"
+              range="1000" />
+        <Boss templateId="5006"
+              huntingZoneId="494"
+              range="1000" />
+        <Boss templateId="5021"
+              huntingZoneId="494"
+              range="1000" />
+        <Boss templateId="5031"
+              huntingZoneId="494"
+              range="1000" />
+        <Boss templateId="5033"
+              huntingZoneId="494"
+              range="1000" />
+        <Boss templateId="5032"
+              huntingZoneId="494"
+              range="1000" />
+        <Boss templateId="5051"
+              huntingZoneId="494"
+              range="1000" />
+        <Boss templateId="5049"
+              huntingZoneId="494"
+              range="1000" />
+        <Boss templateId="5050"
+              huntingZoneId="494"
+              range="1000" />
+        <Boss templateId="5053"
+              huntingZoneId="494"
+              range="1000" />
+        <Boss templateId="42701"
+              huntingZoneId="727"
+              range="700" />
+        <Boss templateId="42702"
+              huntingZoneId="727"
+              range="700" />
+        <Boss templateId="2001"
+              huntingZoneId="727"
+              range="1000" />
+        <Boss templateId="2007"
+              huntingZoneId="727"
+              range="1000" />
+        <Boss templateId="1001"
+              huntingZoneId="750"
+              range="600" />
+        <Boss templateId="1002"
+              huntingZoneId="750"
+              range="1000" />
+        <Boss templateId="1003"
+              huntingZoneId="750"
+              range="1500" />
+        <Boss templateId="1001"
+              huntingZoneId="450"
+              range="600" />
+        <Boss templateId="1002"
+              huntingZoneId="450"
+              range="1000" />
+        <Boss templateId="1003"
+              huntingZoneId="450"
+              range="1500" />
+        <Boss templateId="999"
+              huntingZoneId="453"
+              range="1500" />
+        <Boss templateId="81101"
+              huntingZoneId="611"
+              range="1000" />
+        <Boss templateId="81102"
+              huntingZoneId="611"
+              range="1000" />
+        <Boss templateId="81101"
+              huntingZoneId="511"
+              range="1000" />
+        <Boss templateId="81102"
+              huntingZoneId="511"
+              range="1000" />
+        <Boss templateId="81101"
+              huntingZoneId="811"
+              range="1000" />
+        <Boss templateId="81102"
+              huntingZoneId="811"
+              range="1000" />
+        <Boss templateId="81118"
+              huntingZoneId="811"
+              range="1000" />
+        <Boss templateId="1005"
+              huntingZoneId="487"
+              range="600" />
+        <Boss templateId="1006"
+              huntingZoneId="487"
+              range="800" />
+        <Boss templateId="3006"
+              huntingZoneId="487"
+              range="1000" />
+        <Boss templateId="101"
+              huntingZoneId="487"
+              range="1000" />
+        <Boss templateId="1005"
+              huntingZoneId="887"
+              range="600" />
+        <Boss templateId="1006"
+              huntingZoneId="887"
+              range="800" />
+        <Boss templateId="3006"
+              huntingZoneId="887"
+              range="1000" />
+        <Boss templateId="101"
+              huntingZoneId="887"
+              range="1000" />
+        <Boss templateId="23"
+              huntingZoneId="488"
+              range="400" />
+        <Boss templateId="10"
+              huntingZoneId="488"
+              range="1000" />
+        <Boss templateId="13"
+              huntingZoneId="488"
+              range="1000" />
+        <Boss templateId="18"
+              huntingZoneId="488"
+              range="1500" />
+        <Boss templateId="23"
+              huntingZoneId="888"
+              range="400" />
+        <Boss templateId="10"
+              huntingZoneId="888"
+              range="1000" />
+        <Boss templateId="13"
+              huntingZoneId="888"
+              range="1000" />
+        <Boss templateId="18"
+              huntingZoneId="888"
+              range="1500" />
+        <Boss templateId="3609"
+              huntingZoneId="489"
+              range="800" />
+        <Boss templateId="3801"
+              huntingZoneId="489"
+              range="800" />
+        <Boss templateId="3707"
+              huntingZoneId="489"
+              range="800" />
+        <Boss templateId="3802"
+              huntingZoneId="489"
+              range="800" />
+        <Boss templateId="3609"
+              huntingZoneId="889"
+              range="800" />
+        <Boss templateId="3801"
+              huntingZoneId="889"
+              range="800" />
+        <Boss templateId="3707"
+              huntingZoneId="889"
+              range="800" />
+        <Boss templateId="3802"
+              huntingZoneId="889"
+              range="800" />
+        <Boss templateId="81398"
+              huntingZoneId="713"
+              range="1400">
             <Effect shakingCondition="HitByMe" />
         </Boss>
-        <Boss templateId="81399" huntingZoneId="713" range="1400">
+        <Boss templateId="81399"
+              huntingZoneId="713"
+              range="1400">
             <Effect shakingCondition="HitByMe" />
         </Boss>
-        <Boss templateId="81301" huntingZoneId="713" range="1400">
+        <Boss templateId="81301"
+              huntingZoneId="713"
+              range="1400">
             <Effect shakingCondition="HitByMe" />
         </Boss>
-        <Boss templateId="81308" huntingZoneId="713" range="2500" />
-        <Boss templateId="81398" huntingZoneId="813" range="1400">
+        <Boss templateId="81308"
+              huntingZoneId="713"
+              range="2500" />
+        <Boss templateId="81398"
+              huntingZoneId="813"
+              range="1400">
             <Effect shakingCondition="HitByMe" />
         </Boss>
-        <Boss templateId="81399" huntingZoneId="813" range="1400">
+        <Boss templateId="81399"
+              huntingZoneId="813"
+              range="1400">
             <Effect shakingCondition="HitByMe" />
         </Boss>
-        <Boss templateId="81301" huntingZoneId="813" range="1400">
+        <Boss templateId="81301"
+              huntingZoneId="813"
+              range="1400">
             <Effect shakingCondition="HitByMe" />
         </Boss>
-        <Boss templateId="81308" huntingZoneId="813" range="2500" />
-        <Boss templateId="30011000" huntingZoneId="808" range="2000" />
-        <Boss templateId="30021000" huntingZoneId="808" range="2000" />
-        <Boss templateId="30031000" huntingZoneId="808" range="2000" />
-        <Boss templateId="30041000" huntingZoneId="808" range="2000" />
-        <Boss templateId="95" huntingZoneId="454" range="6000" />
-        <Boss templateId="1000" huntingZoneId="454" range="1200" />
-        <Boss templateId="1001" huntingZoneId="454" range="1200" />
-        <Boss templateId="1002" huntingZoneId="454" range="1200" />
-        <Boss templateId="95" huntingZoneId="754" range="6000" />
-        <Boss templateId="1000" huntingZoneId="754" range="1200" />
-        <Boss templateId="1001" huntingZoneId="754" range="1200" />
-        <Boss templateId="1002" huntingZoneId="754" range="1200" />
-        <Boss templateId="100" huntingZoneId="455" range="1000" />
-        <Boss templateId="200" huntingZoneId="455" range="1000" />
-        <Boss templateId="300" huntingZoneId="455" range="800" />
-        <Boss templateId="1001" huntingZoneId="809" range="1000" />
-        <Boss templateId="4001" huntingZoneId="809" range="1000" />
-        <Boss templateId="3001" huntingZoneId="809" range="1000" />
-        <Boss templateId="6001" huntingZoneId="809" range="1500" />
-        <Boss templateId="107" huntingZoneId="126" range="1000" />
-        <Boss templateId="110" huntingZoneId="126" range="1000" />
-        <Boss templateId="1071" huntingZoneId="126" range="1000" />
-        <Boss templateId="5001" huntingZoneId="152" range="1400" />
-        <Boss templateId="1001" huntingZoneId="152" range="1400" />
-        <Boss templateId="1002" huntingZoneId="152" range="1400" />
-        <Boss templateId="1003" huntingZoneId="152" range="1400" />
-        <Boss templateId="2001" huntingZoneId="152" range="1400" />
-        <Boss templateId="2002" huntingZoneId="152" range="1400" />
-        <Boss templateId="2003" huntingZoneId="152" range="1400" />
-        <Boss templateId="2001" huntingZoneId="29" range="2000" />
-        <Boss templateId="2002" huntingZoneId="34" range="2000" />
-        <Boss templateId="2003" huntingZoneId="34" range="2000" />
-        <Boss templateId="1002" huntingZoneId="436" range="1500">
+        <Boss templateId="81308"
+              huntingZoneId="813"
+              range="2500" />
+        <Boss templateId="30011000"
+              huntingZoneId="808"
+              range="2000" />
+        <Boss templateId="30021000"
+              huntingZoneId="808"
+              range="2000" />
+        <Boss templateId="30031000"
+              huntingZoneId="808"
+              range="2000" />
+        <Boss templateId="30041000"
+              huntingZoneId="808"
+              range="2000" />
+        <Boss templateId="95"
+              huntingZoneId="454"
+              range="6000" />
+        <Boss templateId="1000"
+              huntingZoneId="454"
+              range="1200" />
+        <Boss templateId="1001"
+              huntingZoneId="454"
+              range="1200" />
+        <Boss templateId="1002"
+              huntingZoneId="454"
+              range="1200" />
+        <Boss templateId="95"
+              huntingZoneId="754"
+              range="6000" />
+        <Boss templateId="1000"
+              huntingZoneId="754"
+              range="1200" />
+        <Boss templateId="1001"
+              huntingZoneId="754"
+              range="1200" />
+        <Boss templateId="1002"
+              huntingZoneId="754"
+              range="1200" />
+        <Boss templateId="100"
+              huntingZoneId="455"
+              range="1000" />
+        <Boss templateId="200"
+              huntingZoneId="455"
+              range="1000" />
+        <Boss templateId="300"
+              huntingZoneId="455"
+              range="800" />
+        <Boss templateId="1001"
+              huntingZoneId="809"
+              range="1000" />
+        <Boss templateId="4001"
+              huntingZoneId="809"
+              range="1000" />
+        <Boss templateId="3001"
+              huntingZoneId="809"
+              range="1000" />
+        <Boss templateId="6001"
+              huntingZoneId="809"
+              range="1500" />
+        <Boss templateId="107"
+              huntingZoneId="126"
+              range="1000" />
+        <Boss templateId="110"
+              huntingZoneId="126"
+              range="1000" />
+        <Boss templateId="1071"
+              huntingZoneId="126"
+              range="1000" />
+        <Boss templateId="5001"
+              huntingZoneId="152"
+              range="1400" />
+        <Boss templateId="1001"
+              huntingZoneId="152"
+              range="1400" />
+        <Boss templateId="1002"
+              huntingZoneId="152"
+              range="1400" />
+        <Boss templateId="1003"
+              huntingZoneId="152"
+              range="1400" />
+        <Boss templateId="2001"
+              huntingZoneId="152"
+              range="1400" />
+        <Boss templateId="2002"
+              huntingZoneId="152"
+              range="1400" />
+        <Boss templateId="2003"
+              huntingZoneId="152"
+              range="1400" />
+        <Boss templateId="2001"
+              huntingZoneId="29"
+              range="2000" />
+        <Boss templateId="2002"
+              huntingZoneId="34"
+              range="2000" />
+        <Boss templateId="2003"
+              huntingZoneId="34"
+              range="2000" />
+        <Boss templateId="1002"
+              huntingZoneId="436"
+              range="1500">
             <Effect shakingCondition="HitByMe" />
         </Boss>
-        <Boss templateId="3001" huntingZoneId="821" range="1400">
+        <Boss templateId="3001"
+              huntingZoneId="821"
+              range="1400">
             <Effect shakingCondition="HitByMe" />
         </Boss>
-        <Boss templateId="2001" huntingZoneId="826" range="1400">
+        <Boss templateId="2001"
+              huntingZoneId="826"
+              range="1400">
             <Effect shakingCondition="HitByMe" />
         </Boss>
-        <Boss templateId="91606" huntingZoneId="916" range="2000" />
-        <Boss templateId="1000" huntingZoneId="916" range="2000" />
-        <Boss templateId="1001" huntingZoneId="916" range="2000" />
-        <Boss templateId="91650" huntingZoneId="916" range="2000" />
-        <Boss templateId="91606" huntingZoneId="716" range="2000" />
-        <Boss templateId="1000" huntingZoneId="716" range="2000" />
-        <Boss templateId="1001" huntingZoneId="716" range="2000" />
-        <Boss templateId="91650" huntingZoneId="716" range="2000" />
-        <Boss templateId="1000" huntingZoneId="814" range="2000" />
-        <Boss templateId="2007" huntingZoneId="823" range="2000" />
-        <Boss templateId="77704" huntingZoneId="777" range="1400" />
-        <Boss templateId="77707" huntingZoneId="777" range="1400" />
-        <Boss templateId="77730" huntingZoneId="777" range="1400" />
-        <Boss templateId="1000" huntingZoneId="804" range="1200" />
-        <Boss templateId="76609" huntingZoneId="766" range="1000" />
-        <Boss templateId="76626" huntingZoneId="766" range="1000" />
-        <Boss templateId="76619" huntingZoneId="766" range="1000" />
-        <Boss templateId="1002" huntingZoneId="457" range="2000" canDouble="true" />
-        <Boss templateId="202" huntingZoneId="457" range="2000" canDouble="true" />
-        <Boss templateId="1004" huntingZoneId="457" range="2000" />
-        <Boss templateId="1001" huntingZoneId="457" range="2000" canDouble="true" />
-        <Boss templateId="1003" huntingZoneId="457" range="2000" canDouble="true" />
-        <Boss templateId="1002" huntingZoneId="757" range="2000" canDouble="true" />
-        <Boss templateId="202" huntingZoneId="757" range="2000" canDouble="true" />
-        <Boss templateId="1004" huntingZoneId="757" range="2000" />
-        <Boss templateId="1001" huntingZoneId="757" range="2000" canDouble="false" />
-        <Boss templateId="1003" huntingZoneId="757" range="2000" canDouble="false" />
-        <Boss templateId="1000" huntingZoneId="429" range="1000" />
-        <Boss templateId="2000" huntingZoneId="429" range="1000" />
-        <Boss templateId="3000" huntingZoneId="429" range="1000" />
-        <Boss templateId="1003" huntingZoneId="456" range="3000" />
-        <Boss templateId="1002" huntingZoneId="456" range="5000" canDouble="true" />
-        <Boss templateId="1001" huntingZoneId="456" range="5000" canDouble="true" />
-        <Boss templateId="1000" huntingZoneId="456" range="5000" canDouble="true" />
-        <Boss templateId="1003" huntingZoneId="756" range="3000" />
-        <Boss templateId="1002" huntingZoneId="756" range="5000" canDouble="true" />
-        <Boss templateId="1001" huntingZoneId="756" range="2000" canDouble="true" />
-        <Boss templateId="1000" huntingZoneId="756" range="2000" canDouble="true" />
-        <Boss templateId="5000" huntingZoneId="828" range="1500" />
-        <Boss templateId="5001" huntingZoneId="829" range="2000" />
-        <Boss templateId="1000" huntingZoneId="460" range="2000" />
-        <Boss templateId="2000" huntingZoneId="460" range="2000" />
-        <Boss templateId="3000" huntingZoneId="460" range="2000" />
-        <Boss templateId="1000" huntingZoneId="760" range="2000" />
-        <Boss templateId="2000" huntingZoneId="760" range="2000" />
-        <Boss templateId="3000" huntingZoneId="760" range="2000" />
-        <Boss templateId="1000" huntingZoneId="860" range="2000" />
-        <Boss templateId="2000" huntingZoneId="860" range="2000" />
-        <Boss templateId="3000" huntingZoneId="860" range="2000" />
-        <Boss templateId="1003" huntingZoneId="459" range="1500" />
-        <Boss templateId="1002" huntingZoneId="459" range="1000" />
-        <Boss templateId="1001" huntingZoneId="459" range="1500" />
-        <Boss templateId="1003" huntingZoneId="759" range="1500" canDouble="true" />
-        <Boss templateId="1004" huntingZoneId="759" range="1500" canDouble="true" eraseWhenDead="true" />
-        <Boss templateId="1005" huntingZoneId="759" range="1500" canDouble="true" eraseWhenDead="true" />
-        <Boss templateId="1002" huntingZoneId="759" range="1000" />
-        <Boss templateId="1001" huntingZoneId="759" range="1500" />
-        <Boss templateId="5001" huntingZoneId="431" range="1400" />
-        <Boss templateId="5002" huntingZoneId="431" range="1000" />
-        <Boss templateId="5003" huntingZoneId="431" range="900" />
-        <Boss templateId="5004" huntingZoneId="431" range="800" />
-        <Boss templateId="5005" huntingZoneId="431" range="1500" />
-        <Boss templateId="22" huntingZoneId="432" range="800" />
-        <Boss templateId="23" huntingZoneId="432" range="800" />
-        <Boss templateId="19" huntingZoneId="432" range="700" canDouble="true" />
-        <Boss templateId="5000" huntingZoneId="432" range="700" canDouble="true" />
-        <Boss templateId="100" huntingZoneId="432" range="800" />
-        <Boss templateId="101" huntingZoneId="432" range="800" />
-        <Boss templateId="81102" huntingZoneId="433" range="1400" />
-        <Boss templateId="81101" huntingZoneId="433" range="1400" />
-        <Boss templateId="1000" huntingZoneId="468" range="2000" />
-        <Boss templateId="2000" huntingZoneId="468" range="2000" />
-        <Boss templateId="3000" huntingZoneId="468" range="2000" />
-        <Boss templateId="1000" huntingZoneId="768" range="2000" />
-        <Boss templateId="2000" huntingZoneId="768" range="2000" />
-        <Boss templateId="3000" huntingZoneId="768" range="2000" />
-        <Boss templateId="1000" huntingZoneId="470" range="1500" />
-        <Boss templateId="1000" huntingZoneId="981" range="1500" />
-        <Boss templateId="2000" huntingZoneId="981" range="1500" />
-        <Boss templateId="3000" huntingZoneId="981" range="1500" />
-        <Boss templateId="4000" huntingZoneId="981" range="1500" />
-        <Boss templateId="1000" huntingZoneId="781" range="1500" />
-        <Boss templateId="2000" huntingZoneId="781" range="1500" />
-        <Boss templateId="3000" huntingZoneId="781" range="1500" canDouble="true" />
-        <Boss templateId="4000" huntingZoneId="781" range="1500" />
-        <Boss templateId="46701" huntingZoneId="467" range="2500" canDouble="true" />
-        <Boss templateId="46702" huntingZoneId="467" range="2500" canDouble="true" />
-        <Boss templateId="46703" huntingZoneId="467" range="2000" />
-        <Boss templateId="46704" huntingZoneId="467" range="2000" />
-        <Boss templateId="46701" huntingZoneId="767" range="2500" canDouble="true" />
-        <Boss templateId="46702" huntingZoneId="767" range="2500" canDouble="true" />
-        <Boss templateId="46703" huntingZoneId="767" range="2000" />
-        <Boss templateId="46704" huntingZoneId="767" range="2000" />
-        <Boss templateId="467040" huntingZoneId="767" range="2000" />
-        <Boss templateId="76901" huntingZoneId="769" range="2000" />
-        <Boss templateId="76902" huntingZoneId="769" range="2000" />
-        <Boss templateId="76903" huntingZoneId="769" range="2000" />
-        <Boss templateId="76901" huntingZoneId="969" range="2000" />
-        <Boss templateId="76902" huntingZoneId="969" range="2000" />
-        <Boss templateId="76903" huntingZoneId="969" range="2000" />
-        <Boss templateId="1001" huntingZoneId="643" range="1500" canDouble="true" eraseWhenDead="true" />
-        <Boss templateId="1002" huntingZoneId="643" range="1500" canDouble="true" eraseWhenDead="true" />
-        <Boss templateId="1003" huntingZoneId="643" range="1500" />
-        <Boss templateId="1004" huntingZoneId="643" range="1500" />
-        <Boss templateId="1005" huntingZoneId="643" range="2500" />
-        <Boss templateId="106" huntingZoneId="795" range="1200" />
-        <Boss templateId="1000" huntingZoneId="569" range="2000" />
-        <Boss templateId="2000" huntingZoneId="569" range="2000" />
-        <Boss templateId="3000" huntingZoneId="569" range="3000" />
-        <Boss templateId="3001" huntingZoneId="569" range="3000" />
-        <Boss templateId="6900" huntingZoneId="569" range="700" />
-        <Boss templateId="1000" huntingZoneId="970" range="2500" />
-        <Boss templateId="2000" huntingZoneId="970" range="2500" />
-        <Boss templateId="3000" huntingZoneId="970" range="2500" />
-        <Boss templateId="1000" huntingZoneId="770" range="2500" />
-        <Boss templateId="2000" huntingZoneId="770" range="2500" />
-        <Boss templateId="3000" huntingZoneId="770" range="2500" />
-        <Boss templateId="1000" huntingZoneId="950" range="4000" canDouble="false" eraseWhenDead="true" />
-        <Boss templateId="1100" huntingZoneId="950" range="1100" canDouble="false" eraseWhenDead="true" />
-        <Boss templateId="1101" huntingZoneId="950" range="1100" canDouble="false" eraseWhenDead="true" />
-        <Boss templateId="1102" huntingZoneId="950" range="1100" canDouble="false" eraseWhenDead="true" />
-        <Boss templateId="1103" huntingZoneId="950" range="1100" canDouble="false" eraseWhenDead="true" />
-        <Boss templateId="2000" huntingZoneId="950" range="200000" canDouble="false" eraseWhenDead="true" />
-        <Boss templateId="3000" huntingZoneId="950" range="2000" canDouble="false" eraseWhenDead="true" />
-        <Boss templateId="4000" huntingZoneId="950" range="4000" canDouble="false" eraseWhenDead="true" />
-        <Boss templateId="1000" huntingZoneId="710" range="1500" />
-        <Boss templateId="2000" huntingZoneId="710" range="1500" />
-        <Boss templateId="3000" huntingZoneId="710" range="1500" />
-        <Boss templateId="6001" huntingZoneId="710" range="1500" />
-        <Boss templateId="6002" huntingZoneId="710" range="1500" />
-        <Boss templateId="1000" huntingZoneId="780" range="2000" />
-        <Boss templateId="2000" huntingZoneId="780" range="2000" />
-        <Boss templateId="3000" huntingZoneId="780" range="2000" />
-        <Boss templateId="1000" huntingZoneId="980" range="2000" />
-        <Boss templateId="2000" huntingZoneId="980" range="2000" />
-        <Boss templateId="3000" huntingZoneId="980" range="2000" />
-        <Boss templateId="46601" huntingZoneId="466" range="1500" />
-        <Boss templateId="46602" huntingZoneId="466" range="1500" />
-        <Boss templateId="1000" huntingZoneId="794" range="2000" />
-        <Boss templateId="2000" huntingZoneId="794" range="2000" />
-        <Boss templateId="3000" huntingZoneId="794" range="2000" />
-        <Boss templateId="1000" huntingZoneId="994" range="2000" />
-        <Boss templateId="2000" huntingZoneId="994" range="2000" />
-        <Boss templateId="3000" huntingZoneId="994" range="2000" />
-        <Boss templateId="1000" huntingZoneId="735" range="1500" />
-        <Boss templateId="2000" huntingZoneId="735" range="1500" />
-        <Boss templateId="3000" huntingZoneId="735" range="2000" />
-        <Boss templateId="1000" huntingZoneId="935" range="1500" />
-        <Boss templateId="2000" huntingZoneId="935" range="1500" />
-        <Boss templateId="3000" huntingZoneId="935" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3034" range="1500" />
-        <Boss templateId="2000" huntingZoneId="3034" range="1500" />
-        <Boss templateId="3000" huntingZoneId="3034" range="2000" />
-        <Boss templateId="1000" huntingZoneId="620" range="2000" />
-        <Boss templateId="3001" huntingZoneId="621" range="2000" />
-        <Boss templateId="1000" huntingZoneId="622" range="2000" />
-        <Boss templateId="1004" huntingZoneId="626" range="2000" />
-        <Boss templateId="1013" huntingZoneId="627" range="2000" />
-        <Boss templateId="1000" huntingZoneId="628" range="2000" />
-        <Boss templateId="1001" huntingZoneId="628" range="2000" />
-        <Boss templateId="3000" huntingZoneId="628" range="2000" canDouble="false" eraseWhenDead="true" />
-        <Boss templateId="3001" huntingZoneId="628" range="2000" canDouble="false" eraseWhenDead="true" />
-        <Boss templateId="1205" huntingZoneId="507" range="2000" />
-        <Boss templateId="1204" huntingZoneId="507" range="2000" />
-        <Boss templateId="1000" huntingZoneId="739" range="2000" />
-        <Boss templateId="2000" huntingZoneId="739" range="2000" />
-        <Boss templateId="3001" huntingZoneId="739" range="2000" />
-        <Boss templateId="1000" huntingZoneId="939" range="2000" />
-        <Boss templateId="2000" huntingZoneId="939" range="2000" />
-        <Boss templateId="3001" huntingZoneId="939" range="2000" />
-        <Boss templateId="1000" huntingZoneId="720" range="2000" />
-        <Boss templateId="2000" huntingZoneId="720" range="2000" />
-        <Boss templateId="3000" huntingZoneId="720" range="2000" />
-        <Boss templateId="1000" huntingZoneId="920" range="2000" />
-        <Boss templateId="2000" huntingZoneId="920" range="2000" />
-        <Boss templateId="3000" huntingZoneId="920" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3108" range="2000" />
-        <Boss templateId="9998" huntingZoneId="630" range="10000" />
-        <Boss templateId="9998" huntingZoneId="631" range="10000" />
-        <Boss templateId="1000" huntingZoneId="783" range="2000" />
-        <Boss templateId="2000" huntingZoneId="783" range="2000" />
-        <Boss templateId="3000" huntingZoneId="783" range="2000" />
-        <Boss templateId="1000" huntingZoneId="983" range="2000" />
-        <Boss templateId="2000" huntingZoneId="983" range="2000" />
-        <Boss templateId="3000" huntingZoneId="983" range="2000" />
-        <Boss templateId="1000" huntingZoneId="782" range="2000" />
-        <Boss templateId="2000" huntingZoneId="782" range="2000" />
-        <Boss templateId="3000" huntingZoneId="782" range="2000" />
-        <Boss templateId="1000" huntingZoneId="982" range="2500" />
-        <Boss templateId="2000" huntingZoneId="982" range="2000" />
-        <Boss templateId="3000" huntingZoneId="982" range="2000" />
-        <Boss templateId="1000" huntingZoneId="444" range="2000" />
-        <Boss templateId="2000" huntingZoneId="444" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3037" range="2000" />
-        <Boss templateId="2000" huntingZoneId="3037" range="2000" />
-        <Boss templateId="18" huntingZoneId="3012" range="2000" />
-        <Boss templateId="76901" huntingZoneId="3016" range="2000" />
-        <Boss templateId="76902" huntingZoneId="3016" range="2000" />
-        <Boss templateId="76903" huntingZoneId="3016" range="2000" />
-        <Boss templateId="5001" huntingZoneId="26" range="2000" hideHPBar="true" />
-        <Boss templateId="501" huntingZoneId="39" range="2000" hideHPBar="true" />
-        <Boss templateId="4001" huntingZoneId="51" range="2000" hideHPBar="true" />
-        <Boss templateId="1000" huntingZoneId="3018" range="2000" />
-        <Boss templateId="2000" huntingZoneId="3018" range="2000" />
-        <Boss templateId="3000" huntingZoneId="3018" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3019" range="2500" />
-        <Boss templateId="2000" huntingZoneId="3019" range="2000" />
-        <Boss templateId="3000" huntingZoneId="3019" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3017" range="2000" />
-        <Boss templateId="2000" huntingZoneId="3017" range="2000" />
-        <Boss templateId="3000" huntingZoneId="3017" range="2000" />
-        <Boss templateId="1005" huntingZoneId="3001" range="600" />
-        <Boss templateId="1006" huntingZoneId="3001" range="800" />
-        <Boss templateId="3006" huntingZoneId="3001" range="1000" />
-        <Boss templateId="101" huntingZoneId="3001" range="1000" />
-        <Boss templateId="23" huntingZoneId="3002" range="400" />
-        <Boss templateId="10" huntingZoneId="3002" range="1000" />
-        <Boss templateId="13" huntingZoneId="3002" range="1000" />
-        <Boss templateId="18" huntingZoneId="3002" range="1500" />
-        <Boss templateId="3609" huntingZoneId="3003" range="800" />
-        <Boss templateId="3801" huntingZoneId="3003" range="800" />
-        <Boss templateId="3707" huntingZoneId="3003" range="800" />
-        <Boss templateId="3802" huntingZoneId="3003" range="800" />
-        <Boss templateId="12" huntingZoneId="3004" range="1000" />
-        <Boss templateId="13" huntingZoneId="3004" range="2000" />
-        <Boss templateId="15" huntingZoneId="3004" range="1000" />
-        <Boss templateId="14" huntingZoneId="3004" range="1000" />
-        <Boss templateId="22" huntingZoneId="3005" range="800" />
-        <Boss templateId="23" huntingZoneId="3005" range="800" />
-        <Boss templateId="19" huntingZoneId="3005" range="700" canDouble="true" />
-        <Boss templateId="5000" huntingZoneId="3005" range="700" canDouble="true" />
-        <Boss templateId="100" huntingZoneId="3005" range="800" />
-        <Boss templateId="101" huntingZoneId="3005" range="800" />
-        <Boss templateId="5001" huntingZoneId="3006" range="1400" />
-        <Boss templateId="5002" huntingZoneId="3006" range="1000" />
-        <Boss templateId="5003" huntingZoneId="3006" range="900" />
-        <Boss templateId="5004" huntingZoneId="3006" range="800" />
-        <Boss templateId="5005" huntingZoneId="3006" range="1000" />
-        <Boss templateId="5010" huntingZoneId="3007" range="1000" />
-        <Boss templateId="5008" huntingZoneId="3007" range="1000" />
-        <Boss templateId="5006" huntingZoneId="3007" range="1000" />
-        <Boss templateId="5021" huntingZoneId="3007" range="1000" />
-        <Boss templateId="5031" huntingZoneId="3007" range="1000" />
-        <Boss templateId="5033" huntingZoneId="3007" range="1000" />
-        <Boss templateId="5032" huntingZoneId="3007" range="1000" />
-        <Boss templateId="5051" huntingZoneId="3007" range="1000" />
-        <Boss templateId="5049" huntingZoneId="3007" range="1000" />
-        <Boss templateId="5050" huntingZoneId="3007" range="1000" />
-        <Boss templateId="5053" huntingZoneId="3007" range="1000" />
-        <Boss templateId="2901" huntingZoneId="3008" range="900" />
-        <Boss templateId="2902" huntingZoneId="3008" range="900" />
-        <Boss templateId="2903" huntingZoneId="3008" range="900" />
-        <Boss templateId="3902" huntingZoneId="3008" range="1000" />
-        <Boss templateId="4000" huntingZoneId="3008" range="1000" />
-        <Boss templateId="2101" huntingZoneId="3009" range="1000" />
-        <Boss templateId="5102" huntingZoneId="3009" range="800" />
-        <Boss templateId="5101" huntingZoneId="3009" range="800" />
-        <Boss templateId="5103" huntingZoneId="3009" range="1000" />
-        <Boss templateId="1000" huntingZoneId="3010" range="1500" />
-        <Boss templateId="42701" huntingZoneId="3011" range="700" />
-        <Boss templateId="42702" huntingZoneId="3011" range="700" />
-        <Boss templateId="2001" huntingZoneId="3011" range="1000" />
-        <Boss templateId="2007" huntingZoneId="3011" range="1000" />
-        <Boss templateId="1000" huntingZoneId="3101" range="2000" />
-        <Boss templateId="2000" huntingZoneId="3101" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3201" range="2000" />
-        <Boss templateId="2000" huntingZoneId="3201" range="2000" />
-        <Boss templateId="9814" huntingZoneId="10" range="800" />
-        <Boss templateId="9814" huntingZoneId="34" range="800" />
-        <Boss templateId="3000" huntingZoneId="3024" range="4000" />
-        <Boss templateId="3000" huntingZoneId="3025" range="4000" />
-        <Boss templateId="1000" huntingZoneId="2050" range="2000" hideHPBar="true" />
-        <Boss templateId="1000" huntingZoneId="2052" range="2000" hideHPBar="true" />
-        <Boss templateId="1000" huntingZoneId="2054" range="2000" hideHPBar="true" />
-        <Boss templateId="1000" huntingZoneId="3023" range="2000" />
-        <Boss templateId="2000" huntingZoneId="3023" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3032" range="2000" />
-        <Boss templateId="2000" huntingZoneId="3032" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3026" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3126" range="2000" />
-        <Boss templateId="1200" huntingZoneId="3020" range="1000" canDouble="true" />
-        <Boss templateId="1900" huntingZoneId="3020" range="1000" canDouble="true" />
-        <Boss templateId="2200" huntingZoneId="3020" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3027" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3102" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3202" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3103" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3203" range="2000" />
-        <Boss templateId="2000" huntingZoneId="2105" range="2000" />
-        <Boss templateId="1000" huntingZoneId="2105" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3030" range="2000" />
-        <Boss templateId="2000" huntingZoneId="3030" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3028" range="2000" />
-        <Boss templateId="2000" huntingZoneId="3028" range="2000" />
-        <Boss templateId="3000" huntingZoneId="3028" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3029" range="2000" />
-        <Boss templateId="2000" huntingZoneId="3029" range="2000" />
-        <Boss templateId="3000" huntingZoneId="3029" range="2000" />
-        <Boss templateId="1001" huntingZoneId="3031" range="2000" hideHPBar="true" />
-        <Boss templateId="1000" huntingZoneId="3033" range="2000" />
-        <Boss templateId="2000" huntingZoneId="3033" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3036" range="2000" />
-        <Boss templateId="1001" huntingZoneId="3036" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3042" range="2000" />
-        <Boss templateId="1001" huntingZoneId="3042" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3106" range="2000" />
-        <Boss templateId="1001" huntingZoneId="3106" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3206" range="2000" />
-        <Boss templateId="1001" huntingZoneId="3206" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3107" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3209" range="2000" />
-        <Boss templateId="2000" huntingZoneId="3209" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3109" range="2000" />
-        <Boss templateId="2000" huntingZoneId="3109" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3056" range="2000" />
-        <Boss templateId="2000" huntingZoneId="3056" range="2000" />
-        <Boss templateId="2000" huntingZoneId="2501" range="2000" />
-        <Boss templateId="2100" huntingZoneId="2502" range="2000" />
-        <Boss templateId="2001" huntingZoneId="2503" range="2000" />
-        <Boss templateId="3001" huntingZoneId="2503" range="2000" />
-        <Boss templateId="10000" huntingZoneId="2504" range="2000" />
-        <Boss templateId="18" huntingZoneId="2530" range="2000" />
-        <Boss templateId="4000" huntingZoneId="156" range="1500" canDouble="true" />
-        <Boss templateId="4001" huntingZoneId="156" range="500" canDouble="true" />
-        <Boss templateId="4011" huntingZoneId="156" range="500" canDouble="true" />
-        <Boss templateId="4021" huntingZoneId="156" range="500" canDouble="true" />
-        <Boss templateId="4002" huntingZoneId="156" range="1000" />
-        <Boss templateId="1000" huntingZoneId="3104" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3204" range="2000" />
-        <Boss templateId="1000" huntingZoneId="2106" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3040" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3046" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3105" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3205" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3041" range="2000" />
-        <Boss templateId="2000" huntingZoneId="3041" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3043" range="2000" />
-        <Boss templateId="2000" huntingZoneId="3043" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3044" range="2000" />
-        <Boss templateId="2000" huntingZoneId="3044" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3048" range="1000" />
-        <Boss templateId="2000" huntingZoneId="3048" range="1000" />
-        <Boss templateId="3000" huntingZoneId="3048" range="1000" />
-        <Boss templateId="4000" huntingZoneId="3048" range="1000" />
-        <Boss templateId="5000" huntingZoneId="3048" range="1000" />
-        <Boss templateId="46704" huntingZoneId="3050" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3047" range="2000" />
-        <Boss templateId="1000" huntingZoneId="3055" range="2000" />
-        <Boss templateId="2100" huntingZoneId="3054" range="1000" />
+        <Boss templateId="91606"
+              huntingZoneId="916"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="916"
+              range="2000" />
+        <Boss templateId="1001"
+              huntingZoneId="916"
+              range="2000" />
+        <Boss templateId="91650"
+              huntingZoneId="916"
+              range="2000" />
+        <Boss templateId="91606"
+              huntingZoneId="716"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="716"
+              range="2000" />
+        <Boss templateId="1001"
+              huntingZoneId="716"
+              range="2000" />
+        <Boss templateId="91650"
+              huntingZoneId="716"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="814"
+              range="2000" />
+        <Boss templateId="2007"
+              huntingZoneId="823"
+              range="2000" />
+        <Boss templateId="77704"
+              huntingZoneId="777"
+              range="1400" />
+        <Boss templateId="77707"
+              huntingZoneId="777"
+              range="1400" />
+        <Boss templateId="77730"
+              huntingZoneId="777"
+              range="1400" />
+        <Boss templateId="1000"
+              huntingZoneId="804"
+              range="1200" />
+        <Boss templateId="76609"
+              huntingZoneId="766"
+              range="1000" />
+        <Boss templateId="76626"
+              huntingZoneId="766"
+              range="1000" />
+        <Boss templateId="76619"
+              huntingZoneId="766"
+              range="1000" />
+        <Boss templateId="1002"
+              huntingZoneId="457"
+              range="2000"
+              canDouble="true" />
+        <Boss templateId="202"
+              huntingZoneId="457"
+              range="2000"
+              canDouble="true" />
+        <Boss templateId="1004"
+              huntingZoneId="457"
+              range="2000" />
+        <Boss templateId="1001"
+              huntingZoneId="457"
+              range="2000"
+              canDouble="true" />
+        <Boss templateId="1003"
+              huntingZoneId="457"
+              range="2000"
+              canDouble="true" />
+        <Boss templateId="1002"
+              huntingZoneId="757"
+              range="2000"
+              canDouble="true" />
+        <Boss templateId="202"
+              huntingZoneId="757"
+              range="2000"
+              canDouble="true" />
+        <Boss templateId="1004"
+              huntingZoneId="757"
+              range="2000" />
+        <Boss templateId="1001"
+              huntingZoneId="757"
+              range="2000"
+              canDouble="false" />
+        <Boss templateId="1003"
+              huntingZoneId="757"
+              range="2000"
+              canDouble="false" />
+        <Boss templateId="1000"
+              huntingZoneId="429"
+              range="1000" />
+        <Boss templateId="2000"
+              huntingZoneId="429"
+              range="1000" />
+        <Boss templateId="3000"
+              huntingZoneId="429"
+              range="1000" />
+        <Boss templateId="1003"
+              huntingZoneId="456"
+              range="3000" />
+        <Boss templateId="1002"
+              huntingZoneId="456"
+              range="5000"
+              canDouble="true" />
+        <Boss templateId="1001"
+              huntingZoneId="456"
+              range="5000"
+              canDouble="true" />
+        <Boss templateId="1000"
+              huntingZoneId="456"
+              range="5000"
+              canDouble="true" />
+        <Boss templateId="1003"
+              huntingZoneId="756"
+              range="3000" />
+        <Boss templateId="1002"
+              huntingZoneId="756"
+              range="5000"
+              canDouble="true" />
+        <Boss templateId="1001"
+              huntingZoneId="756"
+              range="2000"
+              canDouble="true" />
+        <Boss templateId="1000"
+              huntingZoneId="756"
+              range="2000"
+              canDouble="true" />
+        <Boss templateId="5000"
+              huntingZoneId="828"
+              range="1500" />
+        <Boss templateId="5001"
+              huntingZoneId="829"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="460"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="460"
+              range="2000" />
+        <Boss templateId="3000"
+              huntingZoneId="460"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="760"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="760"
+              range="2000" />
+        <Boss templateId="3000"
+              huntingZoneId="760"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="860"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="860"
+              range="2000" />
+        <Boss templateId="3000"
+              huntingZoneId="860"
+              range="2000" />
+        <Boss templateId="1003"
+              huntingZoneId="459"
+              range="1500" />
+        <Boss templateId="1002"
+              huntingZoneId="459"
+              range="1000" />
+        <Boss templateId="1001"
+              huntingZoneId="459"
+              range="1500" />
+        <Boss templateId="1003"
+              huntingZoneId="759"
+              range="1500"
+              canDouble="true" />
+        <Boss templateId="1004"
+              huntingZoneId="759"
+              range="1500"
+              canDouble="true"
+              eraseWhenDead="true" />
+        <Boss templateId="1005"
+              huntingZoneId="759"
+              range="1500"
+              canDouble="true"
+              eraseWhenDead="true" />
+        <Boss templateId="1002"
+              huntingZoneId="759"
+              range="1000" />
+        <Boss templateId="1001"
+              huntingZoneId="759"
+              range="1500" />
+        <Boss templateId="5001"
+              huntingZoneId="431"
+              range="1400" />
+        <Boss templateId="5002"
+              huntingZoneId="431"
+              range="1000" />
+        <Boss templateId="5003"
+              huntingZoneId="431"
+              range="900" />
+        <Boss templateId="5004"
+              huntingZoneId="431"
+              range="800" />
+        <Boss templateId="5005"
+              huntingZoneId="431"
+              range="1500" />
+        <Boss templateId="22"
+              huntingZoneId="432"
+              range="800" />
+        <Boss templateId="23"
+              huntingZoneId="432"
+              range="800" />
+        <Boss templateId="19"
+              huntingZoneId="432"
+              range="700"
+              canDouble="true" />
+        <Boss templateId="5000"
+              huntingZoneId="432"
+              range="700"
+              canDouble="true" />
+        <Boss templateId="100"
+              huntingZoneId="432"
+              range="800" />
+        <Boss templateId="101"
+              huntingZoneId="432"
+              range="800" />
+        <Boss templateId="81102"
+              huntingZoneId="433"
+              range="1400" />
+        <Boss templateId="81101"
+              huntingZoneId="433"
+              range="1400" />
+        <Boss templateId="1000"
+              huntingZoneId="468"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="468"
+              range="2000" />
+        <Boss templateId="3000"
+              huntingZoneId="468"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="768"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="768"
+              range="2000" />
+        <Boss templateId="3000"
+              huntingZoneId="768"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="470"
+              range="1500" />
+        <Boss templateId="1000"
+              huntingZoneId="981"
+              range="1500" />
+        <Boss templateId="2000"
+              huntingZoneId="981"
+              range="1500" />
+        <Boss templateId="3000"
+              huntingZoneId="981"
+              range="1500" />
+        <Boss templateId="4000"
+              huntingZoneId="981"
+              range="1500" />
+        <Boss templateId="1000"
+              huntingZoneId="781"
+              range="1500" />
+        <Boss templateId="2000"
+              huntingZoneId="781"
+              range="1500" />
+        <Boss templateId="3000"
+              huntingZoneId="781"
+              range="1500"
+              canDouble="true" />
+        <Boss templateId="4000"
+              huntingZoneId="781"
+              range="1500" />
+        <Boss templateId="46701"
+              huntingZoneId="467"
+              range="2500"
+              canDouble="true" />
+        <Boss templateId="46702"
+              huntingZoneId="467"
+              range="2500"
+              canDouble="true" />
+        <Boss templateId="46703"
+              huntingZoneId="467"
+              range="2000" />
+        <Boss templateId="46704"
+              huntingZoneId="467"
+              range="2000" />
+        <Boss templateId="46701"
+              huntingZoneId="767"
+              range="2500"
+              canDouble="true" />
+        <Boss templateId="46702"
+              huntingZoneId="767"
+              range="2500"
+              canDouble="true" />
+        <Boss templateId="46703"
+              huntingZoneId="767"
+              range="2000" />
+        <Boss templateId="46704"
+              huntingZoneId="767"
+              range="2000" />
+        <Boss templateId="467040"
+              huntingZoneId="767"
+              range="2000" />
+        <Boss templateId="76901"
+              huntingZoneId="769"
+              range="2000" />
+        <Boss templateId="76902"
+              huntingZoneId="769"
+              range="2000" />
+        <Boss templateId="76903"
+              huntingZoneId="769"
+              range="2000" />
+        <Boss templateId="76901"
+              huntingZoneId="969"
+              range="2000" />
+        <Boss templateId="76902"
+              huntingZoneId="969"
+              range="2000" />
+        <Boss templateId="76903"
+              huntingZoneId="969"
+              range="2000" />
+        <Boss templateId="1001"
+              huntingZoneId="643"
+              range="1500"
+              canDouble="true"
+              eraseWhenDead="true" />
+        <Boss templateId="1002"
+              huntingZoneId="643"
+              range="1500"
+              canDouble="true"
+              eraseWhenDead="true" />
+        <Boss templateId="1003"
+              huntingZoneId="643"
+              range="1500" />
+        <Boss templateId="1004"
+              huntingZoneId="643"
+              range="1500" />
+        <Boss templateId="1005"
+              huntingZoneId="643"
+              range="2500" />
+        <Boss templateId="106"
+              huntingZoneId="795"
+              range="1200" />
+        <Boss templateId="1000"
+              huntingZoneId="569"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="569"
+              range="2000" />
+        <Boss templateId="3000"
+              huntingZoneId="569"
+              range="3000" />
+        <Boss templateId="3001"
+              huntingZoneId="569"
+              range="3000" />
+        <Boss templateId="6900"
+              huntingZoneId="569"
+              range="700" />
+        <Boss templateId="1000"
+              huntingZoneId="970"
+              range="2500" />
+        <Boss templateId="2000"
+              huntingZoneId="970"
+              range="2500" />
+        <Boss templateId="3000"
+              huntingZoneId="970"
+              range="2500" />
+        <Boss templateId="1000"
+              huntingZoneId="770"
+              range="2500" />
+        <Boss templateId="2000"
+              huntingZoneId="770"
+              range="2500" />
+        <Boss templateId="3000"
+              huntingZoneId="770"
+              range="2500" />
+        <Boss templateId="1000"
+              huntingZoneId="950"
+              range="4000"
+              canDouble="false"
+              eraseWhenDead="true" />
+        <Boss templateId="1100"
+              huntingZoneId="950"
+              range="1100"
+              canDouble="false"
+              eraseWhenDead="true" />
+        <Boss templateId="1101"
+              huntingZoneId="950"
+              range="1100"
+              canDouble="false"
+              eraseWhenDead="true" />
+        <Boss templateId="1102"
+              huntingZoneId="950"
+              range="1100"
+              canDouble="false"
+              eraseWhenDead="true" />
+        <Boss templateId="1103"
+              huntingZoneId="950"
+              range="1100"
+              canDouble="false"
+              eraseWhenDead="true" />
+        <Boss templateId="2000"
+              huntingZoneId="950"
+              range="200000"
+              canDouble="false"
+              eraseWhenDead="true" />
+        <Boss templateId="3000"
+              huntingZoneId="950"
+              range="2000"
+              canDouble="false"
+              eraseWhenDead="true" />
+        <Boss templateId="4000"
+              huntingZoneId="950"
+              range="4000"
+              canDouble="false"
+              eraseWhenDead="true" />
+        <Boss templateId="1000"
+              huntingZoneId="710"
+              range="1500" />
+        <Boss templateId="2000"
+              huntingZoneId="710"
+              range="1500" />
+        <Boss templateId="3000"
+              huntingZoneId="710"
+              range="1500" />
+        <Boss templateId="6001"
+              huntingZoneId="710"
+              range="1500" />
+        <Boss templateId="6002"
+              huntingZoneId="710"
+              range="1500" />
+        <Boss templateId="1000"
+              huntingZoneId="780"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="780"
+              range="2000" />
+        <Boss templateId="3000"
+              huntingZoneId="780"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="980"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="980"
+              range="2000" />
+        <Boss templateId="3000"
+              huntingZoneId="980"
+              range="2000" />
+        <Boss templateId="46601"
+              huntingZoneId="466"
+              range="1500" />
+        <Boss templateId="46602"
+              huntingZoneId="466"
+              range="1500" />
+        <Boss templateId="1000"
+              huntingZoneId="794"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="794"
+              range="2000" />
+        <Boss templateId="3000"
+              huntingZoneId="794"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="994"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="994"
+              range="2000" />
+        <Boss templateId="3000"
+              huntingZoneId="994"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="735"
+              range="1500" />
+        <Boss templateId="2000"
+              huntingZoneId="735"
+              range="1500" />
+        <Boss templateId="3000"
+              huntingZoneId="735"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="935"
+              range="1500" />
+        <Boss templateId="2000"
+              huntingZoneId="935"
+              range="1500" />
+        <Boss templateId="3000"
+              huntingZoneId="935"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3034"
+              range="1500" />
+        <Boss templateId="2000"
+              huntingZoneId="3034"
+              range="1500" />
+        <Boss templateId="3000"
+              huntingZoneId="3034"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="620"
+              range="2000" />
+        <Boss templateId="3001"
+              huntingZoneId="621"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="622"
+              range="2000" />
+        <Boss templateId="1004"
+              huntingZoneId="626"
+              range="2000" />
+        <Boss templateId="1013"
+              huntingZoneId="627"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="628"
+              range="2000" />
+        <Boss templateId="1001"
+              huntingZoneId="628"
+              range="2000" />
+        <Boss templateId="3000"
+              huntingZoneId="628"
+              range="2000"
+              canDouble="false"
+              eraseWhenDead="true" />
+        <Boss templateId="3001"
+              huntingZoneId="628"
+              range="2000"
+              canDouble="false"
+              eraseWhenDead="true" />
+        <Boss templateId="1205"
+              huntingZoneId="507"
+              range="2000" />
+        <Boss templateId="1204"
+              huntingZoneId="507"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="739"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="739"
+              range="2000" />
+        <Boss templateId="3001"
+              huntingZoneId="739"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="939"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="939"
+              range="2000" />
+        <Boss templateId="3001"
+              huntingZoneId="939"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="720"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="720"
+              range="2000" />
+        <Boss templateId="3000"
+              huntingZoneId="720"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="920"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="920"
+              range="2000" />
+        <Boss templateId="3000"
+              huntingZoneId="920"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3108"
+              range="2000" />
+        <Boss templateId="9998"
+              huntingZoneId="630"
+              range="10000" />
+        <Boss templateId="9998"
+              huntingZoneId="631"
+              range="10000" />
+        <Boss templateId="1000"
+              huntingZoneId="783"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="783"
+              range="2000" />
+        <Boss templateId="3000"
+              huntingZoneId="783"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="983"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="983"
+              range="2000" />
+        <Boss templateId="3000"
+              huntingZoneId="983"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="782"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="782"
+              range="2000" />
+        <Boss templateId="3000"
+              huntingZoneId="782"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="982"
+              range="2500" />
+        <Boss templateId="2000"
+              huntingZoneId="982"
+              range="2000" />
+        <Boss templateId="3000"
+              huntingZoneId="982"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="444"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="444"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3037"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="3037"
+              range="2000" />
+        <Boss templateId="18"
+              huntingZoneId="3012"
+              range="2000" />
+        <Boss templateId="76901"
+              huntingZoneId="3016"
+              range="2000" />
+        <Boss templateId="76902"
+              huntingZoneId="3016"
+              range="2000" />
+        <Boss templateId="76903"
+              huntingZoneId="3016"
+              range="2000" />
+        <Boss templateId="5001"
+              huntingZoneId="26"
+              range="2000"
+              hideHPBar="true" />
+        <Boss templateId="501"
+              huntingZoneId="39"
+              range="2000"
+              hideHPBar="true" />
+        <Boss templateId="4001"
+              huntingZoneId="51"
+              range="2000"
+              hideHPBar="true" />
+        <Boss templateId="1000"
+              huntingZoneId="3018"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="3018"
+              range="2000" />
+        <Boss templateId="3000"
+              huntingZoneId="3018"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3019"
+              range="2500" />
+        <Boss templateId="2000"
+              huntingZoneId="3019"
+              range="2000" />
+        <Boss templateId="3000"
+              huntingZoneId="3019"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3017"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="3017"
+              range="2000" />
+        <Boss templateId="3000"
+              huntingZoneId="3017"
+              range="2000" />
+        <Boss templateId="1005"
+              huntingZoneId="3001"
+              range="600" />
+        <Boss templateId="1006"
+              huntingZoneId="3001"
+              range="800" />
+        <Boss templateId="3006"
+              huntingZoneId="3001"
+              range="1000" />
+        <Boss templateId="101"
+              huntingZoneId="3001"
+              range="1000" />
+        <Boss templateId="23"
+              huntingZoneId="3002"
+              range="400" />
+        <Boss templateId="10"
+              huntingZoneId="3002"
+              range="1000" />
+        <Boss templateId="13"
+              huntingZoneId="3002"
+              range="1000" />
+        <Boss templateId="18"
+              huntingZoneId="3002"
+              range="1500" />
+        <Boss templateId="3609"
+              huntingZoneId="3003"
+              range="800" />
+        <Boss templateId="3801"
+              huntingZoneId="3003"
+              range="800" />
+        <Boss templateId="3707"
+              huntingZoneId="3003"
+              range="800" />
+        <Boss templateId="3802"
+              huntingZoneId="3003"
+              range="800" />
+        <Boss templateId="12"
+              huntingZoneId="3004"
+              range="1000" />
+        <Boss templateId="13"
+              huntingZoneId="3004"
+              range="2000" />
+        <Boss templateId="15"
+              huntingZoneId="3004"
+              range="1000" />
+        <Boss templateId="14"
+              huntingZoneId="3004"
+              range="1000" />
+        <Boss templateId="22"
+              huntingZoneId="3005"
+              range="800" />
+        <Boss templateId="23"
+              huntingZoneId="3005"
+              range="800" />
+        <Boss templateId="19"
+              huntingZoneId="3005"
+              range="700"
+              canDouble="true" />
+        <Boss templateId="5000"
+              huntingZoneId="3005"
+              range="700"
+              canDouble="true" />
+        <Boss templateId="100"
+              huntingZoneId="3005"
+              range="800" />
+        <Boss templateId="101"
+              huntingZoneId="3005"
+              range="800" />
+        <Boss templateId="5001"
+              huntingZoneId="3006"
+              range="1400" />
+        <Boss templateId="5002"
+              huntingZoneId="3006"
+              range="1000" />
+        <Boss templateId="5003"
+              huntingZoneId="3006"
+              range="900" />
+        <Boss templateId="5004"
+              huntingZoneId="3006"
+              range="800" />
+        <Boss templateId="5005"
+              huntingZoneId="3006"
+              range="1000" />
+        <Boss templateId="5010"
+              huntingZoneId="3007"
+              range="1000" />
+        <Boss templateId="5008"
+              huntingZoneId="3007"
+              range="1000" />
+        <Boss templateId="5006"
+              huntingZoneId="3007"
+              range="1000" />
+        <Boss templateId="5021"
+              huntingZoneId="3007"
+              range="1000" />
+        <Boss templateId="5031"
+              huntingZoneId="3007"
+              range="1000" />
+        <Boss templateId="5033"
+              huntingZoneId="3007"
+              range="1000" />
+        <Boss templateId="5032"
+              huntingZoneId="3007"
+              range="1000" />
+        <Boss templateId="5051"
+              huntingZoneId="3007"
+              range="1000" />
+        <Boss templateId="5049"
+              huntingZoneId="3007"
+              range="1000" />
+        <Boss templateId="5050"
+              huntingZoneId="3007"
+              range="1000" />
+        <Boss templateId="5053"
+              huntingZoneId="3007"
+              range="1000" />
+        <Boss templateId="2901"
+              huntingZoneId="3008"
+              range="900" />
+        <Boss templateId="2902"
+              huntingZoneId="3008"
+              range="900" />
+        <Boss templateId="2903"
+              huntingZoneId="3008"
+              range="900" />
+        <Boss templateId="3902"
+              huntingZoneId="3008"
+              range="1000" />
+        <Boss templateId="4000"
+              huntingZoneId="3008"
+              range="1000" />
+        <Boss templateId="2101"
+              huntingZoneId="3009"
+              range="1000" />
+        <Boss templateId="5102"
+              huntingZoneId="3009"
+              range="800" />
+        <Boss templateId="5101"
+              huntingZoneId="3009"
+              range="800" />
+        <Boss templateId="5103"
+              huntingZoneId="3009"
+              range="1000" />
+        <Boss templateId="1000"
+              huntingZoneId="3010"
+              range="1500" />
+        <Boss templateId="42701"
+              huntingZoneId="3011"
+              range="700" />
+        <Boss templateId="42702"
+              huntingZoneId="3011"
+              range="700" />
+        <Boss templateId="2001"
+              huntingZoneId="3011"
+              range="1000" />
+        <Boss templateId="2007"
+              huntingZoneId="3011"
+              range="1000" />
+        <Boss templateId="1000"
+              huntingZoneId="3101"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="3101"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3201"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="3201"
+              range="2000" />
+        <Boss templateId="9814"
+              huntingZoneId="10"
+              range="800" />
+        <Boss templateId="9814"
+              huntingZoneId="34"
+              range="800" />
+        <Boss templateId="3000"
+              huntingZoneId="3024"
+              range="4000" />
+        <Boss templateId="3000"
+              huntingZoneId="3025"
+              range="4000" />
+        <Boss templateId="1000"
+              huntingZoneId="2050"
+              range="2000"
+              hideHPBar="true" />
+        <Boss templateId="1000"
+              huntingZoneId="2052"
+              range="2000"
+              hideHPBar="true" />
+        <Boss templateId="1000"
+              huntingZoneId="2054"
+              range="2000"
+              hideHPBar="true" />
+        <Boss templateId="1000"
+              huntingZoneId="3023"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="3023"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3032"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="3032"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3026"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3126"
+              range="2000" />
+        <Boss templateId="1200"
+              huntingZoneId="3020"
+              range="1000"
+              canDouble="true" />
+        <Boss templateId="1900"
+              huntingZoneId="3020"
+              range="1000"
+              canDouble="true" />
+        <Boss templateId="2200"
+              huntingZoneId="3020"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3027"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3102"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3202"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3103"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3203"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="2105"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="2105"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3030"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="3030"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3028"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="3028"
+              range="2000" />
+        <Boss templateId="3000"
+              huntingZoneId="3028"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3029"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="3029"
+              range="2000" />
+        <Boss templateId="3000"
+              huntingZoneId="3029"
+              range="2000" />
+        <Boss templateId="1001"
+              huntingZoneId="3031"
+              range="2000"
+              hideHPBar="true" />
+        <Boss templateId="1000"
+              huntingZoneId="3033"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="3033"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3036"
+              range="2000" />
+        <Boss templateId="1001"
+              huntingZoneId="3036"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3042"
+              range="2000" />
+        <Boss templateId="1001"
+              huntingZoneId="3042"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3106"
+              range="2000" />
+        <Boss templateId="1001"
+              huntingZoneId="3106"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3206"
+              range="2000" />
+        <Boss templateId="1001"
+              huntingZoneId="3206"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3107"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3209"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="3209"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3109"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="3109"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3056"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="3056"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="2501"
+              range="2000" />
+        <Boss templateId="2100"
+              huntingZoneId="2502"
+              range="2000" />
+        <Boss templateId="2001"
+              huntingZoneId="2503"
+              range="2000" />
+        <Boss templateId="3001"
+              huntingZoneId="2503"
+              range="2000" />
+        <Boss templateId="10000"
+              huntingZoneId="2504"
+              range="2000" />
+        <Boss templateId="18"
+              huntingZoneId="2530"
+              range="2000" />
+        <Boss templateId="4000"
+              huntingZoneId="156"
+              range="1500"
+              canDouble="true" />
+        <Boss templateId="4001"
+              huntingZoneId="156"
+              range="500"
+              canDouble="true" />
+        <Boss templateId="4011"
+              huntingZoneId="156"
+              range="500"
+              canDouble="true" />
+        <Boss templateId="4021"
+              huntingZoneId="156"
+              range="500"
+              canDouble="true" />
+        <Boss templateId="4002"
+              huntingZoneId="156"
+              range="1000" />
+        <Boss templateId="1000"
+              huntingZoneId="3104"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3204"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="2106"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3040"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3046"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3105"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3205"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3041"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="3041"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3043"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="3043"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3044"
+              range="2000" />
+        <Boss templateId="2000"
+              huntingZoneId="3044"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3048"
+              range="1000" />
+        <Boss templateId="2000"
+              huntingZoneId="3048"
+              range="1000" />
+        <Boss templateId="3000"
+              huntingZoneId="3048"
+              range="1000" />
+        <Boss templateId="4000"
+              huntingZoneId="3048"
+              range="1000" />
+        <Boss templateId="5000"
+              huntingZoneId="3048"
+              range="1000" />
+        <Boss templateId="46704"
+              huntingZoneId="3050"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3047"
+              range="2000" />
+        <Boss templateId="1000"
+              huntingZoneId="3055"
+              range="2000" />
+        <Boss templateId="2100"
+              huntingZoneId="3054"
+              range="1000" />
     </BossList>
-    <Default range="2000" layer="1">
+    <Default range="2000"
+             layer="1">
         <Effect shakingCondition="HitByMe" />
         <Info showCondition="Anger,Annihilation,InstanceDeath,TimeAttack,Berserk,Swap" />
     </Default>

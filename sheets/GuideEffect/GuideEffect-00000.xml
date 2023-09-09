@@ -1,483 +1,1369 @@
-<GuideEffect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/GuideEffect GuideEffect.xsd" xmlns="https://vezel.dev/novadrop/dc/GuideEffect">
-    <EffectInfo id="1" type="VehicleEX" distFromObject="300">
-        <ConditionInfo effectId="0" condition="Default" cameraOriented="true" />
-        <ConditionInfo effectId="915051101" condition="Rideable" cameraOriented="true" />
-        <ConditionInfo effectId="915051102" condition="Fixable" cameraOriented="true" />
-        <ConditionInfo effectId="915051106" condition="Destroyable" cameraOriented="true" />
-    </EffectInfo>
-    <EffectInfo id="2" type="Collection" distFromObject="50">
-        <ConditionInfo effectId="915051103" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="3" type="StrongHold" distFromObject="100">
-        <ConditionInfo effectId="0" condition="Default" cameraOriented="true" />
-        <ConditionInfo effectId="915051104" condition="Neutral" cameraOriented="true" />
-        <ConditionInfo effectId="915051104" condition="Enemy" cameraOriented="true" />
-        <ConditionInfo effectId="0" condition="Our" cameraOriented="true" />
-    </EffectInfo>
-    <EffectInfo id="4" type="NPC" distFromObject="100">
-        <ConditionInfo effectId="0" condition="Default" cameraOriented="true" />
-        <ConditionInfo effectId="915051105" condition="Destroyable" bfCheckSide="Attack" cameraOriented="false" relatePos="50,0,0" />
-    </EffectInfo>
-    <EffectInfo id="5" type="NPC" distFromObject="100">
-        <ConditionInfo effectId="0" condition="Default" cameraOriented="true" />
-        <ConditionInfo effectId="915051107" condition="Destroyable" bfCheckSide="Attack" cameraOriented="false" relatePos="50,0,0" />
-    </EffectInfo>
-    <EffectInfo id="6" type="NPC" distFromObject="100">
-        <ConditionInfo effectId="0" condition="Default" cameraOriented="true" />
-        <ConditionInfo effectId="915051106" condition="Destroyable" bfCheckSide="Attack" cameraOriented="true" />
-    </EffectInfo>
-    <EffectInfo id="16" type="NPC" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="0" condition="Default" cameraOriented="true" />
-        <ConditionInfo effectId="915051106" condition="Destroyable" bfCheckSide="Attack" cameraOriented="true" />
-    </EffectInfo>
-    <EffectInfo id="15" type="NPC" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="0" condition="Default" cameraOriented="true" />
-        <ConditionInfo effectId="915051106" condition="Destroyable" bfCheckSide="Attack" cameraOriented="true" relatePos="0,0,25" />
-    </EffectInfo>
-    <EffectInfo id="7" type="VehicleEX" distFromObject="300">
-        <ConditionInfo effectId="0" condition="Default" cameraOriented="true" />
-        <ConditionInfo effectId="915051101" condition="Rideable" bfCheckSide="Attack" cameraOriented="true" />
-        <ConditionInfo effectId="915051102" condition="Fixable" bfCheckSide="Attack" cameraOriented="true" />
-        <ConditionInfo effectId="915051106" condition="Destroyable" bfCheckSide="Attack" cameraOriented="true" />
-    </EffectInfo>
-    <EffectInfo id="8" type="VehicleEX" distFromObject="300">
-        <ConditionInfo effectId="0" condition="Default" cameraOriented="true" />
-        <ConditionInfo effectId="915051101" condition="Rideable" bfCheckSide="Defence" cameraOriented="true" />
-        <ConditionInfo effectId="915051102" condition="Fixable" bfCheckSide="Defence" cameraOriented="true" />
-        <ConditionInfo effectId="915051106" condition="Destroyable" bfCheckSide="Defence" cameraOriented="true" />
-    </EffectInfo>
-    <EffectInfo id="9" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="468002" condition="Default" cameraOriented="false" relatePos="0,0,-100" />
-        <ConditionInfo effectId="468001" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="10" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="468003" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="11" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="468002" condition="Default" cameraOriented="false" relatePos="0,0,-70" />
-        <ConditionInfo effectId="468004" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="12" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="468005" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="468006" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="13" type="VehicleEX" distFromObject="300">
-        <ConditionInfo effectId="0" condition="Default" cameraOriented="true" />
-        <ConditionInfo effectId="915051101" condition="Rideable" cameraOriented="true" />
-    </EffectInfo>
-    <EffectInfo id="14" type="VehicleEX" distFromObject="300">
-        <ConditionInfo effectId="0" condition="Default" cameraOriented="true" />
-        <ConditionInfo effectId="7113" condition="Default" />
-        <ConditionInfo effectId="915051101" condition="Rideable" cameraOriented="true" />
-        <ConditionInfo effectId="7113" condition="Rideable" />
-        <ConditionInfo effectId="915051102" condition="Fixable" cameraOriented="true" />
-        <ConditionInfo effectId="7113" condition="Fixable" />
-        <ConditionInfo effectId="915051106" condition="Destroyable" cameraOriented="true" />
-        <ConditionInfo effectId="7113" condition="Destroyable" />
-    </EffectInfo>
-    <EffectInfo id="18" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="950009" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950010" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950011" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950012" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950013" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950014" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950015" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950016" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950017" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950018" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="24" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="950052" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950053" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950054" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950055" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950056" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950057" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950058" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950059" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950060" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="25" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="950500" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950501" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950502" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950503" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950504" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950505" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950506" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="26" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="950511" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950512" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950513" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950514" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950515" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950516" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950517" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="29" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="950521" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950522" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950523" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950524" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950525" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950526" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950527" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950528" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950529" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950530" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="30" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="950531" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950532" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950533" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950534" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950535" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950536" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950537" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950538" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950539" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950540" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="31" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="950248" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950249" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950250" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="32" type="Villager" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="25006000" condition="Default" cameraOriented="false" relatePos="0,0,30" />
-    </EffectInfo>
-    <EffectInfo id="100" type="Villager" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="7404" condition="Default" cameraOriented="false" relatePos="0,0,30" />
-    </EffectInfo>
-    <EffectInfo id="101" type="Villager" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="7405" condition="Default" cameraOriented="false" relatePos="0,0,30" />
-    </EffectInfo>
-    <EffectInfo id="102" type="Villager" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="7406" condition="Default" cameraOriented="false" relatePos="0,0,30" />
-    </EffectInfo>
-    <EffectInfo id="103" type="Villager" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="7407" condition="Default" cameraOriented="false" relatePos="0,0,30" />
-    </EffectInfo>
-    <EffectInfo id="104" type="Villager" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="7408" condition="Default" cameraOriented="false" relatePos="0,0,30" />
-    </EffectInfo>
-    <EffectInfo id="105" type="Villager" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="7409" condition="Default" cameraOriented="false" relatePos="0,0,30" />
-    </EffectInfo>
-    <EffectInfo id="106" type="Villager" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="7410" condition="Default" cameraOriented="false" relatePos="0,0,30" />
-    </EffectInfo>
-    <EffectInfo id="107" type="Villager" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="80042" condition="Default" cameraOriented="false" relatePos="0,0,30" />
-    </EffectInfo>
-    <EffectInfo id="108" type="Villager" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="7401" condition="Default" cameraOriented="false" relatePos="0,0,30" />
-    </EffectInfo>
-    <EffectInfo id="109" type="Villager" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="7402" condition="Default" cameraOriented="false" relatePos="0,0,30" />
-    </EffectInfo>
-    <EffectInfo id="110" type="Villager" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="7403" condition="Default" cameraOriented="false" relatePos="0,0,30" />
-    </EffectInfo>
-    <EffectInfo id="111" type="Villager" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="80042" condition="Default" cameraOriented="false" relatePos="0,0,30" />
-    </EffectInfo>
-    <EffectInfo id="112" type="Villager" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="7418" condition="Default" cameraOriented="false" relatePos="0,0,30" />
-    </EffectInfo>
-    <EffectInfo id="113" type="Villager" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="6102" condition="Default" cameraOriented="false" relatePos="0,0,30" />
-    </EffectInfo>
-    <EffectInfo id="114" type="Villager" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="7400" condition="Default" cameraOriented="false" relatePos="0,0,30" />
-    </EffectInfo>
-    <EffectInfo id="115" type="Villager" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="5345" condition="Default" cameraOriented="false" relatePos="0,0,30" />
-    </EffectInfo>
-    <EffectInfo id="116" type="Villager" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="5347" condition="Default" cameraOriented="false" relatePos="0,0,30" />
-    </EffectInfo>
-    <EffectInfo id="117" type="Villager" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="5346" condition="Default" cameraOriented="false" relatePos="0,0,30" />
-    </EffectInfo>
-    <EffectInfo id="95001" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="916063040" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="95002" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="916063041" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="95003" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="916063042" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="95004" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="916063043" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="95005" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="916063055" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="95006" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="7066" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="95007" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="7067" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="95008" type="VehicleEX" distFromObject="300" notCareOption="true">
-        <ConditionInfo effectId="0" condition="Default" cameraOriented="true" />
-        <ConditionInfo effectId="915051101" condition="Rideable" cameraOriented="true" />
-        <ConditionInfo effectId="915051102" condition="Fixable" bfCheckSide="Defence" cameraOriented="true" />
-        <ConditionInfo effectId="915051106" condition="Destroyable" cameraOriented="true" />
-    </EffectInfo>
-    <EffectInfo id="95009" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="950100" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950101" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950102" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950103" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950104" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950105" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950106" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950107" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950108" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="950109" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="44701" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="8342" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="11801" type="VehicleEX" distFromObject="300">
-        <ConditionInfo effectId="0" condition="Default" />
-        <ConditionInfo effectId="8342" condition="Rideable" bfCheckSide="Default" />
-    </EffectInfo>
-    <EffectInfo id="98101" type="NPC" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="0" condition="Default" cameraOriented="true" />
-        <ConditionInfo effectId="7040" condition="Destroyable" bfCheckSide="Attack" cameraOriented="false" relatePos="0,0,0" />
-    </EffectInfo>
-    <EffectInfo id="98102" type="NPC" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="0" condition="Default" cameraOriented="true" />
-        <ConditionInfo effectId="7041" condition="Destroyable" bfCheckSide="Attack" cameraOriented="false" relatePos="0,0,0" />
-    </EffectInfo>
-    <EffectInfo id="98103" type="NPC" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="0" condition="Default" cameraOriented="true" />
-        <ConditionInfo effectId="7042" condition="Destroyable" bfCheckSide="Attack" cameraOriented="false" relatePos="0,0,0" />
-    </EffectInfo>
-    <EffectInfo id="98104" type="NPC" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="0" condition="Default" cameraOriented="true" />
-        <ConditionInfo effectId="7043" condition="Destroyable" bfCheckSide="Attack" cameraOriented="false" relatePos="0,0,0" />
-    </EffectInfo>
-    <EffectInfo id="98105" type="NPC" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="0" condition="Default" cameraOriented="true" />
-        <ConditionInfo effectId="7044" condition="Destroyable" bfCheckSide="Attack" cameraOriented="false" relatePos="0,0,0" />
-    </EffectInfo>
-    <EffectInfo id="98106" type="NPC" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="0" condition="Default" cameraOriented="true" />
-        <ConditionInfo effectId="7045" condition="Destroyable" bfCheckSide="Attack" cameraOriented="false" relatePos="0,0,0" />
-    </EffectInfo>
-    <EffectInfo id="98107" type="NPC" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="0" condition="Default" cameraOriented="true" />
-        <ConditionInfo effectId="7046" condition="Destroyable" bfCheckSide="Attack" cameraOriented="false" relatePos="0,0,0" />
-    </EffectInfo>
-    <EffectInfo id="98108" type="NPC" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="0" condition="Default" cameraOriented="true" />
-        <ConditionInfo effectId="7056" condition="Destroyable" bfCheckSide="Attack" cameraOriented="false" relatePos="0,0,0" />
-    </EffectInfo>
-    <EffectInfo id="98109" type="NPC" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="0" condition="Default" cameraOriented="true" />
-        <ConditionInfo effectId="7057" condition="Destroyable" bfCheckSide="Attack" cameraOriented="false" relatePos="0,0,0" />
-    </EffectInfo>
-    <EffectInfo id="98110" type="NPC" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="0" condition="Default" cameraOriented="true" />
-        <ConditionInfo effectId="7069" condition="Destroyable" bfCheckSide="Attack" cameraOriented="false" relatePos="0,0,0" />
-    </EffectInfo>
-    <EffectInfo id="98111" type="NPC" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="0" condition="Default" cameraOriented="true" />
-        <ConditionInfo effectId="7077" condition="Destroyable" bfCheckSide="Attack" cameraOriented="false" relatePos="0,0,0" />
-    </EffectInfo>
-    <EffectInfo id="98112" type="NPC" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="0" condition="Default" cameraOriented="true" />
-        <ConditionInfo effectId="7078" condition="Destroyable" bfCheckSide="Attack" cameraOriented="false" relatePos="0,0,0" />
-    </EffectInfo>
-    <EffectInfo id="98113" type="NPC" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="0" condition="Default" cameraOriented="true" />
-        <ConditionInfo effectId="7079" condition="Destroyable" bfCheckSide="Attack" cameraOriented="false" relatePos="0,0,0" />
-    </EffectInfo>
-    <EffectInfo id="71001" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="7104002" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="99401" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="9942001" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="99402" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="7159" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="99403" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="7155" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="99404" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="7154" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="99405" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="7153" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="99406" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="9941016" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="99407" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="9943015" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="93501" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="117051201" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="303401" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="117051201" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="62600" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="626001" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="93901" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="217120100" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="62801" type="Collection" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="6144" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="62802" type="Collection" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="6145" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="98201" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="6152" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="98202" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="982002" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="98203" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="982008" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="98204" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="982009" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="98205" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="982010" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="98206" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="982011" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="98207" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="982012" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="98208" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="982013" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="98209" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="982029" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="98210" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="982033" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="98211" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="982052" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="98212" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="982067" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="982068" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="302801" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="6152" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="302802" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="982002" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="302803" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="982008" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="302804" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="982009" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="302805" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="982010" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="302806" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="982011" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="302807" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="982012" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="302808" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="982013" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="302809" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="982029" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="302810" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="982033" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="302811" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="982052" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="302812" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="982067" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="982068" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="99901" type="Collection" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="7260" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="99902" type="Collection" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="34000" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="99903" type="Collection" distFromObject="100" notCareOption="true">
-        <ConditionInfo effectId="34001" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="320101" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="7014001" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="250201" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="119050302" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="302601" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="119071201" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="302602" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="119071202" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="302603" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="119071203" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="302604" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="119050302" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="302201" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="6223" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="302010" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="302010" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="302011" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="302011" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="300201" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="3002003" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="3002004" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="3002005" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="300202" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="3002006" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="3002007" condition="Default" cameraOriented="false" />
-        <ConditionInfo effectId="3002008" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="300203" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="3002009" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="999011" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="9900110" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="999012" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="5384" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="999013" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="5140609" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="999014" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="42301001" condition="Default" cameraOriented="false" />
-    </EffectInfo>
-    <EffectInfo id="6257" type="Collection" distFromObject="50" notCareOption="true">
-        <ConditionInfo effectId="6257" condition="Default" cameraOriented="false" />
+<GuideEffect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://vezel.dev/novadrop/dc/GuideEffect GuideEffect.xsd"
+             xmlns="https://vezel.dev/novadrop/dc/GuideEffect">
+    <EffectInfo id="1"
+                type="VehicleEX"
+                distFromObject="300">
+        <ConditionInfo effectId="0"
+                       condition="Default"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="915051101"
+                       condition="Rideable"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="915051102"
+                       condition="Fixable"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="915051106"
+                       condition="Destroyable"
+                       cameraOriented="true" />
+    </EffectInfo>
+    <EffectInfo id="2"
+                type="Collection"
+                distFromObject="50">
+        <ConditionInfo effectId="915051103"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="3"
+                type="StrongHold"
+                distFromObject="100">
+        <ConditionInfo effectId="0"
+                       condition="Default"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="915051104"
+                       condition="Neutral"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="915051104"
+                       condition="Enemy"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="0"
+                       condition="Our"
+                       cameraOriented="true" />
+    </EffectInfo>
+    <EffectInfo id="4"
+                type="NPC"
+                distFromObject="100">
+        <ConditionInfo effectId="0"
+                       condition="Default"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="915051105"
+                       condition="Destroyable"
+                       bfCheckSide="Attack"
+                       cameraOriented="false"
+                       relatePos="50,0,0" />
+    </EffectInfo>
+    <EffectInfo id="5"
+                type="NPC"
+                distFromObject="100">
+        <ConditionInfo effectId="0"
+                       condition="Default"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="915051107"
+                       condition="Destroyable"
+                       bfCheckSide="Attack"
+                       cameraOriented="false"
+                       relatePos="50,0,0" />
+    </EffectInfo>
+    <EffectInfo id="6"
+                type="NPC"
+                distFromObject="100">
+        <ConditionInfo effectId="0"
+                       condition="Default"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="915051106"
+                       condition="Destroyable"
+                       bfCheckSide="Attack"
+                       cameraOriented="true" />
+    </EffectInfo>
+    <EffectInfo id="16"
+                type="NPC"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="0"
+                       condition="Default"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="915051106"
+                       condition="Destroyable"
+                       bfCheckSide="Attack"
+                       cameraOriented="true" />
+    </EffectInfo>
+    <EffectInfo id="15"
+                type="NPC"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="0"
+                       condition="Default"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="915051106"
+                       condition="Destroyable"
+                       bfCheckSide="Attack"
+                       cameraOriented="true"
+                       relatePos="0,0,25" />
+    </EffectInfo>
+    <EffectInfo id="7"
+                type="VehicleEX"
+                distFromObject="300">
+        <ConditionInfo effectId="0"
+                       condition="Default"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="915051101"
+                       condition="Rideable"
+                       bfCheckSide="Attack"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="915051102"
+                       condition="Fixable"
+                       bfCheckSide="Attack"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="915051106"
+                       condition="Destroyable"
+                       bfCheckSide="Attack"
+                       cameraOriented="true" />
+    </EffectInfo>
+    <EffectInfo id="8"
+                type="VehicleEX"
+                distFromObject="300">
+        <ConditionInfo effectId="0"
+                       condition="Default"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="915051101"
+                       condition="Rideable"
+                       bfCheckSide="Defence"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="915051102"
+                       condition="Fixable"
+                       bfCheckSide="Defence"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="915051106"
+                       condition="Destroyable"
+                       bfCheckSide="Defence"
+                       cameraOriented="true" />
+    </EffectInfo>
+    <EffectInfo id="9"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="468002"
+                       condition="Default"
+                       cameraOriented="false"
+                       relatePos="0,0,-100" />
+        <ConditionInfo effectId="468001"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="10"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="468003"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="11"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="468002"
+                       condition="Default"
+                       cameraOriented="false"
+                       relatePos="0,0,-70" />
+        <ConditionInfo effectId="468004"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="12"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="468005"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="468006"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="13"
+                type="VehicleEX"
+                distFromObject="300">
+        <ConditionInfo effectId="0"
+                       condition="Default"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="915051101"
+                       condition="Rideable"
+                       cameraOriented="true" />
+    </EffectInfo>
+    <EffectInfo id="14"
+                type="VehicleEX"
+                distFromObject="300">
+        <ConditionInfo effectId="0"
+                       condition="Default"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="7113"
+                       condition="Default" />
+        <ConditionInfo effectId="915051101"
+                       condition="Rideable"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="7113"
+                       condition="Rideable" />
+        <ConditionInfo effectId="915051102"
+                       condition="Fixable"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="7113"
+                       condition="Fixable" />
+        <ConditionInfo effectId="915051106"
+                       condition="Destroyable"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="7113"
+                       condition="Destroyable" />
+    </EffectInfo>
+    <EffectInfo id="18"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="950009"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950010"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950011"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950012"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950013"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950014"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950015"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950016"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950017"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950018"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="24"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="950052"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950053"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950054"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950055"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950056"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950057"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950058"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950059"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950060"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="25"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="950500"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950501"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950502"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950503"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950504"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950505"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950506"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="26"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="950511"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950512"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950513"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950514"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950515"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950516"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950517"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="29"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="950521"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950522"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950523"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950524"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950525"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950526"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950527"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950528"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950529"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950530"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="30"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="950531"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950532"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950533"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950534"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950535"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950536"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950537"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950538"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950539"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950540"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="31"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="950248"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950249"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950250"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="32"
+                type="Villager"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="25006000"
+                       condition="Default"
+                       cameraOriented="false"
+                       relatePos="0,0,30" />
+    </EffectInfo>
+    <EffectInfo id="100"
+                type="Villager"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="7404"
+                       condition="Default"
+                       cameraOriented="false"
+                       relatePos="0,0,30" />
+    </EffectInfo>
+    <EffectInfo id="101"
+                type="Villager"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="7405"
+                       condition="Default"
+                       cameraOriented="false"
+                       relatePos="0,0,30" />
+    </EffectInfo>
+    <EffectInfo id="102"
+                type="Villager"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="7406"
+                       condition="Default"
+                       cameraOriented="false"
+                       relatePos="0,0,30" />
+    </EffectInfo>
+    <EffectInfo id="103"
+                type="Villager"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="7407"
+                       condition="Default"
+                       cameraOriented="false"
+                       relatePos="0,0,30" />
+    </EffectInfo>
+    <EffectInfo id="104"
+                type="Villager"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="7408"
+                       condition="Default"
+                       cameraOriented="false"
+                       relatePos="0,0,30" />
+    </EffectInfo>
+    <EffectInfo id="105"
+                type="Villager"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="7409"
+                       condition="Default"
+                       cameraOriented="false"
+                       relatePos="0,0,30" />
+    </EffectInfo>
+    <EffectInfo id="106"
+                type="Villager"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="7410"
+                       condition="Default"
+                       cameraOriented="false"
+                       relatePos="0,0,30" />
+    </EffectInfo>
+    <EffectInfo id="107"
+                type="Villager"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="80042"
+                       condition="Default"
+                       cameraOriented="false"
+                       relatePos="0,0,30" />
+    </EffectInfo>
+    <EffectInfo id="108"
+                type="Villager"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="7401"
+                       condition="Default"
+                       cameraOriented="false"
+                       relatePos="0,0,30" />
+    </EffectInfo>
+    <EffectInfo id="109"
+                type="Villager"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="7402"
+                       condition="Default"
+                       cameraOriented="false"
+                       relatePos="0,0,30" />
+    </EffectInfo>
+    <EffectInfo id="110"
+                type="Villager"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="7403"
+                       condition="Default"
+                       cameraOriented="false"
+                       relatePos="0,0,30" />
+    </EffectInfo>
+    <EffectInfo id="111"
+                type="Villager"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="80042"
+                       condition="Default"
+                       cameraOriented="false"
+                       relatePos="0,0,30" />
+    </EffectInfo>
+    <EffectInfo id="112"
+                type="Villager"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="7418"
+                       condition="Default"
+                       cameraOriented="false"
+                       relatePos="0,0,30" />
+    </EffectInfo>
+    <EffectInfo id="113"
+                type="Villager"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="6102"
+                       condition="Default"
+                       cameraOriented="false"
+                       relatePos="0,0,30" />
+    </EffectInfo>
+    <EffectInfo id="114"
+                type="Villager"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="7400"
+                       condition="Default"
+                       cameraOriented="false"
+                       relatePos="0,0,30" />
+    </EffectInfo>
+    <EffectInfo id="115"
+                type="Villager"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="5345"
+                       condition="Default"
+                       cameraOriented="false"
+                       relatePos="0,0,30" />
+    </EffectInfo>
+    <EffectInfo id="116"
+                type="Villager"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="5347"
+                       condition="Default"
+                       cameraOriented="false"
+                       relatePos="0,0,30" />
+    </EffectInfo>
+    <EffectInfo id="117"
+                type="Villager"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="5346"
+                       condition="Default"
+                       cameraOriented="false"
+                       relatePos="0,0,30" />
+    </EffectInfo>
+    <EffectInfo id="95001"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="916063040"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="95002"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="916063041"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="95003"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="916063042"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="95004"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="916063043"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="95005"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="916063055"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="95006"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="7066"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="95007"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="7067"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="95008"
+                type="VehicleEX"
+                distFromObject="300"
+                notCareOption="true">
+        <ConditionInfo effectId="0"
+                       condition="Default"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="915051101"
+                       condition="Rideable"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="915051102"
+                       condition="Fixable"
+                       bfCheckSide="Defence"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="915051106"
+                       condition="Destroyable"
+                       cameraOriented="true" />
+    </EffectInfo>
+    <EffectInfo id="95009"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="950100"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950101"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950102"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950103"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950104"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950105"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950106"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950107"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950108"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="950109"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="44701"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="8342"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="11801"
+                type="VehicleEX"
+                distFromObject="300">
+        <ConditionInfo effectId="0"
+                       condition="Default" />
+        <ConditionInfo effectId="8342"
+                       condition="Rideable"
+                       bfCheckSide="Default" />
+    </EffectInfo>
+    <EffectInfo id="98101"
+                type="NPC"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="0"
+                       condition="Default"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="7040"
+                       condition="Destroyable"
+                       bfCheckSide="Attack"
+                       cameraOriented="false"
+                       relatePos="0,0,0" />
+    </EffectInfo>
+    <EffectInfo id="98102"
+                type="NPC"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="0"
+                       condition="Default"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="7041"
+                       condition="Destroyable"
+                       bfCheckSide="Attack"
+                       cameraOriented="false"
+                       relatePos="0,0,0" />
+    </EffectInfo>
+    <EffectInfo id="98103"
+                type="NPC"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="0"
+                       condition="Default"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="7042"
+                       condition="Destroyable"
+                       bfCheckSide="Attack"
+                       cameraOriented="false"
+                       relatePos="0,0,0" />
+    </EffectInfo>
+    <EffectInfo id="98104"
+                type="NPC"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="0"
+                       condition="Default"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="7043"
+                       condition="Destroyable"
+                       bfCheckSide="Attack"
+                       cameraOriented="false"
+                       relatePos="0,0,0" />
+    </EffectInfo>
+    <EffectInfo id="98105"
+                type="NPC"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="0"
+                       condition="Default"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="7044"
+                       condition="Destroyable"
+                       bfCheckSide="Attack"
+                       cameraOriented="false"
+                       relatePos="0,0,0" />
+    </EffectInfo>
+    <EffectInfo id="98106"
+                type="NPC"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="0"
+                       condition="Default"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="7045"
+                       condition="Destroyable"
+                       bfCheckSide="Attack"
+                       cameraOriented="false"
+                       relatePos="0,0,0" />
+    </EffectInfo>
+    <EffectInfo id="98107"
+                type="NPC"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="0"
+                       condition="Default"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="7046"
+                       condition="Destroyable"
+                       bfCheckSide="Attack"
+                       cameraOriented="false"
+                       relatePos="0,0,0" />
+    </EffectInfo>
+    <EffectInfo id="98108"
+                type="NPC"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="0"
+                       condition="Default"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="7056"
+                       condition="Destroyable"
+                       bfCheckSide="Attack"
+                       cameraOriented="false"
+                       relatePos="0,0,0" />
+    </EffectInfo>
+    <EffectInfo id="98109"
+                type="NPC"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="0"
+                       condition="Default"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="7057"
+                       condition="Destroyable"
+                       bfCheckSide="Attack"
+                       cameraOriented="false"
+                       relatePos="0,0,0" />
+    </EffectInfo>
+    <EffectInfo id="98110"
+                type="NPC"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="0"
+                       condition="Default"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="7069"
+                       condition="Destroyable"
+                       bfCheckSide="Attack"
+                       cameraOriented="false"
+                       relatePos="0,0,0" />
+    </EffectInfo>
+    <EffectInfo id="98111"
+                type="NPC"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="0"
+                       condition="Default"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="7077"
+                       condition="Destroyable"
+                       bfCheckSide="Attack"
+                       cameraOriented="false"
+                       relatePos="0,0,0" />
+    </EffectInfo>
+    <EffectInfo id="98112"
+                type="NPC"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="0"
+                       condition="Default"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="7078"
+                       condition="Destroyable"
+                       bfCheckSide="Attack"
+                       cameraOriented="false"
+                       relatePos="0,0,0" />
+    </EffectInfo>
+    <EffectInfo id="98113"
+                type="NPC"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="0"
+                       condition="Default"
+                       cameraOriented="true" />
+        <ConditionInfo effectId="7079"
+                       condition="Destroyable"
+                       bfCheckSide="Attack"
+                       cameraOriented="false"
+                       relatePos="0,0,0" />
+    </EffectInfo>
+    <EffectInfo id="71001"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="7104002"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="99401"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="9942001"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="99402"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="7159"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="99403"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="7155"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="99404"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="7154"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="99405"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="7153"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="99406"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="9941016"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="99407"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="9943015"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="93501"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="117051201"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="303401"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="117051201"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="62600"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="626001"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="93901"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="217120100"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="62801"
+                type="Collection"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="6144"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="62802"
+                type="Collection"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="6145"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="98201"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="6152"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="98202"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="982002"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="98203"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="982008"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="98204"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="982009"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="98205"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="982010"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="98206"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="982011"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="98207"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="982012"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="98208"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="982013"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="98209"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="982029"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="98210"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="982033"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="98211"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="982052"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="98212"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="982067"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="982068"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="302801"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="6152"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="302802"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="982002"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="302803"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="982008"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="302804"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="982009"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="302805"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="982010"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="302806"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="982011"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="302807"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="982012"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="302808"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="982013"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="302809"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="982029"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="302810"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="982033"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="302811"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="982052"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="302812"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="982067"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="982068"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="99901"
+                type="Collection"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="7260"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="99902"
+                type="Collection"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="34000"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="99903"
+                type="Collection"
+                distFromObject="100"
+                notCareOption="true">
+        <ConditionInfo effectId="34001"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="320101"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="7014001"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="250201"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="119050302"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="302601"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="119071201"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="302602"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="119071202"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="302603"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="119071203"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="302604"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="119050302"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="302201"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="6223"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="302010"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="302010"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="302011"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="302011"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="300201"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="3002003"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="3002004"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="3002005"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="300202"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="3002006"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="3002007"
+                       condition="Default"
+                       cameraOriented="false" />
+        <ConditionInfo effectId="3002008"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="300203"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="3002009"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="999011"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="9900110"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="999012"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="5384"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="999013"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="5140609"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="999014"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="42301001"
+                       condition="Default"
+                       cameraOriented="false" />
+    </EffectInfo>
+    <EffectInfo id="6257"
+                type="Collection"
+                distFromObject="50"
+                notCareOption="true">
+        <ConditionInfo effectId="6257"
+                       condition="Default"
+                       cameraOriented="false" />
     </EffectInfo>
 </GuideEffect>

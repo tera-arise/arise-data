@@ -1,394 +1,2307 @@
-<BattleInfoData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/BattleInfoData BattleInfoData.xsd" xmlns="https://vezel.dev/novadrop/dc/BattleInfoData">
+<BattleInfoData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="https://vezel.dev/novadrop/dc/BattleInfoData BattleInfoData.xsd"
+                xmlns="https://vezel.dev/novadrop/dc/BattleInfoData">
     <DamageText>
         <AttackWeight>
-            <Format ratio="0.9" endWeight="0.2" startWeight="0.01" />
-            <Format ratio="0.925" endWeight="0.4" startWeight="0.2" />
-            <Format ratio="0.95" endWeight="0.6" startWeight="0.4" />
-            <Format ratio="0.975" endWeight="0.8" startWeight="0.6" />
-            <Format ratio="0.8" endWeight="1" startWeight="0.8" />
+            <Format ratio="0.9"
+                    endWeight="0.2"
+                    startWeight="0.01" />
+            <Format ratio="0.925"
+                    endWeight="0.4"
+                    startWeight="0.2" />
+            <Format ratio="0.95"
+                    endWeight="0.6"
+                    startWeight="0.4" />
+            <Format ratio="0.975"
+                    endWeight="0.8"
+                    startWeight="0.6" />
+            <Format ratio="0.8"
+                    endWeight="1"
+                    startWeight="0.8" />
         </AttackWeight>
         <DamageTextForm>
-            <Format kind="normal" type="damage" ratio="0.68" lifeTime="400" color="255,255,255" font="filletburger" isAttacker="true" nocTanGrade="0" performer="Player" postfix="" prefix="" />
-            <Format kind="critical" type="damage" ratio="1.02" lifeTime="960" color="255,153,0" font="filletburger" isAttacker="true" nocTanGrade="0" performer="Player" postfix="" prefix="" />
-            <Format kind="vehiclecritical" type="damage" ratio="1.02" lifeTime="960" color="255,76,21" font="filletburger" isAttacker="true" nocTanGrade="0" performer="Player" postfix="" prefix="" />
-            <Format kind="normal" type="heal" ratio="0.68" lifeTime="800" color="20,220,40" font="filletburger3" isAttacker="true" nocTanGrade="0" performer="Player" postfix="" prefix="+" />
-            <Format kind="critical" type="heal" ratio="1.02" lifeTime="1600" color="20,220,40" font="filletburger3" isAttacker="true" nocTanGrade="0" performer="Player" postfix="" prefix="+" />
-            <Format kind="normal" type="manadamage" ratio="0.68" lifeTime="400" color="0,125,255" font="filletburger" isAttacker="true" nocTanGrade="0" performer="Player" postfix="" prefix="-" />
-            <Format kind="critical" type="manadamage" ratio="1.02" lifeTime="800" color="0,125,255" font="filletburger" isAttacker="true" nocTanGrade="0" performer="Player" postfix="" prefix="-" />
-            <Format kind="normal" type="manaheal" ratio="0.68" lifeTime="800" color="0,125,255" font="filletburger" isAttacker="true" nocTanGrade="0" performer="Player" postfix="" prefix="+" />
-            <Format kind="critical" type="manaheal" ratio="1.02" lifeTime="1600" color="0,125,255" font="filletburger" isAttacker="true" nocTanGrade="0" performer="Player" postfix="" prefix="+" />
-            <Format kind="normal" type="damage" ratio="0.68" lifeTime="400" color="220,20,20" font="filletburger" isAttacker="false" nocTanGrade="0" performer="Player" postfix="" prefix="-" />
-            <Format kind="critical" type="damage" ratio="1.02" lifeTime="800" color="220,20,20" font="filletburger" isAttacker="false" nocTanGrade="0" performer="Player" postfix="" prefix="-" />
-            <Format kind="normal" type="heal" ratio="0.68" lifeTime="800" color="20,220,40" font="filletburger3" isAttacker="false" nocTanGrade="0" performer="Player" postfix="" prefix="+" />
-            <Format kind="critical" type="heal" ratio="1.02" lifeTime="1600" color="20,220,40" font="filletburger3" isAttacker="false" nocTanGrade="0" performer="Player" postfix="" prefix="+" />
-            <Format kind="normal" type="manadamage" ratio="0.68" lifeTime="400" color="0,125,255" font="filletburger" isAttacker="false" nocTanGrade="0" performer="Player" postfix="" prefix="-" />
-            <Format kind="critical" type="manadamage" ratio="1.02" lifeTime="800" color="0,125,255" font="filletburger" isAttacker="false" nocTanGrade="0" performer="Player" postfix="" prefix="-" />
-            <Format kind="normal" type="manaheal" ratio="0.68" lifeTime="800" color="0,125,255" font="filletburger" isAttacker="false" nocTanGrade="0" performer="Player" postfix="" prefix="+" />
-            <Format kind="critical" type="manaheal" ratio="1.02" lifeTime="1600" color="0,125,255" font="filletburger" isAttacker="false" nocTanGrade="0" performer="Player" postfix="" prefix="+" />
-            <Format kind="normal" type="dot" ratio="0.68" lifeTime="400" color="160,20,220" font="filletburger" isAttacker="true" nocTanGrade="0" performer="Player" postfix="" prefix="" />
-            <Format kind="critical" type="dot" ratio="1.02" lifeTime="400" color="160,20,220" font="filletburger" isAttacker="true" nocTanGrade="0" performer="Player" postfix="" prefix="" />
-            <Format kind="normal" type="hot" ratio="0.68" lifeTime="800" color="20,220,40" font="filletburger3" isAttacker="true" nocTanGrade="0" performer="Player" postfix="" prefix="+" />
-            <Format kind="critical" type="hot" ratio="1.02" lifeTime="800" color="20,220,40" font="filletburger3" isAttacker="true" nocTanGrade="0" performer="Player" postfix="" prefix="+" />
-            <Format kind="normal" type="manadot" ratio="0.68" lifeTime="400" color="0,125,255" font="filletburger" isAttacker="true" nocTanGrade="0" performer="Player" postfix="" prefix="-" />
-            <Format kind="critical" type="manadot" ratio="1.02" lifeTime="400" color="0,125,255" font="filletburger" isAttacker="true" nocTanGrade="0" performer="Player" postfix="" prefix="-" />
-            <Format kind="normal" type="manahot" ratio="0.68" lifeTime="800" color="0,125,255" font="filletburger" isAttacker="true" nocTanGrade="0" performer="Player" postfix="" prefix="+" />
-            <Format kind="critical" type="manahot" ratio="1.02" lifeTime="800" color="0,125,255" font="filletburger" isAttacker="true" nocTanGrade="0" performer="Player" postfix="" prefix="+" />
-            <Format kind="normal" type="dot" ratio="0.68" lifeTime="400" color="220,20,20" font="filletburger" isAttacker="false" nocTanGrade="0" performer="Player" postfix="" prefix="-" />
-            <Format kind="critical" type="dot" ratio="1.02" lifeTime="400" color="220,20,20" font="filletburger" isAttacker="false" nocTanGrade="0" performer="Player" postfix="" prefix="-" />
-            <Format kind="normal" type="hot" ratio="0.68" lifeTime="800" color="20,220,40" font="filletburger3" isAttacker="false" nocTanGrade="0" performer="Player" postfix="" prefix="+" />
-            <Format kind="critical" type="hot" ratio="1.02" lifeTime="800" color="20,220,40" font="filletburger3" isAttacker="false" nocTanGrade="0" performer="Player" postfix="" prefix="+" />
-            <Format kind="normal" type="manadot" ratio="0.68" lifeTime="400" color="0,125,255" font="filletburger" isAttacker="false" nocTanGrade="0" performer="Player" postfix="" prefix="-" />
-            <Format kind="critical" type="manadot" ratio="1.02" lifeTime="400" color="0,125,255" font="filletburger" isAttacker="false" nocTanGrade="0" performer="Player" postfix="" prefix="-" />
-            <Format kind="normal" type="manahot" ratio="0.68" lifeTime="800" color="0,125,255" font="filletburger" isAttacker="false" nocTanGrade="0" performer="Player" postfix="" prefix="+" />
-            <Format kind="critical" type="manahot" ratio="1.02" lifeTime="800" color="0,125,255" font="filletburger" isAttacker="false" nocTanGrade="0" performer="Player" postfix="" prefix="+" />
-            <Format type="falling" ratio="0.68" lifeTime="800" color="220,20,20" font="filletburger" nocTanGrade="0" performer="Player" postfix="" prefix="-" />
-            <Format type="exp" ratio="0.68" lifeTime="800" color="255,120,20" font="filletburger" nocTanGrade="0" performer="Player" postfix="" prefix="e" />
-            <Format type="bonusExp" ratio="0.68" lifeTime="800" color="0,192,255" font="filletburger" nocTanGrade="0" performer="Player" postfix="" prefix="e" />
-            <Format type="vipSystemBonusExp" ratio="0.68" lifeTime="800" color="255,228,0" font="filletburger" nocTanGrade="0" performer="Player" postfix="" prefix="e" />
-            <Format type="skillPolishingExp" ratio="1.7" lifeTime="1600" color="220,152,6" font="filletburger10" nocTanGrade="0" performer="Player" postfix="" prefix="g" />
-            <Format type="defence" ratio="0" lifeTime="0" color="255,255,255" font="filletburger" nocTanGrade="0" performer="Player" postfix="" prefix="" />
-            <Format type="bfKill" ratio="0.85" lifeTime="800" color="255,125,0" font="filletburger2" nocTanGrade="0" performer="Player" postfix="" prefix="k" />
-            <Format type="bfAssist" ratio="0.85" lifeTime="800" color="0,192,255" font="filletburger2" nocTanGrade="0" performer="Player" postfix="" prefix="a" />
-            <Format kind="normal" type="shadowDamage" ratio="0.663" lifeTime="320" color="126,175,255" font="filletburger" isAttacker="true" nocTanGrade="0" performer="Player" postfix="" prefix="" />
-            <Format kind="critical" type="shadowDamage" ratio="0.952" lifeTime="800" color="126,175,255" font="filletburger" isAttacker="true" nocTanGrade="0" performer="Player" postfix="" prefix="" />
-            <Format kind="normal" type="damage" ratio="0.68" lifeTime="400" color="255,255,255" font="filletburger" isAttacker="true" nocTanGrade="0" performer="Spirit" postfix="" prefix="" />
-            <Format kind="critical" type="damage" ratio="1.02" lifeTime="800" color="255,153,0" font="filletburger" isAttacker="true" nocTanGrade="0" performer="Spirit" postfix="" prefix="" />
-            <Format kind="normal" type="heal" ratio="0.68" lifeTime="800" color="20,220,40" font="filletburger3" isAttacker="true" nocTanGrade="0" performer="Spirit" postfix="" prefix="+" />
-            <Format kind="critical" type="heal" ratio="1.02" lifeTime="1600" color="20,220,40" font="filletburger3" isAttacker="true" nocTanGrade="0" performer="Spirit" postfix="" prefix="+" />
-            <Format kind="normal" type="manadamage" ratio="0.68" lifeTime="400" color="0,125,255" font="filletburger" isAttacker="true" nocTanGrade="0" performer="Spirit" postfix="" prefix="-" />
-            <Format kind="critical" type="manadamage" ratio="1.02" lifeTime="800" color="0,125,255" font="filletburger" isAttacker="true" nocTanGrade="0" performer="Spirit" postfix="" prefix="-" />
-            <Format kind="normal" type="manaheal" ratio="0.68" lifeTime="800" color="0,125,255" font="filletburger3" isAttacker="true" nocTanGrade="0" performer="Spirit" postfix="" prefix="+" />
-            <Format kind="critical" type="manaheal" ratio="1.02" lifeTime="1600" color="0,125,255" font="filletburger3" isAttacker="true" nocTanGrade="0" performer="Spirit" postfix="" prefix="+" />
-            <Format kind="normal" type="damage" ratio="0.68" lifeTime="400" color="220,20,20" font="filletburger" isAttacker="false" nocTanGrade="0" performer="Spirit" postfix="" prefix="-" />
-            <Format kind="critical" type="damage" ratio="1.02" lifeTime="800" color="220,20,20" font="filletburger" isAttacker="false" nocTanGrade="0" performer="Spirit" postfix="" prefix="-" />
-            <Format kind="normal" type="heal" ratio="0.68" lifeTime="800" color="20,220,40" font="filletburger3" isAttacker="false" nocTanGrade="0" performer="Spirit" postfix="" prefix="+" />
-            <Format kind="critical" type="heal" ratio="1.02" lifeTime="1600" color="20,220,40," font="filletburger3" isAttacker="false" nocTanGrade="0" performer="Spirit" postfix="" prefix="+" />
-            <Format kind="normal" type="manadamage" ratio="0.68" lifeTime="400" color="0,125,255" font="filletburger" isAttacker="false" nocTanGrade="0" performer="Spirit" postfix="" prefix="-" />
-            <Format kind="critical" type="manadamage" ratio="1.02" lifeTime="800" color="0,125,255" font="filletburger" isAttacker="false" nocTanGrade="0" performer="Spirit" postfix="" prefix="-" />
-            <Format kind="normal" type="manaheal" ratio="0.68" lifeTime="800" color="0,125,255" font="filletburger" isAttacker="false" nocTanGrade="0" performer="Spirit" postfix="" prefix="+" />
-            <Format kind="critical" type="manaheal" ratio="1.02" lifeTime="1600" color="0,125,255" font="filletburger" isAttacker="false" nocTanGrade="0" performer="Spirit" postfix="" prefix="+" />
-            <Format kind="normal" type="dot" ratio="0.68" lifeTime="400" color="160,20,220" font="filletburger" isAttacker="true" nocTanGrade="0" performer="Spirit" postfix="" prefix="" />
-            <Format kind="critical" type="dot" ratio="0.68" lifeTime="400" color="160,20,220" font="filletburger" isAttacker="true" nocTanGrade="0" performer="Spirit" postfix="" prefix="" />
-            <Format kind="normal" type="hot" ratio="0.68" lifeTime="800" color="20,220,40" font="filletburger3" isAttacker="true" nocTanGrade="0" performer="Spirit" postfix="" prefix="+" />
-            <Format kind="critical" type="hot" ratio="1.02" lifeTime="800" color="20,220,40" font="filletburger3" isAttacker="true" nocTanGrade="0" performer="Spirit" postfix="" prefix="+" />
-            <Format type="manadot" ratio="0.68" lifeTime="400" color="0,125,255" font="filletburger" isAttacker="true" nocTanGrade="0" performer="Spirit" postfix="" prefix="-" />
-            <Format type="manahot" ratio="0.68" lifeTime="800" color="0,125,255" font="filletburger" isAttacker="true" nocTanGrade="0" performer="Spirit" postfix="" prefix="+" />
-            <Format type="dot" ratio="0.68" lifeTime="400" color="220,20,20" font="filletburger" isAttacker="false" nocTanGrade="0" performer="Spirit" postfix="" prefix="-" />
-            <Format type="hot" ratio="0.68" lifeTime="800" color="20,220,40" font="filletburger" isAttacker="false" nocTanGrade="0" performer="Spirit" postfix="" prefix="+" />
-            <Format type="manadot" ratio="0.68" lifeTime="400" color="0,125,255" font="filletburger" isAttacker="false" nocTanGrade="0" performer="Spirit" postfix="" prefix="-" />
-            <Format type="manahot" ratio="0.68" lifeTime="800" color="0,125,255" font="filletburger" isAttacker="false" nocTanGrade="0" performer="Spirit" postfix="" prefix="+" />
-            <Format type="falling" ratio="0.68" lifeTime="800" color="220,20,20" font="filletburger" nocTanGrade="0" performer="Spirit" postfix="" prefix="-" />
-            <Format type="exp" ratio="0.68" lifeTime="800" color="255,120,20" font="filletburger" nocTanGrade="0" performer="Spirit" postfix="" prefix="e" />
-            <Format type="bonusExp" ratio="0.68" lifeTime="800" color="0,192,255" font="filletburger" nocTanGrade="0" performer="Spirit" postfix="" prefix="e" />
-            <Format type="defence" ratio="0" lifeTime="0" color="255,255,255" font="filletburger" nocTanGrade="0" performer="Spirit" postfix="" prefix="" />
-            <Format kind="normal" type="damage" ratio="0.85" lifeTime="960" color="255,255,0" font="filletburger" isAttacker="true" nocTanGrade="1" performer="Spirit" postfix="" prefix="" />
-            <Format kind="critical" type="damage" ratio="1.105" lifeTime="1600" color="255,153,0" font="filletburger" isAttacker="true" nocTanGrade="1" performer="Spirit" postfix="" prefix="" />
-            <Format kind="normal" type="damage" ratio="0.85" lifeTime="960" color="255,255,0" font="filletburger" isAttacker="true" nocTanGrade="1" performer="Player" postfix="" prefix="" />
-            <Format kind="critical" type="damage" ratio="1.105" lifeTime="1600" color="255,153,0" font="filletburger" isAttacker="true" nocTanGrade="1" performer="Player" postfix="" prefix="" />
-            <Format kind="vehiclecritical" type="damage" ratio="1.105" lifeTime="1600" color="255,76,21" font="filletburger" isAttacker="true" nocTanGrade="1" performer="Player" postfix="" prefix="" />
-            <Format kind="normal" type="heal" ratio="0.85" lifeTime="800" color="20,220,40" font="filletburger3" isAttacker="true" nocTanGrade="1" performer="Player" postfix="" prefix="+" />
-            <Format kind="critical" type="heal" ratio="1.02" lifeTime="1600" color="20,220,40" font="filletburger3" isAttacker="true" nocTanGrade="1" performer="Player" postfix="" prefix="+" />
-            <Format kind="normal" type="manadamage" ratio="0.68" lifeTime="400" color="0,125,255" font="filletburger" isAttacker="true" nocTanGrade="1" performer="Player" postfix="" prefix="-" />
-            <Format kind="critical" type="manadamage" ratio="1.02" lifeTime="800" color="0,125,255" font="filletburger" isAttacker="true" nocTanGrade="1" performer="Player" postfix="" prefix="-" />
-            <Format kind="normal" type="manaheal" ratio="0.85" lifeTime="800" color="0,160,255" font="filletburger" isAttacker="true" nocTanGrade="1" performer="Player" postfix="" prefix="+" />
-            <Format kind="critical" type="manaheal" ratio="1.02" lifeTime="1600" color="0,160,255" font="filletburger" isAttacker="true" nocTanGrade="1" performer="Player" postfix="" prefix="+" />
-            <Format kind="normal" type="damage" ratio="0.68" lifeTime="400" color="220,20,20" font="filletburger" isAttacker="false" nocTanGrade="1" performer="Player" postfix="" prefix="-" />
-            <Format kind="critical" type="damage" ratio="1.02" lifeTime="800" color="220,20,20" font="filletburger" isAttacker="false" nocTanGrade="1" performer="Player" postfix="" prefix="-" />
-            <Format kind="normal" type="heal" ratio="0.68" lifeTime="800" color="20,220,40" font="filletburger3" isAttacker="false" nocTanGrade="1" performer="Player" postfix="" prefix="+" />
-            <Format kind="critical" type="heal" ratio="1.02" lifeTime="1600" color="20,220,40" font="filletburger3" isAttacker="false" nocTanGrade="1" performer="Player" postfix="" prefix="+" />
-            <Format kind="normal" type="manadamage" ratio="0.68" lifeTime="400" color="0,125,255" font="filletburger" isAttacker="false" nocTanGrade="1" performer="Player" postfix="" prefix="-" />
-            <Format kind="critical" type="manadamage" ratio="1.02" lifeTime="800" color="0,125,255" font="filletburger" isAttacker="false" nocTanGrade="1" performer="Player" postfix="" prefix="-" />
-            <Format kind="normal" type="manaheal" ratio="0.68" lifeTime="800" color="0,160,255" font="filletburger3" isAttacker="false" nocTanGrade="1" performer="Player" postfix="" prefix="+" />
-            <Format kind="critical" type="manaheal" ratio="1.02" lifeTime="1600" color="0,160,255" font="filletburger3" isAttacker="false" nocTanGrade="1" performer="Player" postfix="" prefix="+" />
-            <Format kind="normal" type="dot" ratio="0.68" lifeTime="400" color="160,20,220" font="filletburger" isAttacker="true" nocTanGrade="1" performer="Player" postfix="" prefix="" />
-            <Format kind="critical" type="dot" ratio="1.02" lifeTime="400" color="160,20,220" font="filletburger" isAttacker="true" nocTanGrade="1" performer="Player" postfix="" prefix="" />
-            <Format kind="normal" type="hot" ratio="0.68" lifeTime="800" color="20,220,40" font="filletburger3" isAttacker="true" nocTanGrade="1" performer="Player" postfix="" prefix="+" />
-            <Format kind="critical" type="hot" ratio="1.02" lifeTime="800" color="20,220,40" font="filletburger3" isAttacker="true" nocTanGrade="1" performer="Player" postfix="" prefix="+" />
-            <Format type="manadot" ratio="0.68" lifeTime="400" color="0,125,255" font="filletburger" isAttacker="true" nocTanGrade="1" performer="Player" postfix="" prefix="-" />
-            <Format type="manahot" ratio="0.68" lifeTime="800" color="0,125,255" font="filletburger" isAttacker="true" nocTanGrade="1" performer="Player" postfix="" prefix="+" />
-            <Format kind="normal" type="dot" ratio="0.68" lifeTime="400" color="220,20,20" font="filletburger" isAttacker="false" nocTanGrade="1" performer="Player" postfix="" prefix="-" />
-            <Format kind="critical" type="dot" ratio="1.02" lifeTime="400" color="220,20,20" font="filletburger" isAttacker="false" nocTanGrade="1" performer="Player" postfix="" prefix="-" />
-            <Format kind="normal" type="hot" ratio="0.68" lifeTime="800" color="20,220,40" font="filletburger3" isAttacker="false" nocTanGrade="1" performer="Player" postfix="" prefix="+" />
-            <Format kind="critical" type="hot" ratio="0.68" lifeTime="800" color="20,220,40" font="filletburger3" isAttacker="false" nocTanGrade="1" performer="Player" postfix="" prefix="+" />
-            <Format type="manadot" ratio="0.68" lifeTime="400" color="0,125,255" font="filletburger" isAttacker="false" nocTanGrade="1" performer="Player" postfix="" prefix="-" />
-            <Format type="manahot" ratio="0.68" lifeTime="800" color="0,125,255" font="filletburger" isAttacker="false" nocTanGrade="1" performer="Player" postfix="" prefix="+" />
-            <Format type="falling" ratio="0.68" lifeTime="800" color="220,20,20" font="filletburger" nocTanGrade="1" performer="Player" postfix="" prefix="-" />
-            <Format type="exp" ratio="0.68" lifeTime="800" color="255,120,20" font="filletburger" nocTanGrade="1" performer="Player" postfix="" prefix="e" />
-            <Format type="bonusExp" ratio="0.68" lifeTime="800" color="0,192,255" font="filletburger" nocTanGrade="1" performer="Player" postfix="" prefix="e" />
-            <Format type="defence" ratio="0" lifeTime="0" color="255,255,255" font="filletburger" nocTanGrade="1" performer="Player" postfix="" prefix="" />
-            <Format kind="normal" type="shadowDamage" ratio="0.663" lifeTime="320" color="0,153,255" font="filletburger" isAttacker="true" nocTanGrade="1" performer="Player" postfix="" prefix="" />
-            <Format kind="critical" type="shadowDamage" ratio="0.952" lifeTime="800" color="0,153,255" font="filletburger" isAttacker="true" nocTanGrade="1" performer="Player" postfix="" prefix="" />
-            <Format kind="normal" type="damage" ratio="1" lifeTime="800" color="255,255,255" font="filletburger" isAttacker="true" nocTanGrade="0" performer="HeroPlayer" postfix="" prefix="" />
-            <Format kind="critical" type="damage" ratio="1.25" lifeTime="1100" color="255,153,0" font="filletburger" isAttacker="true" nocTanGrade="0" performer="HeroPlayer" postfix="" prefix="" />
-            <Format kind="normal" type="heal" ratio="1.2" lifeTime="1200" color="20,220,40" font="filletburger3" isAttacker="true" nocTanGrade="0" performer="HeroPlayer" postfix="" prefix="+" />
-            <Format kind="critical" type="heal" ratio="1.5" lifeTime="1600" color="20,220,40" font="filletburger3" isAttacker="true" nocTanGrade="0" performer="HeroPlayer" postfix="" prefix="+" />
-            <Format kind="normal" type="dot" ratio="1" lifeTime="800" color="160,20,220" font="filletburger" isAttacker="true" nocTanGrade="0" performer="HeroPlayer" postfix="" prefix="" />
-            <Format kind="critical" type="dot" ratio="1.2" lifeTime="1100" color="160,20,220" font="filletburger" isAttacker="true" nocTanGrade="0" performer="HeroPlayer" postfix="" prefix="" />
-            <Format kind="normal" type="manaheal" ratio="1.2" lifeTime="1200" color="0,125,255" font="filletburger" isAttacker="true" nocTanGrade="0" performer="HeroPlayer" postfix="" prefix="+" />
-            <Format kind="critical" type="manaheal" ratio="1.5" lifeTime="1600" color="0,125,255" font="filletburger" isAttacker="true" nocTanGrade="0" performer="HeroPlayer" postfix="" prefix="+" />
-            <Format kind="normal" type="damage" ratio="0.85" lifeTime="960" color="0,219,255" font="filletburger5" isAttacker="true" nocTanGrade="2" performer="Spirit" postfix="" prefix="" />
-            <Format kind="critical" type="damage" ratio="1.105" lifeTime="1600" color="255,153,0" font="filletburger6" isAttacker="true" nocTanGrade="2" performer="Spirit" postfix="" prefix="" />
-            <Format kind="normal" type="damage" ratio="0.85" lifeTime="960" color="0,219,255" font="filletburger" isAttacker="true" nocTanGrade="2" performer="Player" postfix="" prefix="" />
-            <Format kind="critical" type="damage" ratio="1.105" lifeTime="1600" color="255,153,0" font="filletburger" isAttacker="true" nocTanGrade="2" performer="Player" postfix="" prefix="" />
-            <Format kind="vehiclecritical" type="damage" ratio="1.105" lifeTime="1600" color="255,76,21" font="filletburger6" isAttacker="true" nocTanGrade="2" performer="Player" postfix="" prefix="" />
-            <Format kind="normal" type="heal" ratio="0.85" lifeTime="800" color="20,220,40" font="filletburger3" isAttacker="true" nocTanGrade="2" performer="Player" postfix="" prefix="+" />
-            <Format kind="critical" type="heal" ratio="1.02" lifeTime="1600" color="20,220,40" font="filletburger3" isAttacker="true" nocTanGrade="2" performer="Player" postfix="" prefix="+" />
-            <Format kind="normal" type="manadamage" ratio="0.68" lifeTime="400" color="0,125,255" font="filletburger" isAttacker="true" nocTanGrade="2" performer="Player" postfix="" prefix="-" />
-            <Format kind="critical" type="manadamage" ratio="1.02" lifeTime="800" color="0,125,255" font="filletburger" isAttacker="true" nocTanGrade="2" performer="Player" postfix="" prefix="-" />
-            <Format kind="normal" type="manaheal" ratio="0.85" lifeTime="800" color="0,160,255" font="filletburger" isAttacker="true" nocTanGrade="2" performer="Player" postfix="" prefix="+" />
-            <Format kind="critical" type="manaheal" ratio="1.02" lifeTime="1600" color="0,160,255" font="filletburger" isAttacker="true" nocTanGrade="2" performer="Player" postfix="" prefix="+" />
-            <Format kind="normal" type="damage" ratio="0.68" lifeTime="400" color="220,20,20" font="filletburger" isAttacker="false" nocTanGrade="2" performer="Player" postfix="" prefix="-" />
-            <Format kind="critical" type="damage" ratio="1.02" lifeTime="800" color="220,20,20" font="filletburger" isAttacker="false" nocTanGrade="2" performer="Player" postfix="" prefix="-" />
-            <Format kind="normal" type="heal" ratio="0.68" lifeTime="800" color="20,220,40" font="filletburger3" isAttacker="false" nocTanGrade="2" performer="Player" postfix="" prefix="+" />
-            <Format kind="critical" type="heal" ratio="1.02" lifeTime="1600" color="20,220,40" font="filletburger3" isAttacker="false" nocTanGrade="2" performer="Player" postfix="" prefix="+" />
-            <Format kind="normal" type="manadamage" ratio="0.68" lifeTime="400" color="0,125,255" font="filletburger" isAttacker="false" nocTanGrade="2" performer="Player" postfix="" prefix="-" />
-            <Format kind="critical" type="manadamage" ratio="1.02" lifeTime="800" color="0,125,255" font="filletburger" isAttacker="false" nocTanGrade="2" performer="Player" postfix="" prefix="-" />
-            <Format kind="normal" type="manaheal" ratio="0.68" lifeTime="800" color="0,160,255" font="filletburger3" isAttacker="false" nocTanGrade="2" performer="Player" postfix="" prefix="+" />
-            <Format kind="critical" type="manaheal" ratio="1.02" lifeTime="1600" color="0,160,255" font="filletburger3" isAttacker="false" nocTanGrade="2" performer="Player" postfix="" prefix="+" />
-            <Format kind="normal" type="dot" ratio="0.68" lifeTime="400" color="160,20,220" font="filletburger" isAttacker="true" nocTanGrade="2" performer="Player" postfix="" prefix="" />
-            <Format kind="critical" type="dot" ratio="1.02" lifeTime="400" color="160,20,220" font="filletburger" isAttacker="true" nocTanGrade="2" performer="Player" postfix="" prefix="" />
-            <Format kind="normal" type="hot" ratio="0.68" lifeTime="800" color="20,220,40" font="filletburger3" isAttacker="true" nocTanGrade="2" performer="Player" postfix="" prefix="+" />
-            <Format kind="critical" type="hot" ratio="1.02" lifeTime="800" color="20,220,40" font="filletburger3" isAttacker="true" nocTanGrade="2" performer="Player" postfix="" prefix="+" />
-            <Format type="manadot" ratio="0.68" lifeTime="400" color="0,125,255" font="filletburger" isAttacker="true" nocTanGrade="2" performer="Player" postfix="" prefix="-" />
-            <Format type="manahot" ratio="0.68" lifeTime="800" color="0,125,255" font="filletburger" isAttacker="true" nocTanGrade="2" performer="Player" postfix="" prefix="+" />
-            <Format kind="normal" type="dot" ratio="0.68" lifeTime="400" color="220,20,20" font="filletburger" isAttacker="false" nocTanGrade="2" performer="Player" postfix="" prefix="-" />
-            <Format kind="critical" type="dot" ratio="1.02" lifeTime="400" color="220,20,20" font="filletburger" isAttacker="false" nocTanGrade="2" performer="Player" postfix="" prefix="-" />
-            <Format kind="normal" type="hot" ratio="0.68" lifeTime="800" color="20,220,40" font="filletburger3" isAttacker="false" nocTanGrade="2" performer="Player" postfix="" prefix="+" />
-            <Format kind="critical" type="hot" ratio="0.68" lifeTime="800" color="20,220,40" font="filletburger3" isAttacker="false" nocTanGrade="2" performer="Player" postfix="" prefix="+" />
-            <Format type="manadot" ratio="0.68" lifeTime="400" color="0,125,255" font="filletburger" isAttacker="false" nocTanGrade="2" performer="Player" postfix="" prefix="-" />
-            <Format type="manahot" ratio="0.68" lifeTime="800" color="0,125,255" font="filletburger" isAttacker="false" nocTanGrade="2" performer="Player" postfix="" prefix="+" />
-            <Format type="falling" ratio="0.68" lifeTime="800" color="220,20,20" font="filletburger" nocTanGrade="2" performer="Player" postfix="" prefix="-" />
-            <Format type="exp" ratio="0.68" lifeTime="800" color="255,120,20" font="filletburger" nocTanGrade="2" performer="Player" postfix="" prefix="e" />
-            <Format type="bonusExp" ratio="0.68" lifeTime="800" color="0,192,255" font="filletburger" nocTanGrade="2" performer="Player" postfix="" prefix="e" />
-            <Format type="defence" ratio="0" lifeTime="0" color="255,255,255" font="filletburger" nocTanGrade="2" performer="Player" postfix="" prefix="" />
-            <Format kind="normal" type="shadowDamage" ratio="0.663" lifeTime="320" color="0,153,255" font="filletburger" isAttacker="true" nocTanGrade="2" performer="Player" postfix="" prefix="" />
-            <Format kind="critical" type="shadowDamage" ratio="0.952" lifeTime="800" color="0,153,255" font="filletburger" isAttacker="true" nocTanGrade="2" performer="Player" postfix="" prefix="" />
-            <Format type="cp" ratio="0.68" lifeTime="800" color="16,75,107" font="filletburger" isAttacker="true" nocTanGrade="0" performer="Player" postfix="" prefix="+" />
-            <Format type="cp" ratio="0.68" lifeTime="800" color="16,75,107" font="filletburger" isAttacker="false" nocTanGrade="0" performer="Player" postfix="" prefix="+" />
-            <Format type="cp" ratio="0.68" lifeTime="800" color="16,75,107" font="filletburger" isAttacker="true" nocTanGrade="1" performer="Player" postfix="" prefix="+" />
-            <Format type="cp" ratio="0.68" lifeTime="800" color="16,75,107" font="filletburger" isAttacker="false" nocTanGrade="1" performer="Player" postfix="" prefix="+" />
-            <Format type="cp" ratio="0.68" lifeTime="800" color="16,75,107" font="filletburger" isAttacker="true" nocTanGrade="2" performer="Player" postfix="" prefix="+" />
-            <Format type="cp" ratio="0.68" lifeTime="800" color="16,75,107" font="filletburger" isAttacker="false" nocTanGrade="2" performer="Player" postfix="" prefix="+" />
-            <Format type="flyingInteractionPoint" ratio="1.275" lifeTime="4000" color="255,255,255" followOffset="400, -500" followPlayer="true" font="filletburger8" isAttacker="false" performer="Player" prefix="+" />
-            <Format kind="interaction" type="flyingInteractionPoint" ratio="1.275" lifeTime="4000" color="255,255,255" followOffset="400, -500" followPlayer="true" font="filletburger8" isAttacker="false" performer="Player" postfix="" prefix="+" />
-            <Format type="flyingInteractionCombo" ratio="1.105" lifeTime="4000" color="255,255,143" followOffset="400, -500" followPlayer="true" font="filletburger8" isAttacker="false" performer="Player" postfix="i" />
+            <Format kind="normal"
+                    type="damage"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="255,255,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="" />
+            <Format kind="critical"
+                    type="damage"
+                    ratio="1.02"
+                    lifeTime="960"
+                    color="255,153,0"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="" />
+            <Format kind="vehiclecritical"
+                    type="damage"
+                    ratio="1.02"
+                    lifeTime="960"
+                    color="255,76,21"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="" />
+            <Format kind="normal"
+                    type="heal"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="heal"
+                    ratio="1.02"
+                    lifeTime="1600"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="normal"
+                    type="manadamage"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="critical"
+                    type="manadamage"
+                    ratio="1.02"
+                    lifeTime="800"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="normal"
+                    type="manaheal"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="manaheal"
+                    ratio="1.02"
+                    lifeTime="1600"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="normal"
+                    type="damage"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="220,20,20"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="critical"
+                    type="damage"
+                    ratio="1.02"
+                    lifeTime="800"
+                    color="220,20,20"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="normal"
+                    type="heal"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="heal"
+                    ratio="1.02"
+                    lifeTime="1600"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="normal"
+                    type="manadamage"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="critical"
+                    type="manadamage"
+                    ratio="1.02"
+                    lifeTime="800"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="normal"
+                    type="manaheal"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="manaheal"
+                    ratio="1.02"
+                    lifeTime="1600"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="normal"
+                    type="dot"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="160,20,220"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="" />
+            <Format kind="critical"
+                    type="dot"
+                    ratio="1.02"
+                    lifeTime="400"
+                    color="160,20,220"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="" />
+            <Format kind="normal"
+                    type="hot"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="hot"
+                    ratio="1.02"
+                    lifeTime="800"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="normal"
+                    type="manadot"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="critical"
+                    type="manadot"
+                    ratio="1.02"
+                    lifeTime="400"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="normal"
+                    type="manahot"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="manahot"
+                    ratio="1.02"
+                    lifeTime="800"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="normal"
+                    type="dot"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="220,20,20"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="critical"
+                    type="dot"
+                    ratio="1.02"
+                    lifeTime="400"
+                    color="220,20,20"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="normal"
+                    type="hot"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="hot"
+                    ratio="1.02"
+                    lifeTime="800"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="normal"
+                    type="manadot"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="critical"
+                    type="manadot"
+                    ratio="1.02"
+                    lifeTime="400"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="normal"
+                    type="manahot"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="manahot"
+                    ratio="1.02"
+                    lifeTime="800"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format type="falling"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="220,20,20"
+                    font="filletburger"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format type="exp"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="255,120,20"
+                    font="filletburger"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="e" />
+            <Format type="bonusExp"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="0,192,255"
+                    font="filletburger"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="e" />
+            <Format type="vipSystemBonusExp"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="255,228,0"
+                    font="filletburger"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="e" />
+            <Format type="skillPolishingExp"
+                    ratio="1.7"
+                    lifeTime="1600"
+                    color="220,152,6"
+                    font="filletburger10"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="g" />
+            <Format type="defence"
+                    ratio="0"
+                    lifeTime="0"
+                    color="255,255,255"
+                    font="filletburger"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="" />
+            <Format type="bfKill"
+                    ratio="0.85"
+                    lifeTime="800"
+                    color="255,125,0"
+                    font="filletburger2"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="k" />
+            <Format type="bfAssist"
+                    ratio="0.85"
+                    lifeTime="800"
+                    color="0,192,255"
+                    font="filletburger2"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="a" />
+            <Format kind="normal"
+                    type="shadowDamage"
+                    ratio="0.663"
+                    lifeTime="320"
+                    color="126,175,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="" />
+            <Format kind="critical"
+                    type="shadowDamage"
+                    ratio="0.952"
+                    lifeTime="800"
+                    color="126,175,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="" />
+            <Format kind="normal"
+                    type="damage"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="255,255,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="" />
+            <Format kind="critical"
+                    type="damage"
+                    ratio="1.02"
+                    lifeTime="800"
+                    color="255,153,0"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="" />
+            <Format kind="normal"
+                    type="heal"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="heal"
+                    ratio="1.02"
+                    lifeTime="1600"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="normal"
+                    type="manadamage"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="critical"
+                    type="manadamage"
+                    ratio="1.02"
+                    lifeTime="800"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="normal"
+                    type="manaheal"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="0,125,255"
+                    font="filletburger3"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="manaheal"
+                    ratio="1.02"
+                    lifeTime="1600"
+                    color="0,125,255"
+                    font="filletburger3"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="normal"
+                    type="damage"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="220,20,20"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="critical"
+                    type="damage"
+                    ratio="1.02"
+                    lifeTime="800"
+                    color="220,20,20"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="normal"
+                    type="heal"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="heal"
+                    ratio="1.02"
+                    lifeTime="1600"
+                    color="20,220,40,"
+                    font="filletburger3"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="normal"
+                    type="manadamage"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="critical"
+                    type="manadamage"
+                    ratio="1.02"
+                    lifeTime="800"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="normal"
+                    type="manaheal"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="manaheal"
+                    ratio="1.02"
+                    lifeTime="1600"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="normal"
+                    type="dot"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="160,20,220"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="" />
+            <Format kind="critical"
+                    type="dot"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="160,20,220"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="" />
+            <Format kind="normal"
+                    type="hot"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="hot"
+                    ratio="1.02"
+                    lifeTime="800"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="+" />
+            <Format type="manadot"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="-" />
+            <Format type="manahot"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="+" />
+            <Format type="dot"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="220,20,20"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="-" />
+            <Format type="hot"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="20,220,40"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="+" />
+            <Format type="manadot"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="-" />
+            <Format type="manahot"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="+" />
+            <Format type="falling"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="220,20,20"
+                    font="filletburger"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="-" />
+            <Format type="exp"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="255,120,20"
+                    font="filletburger"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="e" />
+            <Format type="bonusExp"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="0,192,255"
+                    font="filletburger"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="e" />
+            <Format type="defence"
+                    ratio="0"
+                    lifeTime="0"
+                    color="255,255,255"
+                    font="filletburger"
+                    nocTanGrade="0"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="" />
+            <Format kind="normal"
+                    type="damage"
+                    ratio="0.85"
+                    lifeTime="960"
+                    color="255,255,0"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="1"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="" />
+            <Format kind="critical"
+                    type="damage"
+                    ratio="1.105"
+                    lifeTime="1600"
+                    color="255,153,0"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="1"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="" />
+            <Format kind="normal"
+                    type="damage"
+                    ratio="0.85"
+                    lifeTime="960"
+                    color="255,255,0"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="" />
+            <Format kind="critical"
+                    type="damage"
+                    ratio="1.105"
+                    lifeTime="1600"
+                    color="255,153,0"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="" />
+            <Format kind="vehiclecritical"
+                    type="damage"
+                    ratio="1.105"
+                    lifeTime="1600"
+                    color="255,76,21"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="" />
+            <Format kind="normal"
+                    type="heal"
+                    ratio="0.85"
+                    lifeTime="800"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="true"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="heal"
+                    ratio="1.02"
+                    lifeTime="1600"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="true"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="normal"
+                    type="manadamage"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="critical"
+                    type="manadamage"
+                    ratio="1.02"
+                    lifeTime="800"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="normal"
+                    type="manaheal"
+                    ratio="0.85"
+                    lifeTime="800"
+                    color="0,160,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="manaheal"
+                    ratio="1.02"
+                    lifeTime="1600"
+                    color="0,160,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="normal"
+                    type="damage"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="220,20,20"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="critical"
+                    type="damage"
+                    ratio="1.02"
+                    lifeTime="800"
+                    color="220,20,20"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="normal"
+                    type="heal"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="false"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="heal"
+                    ratio="1.02"
+                    lifeTime="1600"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="false"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="normal"
+                    type="manadamage"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="critical"
+                    type="manadamage"
+                    ratio="1.02"
+                    lifeTime="800"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="normal"
+                    type="manaheal"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="0,160,255"
+                    font="filletburger3"
+                    isAttacker="false"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="manaheal"
+                    ratio="1.02"
+                    lifeTime="1600"
+                    color="0,160,255"
+                    font="filletburger3"
+                    isAttacker="false"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="normal"
+                    type="dot"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="160,20,220"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="" />
+            <Format kind="critical"
+                    type="dot"
+                    ratio="1.02"
+                    lifeTime="400"
+                    color="160,20,220"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="" />
+            <Format kind="normal"
+                    type="hot"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="true"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="hot"
+                    ratio="1.02"
+                    lifeTime="800"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="true"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format type="manadot"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format type="manahot"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="normal"
+                    type="dot"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="220,20,20"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="critical"
+                    type="dot"
+                    ratio="1.02"
+                    lifeTime="400"
+                    color="220,20,20"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="normal"
+                    type="hot"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="false"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="hot"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="false"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format type="manadot"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format type="manahot"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format type="falling"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="220,20,20"
+                    font="filletburger"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format type="exp"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="255,120,20"
+                    font="filletburger"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="e" />
+            <Format type="bonusExp"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="0,192,255"
+                    font="filletburger"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="e" />
+            <Format type="defence"
+                    ratio="0"
+                    lifeTime="0"
+                    color="255,255,255"
+                    font="filletburger"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="" />
+            <Format kind="normal"
+                    type="shadowDamage"
+                    ratio="0.663"
+                    lifeTime="320"
+                    color="0,153,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="" />
+            <Format kind="critical"
+                    type="shadowDamage"
+                    ratio="0.952"
+                    lifeTime="800"
+                    color="0,153,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="" />
+            <Format kind="normal"
+                    type="damage"
+                    ratio="1"
+                    lifeTime="800"
+                    color="255,255,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="HeroPlayer"
+                    postfix=""
+                    prefix="" />
+            <Format kind="critical"
+                    type="damage"
+                    ratio="1.25"
+                    lifeTime="1100"
+                    color="255,153,0"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="HeroPlayer"
+                    postfix=""
+                    prefix="" />
+            <Format kind="normal"
+                    type="heal"
+                    ratio="1.2"
+                    lifeTime="1200"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="HeroPlayer"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="heal"
+                    ratio="1.5"
+                    lifeTime="1600"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="HeroPlayer"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="normal"
+                    type="dot"
+                    ratio="1"
+                    lifeTime="800"
+                    color="160,20,220"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="HeroPlayer"
+                    postfix=""
+                    prefix="" />
+            <Format kind="critical"
+                    type="dot"
+                    ratio="1.2"
+                    lifeTime="1100"
+                    color="160,20,220"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="HeroPlayer"
+                    postfix=""
+                    prefix="" />
+            <Format kind="normal"
+                    type="manaheal"
+                    ratio="1.2"
+                    lifeTime="1200"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="HeroPlayer"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="manaheal"
+                    ratio="1.5"
+                    lifeTime="1600"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="HeroPlayer"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="normal"
+                    type="damage"
+                    ratio="0.85"
+                    lifeTime="960"
+                    color="0,219,255"
+                    font="filletburger5"
+                    isAttacker="true"
+                    nocTanGrade="2"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="" />
+            <Format kind="critical"
+                    type="damage"
+                    ratio="1.105"
+                    lifeTime="1600"
+                    color="255,153,0"
+                    font="filletburger6"
+                    isAttacker="true"
+                    nocTanGrade="2"
+                    performer="Spirit"
+                    postfix=""
+                    prefix="" />
+            <Format kind="normal"
+                    type="damage"
+                    ratio="0.85"
+                    lifeTime="960"
+                    color="0,219,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="" />
+            <Format kind="critical"
+                    type="damage"
+                    ratio="1.105"
+                    lifeTime="1600"
+                    color="255,153,0"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="" />
+            <Format kind="vehiclecritical"
+                    type="damage"
+                    ratio="1.105"
+                    lifeTime="1600"
+                    color="255,76,21"
+                    font="filletburger6"
+                    isAttacker="true"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="" />
+            <Format kind="normal"
+                    type="heal"
+                    ratio="0.85"
+                    lifeTime="800"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="true"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="heal"
+                    ratio="1.02"
+                    lifeTime="1600"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="true"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="normal"
+                    type="manadamage"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="critical"
+                    type="manadamage"
+                    ratio="1.02"
+                    lifeTime="800"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="normal"
+                    type="manaheal"
+                    ratio="0.85"
+                    lifeTime="800"
+                    color="0,160,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="manaheal"
+                    ratio="1.02"
+                    lifeTime="1600"
+                    color="0,160,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="normal"
+                    type="damage"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="220,20,20"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="critical"
+                    type="damage"
+                    ratio="1.02"
+                    lifeTime="800"
+                    color="220,20,20"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="normal"
+                    type="heal"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="false"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="heal"
+                    ratio="1.02"
+                    lifeTime="1600"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="false"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="normal"
+                    type="manadamage"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="critical"
+                    type="manadamage"
+                    ratio="1.02"
+                    lifeTime="800"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="normal"
+                    type="manaheal"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="0,160,255"
+                    font="filletburger3"
+                    isAttacker="false"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="manaheal"
+                    ratio="1.02"
+                    lifeTime="1600"
+                    color="0,160,255"
+                    font="filletburger3"
+                    isAttacker="false"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="normal"
+                    type="dot"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="160,20,220"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="" />
+            <Format kind="critical"
+                    type="dot"
+                    ratio="1.02"
+                    lifeTime="400"
+                    color="160,20,220"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="" />
+            <Format kind="normal"
+                    type="hot"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="true"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="hot"
+                    ratio="1.02"
+                    lifeTime="800"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="true"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format type="manadot"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format type="manahot"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="normal"
+                    type="dot"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="220,20,20"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="critical"
+                    type="dot"
+                    ratio="1.02"
+                    lifeTime="400"
+                    color="220,20,20"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format kind="normal"
+                    type="hot"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="false"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format kind="critical"
+                    type="hot"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="20,220,40"
+                    font="filletburger3"
+                    isAttacker="false"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format type="manadot"
+                    ratio="0.68"
+                    lifeTime="400"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format type="manahot"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="0,125,255"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format type="falling"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="220,20,20"
+                    font="filletburger"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="-" />
+            <Format type="exp"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="255,120,20"
+                    font="filletburger"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="e" />
+            <Format type="bonusExp"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="0,192,255"
+                    font="filletburger"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="e" />
+            <Format type="defence"
+                    ratio="0"
+                    lifeTime="0"
+                    color="255,255,255"
+                    font="filletburger"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="" />
+            <Format kind="normal"
+                    type="shadowDamage"
+                    ratio="0.663"
+                    lifeTime="320"
+                    color="0,153,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="" />
+            <Format kind="critical"
+                    type="shadowDamage"
+                    ratio="0.952"
+                    lifeTime="800"
+                    color="0,153,255"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="" />
+            <Format type="cp"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="16,75,107"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format type="cp"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="16,75,107"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="0"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format type="cp"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="16,75,107"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format type="cp"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="16,75,107"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="1"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format type="cp"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="16,75,107"
+                    font="filletburger"
+                    isAttacker="true"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format type="cp"
+                    ratio="0.68"
+                    lifeTime="800"
+                    color="16,75,107"
+                    font="filletburger"
+                    isAttacker="false"
+                    nocTanGrade="2"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format type="flyingInteractionPoint"
+                    ratio="1.275"
+                    lifeTime="4000"
+                    color="255,255,255"
+                    followOffset="400, -500"
+                    followPlayer="true"
+                    font="filletburger8"
+                    isAttacker="false"
+                    performer="Player"
+                    prefix="+" />
+            <Format kind="interaction"
+                    type="flyingInteractionPoint"
+                    ratio="1.275"
+                    lifeTime="4000"
+                    color="255,255,255"
+                    followOffset="400, -500"
+                    followPlayer="true"
+                    font="filletburger8"
+                    isAttacker="false"
+                    performer="Player"
+                    postfix=""
+                    prefix="+" />
+            <Format type="flyingInteractionCombo"
+                    ratio="1.105"
+                    lifeTime="4000"
+                    color="255,255,143"
+                    followOffset="400, -500"
+                    followPlayer="true"
+                    font="filletburger8"
+                    isAttacker="false"
+                    performer="Player"
+                    postfix="i" />
         </DamageTextForm>
         <FontPositionSetting fixedFontZOffset="50" />
-        <FontSizeAdjustment maxFontSize="200" minFontSize="25" />
+        <FontSizeAdjustment maxFontSize="200"
+                            minFontSize="25" />
         <ScaleDistance>
-            <Format ratio="0.8" endDistance="200" startDistance="0" />
-            <Format ratio="0.94" endDistance="300" startDistance="200" />
-            <Format ratio="0.88" endDistance="400" startDistance="300" />
-            <Format ratio="0.82" endDistance="500" startDistance="400" />
-            <Format ratio="0.76" endDistance="600" startDistance="500" />
-            <Format ratio="0.7" endDistance="15360" startDistance="600" />
+            <Format ratio="0.8"
+                    endDistance="200"
+                    startDistance="0" />
+            <Format ratio="0.94"
+                    endDistance="300"
+                    startDistance="200" />
+            <Format ratio="0.88"
+                    endDistance="400"
+                    startDistance="300" />
+            <Format ratio="0.82"
+                    endDistance="500"
+                    startDistance="400" />
+            <Format ratio="0.76"
+                    endDistance="600"
+                    startDistance="500" />
+            <Format ratio="0.7"
+                    endDistance="15360"
+                    startDistance="600" />
         </ScaleDistance>
     </DamageText>
     <TimeTable type="normalDamage">
         <ColorTable>
-            <Point time="0" power="1" color="255,255,255,255" easeInOut="false" />
-            <Point time="0.5" power="1" color="255,255,255,255" easeInOut="false" />
-            <Point time="1" power="1" color="255,255,255,0" easeInOut="false" />
+            <Point time="0"
+                   power="1"
+                   color="255,255,255,255"
+                   easeInOut="false" />
+            <Point time="0.5"
+                   power="1"
+                   color="255,255,255,255"
+                   easeInOut="false" />
+            <Point time="1"
+                   power="1"
+                   color="255,255,255,0"
+                   easeInOut="false" />
         </ColorTable>
         <PositionTable>
-            <Point time="0" pos="0,0" power="1" easeInOut="false" />
-            <Point time="0.5" pos="0,0" power="1" easeInOut="false" />
-            <Point time="1" pos="0,-30" power="1" easeInOut="false" />
+            <Point time="0"
+                   pos="0,0"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="0.5"
+                   pos="0,0"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="1"
+                   pos="0,-30"
+                   power="1"
+                   easeInOut="false" />
         </PositionTable>
         <ScaleTable>
-            <Point time="0" scale="1.4,1.4" power="1" easeInOut="false" />
-            <Point time="0.25" scale="1.0,1.0" power="1" easeInOut="false" />
+            <Point time="0"
+                   scale="1.4,1.4"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="0.25"
+                   scale="1.0,1.0"
+                   power="1"
+                   easeInOut="false" />
         </ScaleTable>
     </TimeTable>
     <TimeTable type="criticalDamage">
         <ColorTable>
-            <Point time="0" power="1" color="255,255,255,0" easeInOut="false" />
-            <Point time="0.001" power="1" color="255,255,255,255" easeInOut="false" />
-            <Point time="0.5" power="1" color="255,255,255,255" easeInOut="false" />
-            <Point time="1" power="1" color="255,255,255,0" easeInOut="false" />
+            <Point time="0"
+                   power="1"
+                   color="255,255,255,0"
+                   easeInOut="false" />
+            <Point time="0.001"
+                   power="1"
+                   color="255,255,255,255"
+                   easeInOut="false" />
+            <Point time="0.5"
+                   power="1"
+                   color="255,255,255,255"
+                   easeInOut="false" />
+            <Point time="1"
+                   power="1"
+                   color="255,255,255,0"
+                   easeInOut="false" />
         </ColorTable>
         <PositionTable>
-            <Point time="0" pos="0,0" power="1" easeInOut="false" />
-            <Point time="0.5" pos="0,0" power="1" easeInOut="false" />
-            <Point time="1" pos="0,-30" power="1" easeInOut="false" />
+            <Point time="0"
+                   pos="0,0"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="0.5"
+                   pos="0,0"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="1"
+                   pos="0,-30"
+                   power="1"
+                   easeInOut="false" />
         </PositionTable>
         <ScaleTable>
-            <Point time="0" scale="2.1,2.1" power="1" easeInOut="false" />
-            <Point time="0.05" scale="1.0,1.0" power="1" easeInOut="false" />
+            <Point time="0"
+                   scale="2.1,2.1"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="0.05"
+                   scale="1.0,1.0"
+                   power="1"
+                   easeInOut="false" />
         </ScaleTable>
     </TimeTable>
     <TimeTable type="criticalBG">
         <ColorTable>
-            <Point time="0" power="1" color="255,255,255,255" easeInOut="false" />
-            <Point time="0.25" power="1" color="255,255,255,255" easeInOut="false" />
-            <Point time="0.5" power="1" color="255,255,255,0" easeInOut="false" />
+            <Point time="0"
+                   power="1"
+                   color="255,255,255,255"
+                   easeInOut="false" />
+            <Point time="0.25"
+                   power="1"
+                   color="255,255,255,255"
+                   easeInOut="false" />
+            <Point time="0.5"
+                   power="1"
+                   color="255,255,255,0"
+                   easeInOut="false" />
         </ColorTable>
         <PositionTable>
-            <Point time="0" pos="0,8" power="1" easeInOut="false" />
-            <Point time="0.5" pos="0,8" power="1" easeInOut="false" />
+            <Point time="0"
+                   pos="0,8"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="0.5"
+                   pos="0,8"
+                   power="1"
+                   easeInOut="false" />
         </PositionTable>
         <ScaleTable>
-            <Point time="0" scale="0.1,0.1" power="1" easeInOut="false" />
-            <Point time="0.05" scale="0.1,0.1" power="1" easeInOut="false" />
-            <Point time="0.07" scale="0.18,0.18" power="1" easeInOut="false" />
+            <Point time="0"
+                   scale="0.1,0.1"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="0.05"
+                   scale="0.1,0.1"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="0.07"
+                   scale="0.18,0.18"
+                   power="1"
+                   easeInOut="false" />
         </ScaleTable>
     </TimeTable>
     <TimeTable type="exp">
         <ColorTable>
-            <Point time="0" power="1" color="255,255,255,255" easeInOut="false" />
-            <Point time="0.75" power="1" color="255,255,255,255" easeInOut="false" />
-            <Point time="1" power="1" color="255,255,255,0" easeInOut="false" />
+            <Point time="0"
+                   power="1"
+                   color="255,255,255,255"
+                   easeInOut="false" />
+            <Point time="0.75"
+                   power="1"
+                   color="255,255,255,255"
+                   easeInOut="false" />
+            <Point time="1"
+                   power="1"
+                   color="255,255,255,0"
+                   easeInOut="false" />
         </ColorTable>
         <PositionTable>
-            <Point time="0" pos="-70,150" power="1" easeInOut="false" />
-            <Point time="0.75" pos="-70,150" power="1" easeInOut="false" />
-            <Point time="1" pos="-70,120" power="1" easeInOut="false" />
+            <Point time="0"
+                   pos="-70,150"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="0.75"
+                   pos="-70,150"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="1"
+                   pos="-70,120"
+                   power="1"
+                   easeInOut="false" />
         </PositionTable>
         <ScaleTable>
-            <Point time="0" scale="1.4,1.4" power="1" easeInOut="false" />
-            <Point time="0.25" scale="1.0,1.0" power="1" easeInOut="false" />
+            <Point time="0"
+                   scale="1.4,1.4"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="0.25"
+                   scale="1.0,1.0"
+                   power="1"
+                   easeInOut="false" />
         </ScaleTable>
     </TimeTable>
     <TimeTable type="bonusExp">
         <ColorTable>
-            <Point time="0" power="1" color="255,255,255,255" easeInOut="false" />
-            <Point time="0.75" power="1" color="255,255,255,255" easeInOut="false" />
-            <Point time="1" power="1" color="255,255,255,0" easeInOut="false" />
+            <Point time="0"
+                   power="1"
+                   color="255,255,255,255"
+                   easeInOut="false" />
+            <Point time="0.75"
+                   power="1"
+                   color="255,255,255,255"
+                   easeInOut="false" />
+            <Point time="1"
+                   power="1"
+                   color="255,255,255,0"
+                   easeInOut="false" />
         </ColorTable>
         <PositionTable>
-            <Point time="0" pos="-70,150" power="1" easeInOut="false" />
-            <Point time="0.75" pos="-70,150" power="1" easeInOut="false" />
-            <Point time="1" pos="-70,120" power="1" easeInOut="false" />
+            <Point time="0"
+                   pos="-70,150"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="0.75"
+                   pos="-70,150"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="1"
+                   pos="-70,120"
+                   power="1"
+                   easeInOut="false" />
         </PositionTable>
         <ScaleTable>
-            <Point time="0" scale="1.4,1.4" power="1" easeInOut="false" />
-            <Point time="0.25" scale="1.0,1.0" power="1" easeInOut="false" />
+            <Point time="0"
+                   scale="1.4,1.4"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="0.25"
+                   scale="1.0,1.0"
+                   power="1"
+                   easeInOut="false" />
         </ScaleTable>
     </TimeTable>
     <TimeTable type="defence">
         <ColorTable>
-            <Point time="0" power="1" color="255,255,255,0" easeInOut="false" />
-            <Point time="0.1" power="1" color="255,255,255,0" easeInOut="false" />
-            <Point time="0.11" power="1" color="255,255,255,0" easeInOut="false" />
-            <Point time="0.6" power="1" color="255,255,255,0" easeInOut="false" />
-            <Point time="1" power="1" color="255,255,255,0" easeInOut="false" />
+            <Point time="0"
+                   power="1"
+                   color="255,255,255,0"
+                   easeInOut="false" />
+            <Point time="0.1"
+                   power="1"
+                   color="255,255,255,0"
+                   easeInOut="false" />
+            <Point time="0.11"
+                   power="1"
+                   color="255,255,255,0"
+                   easeInOut="false" />
+            <Point time="0.6"
+                   power="1"
+                   color="255,255,255,0"
+                   easeInOut="false" />
+            <Point time="1"
+                   power="1"
+                   color="255,255,255,0"
+                   easeInOut="false" />
         </ColorTable>
         <PositionTable>
-            <Point time="0" pos="110,-25" power="1" easeInOut="false" />
+            <Point time="0"
+                   pos="110,-25"
+                   power="1"
+                   easeInOut="false" />
         </PositionTable>
         <ScaleTable>
-            <Point time="0" scale="0,0" power="1" easeInOut="false" />
+            <Point time="0"
+                   scale="0,0"
+                   power="1"
+                   easeInOut="false" />
         </ScaleTable>
     </TimeTable>
     <TimeTable type="bfKill">
         <ColorTable>
-            <Point time="0" power="1" color="255,255,255,255" easeInOut="false" />
-            <Point time="0.75" power="1" color="255,255,255,255" easeInOut="false" />
-            <Point time="1" power="1" color="255,255,255,0" easeInOut="false" />
+            <Point time="0"
+                   power="1"
+                   color="255,255,255,255"
+                   easeInOut="false" />
+            <Point time="0.75"
+                   power="1"
+                   color="255,255,255,255"
+                   easeInOut="false" />
+            <Point time="1"
+                   power="1"
+                   color="255,255,255,0"
+                   easeInOut="false" />
         </ColorTable>
         <PositionTable>
-            <Point time="0" pos="-70,150" power="1" easeInOut="false" />
-            <Point time="0.75" pos="-70,150" power="1" easeInOut="false" />
-            <Point time="1" pos="-70,120" power="1" easeInOut="false" />
+            <Point time="0"
+                   pos="-70,150"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="0.75"
+                   pos="-70,150"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="1"
+                   pos="-70,120"
+                   power="1"
+                   easeInOut="false" />
         </PositionTable>
         <ScaleTable>
-            <Point time="0" scale="1.4,1.4" power="1" easeInOut="false" />
-            <Point time="0.25" scale="1.0,1.0" power="1" easeInOut="false" />
+            <Point time="0"
+                   scale="1.4,1.4"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="0.25"
+                   scale="1.0,1.0"
+                   power="1"
+                   easeInOut="false" />
         </ScaleTable>
     </TimeTable>
     <TimeTable type="bfAssist">
         <ColorTable>
-            <Point time="0" power="1" color="255,255,255,255" easeInOut="false" />
-            <Point time="0.75" power="1" color="255,255,255,255" easeInOut="false" />
-            <Point time="1" power="1" color="255,255,255,0" easeInOut="false" />
+            <Point time="0"
+                   power="1"
+                   color="255,255,255,255"
+                   easeInOut="false" />
+            <Point time="0.75"
+                   power="1"
+                   color="255,255,255,255"
+                   easeInOut="false" />
+            <Point time="1"
+                   power="1"
+                   color="255,255,255,0"
+                   easeInOut="false" />
         </ColorTable>
         <PositionTable>
-            <Point time="0" pos="-70,150" power="1" easeInOut="false" />
-            <Point time="0.75" pos="-70,150" power="1" easeInOut="false" />
-            <Point time="1" pos="-70,120" power="1" easeInOut="false" />
+            <Point time="0"
+                   pos="-70,150"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="0.75"
+                   pos="-70,150"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="1"
+                   pos="-70,120"
+                   power="1"
+                   easeInOut="false" />
         </PositionTable>
         <ScaleTable>
-            <Point time="0" scale="1.4,1.4" power="1" easeInOut="false" />
-            <Point time="0.25" scale="1.0,1.0" power="1" easeInOut="false" />
+            <Point time="0"
+                   scale="1.4,1.4"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="0.25"
+                   scale="1.0,1.0"
+                   power="1"
+                   easeInOut="false" />
         </ScaleTable>
     </TimeTable>
     <TimeTable type="cp">
         <ColorTable>
-            <Point time="0" power="1" color="255,255,255,255" easeInOut="false" />
-            <Point time="0.75" power="1" color="255,255,255,255" easeInOut="false" />
-            <Point time="1" power="1" color="255,255,255,0" easeInOut="false" />
+            <Point time="0"
+                   power="1"
+                   color="255,255,255,255"
+                   easeInOut="false" />
+            <Point time="0.75"
+                   power="1"
+                   color="255,255,255,255"
+                   easeInOut="false" />
+            <Point time="1"
+                   power="1"
+                   color="255,255,255,0"
+                   easeInOut="false" />
         </ColorTable>
         <PositionTable>
-            <Point time="0" pos="-70,150" power="1" easeInOut="false" />
-            <Point time="0.75" pos="-70,150" power="1" easeInOut="false" />
-            <Point time="1" pos="-70,120" power="1" easeInOut="false" />
+            <Point time="0"
+                   pos="-70,150"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="0.75"
+                   pos="-70,150"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="1"
+                   pos="-70,120"
+                   power="1"
+                   easeInOut="false" />
         </PositionTable>
         <ScaleTable>
-            <Point time="0" scale="1.4,1.4" power="1" easeInOut="false" />
-            <Point time="0.25" scale="1.0,1.0" power="1" easeInOut="false" />
+            <Point time="0"
+                   scale="1.4,1.4"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="0.25"
+                   scale="1.0,1.0"
+                   power="1"
+                   easeInOut="false" />
         </ScaleTable>
     </TimeTable>
     <TimeTable type="shadowDamage">
         <ColorTable>
-            <Point time="0" power="1" color="126,175,255" easeInOut="false" />
-            <Point time="0.75" power="1" color="126,175,255" easeInOut="false" />
-            <Point time="1" power="1" color="126,175,255" easeInOut="false" />
+            <Point time="0"
+                   power="1"
+                   color="126,175,255"
+                   easeInOut="false" />
+            <Point time="0.75"
+                   power="1"
+                   color="126,175,255"
+                   easeInOut="false" />
+            <Point time="1"
+                   power="1"
+                   color="126,175,255"
+                   easeInOut="false" />
         </ColorTable>
         <PositionTable>
-            <Point time="0" pos="0,-30" power="1" easeInOut="false" />
-            <Point time="0.75" pos="0,-45" power="1" easeInOut="false" />
-            <Point time="1" pos="0,-60" power="1" easeInOut="false" />
+            <Point time="0"
+                   pos="0,-30"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="0.75"
+                   pos="0,-45"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="1"
+                   pos="0,-60"
+                   power="1"
+                   easeInOut="false" />
         </PositionTable>
         <ScaleTable>
-            <Point time="0" scale="1.05,1.05" power="1" easeInOut="false" />
-            <Point time="0.25" scale="0.7,0.7" power="1" easeInOut="false" />
+            <Point time="0"
+                   scale="1.05,1.05"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="0.25"
+                   scale="0.7,0.7"
+                   power="1"
+                   easeInOut="false" />
         </ScaleTable>
     </TimeTable>
     <TimeTable type="interaction_point">
         <ColorTable>
-            <Point time="0" power="1" color="255,255,255,255" easeInOut="true" />
-            <Point time="3" power="1" color="100,100,100,100" easeInOut="true" />
-            <Point time="4" power="1" color="50,50,50,50" easeInOut="true" />
-            <Point time="5" power="1" color="0,0,0,0" easeInOut="true" />
+            <Point time="0"
+                   power="1"
+                   color="255,255,255,255"
+                   easeInOut="true" />
+            <Point time="3"
+                   power="1"
+                   color="100,100,100,100"
+                   easeInOut="true" />
+            <Point time="4"
+                   power="1"
+                   color="50,50,50,50"
+                   easeInOut="true" />
+            <Point time="5"
+                   power="1"
+                   color="0,0,0,0"
+                   easeInOut="true" />
         </ColorTable>
         <PositionTable>
-            <Point time="0" pos="0,0" power="1" easeInOut="false" />
-            <Point time="5" pos="0,0" power="1" easeInOut="false" />
+            <Point time="0"
+                   pos="0,0"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="5"
+                   pos="0,0"
+                   power="1"
+                   easeInOut="false" />
         </PositionTable>
         <ScaleTable>
-            <Point time="0" scale="1.4,1.4" power="1" easeInOut="false" />
-            <Point time="0.025" scale="1.7,1.7" power="1" easeInOut="false" />
-            <Point time="0.05" scale="1.4,1.4" power="1" easeInOut="false" />
+            <Point time="0"
+                   scale="1.4,1.4"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="0.025"
+                   scale="1.7,1.7"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="0.05"
+                   scale="1.4,1.4"
+                   power="1"
+                   easeInOut="false" />
         </ScaleTable>
     </TimeTable>
     <TimeTable type="interaction_combo">
         <ColorTable>
-            <Point time="0" power="1" color="255,255,255,255" easeInOut="true" />
-            <Point time="3" power="1" color="100,100,100,100" easeInOut="true" />
-            <Point time="4" power="1" color="50,50,50,50" easeInOut="true" />
-            <Point time="5" power="1" color="0,0,0,0" easeInOut="true" />
+            <Point time="0"
+                   power="1"
+                   color="255,255,255,255"
+                   easeInOut="true" />
+            <Point time="3"
+                   power="1"
+                   color="100,100,100,100"
+                   easeInOut="true" />
+            <Point time="4"
+                   power="1"
+                   color="50,50,50,50"
+                   easeInOut="true" />
+            <Point time="5"
+                   power="1"
+                   color="0,0,0,0"
+                   easeInOut="true" />
         </ColorTable>
         <PositionTable>
-            <Point time="0" pos="-15,-40" power="1" easeInOut="false" />
-            <Point time="5" pos="-15,-40" power="1" easeInOut="false" />
+            <Point time="0"
+                   pos="-15,-40"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="5"
+                   pos="-15,-40"
+                   power="1"
+                   easeInOut="false" />
         </PositionTable>
         <ScaleTable>
-            <Point time="0" scale="1.0,1.0" power="1" easeInOut="false" />
-            <Point time="0.025" scale="1.5,1.5" power="1" easeInOut="false" />
-            <Point time="0.05" scale="1.0,1.0" power="1" easeInOut="false" />
+            <Point time="0"
+                   scale="1.0,1.0"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="0.025"
+                   scale="1.5,1.5"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="0.05"
+                   scale="1.0,1.0"
+                   power="1"
+                   easeInOut="false" />
         </ScaleTable>
     </TimeTable>
     <TimeTable type="interaction_bg">
         <ColorTable>
-            <Point time="0" power="1" color="255,255,255,255" easeInOut="true" />
-            <Point time="4" power="1" color="50,50,50,50" easeInOut="true" />
+            <Point time="0"
+                   power="1"
+                   color="255,255,255,255"
+                   easeInOut="true" />
+            <Point time="4"
+                   power="1"
+                   color="50,50,50,50"
+                   easeInOut="true" />
         </ColorTable>
         <PositionTable>
-            <Point time="0" pos="0,100" power="1" easeInOut="false" />
-            <Point time="5" pos="0,100" power="1" easeInOut="false" />
+            <Point time="0"
+                   pos="0,100"
+                   power="1"
+                   easeInOut="false" />
+            <Point time="5"
+                   pos="0,100"
+                   power="1"
+                   easeInOut="false" />
         </PositionTable>
         <ScaleTable>
-            <Point time="0" scale="0.8,0.8" power="1" easeInOut="false" />
+            <Point time="0"
+                   scale="0.8,0.8"
+                   power="1"
+                   easeInOut="false" />
         </ScaleTable>
     </TimeTable>
 </BattleInfoData>

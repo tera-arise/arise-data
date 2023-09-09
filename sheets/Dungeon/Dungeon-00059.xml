@@ -1,5 +1,11 @@
-<Dungeon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Dungeon Dungeon.xsd" continentId="3056" exitDir="-6930" xmlns="https://vezel.dev/novadrop/dc/Dungeon">
-    <ClearCondition templateId="2000" amount="1" huntingZoneId="3056" />
+<Dungeon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://vezel.dev/novadrop/dc/Dungeon Dungeon.xsd"
+         continentId="3056"
+         exitDir="-6930"
+         xmlns="https://vezel.dev/novadrop/dc/Dungeon">
+    <ClearCondition templateId="2000"
+                    amount="1"
+                    huntingZoneId="3056" />
     <EventGroup>
         <Event>
             <EventTaskGroup>
@@ -443,6 +449,7 @@
             </EventTaskGroup>
         </Event>
     </EventGroup>
-    <RestoreTargetQuest id="122" forceRestore="true" />
+    <RestoreTargetQuest id="122"
+                        forceRestore="true" />
     <Retry retryId="1" />
 </Dungeon>

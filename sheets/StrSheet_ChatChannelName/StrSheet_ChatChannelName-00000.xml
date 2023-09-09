@@ -1,101 +1,219 @@
-<StrSheet_ChatChannelName xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/StrSheet_ChatChannelName StrSheet_ChatChannelName.xsd" xmlns="https://vezel.dev/novadrop/dc/StrSheet_ChatChannelName">
-    <Channel id="CHATTYPE_NORMAL" name="Say" shortcuts="s,general" />
-    <Channel id="CHATTYPE_PARTY" name="Party" shortcuts="p,party" />
-    <Channel id="CHATTYPE_GUILD" name="Guild" shortcuts="g,guild" />
-    <Channel id="CHATTYPE_GUARD" name="Area" shortcuts="a,area" />
-    <Channel id="CHATTYPE_BARGAIN" name="Trade" shortcuts="t,trade" />
-    <Channel id="CHATTYPE_TEAM" name="Team" shortcuts="b,team" />
-    <Channel id="CHATTYPE_WHISPER" name="Whisper" shortcuts="w,whisper" />
-    <Channel id="CHATTYPE_RAID" name="Raid" shortcuts="i,ra" />
-    <Channel id="CHATTYPE_RAID_LEADER" name="Raid Leader" shortcuts="" />
-    <Channel id="CHATTYPE_PRIVATE_1" name="Channel 1" shortcuts="1" />
-    <Channel id="CHATTYPE_PRIVATE_2" name="Channel 2" shortcuts="2" />
-    <Channel id="CHATTYPE_PRIVATE_3" name="Channel 3" shortcuts="3" />
-    <Channel id="CHATTYPE_PRIVATE_4" name="Channel 4" shortcuts="4" />
-    <Channel id="CHATTYPE_PRIVATE_5" name="Channel 5" shortcuts="5" />
-    <Channel id="CHATTYPE_PRIVATE_6" name="Channel 6" shortcuts="6" />
-    <Channel id="CHATTYPE_PRIVATE_7" name="Channel 7" shortcuts="7" />
-    <Channel id="CHATTYPE_PRIVATE_8" name="Channel 8" shortcuts="8" />
-    <Channel id="CHATTYPE_DEALING" name="Bargain" shortcuts="j,bargain" />
-    <Channel id="CHATTYPE_PARTY_SEARCH" name="LFG" shortcuts="u,lfg" />
-    <Channel id="CHATTYPE_PARTY_NOTICE" name="Notice" shortcuts="n,alert" />
-    <Channel id="CHATTYPE_COMMAND" name="Team Alert" shortcuts="d" />
-    <Channel id="CHATTYPE_ADMIN_NOTICE" name="System" shortcuts="" />
-    <Channel id="CHATTYPE_RAID_NOTICE" name="Raid Notice" shortcuts="n,alert" />
-    <Channel id="CHATTYPE_GENERAL" name="Global" shortcuts="c" />
-    <Channel id="CHATTYPE_SOCIAL" name="Emote" shortcuts="" />
-    <Channel id="CHATTYPE_RP" name="RP" shortcuts="e,em" />
-    <Channel id="CHATTYPE_SKILL" name="Greetings" shortcuts="" />
-    <Channel id="CHATTYPE_MY_ATTACK" name="Attacks" />
-    <Channel id="CHATTYPE_MY_CRITICAL_ATTACK" name="Critical hits" />
-    <Channel id="CHATTYPE_MY_FALLING_DAMAGE" name="Falling damage " />
-    <Channel id="CHATTYPE_MY_DAMAGE_SMALL" name="Damage from minions" />
-    <Channel id="CHATTYPE_MY_CRITICAL_DAMAGE_SMALL" name="Crit damage from minions" />
-    <Channel id="CHATTYPE_MY_DAMAGE" name="Damage from monsters" />
-    <Channel id="CHATTYPE_MY_CRITICAL_DAMAGE" name="Crit damage from monsters" />
-    <Channel id="CHATTYPE_MY_DAMAGE_LARGE" name="Damage from bosses" />
-    <Channel id="CHATTYPE_MY_CRITICAL_DAMAGE_LARGE" name="Crit damage from bosses" />
-    <Channel id="CHATTYPE_INFO" name="Alerts" />
-    <Channel id="CHATTYPE_WORLD_INFO" name="World alerts" />
-    <Channel id="CHATTYPE_ERROR_INFO" name="Notices" />
-    <Channel id="CHATTYPE_PARTY_INFO" name="Party alerts" />
-    <Channel id="CHATTYPE_GUILD_INFO" name="Guild alerts" />
-    <Channel id="CHATTYPE_TEAM_INFO" name="Team alerts" />
-    <Channel id="CHATTYPE_INTERACTION_INFO" name="UI alerts" />
-    <Channel id="CHATTYPE_WARNING" name="Warnings" />
-    <Channel id="CHATTYPE_GET_ITEM" name="Items acquired" />
-    <Channel id="CHATTYPE_GET_EXP" name="XP acquired" />
-    <Channel id="CHATTYPE_GET_MONEY" name="Gold acquired" />
-    <Channel id="CHATTYPE_MEGAPHONE" name="Megaphone" shortcuts="m,megaphone" />
-    <Channel id="CHATTYPE_GUILD_PROMOTION" name="Guild advertising" shortcuts="q,ad,advert,advertise,promo" />
-    <Channel id="CHATTYPE_PARTY_SEARCH_LIMIT" name="LFG (Level-restricted)" />
-    <Channel id="CHATTYPE_GET_ITEM_COMMON" name="Common item acquired" />
-    <Channel id="CHATTYPE_GET_ITEM_UNCOMMON" name="Uncommon item acquired" />
-    <Channel id="CHATTYPE_GET_ITEM_RARE" name="Rare item acquired" />
-    <Channel id="CHATTYPE_GET_ITEM_LEGEND" name="Superior item acquired" />
-    <Channel id="CHATTYPE_GET_ITEM_MYTH" name="Item received (legendary)" />
+<StrSheet_ChatChannelName xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="https://vezel.dev/novadrop/dc/StrSheet_ChatChannelName StrSheet_ChatChannelName.xsd"
+                          xmlns="https://vezel.dev/novadrop/dc/StrSheet_ChatChannelName">
+    <Channel id="CHATTYPE_NORMAL"
+             name="Say"
+             shortcuts="s,general" />
+    <Channel id="CHATTYPE_PARTY"
+             name="Party"
+             shortcuts="p,party" />
+    <Channel id="CHATTYPE_GUILD"
+             name="Guild"
+             shortcuts="g,guild" />
+    <Channel id="CHATTYPE_GUARD"
+             name="Area"
+             shortcuts="a,area" />
+    <Channel id="CHATTYPE_BARGAIN"
+             name="Trade"
+             shortcuts="t,trade" />
+    <Channel id="CHATTYPE_TEAM"
+             name="Team"
+             shortcuts="b,team" />
+    <Channel id="CHATTYPE_WHISPER"
+             name="Whisper"
+             shortcuts="w,whisper" />
+    <Channel id="CHATTYPE_RAID"
+             name="Raid"
+             shortcuts="i,ra" />
+    <Channel id="CHATTYPE_RAID_LEADER"
+             name="Raid Leader"
+             shortcuts="" />
+    <Channel id="CHATTYPE_PRIVATE_1"
+             name="Channel 1"
+             shortcuts="1" />
+    <Channel id="CHATTYPE_PRIVATE_2"
+             name="Channel 2"
+             shortcuts="2" />
+    <Channel id="CHATTYPE_PRIVATE_3"
+             name="Channel 3"
+             shortcuts="3" />
+    <Channel id="CHATTYPE_PRIVATE_4"
+             name="Channel 4"
+             shortcuts="4" />
+    <Channel id="CHATTYPE_PRIVATE_5"
+             name="Channel 5"
+             shortcuts="5" />
+    <Channel id="CHATTYPE_PRIVATE_6"
+             name="Channel 6"
+             shortcuts="6" />
+    <Channel id="CHATTYPE_PRIVATE_7"
+             name="Channel 7"
+             shortcuts="7" />
+    <Channel id="CHATTYPE_PRIVATE_8"
+             name="Channel 8"
+             shortcuts="8" />
+    <Channel id="CHATTYPE_DEALING"
+             name="Bargain"
+             shortcuts="j,bargain" />
+    <Channel id="CHATTYPE_PARTY_SEARCH"
+             name="LFG"
+             shortcuts="u,lfg" />
+    <Channel id="CHATTYPE_PARTY_NOTICE"
+             name="Notice"
+             shortcuts="n,alert" />
+    <Channel id="CHATTYPE_COMMAND"
+             name="Team Alert"
+             shortcuts="d" />
+    <Channel id="CHATTYPE_ADMIN_NOTICE"
+             name="System"
+             shortcuts="" />
+    <Channel id="CHATTYPE_RAID_NOTICE"
+             name="Raid Notice"
+             shortcuts="n,alert" />
+    <Channel id="CHATTYPE_GENERAL"
+             name="Global"
+             shortcuts="c" />
+    <Channel id="CHATTYPE_SOCIAL"
+             name="Emote"
+             shortcuts="" />
+    <Channel id="CHATTYPE_RP"
+             name="RP"
+             shortcuts="e,em" />
+    <Channel id="CHATTYPE_SKILL"
+             name="Greetings"
+             shortcuts="" />
+    <Channel id="CHATTYPE_MY_ATTACK"
+             name="Attacks" />
+    <Channel id="CHATTYPE_MY_CRITICAL_ATTACK"
+             name="Critical hits" />
+    <Channel id="CHATTYPE_MY_FALLING_DAMAGE"
+             name="Falling damage " />
+    <Channel id="CHATTYPE_MY_DAMAGE_SMALL"
+             name="Damage from minions" />
+    <Channel id="CHATTYPE_MY_CRITICAL_DAMAGE_SMALL"
+             name="Crit damage from minions" />
+    <Channel id="CHATTYPE_MY_DAMAGE"
+             name="Damage from monsters" />
+    <Channel id="CHATTYPE_MY_CRITICAL_DAMAGE"
+             name="Crit damage from monsters" />
+    <Channel id="CHATTYPE_MY_DAMAGE_LARGE"
+             name="Damage from bosses" />
+    <Channel id="CHATTYPE_MY_CRITICAL_DAMAGE_LARGE"
+             name="Crit damage from bosses" />
+    <Channel id="CHATTYPE_INFO"
+             name="Alerts" />
+    <Channel id="CHATTYPE_WORLD_INFO"
+             name="World alerts" />
+    <Channel id="CHATTYPE_ERROR_INFO"
+             name="Notices" />
+    <Channel id="CHATTYPE_PARTY_INFO"
+             name="Party alerts" />
+    <Channel id="CHATTYPE_GUILD_INFO"
+             name="Guild alerts" />
+    <Channel id="CHATTYPE_TEAM_INFO"
+             name="Team alerts" />
+    <Channel id="CHATTYPE_INTERACTION_INFO"
+             name="UI alerts" />
+    <Channel id="CHATTYPE_WARNING"
+             name="Warnings" />
+    <Channel id="CHATTYPE_GET_ITEM"
+             name="Items acquired" />
+    <Channel id="CHATTYPE_GET_EXP"
+             name="XP acquired" />
+    <Channel id="CHATTYPE_GET_MONEY"
+             name="Gold acquired" />
+    <Channel id="CHATTYPE_MEGAPHONE"
+             name="Megaphone"
+             shortcuts="m,megaphone" />
+    <Channel id="CHATTYPE_GUILD_PROMOTION"
+             name="Guild advertising"
+             shortcuts="q,ad,advert,advertise,promo" />
+    <Channel id="CHATTYPE_PARTY_SEARCH_LIMIT"
+             name="LFG (Level-restricted)" />
+    <Channel id="CHATTYPE_GET_ITEM_COMMON"
+             name="Common item acquired" />
+    <Channel id="CHATTYPE_GET_ITEM_UNCOMMON"
+             name="Uncommon item acquired" />
+    <Channel id="CHATTYPE_GET_ITEM_RARE"
+             name="Rare item acquired" />
+    <Channel id="CHATTYPE_GET_ITEM_LEGEND"
+             name="Superior item acquired" />
+    <Channel id="CHATTYPE_GET_ITEM_MYTH"
+             name="Item received (legendary)" />
     <ChatCommandList>
         <CommandCategory name="Chat">
-            <Command id="1" name="/make [ChannelName] [password]  (Creates a private chat channel.)" />
-            <Command id="2" name="/chat [ChannelName] [password]  (Joins an existing private chat channel.)" />
-            <Command id="3" name="/leave [ChannelName/#]" />
-            <Command id="4" name="/ChannelName(ChannelNumber)  (Use slash and the name or the number of the channel to chat.)" />
-            <Command id="5" name="/password [ch#] [CurrentPassword] [NewPassword]  (Changes password.)" />
-            <Command id="6" name="/chatkick [ch#] [character]  (Removes a player from the channel.)" />
+            <Command id="1"
+                     name="/make [ChannelName] [password]  (Creates a private chat channel.)" />
+            <Command id="2"
+                     name="/chat [ChannelName] [password]  (Joins an existing private chat channel.)" />
+            <Command id="3"
+                     name="/leave [ChannelName/#]" />
+            <Command id="4"
+                     name="/ChannelName(ChannelNumber)  (Use slash and the name or the number of the channel to chat.)" />
+            <Command id="5"
+                     name="/password [ch#] [CurrentPassword] [NewPassword]  (Changes password.)" />
+            <Command id="6"
+                     name="/chatkick [ch#] [character]  (Removes a player from the channel.)" />
         </CommandCategory>
         <CommandCategory name="Party">
-            <Command id="1" name="/invite [character]  (Invites a character to your party.)" />
-            <Command id="2" name="/drop  (You leave the party.)" />
-            <Command id="3" name="/leader [partymember]  (Make someone the party leader.)" />
-            <Command id="4" name="/kick [partymember]  (Removes a character from your party.)" />
+            <Command id="1"
+                     name="/invite [character]  (Invites a character to your party.)" />
+            <Command id="2"
+                     name="/drop  (You leave the party.)" />
+            <Command id="3"
+                     name="/leader [partymember]  (Make someone the party leader.)" />
+            <Command id="4"
+                     name="/kick [partymember]  (Removes a character from your party.)" />
         </CommandCategory>
         <CommandCategory name="LFG">
-            <Command id="1" name="/lfg [group objective]" />
+            <Command id="1"
+                     name="/lfg [group objective]" />
         </CommandCategory>
         <CommandCategory name="Emote">
-            <Command id="1" name="/hi" />
-            <Command id="2" name="/bow" />
-            <Command id="3" name="/happy" />
-            <Command id="4" name="/sad" />
-            <Command id="5" name="/win" />
-            <Command id="6" name="/dance" />
-            <Command id="7" name="/taunt" />
-            <Command id="8" name="/clap" />
-            <Command id="9" name="/beg" />
-            <Command id="10" name="/think" />
-            <Command id="11" name="/love" />
-            <Command id="12" name="/charge" />
-            <Command id="13" name="/point" />
-            <Command id="14" name="/shy" />
-            <Command id="15" name="/mad" />
-            <Command id="16" name="/sit" />
+            <Command id="1"
+                     name="/hi" />
+            <Command id="2"
+                     name="/bow" />
+            <Command id="3"
+                     name="/happy" />
+            <Command id="4"
+                     name="/sad" />
+            <Command id="5"
+                     name="/win" />
+            <Command id="6"
+                     name="/dance" />
+            <Command id="7"
+                     name="/taunt" />
+            <Command id="8"
+                     name="/clap" />
+            <Command id="9"
+                     name="/beg" />
+            <Command id="10"
+                     name="/think" />
+            <Command id="11"
+                     name="/love" />
+            <Command id="12"
+                     name="/charge" />
+            <Command id="13"
+                     name="/point" />
+            <Command id="14"
+                     name="/shy" />
+            <Command id="15"
+                     name="/mad" />
+            <Command id="16"
+                     name="/sit" />
         </CommandCategory>
         <CommandCategory name="Deathmatch">
-            <Command id="1" name="/dminvite [character]" />
-            <Command id="2" name="/dmjoin [leader]" />
-            <Command id="3" name="/dmkick [character]" />
-            <Command id="4" name="/dmleave" />
-            <Command id="5" name="/yield" />
+            <Command id="1"
+                     name="/dminvite [character]" />
+            <Command id="2"
+                     name="/dmjoin [leader]" />
+            <Command id="3"
+                     name="/dmkick [character]" />
+            <Command id="4"
+                     name="/dmleave" />
+            <Command id="5"
+                     name="/yield" />
         </CommandCategory>
     </ChatCommandList>
 </StrSheet_ChatChannelName>

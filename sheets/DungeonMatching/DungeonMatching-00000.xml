@@ -1,79 +1,296 @@
-<DungeonMatching xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/DungeonMatching DungeonMatching.xsd" xmlns="https://vezel.dev/novadrop/dc/DungeonMatching">
+<DungeonMatching xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="https://vezel.dev/novadrop/dc/DungeonMatching DungeonMatching.xsd"
+                 xmlns="https://vezel.dev/novadrop/dc/DungeonMatching">
     <ClassPosition>
-        <Class name="Warrior" defaultPosition="1" secondPosition="0" thirdPosition="1" />
-        <Class name="Lancer" defaultPosition="0" secondPosition="0" thirdPosition="0" />
-        <Class name="Slayer" defaultPosition="1" secondPosition="1" thirdPosition="1" />
-        <Class name="Berserker" defaultPosition="1" secondPosition="0" secondPositionLevel="65" thirdPosition="1" />
-        <Class name="Sorcerer" defaultPosition="1" secondPosition="1" thirdPosition="1" />
-        <Class name="Archer" defaultPosition="1" secondPosition="1" thirdPosition="1" />
-        <Class name="Priest" defaultPosition="2" secondPosition="2" thirdPosition="2" />
-        <Class name="Elementalist" defaultPosition="2" secondPosition="2" thirdPosition="2" />
-        <Class name="Soulless" defaultPosition="1" secondPosition="1" thirdPosition="1" />
-        <Class name="Engineer" defaultPosition="1" secondPosition="1" thirdPosition="1" />
-        <Class name="Fighter" defaultPosition="0" secondPosition="1" secondPositionLevel="69" thirdPosition="0" />
-        <Class name="Assassin" defaultPosition="1" secondPosition="1" thirdPosition="1" />
-        <Class name="Glaiver" defaultPosition="1" secondPosition="1" thirdPosition="1" />
+        <Class name="Warrior"
+               defaultPosition="1"
+               secondPosition="0"
+               thirdPosition="1" />
+        <Class name="Lancer"
+               defaultPosition="0"
+               secondPosition="0"
+               thirdPosition="0" />
+        <Class name="Slayer"
+               defaultPosition="1"
+               secondPosition="1"
+               thirdPosition="1" />
+        <Class name="Berserker"
+               defaultPosition="1"
+               secondPosition="0"
+               secondPositionLevel="65"
+               thirdPosition="1" />
+        <Class name="Sorcerer"
+               defaultPosition="1"
+               secondPosition="1"
+               thirdPosition="1" />
+        <Class name="Archer"
+               defaultPosition="1"
+               secondPosition="1"
+               thirdPosition="1" />
+        <Class name="Priest"
+               defaultPosition="2"
+               secondPosition="2"
+               thirdPosition="2" />
+        <Class name="Elementalist"
+               defaultPosition="2"
+               secondPosition="2"
+               thirdPosition="2" />
+        <Class name="Soulless"
+               defaultPosition="1"
+               secondPosition="1"
+               thirdPosition="1" />
+        <Class name="Engineer"
+               defaultPosition="1"
+               secondPosition="1"
+               thirdPosition="1" />
+        <Class name="Fighter"
+               defaultPosition="0"
+               secondPosition="1"
+               secondPositionLevel="69"
+               thirdPosition="0" />
+        <Class name="Assassin"
+               defaultPosition="1"
+               secondPosition="1"
+               thirdPosition="1" />
+        <Class name="Glaiver"
+               defaultPosition="1"
+               secondPosition="1"
+               thirdPosition="1" />
     </ClassPosition>
     <Compensation>
-        <AddEntry addItemAmount="0" addItemTemplateId="0" />
-        <DungeonClear addItemAmount="0" addItemTemplateId="0" />
-        <PositionCall addItemAmount="0" addItemTemplateId="0" />
+        <AddEntry addItemAmount="0"
+                  addItemTemplateId="0" />
+        <DungeonClear addItemAmount="0"
+                      addItemTemplateId="0" />
+        <PositionCall addItemAmount="0"
+                      addItemTemplateId="0" />
     </Compensation>
-    <Dungeon id="9087" name="비밀기지" matchingRoleId="32" dungeonLevel="20" dungeonMaxLevel="25" dungeonMinLevel="20" minItemLevel="51">
+    <Dungeon id="9087"
+             name="비밀기지"
+             matchingRoleId="32"
+             dungeonLevel="20"
+             dungeonMaxLevel="25"
+             dungeonMinLevel="20"
+             minItemLevel="51">
         <NeedItem id="0" />
     </Dungeon>
-    <Dungeon id="9088" name="밤피르 저택" matchingRoleId="32" dungeonLevel="26" dungeonMaxLevel="31" dungeonMinLevel="26" minItemLevel="66">
+    <Dungeon id="9088"
+             name="밤피르 저택"
+             matchingRoleId="32"
+             dungeonLevel="26"
+             dungeonMaxLevel="31"
+             dungeonMinLevel="26"
+             minItemLevel="66">
         <NeedItem id="0" />
     </Dungeon>
-    <Dungeon id="9979" name="자바르만 소굴" matchingRoleId="32" dungeonLevel="32" dungeonMaxLevel="36" dungeonMinLevel="32" minItemLevel="77">
-        <ClearCondition templateId="47954" amount="1" huntingZoneId="979" killCount="1" />
+    <Dungeon id="9979"
+             name="자바르만 소굴"
+             matchingRoleId="32"
+             dungeonLevel="32"
+             dungeonMaxLevel="36"
+             dungeonMinLevel="32"
+             minItemLevel="77">
+        <ClearCondition templateId="47954"
+                        amount="1"
+                        huntingZoneId="979"
+                        killCount="1" />
         <NeedItem id="0" />
     </Dungeon>
-    <Dungeon id="9089" name="사교도 은신처" matchingRoleId="32" dungeonLevel="35" dungeonMaxLevel="42" dungeonMinLevel="35" minItemLevel="96">
+    <Dungeon id="9089"
+             name="사교도 은신처"
+             matchingRoleId="32"
+             dungeonLevel="35"
+             dungeonMaxLevel="42"
+             dungeonMinLevel="35"
+             minItemLevel="96">
         <NeedItem id="0" />
     </Dungeon>
-    <Dungeon id="9071" name="사령술 연구소" matchingRoleId="32" dungeonLevel="41" dungeonMaxLevel="47" dungeonMinLevel="41" minItemLevel="118">
+    <Dungeon id="9071"
+             name="사령술 연구소"
+             matchingRoleId="32"
+             dungeonLevel="41"
+             dungeonMaxLevel="47"
+             dungeonMinLevel="41"
+             minItemLevel="118">
         <NeedItem id="0" />
     </Dungeon>
-    <Dungeon id="9072" name="황금의 미궁" matchingRoleId="32" dungeonLevel="48" dungeonMaxLevel="53" dungeonMinLevel="48" minItemLevel="146">
+    <Dungeon id="9072"
+             name="황금의 미궁"
+             matchingRoleId="32"
+             dungeonLevel="48"
+             dungeonMaxLevel="53"
+             dungeonMinLevel="48"
+             minItemLevel="146">
         <NeedItem id="0" />
     </Dungeon>
-    <Dungeon id="9093" name="아카샤의 은신처" matchingRoleId="23" dungeonLevel="48" dungeonMaxLevel="54" dungeonMinLevel="48" minItemLevel="146">
+    <Dungeon id="9093"
+             name="아카샤의 은신처"
+             matchingRoleId="23"
+             dungeonLevel="48"
+             dungeonMaxLevel="54"
+             dungeonMinLevel="48"
+             minItemLevel="146">
         <NeedItem id="103" />
     </Dungeon>
-    <Dungeon id="9094" name="살레론의 공중정원" matchingRoleId="32" dungeonLevel="53" dungeonMaxLevel="57" dungeonMinLevel="53" minItemLevel="166">
+    <Dungeon id="9094"
+             name="살레론의 공중정원"
+             matchingRoleId="32"
+             dungeonLevel="53"
+             dungeonMaxLevel="57"
+             dungeonMinLevel="53"
+             minItemLevel="166">
         <NeedItem id="0" />
     </Dungeon>
-    <Dungeon id="9076" name="공포의 미궁" matchingRoleId="32" dungeonLevel="56" dungeonMaxLevel="58" dungeonMinLevel="56" minItemLevel="200">
+    <Dungeon id="9076"
+             name="공포의 미궁"
+             matchingRoleId="32"
+             dungeonLevel="56"
+             dungeonMaxLevel="58"
+             dungeonMinLevel="56"
+             minItemLevel="200">
         <NeedItem id="5126" />
     </Dungeon>
-    <Dungeon id="9073" name="검은 탑" matchingRoleId="32" dungeonLevel="58" dungeonMaxLevel="64" dungeonMinLevel="58" minItemLevel="200">
+    <Dungeon id="9073"
+             name="검은 탑"
+             matchingRoleId="32"
+             dungeonLevel="58"
+             dungeonMaxLevel="64"
+             dungeonMinLevel="58"
+             minItemLevel="200">
         <NeedItem id="0" />
     </Dungeon>
-    <Dungeon id="9075" name="켈사이크의 둥지" matchingRoleId="23" dungeonLevel="58" dungeonMaxLevel="64" dungeonMinLevel="58" minItemLevel="200">
+    <Dungeon id="9075"
+             name="켈사이크의 둥지"
+             matchingRoleId="23"
+             dungeonLevel="58"
+             dungeonMaxLevel="64"
+             dungeonMinLevel="58"
+             minItemLevel="200">
         <NeedItem id="5123" />
     </Dungeon>
-    <Dungeon id="9025" name="발더의 신전" matchingRoleId="23" dungeonLevel="60" dungeonMaxLevel="65" dungeonMinLevel="60" minItemLevel="242">
+    <Dungeon id="9025"
+             name="발더의 신전"
+             matchingRoleId="23"
+             dungeonLevel="60"
+             dungeonMaxLevel="65"
+             dungeonMinLevel="60"
+             minItemLevel="242">
         <NeedItem id="45323" />
     </Dungeon>
-    <Dungeon id="9026" name="아르곤 멜디티아(하급)" matchingRoleId="23" dungeonLevel="60" dungeonMaxLevel="65" dungeonMinLevel="60" minItemLevel="242" />
-    <Dungeon id="9727" name="샨드라 마나이아(하급)" matchingRoleId="23" dungeonLevel="64" dungeonMaxLevel="65" dungeonMinLevel="64" minItemLevel="309" />
-    <Dungeon id="9126" name="페트레" matchingRoleId="1000" dungeonLevel="99" dungeonMaxLevel="99" dungeonMinLevel="99" minItemLevel="999" />
-    <Dungeon id="9713" name="길리안프리미엄대기공간" matchingRoleId="1000" dungeonLevel="99" dungeonMaxLevel="99" dungeonMinLevel="99" minItemLevel="999" />
-    <Dungeon id="9714" name="길리안프리미엄던전" matchingRoleId="999" dungeonLevel="99" dungeonMaxLevel="99" dungeonMinLevel="99" minItemLevel="999" />
-    <Dungeon id="9809" name="데모크론 실험실" matchingRoleId="11" dungeonLevel="65" dungeonMaxLevel="70" dungeonMinLevel="65" minItemLevel="512">
+    <Dungeon id="9026"
+             name="아르곤 멜디티아(하급)"
+             matchingRoleId="23"
+             dungeonLevel="60"
+             dungeonMaxLevel="65"
+             dungeonMinLevel="60"
+             minItemLevel="242" />
+    <Dungeon id="9727"
+             name="샨드라 마나이아(하급)"
+             matchingRoleId="23"
+             dungeonLevel="64"
+             dungeonMaxLevel="65"
+             dungeonMinLevel="64"
+             minItemLevel="309" />
+    <Dungeon id="9126"
+             name="페트레"
+             matchingRoleId="1000"
+             dungeonLevel="99"
+             dungeonMaxLevel="99"
+             dungeonMinLevel="99"
+             minItemLevel="999" />
+    <Dungeon id="9713"
+             name="길리안프리미엄대기공간"
+             matchingRoleId="1000"
+             dungeonLevel="99"
+             dungeonMaxLevel="99"
+             dungeonMinLevel="99"
+             minItemLevel="999" />
+    <Dungeon id="9714"
+             name="길리안프리미엄던전"
+             matchingRoleId="999"
+             dungeonLevel="99"
+             dungeonMaxLevel="99"
+             dungeonMinLevel="99"
+             minItemLevel="999" />
+    <Dungeon id="9809"
+             name="데모크론 실험실"
+             matchingRoleId="11"
+             dungeonLevel="65"
+             dungeonMaxLevel="70"
+             dungeonMinLevel="65"
+             minItemLevel="512">
         <NeedItem id="0" />
     </Dungeon>
-    <Dungeon id="9068" name="폭군 듀리온의 안식처" matchingRoleId="17" dungeonLevel="70" dungeonMaxLevel="70" dungeonMinLevel="70" minItemLevel="520" />
-    <Dungeon id="9794" name="사이럭스 연구 기지" matchingRoleId="11" dungeonLevel="68" dungeonMaxLevel="70" dungeonMinLevel="68" minItemLevel="513" />
-    <Dungeon id="9920" name="공허한 안타로스의 심연" matchingRoleId="17" dungeonLevel="70" dungeonMaxLevel="70" dungeonMinLevel="70" minItemLevel="524" />
-    <Dungeon id="3027" name="광기의 투기장" matchingRoleId="17" dungeonLevel="70" dungeonMaxLevel="70" dungeonMinLevel="70" minItemLevel="517" />
-    <Dungeon id="3036" name="폭풍의 엘카라스 호_하드" matchingRoleId="17" dungeonLevel="70" dungeonMaxLevel="70" dungeonMinLevel="70" minItemLevel="521" />
-    <Dungeon id="9047" name="할로윈 축제" matchingRoleId="32" dungeonLevel="10" dungeonMaxLevel="70" dungeonMinLevel="10" minItemLevel="0" />
-    <Dungeon id="3105" name="코어 융합소" matchingRoleId="17" dungeonLevel="70" dungeonMaxLevel="70" dungeonMinLevel="70" minItemLevel="516" />
-    <Dungeon id="3209" name="혼돈의 얼어붙은 성좌" matchingRoleId="17" dungeonLevel="70" dungeonMaxLevel="70" dungeonMinLevel="70" minItemLevel="525" />
-    <Dungeon id="3109" name="얼어붙은 성좌" matchingRoleId="17" dungeonLevel="70" dungeonMaxLevel="70" dungeonMinLevel="70" minItemLevel="522" />
-    <Dungeon id="3047" name="부활한 샨드라 마나이아의 전당" matchingRoleId="17" dungeonLevel="70" dungeonMaxLevel="70" dungeonMinLevel="70" minItemLevel="526" />
+    <Dungeon id="9068"
+             name="폭군 듀리온의 안식처"
+             matchingRoleId="17"
+             dungeonLevel="70"
+             dungeonMaxLevel="70"
+             dungeonMinLevel="70"
+             minItemLevel="520" />
+    <Dungeon id="9794"
+             name="사이럭스 연구 기지"
+             matchingRoleId="11"
+             dungeonLevel="68"
+             dungeonMaxLevel="70"
+             dungeonMinLevel="68"
+             minItemLevel="513" />
+    <Dungeon id="9920"
+             name="공허한 안타로스의 심연"
+             matchingRoleId="17"
+             dungeonLevel="70"
+             dungeonMaxLevel="70"
+             dungeonMinLevel="70"
+             minItemLevel="524" />
+    <Dungeon id="3027"
+             name="광기의 투기장"
+             matchingRoleId="17"
+             dungeonLevel="70"
+             dungeonMaxLevel="70"
+             dungeonMinLevel="70"
+             minItemLevel="517" />
+    <Dungeon id="3036"
+             name="폭풍의 엘카라스 호_하드"
+             matchingRoleId="17"
+             dungeonLevel="70"
+             dungeonMaxLevel="70"
+             dungeonMinLevel="70"
+             minItemLevel="521" />
+    <Dungeon id="9047"
+             name="할로윈 축제"
+             matchingRoleId="32"
+             dungeonLevel="10"
+             dungeonMaxLevel="70"
+             dungeonMinLevel="10"
+             minItemLevel="0" />
+    <Dungeon id="3105"
+             name="코어 융합소"
+             matchingRoleId="17"
+             dungeonLevel="70"
+             dungeonMaxLevel="70"
+             dungeonMinLevel="70"
+             minItemLevel="516" />
+    <Dungeon id="3209"
+             name="혼돈의 얼어붙은 성좌"
+             matchingRoleId="17"
+             dungeonLevel="70"
+             dungeonMaxLevel="70"
+             dungeonMinLevel="70"
+             minItemLevel="525" />
+    <Dungeon id="3109"
+             name="얼어붙은 성좌"
+             matchingRoleId="17"
+             dungeonLevel="70"
+             dungeonMaxLevel="70"
+             dungeonMinLevel="70"
+             minItemLevel="522" />
+    <Dungeon id="3047"
+             name="부활한 샨드라 마나이아의 전당"
+             matchingRoleId="17"
+             dungeonLevel="70"
+             dungeonMaxLevel="70"
+             dungeonMinLevel="70"
+             minItemLevel="526" />
     <MatchingStateDisplay refreshTime="10" />
     <MatchingTimeDisplay refreshTime="60" />
     <Penalty withdrawalAbnormalitySec="180" />

@@ -1,166 +1,540 @@
-<S1ActionScripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/S1ActionScripts S1ActionScripts.xsd" type="Periodic" xmlns="https://vezel.dev/novadrop/dc/S1ActionScripts">
-    <Script id="20001" playingTime="10">
-        <Action type="animation" animName="work_Q" />
+<S1ActionScripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="https://vezel.dev/novadrop/dc/S1ActionScripts S1ActionScripts.xsd"
+                 type="Periodic"
+                 xmlns="https://vezel.dev/novadrop/dc/S1ActionScripts">
+    <Script id="20001"
+            playingTime="10">
+        <Action type="animation"
+                animName="work_Q" />
     </Script>
-    <Script id="20002" playingTime="10">
-        <Action type="animation" animName="walk_Q" />
+    <Script id="20002"
+            playingTime="10">
+        <Action type="animation"
+                animName="walk_Q" />
     </Script>
-    <Script id="831015" playingTime="999000">
-        <Action type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9901" />
-        <Action time="1" type="animation" animName="idle1" rate="1" />
-        <Action time="9999" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9902" />
-        <Action time="10000" type="animation" animName="idle2" rate="1" />
-        <Action time="19999" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9903" />
-        <Action time="20000" type="animation" animName="idle3" rate="1" />
-        <Action time="29999" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9904" />
-        <Action time="30000" type="animation" animName="talk1" rate="1" />
-        <Action time="39999" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9905" />
-        <Action time="40000" type="animation" animName="talk2" rate="1" />
-        <Action time="49999" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9906" />
-        <Action time="50000" type="animation" animName="talk3" rate="1" />
-        <Action time="59999" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9907" />
-        <Action time="60000" type="animation" animName="victory" rate="1" />
-        <Action time="69999" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9908" />
-        <Action time="70000" type="animation" animName="applaud" rate="1" />
-        <Action time="79999" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9909" />
-        <Action time="80000" type="animation" animName="request" rate="1" />
-        <Action time="89999" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9910" />
-        <Action time="90000" type="animation" animName="worry" rate="1" />
-        <Action time="99999" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9911" />
-        <Action time="100000" type="animation" animName="shy" rate="1" />
-        <Action time="109999" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9912" />
-        <Action time="110000" type="animation" animName="angry" rate="1" />
-        <Action time="119999" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9913" />
-        <Action time="120000" type="animation" animName="sob" rate="1" />
-        <Action time="129999" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9914" />
-        <Action time="130000" type="animation" animName="greet" rate="1" />
-        <Action time="139999" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9915" />
-        <Action time="140000" type="animation" animName="taunt" rate="1" />
-        <Action time="149999" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9916" />
-        <Action time="150000" type="animation" animName="propose" rate="1" />
-        <Action time="159999" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9917" />
-        <Action time="160000" type="animation" animName="attack" rate="1" />
-        <Action time="169999" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9918" />
-        <Action time="170000" type="animation" animName="pointing" rate="1" />
-        <Action time="179999" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9919" />
-        <Action time="180000" type="animation" animName="dance" rate="1" />
-        <Action time="189999" type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9920" />
-        <Action time="190000" type="animation" animName="smile" rate="1" />
+    <Script id="831015"
+            playingTime="999000">
+        <Action type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9901" />
+        <Action time="1"
+                type="animation"
+                animName="idle1"
+                rate="1" />
+        <Action time="9999"
+                type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9902" />
+        <Action time="10000"
+                type="animation"
+                animName="idle2"
+                rate="1" />
+        <Action time="19999"
+                type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9903" />
+        <Action time="20000"
+                type="animation"
+                animName="idle3"
+                rate="1" />
+        <Action time="29999"
+                type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9904" />
+        <Action time="30000"
+                type="animation"
+                animName="talk1"
+                rate="1" />
+        <Action time="39999"
+                type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9905" />
+        <Action time="40000"
+                type="animation"
+                animName="talk2"
+                rate="1" />
+        <Action time="49999"
+                type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9906" />
+        <Action time="50000"
+                type="animation"
+                animName="talk3"
+                rate="1" />
+        <Action time="59999"
+                type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9907" />
+        <Action time="60000"
+                type="animation"
+                animName="victory"
+                rate="1" />
+        <Action time="69999"
+                type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9908" />
+        <Action time="70000"
+                type="animation"
+                animName="applaud"
+                rate="1" />
+        <Action time="79999"
+                type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9909" />
+        <Action time="80000"
+                type="animation"
+                animName="request"
+                rate="1" />
+        <Action time="89999"
+                type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9910" />
+        <Action time="90000"
+                type="animation"
+                animName="worry"
+                rate="1" />
+        <Action time="99999"
+                type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9911" />
+        <Action time="100000"
+                type="animation"
+                animName="shy"
+                rate="1" />
+        <Action time="109999"
+                type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9912" />
+        <Action time="110000"
+                type="animation"
+                animName="angry"
+                rate="1" />
+        <Action time="119999"
+                type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9913" />
+        <Action time="120000"
+                type="animation"
+                animName="sob"
+                rate="1" />
+        <Action time="129999"
+                type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9914" />
+        <Action time="130000"
+                type="animation"
+                animName="greet"
+                rate="1" />
+        <Action time="139999"
+                type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9915" />
+        <Action time="140000"
+                type="animation"
+                animName="taunt"
+                rate="1" />
+        <Action time="149999"
+                type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9916" />
+        <Action time="150000"
+                type="animation"
+                animName="propose"
+                rate="1" />
+        <Action time="159999"
+                type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9917" />
+        <Action time="160000"
+                type="animation"
+                animName="attack"
+                rate="1" />
+        <Action time="169999"
+                type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9918" />
+        <Action time="170000"
+                type="animation"
+                animName="pointing"
+                rate="1" />
+        <Action time="179999"
+                type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9919" />
+        <Action time="180000"
+                type="animation"
+                animName="dance"
+                rate="1" />
+        <Action time="189999"
+                type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9920" />
+        <Action time="190000"
+                type="animation"
+                animName="smile"
+                rate="1" />
     </Script>
-    <Script id="23910351" playingTime="5000">
-        <Action type="dialog" textId="10001" showChat="false" />
-        <Action time="1000" type="animation" animName="Fear_Q" blendInTime="0.2" />
-        <Action time="3000" type="dialog" textId="10002" showChat="false" />
+    <Script id="23910351"
+            playingTime="5000">
+        <Action type="dialog"
+                textId="10001"
+                showChat="false" />
+        <Action time="1000"
+                type="animation"
+                animName="Fear_Q"
+                blendInTime="0.2" />
+        <Action time="3000"
+                type="dialog"
+                textId="10002"
+                showChat="false" />
     </Script>
-    <Script id="24010081" playingTime="60000">
-        <Action type="animation" animName="dance" blendInTime="0.2" />
-        <Action time="9500" type="animation" animName="dance" blendInTime="0.2" />
-        <Action time="19000" type="animation" animName="dance" blendInTime="0.2" />
-        <Action time="28000" type="dialog" textId="10001" showChat="false" />
-        <Action time="28000" type="animation" animName="dance" blendInTime="0.2" />
-        <Action time="37500" type="animation" animName="dance" blendInTime="0.2" />
-        <Action time="47000" type="animation" animName="dance" blendInTime="0.2" />
+    <Script id="24010081"
+            playingTime="60000">
+        <Action type="animation"
+                animName="dance"
+                blendInTime="0.2" />
+        <Action time="9500"
+                type="animation"
+                animName="dance"
+                blendInTime="0.2" />
+        <Action time="19000"
+                type="animation"
+                animName="dance"
+                blendInTime="0.2" />
+        <Action time="28000"
+                type="dialog"
+                textId="10001"
+                showChat="false" />
+        <Action time="28000"
+                type="animation"
+                animName="dance"
+                blendInTime="0.2" />
+        <Action time="37500"
+                type="animation"
+                animName="dance"
+                blendInTime="0.2" />
+        <Action time="47000"
+                type="animation"
+                animName="dance"
+                blendInTime="0.2" />
     </Script>
-    <Script id="24010091" playingTime="70000">
-        <Action type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="1600" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="3200" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="4800" type="dialog" textId="10001" showChat="false" />
-        <Action time="5000" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="6600" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="8200" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="9800" type="dialog" textId="10002" showChat="false" />
-        <Action time="10000" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="11600" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="13200" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="14800" type="dialog" textId="10003" showChat="false" />
-        <Action time="15000" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="16600" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="18200" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="19800" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="21400" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="23000" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="24600" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="26200" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="27800" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="29400" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="35000" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="36600" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="38200" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="39800" type="dialog" textId="10004" showChat="false" />
-        <Action time="40000" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="41600" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="43200" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="44800" type="dialog" textId="10005" showChat="false" />
-        <Action time="45000" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="46600" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="48200" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="49800" type="dialog" textId="10006" showChat="false" />
-        <Action time="50000" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="51600" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="53200" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="54800" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="56400" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="58000" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="59600" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="61200" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="62800" type="animation" animName="Mine_Q" blendInTime="0.2" />
-        <Action time="64400" type="animation" animName="Mine_Q" blendInTime="0.2" />
+    <Script id="24010091"
+            playingTime="70000">
+        <Action type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="1600"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="3200"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="4800"
+                type="dialog"
+                textId="10001"
+                showChat="false" />
+        <Action time="5000"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="6600"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="8200"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="9800"
+                type="dialog"
+                textId="10002"
+                showChat="false" />
+        <Action time="10000"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="11600"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="13200"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="14800"
+                type="dialog"
+                textId="10003"
+                showChat="false" />
+        <Action time="15000"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="16600"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="18200"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="19800"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="21400"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="23000"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="24600"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="26200"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="27800"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="29400"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="35000"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="36600"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="38200"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="39800"
+                type="dialog"
+                textId="10004"
+                showChat="false" />
+        <Action time="40000"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="41600"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="43200"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="44800"
+                type="dialog"
+                textId="10005"
+                showChat="false" />
+        <Action time="45000"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="46600"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="48200"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="49800"
+                type="dialog"
+                textId="10006"
+                showChat="false" />
+        <Action time="50000"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="51600"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="53200"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="54800"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="56400"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="58000"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="59600"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="61200"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="62800"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
+        <Action time="64400"
+                type="animation"
+                animName="Mine_Q"
+                blendInTime="0.2" />
     </Script>
-    <Script id="24010141" playingTime="12000">
-        <Action type="animation" animName="worry" blendInTime="0.2" />
-        <Action time="4500" type="dialog" textId="10001" showChat="false" />
-        <Action time="5000" type="animation" animName="sob" blendInTime="0.2" />
-        <Action time="10000" type="dialog" textId="10002" showChat="false" />
+    <Script id="24010141"
+            playingTime="12000">
+        <Action type="animation"
+                animName="worry"
+                blendInTime="0.2" />
+        <Action time="4500"
+                type="dialog"
+                textId="10001"
+                showChat="false" />
+        <Action time="5000"
+                type="animation"
+                animName="sob"
+                blendInTime="0.2" />
+        <Action time="10000"
+                type="dialog"
+                textId="10002"
+                showChat="false" />
     </Script>
-    <Script id="24010181" playingTime="15000">
-        <Action type="dialog" textId="10001" showChat="false" />
-        <Action time="2000" type="animation" animName="bug" blendInTime="0.2" />
-        <Action time="5200" type="animation" animName="bug" blendInTime="0.2" />
-        <Action time="8400" type="animation" animName="angry" blendInTime="0.2" />
-        <Action time="12900" type="dialog" textId="10002" showChat="false" />
+    <Script id="24010181"
+            playingTime="15000">
+        <Action type="dialog"
+                textId="10001"
+                showChat="false" />
+        <Action time="2000"
+                type="animation"
+                animName="bug"
+                blendInTime="0.2" />
+        <Action time="5200"
+                type="animation"
+                animName="bug"
+                blendInTime="0.2" />
+        <Action time="8400"
+                type="animation"
+                animName="angry"
+                blendInTime="0.2" />
+        <Action time="12900"
+                type="dialog"
+                textId="10002"
+                showChat="false" />
     </Script>
-    <Script id="74102201" playingTime="25000">
-        <Action type="dialog" textId="101" showChat="false" />
-        <Action time="5000" type="dialog" textId="102" showChat="false" />
+    <Script id="74102201"
+            playingTime="25000">
+        <Action type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="5000"
+                type="dialog"
+                textId="102"
+                showChat="false" />
     </Script>
     <Script id="74102301">
-        <Action type="animation" animName="angry" rate="1" />
-        <Action type="dialog" textId="101" showChat="false" />
+        <Action type="animation"
+                animName="angry"
+                rate="1" />
+        <Action type="dialog"
+                textId="101"
+                showChat="false" />
     </Script>
     <Script id="74102501">
-        <Action type="animation" animName="angry" rate="1" />
-        <Action type="dialog" textId="101" showChat="false" />
-        <Action time="5000" type="actionScript" templateId="1023" huntingZoneId="74" scriptId="74102301" />
+        <Action type="animation"
+                animName="angry"
+                rate="1" />
+        <Action type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="5000"
+                type="actionScript"
+                templateId="1023"
+                huntingZoneId="74"
+                scriptId="74102301" />
     </Script>
     <Script id="74103001">
-        <Action type="animation" animName="request" rate="1" />
-        <Action type="dialog" textId="101" showChat="false" />
-        <Action time="5000" type="actionScript" templateId="1037" huntingZoneId="74" scriptId="74103701" />
+        <Action type="animation"
+                animName="request"
+                rate="1" />
+        <Action type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="5000"
+                type="actionScript"
+                templateId="1037"
+                huntingZoneId="74"
+                scriptId="74103701" />
     </Script>
     <Script id="74103701">
-        <Action type="animation" animName="talk2" rate="1" />
-        <Action type="dialog" textId="101" showChat="false" />
+        <Action type="animation"
+                animName="talk2"
+                rate="1" />
+        <Action type="dialog"
+                textId="101"
+                showChat="false" />
     </Script>
     <Script id="74999901">
-        <Action type="dialog" textId="101" showChat="false" />
+        <Action type="dialog"
+                textId="101"
+                showChat="false" />
     </Script>
-    <Script id="81103201" playingTime="22000">
-        <Action type="move" pos="-57652.4609,-25225.1289,2139" speed="100">
-            <Action type="move" pos="-57591,-25283,2139" speed="100">
-                <Action type="animation" animName="atk01">
-                    <Action type="move" pos="-57568.2227,-25372.2578,2139" speed="100">
-                        <Action type="move" pos="-57597,-25460,2139" speed="100">
-                            <Action type="animation" animName="atk01">
-                                <Action type="move" pos="-57688.3047,-25527.9141,2139" speed="100">
-                                    <Action type="move" pos="-57788,-25523,2139" speed="100">
-                                        <Action type="animation" animName="atk01">
-                                            <Action type="move" pos="-57865.6328,-25458.2715,2139" speed="100">
-                                                <Action type="move" pos="-57894,-25359,2139" speed="100">
-                                                    <Action type="animation" animName="atk01">
-                                                        <Action type="move" pos="-57851.8867,-25260.5137,2139" speed="100">
-                                                            <Action type="move" pos="-57768,-25209,2139" speed="100">
-                                                                <Action type="animation" animName="atk01" />
+    <Script id="81103201"
+            playingTime="22000">
+        <Action type="move"
+                pos="-57652.4609,-25225.1289,2139"
+                speed="100">
+            <Action type="move"
+                    pos="-57591,-25283,2139"
+                    speed="100">
+                <Action type="animation"
+                        animName="atk01">
+                    <Action type="move"
+                            pos="-57568.2227,-25372.2578,2139"
+                            speed="100">
+                        <Action type="move"
+                                pos="-57597,-25460,2139"
+                                speed="100">
+                            <Action type="animation"
+                                    animName="atk01">
+                                <Action type="move"
+                                        pos="-57688.3047,-25527.9141,2139"
+                                        speed="100">
+                                    <Action type="move"
+                                            pos="-57788,-25523,2139"
+                                            speed="100">
+                                        <Action type="animation"
+                                                animName="atk01">
+                                            <Action type="move"
+                                                    pos="-57865.6328,-25458.2715,2139"
+                                                    speed="100">
+                                                <Action type="move"
+                                                        pos="-57894,-25359,2139"
+                                                        speed="100">
+                                                    <Action type="animation"
+                                                            animName="atk01">
+                                                        <Action type="move"
+                                                                pos="-57851.8867,-25260.5137,2139"
+                                                                speed="100">
+                                                            <Action type="move"
+                                                                    pos="-57768,-25209,2139"
+                                                                    speed="100">
+                                                                <Action type="animation"
+                                                                        animName="atk01" />
                                                             </Action>
                                                         </Action>
                                                     </Action>
@@ -176,22 +550,48 @@
             </Action>
         </Action>
     </Script>
-    <Script id="81103301" playingTime="22000">
-        <Action type="move" pos="-57568.2227,-25372.2578,2139" speed="100">
-            <Action type="move" pos="-57597,-25460,2139" speed="100">
-                <Action type="animation" animName="atk01">
-                    <Action type="move" pos="-57688.3047,-25527.9141,2139" speed="100">
-                        <Action type="move" pos="-57788,-25523,2139" speed="100">
-                            <Action type="animation" animName="atk01">
-                                <Action type="move" pos="-57865.6328,-25458.2715,2139" speed="100">
-                                    <Action type="move" pos="-57894,-25359,2139" speed="100">
-                                        <Action type="animation" animName="atk01">
-                                            <Action type="move" pos="-57851.8867,-25260.5137,2139" speed="100">
-                                                <Action type="move" pos="-57768,-25209,2139" speed="100">
-                                                    <Action type="animation" animName="atk01">
-                                                        <Action type="move" pos="-57652.4609,-25225.1289,2139" speed="100">
-                                                            <Action type="move" pos="-57591,-25283,2139" speed="100">
-                                                                <Action type="animation" animName="atk01" />
+    <Script id="81103301"
+            playingTime="22000">
+        <Action type="move"
+                pos="-57568.2227,-25372.2578,2139"
+                speed="100">
+            <Action type="move"
+                    pos="-57597,-25460,2139"
+                    speed="100">
+                <Action type="animation"
+                        animName="atk01">
+                    <Action type="move"
+                            pos="-57688.3047,-25527.9141,2139"
+                            speed="100">
+                        <Action type="move"
+                                pos="-57788,-25523,2139"
+                                speed="100">
+                            <Action type="animation"
+                                    animName="atk01">
+                                <Action type="move"
+                                        pos="-57865.6328,-25458.2715,2139"
+                                        speed="100">
+                                    <Action type="move"
+                                            pos="-57894,-25359,2139"
+                                            speed="100">
+                                        <Action type="animation"
+                                                animName="atk01">
+                                            <Action type="move"
+                                                    pos="-57851.8867,-25260.5137,2139"
+                                                    speed="100">
+                                                <Action type="move"
+                                                        pos="-57768,-25209,2139"
+                                                        speed="100">
+                                                    <Action type="animation"
+                                                            animName="atk01">
+                                                        <Action type="move"
+                                                                pos="-57652.4609,-25225.1289,2139"
+                                                                speed="100">
+                                                            <Action type="move"
+                                                                    pos="-57591,-25283,2139"
+                                                                    speed="100">
+                                                                <Action type="animation"
+                                                                        animName="atk01" />
                                                             </Action>
                                                         </Action>
                                                     </Action>
@@ -207,22 +607,48 @@
             </Action>
         </Action>
     </Script>
-    <Script id="81103401" playingTime="22000">
-        <Action type="move" pos="-57688.3047,-25527.9141,2139" speed="100">
-            <Action type="move" pos="-57788,-25523,2139" speed="100">
-                <Action type="animation" animName="atk01">
-                    <Action type="move" pos="-57865.6328,-25458.2715,2139" speed="100">
-                        <Action type="move" pos="-57894,-25359,2139" speed="100">
-                            <Action type="animation" animName="atk01">
-                                <Action type="move" pos="-57851.8867,-25260.5137,2139" speed="100">
-                                    <Action type="move" pos="-57768,-25209,2139" speed="100">
-                                        <Action type="animation" animName="atk01">
-                                            <Action type="move" pos="-57652.4609,-25225.1289,2139" speed="100">
-                                                <Action type="move" pos="-57591,-25283,2139" speed="100">
-                                                    <Action type="animation" animName="atk01">
-                                                        <Action type="move" pos="-57568.2227,-25372.2578,2139" speed="100">
-                                                            <Action type="move" pos="-57597,-25460,2139" speed="100">
-                                                                <Action type="animation" animName="atk01" />
+    <Script id="81103401"
+            playingTime="22000">
+        <Action type="move"
+                pos="-57688.3047,-25527.9141,2139"
+                speed="100">
+            <Action type="move"
+                    pos="-57788,-25523,2139"
+                    speed="100">
+                <Action type="animation"
+                        animName="atk01">
+                    <Action type="move"
+                            pos="-57865.6328,-25458.2715,2139"
+                            speed="100">
+                        <Action type="move"
+                                pos="-57894,-25359,2139"
+                                speed="100">
+                            <Action type="animation"
+                                    animName="atk01">
+                                <Action type="move"
+                                        pos="-57851.8867,-25260.5137,2139"
+                                        speed="100">
+                                    <Action type="move"
+                                            pos="-57768,-25209,2139"
+                                            speed="100">
+                                        <Action type="animation"
+                                                animName="atk01">
+                                            <Action type="move"
+                                                    pos="-57652.4609,-25225.1289,2139"
+                                                    speed="100">
+                                                <Action type="move"
+                                                        pos="-57591,-25283,2139"
+                                                        speed="100">
+                                                    <Action type="animation"
+                                                            animName="atk01">
+                                                        <Action type="move"
+                                                                pos="-57568.2227,-25372.2578,2139"
+                                                                speed="100">
+                                                            <Action type="move"
+                                                                    pos="-57597,-25460,2139"
+                                                                    speed="100">
+                                                                <Action type="animation"
+                                                                        animName="atk01" />
                                                             </Action>
                                                         </Action>
                                                     </Action>
@@ -238,22 +664,48 @@
             </Action>
         </Action>
     </Script>
-    <Script id="81103501" playingTime="22000">
-        <Action type="move" pos="-57865.6328,-25458.2715,2139" speed="100">
-            <Action type="move" pos="-57894,-25359,2139" speed="100">
-                <Action type="animation" animName="atk01">
-                    <Action type="move" pos="-57851.8867,-25260.5137,2139" speed="100">
-                        <Action type="move" pos="-57768,-25209,2139" speed="100">
-                            <Action type="animation" animName="atk01">
-                                <Action type="move" pos="-57652.4609,-25225.1289,2139" speed="100">
-                                    <Action type="move" pos="-57591,-25283,2139" speed="100">
-                                        <Action type="animation" animName="atk01">
-                                            <Action type="move" pos="-57568.2227,-25372.2578,2139" speed="100">
-                                                <Action type="move" pos="-57597,-25460,2139" speed="100">
-                                                    <Action type="animation" animName="atk01">
-                                                        <Action type="move" pos="-57688.3047,-25527.9141,2139" speed="100">
-                                                            <Action type="move" pos="-57788,-25523,2139" speed="100">
-                                                                <Action type="animation" animName="atk01" />
+    <Script id="81103501"
+            playingTime="22000">
+        <Action type="move"
+                pos="-57865.6328,-25458.2715,2139"
+                speed="100">
+            <Action type="move"
+                    pos="-57894,-25359,2139"
+                    speed="100">
+                <Action type="animation"
+                        animName="atk01">
+                    <Action type="move"
+                            pos="-57851.8867,-25260.5137,2139"
+                            speed="100">
+                        <Action type="move"
+                                pos="-57768,-25209,2139"
+                                speed="100">
+                            <Action type="animation"
+                                    animName="atk01">
+                                <Action type="move"
+                                        pos="-57652.4609,-25225.1289,2139"
+                                        speed="100">
+                                    <Action type="move"
+                                            pos="-57591,-25283,2139"
+                                            speed="100">
+                                        <Action type="animation"
+                                                animName="atk01">
+                                            <Action type="move"
+                                                    pos="-57568.2227,-25372.2578,2139"
+                                                    speed="100">
+                                                <Action type="move"
+                                                        pos="-57597,-25460,2139"
+                                                        speed="100">
+                                                    <Action type="animation"
+                                                            animName="atk01">
+                                                        <Action type="move"
+                                                                pos="-57688.3047,-25527.9141,2139"
+                                                                speed="100">
+                                                            <Action type="move"
+                                                                    pos="-57788,-25523,2139"
+                                                                    speed="100">
+                                                                <Action type="animation"
+                                                                        animName="atk01" />
                                                             </Action>
                                                         </Action>
                                                     </Action>
@@ -269,22 +721,48 @@
             </Action>
         </Action>
     </Script>
-    <Script id="81103601" playingTime="22000">
-        <Action type="move" pos="-57851.8867,-25260.5137,2139" speed="100">
-            <Action type="move" pos="-57768,-25209,2139" speed="100">
-                <Action type="animation" animName="atk01">
-                    <Action type="move" pos="-57652.4609,-25225.1289,2139" speed="100">
-                        <Action type="move" pos="-57591,-25283,2139" speed="100">
-                            <Action type="animation" animName="atk01">
-                                <Action type="move" pos="-57568.2227,-25372.2578,2139" speed="100">
-                                    <Action type="move" pos="-57597,-25460,2139" speed="100">
-                                        <Action type="animation" animName="atk01">
-                                            <Action type="move" pos="-57688.3047,-25527.9141,2139" speed="100">
-                                                <Action type="move" pos="-57788,-25523,2139" speed="100">
-                                                    <Action type="animation" animName="atk01">
-                                                        <Action type="move" pos="-57865.6328,-25458.2715,2139" speed="100">
-                                                            <Action type="move" pos="-57894,-25359,2139" speed="100">
-                                                                <Action type="animation" animName="atk01" />
+    <Script id="81103601"
+            playingTime="22000">
+        <Action type="move"
+                pos="-57851.8867,-25260.5137,2139"
+                speed="100">
+            <Action type="move"
+                    pos="-57768,-25209,2139"
+                    speed="100">
+                <Action type="animation"
+                        animName="atk01">
+                    <Action type="move"
+                            pos="-57652.4609,-25225.1289,2139"
+                            speed="100">
+                        <Action type="move"
+                                pos="-57591,-25283,2139"
+                                speed="100">
+                            <Action type="animation"
+                                    animName="atk01">
+                                <Action type="move"
+                                        pos="-57568.2227,-25372.2578,2139"
+                                        speed="100">
+                                    <Action type="move"
+                                            pos="-57597,-25460,2139"
+                                            speed="100">
+                                        <Action type="animation"
+                                                animName="atk01">
+                                            <Action type="move"
+                                                    pos="-57688.3047,-25527.9141,2139"
+                                                    speed="100">
+                                                <Action type="move"
+                                                        pos="-57788,-25523,2139"
+                                                        speed="100">
+                                                    <Action type="animation"
+                                                            animName="atk01">
+                                                        <Action type="move"
+                                                                pos="-57865.6328,-25458.2715,2139"
+                                                                speed="100">
+                                                            <Action type="move"
+                                                                    pos="-57894,-25359,2139"
+                                                                    speed="100">
+                                                                <Action type="animation"
+                                                                        animName="atk01" />
                                                             </Action>
                                                         </Action>
                                                     </Action>
@@ -300,292 +778,833 @@
             </Action>
         </Action>
     </Script>
-    <Script id="81103701" playingTime="40000">
-        <Action time="0" type="dialog" textId="101" showChat="false" />
-        <Action time="100" type="animation" animName="commandreceive" rate="0.8" />
-        <Action time="5900" type="dialog" textId="101" showChat="false" />
-        <Action time="6000" type="animation" animName="commandreceive" rate="0.8" />
-        <Action time="10500" type="rotate" duration="50" dir="-19000" />
-        <Action time="10600" type="animation" animName="talk_Q" rate="2" />
-        <Action time="11600" type="dialog" textId="102" showChat="false" />
-        <Action time="14000" type="rotateToInitDir" duration="50" />
-        <Action time="15900" type="dialog" textId="103" showChat="false" />
-        <Action time="16000" type="animation" animName="commandreceive" rate="0.8" />
-        <Action time="21000" type="move" pos="-58469,-23369,2119" speed="100" />
-        <Action time="22300" type="rotate" duration="100" dir="-9000" />
-        <Action time="23500" type="animation" animName="angry_Q" rate="1" />
-        <Action time="23600" type="dialog" textId="104" showChat="false" />
-        <Action time="29000" type="moveToInitPos" speed="100" />
-        <Action time="30800" type="rotateToInitDir" duration="100" />
-        <Action time="40000" type="animation" animName="unarmedWait" rate="1" />
+    <Script id="81103701"
+            playingTime="40000">
+        <Action time="0"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="100"
+                type="animation"
+                animName="commandreceive"
+                rate="0.8" />
+        <Action time="5900"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="6000"
+                type="animation"
+                animName="commandreceive"
+                rate="0.8" />
+        <Action time="10500"
+                type="rotate"
+                duration="50"
+                dir="-19000" />
+        <Action time="10600"
+                type="animation"
+                animName="talk_Q"
+                rate="2" />
+        <Action time="11600"
+                type="dialog"
+                textId="102"
+                showChat="false" />
+        <Action time="14000"
+                type="rotateToInitDir"
+                duration="50" />
+        <Action time="15900"
+                type="dialog"
+                textId="103"
+                showChat="false" />
+        <Action time="16000"
+                type="animation"
+                animName="commandreceive"
+                rate="0.8" />
+        <Action time="21000"
+                type="move"
+                pos="-58469,-23369,2119"
+                speed="100" />
+        <Action time="22300"
+                type="rotate"
+                duration="100"
+                dir="-9000" />
+        <Action time="23500"
+                type="animation"
+                animName="angry_Q"
+                rate="1" />
+        <Action time="23600"
+                type="dialog"
+                textId="104"
+                showChat="false" />
+        <Action time="29000"
+                type="moveToInitPos"
+                speed="100" />
+        <Action time="30800"
+                type="rotateToInitDir"
+                duration="100" />
+        <Action time="40000"
+                type="animation"
+                animName="unarmedWait"
+                rate="1" />
     </Script>
-    <Script id="81103901" playingTime="40000">
-        <Action time="2000" type="animation" animName="atk02" rate="1" />
-        <Action time="2100" type="dialog" textId="101" showChat="false" />
-        <Action time="3100" type="dialog" textId="999" showChat="false" />
-        <Action time="8000" type="animation" animName="atk02" rate="1" />
-        <Action time="8100" type="dialog" textId="101" showChat="false" />
-        <Action time="9100" type="dialog" textId="999" showChat="false" />
-        <Action time="12000" type="animation" animName="Idle" rate="1.3" />
-        <Action time="18000" type="animation" animName="atk02" rate="1" />
-        <Action time="18100" type="dialog" textId="101" showChat="false" />
-        <Action time="19100" type="dialog" textId="999" showChat="false" />
-        <Action time="30500" type="animation" animName="Idle" rate="1" />
-        <Action time="40000" type="animation" animName="unarmedWait" rate="1" />
+    <Script id="81103901"
+            playingTime="40000">
+        <Action time="2000"
+                type="animation"
+                animName="atk02"
+                rate="1" />
+        <Action time="2100"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="3100"
+                type="dialog"
+                textId="999"
+                showChat="false" />
+        <Action time="8000"
+                type="animation"
+                animName="atk02"
+                rate="1" />
+        <Action time="8100"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="9100"
+                type="dialog"
+                textId="999"
+                showChat="false" />
+        <Action time="12000"
+                type="animation"
+                animName="Idle"
+                rate="1.3" />
+        <Action time="18000"
+                type="animation"
+                animName="atk02"
+                rate="1" />
+        <Action time="18100"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="19100"
+                type="dialog"
+                textId="999"
+                showChat="false" />
+        <Action time="30500"
+                type="animation"
+                animName="Idle"
+                rate="1" />
+        <Action time="40000"
+                type="animation"
+                animName="unarmedWait"
+                rate="1" />
     </Script>
-    <Script id="81104001" playingTime="40000">
-        <Action time="2000" type="animation" animName="atk02" rate="1" />
-        <Action time="2100" type="dialog" textId="101" showChat="false" />
-        <Action time="3100" type="dialog" textId="999" showChat="false" />
-        <Action time="8000" type="animation" animName="atk02" rate="1" />
-        <Action time="8100" type="dialog" textId="101" showChat="false" />
-        <Action time="9100" type="dialog" textId="999" showChat="false" />
-        <Action time="18000" type="animation" animName="atk02" rate="1" />
-        <Action time="18100" type="dialog" textId="101" showChat="false" />
-        <Action time="19100" type="dialog" textId="999" showChat="false" />
-        <Action time="40000" type="animation" animName="unarmedWait" rate="1" />
+    <Script id="81104001"
+            playingTime="40000">
+        <Action time="2000"
+                type="animation"
+                animName="atk02"
+                rate="1" />
+        <Action time="2100"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="3100"
+                type="dialog"
+                textId="999"
+                showChat="false" />
+        <Action time="8000"
+                type="animation"
+                animName="atk02"
+                rate="1" />
+        <Action time="8100"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="9100"
+                type="dialog"
+                textId="999"
+                showChat="false" />
+        <Action time="18000"
+                type="animation"
+                animName="atk02"
+                rate="1" />
+        <Action time="18100"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="19100"
+                type="dialog"
+                textId="999"
+                showChat="false" />
+        <Action time="40000"
+                type="animation"
+                animName="unarmedWait"
+                rate="1" />
     </Script>
-    <Script id="81104101" playingTime="40000">
-        <Action time="2000" type="animation" animName="atk02" rate="1" />
-        <Action time="2100" type="dialog" textId="101" showChat="false" />
-        <Action time="3100" type="dialog" textId="999" showChat="false" />
-        <Action time="8000" type="animation" animName="atk02" rate="1" />
-        <Action time="8100" type="dialog" textId="101" showChat="false" />
-        <Action time="9100" type="dialog" textId="999" showChat="false" />
-        <Action time="18000" type="animation" animName="atk02" rate="1" />
-        <Action time="18100" type="dialog" textId="101" showChat="false" />
-        <Action time="19100" type="dialog" textId="999" showChat="false" />
-        <Action time="21500" type="animation" animName="Idle" rate="1" />
-        <Action time="40000" type="animation" animName="unarmedWait" rate="1" />
+    <Script id="81104101"
+            playingTime="40000">
+        <Action time="2000"
+                type="animation"
+                animName="atk02"
+                rate="1" />
+        <Action time="2100"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="3100"
+                type="dialog"
+                textId="999"
+                showChat="false" />
+        <Action time="8000"
+                type="animation"
+                animName="atk02"
+                rate="1" />
+        <Action time="8100"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="9100"
+                type="dialog"
+                textId="999"
+                showChat="false" />
+        <Action time="18000"
+                type="animation"
+                animName="atk02"
+                rate="1" />
+        <Action time="18100"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="19100"
+                type="dialog"
+                textId="999"
+                showChat="false" />
+        <Action time="21500"
+                type="animation"
+                animName="Idle"
+                rate="1" />
+        <Action time="40000"
+                type="animation"
+                animName="unarmedWait"
+                rate="1" />
     </Script>
-    <Script id="81104201" playingTime="35000">
-        <Action time="2900" type="dialog" textId="101" showChat="false" />
-        <Action time="3000" type="animation" animName="atk02" rate="0.7" />
-        <Action time="4200" type="dialog" textId="102" showChat="false" />
-        <Action time="5200" type="dialog" textId="999" showChat="false" />
-        <Action time="8900" type="dialog" textId="101" showChat="false" />
-        <Action time="9000" type="animation" animName="atk02" rate="0.7" />
-        <Action time="10200" type="dialog" textId="102" showChat="false" />
-        <Action time="11200" type="dialog" textId="999" showChat="false" />
-        <Action time="18900" type="dialog" textId="103" showChat="false" />
-        <Action time="19000" type="animation" animName="atk02" rate="0.5" />
-        <Action time="20500" type="dialog" textId="102" showChat="false" />
-        <Action time="22000" type="dialog" textId="999" showChat="false" />
-        <Action time="23500" type="animation" animName="talk_Q" rate="2" />
-        <Action time="24500" type="dialog" textId="104" showChat="false" />
-        <Action time="26183" type="animation" animName="talk_Q" rate="2" />
-        <Action time="40000" type="animation" animName="unarmedWait" rate="1" />
+    <Script id="81104201"
+            playingTime="35000">
+        <Action time="2900"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="3000"
+                type="animation"
+                animName="atk02"
+                rate="0.7" />
+        <Action time="4200"
+                type="dialog"
+                textId="102"
+                showChat="false" />
+        <Action time="5200"
+                type="dialog"
+                textId="999"
+                showChat="false" />
+        <Action time="8900"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="9000"
+                type="animation"
+                animName="atk02"
+                rate="0.7" />
+        <Action time="10200"
+                type="dialog"
+                textId="102"
+                showChat="false" />
+        <Action time="11200"
+                type="dialog"
+                textId="999"
+                showChat="false" />
+        <Action time="18900"
+                type="dialog"
+                textId="103"
+                showChat="false" />
+        <Action time="19000"
+                type="animation"
+                animName="atk02"
+                rate="0.5" />
+        <Action time="20500"
+                type="dialog"
+                textId="102"
+                showChat="false" />
+        <Action time="22000"
+                type="dialog"
+                textId="999"
+                showChat="false" />
+        <Action time="23500"
+                type="animation"
+                animName="talk_Q"
+                rate="2" />
+        <Action time="24500"
+                type="dialog"
+                textId="104"
+                showChat="false" />
+        <Action time="26183"
+                type="animation"
+                animName="talk_Q"
+                rate="2" />
+        <Action time="40000"
+                type="animation"
+                animName="unarmedWait"
+                rate="1" />
     </Script>
-    <Script id="83101501" playingTime="9000">
-        <Action type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9901" />
-        <Action time="1" type="animation" animName="idle1" rate="1" />
+    <Script id="83101501"
+            playingTime="9000">
+        <Action type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9901" />
+        <Action time="1"
+                type="animation"
+                animName="idle1"
+                rate="1" />
     </Script>
-    <Script id="83101502" playingTime="9000">
-        <Action type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9902" />
-        <Action time="1" type="animation" animName="idle2" rate="1" />
+    <Script id="83101502"
+            playingTime="9000">
+        <Action type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9902" />
+        <Action time="1"
+                type="animation"
+                animName="idle2"
+                rate="1" />
     </Script>
-    <Script id="83101503" playingTime="9000">
-        <Action type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9903" />
-        <Action time="1" type="animation" animName="idle3" rate="1" />
+    <Script id="83101503"
+            playingTime="9000">
+        <Action type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9903" />
+        <Action time="1"
+                type="animation"
+                animName="idle3"
+                rate="1" />
     </Script>
-    <Script id="83101504" playingTime="9000">
-        <Action type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9904" />
-        <Action time="1" type="animation" animName="talk1" rate="1" />
+    <Script id="83101504"
+            playingTime="9000">
+        <Action type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9904" />
+        <Action time="1"
+                type="animation"
+                animName="talk1"
+                rate="1" />
     </Script>
-    <Script id="83101505" playingTime="9000">
-        <Action type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9905" />
-        <Action time="1" type="animation" animName="talk2" rate="1" />
+    <Script id="83101505"
+            playingTime="9000">
+        <Action type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9905" />
+        <Action time="1"
+                type="animation"
+                animName="talk2"
+                rate="1" />
     </Script>
-    <Script id="83101506" playingTime="9000">
-        <Action type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9906" />
-        <Action time="1" type="animation" animName="talk3" rate="1" />
+    <Script id="83101506"
+            playingTime="9000">
+        <Action type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9906" />
+        <Action time="1"
+                type="animation"
+                animName="talk3"
+                rate="1" />
     </Script>
-    <Script id="83101507" playingTime="9000">
-        <Action type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9907" />
-        <Action time="1" type="animation" animName="victory" rate="1" />
+    <Script id="83101507"
+            playingTime="9000">
+        <Action type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9907" />
+        <Action time="1"
+                type="animation"
+                animName="victory"
+                rate="1" />
     </Script>
-    <Script id="83101508" playingTime="9000">
-        <Action type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9908" />
-        <Action time="1" type="animation" animName="applaud" rate="1" />
+    <Script id="83101508"
+            playingTime="9000">
+        <Action type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9908" />
+        <Action time="1"
+                type="animation"
+                animName="applaud"
+                rate="1" />
     </Script>
-    <Script id="83101509" playingTime="9000">
-        <Action type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9909" />
-        <Action time="1" type="animation" animName="request" rate="1" />
+    <Script id="83101509"
+            playingTime="9000">
+        <Action type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9909" />
+        <Action time="1"
+                type="animation"
+                animName="request"
+                rate="1" />
     </Script>
-    <Script id="83101510" playingTime="9000">
-        <Action type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9910" />
-        <Action time="1" type="animation" animName="worry" rate="1" />
+    <Script id="83101510"
+            playingTime="9000">
+        <Action type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9910" />
+        <Action time="1"
+                type="animation"
+                animName="worry"
+                rate="1" />
     </Script>
-    <Script id="83101511" playingTime="9000">
-        <Action type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9911" />
-        <Action time="1" type="animation" animName="shy" rate="1" />
+    <Script id="83101511"
+            playingTime="9000">
+        <Action type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9911" />
+        <Action time="1"
+                type="animation"
+                animName="shy"
+                rate="1" />
     </Script>
-    <Script id="83101512" playingTime="9000">
-        <Action type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9912" />
-        <Action time="1" type="animation" animName="angry" rate="1" />
+    <Script id="83101512"
+            playingTime="9000">
+        <Action type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9912" />
+        <Action time="1"
+                type="animation"
+                animName="angry"
+                rate="1" />
     </Script>
-    <Script id="83101513" playingTime="9000">
-        <Action type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9913" />
-        <Action time="1" type="animation" animName="sob" rate="1" />
+    <Script id="83101513"
+            playingTime="9000">
+        <Action type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9913" />
+        <Action time="1"
+                type="animation"
+                animName="sob"
+                rate="1" />
     </Script>
-    <Script id="83101514" playingTime="9000">
-        <Action type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9914" />
-        <Action time="1" type="animation" animName="greet" rate="1" />
+    <Script id="83101514"
+            playingTime="9000">
+        <Action type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9914" />
+        <Action time="1"
+                type="animation"
+                animName="greet"
+                rate="1" />
     </Script>
-    <Script id="83101515" playingTime="9000">
-        <Action type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9915" />
-        <Action time="1" type="animation" animName="taunt" rate="1" />
+    <Script id="83101515"
+            playingTime="9000">
+        <Action type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9915" />
+        <Action time="1"
+                type="animation"
+                animName="taunt"
+                rate="1" />
     </Script>
-    <Script id="83101516" playingTime="9000">
-        <Action type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9916" />
-        <Action time="1" type="animation" animName="propose" rate="1" />
+    <Script id="83101516"
+            playingTime="9000">
+        <Action type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9916" />
+        <Action time="1"
+                type="animation"
+                animName="propose"
+                rate="1" />
     </Script>
-    <Script id="83101517" playingTime="9000">
-        <Action type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9917" />
-        <Action time="1" type="animation" animName="attack" rate="1" />
+    <Script id="83101517"
+            playingTime="9000">
+        <Action type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9917" />
+        <Action time="1"
+                type="animation"
+                animName="attack"
+                rate="1" />
     </Script>
-    <Script id="83101518" playingTime="9000">
-        <Action type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9918" />
-        <Action time="1" type="animation" animName="pointing" rate="1" />
+    <Script id="83101518"
+            playingTime="9000">
+        <Action type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9918" />
+        <Action time="1"
+                type="animation"
+                animName="pointing"
+                rate="1" />
     </Script>
-    <Script id="83101519" playingTime="9000">
-        <Action type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9919" />
-        <Action time="1" type="animation" animName="dance" rate="1" />
+    <Script id="83101519"
+            playingTime="9000">
+        <Action type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9919" />
+        <Action time="1"
+                type="animation"
+                animName="dance"
+                rate="1" />
     </Script>
-    <Script id="83101520" playingTime="9000">
-        <Action type="SystemMessage" style="SMS_CHAT_INFO_QUEST" message="@quest:9920" />
-        <Action time="1" type="animation" animName="smile" rate="1" />
+    <Script id="83101520"
+            playingTime="9000">
+        <Action type="SystemMessage"
+                style="SMS_CHAT_INFO_QUEST"
+                message="@quest:9920" />
+        <Action time="1"
+                type="animation"
+                animName="smile"
+                rate="1" />
     </Script>
-    <Script id="107910401" playingTime="20000">
-        <Action time="0" type="dialog" textId="101" showChat="false" />
-        <Action time="7000" type="dialog" textId="102" showChat="false" />
+    <Script id="107910401"
+            playingTime="20000">
+        <Action time="0"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="7000"
+                type="dialog"
+                textId="102"
+                showChat="false" />
     </Script>
-    <Script id="107910411" playingTime="20000">
-        <Action time="0" type="dialog" textId="101" showChat="false" />
-        <Action time="7000" type="dialog" textId="102" showChat="false" />
+    <Script id="107910411"
+            playingTime="20000">
+        <Action time="0"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="7000"
+                type="dialog"
+                textId="102"
+                showChat="false" />
     </Script>
-    <Script id="108110261" playingTime="1333">
-        <Action time="0" type="animation" animName="KnockbackLoop" rate="1" />
+    <Script id="108110261"
+            playingTime="1333">
+        <Action time="0"
+                type="animation"
+                animName="KnockbackLoop"
+                rate="1" />
     </Script>
-    <Script id="108110271" playingTime="1366">
-        <Action time="0" type="animation" animName="KnockbackLoop" rate="1" />
+    <Script id="108110271"
+            playingTime="1366">
+        <Action time="0"
+                type="animation"
+                animName="KnockbackLoop"
+                rate="1" />
     </Script>
     <Script id="108410081">
-        <Action time="0" type="dialog" textId="101" showChat="false">
-            <Action time="0" type="animation" animName="Talk1" rate="1" />
+        <Action time="0"
+                type="dialog"
+                textId="101"
+                showChat="false">
+            <Action time="0"
+                    type="animation"
+                    animName="Talk1"
+                    rate="1" />
         </Action>
-        <Action time="13000" type="dialog" textId="102" showChat="false">
-            <Action time="0" type="animation" animName="Talk1" rate="1" />
+        <Action time="13000"
+                type="dialog"
+                textId="102"
+                showChat="false">
+            <Action time="0"
+                    type="animation"
+                    animName="Talk1"
+                    rate="1" />
         </Action>
-        <Action time="31000" type="dialog" textId="103" showChat="false">
-            <Action time="0" type="animation" animName="Talk1" rate="1" />
+        <Action time="31000"
+                type="dialog"
+                textId="103"
+                showChat="false">
+            <Action time="0"
+                    type="animation"
+                    animName="Talk1"
+                    rate="1" />
         </Action>
     </Script>
-    <Script id="108410591" playingTime="500">
-        <Action time="10" type="dialog" textId="101" showChat="false" />
+    <Script id="108410591"
+            playingTime="500">
+        <Action time="10"
+                type="dialog"
+                textId="101"
+                showChat="false" />
     </Script>
-    <Script id="108410592" playingTime="500">
-        <Action time="10" type="dialog" textId="102" showChat="false" />
+    <Script id="108410592"
+            playingTime="500">
+        <Action time="10"
+                type="dialog"
+                textId="102"
+                showChat="false" />
     </Script>
-    <Script id="108410593" playingTime="500">
-        <Action time="10" type="dialog" textId="103" showChat="false" />
+    <Script id="108410593"
+            playingTime="500">
+        <Action time="10"
+                type="dialog"
+                textId="103"
+                showChat="false" />
     </Script>
     <Script id="108410601">
-        <Action time="10" type="dialog" textId="101" showChat="false" />
+        <Action time="10"
+                type="dialog"
+                textId="101"
+                showChat="false" />
     </Script>
     <Script id="108410602">
-        <Action time="10" type="dialog" textId="102" showChat="false" />
+        <Action time="10"
+                type="dialog"
+                textId="102"
+                showChat="false" />
     </Script>
     <Script id="108410603">
-        <Action time="10" type="dialog" textId="103" showChat="false" />
+        <Action time="10"
+                type="dialog"
+                textId="103"
+                showChat="false" />
     </Script>
     <Script id="108411861">
-        <Action time="1000" type="dialog" textId="101" showChat="false">
-            <Action time="0" type="animation" animName="Talk1" rate="1" />
+        <Action time="1000"
+                type="dialog"
+                textId="101"
+                showChat="false">
+            <Action time="0"
+                    type="animation"
+                    animName="Talk1"
+                    rate="1" />
         </Action>
-        <Action time="8000" type="dialog" textId="102" showChat="false">
-            <Action time="0" type="animation" animName="Talk1" rate="1" />
+        <Action time="8000"
+                type="dialog"
+                textId="102"
+                showChat="false">
+            <Action time="0"
+                    type="animation"
+                    animName="Talk1"
+                    rate="1" />
         </Action>
-        <Action time="16000" type="dialog" textId="103" showChat="false">
-            <Action time="0" type="animation" animName="Talk1" rate="1" />
+        <Action time="16000"
+                type="dialog"
+                textId="103"
+                showChat="false">
+            <Action time="0"
+                    type="animation"
+                    animName="Talk1"
+                    rate="1" />
         </Action>
     </Script>
     <Script id="108411911">
-        <Action time="1000" type="dialog" textId="101" showChat="false">
-            <Action time="0" type="animation" animName="Talk1" rate="1" />
+        <Action time="1000"
+                type="dialog"
+                textId="101"
+                showChat="false">
+            <Action time="0"
+                    type="animation"
+                    animName="Talk1"
+                    rate="1" />
         </Action>
-        <Action time="8000" type="dialog" textId="102" showChat="false">
-            <Action time="0" type="animation" animName="Talk1" rate="1" />
+        <Action time="8000"
+                type="dialog"
+                textId="102"
+                showChat="false">
+            <Action time="0"
+                    type="animation"
+                    animName="Talk1"
+                    rate="1" />
         </Action>
-        <Action time="15000" type="dialog" textId="103" showChat="false">
-            <Action time="0" type="animation" animName="Talk1" rate="1" />
+        <Action time="15000"
+                type="dialog"
+                textId="103"
+                showChat="false">
+            <Action time="0"
+                    type="animation"
+                    animName="Talk1"
+                    rate="1" />
         </Action>
     </Script>
     <Script id="108411971">
-        <Action time="1000" type="dialog" textId="101" showChat="false" />
-        <Action time="7000" type="dialog" textId="102" showChat="false" />
-        <Action time="12000" type="dialog" textId="103" showChat="false" />
+        <Action time="1000"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="7000"
+                type="dialog"
+                textId="102"
+                showChat="false" />
+        <Action time="12000"
+                type="dialog"
+                textId="103"
+                showChat="false" />
     </Script>
-    <Script id="108450011" playingTime="8000">
-        <Action time="0" type="dialog" textId="101" showChat="false" />
+    <Script id="108450011"
+            playingTime="8000">
+        <Action time="0"
+                type="dialog"
+                textId="101"
+                showChat="false" />
     </Script>
-    <Script id="108450021" playingTime="8000">
-        <Action time="0" type="dialog" textId="101" showChat="false" />
+    <Script id="108450021"
+            playingTime="8000">
+        <Action time="0"
+                type="dialog"
+                textId="101"
+                showChat="false" />
     </Script>
-    <Script id="141150031" playingTime="1100">
-        <Action time="0" type="animation" animName="Craft_metal" rate="1" blendInTime="0.4" />
-        <Action time="459" effectId="411005" type="effect" rate="0.5" />
-        <Action type="animation" animName="Craft_metal" rate="1" blendInTime="0.4" isFinal="true" />
+    <Script id="141150031"
+            playingTime="1100">
+        <Action time="0"
+                type="animation"
+                animName="Craft_metal"
+                rate="1"
+                blendInTime="0.4" />
+        <Action time="459"
+                effectId="411005"
+                type="effect"
+                rate="0.5" />
+        <Action type="animation"
+                animName="Craft_metal"
+                rate="1"
+                blendInTime="0.4"
+                isFinal="true" />
     </Script>
-    <Script id="141150041" playingTime="1100">
-        <Action time="0" type="animation" animName="Craft_metal" rate="1" blendInTime="0.4" />
-        <Action time="459" effectId="411005" type="effect" rate="0.5" />
-        <Action type="animation" animName="Craft_metal" rate="1" blendInTime="0.4" isFinal="true" />
+    <Script id="141150041"
+            playingTime="1100">
+        <Action time="0"
+                type="animation"
+                animName="Craft_metal"
+                rate="1"
+                blendInTime="0.4" />
+        <Action time="459"
+                effectId="411005"
+                type="effect"
+                rate="0.5" />
+        <Action type="animation"
+                animName="Craft_metal"
+                rate="1"
+                blendInTime="0.4"
+                isFinal="true" />
     </Script>
-    <Script id="141150051" playingTime="1100">
-        <Action time="0" type="animation" animName="Craft_metal" rate="1" blendInTime="0.4" />
-        <Action time="459" effectId="411005" type="effect" rate="0.5" />
-        <Action type="animation" animName="Craft_metal" rate="1" blendInTime="0.4" isFinal="true" />
+    <Script id="141150051"
+            playingTime="1100">
+        <Action time="0"
+                type="animation"
+                animName="Craft_metal"
+                rate="1"
+                blendInTime="0.4" />
+        <Action time="459"
+                effectId="411005"
+                type="effect"
+                rate="0.5" />
+        <Action type="animation"
+                animName="Craft_metal"
+                rate="1"
+                blendInTime="0.4"
+                isFinal="true" />
     </Script>
-    <Script id="141150061" playingTime="1100">
-        <Action time="0" type="animation" animName="Craft_metal" rate="1" blendInTime="0.4" />
-        <Action time="459" effectId="411005" type="effect" rate="0.5" />
-        <Action type="animation" animName="Craft_metal" rate="1" blendInTime="0.4" isFinal="true" />
+    <Script id="141150061"
+            playingTime="1100">
+        <Action time="0"
+                type="animation"
+                animName="Craft_metal"
+                rate="1"
+                blendInTime="0.4" />
+        <Action time="459"
+                effectId="411005"
+                type="effect"
+                rate="0.5" />
+        <Action type="animation"
+                animName="Craft_metal"
+                rate="1"
+                blendInTime="0.4"
+                isFinal="true" />
     </Script>
-    <Script id="141150071" playingTime="10000">
-        <Action time="0" type="rotate" duration="50" dir="-29000">
-            <Action time="2000" type="dialog" textId="101" showChat="false">
-                <Action type="animation" animName="greet" rate="1" blendInTime="0.4">
-                    <Action type="actionScript" templateId="5013" huntingZoneId="411" scriptId="141150132">
-                        <Action type="rotateToInitDir" duration="50" />
+    <Script id="141150071"
+            playingTime="10000">
+        <Action time="0"
+                type="rotate"
+                duration="50"
+                dir="-29000">
+            <Action time="2000"
+                    type="dialog"
+                    textId="101"
+                    showChat="false">
+                <Action type="animation"
+                        animName="greet"
+                        rate="1"
+                        blendInTime="0.4">
+                    <Action type="actionScript"
+                            templateId="5013"
+                            huntingZoneId="411"
+                            scriptId="141150132">
+                        <Action type="rotateToInitDir"
+                                duration="50" />
                     </Action>
                 </Action>
             </Action>
         </Action>
     </Script>
-    <Script id="141150081" playingTime="10000">
-        <Action type="rotateToInitDir" duration="50" />
-        <Action time="1000" type="dialog" textId="101" showChat="false" />
-        <Action time="3000" type="dialog" textId="103" showChat="false" />
-        <Action time="5600" type="dialog" textId="102" showChat="false" />
-        <Action time="5800" effectId="200022" type="effect" rate="0.5" />
-        <Action type="animation" animName="Study_Q" rate="1.1" blendInTime="0.2">
-            <Action effectId="200012" type="effect" />
+    <Script id="141150081"
+            playingTime="10000">
+        <Action type="rotateToInitDir"
+                duration="50" />
+        <Action time="1000"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="3000"
+                type="dialog"
+                textId="103"
+                showChat="false" />
+        <Action time="5600"
+                type="dialog"
+                textId="102"
+                showChat="false" />
+        <Action time="5800"
+                effectId="200022"
+                type="effect"
+                rate="0.5" />
+        <Action type="animation"
+                animName="Study_Q"
+                rate="1.1"
+                blendInTime="0.2">
+            <Action effectId="200012"
+                    type="effect" />
         </Action>
     </Script>
-    <Script id="141150101" playingTime="20000">
-        <Action type="defaultAnim" waitAnim="UnarmedWait" moveAnim="walk">
-            <Action type="move" pos="85322,-6774,473" speed="60">
-                <Action time="0" type="rotate" duration="50" dir="500">
-                    <Action type="dialog" textId="101" showChat="false">
-                        <Action type="animation" animName="campitemUse" rate="1" blendInTime="0.4">
-                            <Action effectId="50413" type="effect">
-                                <Action type="dialog" textId="102" showChat="false">
-                                    <Action type="animation" animName="charge" rate="0.7" blendInTime="0.4">
-                                        <Action type="animation" animName="campitemUse" rate="1" blendInTime="0.4">
-                                            <Action type="move" pos="85293.5000,-6853.2119,473.7832" speed="60">
-                                                <Action type="rotateToInitDir" duration="50">
-                                                    <Action type="dialog" textId="103" showChat="false" />
+    <Script id="141150101"
+            playingTime="20000">
+        <Action type="defaultAnim"
+                waitAnim="UnarmedWait"
+                moveAnim="walk">
+            <Action type="move"
+                    pos="85322,-6774,473"
+                    speed="60">
+                <Action time="0"
+                        type="rotate"
+                        duration="50"
+                        dir="500">
+                    <Action type="dialog"
+                            textId="101"
+                            showChat="false">
+                        <Action type="animation"
+                                animName="campitemUse"
+                                rate="1"
+                                blendInTime="0.4">
+                            <Action effectId="50413"
+                                    type="effect">
+                                <Action type="dialog"
+                                        textId="102"
+                                        showChat="false">
+                                    <Action type="animation"
+                                            animName="charge"
+                                            rate="0.7"
+                                            blendInTime="0.4">
+                                        <Action type="animation"
+                                                animName="campitemUse"
+                                                rate="1"
+                                                blendInTime="0.4">
+                                            <Action type="move"
+                                                    pos="85293.5000,-6853.2119,473.7832"
+                                                    speed="60">
+                                                <Action type="rotateToInitDir"
+                                                        duration="50">
+                                                    <Action type="dialog"
+                                                            textId="103"
+                                                            showChat="false" />
                                                 </Action>
                                             </Action>
                                         </Action>
@@ -598,86 +1617,254 @@
             </Action>
         </Action>
     </Script>
-    <Script id="141150111" playingTime="20000">
-        <Action type="rotateToInitDir" duration="50" />
-        <Action effectId="200004" type="effect" />
-        <Action type="dialog" textId="101" showChat="false" />
-        <Action type="animation" animName="campitemUse" rate="0.5" blendInTime="0.2">
-            <Action type="animation" animName="Enchant" rate="1" blendInTime="0.4">
-                <Action type="actionScript" templateId="5013" huntingZoneId="411" scriptId="141150132">
-                    <Action type="actionScript" templateId="5013" huntingZoneId="411" scriptId="141150131" />
+    <Script id="141150111"
+            playingTime="20000">
+        <Action type="rotateToInitDir"
+                duration="50" />
+        <Action effectId="200004"
+                type="effect" />
+        <Action type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action type="animation"
+                animName="campitemUse"
+                rate="0.5"
+                blendInTime="0.2">
+            <Action type="animation"
+                    animName="Enchant"
+                    rate="1"
+                    blendInTime="0.4">
+                <Action type="actionScript"
+                        templateId="5013"
+                        huntingZoneId="411"
+                        scriptId="141150132">
+                    <Action type="actionScript"
+                            templateId="5013"
+                            huntingZoneId="411"
+                            scriptId="141150131" />
                 </Action>
             </Action>
         </Action>
     </Script>
-    <Script id="141150121" playingTime="20000">
-        <Action type="defaultAnim" waitAnim="dance_Q" />
+    <Script id="141150121"
+            playingTime="20000">
+        <Action type="defaultAnim"
+                waitAnim="dance_Q" />
     </Script>
-    <Script id="141150122" playingTime="20000">
-        <Action type="animation" duration="5000" animName="worship_Q" rate="1" blendInTime="0.4" />
+    <Script id="141150122"
+            playingTime="20000">
+        <Action type="animation"
+                duration="5000"
+                animName="worship_Q"
+                rate="1"
+                blendInTime="0.4" />
     </Script>
-    <Script id="141150123" playingTime="10000">
-        <Action time="50" effectId="200014" type="effect" rate="1" />
-        <Action time="100" type="animation" animName="atk02" rate="1" blendInTime="0.4" />
-        <Action time="200" type="dialog" textId="101" showChat="false" />
-        <Action time="500" type="animation" animName="atk03" rate="1" blendInTime="0.4" />
+    <Script id="141150123"
+            playingTime="10000">
+        <Action time="50"
+                effectId="200014"
+                type="effect"
+                rate="1" />
+        <Action time="100"
+                type="animation"
+                animName="atk02"
+                rate="1"
+                blendInTime="0.4" />
+        <Action time="200"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="500"
+                type="animation"
+                animName="atk03"
+                rate="1"
+                blendInTime="0.4" />
     </Script>
-    <Script id="141150131" playingTime="20000">
-        <Action time="200" type="dialog" textId="101" showChat="false" />
-        <Action time="200" type="animation" duration="5000" animName="atk03" rate="1" blendInTime="0.4" />
-        <Action effectId="200016" type="effect" />
-        <Action type="animation" duration="5000" animName="worship_Q" rate="1" blendInTime="0.4" />
+    <Script id="141150131"
+            playingTime="20000">
+        <Action time="200"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="200"
+                type="animation"
+                duration="5000"
+                animName="atk03"
+                rate="1"
+                blendInTime="0.4" />
+        <Action effectId="200016"
+                type="effect" />
+        <Action type="animation"
+                duration="5000"
+                animName="worship_Q"
+                rate="1"
+                blendInTime="0.4" />
     </Script>
-    <Script id="141150132" playingTime="10000">
-        <Action time="50" effectId="200026" type="effect" rate="1" />
-        <Action time="100" type="animation" animName="atk02" rate="1" blendInTime="0.4" />
-        <Action time="200" type="dialog" textId="101" showChat="false" />
-        <Action time="500" type="animation" animName="atk03" rate="1" blendInTime="0.4" />
+    <Script id="141150132"
+            playingTime="10000">
+        <Action time="50"
+                effectId="200026"
+                type="effect"
+                rate="1" />
+        <Action time="100"
+                type="animation"
+                animName="atk02"
+                rate="1"
+                blendInTime="0.4" />
+        <Action time="200"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="500"
+                type="animation"
+                animName="atk03"
+                rate="1"
+                blendInTime="0.4" />
     </Script>
-    <Script id="141150141" playingTime="10000">
-        <Action type="rotateToInitDir" duration="50" />
-        <Action time="0" type="animation" animName="mine" rate="1" blendInTime="0.4" />
-        <Action time="100" effectId="10249001" type="effect" />
-        <Action time="2000" type="animation" animName="mine" rate="1" blendInTime="0.4" />
-        <Action time="2100" effectId="10249001" type="effect" />
-        <Action time="4000" type="animation" animName="mine" rate="1" blendInTime="0.4" />
-        <Action time="4100" effectId="10249001" type="effect" />
-        <Action time="6000" type="animation" animName="mine" rate="1" blendInTime="0.4" />
-        <Action time="6100" effectId="10249001" type="effect" />
-        <Action time="8000" type="animation" animName="mine" rate="1" blendInTime="0.4" />
-        <Action time="8100" effectId="10249001" type="effect" />
+    <Script id="141150141"
+            playingTime="10000">
+        <Action type="rotateToInitDir"
+                duration="50" />
+        <Action time="0"
+                type="animation"
+                animName="mine"
+                rate="1"
+                blendInTime="0.4" />
+        <Action time="100"
+                effectId="10249001"
+                type="effect" />
+        <Action time="2000"
+                type="animation"
+                animName="mine"
+                rate="1"
+                blendInTime="0.4" />
+        <Action time="2100"
+                effectId="10249001"
+                type="effect" />
+        <Action time="4000"
+                type="animation"
+                animName="mine"
+                rate="1"
+                blendInTime="0.4" />
+        <Action time="4100"
+                effectId="10249001"
+                type="effect" />
+        <Action time="6000"
+                type="animation"
+                animName="mine"
+                rate="1"
+                blendInTime="0.4" />
+        <Action time="6100"
+                effectId="10249001"
+                type="effect" />
+        <Action time="8000"
+                type="animation"
+                animName="mine"
+                rate="1"
+                blendInTime="0.4" />
+        <Action time="8100"
+                effectId="10249001"
+                type="effect" />
     </Script>
-    <Script id="141150151" playingTime="10000">
-        <Action type="rotateToInitDir" duration="50" />
-        <Action type="defaultAnim" waitAnim="Craft_energy" />
-        <Action time="9000" type="dialog" textId="101" showChat="false" />
-        <Action time="9000" effectId="200004" type="effect" />
-        <Action time="9000" type="animation" animName="recall" rate="1" blendInTime="0.4">
-            <Action type="actionScript" templateId="5012" huntingZoneId="411" scriptId="141150123" />
+    <Script id="141150151"
+            playingTime="10000">
+        <Action type="rotateToInitDir"
+                duration="50" />
+        <Action type="defaultAnim"
+                waitAnim="Craft_energy" />
+        <Action time="9000"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="9000"
+                effectId="200004"
+                type="effect" />
+        <Action time="9000"
+                type="animation"
+                animName="recall"
+                rate="1"
+                blendInTime="0.4">
+            <Action type="actionScript"
+                    templateId="5012"
+                    huntingZoneId="411"
+                    scriptId="141150123" />
         </Action>
     </Script>
-    <Script id="142210021" playingTime="20000">
-        <Action type="cameraShake" duration="25000" power="0.2" speed="10" />
-        <Action time="5000" type="dialog" textId="101" showChat="false" />
-        <Action time="10000" type="dialog" textId="102" showChat="false" />
-        <Action time="15000" type="dialog" textId="103" showChat="false" />
+    <Script id="142210021"
+            playingTime="20000">
+        <Action type="cameraShake"
+                duration="25000"
+                power="0.2"
+                speed="10" />
+        <Action time="5000"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="10000"
+                type="dialog"
+                textId="102"
+                showChat="false" />
+        <Action time="15000"
+                type="dialog"
+                textId="103"
+                showChat="false" />
     </Script>
-    <Script id="142210022" playingTime="1000">
-        <Action type="defaultAnim" waitAnim="ReactionAdd" moveAnim="unarmedWait" />
+    <Script id="142210022"
+            playingTime="1000">
+        <Action type="defaultAnim"
+                waitAnim="ReactionAdd"
+                moveAnim="unarmedWait" />
     </Script>
-    <Script id="142210081" playingTime="400">
-        <Action time="100" effectId="10001" type="magnetic" huntingZoneId="422" fromTemplateId="1002" toTemplateId="1008" />
-        <Action time="200" effectId="10001" type="magnetic" huntingZoneId="422" fromTemplateId="1004" toTemplateId="1008" />
-        <Action time="300" effectId="10001" type="magnetic" huntingZoneId="422" fromTemplateId="1006" toTemplateId="1008" />
+    <Script id="142210081"
+            playingTime="400">
+        <Action time="100"
+                effectId="10001"
+                type="magnetic"
+                huntingZoneId="422"
+                fromTemplateId="1002"
+                toTemplateId="1008" />
+        <Action time="200"
+                effectId="10001"
+                type="magnetic"
+                huntingZoneId="422"
+                fromTemplateId="1004"
+                toTemplateId="1008" />
+        <Action time="300"
+                effectId="10001"
+                type="magnetic"
+                huntingZoneId="422"
+                fromTemplateId="1006"
+                toTemplateId="1008" />
     </Script>
-    <Script id="142220031" playingTime="400">
-        <Action time="100" effectId="10001" type="magnetic" huntingZoneId="422" fromTemplateId="1002" toTemplateId="2003" />
-        <Action time="200" effectId="10001" type="magnetic" huntingZoneId="422" fromTemplateId="1004" toTemplateId="2003" />
-        <Action time="300" effectId="10001" type="magnetic" huntingZoneId="422" fromTemplateId="1006" toTemplateId="2003" />
+    <Script id="142220031"
+            playingTime="400">
+        <Action time="100"
+                effectId="10001"
+                type="magnetic"
+                huntingZoneId="422"
+                fromTemplateId="1002"
+                toTemplateId="2003" />
+        <Action time="200"
+                effectId="10001"
+                type="magnetic"
+                huntingZoneId="422"
+                fromTemplateId="1004"
+                toTemplateId="2003" />
+        <Action time="300"
+                effectId="10001"
+                type="magnetic"
+                huntingZoneId="422"
+                fromTemplateId="1006"
+                toTemplateId="2003" />
     </Script>
-    <Script id="237103401" playingTime="5000">
-        <Action type="animation" animName="idle1" rate="1" />
-        <Action type="dialog" textId="101" showChat="false" />
+    <Script id="237103401"
+            playingTime="5000">
+        <Action type="animation"
+                animName="idle1"
+                rate="1" />
+        <Action type="dialog"
+                textId="101"
+                showChat="false" />
     </Script>
     <Script id="248100901">
         <InitState visible="false" />
@@ -686,219 +1873,784 @@
         <InitState visible="true" />
     </Script>
     <Script id="248103301">
-        <Action type="actionScript" templateId="1009" huntingZoneId="248" scriptId="248100901" />
-        <Action type="actionScript" templateId="1035" huntingZoneId="248" scriptId="248100901" />
-        <Action type="actionScript" templateId="1036" huntingZoneId="248" scriptId="248100901" />
+        <Action type="actionScript"
+                templateId="1009"
+                huntingZoneId="248"
+                scriptId="248100901" />
+        <Action type="actionScript"
+                templateId="1035"
+                huntingZoneId="248"
+                scriptId="248100901" />
+        <Action type="actionScript"
+                templateId="1036"
+                huntingZoneId="248"
+                scriptId="248100901" />
     </Script>
-    <Script id="710010111" playingTime="11000">
-        <Action time="0" type="dialog" textId="101" showChat="false">
-            <Action time="1500" type="dialog" textId="102" showChat="false">
-                <Action time="3000" type="dialog" textId="103" showChat="false">
-                    <Action time="4500" type="dialog" textId="104" showChat="false">
-                        <Action time="6500" type="dialog" textId="105" showChat="false">
-                            <Action time="7500" type="actionScript" templateId="1012" huntingZoneId="71" scriptId="710010122" />
+    <Script id="710010111"
+            playingTime="11000">
+        <Action time="0"
+                type="dialog"
+                textId="101"
+                showChat="false">
+            <Action time="1500"
+                    type="dialog"
+                    textId="102"
+                    showChat="false">
+                <Action time="3000"
+                        type="dialog"
+                        textId="103"
+                        showChat="false">
+                    <Action time="4500"
+                            type="dialog"
+                            textId="104"
+                            showChat="false">
+                        <Action time="6500"
+                                type="dialog"
+                                textId="105"
+                                showChat="false">
+                            <Action time="7500"
+                                    type="actionScript"
+                                    templateId="1012"
+                                    huntingZoneId="71"
+                                    scriptId="710010122" />
                         </Action>
                     </Action>
                 </Action>
             </Action>
         </Action>
     </Script>
-    <Script id="710010121" playingTime="12000">
-        <Action time="1500" type="dialog" textId="101" showChat="false">
-            <Action time="3000" type="dialog" textId="102" showChat="false">
-                <Action time="4500" type="dialog" textId="103" showChat="false">
-                    <Action time="6000" type="actionScript" templateId="1011" huntingZoneId="71" scriptId="710010111" />
+    <Script id="710010121"
+            playingTime="12000">
+        <Action time="1500"
+                type="dialog"
+                textId="101"
+                showChat="false">
+            <Action time="3000"
+                    type="dialog"
+                    textId="102"
+                    showChat="false">
+                <Action time="4500"
+                        type="dialog"
+                        textId="103"
+                        showChat="false">
+                    <Action time="6000"
+                            type="actionScript"
+                            templateId="1011"
+                            huntingZoneId="71"
+                            scriptId="710010111" />
                 </Action>
             </Action>
         </Action>
     </Script>
-    <Script id="710010122" playingTime="2000">
-        <Action type="dialog" textId="104" showChat="false" />
+    <Script id="710010122"
+            playingTime="2000">
+        <Action type="dialog"
+                textId="104"
+                showChat="false" />
     </Script>
-    <Script id="1074103101" playingTime="25000">
-        <Action time="1000" type="dialog" textId="101" showChat="false" />
-        <Action time="6000" type="dialog" textId="102" showChat="false" />
-        <Action time="11000" type="ActionScript" templateId="1800" huntingZoneId="74" scriptId="1074180001" />
-        <Action time="16000" type="dialog" textId="103" showChat="false" />
+    <Script id="1074103101"
+            playingTime="25000">
+        <Action time="1000"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="6000"
+                type="dialog"
+                textId="102"
+                showChat="false" />
+        <Action time="11000"
+                type="ActionScript"
+                templateId="1800"
+                huntingZoneId="74"
+                scriptId="1074180001" />
+        <Action time="16000"
+                type="dialog"
+                textId="103"
+                showChat="false" />
     </Script>
-    <Script id="1074103801" playingTime="50000">
-        <Action time="0" type="defaultAnim" waitAnim="SitLoop" moveAnim="Walk" />
-        <Action time="10000" type="dialog" textId="101" showChat="false" />
+    <Script id="1074103801"
+            playingTime="50000">
+        <Action time="0"
+                type="defaultAnim"
+                waitAnim="SitLoop"
+                moveAnim="Walk" />
+        <Action time="10000"
+                type="dialog"
+                textId="101"
+                showChat="false" />
     </Script>
-    <Script id="1074104201" playingTime="35000">
-        <Action time="1000" type="dialog" textId="101" showChat="false" />
-        <Action time="1000" type="animation" duration="0" animName="Talk" rate="1" blendInTime="0" />
-        <Action time="6000" type="ActionScript" templateId="1043" huntingZoneId="74" scriptId="1074104301" />
-        <Action time="16000" type="dialog" textId="102" showChat="false" />
-        <Action time="16000" type="animation" duration="0" animName="Talk" rate="1" blendInTime="0" />
-        <Action time="21000" type="dialog" textId="103" showChat="false" />
-        <Action time="21000" type="animation" duration="0" animName="Talk" rate="1" blendInTime="0" />
+    <Script id="1074104201"
+            playingTime="35000">
+        <Action time="1000"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="1000"
+                type="animation"
+                duration="0"
+                animName="Talk"
+                rate="1"
+                blendInTime="0" />
+        <Action time="6000"
+                type="ActionScript"
+                templateId="1043"
+                huntingZoneId="74"
+                scriptId="1074104301" />
+        <Action time="16000"
+                type="dialog"
+                textId="102"
+                showChat="false" />
+        <Action time="16000"
+                type="animation"
+                duration="0"
+                animName="Talk"
+                rate="1"
+                blendInTime="0" />
+        <Action time="21000"
+                type="dialog"
+                textId="103"
+                showChat="false" />
+        <Action time="21000"
+                type="animation"
+                duration="0"
+                animName="Talk"
+                rate="1"
+                blendInTime="0" />
     </Script>
-    <Script id="1074104301" playingTime="29000">
-        <Action time="0" type="dialog" textId="101" showChat="false" />
-        <Action time="0" type="animation" duration="0" animName="Talk" rate="1" blendInTime="0" />
-        <Action time="4000" type="dialog" textId="102" showChat="false" />
-        <Action time="20000" type="dialog" textId="103" showChat="false" />
-        <Action time="20000" type="animation" duration="0" animName="laugh" rate="1" blendInTime="0" />
+    <Script id="1074104301"
+            playingTime="29000">
+        <Action time="0"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="0"
+                type="animation"
+                duration="0"
+                animName="Talk"
+                rate="1"
+                blendInTime="0" />
+        <Action time="4000"
+                type="dialog"
+                textId="102"
+                showChat="false" />
+        <Action time="20000"
+                type="dialog"
+                textId="103"
+                showChat="false" />
+        <Action time="20000"
+                type="animation"
+                duration="0"
+                animName="laugh"
+                rate="1"
+                blendInTime="0" />
     </Script>
-    <Script id="1074180001" playingTime="15000">
-        <Action time="1000" type="dialog" textId="101" showChat="false" />
+    <Script id="1074180001"
+            playingTime="15000">
+        <Action time="1000"
+                type="dialog"
+                textId="101"
+                showChat="false" />
     </Script>
-    <Script id="1079102301" playingTime="75000">
-        <Action time="1000" type="dialog" textId="101" showChat="false" />
-        <Action time="6000" type="ActionScript" templateId="1024" huntingZoneId="79" scriptId="1079102401" />
-        <Action time="11000" type="dialog" textId="102" showChat="false" />
-        <Action time="60000" type="dialog" textId="103" showChat="false" />
-        <Action time="70000" type="dialog" textId="104" showChat="false" />
+    <Script id="1079102301"
+            playingTime="75000">
+        <Action time="1000"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="6000"
+                type="ActionScript"
+                templateId="1024"
+                huntingZoneId="79"
+                scriptId="1079102401" />
+        <Action time="11000"
+                type="dialog"
+                textId="102"
+                showChat="false" />
+        <Action time="60000"
+                type="dialog"
+                textId="103"
+                showChat="false" />
+        <Action time="70000"
+                type="dialog"
+                textId="104"
+                showChat="false" />
     </Script>
-    <Script id="1079102401" playingTime="70000">
-        <Action time="0" type="dialog" textId="101" showChat="false" />
-        <Action time="10000" type="dialog" textId="102" showChat="false" />
-        <Action time="50000" type="dialog" textId="103" showChat="false" />
-        <Action time="60000" type="dialog" textId="104" showChat="false" />
+    <Script id="1079102401"
+            playingTime="70000">
+        <Action time="0"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="10000"
+                type="dialog"
+                textId="102"
+                showChat="false" />
+        <Action time="50000"
+                type="dialog"
+                textId="103"
+                showChat="false" />
+        <Action time="60000"
+                type="dialog"
+                textId="104"
+                showChat="false" />
     </Script>
-    <Script id="1079103301" playingTime="10000">
-        <Action time="0" type="dialog" textId="101" showChat="false" />
+    <Script id="1079103301"
+            playingTime="10000">
+        <Action time="0"
+                type="dialog"
+                textId="101"
+                showChat="false" />
     </Script>
-    <Script id="1079103401" playingTime="40000">
-        <Action time="1000" type="dialog" textId="101" showChat="false" />
-        <Action time="1000" type="animation" duration="0" animName="talk1" rate="1.3" blendInTime="0" />
-        <Action time="4000" type="ActionScript" templateId="1036" huntingZoneId="79" scriptId="1079103601" />
-        <Action time="9000" type="dialog" textId="102" showChat="false" />
-        <Action time="9000" type="animation" duration="0" animName="talk1" rate="1.3" blendInTime="0" />
-        <Action time="18000" type="dialog" textId="103" showChat="false" />
-        <Action time="18000" type="animation" duration="0" animName="talk2" rate="1.3" blendInTime="0" />
-        <Action time="27000" type="dialog" textId="104" showChat="false" />
-        <Action time="27000" type="animation" duration="0" animName="talk1" rate="1.3" blendInTime="0" />
+    <Script id="1079103401"
+            playingTime="40000">
+        <Action time="1000"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="1000"
+                type="animation"
+                duration="0"
+                animName="talk1"
+                rate="1.3"
+                blendInTime="0" />
+        <Action time="4000"
+                type="ActionScript"
+                templateId="1036"
+                huntingZoneId="79"
+                scriptId="1079103601" />
+        <Action time="9000"
+                type="dialog"
+                textId="102"
+                showChat="false" />
+        <Action time="9000"
+                type="animation"
+                duration="0"
+                animName="talk1"
+                rate="1.3"
+                blendInTime="0" />
+        <Action time="18000"
+                type="dialog"
+                textId="103"
+                showChat="false" />
+        <Action time="18000"
+                type="animation"
+                duration="0"
+                animName="talk2"
+                rate="1.3"
+                blendInTime="0" />
+        <Action time="27000"
+                type="dialog"
+                textId="104"
+                showChat="false" />
+        <Action time="27000"
+                type="animation"
+                duration="0"
+                animName="talk1"
+                rate="1.3"
+                blendInTime="0" />
     </Script>
-    <Script id="1079103601" playingTime="35000">
-        <Action time="0" type="dialog" textId="101" showChat="false" />
-        <Action time="0" type="animation" duration="0" animName="Talk" rate="1" blendInTime="0" />
-        <Action time="9000" type="dialog" textId="102" showChat="false" />
-        <Action time="18000" type="dialog" textId="103" showChat="false" />
-        <Action time="18000" type="animation" duration="0" animName="Talk" rate="1" blendInTime="0" />
-        <Action time="27000" type="dialog" textId="104" showChat="false" />
-        <Action time="27000" type="animation" duration="0" animName="Talk" rate="1" blendInTime="0" />
+    <Script id="1079103601"
+            playingTime="35000">
+        <Action time="0"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="0"
+                type="animation"
+                duration="0"
+                animName="Talk"
+                rate="1"
+                blendInTime="0" />
+        <Action time="9000"
+                type="dialog"
+                textId="102"
+                showChat="false" />
+        <Action time="18000"
+                type="dialog"
+                textId="103"
+                showChat="false" />
+        <Action time="18000"
+                type="animation"
+                duration="0"
+                animName="Talk"
+                rate="1"
+                blendInTime="0" />
+        <Action time="27000"
+                type="dialog"
+                textId="104"
+                showChat="false" />
+        <Action time="27000"
+                type="animation"
+                duration="0"
+                animName="Talk"
+                rate="1"
+                blendInTime="0" />
     </Script>
-    <Script id="1079103901" playingTime="15000">
-        <Action time="1000" type="dialog" textId="101" showChat="false" />
-        <Action time="5000" type="ActionScript" templateId="1033" huntingZoneId="79" scriptId="1079103301" />
-        <Action time="10000" type="dialog" textId="102" showChat="false" />
+    <Script id="1079103901"
+            playingTime="15000">
+        <Action time="1000"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="5000"
+                type="ActionScript"
+                templateId="1033"
+                huntingZoneId="79"
+                scriptId="1079103301" />
+        <Action time="10000"
+                type="dialog"
+                textId="102"
+                showChat="false" />
     </Script>
-    <Script id="1079180001" playingTime="35000">
-        <Action time="0" type="dialog" textId="101" showChat="false" />
-        <Action time="0" type="animation" duration="0" animName="Talk" rate="1" blendInTime="0" />
-        <Action time="3000" type="dialog" textId="102" showChat="false" />
-        <Action time="15000" type="animation" duration="0" animName="Talk" rate="1" blendInTime="0" />
-        <Action time="15000" type="dialog" textId="103" showChat="false" />
-        <Action time="18000" type="dialog" textId="104" showChat="false" />
-        <Action time="29000" type="animation" duration="0" animName="Idle" rate="1" blendInTime="0" />
+    <Script id="1079180001"
+            playingTime="35000">
+        <Action time="0"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="0"
+                type="animation"
+                duration="0"
+                animName="Talk"
+                rate="1"
+                blendInTime="0" />
+        <Action time="3000"
+                type="dialog"
+                textId="102"
+                showChat="false" />
+        <Action time="15000"
+                type="animation"
+                duration="0"
+                animName="Talk"
+                rate="1"
+                blendInTime="0" />
+        <Action time="15000"
+                type="dialog"
+                textId="103"
+                showChat="false" />
+        <Action time="18000"
+                type="dialog"
+                textId="104"
+                showChat="false" />
+        <Action time="29000"
+                type="animation"
+                duration="0"
+                animName="Idle"
+                rate="1"
+                blendInTime="0" />
     </Script>
-    <Script id="1079180201" playingTime="40000">
-        <Action time="1000" type="dialog" textId="101" showChat="false" />
-        <Action time="1000" type="animation" duration="0" animName="greet" rate="1" blendInTime="0" />
-        <Action time="5000" type="ActionScript" templateId="1800" huntingZoneId="79" scriptId="1079180001" />
-        <Action time="11000" type="ActionScript" templateId="1803" huntingZoneId="79" scriptId="1079180301" />
-        <Action time="34000" type="animation" duration="0" animName="Idle" rate="1" blendInTime="0" />
+    <Script id="1079180201"
+            playingTime="40000">
+        <Action time="1000"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="1000"
+                type="animation"
+                duration="0"
+                animName="greet"
+                rate="1"
+                blendInTime="0" />
+        <Action time="5000"
+                type="ActionScript"
+                templateId="1800"
+                huntingZoneId="79"
+                scriptId="1079180001" />
+        <Action time="11000"
+                type="ActionScript"
+                templateId="1803"
+                huntingZoneId="79"
+                scriptId="1079180301" />
+        <Action time="34000"
+                type="animation"
+                duration="0"
+                animName="Idle"
+                rate="1"
+                blendInTime="0" />
     </Script>
-    <Script id="1079180301" playingTime="35000">
-        <Action time="0" type="dialog" textId="101" showChat="false" />
-        <Action time="0" type="animation" duration="0" animName="Talk" rate="1" blendInTime="0" />
-        <Action time="3000" type="dialog" textId="102" showChat="false" />
-        <Action time="19000" type="dialog" textId="103" showChat="false" />
-        <Action time="23000" type="animation" duration="0" animName="Idle" rate="1" blendInTime="0" />
+    <Script id="1079180301"
+            playingTime="35000">
+        <Action time="0"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="0"
+                type="animation"
+                duration="0"
+                animName="Talk"
+                rate="1"
+                blendInTime="0" />
+        <Action time="3000"
+                type="dialog"
+                textId="102"
+                showChat="false" />
+        <Action time="19000"
+                type="dialog"
+                textId="103"
+                showChat="false" />
+        <Action time="23000"
+                type="animation"
+                duration="0"
+                animName="Idle"
+                rate="1"
+                blendInTime="0" />
     </Script>
-    <Script id="1080101501" playingTime="25000">
-        <Action time="1000" type="dialog" textId="101" showChat="false" />
-        <Action time="5000" type="dialog" textId="102" showChat="false" />
-        <Action time="10000" type="ActionScript" templateId="1019" huntingZoneId="80" scriptId="1080101901" />
+    <Script id="1080101501"
+            playingTime="25000">
+        <Action time="1000"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="5000"
+                type="dialog"
+                textId="102"
+                showChat="false" />
+        <Action time="10000"
+                type="ActionScript"
+                templateId="1019"
+                huntingZoneId="80"
+                scriptId="1080101901" />
     </Script>
-    <Script id="1080101901" playingTime="20000">
-        <Action time="0" type="dialog" textId="101" showChat="false" />
-        <Action time="5000" type="dialog" textId="102" showChat="false" />
-        <Action time="10000" type="dialog" textId="103" showChat="false" />
+    <Script id="1080101901"
+            playingTime="20000">
+        <Action time="0"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="5000"
+                type="dialog"
+                textId="102"
+                showChat="false" />
+        <Action time="10000"
+                type="dialog"
+                textId="103"
+                showChat="false" />
     </Script>
-    <Script id="1080102101" playingTime="25000">
-        <Action time="0" type="dialog" textId="101" showChat="false" />
-        <Action time="0" type="animation" duration="0" animName="talk_Q" rate="1" blendInTime="0" />
-        <Action time="4000" type="dialog" textId="101" showChat="false" />
-        <Action time="17000" type="animation" duration="0" animName="talk_Q" rate="1" blendInTime="0" />
-        <Action time="17000" type="dialog" textId="102" showChat="false" />
-        <Action time="21000" type="dialog" textId="102" showChat="false" />
+    <Script id="1080102101"
+            playingTime="25000">
+        <Action time="0"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="0"
+                type="animation"
+                duration="0"
+                animName="talk_Q"
+                rate="1"
+                blendInTime="0" />
+        <Action time="4000"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="17000"
+                type="animation"
+                duration="0"
+                animName="talk_Q"
+                rate="1"
+                blendInTime="0" />
+        <Action time="17000"
+                type="dialog"
+                textId="102"
+                showChat="false" />
+        <Action time="21000"
+                type="dialog"
+                textId="102"
+                showChat="false" />
     </Script>
-    <Script id="1080102201" playingTime="35000">
-        <Action time="1000" type="dialog" textId="101" showChat="false" />
-        <Action time="1000" type="animation" duration="0" animName="talk_Q" rate="1" blendInTime="0" />
-        <Action time="8000" type="dialog" textId="102" showChat="false" />
-        <Action time="8000" type="animation" duration="0" animName="talk_Q" rate="1" blendInTime="0" />
-        <Action time="13000" type="ActionScript" templateId="1021" huntingZoneId="80" scriptId="1080102101" />
-        <Action time="13000" type="ActionScript" templateId="1100" huntingZoneId="80" scriptId="1080102101" />
-        <Action time="13000" type="ActionScript" templateId="1101" huntingZoneId="80" scriptId="1080102101" />
-        <Action time="25000" type="dialog" textId="103" showChat="false" />
-        <Action time="25000" type="animation" duration="0" animName="talk_Q" rate="1" blendInTime="0" />
+    <Script id="1080102201"
+            playingTime="35000">
+        <Action time="1000"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="1000"
+                type="animation"
+                duration="0"
+                animName="talk_Q"
+                rate="1"
+                blendInTime="0" />
+        <Action time="8000"
+                type="dialog"
+                textId="102"
+                showChat="false" />
+        <Action time="8000"
+                type="animation"
+                duration="0"
+                animName="talk_Q"
+                rate="1"
+                blendInTime="0" />
+        <Action time="13000"
+                type="ActionScript"
+                templateId="1021"
+                huntingZoneId="80"
+                scriptId="1080102101" />
+        <Action time="13000"
+                type="ActionScript"
+                templateId="1100"
+                huntingZoneId="80"
+                scriptId="1080102101" />
+        <Action time="13000"
+                type="ActionScript"
+                templateId="1101"
+                huntingZoneId="80"
+                scriptId="1080102101" />
+        <Action time="25000"
+                type="dialog"
+                textId="103"
+                showChat="false" />
+        <Action time="25000"
+                type="animation"
+                duration="0"
+                animName="talk_Q"
+                rate="1"
+                blendInTime="0" />
     </Script>
-    <Script id="1080180001" playingTime="60000">
-        <Action time="1000" type="animation" duration="0" animName="talk1" rate="1" blendInTime="0" />
-        <Action time="11000" type="ActionScript" templateId="1801" huntingZoneId="80" scriptId="1080180101" />
-        <Action time="22000" type="animation" duration="0" animName="talk2" rate="1" blendInTime="0" />
-        <Action time="45000" type="animation" duration="0" animName="talk3" rate="1" blendInTime="0" />
+    <Script id="1080180001"
+            playingTime="60000">
+        <Action time="1000"
+                type="animation"
+                duration="0"
+                animName="talk1"
+                rate="1"
+                blendInTime="0" />
+        <Action time="11000"
+                type="ActionScript"
+                templateId="1801"
+                huntingZoneId="80"
+                scriptId="1080180101" />
+        <Action time="22000"
+                type="animation"
+                duration="0"
+                animName="talk2"
+                rate="1"
+                blendInTime="0" />
+        <Action time="45000"
+                type="animation"
+                duration="0"
+                animName="talk3"
+                rate="1"
+                blendInTime="0" />
     </Script>
-    <Script id="1080180101" playingTime="45000">
-        <Action time="0" type="animation" duration="0" animName="talk1" rate="1" blendInTime="0" />
-        <Action time="11000" type="animation" duration="0" animName="talk2" rate="1" blendInTime="0" />
-        <Action time="33000" type="animation" duration="0" animName="talk3" rate="1" blendInTime="0" />
+    <Script id="1080180101"
+            playingTime="45000">
+        <Action time="0"
+                type="animation"
+                duration="0"
+                animName="talk1"
+                rate="1"
+                blendInTime="0" />
+        <Action time="11000"
+                type="animation"
+                duration="0"
+                animName="talk2"
+                rate="1"
+                blendInTime="0" />
+        <Action time="33000"
+                type="animation"
+                duration="0"
+                animName="talk3"
+                rate="1"
+                blendInTime="0" />
     </Script>
-    <Script id="1080180201" playingTime="60000">
-        <Action time="1000" type="animation" duration="0" animName="talk1" rate="1" blendInTime="0" />
-        <Action time="11000" type="ActionScript" templateId="1803" huntingZoneId="80" scriptId="1080180301" />
-        <Action time="22000" type="animation" duration="0" animName="talk2" rate="1" blendInTime="0" />
-        <Action time="45000" type="animation" duration="0" animName="talk3" rate="1" blendInTime="0" />
+    <Script id="1080180201"
+            playingTime="60000">
+        <Action time="1000"
+                type="animation"
+                duration="0"
+                animName="talk1"
+                rate="1"
+                blendInTime="0" />
+        <Action time="11000"
+                type="ActionScript"
+                templateId="1803"
+                huntingZoneId="80"
+                scriptId="1080180301" />
+        <Action time="22000"
+                type="animation"
+                duration="0"
+                animName="talk2"
+                rate="1"
+                blendInTime="0" />
+        <Action time="45000"
+                type="animation"
+                duration="0"
+                animName="talk3"
+                rate="1"
+                blendInTime="0" />
     </Script>
-    <Script id="1080180301" playingTime="45000">
-        <Action time="0" type="animation" duration="0" animName="talk1" rate="1" blendInTime="0" />
-        <Action time="11000" type="animation" duration="0" animName="talk2" rate="1" blendInTime="0" />
-        <Action time="33000" type="animation" duration="0" animName="talk3" rate="1" blendInTime="0" />
+    <Script id="1080180301"
+            playingTime="45000">
+        <Action time="0"
+                type="animation"
+                duration="0"
+                animName="talk1"
+                rate="1"
+                blendInTime="0" />
+        <Action time="11000"
+                type="animation"
+                duration="0"
+                animName="talk2"
+                rate="1"
+                blendInTime="0" />
+        <Action time="33000"
+                type="animation"
+                duration="0"
+                animName="talk3"
+                rate="1"
+                blendInTime="0" />
     </Script>
-    <Script id="1081101401" playingTime="16000">
-        <Action time="0" type="dialog" textId="101" showChat="false" />
-        <Action time="0" type="animation" duration="0" animName="talk1" rate="1" blendInTime="0" />
+    <Script id="1081101401"
+            playingTime="16000">
+        <Action time="0"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="0"
+                type="animation"
+                duration="0"
+                animName="talk1"
+                rate="1"
+                blendInTime="0" />
     </Script>
-    <Script id="1081101601" playingTime="20000">
-        <Action time="1000" type="dialog" textId="101" showChat="false" />
-        <Action time="1000" type="animation" duration="0" animName="talk1" rate="1" blendInTime="0" />
-        <Action time="4000" type="ActionScript" templateId="1014" huntingZoneId="81" scriptId="1081101401" />
-        <Action time="9000" type="dialog" textId="102" showChat="false" />
-        <Action time="13000" type="animation" duration="0" animName="worry" rate="1" blendInTime="0" />
+    <Script id="1081101601"
+            playingTime="20000">
+        <Action time="1000"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="1000"
+                type="animation"
+                duration="0"
+                animName="talk1"
+                rate="1"
+                blendInTime="0" />
+        <Action time="4000"
+                type="ActionScript"
+                templateId="1014"
+                huntingZoneId="81"
+                scriptId="1081101401" />
+        <Action time="9000"
+                type="dialog"
+                textId="102"
+                showChat="false" />
+        <Action time="13000"
+                type="animation"
+                duration="0"
+                animName="worry"
+                rate="1"
+                blendInTime="0" />
     </Script>
-    <Script id="1081180201" playingTime="10000">
-        <Action time="0" type="defaultAnim" waitAnim="Herb" moveAnim="Walk" />
+    <Script id="1081180201"
+            playingTime="10000">
+        <Action time="0"
+                type="defaultAnim"
+                waitAnim="Herb"
+                moveAnim="Walk" />
     </Script>
-    <Script id="1081180301" playingTime="15000">
-        <Action time="1000" type="dialog" textId="101" showChat="false" />
-        <Action time="1000" type="animation" duration="0" animName="Idle" rate="1" blendInTime="0" />
-        <Action time="5000" type="dialog" textId="102" showChat="false" />
-        <Action time="13000" type="dialog" textId="103" showChat="false" />
-        <Action time="13000" type="animation" duration="0" animName="Idle" rate="1" blendInTime="0" />
+    <Script id="1081180301"
+            playingTime="15000">
+        <Action time="1000"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="1000"
+                type="animation"
+                duration="0"
+                animName="Idle"
+                rate="1"
+                blendInTime="0" />
+        <Action time="5000"
+                type="dialog"
+                textId="102"
+                showChat="false" />
+        <Action time="13000"
+                type="dialog"
+                textId="103"
+                showChat="false" />
+        <Action time="13000"
+                type="animation"
+                duration="0"
+                animName="Idle"
+                rate="1"
+                blendInTime="0" />
     </Script>
-    <Script id="1081180401" playingTime="60000">
-        <Action time="0" type="defaultAnim" waitAnim="commandreceive" moveAnim="Walk" />
-        <Action time="0" type="dialog" textId="101" showChat="false" />
-        <Action time="1000" type="ActionScript" templateId="1803" huntingZoneId="81" scriptId="1081180301" />
-        <Action time="1000" type="ActionScript" templateId="1806" huntingZoneId="81" scriptId="1081180601" />
-        <Action time="5000" type="dialog" textId="102" showChat="false" />
-        <Action time="10000" type="dialog" textId="102" showChat="false" />
-        <Action time="10000" type="animation" duration="0" animName="laugh_Q" rate="1" blendInTime="0" />
-        <Action time="15000" type="animation" duration="0" animName="laugh_Q" rate="1" blendInTime="0" />
-        <Action time="25000" type="ActionScript" templateId="1803" huntingZoneId="81" scriptId="1081180301" />
-        <Action time="25000" type="ActionScript" templateId="1806" huntingZoneId="81" scriptId="1081180601" />
-        <Action time="45000" type="ActionScript" templateId="1803" huntingZoneId="81" scriptId="1081180301" />
-        <Action time="45000" type="ActionScript" templateId="1806" huntingZoneId="81" scriptId="1081180601" />
+    <Script id="1081180401"
+            playingTime="60000">
+        <Action time="0"
+                type="defaultAnim"
+                waitAnim="commandreceive"
+                moveAnim="Walk" />
+        <Action time="0"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="1000"
+                type="ActionScript"
+                templateId="1803"
+                huntingZoneId="81"
+                scriptId="1081180301" />
+        <Action time="1000"
+                type="ActionScript"
+                templateId="1806"
+                huntingZoneId="81"
+                scriptId="1081180601" />
+        <Action time="5000"
+                type="dialog"
+                textId="102"
+                showChat="false" />
+        <Action time="10000"
+                type="dialog"
+                textId="102"
+                showChat="false" />
+        <Action time="10000"
+                type="animation"
+                duration="0"
+                animName="laugh_Q"
+                rate="1"
+                blendInTime="0" />
+        <Action time="15000"
+                type="animation"
+                duration="0"
+                animName="laugh_Q"
+                rate="1"
+                blendInTime="0" />
+        <Action time="25000"
+                type="ActionScript"
+                templateId="1803"
+                huntingZoneId="81"
+                scriptId="1081180301" />
+        <Action time="25000"
+                type="ActionScript"
+                templateId="1806"
+                huntingZoneId="81"
+                scriptId="1081180601" />
+        <Action time="45000"
+                type="ActionScript"
+                templateId="1803"
+                huntingZoneId="81"
+                scriptId="1081180301" />
+        <Action time="45000"
+                type="ActionScript"
+                templateId="1806"
+                huntingZoneId="81"
+                scriptId="1081180601" />
     </Script>
-    <Script id="1081180601" playingTime="10000">
-        <Action time="2000" type="dialog" textId="101" showChat="false" />
-        <Action time="2000" type="animation" duration="0" animName="applaud" rate="1" blendInTime="0" />
+    <Script id="1081180601"
+            playingTime="10000">
+        <Action time="2000"
+                type="dialog"
+                textId="101"
+                showChat="false" />
+        <Action time="2000"
+                type="animation"
+                duration="0"
+                animName="applaud"
+                rate="1"
+                blendInTime="0" />
     </Script>
     <Script id="2081024201">
-        <Action type="defaultAnim" waitAnim="bReactionDown2" moveAnim="" />
+        <Action type="defaultAnim"
+                waitAnim="bReactionDown2"
+                moveAnim="" />
     </Script>
 </S1ActionScripts>

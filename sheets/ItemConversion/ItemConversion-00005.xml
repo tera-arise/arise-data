@@ -1,327 +1,862 @@
-<ItemConversion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/ItemConversion ItemConversion.xsd" xmlns="https://vezel.dev/novadrop/dc/ItemConversion">
-    <SeedItem name="숙련공 제작 첨가제 3개 묶음" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box04_Skel" itemTemplateId="854580" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431" />
-    <SeedItem name="장인 제작 첨가제 3개 묶음" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box04_Skel" itemTemplateId="854582" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431" />
-    <SeedItem name="Placeholder Delivery Elite Consumable Box" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box04_Skel" itemTemplateId="855596" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
+<ItemConversion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="https://vezel.dev/novadrop/dc/ItemConversion ItemConversion.xsd"
+                xmlns="https://vezel.dev/novadrop/dc/ItemConversion">
+    <SeedItem name="숙련공 제작 첨가제 3개 묶음"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box04_Skel"
+              itemTemplateId="854580"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431" />
+    <SeedItem name="장인 제작 첨가제 3개 묶음"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box04_Skel"
+              itemTemplateId="854582"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431" />
+    <SeedItem name="Placeholder Delivery Elite Consumable Box"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box04_Skel"
+              itemTemplateId="855596"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
         <ResultItemSet>
             <ResultItem />
             <ResultItem />
             <ResultItem />
         </ResultItemSet>
     </SeedItem>
-    <SeedItem name="Elite Gift Box" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box04_Skel" itemTemplateId="855597" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431" />
-    <SeedItem name="푸른 용의 기운이 서린 갑주 상자" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box04_Skel" itemTemplateId="855599" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem templateId="253548" gender="male" race="human" />
-        <FixedItem templateId="253584" gender="female" race="human" />
-        <FixedItem templateId="253620" gender="male" race="highelf" />
-        <FixedItem templateId="253656" gender="female" race="highelf" />
-        <FixedItem templateId="253692" gender="male" race="aman" />
-        <FixedItem templateId="253728" gender="female" race="aman" />
-        <FixedItem templateId="253764" gender="male" race="castanic" />
-        <FixedItem templateId="253800" gender="female" race="castanic" />
-        <FixedItem templateId="253836" gender="male" race="popori" />
-        <FixedItem templateId="253872" gender="female" race="popori" />
-        <FixedItem templateId="253908" gender="male" race="baraka" />
+    <SeedItem name="Elite Gift Box"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box04_Skel"
+              itemTemplateId="855597"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431" />
+    <SeedItem name="푸른 용의 기운이 서린 갑주 상자"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box04_Skel"
+              itemTemplateId="855599"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem templateId="253548"
+                   gender="male"
+                   race="human" />
+        <FixedItem templateId="253584"
+                   gender="female"
+                   race="human" />
+        <FixedItem templateId="253620"
+                   gender="male"
+                   race="highelf" />
+        <FixedItem templateId="253656"
+                   gender="female"
+                   race="highelf" />
+        <FixedItem templateId="253692"
+                   gender="male"
+                   race="aman" />
+        <FixedItem templateId="253728"
+                   gender="female"
+                   race="aman" />
+        <FixedItem templateId="253764"
+                   gender="male"
+                   race="castanic" />
+        <FixedItem templateId="253800"
+                   gender="female"
+                   race="castanic" />
+        <FixedItem templateId="253836"
+                   gender="male"
+                   race="popori" />
+        <FixedItem templateId="253872"
+                   gender="female"
+                   race="popori" />
+        <FixedItem templateId="253908"
+                   gender="male"
+                   race="baraka" />
     </SeedItem>
-    <SeedItem name="푸른 용의 기운이 서린 무기상자" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box04_Skel" itemTemplateId="855600" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem class="warrior" templateId="253020" />
-        <FixedItem class="lancer" templateId="253032" />
-        <FixedItem class="slayer" templateId="253044" />
-        <FixedItem class="berserker" templateId="253056" />
-        <FixedItem class="sorcerer" templateId="253068" />
-        <FixedItem class="archer" templateId="253080" />
-        <FixedItem class="priest" templateId="253092" />
-        <FixedItem class="elementalist" templateId="253104" />
-        <FixedItem class="fighter" templateId="253116" />
-        <FixedItem class="engineer" templateId="253128" />
-        <FixedItem class="soulless" templateId="253152" />
-        <FixedItem class="assassin" templateId="253164" />
-        <FixedItem class="glaiver" templateId="253140" />
+    <SeedItem name="푸른 용의 기운이 서린 무기상자"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box04_Skel"
+              itemTemplateId="855600"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem class="warrior"
+                   templateId="253020" />
+        <FixedItem class="lancer"
+                   templateId="253032" />
+        <FixedItem class="slayer"
+                   templateId="253044" />
+        <FixedItem class="berserker"
+                   templateId="253056" />
+        <FixedItem class="sorcerer"
+                   templateId="253068" />
+        <FixedItem class="archer"
+                   templateId="253080" />
+        <FixedItem class="priest"
+                   templateId="253092" />
+        <FixedItem class="elementalist"
+                   templateId="253104" />
+        <FixedItem class="fighter"
+                   templateId="253116" />
+        <FixedItem class="engineer"
+                   templateId="253128" />
+        <FixedItem class="soulless"
+                   templateId="253152" />
+        <FixedItem class="assassin"
+                   templateId="253164" />
+        <FixedItem class="glaiver"
+                   templateId="253140" />
     </SeedItem>
-    <SeedItem name="검은 용의 기운이 서린 갑주 상자" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box04_Skel" itemTemplateId="855601" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem templateId="253560" gender="male" race="human" />
-        <FixedItem templateId="253596" gender="female" race="human" />
-        <FixedItem templateId="253632" gender="male" race="highelf" />
-        <FixedItem templateId="253668" gender="female" race="highelf" />
-        <FixedItem templateId="253704" gender="male" race="aman" />
-        <FixedItem templateId="253740" gender="female" race="aman" />
-        <FixedItem templateId="253776" gender="male" race="castanic" />
-        <FixedItem templateId="253812" gender="female" race="castanic" />
-        <FixedItem templateId="253848" gender="male" race="popori" />
-        <FixedItem templateId="253884" gender="female" race="popori" />
-        <FixedItem templateId="253920" gender="male" race="baraka" />
+    <SeedItem name="검은 용의 기운이 서린 갑주 상자"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box04_Skel"
+              itemTemplateId="855601"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem templateId="253560"
+                   gender="male"
+                   race="human" />
+        <FixedItem templateId="253596"
+                   gender="female"
+                   race="human" />
+        <FixedItem templateId="253632"
+                   gender="male"
+                   race="highelf" />
+        <FixedItem templateId="253668"
+                   gender="female"
+                   race="highelf" />
+        <FixedItem templateId="253704"
+                   gender="male"
+                   race="aman" />
+        <FixedItem templateId="253740"
+                   gender="female"
+                   race="aman" />
+        <FixedItem templateId="253776"
+                   gender="male"
+                   race="castanic" />
+        <FixedItem templateId="253812"
+                   gender="female"
+                   race="castanic" />
+        <FixedItem templateId="253848"
+                   gender="male"
+                   race="popori" />
+        <FixedItem templateId="253884"
+                   gender="female"
+                   race="popori" />
+        <FixedItem templateId="253920"
+                   gender="male"
+                   race="baraka" />
     </SeedItem>
-    <SeedItem name="검은 용의 기운이 서린 무기상자" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box03_Skel" itemTemplateId="855602" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem class="warrior" templateId="253176" />
-        <FixedItem class="lancer" templateId="253188" />
-        <FixedItem class="slayer" templateId="253200" />
-        <FixedItem class="berserker" templateId="253212" />
-        <FixedItem class="sorcerer" templateId="253224" />
-        <FixedItem class="archer" templateId="253236" />
-        <FixedItem class="priest" templateId="253248" />
-        <FixedItem class="elementalist" templateId="253260" />
-        <FixedItem class="fighter" templateId="253272" />
-        <FixedItem class="engineer" templateId="253284" />
-        <FixedItem class="soulless" templateId="253308" />
-        <FixedItem class="assassin" templateId="253320" />
-        <FixedItem class="glaiver" templateId="253296" />
+    <SeedItem name="검은 용의 기운이 서린 무기상자"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box03_Skel"
+              itemTemplateId="855602"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem class="warrior"
+                   templateId="253176" />
+        <FixedItem class="lancer"
+                   templateId="253188" />
+        <FixedItem class="slayer"
+                   templateId="253200" />
+        <FixedItem class="berserker"
+                   templateId="253212" />
+        <FixedItem class="sorcerer"
+                   templateId="253224" />
+        <FixedItem class="archer"
+                   templateId="253236" />
+        <FixedItem class="priest"
+                   templateId="253248" />
+        <FixedItem class="elementalist"
+                   templateId="253260" />
+        <FixedItem class="fighter"
+                   templateId="253272" />
+        <FixedItem class="engineer"
+                   templateId="253284" />
+        <FixedItem class="soulless"
+                   templateId="253308" />
+        <FixedItem class="assassin"
+                   templateId="253320" />
+        <FixedItem class="glaiver"
+                   templateId="253296" />
     </SeedItem>
-    <SeedItem name="프로즌 무기 상자(14일)" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box04_Skel" itemTemplateId="856248" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem class="warrior" templateId="256141" />
-        <FixedItem class="lancer" templateId="256153" />
-        <FixedItem class="slayer" templateId="256165" />
-        <FixedItem class="berserker" templateId="256177" />
-        <FixedItem class="sorcerer" templateId="256189" />
-        <FixedItem class="archer" templateId="256201" />
-        <FixedItem class="priest" templateId="256213" />
-        <FixedItem class="elementalist" templateId="256225" />
-        <FixedItem class="fighter" templateId="256237" />
-        <FixedItem class="engineer" templateId="256249" />
-        <FixedItem class="glaiver" templateId="256261" />
-        <FixedItem class="soulless" templateId="256273" />
-        <FixedItem class="assassin" templateId="256285" />
+    <SeedItem name="프로즌 무기 상자(14일)"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box04_Skel"
+              itemTemplateId="856248"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem class="warrior"
+                   templateId="256141" />
+        <FixedItem class="lancer"
+                   templateId="256153" />
+        <FixedItem class="slayer"
+                   templateId="256165" />
+        <FixedItem class="berserker"
+                   templateId="256177" />
+        <FixedItem class="sorcerer"
+                   templateId="256189" />
+        <FixedItem class="archer"
+                   templateId="256201" />
+        <FixedItem class="priest"
+                   templateId="256213" />
+        <FixedItem class="elementalist"
+                   templateId="256225" />
+        <FixedItem class="fighter"
+                   templateId="256237" />
+        <FixedItem class="engineer"
+                   templateId="256249" />
+        <FixedItem class="glaiver"
+                   templateId="256261" />
+        <FixedItem class="soulless"
+                   templateId="256273" />
+        <FixedItem class="assassin"
+                   templateId="256285" />
     </SeedItem>
-    <SeedItem name="할로윈 미이라 코스튬 (일반) 상자(14일)" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box04_Skel" itemTemplateId="856249" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem templateId="257197" gender="male" race="human" />
-        <FixedItem templateId="257221" gender="female" race="human" />
-        <FixedItem templateId="257245" gender="male" race="highelf" />
-        <FixedItem templateId="257269" gender="female" race="highelf" />
-        <FixedItem templateId="257293" gender="male" race="aman" />
-        <FixedItem templateId="257317" gender="female" race="aman" />
-        <FixedItem templateId="257341" gender="male" race="castanic" />
-        <FixedItem templateId="257365" gender="female" race="castanic" />
-        <FixedItem templateId="257389" gender="male" race="popori" />
-        <FixedItem templateId="257413" gender="female" race="popori" />
-        <FixedItem templateId="257437" gender="male" race="baraka" />
+    <SeedItem name="할로윈 미이라 코스튬 (일반) 상자(14일)"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box04_Skel"
+              itemTemplateId="856249"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem templateId="257197"
+                   gender="male"
+                   race="human" />
+        <FixedItem templateId="257221"
+                   gender="female"
+                   race="human" />
+        <FixedItem templateId="257245"
+                   gender="male"
+                   race="highelf" />
+        <FixedItem templateId="257269"
+                   gender="female"
+                   race="highelf" />
+        <FixedItem templateId="257293"
+                   gender="male"
+                   race="aman" />
+        <FixedItem templateId="257317"
+                   gender="female"
+                   race="aman" />
+        <FixedItem templateId="257341"
+                   gender="male"
+                   race="castanic" />
+        <FixedItem templateId="257365"
+                   gender="female"
+                   race="castanic" />
+        <FixedItem templateId="257389"
+                   gender="male"
+                   race="popori" />
+        <FixedItem templateId="257413"
+                   gender="female"
+                   race="popori" />
+        <FixedItem templateId="257437"
+                   gender="male"
+                   race="baraka" />
     </SeedItem>
-    <SeedItem name="2017 레스큐 비치웨어 박스 [남성 전용](14일)" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box03_Skel" itemTemplateId="856250" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem templateId="255733" gender="male" race="human" />
-        <FixedItem templateId="255805" gender="male" race="highelf" />
-        <FixedItem templateId="255877" gender="male" race="aman" />
-        <FixedItem templateId="255949" gender="male" race="castanic" />
-        <FixedItem templateId="256021" gender="male" race="popori" />
-        <FixedItem templateId="256093" gender="male" race="baraka" />
+    <SeedItem name="2017 레스큐 비치웨어 박스 [남성 전용](14일)"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box03_Skel"
+              itemTemplateId="856250"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem templateId="255733"
+                   gender="male"
+                   race="human" />
+        <FixedItem templateId="255805"
+                   gender="male"
+                   race="highelf" />
+        <FixedItem templateId="255877"
+                   gender="male"
+                   race="aman" />
+        <FixedItem templateId="255949"
+                   gender="male"
+                   race="castanic" />
+        <FixedItem templateId="256021"
+                   gender="male"
+                   race="popori" />
+        <FixedItem templateId="256093"
+                   gender="male"
+                   race="baraka" />
     </SeedItem>
-    <SeedItem name="2017 퓨어 화이트 셔츠 레어 박스 [여성 전용](14일)" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box03_Skel" itemTemplateId="856251" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem templateId="255786" gender="female" race="human" />
-        <FixedItem templateId="255858" gender="female" race="highelf" />
-        <FixedItem templateId="255930" gender="female" race="aman" />
-        <FixedItem templateId="256002" gender="female" race="castanic" />
-        <FixedItem templateId="256074" gender="female" race="popori" />
+    <SeedItem name="2017 퓨어 화이트 셔츠 레어 박스 [여성 전용](14일)"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box03_Skel"
+              itemTemplateId="856251"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem templateId="255786"
+                   gender="female"
+                   race="human" />
+        <FixedItem templateId="255858"
+                   gender="female"
+                   race="highelf" />
+        <FixedItem templateId="255930"
+                   gender="female"
+                   race="aman" />
+        <FixedItem templateId="256002"
+                   gender="female"
+                   race="castanic" />
+        <FixedItem templateId="256074"
+                   gender="female"
+                   race="popori" />
     </SeedItem>
-    <SeedItem name="2016 줄무늬 비치웨이크 박스 [남성 전용](14일)" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box03_Skel" itemTemplateId="856252" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem templateId="250481" gender="male" race="human" />
-        <FixedItem templateId="250565" gender="male" race="highelf" />
-        <FixedItem templateId="250649" gender="male" race="aman" />
-        <FixedItem templateId="250733" gender="male" race="castanic" />
-        <FixedItem templateId="250817" gender="male" race="popori" />
-        <FixedItem templateId="250901" gender="male" race="baraka" />
+    <SeedItem name="2016 줄무늬 비치웨이크 박스 [남성 전용](14일)"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box03_Skel"
+              itemTemplateId="856252"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem templateId="250481"
+                   gender="male"
+                   race="human" />
+        <FixedItem templateId="250565"
+                   gender="male"
+                   race="highelf" />
+        <FixedItem templateId="250649"
+                   gender="male"
+                   race="aman" />
+        <FixedItem templateId="250733"
+                   gender="male"
+                   race="castanic" />
+        <FixedItem templateId="250817"
+                   gender="male"
+                   race="popori" />
+        <FixedItem templateId="250901"
+                   gender="male"
+                   race="baraka" />
     </SeedItem>
-    <SeedItem name="2016 줄무늬 스트링 비키니 레어 박스 [여성 전용](14일)" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box03_Skel" itemTemplateId="856253" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem templateId="250529" gender="female" race="human" />
-        <FixedItem templateId="250613" gender="female" race="highelf" />
-        <FixedItem templateId="250697" gender="female" race="aman" />
-        <FixedItem templateId="250781" gender="female" race="castanic" />
-        <FixedItem templateId="250865" gender="female" race="popori" />
+    <SeedItem name="2016 줄무늬 스트링 비키니 레어 박스 [여성 전용](14일)"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box03_Skel"
+              itemTemplateId="856253"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem templateId="250529"
+                   gender="female"
+                   race="human" />
+        <FixedItem templateId="250613"
+                   gender="female"
+                   race="highelf" />
+        <FixedItem templateId="250697"
+                   gender="female"
+                   race="aman" />
+        <FixedItem templateId="250781"
+                   gender="female"
+                   race="castanic" />
+        <FixedItem templateId="250865"
+                   gender="female"
+                   race="popori" />
     </SeedItem>
-    <SeedItem name="프로즌 코스튬 박스(14일)" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box03_Skel" itemTemplateId="856254" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem templateId="256585" gender="male" race="human" />
-        <FixedItem templateId="256609" gender="female" race="human" />
-        <FixedItem templateId="256633" gender="male" race="highelf" />
-        <FixedItem templateId="256657" gender="female" race="highelf" />
-        <FixedItem templateId="256681" gender="male" race="aman" />
-        <FixedItem templateId="256705" gender="female" race="aman" />
-        <FixedItem templateId="256729" gender="male" race="castanic" />
-        <FixedItem templateId="256753" gender="female" race="castanic" />
-        <FixedItem templateId="256777" gender="male" race="popori" />
-        <FixedItem templateId="256801" gender="female" race="popori" />
-        <FixedItem templateId="256825" gender="male" race="baraka" />
+    <SeedItem name="프로즌 코스튬 박스(14일)"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box03_Skel"
+              itemTemplateId="856254"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem templateId="256585"
+                   gender="male"
+                   race="human" />
+        <FixedItem templateId="256609"
+                   gender="female"
+                   race="human" />
+        <FixedItem templateId="256633"
+                   gender="male"
+                   race="highelf" />
+        <FixedItem templateId="256657"
+                   gender="female"
+                   race="highelf" />
+        <FixedItem templateId="256681"
+                   gender="male"
+                   race="aman" />
+        <FixedItem templateId="256705"
+                   gender="female"
+                   race="aman" />
+        <FixedItem templateId="256729"
+                   gender="male"
+                   race="castanic" />
+        <FixedItem templateId="256753"
+                   gender="female"
+                   race="castanic" />
+        <FixedItem templateId="256777"
+                   gender="male"
+                   race="popori" />
+        <FixedItem templateId="256801"
+                   gender="female"
+                   race="popori" />
+        <FixedItem templateId="256825"
+                   gender="male"
+                   race="baraka" />
     </SeedItem>
-    <SeedItem name="2017 메이드복 의상 상자(14일)" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box03_Skel" itemTemplateId="856255" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem templateId="254305" gender="female" race="human" />
-        <FixedItem templateId="254329" gender="female" race="highelf" />
-        <FixedItem templateId="254353" gender="female" race="aman" />
-        <FixedItem templateId="254377" gender="female" race="castanic" />
-        <FixedItem templateId="254401" gender="female" race="popori" />
+    <SeedItem name="2017 메이드복 의상 상자(14일)"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box03_Skel"
+              itemTemplateId="856255"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem templateId="254305"
+                   gender="female"
+                   race="human" />
+        <FixedItem templateId="254329"
+                   gender="female"
+                   race="highelf" />
+        <FixedItem templateId="254353"
+                   gender="female"
+                   race="aman" />
+        <FixedItem templateId="254377"
+                   gender="female"
+                   race="castanic" />
+        <FixedItem templateId="254401"
+                   gender="female"
+                   race="popori" />
     </SeedItem>
-    <SeedItem name="2014 집사복 상자 [남성 전용](14일)" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box04_Skel" itemTemplateId="856256" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem templateId="856257" gender="male" race="human" />
-        <FixedItem templateId="856258" gender="male" race="highelf" />
-        <FixedItem templateId="856259" gender="male" race="aman" />
-        <FixedItem templateId="856260" gender="male" race="castanic" />
-        <FixedItem templateId="856261" gender="male" race="popori" />
-        <FixedItem templateId="856262" gender="male" race="baraka" />
+    <SeedItem name="2014 집사복 상자 [남성 전용](14일)"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box04_Skel"
+              itemTemplateId="856256"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem templateId="856257"
+                   gender="male"
+                   race="human" />
+        <FixedItem templateId="856258"
+                   gender="male"
+                   race="highelf" />
+        <FixedItem templateId="856259"
+                   gender="male"
+                   race="aman" />
+        <FixedItem templateId="856260"
+                   gender="male"
+                   race="castanic" />
+        <FixedItem templateId="856261"
+                   gender="male"
+                   race="popori" />
+        <FixedItem templateId="856262"
+                   gender="male"
+                   race="baraka" />
     </SeedItem>
-    <SeedItem name="[이벤트] 루키왕의 코스튬 세트" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box03_Skel" itemTemplateId="856296" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem templateId="852363" gender="male" race="human" />
-        <FixedItem templateId="852364" gender="female" race="human" />
-        <FixedItem templateId="852365" gender="male" race="highelf" />
-        <FixedItem templateId="852366" gender="female" race="highelf" />
-        <FixedItem templateId="852367" gender="male" race="aman" />
-        <FixedItem templateId="852368" gender="female" race="aman" />
-        <FixedItem templateId="852369" gender="male" race="castanic" />
-        <FixedItem templateId="852370" gender="female" race="castanic" />
-        <FixedItem templateId="852371" gender="male" race="popori" />
-        <FixedItem templateId="852372" gender="female" race="popori" />
-        <FixedItem templateId="852373" gender="male" race="baraka" />
+    <SeedItem name="[이벤트] 루키왕의 코스튬 세트"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box03_Skel"
+              itemTemplateId="856296"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem templateId="852363"
+                   gender="male"
+                   race="human" />
+        <FixedItem templateId="852364"
+                   gender="female"
+                   race="human" />
+        <FixedItem templateId="852365"
+                   gender="male"
+                   race="highelf" />
+        <FixedItem templateId="852366"
+                   gender="female"
+                   race="highelf" />
+        <FixedItem templateId="852367"
+                   gender="male"
+                   race="aman" />
+        <FixedItem templateId="852368"
+                   gender="female"
+                   race="aman" />
+        <FixedItem templateId="852369"
+                   gender="male"
+                   race="castanic" />
+        <FixedItem templateId="852370"
+                   gender="female"
+                   race="castanic" />
+        <FixedItem templateId="852371"
+                   gender="male"
+                   race="popori" />
+        <FixedItem templateId="852372"
+                   gender="female"
+                   race="popori" />
+        <FixedItem templateId="852373"
+                   gender="male"
+                   race="baraka" />
     </SeedItem>
-    <SeedItem name="특수기동대 의복 상자(7일)" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box04_Skel" itemTemplateId="856306" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem templateId="250003" gender="male" race="human" />
-        <FixedItem templateId="250027" gender="female" race="human" />
-        <FixedItem templateId="250051" gender="male" race="highelf" />
-        <FixedItem templateId="250075" gender="female" race="highelf" />
-        <FixedItem templateId="250099" gender="male" race="aman" />
-        <FixedItem templateId="250123" gender="female" race="aman" />
-        <FixedItem templateId="250147" gender="male" race="castanic" />
-        <FixedItem templateId="250171" gender="female" race="castanic" />
-        <FixedItem templateId="250195" gender="male" race="popori" />
-        <FixedItem templateId="250219" gender="female" race="popori" />
-        <FixedItem templateId="250243" gender="male" race="baraka" />
+    <SeedItem name="특수기동대 의복 상자(7일)"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box04_Skel"
+              itemTemplateId="856306"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem templateId="250003"
+                   gender="male"
+                   race="human" />
+        <FixedItem templateId="250027"
+                   gender="female"
+                   race="human" />
+        <FixedItem templateId="250051"
+                   gender="male"
+                   race="highelf" />
+        <FixedItem templateId="250075"
+                   gender="female"
+                   race="highelf" />
+        <FixedItem templateId="250099"
+                   gender="male"
+                   race="aman" />
+        <FixedItem templateId="250123"
+                   gender="female"
+                   race="aman" />
+        <FixedItem templateId="250147"
+                   gender="male"
+                   race="castanic" />
+        <FixedItem templateId="250171"
+                   gender="female"
+                   race="castanic" />
+        <FixedItem templateId="250195"
+                   gender="male"
+                   race="popori" />
+        <FixedItem templateId="250219"
+                   gender="female"
+                   race="popori" />
+        <FixedItem templateId="250243"
+                   gender="male"
+                   race="baraka" />
     </SeedItem>
-    <SeedItem name="발키온 연합 의장복 상자(7일)" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box04_Skel" itemTemplateId="856307" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem templateId="856308" gender="male" race="human" />
-        <FixedItem templateId="856309" gender="female" race="human" />
-        <FixedItem templateId="856310" gender="male" race="highelf" />
-        <FixedItem templateId="856311" gender="female" race="highelf" />
-        <FixedItem templateId="856312" gender="male" race="aman" />
-        <FixedItem templateId="856313" gender="female" race="aman" />
-        <FixedItem templateId="856314" gender="male" race="castanic" />
-        <FixedItem templateId="856315" gender="female" race="castanic" />
-        <FixedItem templateId="856316" gender="male" race="popori" />
-        <FixedItem templateId="856317" gender="female" race="popori" />
-        <FixedItem templateId="856318" gender="male" race="baraka" />
+    <SeedItem name="발키온 연합 의장복 상자(7일)"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box04_Skel"
+              itemTemplateId="856307"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem templateId="856308"
+                   gender="male"
+                   race="human" />
+        <FixedItem templateId="856309"
+                   gender="female"
+                   race="human" />
+        <FixedItem templateId="856310"
+                   gender="male"
+                   race="highelf" />
+        <FixedItem templateId="856311"
+                   gender="female"
+                   race="highelf" />
+        <FixedItem templateId="856312"
+                   gender="male"
+                   race="aman" />
+        <FixedItem templateId="856313"
+                   gender="female"
+                   race="aman" />
+        <FixedItem templateId="856314"
+                   gender="male"
+                   race="castanic" />
+        <FixedItem templateId="856315"
+                   gender="female"
+                   race="castanic" />
+        <FixedItem templateId="856316"
+                   gender="male"
+                   race="popori" />
+        <FixedItem templateId="856317"
+                   gender="female"
+                   race="popori" />
+        <FixedItem templateId="856318"
+                   gender="male"
+                   race="baraka" />
     </SeedItem>
-    <SeedItem name="검은 용의 기운이 서린 무기 상자(7일)" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box04_Skel" itemTemplateId="856321" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem class="WARRIOR" templateId="253171" />
-        <FixedItem class="LANCER" templateId="253183" />
-        <FixedItem class="SLAYER" templateId="253195" />
-        <FixedItem class="BERSERKER" templateId="253207" />
-        <FixedItem class="SORCERER" templateId="253219" />
-        <FixedItem class="ARCHER" templateId="253231" />
-        <FixedItem class="PRIEST" templateId="253243" />
-        <FixedItem class="ELEMENTALIST" templateId="253255" />
-        <FixedItem class="FIGHTER" templateId="253267" />
-        <FixedItem class="ENGINEER" templateId="253279" />
-        <FixedItem class="GLAIVER" templateId="253291" />
-        <FixedItem class="SOULLESS" templateId="253303" />
-        <FixedItem class="ASSASSIN" templateId="253315" />
+    <SeedItem name="검은 용의 기운이 서린 무기 상자(7일)"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box04_Skel"
+              itemTemplateId="856321"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem class="WARRIOR"
+                   templateId="253171" />
+        <FixedItem class="LANCER"
+                   templateId="253183" />
+        <FixedItem class="SLAYER"
+                   templateId="253195" />
+        <FixedItem class="BERSERKER"
+                   templateId="253207" />
+        <FixedItem class="SORCERER"
+                   templateId="253219" />
+        <FixedItem class="ARCHER"
+                   templateId="253231" />
+        <FixedItem class="PRIEST"
+                   templateId="253243" />
+        <FixedItem class="ELEMENTALIST"
+                   templateId="253255" />
+        <FixedItem class="FIGHTER"
+                   templateId="253267" />
+        <FixedItem class="ENGINEER"
+                   templateId="253279" />
+        <FixedItem class="GLAIVER"
+                   templateId="253291" />
+        <FixedItem class="SOULLESS"
+                   templateId="253303" />
+        <FixedItem class="ASSASSIN"
+                   templateId="253315" />
     </SeedItem>
-    <SeedItem name="화룡의 기운이 서린 무기 상자(7일)" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box04_Skel" itemTemplateId="856322" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem class="WARRIOR" templateId="253387" />
-        <FixedItem class="LANCER" templateId="253399" />
-        <FixedItem class="SLAYER" templateId="253411" />
-        <FixedItem class="BERSERKER" templateId="253423" />
-        <FixedItem class="SORCERER" templateId="253435" />
-        <FixedItem class="ARCHER" templateId="253447" />
-        <FixedItem class="PRIEST" templateId="253459" />
-        <FixedItem class="ELEMENTALIST" templateId="253471" />
-        <FixedItem class="FIGHTER" templateId="253483" />
-        <FixedItem class="ENGINEER" templateId="253495" />
-        <FixedItem class="GLAIVER" templateId="253507" />
-        <FixedItem class="SOULLESS" templateId="253519" />
-        <FixedItem class="ASSASSIN" templateId="253531" />
+    <SeedItem name="화룡의 기운이 서린 무기 상자(7일)"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box04_Skel"
+              itemTemplateId="856322"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem class="WARRIOR"
+                   templateId="253387" />
+        <FixedItem class="LANCER"
+                   templateId="253399" />
+        <FixedItem class="SLAYER"
+                   templateId="253411" />
+        <FixedItem class="BERSERKER"
+                   templateId="253423" />
+        <FixedItem class="SORCERER"
+                   templateId="253435" />
+        <FixedItem class="ARCHER"
+                   templateId="253447" />
+        <FixedItem class="PRIEST"
+                   templateId="253459" />
+        <FixedItem class="ELEMENTALIST"
+                   templateId="253471" />
+        <FixedItem class="FIGHTER"
+                   templateId="253483" />
+        <FixedItem class="ENGINEER"
+                   templateId="253495" />
+        <FixedItem class="GLAIVER"
+                   templateId="253507" />
+        <FixedItem class="SOULLESS"
+                   templateId="253519" />
+        <FixedItem class="ASSASSIN"
+                   templateId="253531" />
     </SeedItem>
-    <SeedItem name="화룡의 기운이 서린 갑주 상자(7일)" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box04_Skel" itemTemplateId="856323" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem templateId="253567" gender="male" race="human" />
-        <FixedItem templateId="253603" gender="female" race="human" />
-        <FixedItem templateId="253639" gender="male" race="highelf" />
-        <FixedItem templateId="253675" gender="female" race="highelf" />
-        <FixedItem templateId="253711" gender="male" race="aman" />
-        <FixedItem templateId="253747" gender="female" race="aman" />
-        <FixedItem templateId="253783" gender="male" race="castanic" />
-        <FixedItem templateId="253819" gender="female" race="castanic" />
-        <FixedItem templateId="253855" gender="male" race="popori" />
-        <FixedItem templateId="253891" gender="female" race="popori" />
-        <FixedItem templateId="253927" gender="male" race="baraka" />
+    <SeedItem name="화룡의 기운이 서린 갑주 상자(7일)"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box04_Skel"
+              itemTemplateId="856323"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem templateId="253567"
+                   gender="male"
+                   race="human" />
+        <FixedItem templateId="253603"
+                   gender="female"
+                   race="human" />
+        <FixedItem templateId="253639"
+                   gender="male"
+                   race="highelf" />
+        <FixedItem templateId="253675"
+                   gender="female"
+                   race="highelf" />
+        <FixedItem templateId="253711"
+                   gender="male"
+                   race="aman" />
+        <FixedItem templateId="253747"
+                   gender="female"
+                   race="aman" />
+        <FixedItem templateId="253783"
+                   gender="male"
+                   race="castanic" />
+        <FixedItem templateId="253819"
+                   gender="female"
+                   race="castanic" />
+        <FixedItem templateId="253855"
+                   gender="male"
+                   race="popori" />
+        <FixedItem templateId="253891"
+                   gender="female"
+                   race="popori" />
+        <FixedItem templateId="253927"
+                   gender="male"
+                   race="baraka" />
     </SeedItem>
-    <SeedItem name="프로즌 무기 상자(7일)" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box04_Skel" itemTemplateId="856324" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem class="WARRIOR" templateId="256139" />
-        <FixedItem class="LANCER" templateId="256151" />
-        <FixedItem class="SLAYER" templateId="256163" />
-        <FixedItem class="BERSERKER" templateId="256175" />
-        <FixedItem class="SORCERER" templateId="256187" />
-        <FixedItem class="ARCHER" templateId="256199" />
-        <FixedItem class="PRIEST" templateId="256211" />
-        <FixedItem class="ELEMENTALIST" templateId="256223" />
-        <FixedItem class="FIGHTER" templateId="256235" />
-        <FixedItem class="ENGINEER" templateId="256247" />
-        <FixedItem class="GLAIVER" templateId="256259" />
-        <FixedItem class="SOULLESS" templateId="256271" />
-        <FixedItem class="ASSASSIN" templateId="256283" />
+    <SeedItem name="프로즌 무기 상자(7일)"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box04_Skel"
+              itemTemplateId="856324"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem class="WARRIOR"
+                   templateId="256139" />
+        <FixedItem class="LANCER"
+                   templateId="256151" />
+        <FixedItem class="SLAYER"
+                   templateId="256163" />
+        <FixedItem class="BERSERKER"
+                   templateId="256175" />
+        <FixedItem class="SORCERER"
+                   templateId="256187" />
+        <FixedItem class="ARCHER"
+                   templateId="256199" />
+        <FixedItem class="PRIEST"
+                   templateId="256211" />
+        <FixedItem class="ELEMENTALIST"
+                   templateId="256223" />
+        <FixedItem class="FIGHTER"
+                   templateId="256235" />
+        <FixedItem class="ENGINEER"
+                   templateId="256247" />
+        <FixedItem class="GLAIVER"
+                   templateId="256259" />
+        <FixedItem class="SOULLESS"
+                   templateId="256271" />
+        <FixedItem class="ASSASSIN"
+                   templateId="256283" />
     </SeedItem>
-    <SeedItem name="프로즌 코스튬 상자(7일)" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box04_Skel" itemTemplateId="856325" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem templateId="256583" gender="male" race="human" />
-        <FixedItem templateId="256607" gender="female" race="human" />
-        <FixedItem templateId="256631" gender="male" race="highelf" />
-        <FixedItem templateId="256655" gender="female" race="highelf" />
-        <FixedItem templateId="256679" gender="male" race="aman" />
-        <FixedItem templateId="256703" gender="female" race="aman" />
-        <FixedItem templateId="256727" gender="male" race="castanic" />
-        <FixedItem templateId="256751" gender="female" race="castanic" />
-        <FixedItem templateId="256775" gender="male" race="popori" />
-        <FixedItem templateId="256799" gender="female" race="popori" />
-        <FixedItem templateId="256823" gender="male" race="baraka" />
+    <SeedItem name="프로즌 코스튬 상자(7일)"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box04_Skel"
+              itemTemplateId="856325"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem templateId="256583"
+                   gender="male"
+                   race="human" />
+        <FixedItem templateId="256607"
+                   gender="female"
+                   race="human" />
+        <FixedItem templateId="256631"
+                   gender="male"
+                   race="highelf" />
+        <FixedItem templateId="256655"
+                   gender="female"
+                   race="highelf" />
+        <FixedItem templateId="256679"
+                   gender="male"
+                   race="aman" />
+        <FixedItem templateId="256703"
+                   gender="female"
+                   race="aman" />
+        <FixedItem templateId="256727"
+                   gender="male"
+                   race="castanic" />
+        <FixedItem templateId="256751"
+                   gender="female"
+                   race="castanic" />
+        <FixedItem templateId="256775"
+                   gender="male"
+                   race="popori" />
+        <FixedItem templateId="256799"
+                   gender="female"
+                   race="popori" />
+        <FixedItem templateId="256823"
+                   gender="male"
+                   race="baraka" />
     </SeedItem>
-    <SeedItem name="프로즌 코스튬 상자(7일)" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box04_Skel" itemTemplateId="856337" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem templateId="856326" gender="male" race="human" />
-        <FixedItem templateId="856327" gender="female" race="human" />
-        <FixedItem templateId="856328" gender="male" race="highelf" />
-        <FixedItem templateId="856329" gender="female" race="highelf" />
-        <FixedItem templateId="856330" gender="male" race="aman" />
-        <FixedItem templateId="856331" gender="female" race="aman" />
-        <FixedItem templateId="856332" gender="male" race="castanic" />
-        <FixedItem templateId="856333" gender="female" race="castanic" />
-        <FixedItem templateId="856334" gender="male" race="popori" />
-        <FixedItem templateId="856335" gender="female" race="popori" />
-        <FixedItem templateId="856336" gender="male" race="baraka" />
+    <SeedItem name="프로즌 코스튬 상자(7일)"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box04_Skel"
+              itemTemplateId="856337"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem templateId="856326"
+                   gender="male"
+                   race="human" />
+        <FixedItem templateId="856327"
+                   gender="female"
+                   race="human" />
+        <FixedItem templateId="856328"
+                   gender="male"
+                   race="highelf" />
+        <FixedItem templateId="856329"
+                   gender="female"
+                   race="highelf" />
+        <FixedItem templateId="856330"
+                   gender="male"
+                   race="aman" />
+        <FixedItem templateId="856331"
+                   gender="female"
+                   race="aman" />
+        <FixedItem templateId="856332"
+                   gender="male"
+                   race="castanic" />
+        <FixedItem templateId="856333"
+                   gender="female"
+                   race="castanic" />
+        <FixedItem templateId="856334"
+                   gender="male"
+                   race="popori" />
+        <FixedItem templateId="856335"
+                   gender="female"
+                   race="popori" />
+        <FixedItem templateId="856336"
+                   gender="male"
+                   race="baraka" />
     </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856341" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856341"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
         <ResultItemSet>
             <ResultItem />
             <ResultItem />
         </ResultItemSet>
     </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856342" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856342"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
         <ResultItemSet>
             <ResultItem />
             <ResultItem />
             <ResultItem />
         </ResultItemSet>
     </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856343" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
-        <ResultItemSet>
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-        </ResultItemSet>
-    </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856344" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
-        <ResultItemSet>
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-        </ResultItemSet>
-    </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856345" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
-        <ResultItemSet>
-            <ResultItem />
-            <ResultItem />
-        </ResultItemSet>
-    </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856346" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
-        <ResultItemSet>
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-        </ResultItemSet>
-    </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856347" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
-        <ResultItemSet>
-            <ResultItem />
-            <ResultItem />
-        </ResultItemSet>
-    </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856348" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856343"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
         <ResultItemSet>
             <ResultItem />
             <ResultItem />
@@ -329,7 +864,68 @@
             <ResultItem />
         </ResultItemSet>
     </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856349" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856344"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
+        <ResultItemSet>
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+        </ResultItemSet>
+    </SeedItem>
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856345"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
+        <ResultItemSet>
+            <ResultItem />
+            <ResultItem />
+        </ResultItemSet>
+    </SeedItem>
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856346"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
+        <ResultItemSet>
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+        </ResultItemSet>
+    </SeedItem>
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856347"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
+        <ResultItemSet>
+            <ResultItem />
+            <ResultItem />
+        </ResultItemSet>
+    </SeedItem>
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856348"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
         <ResultItemSet>
             <ResultItem />
             <ResultItem />
@@ -337,28 +933,14 @@
             <ResultItem />
         </ResultItemSet>
     </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856350" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
-        <ResultItemSet>
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-        </ResultItemSet>
-    </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856351" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
-        <ResultItemSet>
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-        </ResultItemSet>
-    </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856352" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
-        <ResultItemSet>
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-        </ResultItemSet>
-    </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856353" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856349"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
         <ResultItemSet>
             <ResultItem />
             <ResultItem />
@@ -366,150 +948,56 @@
             <ResultItem />
         </ResultItemSet>
     </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856354" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856350"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
         <ResultItemSet>
             <ResultItem />
             <ResultItem />
             <ResultItem />
         </ResultItemSet>
     </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856355" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856351"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
         <ResultItemSet>
             <ResultItem />
             <ResultItem />
             <ResultItem />
         </ResultItemSet>
     </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856356" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856352"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
         <ResultItemSet>
-            <ResultItem />
             <ResultItem />
             <ResultItem />
             <ResultItem />
         </ResultItemSet>
     </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856357" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
-        <ResultItemSet>
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-        </ResultItemSet>
-    </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856358" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
-        <ResultItemSet>
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-        </ResultItemSet>
-    </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856359" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
-        <ResultItemSet>
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-        </ResultItemSet>
-    </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856360" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
-        <ResultItemSet>
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-        </ResultItemSet>
-    </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856361" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
-        <ResultItemSet>
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-        </ResultItemSet>
-    </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856362" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
-        <ResultItemSet>
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-        </ResultItemSet>
-    </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856363" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
-        <ResultItemSet>
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-        </ResultItemSet>
-    </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856364" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
-        <ResultItemSet>
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-        </ResultItemSet>
-    </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856365" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
-        <ResultItemSet>
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-        </ResultItemSet>
-    </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856366" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
-        <ResultItemSet>
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-        </ResultItemSet>
-    </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856367" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
-        <ResultItemSet>
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-        </ResultItemSet>
-    </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856368" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
-        <ResultItemSet>
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-        </ResultItemSet>
-    </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856369" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
-        <ResultItemSet>
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-        </ResultItemSet>
-    </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856370" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856353"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
         <ResultItemSet>
             <ResultItem />
             <ResultItem />
@@ -517,26 +1005,72 @@
             <ResultItem />
         </ResultItemSet>
     </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856371" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856354"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
         <ResultItemSet>
             <ResultItem />
+            <ResultItem />
+            <ResultItem />
+        </ResultItemSet>
+    </SeedItem>
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856355"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
+        <ResultItemSet>
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+        </ResultItemSet>
+    </SeedItem>
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856356"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
+        <ResultItemSet>
             <ResultItem />
             <ResultItem />
             <ResultItem />
             <ResultItem />
         </ResultItemSet>
     </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856372" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856357"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
         <ResultItemSet>
-            <ResultItem />
-            <ResultItem />
             <ResultItem />
             <ResultItem />
             <ResultItem />
             <ResultItem />
         </ResultItemSet>
     </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856373" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856358"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
         <ResultItemSet>
             <ResultItem />
             <ResultItem />
@@ -545,19 +1079,14 @@
             <ResultItem />
         </ResultItemSet>
     </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856374" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
-        <ResultItemSet>
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-            <ResultItem />
-        </ResultItemSet>
-    </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856375" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856359"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
         <ResultItemSet>
             <ResultItem />
             <ResultItem />
@@ -565,10 +1094,30 @@
             <ResultItem />
         </ResultItemSet>
     </SeedItem>
-    <SeedItem name="5레벨 달성 상자" animSet="" mesh="" itemTemplateId="856376" animTree="" failEffectId="0" successEffectId="0" waitEffectId="0">
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856360"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
         <ResultItemSet>
             <ResultItem />
             <ResultItem />
+            <ResultItem />
+            <ResultItem />
+        </ResultItemSet>
+    </SeedItem>
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856361"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
+        <ResultItemSet>
             <ResultItem />
             <ResultItem />
             <ResultItem />
@@ -578,71 +1127,458 @@
             <ResultItem />
         </ResultItemSet>
     </SeedItem>
-    <SeedItem name="픽시 의상 상자" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box05_Skel" itemTemplateId="856381" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem templateId="260382" gender="male" race="human" />
-        <FixedItem templateId="260406" gender="Female" race="human" />
-        <FixedItem templateId="260430" gender="male" race="highelf" />
-        <FixedItem templateId="260454" gender="Female" race="highelf" />
-        <FixedItem templateId="260478" gender="male" race="aman" />
-        <FixedItem templateId="260502" gender="Female" race="aman" />
-        <FixedItem templateId="260526" gender="male" race="castanic" />
-        <FixedItem templateId="260550" gender="Female" race="castanic" />
-        <FixedItem templateId="260574" gender="male" race="popori" />
-        <FixedItem templateId="260598" gender="Female" race="popori" />
-        <FixedItem templateId="260622" gender="male" race="baraka" />
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856362"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
+        <ResultItemSet>
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+        </ResultItemSet>
     </SeedItem>
-    <SeedItem name="유니크: 픽시 의상 상자" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box05_Skel" itemTemplateId="856382" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem templateId="260394" gender="male" race="human" />
-        <FixedItem templateId="260418" gender="Female" race="human" />
-        <FixedItem templateId="260442" gender="male" race="highelf" />
-        <FixedItem templateId="260466" gender="Female" race="highelf" />
-        <FixedItem templateId="260490" gender="male" race="aman" />
-        <FixedItem templateId="260514" gender="Female" race="aman" />
-        <FixedItem templateId="260538" gender="male" race="castanic" />
-        <FixedItem templateId="260562" gender="Female" race="castanic" />
-        <FixedItem templateId="260586" gender="male" race="popori" />
-        <FixedItem templateId="260610" gender="Female" race="popori" />
-        <FixedItem templateId="260634" gender="male" race="baraka" />
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856363"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
+        <ResultItemSet>
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+        </ResultItemSet>
     </SeedItem>
-    <SeedItem name="Fire Elemental Costume Box" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box05_Skel" itemTemplateId="856384" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem templateId="203239" gender="male" race="human" />
-        <FixedItem templateId="203263" gender="Female" race="human" />
-        <FixedItem templateId="203287" gender="male" race="highelf" />
-        <FixedItem templateId="203311" gender="Female" race="highelf" />
-        <FixedItem templateId="203335" gender="male" race="aman" />
-        <FixedItem templateId="203359" gender="Female" race="aman" />
-        <FixedItem templateId="203383" gender="male" race="castanic" />
-        <FixedItem templateId="203407" gender="Female" race="castanic" />
-        <FixedItem templateId="203431" gender="male" race="popori" />
-        <FixedItem templateId="203455" gender="Female" race="popori" />
-        <FixedItem templateId="203479" gender="male" race="baraka" />
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856364"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
+        <ResultItemSet>
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+        </ResultItemSet>
     </SeedItem>
-    <SeedItem name="Lightning Elemental Costume Box" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box05_Skel" itemTemplateId="856385" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem templateId="203251" gender="male" race="human" />
-        <FixedItem templateId="203275" gender="Female" race="human" />
-        <FixedItem templateId="203299" gender="male" race="highelf" />
-        <FixedItem templateId="203323" gender="Female" race="highelf" />
-        <FixedItem templateId="203347" gender="male" race="aman" />
-        <FixedItem templateId="203371" gender="Female" race="aman" />
-        <FixedItem templateId="203395" gender="male" race="castanic" />
-        <FixedItem templateId="203419" gender="Female" race="castanic" />
-        <FixedItem templateId="203443" gender="male" race="popori" />
-        <FixedItem templateId="203467" gender="Female" race="popori" />
-        <FixedItem templateId="203491" gender="male" race="baraka" />
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856365"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
+        <ResultItemSet>
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+        </ResultItemSet>
     </SeedItem>
-    <SeedItem name="April Fool's Day Weapon Box" animSet="Gift_Box_ANI.Anim.Gift_Box_Anim" mesh="Gift_Box01.Skel.Gift_Box05_Skel" itemTemplateId="856466" animTree="S1Prototype.SimpleAnimTree" failEffectId="50432" successEffectId="50430" waitEffectId="50431">
-        <FixedItem class="WARRIOR" templateId="850184" />
-        <FixedItem class="LANCER" templateId="850189" />
-        <FixedItem class="SLAYER" templateId="850194" />
-        <FixedItem class="BERSERKER" templateId="850199" />
-        <FixedItem class="SORCERER" templateId="850204" />
-        <FixedItem class="ARCHER" templateId="850209" />
-        <FixedItem class="PRIEST" templateId="850214" />
-        <FixedItem class="ELEMENTALIST" templateId="850219" />
-        <FixedItem class="SOULLESS" templateId="203883" />
-        <FixedItem class="FIGHTER" templateId="203847" />
-        <FixedItem class="ENGINEER" templateId="203859" />
-        <FixedItem class="ASSASSIN" templateId="203895" />
-        <FixedItem class="GLAIVER" templateId="203871" />
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856366"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
+        <ResultItemSet>
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+        </ResultItemSet>
+    </SeedItem>
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856367"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
+        <ResultItemSet>
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+        </ResultItemSet>
+    </SeedItem>
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856368"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
+        <ResultItemSet>
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+        </ResultItemSet>
+    </SeedItem>
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856369"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
+        <ResultItemSet>
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+        </ResultItemSet>
+    </SeedItem>
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856370"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
+        <ResultItemSet>
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+        </ResultItemSet>
+    </SeedItem>
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856371"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
+        <ResultItemSet>
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+        </ResultItemSet>
+    </SeedItem>
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856372"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
+        <ResultItemSet>
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+        </ResultItemSet>
+    </SeedItem>
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856373"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
+        <ResultItemSet>
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+        </ResultItemSet>
+    </SeedItem>
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856374"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
+        <ResultItemSet>
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+        </ResultItemSet>
+    </SeedItem>
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856375"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
+        <ResultItemSet>
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+        </ResultItemSet>
+    </SeedItem>
+    <SeedItem name="5레벨 달성 상자"
+              animSet=""
+              mesh=""
+              itemTemplateId="856376"
+              animTree=""
+              failEffectId="0"
+              successEffectId="0"
+              waitEffectId="0">
+        <ResultItemSet>
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+            <ResultItem />
+        </ResultItemSet>
+    </SeedItem>
+    <SeedItem name="픽시 의상 상자"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box05_Skel"
+              itemTemplateId="856381"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem templateId="260382"
+                   gender="male"
+                   race="human" />
+        <FixedItem templateId="260406"
+                   gender="Female"
+                   race="human" />
+        <FixedItem templateId="260430"
+                   gender="male"
+                   race="highelf" />
+        <FixedItem templateId="260454"
+                   gender="Female"
+                   race="highelf" />
+        <FixedItem templateId="260478"
+                   gender="male"
+                   race="aman" />
+        <FixedItem templateId="260502"
+                   gender="Female"
+                   race="aman" />
+        <FixedItem templateId="260526"
+                   gender="male"
+                   race="castanic" />
+        <FixedItem templateId="260550"
+                   gender="Female"
+                   race="castanic" />
+        <FixedItem templateId="260574"
+                   gender="male"
+                   race="popori" />
+        <FixedItem templateId="260598"
+                   gender="Female"
+                   race="popori" />
+        <FixedItem templateId="260622"
+                   gender="male"
+                   race="baraka" />
+    </SeedItem>
+    <SeedItem name="유니크: 픽시 의상 상자"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box05_Skel"
+              itemTemplateId="856382"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem templateId="260394"
+                   gender="male"
+                   race="human" />
+        <FixedItem templateId="260418"
+                   gender="Female"
+                   race="human" />
+        <FixedItem templateId="260442"
+                   gender="male"
+                   race="highelf" />
+        <FixedItem templateId="260466"
+                   gender="Female"
+                   race="highelf" />
+        <FixedItem templateId="260490"
+                   gender="male"
+                   race="aman" />
+        <FixedItem templateId="260514"
+                   gender="Female"
+                   race="aman" />
+        <FixedItem templateId="260538"
+                   gender="male"
+                   race="castanic" />
+        <FixedItem templateId="260562"
+                   gender="Female"
+                   race="castanic" />
+        <FixedItem templateId="260586"
+                   gender="male"
+                   race="popori" />
+        <FixedItem templateId="260610"
+                   gender="Female"
+                   race="popori" />
+        <FixedItem templateId="260634"
+                   gender="male"
+                   race="baraka" />
+    </SeedItem>
+    <SeedItem name="Fire Elemental Costume Box"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box05_Skel"
+              itemTemplateId="856384"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem templateId="203239"
+                   gender="male"
+                   race="human" />
+        <FixedItem templateId="203263"
+                   gender="Female"
+                   race="human" />
+        <FixedItem templateId="203287"
+                   gender="male"
+                   race="highelf" />
+        <FixedItem templateId="203311"
+                   gender="Female"
+                   race="highelf" />
+        <FixedItem templateId="203335"
+                   gender="male"
+                   race="aman" />
+        <FixedItem templateId="203359"
+                   gender="Female"
+                   race="aman" />
+        <FixedItem templateId="203383"
+                   gender="male"
+                   race="castanic" />
+        <FixedItem templateId="203407"
+                   gender="Female"
+                   race="castanic" />
+        <FixedItem templateId="203431"
+                   gender="male"
+                   race="popori" />
+        <FixedItem templateId="203455"
+                   gender="Female"
+                   race="popori" />
+        <FixedItem templateId="203479"
+                   gender="male"
+                   race="baraka" />
+    </SeedItem>
+    <SeedItem name="Lightning Elemental Costume Box"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box05_Skel"
+              itemTemplateId="856385"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem templateId="203251"
+                   gender="male"
+                   race="human" />
+        <FixedItem templateId="203275"
+                   gender="Female"
+                   race="human" />
+        <FixedItem templateId="203299"
+                   gender="male"
+                   race="highelf" />
+        <FixedItem templateId="203323"
+                   gender="Female"
+                   race="highelf" />
+        <FixedItem templateId="203347"
+                   gender="male"
+                   race="aman" />
+        <FixedItem templateId="203371"
+                   gender="Female"
+                   race="aman" />
+        <FixedItem templateId="203395"
+                   gender="male"
+                   race="castanic" />
+        <FixedItem templateId="203419"
+                   gender="Female"
+                   race="castanic" />
+        <FixedItem templateId="203443"
+                   gender="male"
+                   race="popori" />
+        <FixedItem templateId="203467"
+                   gender="Female"
+                   race="popori" />
+        <FixedItem templateId="203491"
+                   gender="male"
+                   race="baraka" />
+    </SeedItem>
+    <SeedItem name="April Fool's Day Weapon Box"
+              animSet="Gift_Box_ANI.Anim.Gift_Box_Anim"
+              mesh="Gift_Box01.Skel.Gift_Box05_Skel"
+              itemTemplateId="856466"
+              animTree="S1Prototype.SimpleAnimTree"
+              failEffectId="50432"
+              successEffectId="50430"
+              waitEffectId="50431">
+        <FixedItem class="WARRIOR"
+                   templateId="850184" />
+        <FixedItem class="LANCER"
+                   templateId="850189" />
+        <FixedItem class="SLAYER"
+                   templateId="850194" />
+        <FixedItem class="BERSERKER"
+                   templateId="850199" />
+        <FixedItem class="SORCERER"
+                   templateId="850204" />
+        <FixedItem class="ARCHER"
+                   templateId="850209" />
+        <FixedItem class="PRIEST"
+                   templateId="850214" />
+        <FixedItem class="ELEMENTALIST"
+                   templateId="850219" />
+        <FixedItem class="SOULLESS"
+                   templateId="203883" />
+        <FixedItem class="FIGHTER"
+                   templateId="203847" />
+        <FixedItem class="ENGINEER"
+                   templateId="203859" />
+        <FixedItem class="ASSASSIN"
+                   templateId="203895" />
+        <FixedItem class="GLAIVER"
+                   templateId="203871" />
     </SeedItem>
 </ItemConversion>

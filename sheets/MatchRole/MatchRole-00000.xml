@@ -1,166 +1,485 @@
-<MatchRole xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/MatchRole MatchRole.xsd" xmlns="https://vezel.dev/novadrop/dc/MatchRole">
+<MatchRole xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://vezel.dev/novadrop/dc/MatchRole MatchRole.xsd"
+           xmlns="https://vezel.dev/novadrop/dc/MatchRole">
     <Role id="1">
-        <RoleData dealerMax="3" dealerMin="1" healerMax="1" healerMin="1" tankerMax="1" tankerMin="1" totalUser="5" />
+        <RoleData dealerMax="3"
+                  dealerMin="1"
+                  healerMax="1"
+                  healerMin="1"
+                  tankerMax="1"
+                  tankerMin="1"
+                  totalUser="5" />
     </Role>
     <Role id="2">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="5" healerMin="3" tankerMax="0" tankerMin="0" totalUser="15" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="5"
+                  healerMin="3"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="15" />
     </Role>
     <Role id="3">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="3" healerMin="1" tankerMax="0" tankerMin="0" totalUser="10" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="3"
+                  healerMin="1"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="10" />
     </Role>
     <Role id="4">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="1" healerMin="0" tankerMax="0" tankerMin="0" totalUser="3" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="1"
+                  healerMin="0"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="3" />
     </Role>
     <Role id="5">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="0" healerMin="0" tankerMax="0" tankerMin="0" totalUser="15" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="0"
+                  healerMin="0"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="15" />
     </Role>
     <Role id="6">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="0" healerMin="0" tankerMax="0" tankerMin="0" totalUser="10" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="0"
+                  healerMin="0"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="10" />
     </Role>
     <Role id="7">
-        <RoleData dealerMax="5" dealerMin="4" healerMax="3" healerMin="2" tankerMax="2" tankerMin="2" totalUser="10" />
+        <RoleData dealerMax="5"
+                  dealerMin="4"
+                  healerMax="3"
+                  healerMin="2"
+                  tankerMax="2"
+                  tankerMin="2"
+                  totalUser="10" />
     </Role>
     <Role id="8">
-        <RoleData dealerMax="15" dealerMin="14" healerMax="4" healerMin="3" tankerMax="2" tankerMin="2" totalUser="20" />
+        <RoleData dealerMax="15"
+                  dealerMin="14"
+                  healerMax="4"
+                  healerMin="3"
+                  tankerMax="2"
+                  tankerMin="2"
+                  totalUser="20" />
     </Role>
     <Role id="9">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="4" healerMin="3" tankerMax="0" tankerMin="0" totalUser="20" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="4"
+                  healerMin="3"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="20" />
     </Role>
     <Role id="10">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="1" healerMin="1" tankerMax="0" tankerMin="0" totalUser="3" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="1"
+                  healerMin="1"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="3" />
     </Role>
-    <Role id="11" changeRoleId="32">
-        <RoleData dealerMax="3" dealerMin="1" healerMax="1" healerMin="0" tankerMax="1" tankerMin="0" totalUser="3" />
+    <Role id="11"
+          changeRoleId="32">
+        <RoleData dealerMax="3"
+                  dealerMin="1"
+                  healerMax="1"
+                  healerMin="0"
+                  tankerMax="1"
+                  tankerMin="0"
+                  totalUser="3" />
     </Role>
     <Role id="12">
-        <RoleData dealerMax="6" dealerMin="5" healerMax="1" healerMin="1" tankerMax="1" tankerMin="0" totalUser="7" />
+        <RoleData dealerMax="6"
+                  dealerMin="5"
+                  healerMax="1"
+                  healerMin="1"
+                  tankerMax="1"
+                  tankerMin="0"
+                  totalUser="7" />
     </Role>
     <Role id="13">
-        <RoleData dealerMax="7" dealerMin="4" healerMax="2" healerMin="2" tankerMax="2" tankerMin="1" totalUser="10" />
+        <RoleData dealerMax="7"
+                  dealerMin="4"
+                  healerMax="2"
+                  healerMin="2"
+                  tankerMax="2"
+                  tankerMin="1"
+                  totalUser="10" />
     </Role>
     <Role id="14">
         <BlueTeamRoleData totalUser="10" />
         <RedTeamRoleData totalUser="3" />
     </Role>
     <Role id="15">
-        <RoleData dealerMax="7" dealerMin="7" healerMax="2" healerMin="2" tankerMax="1" tankerMin="1" totalUser="10" />
+        <RoleData dealerMax="7"
+                  dealerMin="7"
+                  healerMax="2"
+                  healerMin="2"
+                  tankerMax="1"
+                  tankerMin="1"
+                  totalUser="10" />
     </Role>
     <Role id="16">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="0" healerMin="0" tankerMax="0" tankerMin="0" totalUser="20" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="0"
+                  healerMin="0"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="20" />
     </Role>
-    <Role id="17" changeRoleId="24">
-        <RoleData dealerMax="3" dealerMin="1" healerMax="1" healerMin="1" tankerMax="1" tankerMin="1" totalUser="5" />
+    <Role id="17"
+          changeRoleId="24">
+        <RoleData dealerMax="3"
+                  dealerMin="1"
+                  healerMax="1"
+                  healerMin="1"
+                  tankerMax="1"
+                  tankerMin="1"
+                  totalUser="5" />
     </Role>
     <Role id="18">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="1" healerMin="0" tankerMax="1" tankerMin="0" totalUser="3" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="1"
+                  healerMin="0"
+                  tankerMax="1"
+                  tankerMin="0"
+                  totalUser="3" />
     </Role>
     <Role id="19">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="1" healerMin="1" tankerMax="0" tankerMin="0" totalUser="5" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="1"
+                  healerMin="1"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="5" />
     </Role>
     <Role id="20">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="1" healerMin="0" tankerMax="0" tankerMin="0" totalUser="5" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="1"
+                  healerMin="0"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="5" />
     </Role>
     <Role id="21">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="3" healerMin="2" tankerMax="0" tankerMin="0" totalUser="15" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="3"
+                  healerMin="2"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="15" />
     </Role>
     <Role id="22">
-        <RoleData dealerMax="4" dealerMin="3" healerMax="1" healerMin="1" tankerMax="1" tankerMin="0" totalUser="5" />
+        <RoleData dealerMax="4"
+                  dealerMin="3"
+                  healerMax="1"
+                  healerMin="1"
+                  tankerMax="1"
+                  tankerMin="0"
+                  totalUser="5" />
     </Role>
-    <Role id="23" changeRoleId="24">
-        <RoleData dealerMax="3" dealerMin="1" healerMax="1" healerMin="1" tankerMax="1" tankerMin="1" totalUser="5" />
+    <Role id="23"
+          changeRoleId="24">
+        <RoleData dealerMax="3"
+                  dealerMin="1"
+                  healerMax="1"
+                  healerMin="1"
+                  tankerMax="1"
+                  tankerMin="1"
+                  totalUser="5" />
     </Role>
     <Role id="24">
-        <RoleData dealerMax="5" dealerMin="0" healerMax="5" healerMin="0" tankerMax="5" tankerMin="0" totalUser="5" />
+        <RoleData dealerMax="5"
+                  dealerMin="0"
+                  healerMax="5"
+                  healerMin="0"
+                  tankerMax="5"
+                  tankerMin="0"
+                  totalUser="5" />
     </Role>
     <Role id="25">
-        <RoleData dealerMax="5" dealerMin="1" healerMax="1" healerMin="1" tankerMax="1" tankerMin="1" totalUser="7" />
+        <RoleData dealerMax="5"
+                  dealerMin="1"
+                  healerMax="1"
+                  healerMin="1"
+                  tankerMax="1"
+                  tankerMin="1"
+                  totalUser="7" />
     </Role>
     <Role id="26">
-        <RoleData dealerMax="7" dealerMin="7" healerMax="2" healerMin="2" tankerMax="1" tankerMin="1" totalUser="10" />
+        <RoleData dealerMax="7"
+                  dealerMin="7"
+                  healerMax="2"
+                  healerMin="2"
+                  tankerMax="1"
+                  tankerMin="1"
+                  totalUser="10" />
     </Role>
     <Role id="27">
-        <RoleData dealerMax="7" dealerMin="7" healerMax="2" healerMin="2" tankerMax="1" tankerMin="1" totalUser="10" />
+        <RoleData dealerMax="7"
+                  dealerMin="7"
+                  healerMax="2"
+                  healerMin="2"
+                  tankerMax="1"
+                  tankerMin="1"
+                  totalUser="10" />
     </Role>
     <Role id="28">
-        <RoleData dealerMax="5" dealerMin="1" healerMax="1" healerMin="1" tankerMax="1" tankerMin="1" totalUser="7" />
+        <RoleData dealerMax="5"
+                  dealerMin="1"
+                  healerMax="1"
+                  healerMin="1"
+                  tankerMax="1"
+                  tankerMin="1"
+                  totalUser="7" />
     </Role>
-    <Role id="29" changeRoleId="34">
-        <RoleData dealerMax="5" dealerMin="4" healerMax="2" healerMin="1" tankerMax="1" tankerMin="1" totalUser="7" />
+    <Role id="29"
+          changeRoleId="34">
+        <RoleData dealerMax="5"
+                  dealerMin="4"
+                  healerMax="2"
+                  healerMin="1"
+                  tankerMax="1"
+                  tankerMin="1"
+                  totalUser="7" />
     </Role>
     <Role id="30">
-        <RoleData dealerMax="11" dealerMin="11" healerMax="5" healerMin="5" tankerMax="4" tankerMin="4" totalUser="20" />
+        <RoleData dealerMax="11"
+                  dealerMin="11"
+                  healerMax="5"
+                  healerMin="5"
+                  tankerMax="4"
+                  tankerMin="4"
+                  totalUser="20" />
     </Role>
-    <Role id="31" changeRoleId="34">
-        <RoleData dealerMax="4" dealerMin="1" healerMax="2" healerMin="1" tankerMax="1" tankerMin="1" totalUser="7" />
+    <Role id="31"
+          changeRoleId="34">
+        <RoleData dealerMax="4"
+                  dealerMin="1"
+                  healerMax="2"
+                  healerMin="1"
+                  tankerMax="1"
+                  tankerMin="1"
+                  totalUser="7" />
     </Role>
     <Role id="32">
-        <RoleData dealerMax="3" dealerMin="0" healerMax="3" healerMin="0" tankerMax="3" tankerMin="0" totalUser="3" />
+        <RoleData dealerMax="3"
+                  dealerMin="0"
+                  healerMax="3"
+                  healerMin="0"
+                  tankerMax="3"
+                  tankerMin="0"
+                  totalUser="3" />
     </Role>
     <Role id="33">
-        <RoleData dealerMax="17" dealerMin="1" healerMax="5" healerMin="2" tankerMax="5" tankerMin="1" totalUser="20" />
+        <RoleData dealerMax="17"
+                  dealerMin="1"
+                  healerMax="5"
+                  healerMin="2"
+                  tankerMax="5"
+                  tankerMin="1"
+                  totalUser="20" />
     </Role>
     <Role id="34">
-        <RoleData dealerMax="7" dealerMin="0" healerMax="7" healerMin="0" tankerMax="7" tankerMin="0" totalUser="7" />
+        <RoleData dealerMax="7"
+                  dealerMin="0"
+                  healerMax="7"
+                  healerMin="0"
+                  tankerMax="7"
+                  tankerMin="0"
+                  totalUser="7" />
     </Role>
     <Role id="101">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="0" healerMin="0" tankerMax="0" tankerMin="0" totalUser="7" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="0"
+                  healerMin="0"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="7" />
     </Role>
     <Role id="102">
         <BlueTeamRoleData totalUser="10" />
         <RedTeamRoleData totalUser="3" />
     </Role>
     <Role id="103">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="4" healerMin="3" tankerMax="0" tankerMin="0" totalUser="20" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="4"
+                  healerMin="3"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="20" />
     </Role>
     <Role id="104">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="0" healerMin="0" tankerMax="0" tankerMin="0" totalUser="20" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="0"
+                  healerMin="0"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="20" />
     </Role>
     <Role id="105">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="5" healerMin="3" tankerMax="0" tankerMin="0" totalUser="15" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="5"
+                  healerMin="3"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="15" />
     </Role>
     <Role id="106">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="0" healerMin="0" tankerMax="0" tankerMin="0" totalUser="15" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="0"
+                  healerMin="0"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="15" />
     </Role>
     <Role id="107">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="1" healerMin="0" tankerMax="0" tankerMin="0" totalUser="3" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="1"
+                  healerMin="0"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="3" />
     </Role>
     <Role id="108">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="1" healerMin="1" tankerMax="0" tankerMin="0" totalUser="3" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="1"
+                  healerMin="1"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="3" />
     </Role>
     <Role id="109">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="1" healerMin="0" tankerMax="0" tankerMin="0" totalUser="5" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="1"
+                  healerMin="0"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="5" />
     </Role>
     <Role id="110">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="1" healerMin="0" tankerMax="0" tankerMin="0" totalUser="5" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="1"
+                  healerMin="0"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="5" />
     </Role>
     <Role id="111">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="1" healerMin="1" tankerMax="0" tankerMin="0" totalUser="5" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="1"
+                  healerMin="1"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="5" />
     </Role>
     <Role id="112">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="1" healerMin="0" tankerMax="1" tankerMin="0" totalUser="3" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="1"
+                  healerMin="0"
+                  tankerMax="1"
+                  tankerMin="0"
+                  totalUser="3" />
     </Role>
     <Role id="113">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="1" healerMin="0" tankerMax="1" tankerMin="0" totalUser="3" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="1"
+                  healerMin="0"
+                  tankerMax="1"
+                  tankerMin="0"
+                  totalUser="3" />
     </Role>
     <Role id="115">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="0" healerMin="0" tankerMax="0" tankerMin="0" totalUser="5" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="0"
+                  healerMin="0"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="5" />
     </Role>
     <Role id="116">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="1" healerMin="1" tankerMax="0" tankerMin="0" totalUser="7" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="1"
+                  healerMin="1"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="7" />
     </Role>
     <Role id="117">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="0" healerMin="0" tankerMax="0" tankerMin="0" totalUser="3" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="0"
+                  healerMin="0"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="3" />
     </Role>
     <Role id="162">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="0" healerMin="0" tankerMax="0" tankerMin="0" totalUser="5" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="0"
+                  healerMin="0"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="5" />
     </Role>
     <Role id="909">
-        <RoleData dealerMax="0" dealerMin="0" healerMax="0" healerMin="0" tankerMax="0" tankerMin="0" totalUser="8" />
+        <RoleData dealerMax="0"
+                  dealerMin="0"
+                  healerMax="0"
+                  healerMin="0"
+                  tankerMax="0"
+                  tankerMin="0"
+                  totalUser="8" />
     </Role>
     <Role id="999">
-        <RoleData dealerMax="97" dealerMin="97" healerMax="1" healerMin="1" tankerMax="1" tankerMin="1" totalUser="99" />
+        <RoleData dealerMax="97"
+                  dealerMin="97"
+                  healerMax="1"
+                  healerMin="1"
+                  tankerMax="1"
+                  tankerMin="1"
+                  totalUser="99" />
     </Role>
     <Role id="1000">
-        <RoleData dealerMax="1" dealerMin="1" healerMax="1" healerMin="1" tankerMax="1" tankerMin="1" totalUser="1" />
+        <RoleData dealerMax="1"
+                  dealerMin="1"
+                  healerMax="1"
+                  healerMin="1"
+                  tankerMax="1"
+                  tankerMin="1"
+                  totalUser="1" />
     </Role>
 </MatchRole>

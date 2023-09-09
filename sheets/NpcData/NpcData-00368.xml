@@ -1,5 +1,34 @@
-<NpcData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/NpcData NpcData.xsd" huntingZoneId="2009" xmlns="https://vezel.dev/novadrop/dc/NpcData">
-    <Template id="1" class="" name="점프기어(임시)" scale="1" gender="male" race="object" size="large" shapeId="303980" basicActionId="6114100" spawnScriptId="0" resourceSize="100" resourceType="large" isWideBroadcaster="false" despawnScriptId="248009999" balanceType="밸런싱 안함" collideOnMove="true" dontTurn="true" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" npcType="jumpGear" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="true" villagerVolumeActiveRange="0">
+<NpcData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://vezel.dev/novadrop/dc/NpcData NpcData.xsd"
+         huntingZoneId="2009"
+         xmlns="https://vezel.dev/novadrop/dc/NpcData">
+    <Template id="1"
+              class=""
+              name="점프기어(임시)"
+              scale="1"
+              gender="male"
+              race="object"
+              size="large"
+              shapeId="303980"
+              basicActionId="6114100"
+              spawnScriptId="0"
+              resourceSize="100"
+              resourceType="large"
+              isWideBroadcaster="false"
+              despawnScriptId="248009999"
+              balanceType="밸런싱 안함"
+              collideOnMove="true"
+              dontTurn="true"
+              elite="false"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              npcType="jumpGear"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="true"
+              villagerVolumeActiveRange="0">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -8,8 +37,12 @@
         <Aggro />
         <Anger gaugeSize="403799" />
         <BalanceRef ignoreAttr="name,name,partyMember" />
-        <NamePlate nameplateHeight="100" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="100"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="65" atk="100" def="2000" maxHp="10000" />
+        <Stat level="65"
+              atk="100"
+              def="2000"
+              maxHp="10000" />
     </Template>
 </NpcData>

@@ -1,5 +1,29 @@
-<NpcData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/NpcData NpcData.xsd" huntingZoneId="630" xmlns="https://vezel.dev/novadrop/dc/NpcData">
-    <Template id="1000" class="" name="하늘고래" scale="0.3" gender="male" race="animal" size="large" shapeId="531350" basicActionId="5313500" spawnScriptId="0" resourceSize="100" resourceType="large" parentId="53135000" despawnScriptId="0" collideOnMove="true" dontTurn="false" elite="false" invincible="true" isFlyingNpc="true" isObjectNpc="true" unionElite="false" villager="false">
+<NpcData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://vezel.dev/novadrop/dc/NpcData NpcData.xsd"
+         huntingZoneId="630"
+         xmlns="https://vezel.dev/novadrop/dc/NpcData">
+    <Template id="1000"
+              class=""
+              name="하늘고래"
+              scale="0.3"
+              gender="male"
+              race="animal"
+              size="large"
+              shapeId="531350"
+              basicActionId="5313500"
+              spawnScriptId="0"
+              resourceSize="100"
+              resourceType="large"
+              parentId="53135000"
+              despawnScriptId="0"
+              collideOnMove="true"
+              dontTurn="false"
+              elite="false"
+              invincible="true"
+              isFlyingNpc="true"
+              isObjectNpc="true"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -7,211 +31,626 @@
         </AbnormalityResistanceOverride>
         <Aggro />
         <AltAnimation>
-            <AltAnim type="Idle" altAnimName="Wait" />
-            <AltAnim type="Walk" altAnimName="Wait" />
-            <AltAnim type="Run" altAnimName="Wait" />
+            <AltAnim type="Idle"
+                     altAnimName="Wait" />
+            <AltAnim type="Walk"
+                     altAnimName="Wait" />
+            <AltAnim type="Run"
+                     altAnimName="Wait" />
         </AltAnimation>
         <Anger gaugeSize="100" />
         <NamePlate nameplateHeight="0" />
         <Reaction maxAdditionalGauge="400" />
-        <Stat level="40" atk="100" def="2000" maxHp="100000000.000000" />
+        <Stat level="40"
+              atk="100"
+              def="2000"
+              maxHp="100000000.000000" />
     </Template>
-    <Template id="2000" name="[1페이즈]하늘고래알_Green" scale="2" race="" size="large" shapeId="6310001" basicActionId="6114100" resourceSize="0" resourceType="" isWideBroadcaster="false" parentId="61141000" despawnScriptId="6310001" elite="false" invincible="true" isFlyingNpc="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="false">
+    <Template id="2000"
+              name="[1페이즈]하늘고래알_Green"
+              scale="2"
+              race=""
+              size="large"
+              shapeId="6310001"
+              basicActionId="6114100"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="false"
+              parentId="61141000"
+              despawnScriptId="6310001"
+              elite="false"
+              invincible="true"
+              isFlyingNpc="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <AltAnimation>
-            <AltAnim type="unarmedwait" altAnimName="Wait" />
+            <AltAnim type="unarmedwait"
+                     altAnimName="Wait" />
         </AltAnimation>
         <Anger gaugeSize="230936" />
-        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="0"
+                   deathNameplateHeight="0" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="59" atk="365" def="3118" maxHp="5" />
+        <Stat level="59"
+              atk="365"
+              def="3118"
+              maxHp="5" />
     </Template>
-    <Template id="2001" name="[1페이즈]하늘고래알_Red" scale="2" race="" size="large" shapeId="6310002" basicActionId="6114100" resourceSize="0" resourceType="" isWideBroadcaster="false" parentId="61141000" despawnScriptId="6310002" elite="false" invincible="true" isFlyingNpc="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="false">
+    <Template id="2001"
+              name="[1페이즈]하늘고래알_Red"
+              scale="2"
+              race=""
+              size="large"
+              shapeId="6310002"
+              basicActionId="6114100"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="false"
+              parentId="61141000"
+              despawnScriptId="6310002"
+              elite="false"
+              invincible="true"
+              isFlyingNpc="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <AltAnimation>
-            <AltAnim type="unarmedwait" altAnimName="Wait" />
+            <AltAnim type="unarmedwait"
+                     altAnimName="Wait" />
         </AltAnimation>
         <Anger gaugeSize="230936" />
-        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="0"
+                   deathNameplateHeight="0" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="59" atk="365" def="3118" maxHp="5" />
+        <Stat level="59"
+              atk="365"
+              def="3118"
+              maxHp="5" />
     </Template>
-    <Template id="2002" name="하늘고래알_게이지회복" scale="1.5" race="" size="large" shapeId="6310001" basicActionId="6114100" resourceSize="0" resourceType="" isWideBroadcaster="false" parentId="61141000" despawnScriptId="6310001" elite="false" invincible="true" isFlyingNpc="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="false">
+    <Template id="2002"
+              name="하늘고래알_게이지회복"
+              scale="1.5"
+              race=""
+              size="large"
+              shapeId="6310001"
+              basicActionId="6114100"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="false"
+              parentId="61141000"
+              despawnScriptId="6310001"
+              elite="false"
+              invincible="true"
+              isFlyingNpc="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="230936" />
-        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="0"
+                   deathNameplateHeight="0" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="59" atk="365" def="3118" maxHp="5" />
+        <Stat level="59"
+              atk="365"
+              def="3118"
+              maxHp="5" />
     </Template>
-    <Template id="2003" name="하늘고래알_감속" scale="1.5" race="" size="large" shapeId="6310001" basicActionId="6114100" resourceSize="0" resourceType="" isWideBroadcaster="false" parentId="61141000" despawnScriptId="6310001" elite="false" invincible="true" isFlyingNpc="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="false">
+    <Template id="2003"
+              name="하늘고래알_감속"
+              scale="1.5"
+              race=""
+              size="large"
+              shapeId="6310001"
+              basicActionId="6114100"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="false"
+              parentId="61141000"
+              despawnScriptId="6310001"
+              elite="false"
+              invincible="true"
+              isFlyingNpc="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="230936" />
-        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="0"
+                   deathNameplateHeight="0" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="59" atk="365" def="3118" maxHp="5" />
+        <Stat level="59"
+              atk="365"
+              def="3118"
+              maxHp="5" />
     </Template>
-    <Template id="2004" name="하늘고래알_정지" scale="1.5" race="" size="large" shapeId="6310001" basicActionId="6114100" resourceSize="0" resourceType="" isWideBroadcaster="false" parentId="61141000" despawnScriptId="6310001" elite="false" invincible="true" isFlyingNpc="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="false">
+    <Template id="2004"
+              name="하늘고래알_정지"
+              scale="1.5"
+              race=""
+              size="large"
+              shapeId="6310001"
+              basicActionId="6114100"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="false"
+              parentId="61141000"
+              despawnScriptId="6310001"
+              elite="false"
+              invincible="true"
+              isFlyingNpc="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="230936" />
-        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="0"
+                   deathNameplateHeight="0" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="59" atk="365" def="3118" maxHp="5" />
+        <Stat level="59"
+              atk="365"
+              def="3118"
+              maxHp="5" />
     </Template>
-    <Template id="2101" name="사막유령" scale="10" race="" size="large" shapeId="6300001" basicActionId="63000010" resourceSize="0" resourceType="" isWideBroadcaster="false" parentId="30165000" despawnScriptId="6310008" elite="true" invincible="false" isFlyingNpc="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="false">
+    <Template id="2101"
+              name="사막유령"
+              scale="10"
+              race=""
+              size="large"
+              shapeId="6300001"
+              basicActionId="63000010"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="false"
+              parentId="30165000"
+              despawnScriptId="6310008"
+              elite="true"
+              invincible="false"
+              isFlyingNpc="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="230936" />
-        <NamePlate nameplateHeight="100" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="100"
+                   deathNameplateHeight="0" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="59" atk="365" def="3118" maxHp="1000000000" />
+        <Stat level="59"
+              atk="365"
+              def="3118"
+              maxHp="1000000000" />
     </Template>
-    <Template id="2102" name="사막유령" scale="10" race="" size="large" shapeId="6300001" basicActionId="63000010" resourceSize="0" resourceType="" isWideBroadcaster="false" parentId="30165000" despawnScriptId="6310008" elite="true" invincible="false" isFlyingNpc="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="false">
+    <Template id="2102"
+              name="사막유령"
+              scale="10"
+              race=""
+              size="large"
+              shapeId="6300001"
+              basicActionId="63000010"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="false"
+              parentId="30165000"
+              despawnScriptId="6310008"
+              elite="true"
+              invincible="false"
+              isFlyingNpc="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="230936" />
-        <NamePlate nameplateHeight="100" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="100"
+                   deathNameplateHeight="0" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="59" atk="365" def="3118" maxHp="1000000000" />
+        <Stat level="59"
+              atk="365"
+              def="3118"
+              maxHp="1000000000" />
     </Template>
-    <Template id="2103" name="사막유령" scale="10" race="" size="large" shapeId="6300001" basicActionId="63000010" resourceSize="0" resourceType="" isWideBroadcaster="false" parentId="30165000" despawnScriptId="6310008" elite="true" invincible="false" isFlyingNpc="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="false">
+    <Template id="2103"
+              name="사막유령"
+              scale="10"
+              race=""
+              size="large"
+              shapeId="6300001"
+              basicActionId="63000010"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="false"
+              parentId="30165000"
+              despawnScriptId="6310008"
+              elite="true"
+              invincible="false"
+              isFlyingNpc="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="230936" />
-        <NamePlate nameplateHeight="100" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="100"
+                   deathNameplateHeight="0" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="59" atk="365" def="3118" maxHp="1000000000" />
+        <Stat level="59"
+              atk="365"
+              def="3118"
+              maxHp="1000000000" />
     </Template>
-    <Template id="2104" name="사막유령" scale="10" race="" size="large" shapeId="6300002" basicActionId="63000010" resourceSize="0" resourceType="" isWideBroadcaster="false" parentId="30165000" despawnScriptId="6310008" elite="true" invincible="false" isFlyingNpc="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="false">
+    <Template id="2104"
+              name="사막유령"
+              scale="10"
+              race=""
+              size="large"
+              shapeId="6300002"
+              basicActionId="63000010"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="false"
+              parentId="30165000"
+              despawnScriptId="6310008"
+              elite="true"
+              invincible="false"
+              isFlyingNpc="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="230936" />
-        <NamePlate nameplateHeight="100" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="100"
+                   deathNameplateHeight="0" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="59" atk="365" def="3118" maxHp="1000000000" />
+        <Stat level="59"
+              atk="365"
+              def="3118"
+              maxHp="1000000000" />
     </Template>
-    <Template id="2105" name="사막유령" scale="10" race="" size="large" shapeId="6300002" basicActionId="63000010" resourceSize="0" resourceType="" isWideBroadcaster="false" parentId="30165000" despawnScriptId="6310008" elite="true" invincible="false" isFlyingNpc="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="false">
+    <Template id="2105"
+              name="사막유령"
+              scale="10"
+              race=""
+              size="large"
+              shapeId="6300002"
+              basicActionId="63000010"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="false"
+              parentId="30165000"
+              despawnScriptId="6310008"
+              elite="true"
+              invincible="false"
+              isFlyingNpc="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="230936" />
-        <NamePlate nameplateHeight="100" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="100"
+                   deathNameplateHeight="0" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="59" atk="365" def="3118" maxHp="1000000000" />
+        <Stat level="59"
+              atk="365"
+              def="3118"
+              maxHp="1000000000" />
     </Template>
-    <Template id="2106" name="사막유령" scale="10" race="" size="large" shapeId="6300002" basicActionId="63000010" resourceSize="0" resourceType="" isWideBroadcaster="false" parentId="30165000" despawnScriptId="6310008" elite="true" invincible="false" isFlyingNpc="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="false">
+    <Template id="2106"
+              name="사막유령"
+              scale="10"
+              race=""
+              size="large"
+              shapeId="6300002"
+              basicActionId="63000010"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="false"
+              parentId="30165000"
+              despawnScriptId="6310008"
+              elite="true"
+              invincible="false"
+              isFlyingNpc="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="230936" />
-        <NamePlate nameplateHeight="100" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="100"
+                   deathNameplateHeight="0" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="59" atk="365" def="3118" maxHp="1000000000" />
+        <Stat level="59"
+              atk="365"
+              def="3118"
+              maxHp="1000000000" />
     </Template>
-    <Template id="2200" name="거대_사막유령" scale="15" race="" size="large" shapeId="6300003" basicActionId="63000030" resourceSize="0" resourceType="" parentId="30127000" despawnScriptId="0" elite="false" invincible="true" isFlyingNpc="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="false">
+    <Template id="2200"
+              name="거대_사막유령"
+              scale="15"
+              race=""
+              size="large"
+              shapeId="6300003"
+              basicActionId="63000030"
+              resourceSize="0"
+              resourceType=""
+              parentId="30127000"
+              despawnScriptId="0"
+              elite="false"
+              invincible="true"
+              isFlyingNpc="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="230936" />
-        <NamePlate nameplateHeight="100" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="100"
+                   deathNameplateHeight="0" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
         <Shader override="" />
-        <Stat level="59" atk="365" def="3118" maxHp="2000000000" />
+        <Stat level="59"
+              atk="365"
+              def="3118"
+              maxHp="2000000000" />
     </Template>
-    <Template id="3000" name="[2페이즈]하늘고래알_Green" scale="2" race="" size="large" shapeId="6310001" basicActionId="6114100" resourceSize="0" resourceType="" isWideBroadcaster="false" parentId="61141000" despawnScriptId="6310001" elite="false" invincible="true" isFlyingNpc="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="false">
+    <Template id="3000"
+              name="[2페이즈]하늘고래알_Green"
+              scale="2"
+              race=""
+              size="large"
+              shapeId="6310001"
+              basicActionId="6114100"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="false"
+              parentId="61141000"
+              despawnScriptId="6310001"
+              elite="false"
+              invincible="true"
+              isFlyingNpc="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <AltAnimation>
-            <AltAnim type="unarmedwait" altAnimName="Wait" />
+            <AltAnim type="unarmedwait"
+                     altAnimName="Wait" />
         </AltAnimation>
         <Anger gaugeSize="230936" />
-        <NamePlate nameplateHeight="20" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="20"
+                   deathNameplateHeight="0" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="59" atk="365" def="3118" maxHp="3" />
+        <Stat level="59"
+              atk="365"
+              def="3118"
+              maxHp="3" />
     </Template>
-    <Template id="3001" name="[2페이즈]하늘고래알_Red" scale="2" race="" size="large" shapeId="6310002" basicActionId="6114100" resourceSize="0" resourceType="" isWideBroadcaster="false" parentId="61141000" despawnScriptId="6310002" elite="false" invincible="true" isFlyingNpc="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="false">
+    <Template id="3001"
+              name="[2페이즈]하늘고래알_Red"
+              scale="2"
+              race=""
+              size="large"
+              shapeId="6310002"
+              basicActionId="6114100"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="false"
+              parentId="61141000"
+              despawnScriptId="6310002"
+              elite="false"
+              invincible="true"
+              isFlyingNpc="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <AltAnimation>
-            <AltAnim type="unarmedwait" altAnimName="Wait" />
+            <AltAnim type="unarmedwait"
+                     altAnimName="Wait" />
         </AltAnimation>
         <Anger gaugeSize="230936" />
-        <NamePlate nameplateHeight="20" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="20"
+                   deathNameplateHeight="0" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="59" atk="365" def="3118" maxHp="3" />
+        <Stat level="59"
+              atk="365"
+              def="3118"
+              maxHp="3" />
     </Template>
-    <Template id="3002" name="[2페이즈]하늘고래알_Green" scale="2" race="" size="large" shapeId="6310001" basicActionId="6114100" resourceSize="0" resourceType="" isWideBroadcaster="false" parentId="61141000" despawnScriptId="6310001" elite="false" invincible="true" isFlyingNpc="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="false">
+    <Template id="3002"
+              name="[2페이즈]하늘고래알_Green"
+              scale="2"
+              race=""
+              size="large"
+              shapeId="6310001"
+              basicActionId="6114100"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="false"
+              parentId="61141000"
+              despawnScriptId="6310001"
+              elite="false"
+              invincible="true"
+              isFlyingNpc="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <AltAnimation>
-            <AltAnim type="unarmedwait" altAnimName="Wait" />
+            <AltAnim type="unarmedwait"
+                     altAnimName="Wait" />
         </AltAnimation>
         <Anger gaugeSize="230936" />
-        <NamePlate nameplateHeight="20" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="20"
+                   deathNameplateHeight="0" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="59" atk="365" def="3118" maxHp="3" />
+        <Stat level="59"
+              atk="365"
+              def="3118"
+              maxHp="3" />
     </Template>
-    <Template id="3003" name="[2페이즈]하늘고래알_Red" scale="2" race="" size="large" shapeId="6310002" basicActionId="6114100" resourceSize="0" resourceType="" isWideBroadcaster="false" parentId="61141000" despawnScriptId="6310002" elite="false" invincible="true" isFlyingNpc="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="false">
+    <Template id="3003"
+              name="[2페이즈]하늘고래알_Red"
+              scale="2"
+              race=""
+              size="large"
+              shapeId="6310002"
+              basicActionId="6114100"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="false"
+              parentId="61141000"
+              despawnScriptId="6310002"
+              elite="false"
+              invincible="true"
+              isFlyingNpc="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <AltAnimation>
-            <AltAnim type="unarmedwait" altAnimName="Wait" />
+            <AltAnim type="unarmedwait"
+                     altAnimName="Wait" />
         </AltAnimation>
         <Anger gaugeSize="230936" />
-        <NamePlate nameplateHeight="20" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="20"
+                   deathNameplateHeight="0" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="59" atk="365" def="3118" maxHp="3" />
+        <Stat level="59"
+              atk="365"
+              def="3118"
+              maxHp="3" />
     </Template>
-    <Template id="7001" name="로라 엘린(포포리 여 마법사)" scale="1" gender="female" race="popori" size="large" shapeId="203608" basicActionId="5308100" resourceSize="100" resourceType="medium" parentId="53081300" balanceType="" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="true">
+    <Template id="7001"
+              name="로라 엘린(포포리 여 마법사)"
+              scale="1"
+              gender="female"
+              race="popori"
+              size="large"
+              shapeId="203608"
+              basicActionId="5308100"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="53081300"
+              balanceType=""
+              elite="false"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              partyMember="0"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              unionElite="false"
+              villager="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -219,14 +658,38 @@
         </AbnormalityResistanceOverride>
         <Aggro />
         <AltAnimation>
-            <AltAnim type="Walk" altAnimName="run" />
+            <AltAnim type="Walk"
+                     altAnimName="run" />
         </AltAnimation>
         <Anger gaugeSize="331" />
         <BalanceRef ignoreAttr="" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="65" atk="50" def="113" maxHp="945.951111" />
+        <Stat level="65"
+              atk="50"
+              def="113"
+              maxHp="945.951111" />
     </Template>
-    <Template id="7002" name="연맹_깃발A_벨리카" scale="1.25" gender="male" race="object" size="large" shapeId="600313" basicActionId="6200100" resourceSize="100" resourceType="medium" parentId="62001000" balanceType="" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="true" partyMember="0" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="false">
+    <Template id="7002"
+              name="연맹_깃발A_벨리카"
+              scale="1.25"
+              gender="male"
+              race="object"
+              size="large"
+              shapeId="600313"
+              basicActionId="6200100"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="62001000"
+              balanceType=""
+              elite="false"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="0"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -237,20 +700,68 @@
         <Anger gaugeSize="100" />
         <BalanceRef ignoreAttr="" />
         <Reaction maxAdditionalGauge="400" />
-        <Stat level="30" atk="100" def="1" maxHp="200" />
+        <Stat level="30"
+              atk="100"
+              def="1"
+              maxHp="200" />
     </Template>
-    <Template id="9000" name="비행력_회복의_마석" scale="2" race="" size="large" shapeId="600962" basicActionId="6009600" resourceSize="0" resourceType="" isWideBroadcaster="false" parentId="60096200" despawnScriptId="0" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="true">
+    <Template id="9000"
+              name="비행력_회복의_마석"
+              scale="2"
+              race=""
+              size="large"
+              shapeId="600962"
+              basicActionId="6009600"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="false"
+              parentId="60096200"
+              despawnScriptId="0"
+              elite="false"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="true">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="230936" />
-        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="0"
+                   deathNameplateHeight="0" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="59" atk="365" def="3118" maxHp="1000000" />
+        <Stat level="59"
+              atk="365"
+              def="3118"
+              maxHp="1000000" />
     </Template>
-    <Template id="9998" name="HP 체크용 투명NPC" scale="1" gender="" race="" size="medium" shapeId="611410" basicActionId="6114100" resourceSize="0" resourceType="" isWideBroadcaster="true" parentId="61141000" deathShapeId="0" elite="false" invincible="true" isFlyingNpc="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="false">
+    <Template id="9998"
+              name="HP 체크용 투명NPC"
+              scale="1"
+              gender=""
+              race=""
+              size="medium"
+              shapeId="611410"
+              basicActionId="6114100"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="true"
+              parentId="61141000"
+              deathShapeId="0"
+              elite="false"
+              invincible="true"
+              isFlyingNpc="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="520185" />
@@ -259,9 +770,34 @@
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="65" atk="471" def="4464" maxHp="2000000000" />
+        <Stat level="65"
+              atk="471"
+              def="4464"
+              maxHp="2000000000" />
     </Template>
-    <Template id="9999" name="다이내믹 스폰용 투명NPC" scale="1" gender="" race="" size="medium" shapeId="611410" basicActionId="6114100" resourceSize="0" resourceType="" isWideBroadcaster="true" parentId="61141000" deathShapeId="0" elite="false" invincible="true" isFlyingNpc="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="true">
+    <Template id="9999"
+              name="다이내믹 스폰용 투명NPC"
+              scale="1"
+              gender=""
+              race=""
+              size="medium"
+              shapeId="611410"
+              basicActionId="6114100"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="true"
+              parentId="61141000"
+              deathShapeId="0"
+              elite="false"
+              invincible="true"
+              isFlyingNpc="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              unionElite="false"
+              villager="true">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="520185" />
@@ -270,6 +806,9 @@
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="65" atk="471" def="4464" maxHp="100" />
+        <Stat level="65"
+              atk="471"
+              def="4464"
+              maxHp="100" />
     </Template>
 </NpcData>

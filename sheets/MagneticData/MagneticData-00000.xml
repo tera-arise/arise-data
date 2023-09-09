@@ -1,212 +1,1120 @@
-<MagneticData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/MagneticData MagneticData.xsd" xmlns="https://vezel.dev/novadrop/dc/MagneticData">
-    <MagneticEffect id="10001" name="몬스터 사망 이펙트 테스트" EffectStartHeight="30" EffectStartTime="0" HitEffectId="300100002" MainEffectId="300100001" MaxDistance="5000" MinDistance="10">
-        <Simulate GravityAccel="-600" MagneticAccelExponent="1.8" MagneticEndAccel="50000" MagneticEndTime="2800" MagneticInhaleAccel="100000" MagneticStartAccel="0" MagneticStartTime="1000" MaxSpeed="650" MinSpeed="10" />
+<MagneticData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="https://vezel.dev/novadrop/dc/MagneticData MagneticData.xsd"
+              xmlns="https://vezel.dev/novadrop/dc/MagneticData">
+    <MagneticEffect id="10001"
+                    name="몬스터 사망 이펙트 테스트"
+                    EffectStartHeight="30"
+                    EffectStartTime="0"
+                    HitEffectId="300100002"
+                    MainEffectId="300100001"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <Simulate GravityAccel="-600"
+                  MagneticAccelExponent="1.8"
+                  MagneticEndAccel="50000"
+                  MagneticEndTime="2800"
+                  MagneticInhaleAccel="100000"
+                  MagneticStartAccel="0"
+                  MagneticStartTime="1000"
+                  MaxSpeed="650"
+                  MinSpeed="10" />
     </MagneticEffect>
-    <MagneticEffect id="11001" name="멀티샷 이펙트 테스트" EffectStartHeight="0" EffectStartTime="300" HitEffectId="300100002" MainEffectId="300100001" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-70" EndVelocity="600" SpeedDistortion="0.8" StartAngle="70" StartVelocity="800" TrackingAccelExponent="1" TrackingEndTime="1000" TrackingStartTime="300" />
-        <Mesh name="PC_Weapons_00.sm.Arrow00_3_SM" scale="0.5" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="11001"
+                    name="멀티샷 이펙트 테스트"
+                    EffectStartHeight="0"
+                    EffectStartTime="300"
+                    HitEffectId="300100002"
+                    MainEffectId="300100001"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-70"
+                      EndVelocity="600"
+                      SpeedDistortion="0.8"
+                      StartAngle="70"
+                      StartVelocity="800"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="1000"
+                      TrackingStartTime="300" />
+        <Mesh name="PC_Weapons_00.sm.Arrow00_3_SM"
+              scale="0.5"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="11002" name="테라 동 코인 획득" EffectStartHeight="-30" EffectStartTime="0" HitEffectId="300100002" MainEffectId="300100007" MaxDistance="5000" MinDistance="10">
-        <Simulate GravityAccel="-1200" MagneticAccelExponent="3.2" MagneticEndAccel="10000" MagneticEndTime="1000" MagneticInhaleAccel="10000" MagneticStartAccel="7000" MagneticStartTime="150" MaxSpeed="1800" MinSpeed="100" />
+    <MagneticEffect id="11002"
+                    name="테라 동 코인 획득"
+                    EffectStartHeight="-30"
+                    EffectStartTime="0"
+                    HitEffectId="300100002"
+                    MainEffectId="300100007"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <Simulate GravityAccel="-1200"
+                  MagneticAccelExponent="3.2"
+                  MagneticEndAccel="10000"
+                  MagneticEndTime="1000"
+                  MagneticInhaleAccel="10000"
+                  MagneticStartAccel="7000"
+                  MagneticStartTime="150"
+                  MaxSpeed="1800"
+                  MinSpeed="100" />
     </MagneticEffect>
-    <MagneticEffect id="11003" name="테라 은 코인 획득" EffectStartHeight="-30" EffectStartTime="0" HitEffectId="300100002" MainEffectId="300100008" MaxDistance="5000" MinDistance="10">
-        <Simulate GravityAccel="-1200" MagneticAccelExponent="3.2" MagneticEndAccel="10000" MagneticEndTime="1000" MagneticInhaleAccel="10000" MagneticStartAccel="7000" MagneticStartTime="150" MaxSpeed="1800" MinSpeed="100" />
+    <MagneticEffect id="11003"
+                    name="테라 은 코인 획득"
+                    EffectStartHeight="-30"
+                    EffectStartTime="0"
+                    HitEffectId="300100002"
+                    MainEffectId="300100008"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <Simulate GravityAccel="-1200"
+                  MagneticAccelExponent="3.2"
+                  MagneticEndAccel="10000"
+                  MagneticEndTime="1000"
+                  MagneticInhaleAccel="10000"
+                  MagneticStartAccel="7000"
+                  MagneticStartTime="150"
+                  MaxSpeed="1800"
+                  MinSpeed="100" />
     </MagneticEffect>
-    <MagneticEffect id="11004" name="테라 금 코인 획득" EffectStartHeight="-30" EffectStartTime="0" HitEffectId="300100002" MainEffectId="300100009" MaxDistance="5000" MinDistance="10">
-        <Simulate GravityAccel="-1200" MagneticAccelExponent="3.2" MagneticEndAccel="10000" MagneticEndTime="1000" MagneticInhaleAccel="10000" MagneticStartAccel="7000" MagneticStartTime="150" MaxSpeed="1800" MinSpeed="100" />
+    <MagneticEffect id="11004"
+                    name="테라 금 코인 획득"
+                    EffectStartHeight="-30"
+                    EffectStartTime="0"
+                    HitEffectId="300100002"
+                    MainEffectId="300100009"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <Simulate GravityAccel="-1200"
+                  MagneticAccelExponent="3.2"
+                  MagneticEndAccel="10000"
+                  MagneticEndTime="1000"
+                  MagneticInhaleAccel="10000"
+                  MagneticStartAccel="7000"
+                  MagneticStartTime="150"
+                  MaxSpeed="1800"
+                  MinSpeed="100" />
     </MagneticEffect>
-    <MagneticEffect id="10002" name="Absorb_TestPerHit" EffectStartHeight="10" EffectStartTime="0" HitEffectId="300100002" MainEffectId="300100001" MaxDistance="5000" MinDistance="10">
-        <Random accelExponent="1" startX="100" startY="100" startZ="200" />
-        <Scale maxValue="1000" minValue="10" maxScale="1.5" minScale="0.5" />
-        <Simulate GravityAccel="-600" MagneticAccelExponent="3.2" MagneticEndAccel="50000" MagneticEndTime="1000" MagneticInhaleAccel="100000" MagneticStartAccel="0" MagneticStartTime="0" MaxSpeed="1200" MinSpeed="10" />
+    <MagneticEffect id="10002"
+                    name="Absorb_TestPerHit"
+                    EffectStartHeight="10"
+                    EffectStartTime="0"
+                    HitEffectId="300100002"
+                    MainEffectId="300100001"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <Random accelExponent="1"
+                startX="100"
+                startY="100"
+                startZ="200" />
+        <Scale maxValue="1000"
+               minValue="10"
+               maxScale="1.5"
+               minScale="0.5" />
+        <Simulate GravityAccel="-600"
+                  MagneticAccelExponent="3.2"
+                  MagneticEndAccel="50000"
+                  MagneticEndTime="1000"
+                  MagneticInhaleAccel="100000"
+                  MagneticStartAccel="0"
+                  MagneticStartTime="0"
+                  MaxSpeed="1200"
+                  MinSpeed="10" />
     </MagneticEffect>
-    <MagneticEffect id="10011" name="Absorb_HpBall_Small_ForBerserker_Vampiric Strike_Shot" EffectStartHeight="20" EffectStartTime="0" HitEffectId="300100004" MainEffectId="300100003" MaxDistance="5000" MinDistance="10">
-        <Random accelExponent="1" startX="10" startY="25" startZ="25" />
-        <Scale maxValue="1000" minValue="10" maxScale="1" minScale="0.25" />
-        <Simulate GravityAccel="-1500" MagneticAccelExponent="3.2" MagneticEndAccel="50000" MagneticEndTime="2500" MagneticInhaleAccel="100000" MagneticStartAccel="0" MagneticStartTime="300" MaxSpeed="1200" MinSpeed="10" />
+    <MagneticEffect id="10011"
+                    name="Absorb_HpBall_Small_ForBerserker_Vampiric Strike_Shot"
+                    EffectStartHeight="20"
+                    EffectStartTime="0"
+                    HitEffectId="300100004"
+                    MainEffectId="300100003"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <Random accelExponent="1"
+                startX="10"
+                startY="25"
+                startZ="25" />
+        <Scale maxValue="1000"
+               minValue="10"
+               maxScale="1"
+               minScale="0.25" />
+        <Simulate GravityAccel="-1500"
+                  MagneticAccelExponent="3.2"
+                  MagneticEndAccel="50000"
+                  MagneticEndTime="2500"
+                  MagneticInhaleAccel="100000"
+                  MagneticStartAccel="0"
+                  MagneticStartTime="300"
+                  MaxSpeed="1200"
+                  MinSpeed="10" />
     </MagneticEffect>
-    <MagneticEffect id="10012" name="Absorb_HpBall_Mid_ForBerserker_Vampiric Strike_Shot" EffectStartHeight="20" EffectStartTime="0" HitEffectId="300100004" MainEffectId="300100003" MaxDistance="5000" MinDistance="10">
-        <Random accelExponent="1" startX="10" startY="25" startZ="25" />
-        <Scale maxValue="1000" minValue="10" maxScale="1" minScale="0.5" />
-        <Simulate GravityAccel="-1500" MagneticAccelExponent="3.2" MagneticEndAccel="50000" MagneticEndTime="2500" MagneticInhaleAccel="100000" MagneticStartAccel="0" MagneticStartTime="300" MaxSpeed="1200" MinSpeed="10" />
+    <MagneticEffect id="10012"
+                    name="Absorb_HpBall_Mid_ForBerserker_Vampiric Strike_Shot"
+                    EffectStartHeight="20"
+                    EffectStartTime="0"
+                    HitEffectId="300100004"
+                    MainEffectId="300100003"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <Random accelExponent="1"
+                startX="10"
+                startY="25"
+                startZ="25" />
+        <Scale maxValue="1000"
+               minValue="10"
+               maxScale="1"
+               minScale="0.5" />
+        <Simulate GravityAccel="-1500"
+                  MagneticAccelExponent="3.2"
+                  MagneticEndAccel="50000"
+                  MagneticEndTime="2500"
+                  MagneticInhaleAccel="100000"
+                  MagneticStartAccel="0"
+                  MagneticStartTime="300"
+                  MaxSpeed="1200"
+                  MinSpeed="10" />
     </MagneticEffect>
-    <MagneticEffect id="10013" name="Absorb_HpBall_Large_ForBerserker_Vampiric Strike_Shot" EffectStartHeight="20" EffectStartTime="0" HitEffectId="300100004" MainEffectId="300100003" MaxDistance="5000" MinDistance="10">
-        <Random accelExponent="1" startX="10" startY="25" startZ="25" />
-        <Scale maxValue="1000" minValue="10" maxScale="1.5" minScale="0.5" />
-        <Simulate GravityAccel="-1500" MagneticAccelExponent="3.2" MagneticEndAccel="50000" MagneticEndTime="2500" MagneticInhaleAccel="100000" MagneticStartAccel="0" MagneticStartTime="300" MaxSpeed="1200" MinSpeed="10" />
+    <MagneticEffect id="10013"
+                    name="Absorb_HpBall_Large_ForBerserker_Vampiric Strike_Shot"
+                    EffectStartHeight="20"
+                    EffectStartTime="0"
+                    HitEffectId="300100004"
+                    MainEffectId="300100003"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <Random accelExponent="1"
+                startX="10"
+                startY="25"
+                startZ="25" />
+        <Scale maxValue="1000"
+               minValue="10"
+               maxScale="1.5"
+               minScale="0.5" />
+        <Simulate GravityAccel="-1500"
+                  MagneticAccelExponent="3.2"
+                  MagneticEndAccel="50000"
+                  MagneticEndTime="2500"
+                  MagneticInhaleAccel="100000"
+                  MagneticStartAccel="0"
+                  MagneticStartTime="300"
+                  MaxSpeed="1200"
+                  MinSpeed="10" />
     </MagneticEffect>
-    <MagneticEffect id="10021" name="Absorb_MpBall_Small_ForSorcerer_Mana Extortion_Shot" EffectStartHeight="10" EffectStartTime="0" HitEffectId="300100006" MainEffectId="300100005" MaxDistance="5000" MinDistance="20">
-        <Random accelExponent="1" startX="0" startY="0" startZ="0" />
-        <Scale maxValue="10" minValue="10" maxScale="1" minScale="0.25" />
-        <Simulate GravityAccel="-600" MagneticAccelExponent="3.2" MagneticEndAccel="50000" MagneticEndTime="2000" MagneticInhaleAccel="100000" MagneticStartAccel="500" MagneticStartTime="400" MaxSpeed="1800" MinSpeed="100" />
+    <MagneticEffect id="10021"
+                    name="Absorb_MpBall_Small_ForSorcerer_Mana Extortion_Shot"
+                    EffectStartHeight="10"
+                    EffectStartTime="0"
+                    HitEffectId="300100006"
+                    MainEffectId="300100005"
+                    MaxDistance="5000"
+                    MinDistance="20">
+        <Random accelExponent="1"
+                startX="0"
+                startY="0"
+                startZ="0" />
+        <Scale maxValue="10"
+               minValue="10"
+               maxScale="1"
+               minScale="0.25" />
+        <Simulate GravityAccel="-600"
+                  MagneticAccelExponent="3.2"
+                  MagneticEndAccel="50000"
+                  MagneticEndTime="2000"
+                  MagneticInhaleAccel="100000"
+                  MagneticStartAccel="500"
+                  MagneticStartTime="400"
+                  MaxSpeed="1800"
+                  MinSpeed="100" />
     </MagneticEffect>
-    <MagneticEffect id="10022" name="Absorb_MpBall_Mid_ForSorcerer_Mana Extortion_Shot" EffectStartHeight="10" EffectStartTime="0" HitEffectId="300100006" MainEffectId="300100005" MaxDistance="5000" MinDistance="20">
-        <Random accelExponent="1" startX="0" startY="0" startZ="0" />
-        <Scale maxValue="10" minValue="10" maxScale="1" minScale="0.5" />
-        <Simulate GravityAccel="-700" MagneticAccelExponent="3.2" MagneticEndAccel="50000" MagneticEndTime="2000" MagneticInhaleAccel="100000" MagneticStartAccel="500" MagneticStartTime="400" MaxSpeed="1900" MinSpeed="100" />
+    <MagneticEffect id="10022"
+                    name="Absorb_MpBall_Mid_ForSorcerer_Mana Extortion_Shot"
+                    EffectStartHeight="10"
+                    EffectStartTime="0"
+                    HitEffectId="300100006"
+                    MainEffectId="300100005"
+                    MaxDistance="5000"
+                    MinDistance="20">
+        <Random accelExponent="1"
+                startX="0"
+                startY="0"
+                startZ="0" />
+        <Scale maxValue="10"
+               minValue="10"
+               maxScale="1"
+               minScale="0.5" />
+        <Simulate GravityAccel="-700"
+                  MagneticAccelExponent="3.2"
+                  MagneticEndAccel="50000"
+                  MagneticEndTime="2000"
+                  MagneticInhaleAccel="100000"
+                  MagneticStartAccel="500"
+                  MagneticStartTime="400"
+                  MaxSpeed="1900"
+                  MinSpeed="100" />
     </MagneticEffect>
-    <MagneticEffect id="10023" name="Absorb_MpBall_Large_ForSorcerer_Mana Extortion_Shot" EffectStartHeight="10" EffectStartTime="0" HitEffectId="300100006" MainEffectId="300100005" MaxDistance="5000" MinDistance="20">
-        <Random accelExponent="1" startX="0" startY="0" startZ="0" />
-        <Scale maxValue="10" minValue="10" maxScale="1.5" minScale="0.5" />
-        <Simulate GravityAccel="-800" MagneticAccelExponent="3.2" MagneticEndAccel="50000" MagneticEndTime="2000" MagneticInhaleAccel="100000" MagneticStartAccel="500" MagneticStartTime="400" MaxSpeed="2000" MinSpeed="100" />
+    <MagneticEffect id="10023"
+                    name="Absorb_MpBall_Large_ForSorcerer_Mana Extortion_Shot"
+                    EffectStartHeight="10"
+                    EffectStartTime="0"
+                    HitEffectId="300100006"
+                    MainEffectId="300100005"
+                    MaxDistance="5000"
+                    MinDistance="20">
+        <Random accelExponent="1"
+                startX="0"
+                startY="0"
+                startZ="0" />
+        <Scale maxValue="10"
+               minValue="10"
+               maxScale="1.5"
+               minScale="0.5" />
+        <Simulate GravityAccel="-800"
+                  MagneticAccelExponent="3.2"
+                  MagneticEndAccel="50000"
+                  MagneticEndTime="2000"
+                  MagneticInhaleAccel="100000"
+                  MagneticStartAccel="500"
+                  MagneticStartTime="400"
+                  MaxSpeed="2000"
+                  MinSpeed="100" />
     </MagneticEffect>
-    <MagneticEffect id="11501" name="LockOnShotTrace_ForSorcerer_Fire and brimstone" EffectStartHeight="10" EffectStartTime="300" HitEffectId="3265001" MainEffectId="3342" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-70" EndVelocity="550" SpeedDistortion="0.8" StartAngle="90" StartVelocity="750" TrackingAccelExponent="1" TrackingEndTime="1400" TrackingStartTime="700" />
-        <Mesh name="" scale="0.5" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="11501"
+                    name="LockOnShotTrace_ForSorcerer_Fire and brimstone"
+                    EffectStartHeight="10"
+                    EffectStartTime="300"
+                    HitEffectId="3265001"
+                    MainEffectId="3342"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-70"
+                      EndVelocity="550"
+                      SpeedDistortion="0.8"
+                      StartAngle="90"
+                      StartVelocity="750"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="1400"
+                      TrackingStartTime="700" />
+        <Mesh name=""
+              scale="0.5"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="11502" name="LockOnShotTrace_ForSorcerer_Neurasthenia" EffectStartHeight="10" EffectStartTime="0" HitEffectId="3265001" MainEffectId="3343" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-0" EndVelocity="550" SpeedDistortion="0.8" StartAngle="0" StartVelocity="800" TrackingAccelExponent="1" TrackingEndTime="900" TrackingStartTime="200" />
-        <Mesh name="" scale="1" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="11502"
+                    name="LockOnShotTrace_ForSorcerer_Neurasthenia"
+                    EffectStartHeight="10"
+                    EffectStartTime="0"
+                    HitEffectId="3265001"
+                    MainEffectId="3343"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-0"
+                      EndVelocity="550"
+                      SpeedDistortion="0.8"
+                      StartAngle="0"
+                      StartVelocity="800"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="900"
+                      TrackingStartTime="200" />
+        <Mesh name=""
+              scale="1"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="11503" name="LockOnShotTrace_ForSorcerer_Burning Breath" EffectStartHeight="10" EffectStartTime="300" HitEffectId="3265001" MainEffectId="3343" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-70" EndVelocity="600" SpeedDistortion="0.8" StartAngle="70" StartVelocity="800" TrackingAccelExponent="1" TrackingEndTime="1000" TrackingStartTime="300" />
-        <Mesh name="" scale="0.5" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="11503"
+                    name="LockOnShotTrace_ForSorcerer_Burning Breath"
+                    EffectStartHeight="10"
+                    EffectStartTime="300"
+                    HitEffectId="3265001"
+                    MainEffectId="3343"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-70"
+                      EndVelocity="600"
+                      SpeedDistortion="0.8"
+                      StartAngle="70"
+                      StartVelocity="800"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="1000"
+                      TrackingStartTime="300" />
+        <Mesh name=""
+              scale="0.5"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="11504" name="LockOnShotTrace_ForSorcerer_Mp Sink" EffectStartHeight="10" EffectStartTime="300" HitEffectId="3265001" MainEffectId="3344" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-0" EndVelocity="600" SpeedDistortion="0.8" StartAngle="0" StartVelocity="1000" TrackingAccelExponent="1" TrackingEndTime="700" TrackingStartTime="0" />
-        <Mesh name="" scale="0.5" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="11504"
+                    name="LockOnShotTrace_ForSorcerer_Mp Sink"
+                    EffectStartHeight="10"
+                    EffectStartTime="300"
+                    HitEffectId="3265001"
+                    MainEffectId="3344"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-0"
+                      EndVelocity="600"
+                      SpeedDistortion="0.8"
+                      StartAngle="0"
+                      StartVelocity="1000"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="700"
+                      TrackingStartTime="0" />
+        <Mesh name=""
+              scale="0.5"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="11505" name="LockOnShotTrace_ForSorcerer_Curse Of Shackle" EffectStartHeight="10" EffectStartTime="0" HitEffectId="3265001" MainEffectId="3345" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-0" EndVelocity="300" SpeedDistortion="1" StartAngle="0" StartVelocity="1000" TrackingAccelExponent="1" TrackingEndTime="300" TrackingStartTime="0" />
-        <Mesh name="" scale="1" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="11505"
+                    name="LockOnShotTrace_ForSorcerer_Curse Of Shackle"
+                    EffectStartHeight="10"
+                    EffectStartTime="0"
+                    HitEffectId="3265001"
+                    MainEffectId="3345"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-0"
+                      EndVelocity="300"
+                      SpeedDistortion="1"
+                      StartAngle="0"
+                      StartVelocity="1000"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="300"
+                      TrackingStartTime="0" />
+        <Mesh name=""
+              scale="1"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="11601" name="LockOnShotTrace_ForArcher_Arrow Shower" EffectStartHeight="0" EffectStartTime="300" HitEffectId="3265001" MainEffectId="3340" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-70" EndVelocity="600" SpeedDistortion="0.8" StartAngle="70" StartVelocity="800" TrackingAccelExponent="1" TrackingEndTime="1000" TrackingStartTime="300" />
-        <Mesh name="PC_Weapons_00.sm.Arrow00_3_SM" scale="1" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="11601"
+                    name="LockOnShotTrace_ForArcher_Arrow Shower"
+                    EffectStartHeight="0"
+                    EffectStartTime="300"
+                    HitEffectId="3265001"
+                    MainEffectId="3340"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-70"
+                      EndVelocity="600"
+                      SpeedDistortion="0.8"
+                      StartAngle="70"
+                      StartVelocity="800"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="1000"
+                      TrackingStartTime="300" />
+        <Mesh name="PC_Weapons_00.sm.Arrow00_3_SM"
+              scale="1"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="11701" name="LockOnShotTrace_ForPriest_Healing Light" EffectStartHeight="10" EffectStartTime="600" HitEffectId="3265001" MainEffectId="3341" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-70" EndVelocity="500" SpeedDistortion="0.8" StartAngle="70" StartVelocity="600" TrackingAccelExponent="1" TrackingEndTime="1200" TrackingStartTime="600" />
-        <Mesh name="" scale="0.5" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="11701"
+                    name="LockOnShotTrace_ForPriest_Healing Light"
+                    EffectStartHeight="10"
+                    EffectStartTime="600"
+                    HitEffectId="3265001"
+                    MainEffectId="3341"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-70"
+                      EndVelocity="500"
+                      SpeedDistortion="0.8"
+                      StartAngle="70"
+                      StartVelocity="600"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="1200"
+                      TrackingStartTime="600" />
+        <Mesh name=""
+              scale="0.5"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="11702" name="LockOnShotTrace_ForPriest_Divine Retrivution Combo 03" EffectStartHeight="10" EffectStartTime="300" HitEffectId="3265001" MainEffectId="3346" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-70" EndVelocity="600" SpeedDistortion="0.8" StartAngle="70" StartVelocity="800" TrackingAccelExponent="1" TrackingEndTime="1000" TrackingStartTime="300" />
-        <Mesh name="" scale="0.5" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="11702"
+                    name="LockOnShotTrace_ForPriest_Divine Retrivution Combo 03"
+                    EffectStartHeight="10"
+                    EffectStartTime="300"
+                    HitEffectId="3265001"
+                    MainEffectId="3346"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-70"
+                      EndVelocity="600"
+                      SpeedDistortion="0.8"
+                      StartAngle="70"
+                      StartVelocity="800"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="1000"
+                      TrackingStartTime="300" />
+        <Mesh name=""
+              scale="0.5"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="11703" name="LockOnShotTrace_ForPriest_Prophecy Of Lethargy" EffectStartHeight="10" EffectStartTime="300" HitEffectId="3265001" MainEffectId="3347" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-70" EndVelocity="600" SpeedDistortion="0.8" StartAngle="70" StartVelocity="800" TrackingAccelExponent="1" TrackingEndTime="1000" TrackingStartTime="300" />
-        <Mesh name="" scale="0.5" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="11703"
+                    name="LockOnShotTrace_ForPriest_Prophecy Of Lethargy"
+                    EffectStartHeight="10"
+                    EffectStartTime="300"
+                    HitEffectId="3265001"
+                    MainEffectId="3347"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-70"
+                      EndVelocity="600"
+                      SpeedDistortion="0.8"
+                      StartAngle="70"
+                      StartVelocity="800"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="1000"
+                      TrackingStartTime="300" />
+        <Mesh name=""
+              scale="0.5"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="11704" name="LockOnShotTrace_ForPriest_Lullaby Of Ishara" EffectStartHeight="10" EffectStartTime="300" HitEffectId="3265001" MainEffectId="3348" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-70" EndVelocity="600" SpeedDistortion="0.8" StartAngle="70" StartVelocity="800" TrackingAccelExponent="1" TrackingEndTime="1000" TrackingStartTime="300" />
-        <Mesh name="" scale="0.5" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="11704"
+                    name="LockOnShotTrace_ForPriest_Lullaby Of Ishara"
+                    EffectStartHeight="10"
+                    EffectStartTime="300"
+                    HitEffectId="3265001"
+                    MainEffectId="3348"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-70"
+                      EndVelocity="600"
+                      SpeedDistortion="0.8"
+                      StartAngle="70"
+                      StartVelocity="800"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="1000"
+                      TrackingStartTime="300" />
+        <Mesh name=""
+              scale="0.5"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="11705" name="LockOnShotTrace_ForPriest_Cure Wing" EffectStartHeight="10" EffectStartTime="300" HitEffectId="3265001" MainEffectId="3341" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-70" EndVelocity="500" SpeedDistortion="0.8" StartAngle="70" StartVelocity="600" TrackingAccelExponent="1" TrackingEndTime="800" TrackingStartTime="300" />
-        <Mesh name="" scale="0.5" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="11705"
+                    name="LockOnShotTrace_ForPriest_Cure Wing"
+                    EffectStartHeight="10"
+                    EffectStartTime="300"
+                    HitEffectId="3265001"
+                    MainEffectId="3341"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-70"
+                      EndVelocity="500"
+                      SpeedDistortion="0.8"
+                      StartAngle="70"
+                      StartVelocity="600"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="800"
+                      TrackingStartTime="300" />
+        <Mesh name=""
+              scale="0.5"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="11706" name="LockOnShotTrace_ForPriest_Healing Light_Attack" EffectStartHeight="10" EffectStartTime="600" HitEffectId="3265001" MainEffectId="3343" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-70" EndVelocity="500" SpeedDistortion="0.8" StartAngle="70" StartVelocity="600" TrackingAccelExponent="1" TrackingEndTime="1200" TrackingStartTime="600" />
-        <Mesh name="" scale="0.5" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="11706"
+                    name="LockOnShotTrace_ForPriest_Healing Light_Attack"
+                    EffectStartHeight="10"
+                    EffectStartTime="600"
+                    HitEffectId="3265001"
+                    MainEffectId="3343"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-70"
+                      EndVelocity="500"
+                      SpeedDistortion="0.8"
+                      StartAngle="70"
+                      StartVelocity="600"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="1200"
+                      TrackingStartTime="600" />
+        <Mesh name=""
+              scale="0.5"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="11801" name="LockOnShotTrace_ForElementalist_Target Heal" EffectStartHeight="10" EffectStartTime="600" HitEffectId="3265001" MainEffectId="3341" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-70" EndVelocity="500" SpeedDistortion="0.8" StartAngle="70" StartVelocity="600" TrackingAccelExponent="1" TrackingEndTime="1200" TrackingStartTime="600" />
-        <Mesh name="" scale="0.5" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="11801"
+                    name="LockOnShotTrace_ForElementalist_Target Heal"
+                    EffectStartHeight="10"
+                    EffectStartTime="600"
+                    HitEffectId="3265001"
+                    MainEffectId="3341"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-70"
+                      EndVelocity="500"
+                      SpeedDistortion="0.8"
+                      StartAngle="70"
+                      StartVelocity="600"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="1200"
+                      TrackingStartTime="600" />
+        <Mesh name=""
+              scale="0.5"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="11802" name="LockOnShotTrace_ForElementalist_Target Purify" EffectStartHeight="10" EffectStartTime="0" HitEffectId="3265001" MainEffectId="3349" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-90" EndVelocity="300" SpeedDistortion="1" StartAngle="30" StartVelocity="500" TrackingAccelExponent="1" TrackingEndTime="600" TrackingStartTime="0" />
-        <Mesh name="" scale="1" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="11802"
+                    name="LockOnShotTrace_ForElementalist_Target Purify"
+                    EffectStartHeight="10"
+                    EffectStartTime="0"
+                    HitEffectId="3265001"
+                    MainEffectId="3349"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-90"
+                      EndVelocity="300"
+                      SpeedDistortion="1"
+                      StartAngle="30"
+                      StartVelocity="500"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="600"
+                      TrackingStartTime="0" />
+        <Mesh name=""
+              scale="1"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="11803" name="LockOnShotTrace_ForElementalist_Painful Shackle" EffectStartHeight="10" EffectStartTime="300" HitEffectId="3265001" MainEffectId="3343" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-0" EndVelocity="500" SpeedDistortion="0.8" StartAngle="0" StartVelocity="1000" TrackingAccelExponent="1" TrackingEndTime="1000" TrackingStartTime="300" />
-        <Mesh name="" scale="0.5" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="11803"
+                    name="LockOnShotTrace_ForElementalist_Painful Shackle"
+                    EffectStartHeight="10"
+                    EffectStartTime="300"
+                    HitEffectId="3265001"
+                    MainEffectId="3343"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-0"
+                      EndVelocity="500"
+                      SpeedDistortion="0.8"
+                      StartAngle="0"
+                      StartVelocity="1000"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="1000"
+                      TrackingStartTime="300" />
+        <Mesh name=""
+              scale="0.5"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="11804" name="LockOnShotTrace_ForElementalist_Shackle Of Quicksand" EffectStartHeight="10" EffectStartTime="300" HitEffectId="3265001" MainEffectId="3347" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-80" EndVelocity="600" SpeedDistortion="1" StartAngle="30" StartVelocity="1000" TrackingAccelExponent="1" TrackingEndTime="1000" TrackingStartTime="300" />
-        <Mesh name="" scale="0.5" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="11804"
+                    name="LockOnShotTrace_ForElementalist_Shackle Of Quicksand"
+                    EffectStartHeight="10"
+                    EffectStartTime="300"
+                    HitEffectId="3265001"
+                    MainEffectId="3347"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-80"
+                      EndVelocity="600"
+                      SpeedDistortion="1"
+                      StartAngle="30"
+                      StartVelocity="1000"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="1000"
+                      TrackingStartTime="300" />
+        <Mesh name=""
+              scale="0.5"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="11805" name="LockOnShotTrace_ForElementalist_Spirit Of Lassitude" EffectStartHeight="10" EffectStartTime="0" HitEffectId="3265001" MainEffectId="3347" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-90" EndVelocity="300" SpeedDistortion="1" StartAngle="30" StartVelocity="500" TrackingAccelExponent="1" TrackingEndTime="800" TrackingStartTime="0" />
-        <Mesh name="" scale="1" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="11805"
+                    name="LockOnShotTrace_ForElementalist_Spirit Of Lassitude"
+                    EffectStartHeight="10"
+                    EffectStartTime="0"
+                    HitEffectId="3265001"
+                    MainEffectId="3347"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-90"
+                      EndVelocity="300"
+                      SpeedDistortion="1"
+                      StartAngle="30"
+                      StartVelocity="500"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="800"
+                      TrackingStartTime="0" />
+        <Mesh name=""
+              scale="1"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="11806" name="LockOnShotTrace_ForElementalist_Spirit Of Confusion" EffectStartHeight="10" EffectStartTime="0" HitEffectId="3265001" MainEffectId="3343" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-90" EndVelocity="300" SpeedDistortion="1" StartAngle="30" StartVelocity="500" TrackingAccelExponent="1" TrackingEndTime="800" TrackingStartTime="0" />
-        <Mesh name="" scale="1" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="11806"
+                    name="LockOnShotTrace_ForElementalist_Spirit Of Confusion"
+                    EffectStartHeight="10"
+                    EffectStartTime="0"
+                    HitEffectId="3265001"
+                    MainEffectId="3343"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-90"
+                      EndVelocity="300"
+                      SpeedDistortion="1"
+                      StartAngle="30"
+                      StartVelocity="500"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="800"
+                      TrackingStartTime="0" />
+        <Mesh name=""
+              scale="1"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="11807" name="LockOnShotTrace_ForElementalist_Shackle Of Stone" EffectStartHeight="10" EffectStartTime="0" HitEffectId="3265001" MainEffectId="3347" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-90" EndVelocity="300" SpeedDistortion="1" StartAngle="30" StartVelocity="500" TrackingAccelExponent="1" TrackingEndTime="800" TrackingStartTime="0" />
-        <Mesh name="" scale="1" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="11807"
+                    name="LockOnShotTrace_ForElementalist_Shackle Of Stone"
+                    EffectStartHeight="10"
+                    EffectStartTime="0"
+                    HitEffectId="3265001"
+                    MainEffectId="3347"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-90"
+                      EndVelocity="300"
+                      SpeedDistortion="1"
+                      StartAngle="30"
+                      StartVelocity="500"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="800"
+                      TrackingStartTime="0" />
+        <Mesh name=""
+              scale="1"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="11809" name="LockOnShotTrace_ForElementalist_Target Attack" EffectStartHeight="10" EffectStartTime="600" HitEffectId="3265001" MainEffectId="3343" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-70" EndVelocity="500" SpeedDistortion="0.8" StartAngle="70" StartVelocity="600" TrackingAccelExponent="1" TrackingEndTime="1200" TrackingStartTime="600" />
-        <Mesh name="" scale="0.5" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="11809"
+                    name="LockOnShotTrace_ForElementalist_Target Attack"
+                    EffectStartHeight="10"
+                    EffectStartTime="600"
+                    HitEffectId="3265001"
+                    MainEffectId="3343"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-70"
+                      EndVelocity="500"
+                      SpeedDistortion="0.8"
+                      StartAngle="70"
+                      StartVelocity="600"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="1200"
+                      TrackingStartTime="600" />
+        <Mesh name=""
+              scale="0.5"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="90001" name="Absorb Effect For Quest CS" EffectStartHeight="30" EffectStartTime="0" HitEffectId="300100002" MainEffectId="300100001" MaxDistance="5000" MinDistance="10">
-        <Simulate GravityAccel="-600" MagneticAccelExponent="1.8" MagneticEndAccel="50000" MagneticEndTime="2800" MagneticInhaleAccel="100000" MagneticStartAccel="0" MagneticStartTime="1000" MaxSpeed="650" MinSpeed="10" />
+    <MagneticEffect id="90001"
+                    name="Absorb Effect For Quest CS"
+                    EffectStartHeight="30"
+                    EffectStartTime="0"
+                    HitEffectId="300100002"
+                    MainEffectId="300100001"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <Simulate GravityAccel="-600"
+                  MagneticAccelExponent="1.8"
+                  MagneticEndAccel="50000"
+                  MagneticEndTime="2800"
+                  MagneticInhaleAccel="100000"
+                  MagneticStartAccel="0"
+                  MagneticStartTime="1000"
+                  MaxSpeed="650"
+                  MinSpeed="10" />
     </MagneticEffect>
-    <MagneticEffect id="90002" name="Absorb Effect For Quest CS2" EffectStartHeight="30" EffectStartTime="0" HitEffectId="3467" MainEffectId="3466" MaxDistance="5000" MinDistance="10">
-        <Simulate GravityAccel="-600" MagneticAccelExponent="1.8" MagneticEndAccel="50000" MagneticEndTime="2800" MagneticInhaleAccel="100000" MagneticStartAccel="0" MagneticStartTime="1000" MaxSpeed="650" MinSpeed="10" />
+    <MagneticEffect id="90002"
+                    name="Absorb Effect For Quest CS2"
+                    EffectStartHeight="30"
+                    EffectStartTime="0"
+                    HitEffectId="3467"
+                    MainEffectId="3466"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <Simulate GravityAccel="-600"
+                  MagneticAccelExponent="1.8"
+                  MagneticEndAccel="50000"
+                  MagneticEndTime="2800"
+                  MagneticInhaleAccel="100000"
+                  MagneticStartAccel="0"
+                  MagneticStartTime="1000"
+                  MaxSpeed="650"
+                  MinSpeed="10" />
     </MagneticEffect>
-    <MagneticEffect id="90003" name="Absorb Effect For Quest CS2" EffectStartHeight="30" EffectStartTime="0" HitEffectId="3465" MainEffectId="3464" MaxDistance="5000" MinDistance="10">
-        <Simulate GravityAccel="-600" MagneticAccelExponent="1.8" MagneticEndAccel="50000" MagneticEndTime="2800" MagneticInhaleAccel="100000" MagneticStartAccel="0" MagneticStartTime="1000" MaxSpeed="650" MinSpeed="10" />
+    <MagneticEffect id="90003"
+                    name="Absorb Effect For Quest CS2"
+                    EffectStartHeight="30"
+                    EffectStartTime="0"
+                    HitEffectId="3465"
+                    MainEffectId="3464"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <Simulate GravityAccel="-600"
+                  MagneticAccelExponent="1.8"
+                  MagneticEndAccel="50000"
+                  MagneticEndTime="2800"
+                  MagneticInhaleAccel="100000"
+                  MagneticStartAccel="0"
+                  MagneticStartTime="1000"
+                  MaxSpeed="650"
+                  MinSpeed="10" />
     </MagneticEffect>
-    <MagneticEffect id="11808" name="전장 킬어시스트시 경험치 이펙트" EffectStartHeight="10" EffectStartTime="0" HitEffectId="3459" MainEffectId="3464" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-90" EndVelocity="300" SpeedDistortion="1" StartAngle="30" StartVelocity="500" TrackingAccelExponent="1" TrackingEndTime="800" TrackingStartTime="0" />
-        <Mesh name="" scale="1" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="11808"
+                    name="전장 킬어시스트시 경험치 이펙트"
+                    EffectStartHeight="10"
+                    EffectStartTime="0"
+                    HitEffectId="3459"
+                    MainEffectId="3464"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-90"
+                      EndVelocity="300"
+                      SpeedDistortion="1"
+                      StartAngle="30"
+                      StartVelocity="500"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="800"
+                      TrackingStartTime="0" />
+        <Mesh name=""
+              scale="1"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="11900" name="주둔지 공방전 킬/어시 이펙트" EffectStartHeight="10" EffectStartTime="600" HitEffectId="3459" MainEffectId="3458" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-70" EndVelocity="550" SpeedDistortion="0.8" StartAngle="90" StartVelocity="750" TrackingAccelExponent="1" TrackingEndTime="1400" TrackingStartTime="700" />
-        <Mesh name="" scale="0.5" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="11900"
+                    name="주둔지 공방전 킬/어시 이펙트"
+                    EffectStartHeight="10"
+                    EffectStartTime="600"
+                    HitEffectId="3459"
+                    MainEffectId="3458"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-70"
+                      EndVelocity="550"
+                      SpeedDistortion="0.8"
+                      StartAngle="90"
+                      StartVelocity="750"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="1400"
+                      TrackingStartTime="700" />
+        <Mesh name=""
+              scale="0.5"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="511807" name="Warrior_binding_Blade" EffectStartHeight="10" EffectStartTime="0" HitEffectId="32652" MainEffectId="514053035" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-180" EndVelocity="300" SpeedDistortion="1" StartAngle="0" StartVelocity="500" TrackingAccelExponent="1" TrackingEndTime="500" TrackingStartTime="0" />
-        <Mesh name="" scale="1" rotate="0,0,0" offset="0,0,0" />
+    <MagneticEffect id="511807"
+                    name="Warrior_binding_Blade"
+                    EffectStartHeight="10"
+                    EffectStartTime="0"
+                    HitEffectId="32652"
+                    MainEffectId="514053035"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-180"
+                      EndVelocity="300"
+                      SpeedDistortion="1"
+                      StartAngle="0"
+                      StartVelocity="500"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="500"
+                      TrackingStartTime="0" />
+        <Mesh name=""
+              scale="1"
+              rotate="0,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="511808" name="LockOnShotTrace_ForElementalist_Shackle Of Stone" EffectStartHeight="10" EffectStartTime="0" HitEffectId="3265001" MainEffectId="3344" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-90" EndVelocity="300" SpeedDistortion="1" StartAngle="30" StartVelocity="500" TrackingAccelExponent="1" TrackingEndTime="800" TrackingStartTime="0" />
-        <Mesh name="" scale="1" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="511808"
+                    name="LockOnShotTrace_ForElementalist_Shackle Of Stone"
+                    EffectStartHeight="10"
+                    EffectStartTime="0"
+                    HitEffectId="3265001"
+                    MainEffectId="3344"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-90"
+                      EndVelocity="300"
+                      SpeedDistortion="1"
+                      StartAngle="30"
+                      StartVelocity="500"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="800"
+                      TrackingStartTime="0" />
+        <Mesh name=""
+              scale="1"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="511501" name="LockOnShotTrace_ForSorcerer_Fire and brimstone" EffectStartHeight="10" EffectStartTime="600" HitEffectId="3265001" MainEffectId="3342" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-70" EndVelocity="550" SpeedDistortion="0.8" StartAngle="90" StartVelocity="750" TrackingAccelExponent="1" TrackingEndTime="350" TrackingStartTime="500" />
-        <Mesh name="" scale="0.5" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="511501"
+                    name="LockOnShotTrace_ForSorcerer_Fire and brimstone"
+                    EffectStartHeight="10"
+                    EffectStartTime="600"
+                    HitEffectId="3265001"
+                    MainEffectId="3342"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-70"
+                      EndVelocity="550"
+                      SpeedDistortion="0.8"
+                      StartAngle="90"
+                      StartVelocity="750"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="350"
+                      TrackingStartTime="500" />
+        <Mesh name=""
+              scale="0.5"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="905901" name="Absorb_HpBall_Large_ForBerserker_Vampiric Strike_Shot" EffectStartHeight="20" EffectStartTime="0" HitEffectId="300100004" MainEffectId="300100003" MaxDistance="5000" MinDistance="10">
-        <Random accelExponent="1" startX="0" startY="0" startZ="0" />
-        <Scale maxValue="1000" minValue="1000" maxScale="3" minScale="3" />
-        <Simulate GravityAccel="-800" MagneticAccelExponent="2.2" MagneticEndAccel="50000" MagneticEndTime="2500" MagneticInhaleAccel="100000" MagneticStartAccel="0" MagneticStartTime="300" MaxSpeed="1000" MinSpeed="300" />
+    <MagneticEffect id="905901"
+                    name="Absorb_HpBall_Large_ForBerserker_Vampiric Strike_Shot"
+                    EffectStartHeight="20"
+                    EffectStartTime="0"
+                    HitEffectId="300100004"
+                    MainEffectId="300100003"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <Random accelExponent="1"
+                startX="0"
+                startY="0"
+                startZ="0" />
+        <Scale maxValue="1000"
+               minValue="1000"
+               maxScale="3"
+               minScale="3" />
+        <Simulate GravityAccel="-800"
+                  MagneticAccelExponent="2.2"
+                  MagneticEndAccel="50000"
+                  MagneticEndTime="2500"
+                  MagneticInhaleAccel="100000"
+                  MagneticStartAccel="0"
+                  MagneticStartTime="300"
+                  MaxSpeed="1000"
+                  MinSpeed="300" />
     </MagneticEffect>
-    <MagneticEffect id="12000" name="" EffectStartHeight="10" EffectStartTime="600" HitEffectId="300100004" MainEffectId="300100003" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-70" EndVelocity="500" SpeedDistortion="0.8" StartAngle="70" StartVelocity="600" TrackingAccelExponent="1" TrackingEndTime="1200" TrackingStartTime="600" />
-        <Mesh name="" scale="0.5" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="12000"
+                    name=""
+                    EffectStartHeight="10"
+                    EffectStartTime="600"
+                    HitEffectId="300100004"
+                    MainEffectId="300100003"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-70"
+                      EndVelocity="500"
+                      SpeedDistortion="0.8"
+                      StartAngle="70"
+                      StartVelocity="600"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="1200"
+                      TrackingStartTime="600" />
+        <Mesh name=""
+              scale="0.5"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="631001" name="초록알_마그네틱" EffectStartHeight="100" EffectStartTime="0" HitEffectId="631006" MainEffectId="631005" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-60" EndVelocity="300" SpeedDistortion="0.8" StartAngle="60" StartVelocity="100" TrackingAccelExponent="1" TrackingEndTime="1000" TrackingStartTime="0" />
-        <Mesh name="" scale="0.5" rotate="0,0,0" offset="0,0,0" />
+    <MagneticEffect id="631001"
+                    name="초록알_마그네틱"
+                    EffectStartHeight="100"
+                    EffectStartTime="0"
+                    HitEffectId="631006"
+                    MainEffectId="631005"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-60"
+                      EndVelocity="300"
+                      SpeedDistortion="0.8"
+                      StartAngle="60"
+                      StartVelocity="100"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="1000"
+                      TrackingStartTime="0" />
+        <Mesh name=""
+              scale="0.5"
+              rotate="0,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="631002" name="빨간알_마그네틱" EffectStartHeight="100" EffectStartTime="0" HitEffectId="631008" MainEffectId="631007" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-60" EndVelocity="300" SpeedDistortion="0.8" StartAngle="60" StartVelocity="100" TrackingAccelExponent="1" TrackingEndTime="1000" TrackingStartTime="0" />
-        <Mesh name="" scale="0.5" rotate="0,0,0" offset="0,0,0" />
+    <MagneticEffect id="631002"
+                    name="빨간알_마그네틱"
+                    EffectStartHeight="100"
+                    EffectStartTime="0"
+                    HitEffectId="631008"
+                    MainEffectId="631007"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-60"
+                      EndVelocity="300"
+                      SpeedDistortion="0.8"
+                      StartAngle="60"
+                      StartVelocity="100"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="1000"
+                      TrackingStartTime="0" />
+        <Mesh name=""
+              scale="0.5"
+              rotate="0,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="631003" name="정찰기 쏘기" EffectStartHeight="0" EffectStartTime="0" HitEffectId="631010" MainEffectId="631009" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="0" EndVelocity="1000" SpeedDistortion="0.8" StartAngle="0" StartVelocity="1000" TrackingAccelExponent="1" TrackingEndTime="300" TrackingStartTime="0" />
-        <Mesh name="" scale="0.5" rotate="0,0,0" offset="0,0,0" />
+    <MagneticEffect id="631003"
+                    name="정찰기 쏘기"
+                    EffectStartHeight="0"
+                    EffectStartTime="0"
+                    HitEffectId="631010"
+                    MainEffectId="631009"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="0"
+                      EndVelocity="1000"
+                      SpeedDistortion="0.8"
+                      StartAngle="0"
+                      StartVelocity="1000"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="300"
+                      TrackingStartTime="0" />
+        <Mesh name=""
+              scale="0.5"
+              rotate="0,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="631004" name="용계코어 흡수" EffectStartHeight="0" EffectStartTime="0" HitEffectId="631012" MainEffectId="631011" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="0" EndVelocity="0" SpeedDistortion="0.8" StartAngle="0" StartVelocity="0" TrackingAccelExponent="1" TrackingEndTime="200" TrackingStartTime="0" />
-        <Mesh name="" scale="0.5" rotate="0,0,0" offset="0,0,0" />
+    <MagneticEffect id="631004"
+                    name="용계코어 흡수"
+                    EffectStartHeight="0"
+                    EffectStartTime="0"
+                    HitEffectId="631012"
+                    MainEffectId="631011"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="0"
+                      EndVelocity="0"
+                      SpeedDistortion="0.8"
+                      StartAngle="0"
+                      StartVelocity="0"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="200"
+                      TrackingStartTime="0" />
+        <Mesh name=""
+              scale="0.5"
+              rotate="0,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="681001" name="벨릭의 꿈 빛 덩어리 날아감" EffectStartHeight="20" EffectStartTime="0" HitEffectId="681009" MainEffectId="681008" MaxDistance="5000" MinDistance="10">
-        <Random accelExponent="1" startX="50" startY="50" startZ="50" />
-        <Scale maxValue="1000" minValue="1000" maxScale="1" minScale="1" />
-        <Simulate GravityAccel="-3000" MagneticAccelExponent="2.5" MagneticEndAccel="50000" MagneticEndTime="3500" MagneticInhaleAccel="100000" MagneticStartAccel="0" MagneticStartTime="1500" MaxSpeed="500" MinSpeed="20" />
+    <MagneticEffect id="681001"
+                    name="벨릭의 꿈 빛 덩어리 날아감"
+                    EffectStartHeight="20"
+                    EffectStartTime="0"
+                    HitEffectId="681009"
+                    MainEffectId="681008"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <Random accelExponent="1"
+                startX="50"
+                startY="50"
+                startZ="50" />
+        <Scale maxValue="1000"
+               minValue="1000"
+               maxScale="1"
+               minScale="1" />
+        <Simulate GravityAccel="-3000"
+                  MagneticAccelExponent="2.5"
+                  MagneticEndAccel="50000"
+                  MagneticEndTime="3500"
+                  MagneticInhaleAccel="100000"
+                  MagneticStartAccel="0"
+                  MagneticStartTime="1500"
+                  MaxSpeed="500"
+                  MinSpeed="20" />
     </MagneticEffect>
-    <MagneticEffect id="250101" name="소형 미사일" EffectStartHeight="20" EffectStartTime="0" HitEffectId="119050304" MainEffectId="119050303" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="0" EndVelocity="1000" SpeedDistortion="0.4" StartAngle="0" StartVelocity="1000" TrackingAccelExponent="1" TrackingEndTime="1200" TrackingStartTime="0" />
-        <Mesh name="" scale="0.5" rotate="0,0,0" offset="0,0,0" />
+    <MagneticEffect id="250101"
+                    name="소형 미사일"
+                    EffectStartHeight="20"
+                    EffectStartTime="0"
+                    HitEffectId="119050304"
+                    MainEffectId="119050303"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="0"
+                      EndVelocity="1000"
+                      SpeedDistortion="0.4"
+                      StartAngle="0"
+                      StartVelocity="1000"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="1200"
+                      TrackingStartTime="0" />
+        <Mesh name=""
+              scale="0.5"
+              rotate="0,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="250102" name="대형 미사일" EffectStartHeight="20" EffectStartTime="0" HitEffectId="119050306" MainEffectId="119050305" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="0" EndVelocity="1000" SpeedDistortion="0.4" StartAngle="0" StartVelocity="1000" TrackingAccelExponent="1" TrackingEndTime="2000" TrackingStartTime="0" />
-        <Mesh name="" scale="0.5" rotate="0,0,0" offset="0,0,0" />
+    <MagneticEffect id="250102"
+                    name="대형 미사일"
+                    EffectStartHeight="20"
+                    EffectStartTime="0"
+                    HitEffectId="119050306"
+                    MainEffectId="119050305"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="0"
+                      EndVelocity="1000"
+                      SpeedDistortion="0.4"
+                      StartAngle="0"
+                      StartVelocity="1000"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="2000"
+                      TrackingStartTime="0" />
+        <Mesh name=""
+              scale="0.5"
+              rotate="0,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="411001" name="아르곤 핵 연출" EffectStartHeight="20" EffectStartTime="0" HitEffectId="411002" MainEffectId="411001" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="0" EndVelocity="1000" SpeedDistortion="0.4" StartAngle="0" StartVelocity="1000" TrackingAccelExponent="1" TrackingEndTime="2000" TrackingStartTime="0" />
-        <Mesh name="" scale="0.5" rotate="0,0,0" offset="0,0,0" />
+    <MagneticEffect id="411001"
+                    name="아르곤 핵 연출"
+                    EffectStartHeight="20"
+                    EffectStartTime="0"
+                    HitEffectId="411002"
+                    MainEffectId="411001"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="0"
+                      EndVelocity="1000"
+                      SpeedDistortion="0.4"
+                      StartAngle="0"
+                      StartVelocity="1000"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="2000"
+                      TrackingStartTime="0" />
+        <Mesh name=""
+              scale="0.5"
+              rotate="0,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="11506" name="LockOnShotTrace_ForSorcerer_Fire and brimstone" EffectStartHeight="10" EffectStartTime="300" HitEffectId="3265001" MainEffectId="5374" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-70" EndVelocity="550" SpeedDistortion="0.8" StartAngle="90" StartVelocity="750" TrackingAccelExponent="1" TrackingEndTime="1400" TrackingStartTime="700" />
-        <Mesh name="" scale="0.5" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="11506"
+                    name="LockOnShotTrace_ForSorcerer_Fire and brimstone"
+                    EffectStartHeight="10"
+                    EffectStartTime="300"
+                    HitEffectId="3265001"
+                    MainEffectId="5374"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-70"
+                      EndVelocity="550"
+                      SpeedDistortion="0.8"
+                      StartAngle="90"
+                      StartVelocity="750"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="1400"
+                      TrackingStartTime="700" />
+        <Mesh name=""
+              scale="0.5"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
-    <MagneticEffect id="11507" name="LockOnShotTrace_ForSorcerer_Curse Of Shackle" EffectStartHeight="10" EffectStartTime="0" HitEffectId="3265001" MainEffectId="5398" MaxDistance="5000" MinDistance="10">
-        <CurveTracker EndAngle="-0" EndVelocity="300" SpeedDistortion="1" StartAngle="0" StartVelocity="1000" TrackingAccelExponent="1" TrackingEndTime="300" TrackingStartTime="0" />
-        <Mesh name="" scale="1" rotate="-90,0,0" offset="0,0,0" />
+    <MagneticEffect id="11507"
+                    name="LockOnShotTrace_ForSorcerer_Curse Of Shackle"
+                    EffectStartHeight="10"
+                    EffectStartTime="0"
+                    HitEffectId="3265001"
+                    MainEffectId="5398"
+                    MaxDistance="5000"
+                    MinDistance="10">
+        <CurveTracker EndAngle="-0"
+                      EndVelocity="300"
+                      SpeedDistortion="1"
+                      StartAngle="0"
+                      StartVelocity="1000"
+                      TrackingAccelExponent="1"
+                      TrackingEndTime="300"
+                      TrackingStartTime="0" />
+        <Mesh name=""
+              scale="1"
+              rotate="-90,0,0"
+              offset="0,0,0" />
     </MagneticEffect>
 </MagneticData>

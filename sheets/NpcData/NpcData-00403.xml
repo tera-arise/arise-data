@@ -1,5 +1,28 @@
-<NpcData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/NpcData NpcData.xsd" huntingZoneId="3010" xmlns="https://vezel.dev/novadrop/dc/NpcData">
-    <Template id="1000" name="켈사이크" scale="1.6" gender="male" race="GreatGriffin" size="large" shapeId="301850" basicActionId="3018500" spawnScriptId="0" resourceSize="100" resourceType="large" isWideBroadcaster="true" parentId="30185000" despawnScriptId="0" elite="true" isFreeNamed="false" partyMember="1" showAggroTarget="true" showShorttermTarget="true" showTargetInfo="false" speciesId="4">
+<NpcData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://vezel.dev/novadrop/dc/NpcData NpcData.xsd"
+         huntingZoneId="3010"
+         xmlns="https://vezel.dev/novadrop/dc/NpcData">
+    <Template id="1000"
+              name="켈사이크"
+              scale="1.6"
+              gender="male"
+              race="GreatGriffin"
+              size="large"
+              shapeId="301850"
+              basicActionId="3018500"
+              spawnScriptId="0"
+              resourceSize="100"
+              resourceType="large"
+              isWideBroadcaster="true"
+              parentId="30185000"
+              despawnScriptId="0"
+              elite="true"
+              isFreeNamed="false"
+              partyMember="1"
+              showAggroTarget="true"
+              showShorttermTarget="true"
+              showTargetInfo="false"
+              speciesId="4">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -8,27 +31,88 @@
         <Aggro />
         <Anger gaugeSize="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="59" atk="42" def="2950" maxHp="2000000" />
+        <Stat level="59"
+              atk="42"
+              def="2950"
+              maxHp="2000000" />
     </Template>
-    <Template id="1001" name="켈사이크의 저주" scale="0.6" size="medium" shapeId="611150" basicActionId="9999999" spawnScriptId="475100101" isWideBroadcaster="true" parentId="61115000" despawnScriptId="0" elite="true" invincible="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false">
+    <Template id="1001"
+              name="켈사이크의 저주"
+              scale="0.6"
+              size="medium"
+              shapeId="611150"
+              basicActionId="9999999"
+              spawnScriptId="475100101"
+              isWideBroadcaster="true"
+              parentId="61115000"
+              despawnScriptId="0"
+              elite="true"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              showTargetInfo="false">
         <Aggro />
         <Anger gaugeSize="21475.707394974" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="36" def="2950" maxHp="4295.1414789948" />
+        <Stat level="58"
+              atk="36"
+              def="2950"
+              maxHp="4295.1414789948" />
     </Template>
-    <Template id="1002" name="켈사이크의 저주" scale="0.6" size="medium" shapeId="611150" basicActionId="6111500" spawnScriptId="475100201" isWideBroadcaster="true" parentId="61115000" despawnScriptId="0" elite="true" invincible="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false">
+    <Template id="1002"
+              name="켈사이크의 저주"
+              scale="0.6"
+              size="medium"
+              shapeId="611150"
+              basicActionId="6111500"
+              spawnScriptId="475100201"
+              isWideBroadcaster="true"
+              parentId="61115000"
+              despawnScriptId="0"
+              elite="true"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              showTargetInfo="false">
         <Aggro />
         <Anger gaugeSize="21475.707394974" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="3" def="2950" maxHp="64425.122184922" />
+        <Stat level="58"
+              atk="3"
+              def="2950"
+              maxHp="64425.122184922" />
     </Template>
-    <Template id="1003" name="덤퍼칸 파이터" scale="1" gender="male" race="DumperkanFignther" size="small" shapeId="301190" basicActionId="3011900" spawnScriptId="475100301" resourceSize="100" resourceType="small" isWideBroadcaster="true" parentId="30119000" despawnScriptId="0" elite="true" isFreeNamed="false" partyMember="10" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="1003"
+              name="덤퍼칸 파이터"
+              scale="1"
+              gender="male"
+              race="DumperkanFignther"
+              size="small"
+              shapeId="301190"
+              basicActionId="3011900"
+              spawnScriptId="475100301"
+              resourceSize="100"
+              resourceType="small"
+              isWideBroadcaster="true"
+              parentId="30119000"
+              despawnScriptId="0"
+              elite="true"
+              isFreeNamed="false"
+              partyMember="10"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -37,9 +121,30 @@
         <Aggro />
         <Anger gaugeSize="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="24" def="2950" maxHp="2896.552060654" />
+        <Stat level="58"
+              atk="24"
+              def="2950"
+              maxHp="2896.552060654" />
     </Template>
-    <Template id="1004" name="덤퍼칸 캐스터" scale="1" gender="male" race="DumperkanFignther" size="small" shapeId="301191" basicActionId="3011900" spawnScriptId="475100401" resourceSize="100" resourceType="small" isWideBroadcaster="true" parentId="30119100" despawnScriptId="0" elite="true" isFreeNamed="false" partyMember="10" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="1004"
+              name="덤퍼칸 캐스터"
+              scale="1"
+              gender="male"
+              race="DumperkanFignther"
+              size="small"
+              shapeId="301191"
+              basicActionId="3011900"
+              spawnScriptId="475100401"
+              resourceSize="100"
+              resourceType="small"
+              isWideBroadcaster="true"
+              parentId="30119100"
+              despawnScriptId="0"
+              elite="true"
+              isFreeNamed="false"
+              partyMember="10"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -48,9 +153,30 @@
         <Aggro />
         <Anger gaugeSize="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="34" def="2950" maxHp="2106.1287713847" />
+        <Stat level="58"
+              atk="34"
+              def="2950"
+              maxHp="2106.1287713847" />
     </Template>
-    <Template id="2000" name="Dark_Knight(창기사)_3" scale="2" gender="male" race="Dark_Knight" size="large" shapeId="301483" basicActionId="3014800" spawnScriptId="475200001" resourceSize="100" resourceType="medium" isWideBroadcaster="true" parentId="30148200" despawnScriptId="0" elite="true" isFreeNamed="false" partyMember="1" showAggroTarget="true" showShorttermTarget="true">
+    <Template id="2000"
+              name="Dark_Knight(창기사)_3"
+              scale="2"
+              gender="male"
+              race="Dark_Knight"
+              size="large"
+              shapeId="301483"
+              basicActionId="3014800"
+              spawnScriptId="475200001"
+              resourceSize="100"
+              resourceType="medium"
+              isWideBroadcaster="true"
+              parentId="30148200"
+              despawnScriptId="0"
+              elite="true"
+              isFreeNamed="false"
+              partyMember="1"
+              showAggroTarget="true"
+              showShorttermTarget="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -59,9 +185,30 @@
         <Aggro />
         <Anger gaugeSize="78098.410901046" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="21" def="2950" maxHp="131205.17031376" />
+        <Stat level="58"
+              atk="21"
+              def="2950"
+              maxHp="131205.17031376" />
     </Template>
-    <Template id="2001" name="Dark_Rook_(무사)_3" scale="2.5" gender="male" race="Dark_Rook_Slayer" size="large" shapeId="301453" basicActionId="3014500" spawnScriptId="475200001" resourceSize="100" resourceType="medium" isWideBroadcaster="true" parentId="30145200" despawnScriptId="0" elite="true" isFreeNamed="false" partyMember="1" showAggroTarget="true" showShorttermTarget="true">
+    <Template id="2001"
+              name="Dark_Rook_(무사)_3"
+              scale="2.5"
+              gender="male"
+              race="Dark_Rook_Slayer"
+              size="large"
+              shapeId="301453"
+              basicActionId="3014500"
+              spawnScriptId="475200001"
+              resourceSize="100"
+              resourceType="medium"
+              isWideBroadcaster="true"
+              parentId="30145200"
+              despawnScriptId="0"
+              elite="true"
+              isFreeNamed="false"
+              partyMember="1"
+              showAggroTarget="true"
+              showShorttermTarget="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -70,9 +217,30 @@
         <Aggro />
         <Anger gaugeSize="78098.410901046" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="28" def="2950" maxHp="112462.4316975" />
+        <Stat level="58"
+              atk="28"
+              def="2950"
+              maxHp="112462.4316975" />
     </Template>
-    <Template id="2002" name="Dark_Pawn_(궁수)_3" scale="3" gender="male" race="Dark_Pawn_Archer" size="large" shapeId="301493" basicActionId="3014900" spawnScriptId="475200001" resourceSize="100" resourceType="medium" isWideBroadcaster="true" parentId="30149200" despawnScriptId="0" elite="true" isFreeNamed="false" partyMember="1" showAggroTarget="true" showShorttermTarget="true">
+    <Template id="2002"
+              name="Dark_Pawn_(궁수)_3"
+              scale="3"
+              gender="male"
+              race="Dark_Pawn_Archer"
+              size="large"
+              shapeId="301493"
+              basicActionId="3014900"
+              spawnScriptId="475200001"
+              resourceSize="100"
+              resourceType="medium"
+              isWideBroadcaster="true"
+              parentId="30149200"
+              despawnScriptId="0"
+              elite="true"
+              isFreeNamed="false"
+              partyMember="1"
+              showAggroTarget="true"
+              showShorttermTarget="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -81,9 +249,30 @@
         <Aggro />
         <Anger gaugeSize="78098.410901046" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="32" def="2950" maxHp="99966.605953338" />
+        <Stat level="58"
+              atk="32"
+              def="2950"
+              maxHp="99966.605953338" />
     </Template>
-    <Template id="2003" name="Dark_Queen(마법사)_3" scale="3" gender="male" race="Dark_Queen" size="large" shapeId="301473" basicActionId="3014700" spawnScriptId="475200001" resourceSize="100" resourceType="medium" isWideBroadcaster="true" parentId="30147200" despawnScriptId="0" elite="true" isFreeNamed="false" partyMember="1" showAggroTarget="true" showShorttermTarget="true">
+    <Template id="2003"
+              name="Dark_Queen(마법사)_3"
+              scale="3"
+              gender="male"
+              race="Dark_Queen"
+              size="large"
+              shapeId="301473"
+              basicActionId="3014700"
+              spawnScriptId="475200001"
+              resourceSize="100"
+              resourceType="medium"
+              isWideBroadcaster="true"
+              parentId="30147200"
+              despawnScriptId="0"
+              elite="true"
+              isFreeNamed="false"
+              partyMember="1"
+              showAggroTarget="true"
+              showShorttermTarget="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -92,9 +281,30 @@
         <Aggro />
         <Anger gaugeSize="78098.410901046" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="39" def="2950" maxHp="74974.954465003" />
+        <Stat level="58"
+              atk="39"
+              def="2950"
+              maxHp="74974.954465003" />
     </Template>
-    <Template id="2004" name="Dark_Bishop(정령사)_3" scale="3" gender="male" race="Dark_Bishop" size="large" shapeId="301513" basicActionId="3015100" spawnScriptId="475200001" resourceSize="100" resourceType="medium" isWideBroadcaster="true" parentId="30151200" despawnScriptId="0" elite="true" isFreeNamed="false" partyMember="1" showAggroTarget="true" showShorttermTarget="true">
+    <Template id="2004"
+              name="Dark_Bishop(정령사)_3"
+              scale="3"
+              gender="male"
+              race="Dark_Bishop"
+              size="large"
+              shapeId="301513"
+              basicActionId="3015100"
+              spawnScriptId="475200001"
+              resourceSize="100"
+              resourceType="medium"
+              isWideBroadcaster="true"
+              parentId="30151200"
+              despawnScriptId="0"
+              elite="true"
+              isFreeNamed="false"
+              partyMember="1"
+              showAggroTarget="true"
+              showShorttermTarget="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -103,9 +313,29 @@
         <Aggro />
         <Anger gaugeSize="78098.410901046" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="39" def="2950" maxHp="74974.954465003" />
+        <Stat level="58"
+              atk="39"
+              def="2950"
+              maxHp="74974.954465003" />
     </Template>
-    <Template id="3000" name="창기사 석상" scale="1" size="medium" shapeId="611310" basicActionId="6113100" spawnScriptId="475300001" isWideBroadcaster="true" parentId="61131000" despawnScriptId="475300002" deathShapeId="611311" elite="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false">
+    <Template id="3000"
+              name="창기사 석상"
+              scale="1"
+              size="medium"
+              shapeId="611310"
+              basicActionId="6113100"
+              spawnScriptId="475300001"
+              isWideBroadcaster="true"
+              parentId="61131000"
+              despawnScriptId="475300002"
+              deathShapeId="611311"
+              elite="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              showTargetInfo="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -114,9 +344,29 @@
         <Aggro />
         <Anger gaugeSize="21475.707394974" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="36100" def="2950" maxHp="42950.414789948" />
+        <Stat level="58"
+              atk="36100"
+              def="2950"
+              maxHp="42950.414789948" />
     </Template>
-    <Template id="3001" name="무사 석상" scale="1" size="medium" shapeId="611290" basicActionId="6112900" spawnScriptId="475300001" isWideBroadcaster="true" parentId="61129000" despawnScriptId="475300002" deathShapeId="611291" elite="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false">
+    <Template id="3001"
+              name="무사 석상"
+              scale="1"
+              size="medium"
+              shapeId="611290"
+              basicActionId="6112900"
+              spawnScriptId="475300001"
+              isWideBroadcaster="true"
+              parentId="61129000"
+              despawnScriptId="475300002"
+              deathShapeId="611291"
+              elite="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              showTargetInfo="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -125,9 +375,29 @@
         <Aggro />
         <Anger gaugeSize="21475.707394974" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="36100" def="2950" maxHp="42950.414789948" />
+        <Stat level="58"
+              atk="36100"
+              def="2950"
+              maxHp="42950.414789948" />
     </Template>
-    <Template id="3002" name="궁수 석상" scale="1" size="medium" shapeId="611320" basicActionId="6113200" spawnScriptId="475300001" isWideBroadcaster="true" parentId="61132000" despawnScriptId="475300002" deathShapeId="611321" elite="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false">
+    <Template id="3002"
+              name="궁수 석상"
+              scale="1"
+              size="medium"
+              shapeId="611320"
+              basicActionId="6113200"
+              spawnScriptId="475300001"
+              isWideBroadcaster="true"
+              parentId="61132000"
+              despawnScriptId="475300002"
+              deathShapeId="611321"
+              elite="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              showTargetInfo="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -136,9 +406,29 @@
         <Aggro />
         <Anger gaugeSize="21475.707394974" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="36100" def="2950" maxHp="42950.414789948" />
+        <Stat level="58"
+              atk="36100"
+              def="2950"
+              maxHp="42950.414789948" />
     </Template>
-    <Template id="3003" name="마법사 석상" scale="1" size="medium" shapeId="611300" basicActionId="6113000" spawnScriptId="475300001" isWideBroadcaster="true" parentId="61130000" despawnScriptId="475300002" deathShapeId="611301" elite="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false">
+    <Template id="3003"
+              name="마법사 석상"
+              scale="1"
+              size="medium"
+              shapeId="611300"
+              basicActionId="6113000"
+              spawnScriptId="475300001"
+              isWideBroadcaster="true"
+              parentId="61130000"
+              despawnScriptId="475300002"
+              deathShapeId="611301"
+              elite="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              showTargetInfo="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -147,9 +437,29 @@
         <Aggro />
         <Anger gaugeSize="21475.707394974" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="36100" def="2950" maxHp="42950.414789948" />
+        <Stat level="58"
+              atk="36100"
+              def="2950"
+              maxHp="42950.414789948" />
     </Template>
-    <Template id="3004" name="정령사 석상" scale="1" size="medium" shapeId="600950" basicActionId="6009500" spawnScriptId="475300001" isWideBroadcaster="true" parentId="60095000" despawnScriptId="475300002" deathShapeId="600951" elite="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false">
+    <Template id="3004"
+              name="정령사 석상"
+              scale="1"
+              size="medium"
+              shapeId="600950"
+              basicActionId="6009500"
+              spawnScriptId="475300001"
+              isWideBroadcaster="true"
+              parentId="60095000"
+              despawnScriptId="475300002"
+              deathShapeId="600951"
+              elite="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              showTargetInfo="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -158,9 +468,30 @@
         <Aggro />
         <Anger gaugeSize="21475.707394974" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="36100" def="2950" maxHp="42950.414789948" />
+        <Stat level="58"
+              atk="36100"
+              def="2950"
+              maxHp="42950.414789948" />
     </Template>
-    <Template id="5001" class="" name="차원의 마법석" scale="0.625" gender="male" race="object" size="medium" shapeId="600920" basicActionId="200010" spawnScriptId="0" resourceSize="100" resourceType="medium" isWideBroadcaster="false" despawnScriptId="0" collideOnMove="true" dontTurn="true" invincible="true" isObjectNpc="false" villager="true">
+    <Template id="5001"
+              class=""
+              name="차원의 마법석"
+              scale="0.625"
+              gender="male"
+              race="object"
+              size="medium"
+              shapeId="600920"
+              basicActionId="200010"
+              spawnScriptId="0"
+              resourceSize="100"
+              resourceType="medium"
+              isWideBroadcaster="false"
+              despawnScriptId="0"
+              collideOnMove="true"
+              dontTurn="true"
+              invincible="true"
+              isObjectNpc="false"
+              villager="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -168,11 +499,33 @@
         </AbnormalityResistanceOverride>
         <Aggro />
         <Anger gaugeSize="403799.000000" />
-        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="0"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="40" atk="100" def="2000" maxHp="10000.000000" />
+        <Stat level="40"
+              atk="100"
+              def="2000"
+              maxHp="10000.000000" />
     </Template>
-    <Template id="5002" class="" name="차원의 마법석" scale="0.625" gender="male" race="object" size="medium" shapeId="600920" basicActionId="200010" spawnScriptId="0" resourceSize="100" resourceType="medium" isWideBroadcaster="false" despawnScriptId="0" collideOnMove="true" dontTurn="true" invincible="true" isObjectNpc="false" villager="true">
+    <Template id="5002"
+              class=""
+              name="차원의 마법석"
+              scale="0.625"
+              gender="male"
+              race="object"
+              size="medium"
+              shapeId="600920"
+              basicActionId="200010"
+              spawnScriptId="0"
+              resourceSize="100"
+              resourceType="medium"
+              isWideBroadcaster="false"
+              despawnScriptId="0"
+              collideOnMove="true"
+              dontTurn="true"
+              invincible="true"
+              isObjectNpc="false"
+              villager="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -180,11 +533,33 @@
         </AbnormalityResistanceOverride>
         <Aggro />
         <Anger gaugeSize="403799.000000" />
-        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="0"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="40" atk="100" def="2000" maxHp="10000.000000" />
+        <Stat level="40"
+              atk="100"
+              def="2000"
+              maxHp="10000.000000" />
     </Template>
-    <Template id="5005" class="" name="마법석" scale="1" gender="male" race="object" size="medium" shapeId="600070" basicActionId="200010" spawnScriptId="0" resourceSize="100" resourceType="medium" isWideBroadcaster="false" despawnScriptId="0" collideOnMove="true" dontTurn="true" invincible="true" isObjectNpc="false" villager="true">
+    <Template id="5005"
+              class=""
+              name="마법석"
+              scale="1"
+              gender="male"
+              race="object"
+              size="medium"
+              shapeId="600070"
+              basicActionId="200010"
+              spawnScriptId="0"
+              resourceSize="100"
+              resourceType="medium"
+              isWideBroadcaster="false"
+              despawnScriptId="0"
+              collideOnMove="true"
+              dontTurn="true"
+              invincible="true"
+              isObjectNpc="false"
+              villager="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -192,11 +567,31 @@
         </AbnormalityResistanceOverride>
         <Aggro />
         <Anger gaugeSize="403799.000000" />
-        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="0"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="40" atk="100" def="2000" maxHp="10000.000000" />
+        <Stat level="40"
+              atk="100"
+              def="2000"
+              maxHp="10000.000000" />
     </Template>
-    <Template id="6001" name="작동 스위치" scale="1" size="medium" shapeId="600960" basicActionId="6009600" spawnScriptId="0" isWideBroadcaster="true" parentId="60096000" despawnScriptId="0" deathShapeId="600961" elite="true" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="6001"
+              name="작동 스위치"
+              scale="1"
+              size="medium"
+              shapeId="600960"
+              basicActionId="6009600"
+              spawnScriptId="0"
+              isWideBroadcaster="true"
+              parentId="60096000"
+              despawnScriptId="0"
+              deathShapeId="600961"
+              elite="true"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -205,36 +600,118 @@
         <Aggro />
         <Anger gaugeSize="21475.707394974" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="36" def="2950" maxHp="42.501414789948" />
+        <Stat level="58"
+              atk="36"
+              def="2950"
+              maxHp="42.501414789948" />
     </Template>
-    <Template id="6002" name="작동 스위치(화염디버프)" scale="1" size="medium" shapeId="600960" basicActionId="6009600" spawnScriptId="475000000" isWideBroadcaster="true" parentId="60096000" despawnScriptId="475000000" deathShapeId="600961" elite="true" invincible="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false">
+    <Template id="6002"
+              name="작동 스위치(화염디버프)"
+              scale="1"
+              size="medium"
+              shapeId="600960"
+              basicActionId="6009600"
+              spawnScriptId="475000000"
+              isWideBroadcaster="true"
+              parentId="60096000"
+              despawnScriptId="475000000"
+              deathShapeId="600961"
+              elite="true"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              showTargetInfo="false">
         <Aggro />
         <Anger gaugeSize="21475.707394974" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="36" def="2950" maxHp="42950.414789948" />
+        <Stat level="58"
+              atk="36"
+              def="2950"
+              maxHp="42950.414789948" />
     </Template>
-    <Template id="6003" name="작동 스위치(냉기디버프)" scale="1" size="medium" shapeId="600960" basicActionId="6009600" spawnScriptId="475000000" isWideBroadcaster="true" parentId="60096000" despawnScriptId="475000000" deathShapeId="600961" elite="true" invincible="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false">
+    <Template id="6003"
+              name="작동 스위치(냉기디버프)"
+              scale="1"
+              size="medium"
+              shapeId="600960"
+              basicActionId="6009600"
+              spawnScriptId="475000000"
+              isWideBroadcaster="true"
+              parentId="60096000"
+              despawnScriptId="475000000"
+              deathShapeId="600961"
+              elite="true"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              showTargetInfo="false">
         <Aggro />
         <Anger gaugeSize="21475.707394974" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="36" def="2950" maxHp="42950.414789948" />
+        <Stat level="58"
+              atk="36"
+              def="2950"
+              maxHp="42950.414789948" />
     </Template>
-    <Template id="6004" name="작동 스위치(버프디버프)" scale="1" size="medium" shapeId="600960" basicActionId="6009600" spawnScriptId="475000000" isWideBroadcaster="true" parentId="60096000" despawnScriptId="475000000" deathShapeId="600961" elite="true" invincible="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false">
+    <Template id="6004"
+              name="작동 스위치(버프디버프)"
+              scale="1"
+              size="medium"
+              shapeId="600960"
+              basicActionId="6009600"
+              spawnScriptId="475000000"
+              isWideBroadcaster="true"
+              parentId="60096000"
+              despawnScriptId="475000000"
+              deathShapeId="600961"
+              elite="true"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              showTargetInfo="false">
         <Aggro />
         <Anger gaugeSize="21475.707394974" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="36" def="2950" maxHp="42950.414789948" />
+        <Stat level="58"
+              atk="36"
+              def="2950"
+              maxHp="42950.414789948" />
     </Template>
-    <Template id="7000" name="브레스 방어벽A" scale="1" size="medium" shapeId="600970" basicActionId="6009700" spawnScriptId="475700001" isWideBroadcaster="true" parentId="60097000" despawnScriptId="475700002" elite="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false">
+    <Template id="7000"
+              name="브레스 방어벽A"
+              scale="1"
+              size="medium"
+              shapeId="600970"
+              basicActionId="6009700"
+              spawnScriptId="475700001"
+              isWideBroadcaster="true"
+              parentId="60097000"
+              despawnScriptId="475700002"
+              elite="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              showTargetInfo="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -246,9 +723,28 @@
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="36" def="295032114" maxHp="42950.414789948" />
+        <Stat level="58"
+              atk="36"
+              def="295032114"
+              maxHp="42950.414789948" />
     </Template>
-    <Template id="7001" name="브레스 방어벽B" scale="1" size="medium" shapeId="600970" basicActionId="6009700" spawnScriptId="475700101" isWideBroadcaster="true" parentId="60097000" despawnScriptId="475700102" elite="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false">
+    <Template id="7001"
+              name="브레스 방어벽B"
+              scale="1"
+              size="medium"
+              shapeId="600970"
+              basicActionId="6009700"
+              spawnScriptId="475700101"
+              isWideBroadcaster="true"
+              parentId="60097000"
+              despawnScriptId="475700102"
+              elite="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              showTargetInfo="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -260,84 +756,292 @@
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="36" def="295032114" maxHp="42950.414789948" />
+        <Stat level="58"
+              atk="36"
+              def="295032114"
+              maxHp="42950.414789948" />
     </Template>
-    <Template id="8000" name="문(창살)" scale="1" size="medium" shapeId="611282" basicActionId="6112810" spawnScriptId="475800001" isWideBroadcaster="true" parentId="61128100" despawnScriptId="475800002" cannotPassThrough="true" elite="true" invincible="true" isObjectNpc="true" showTargetInfo="false">
+    <Template id="8000"
+              name="문(창살)"
+              scale="1"
+              size="medium"
+              shapeId="611282"
+              basicActionId="6112810"
+              spawnScriptId="475800001"
+              isWideBroadcaster="true"
+              parentId="61128100"
+              despawnScriptId="475800002"
+              cannotPassThrough="true"
+              elite="true"
+              invincible="true"
+              isObjectNpc="true"
+              showTargetInfo="false">
         <Aggro />
         <Anger gaugeSize="651.093750" />
         <ObjectNpcAiParam />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="6" def="143" maxHp="1303.187500" />
+        <Stat level="58"
+              atk="6"
+              def="143"
+              maxHp="1303.187500" />
     </Template>
-    <Template id="8001" name="문(나무문)" scale="1" size="medium" shapeId="611280" basicActionId="6112800" isWideBroadcaster="true" parentId="61128000" despawnScriptId="475800102" cannotPassThrough="true" elite="true" invincible="true" isObjectNpc="true" showTargetInfo="false">
+    <Template id="8001"
+              name="문(나무문)"
+              scale="1"
+              size="medium"
+              shapeId="611280"
+              basicActionId="6112800"
+              isWideBroadcaster="true"
+              parentId="61128000"
+              despawnScriptId="475800102"
+              cannotPassThrough="true"
+              elite="true"
+              invincible="true"
+              isObjectNpc="true"
+              showTargetInfo="false">
         <Aggro />
         <Anger gaugeSize="651.093750" />
         <ObjectNpcAiParam />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="6" def="143" maxHp="1303.187500" />
+        <Stat level="58"
+              atk="6"
+              def="143"
+              maxHp="1303.187500" />
     </Template>
-    <Template id="9000" name="나락의굴레" scale="1" size="medium" shapeId="600960" basicActionId="9999999" spawnScriptId="475000000" isWideBroadcaster="true" parentId="6009600" despawnScriptId="475000000" deathShapeId="600961" elite="true" invincible="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="9000"
+              name="나락의굴레"
+              scale="1"
+              size="medium"
+              shapeId="600960"
+              basicActionId="9999999"
+              spawnScriptId="475000000"
+              isWideBroadcaster="true"
+              parentId="6009600"
+              despawnScriptId="475000000"
+              deathShapeId="600961"
+              elite="true"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <Aggro />
         <Anger gaugeSize="21475.707394974" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="36" def="2950" maxHp="42950.414789948" />
+        <Stat level="58"
+              atk="36"
+              def="2950"
+              maxHp="42950.414789948" />
     </Template>
-    <Template id="9001" name="결계해제장치" scale="1" size="medium" shapeId="600960" basicActionId="9999999" spawnScriptId="475900100" parentId="60096000" despawnScriptId="475000000" deathShapeId="600961" elite="true" invincible="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false">
+    <Template id="9001"
+              name="결계해제장치"
+              scale="1"
+              size="medium"
+              shapeId="600960"
+              basicActionId="9999999"
+              spawnScriptId="475900100"
+              parentId="60096000"
+              despawnScriptId="475000000"
+              deathShapeId="600961"
+              elite="true"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              showTargetInfo="false">
         <Aggro />
         <Anger gaugeSize="21475.707394974" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="36" def="2950" maxHp="42950.414789948" />
+        <Stat level="58"
+              atk="36"
+              def="2950"
+              maxHp="42950.414789948" />
     </Template>
-    <Template id="9002" name="결계발동장치(보복)" scale="0.6" size="large" shapeId="611150" basicActionId="6111500" spawnScriptId="475900201" isWideBroadcaster="true" parentId="61115000" despawnScriptId="475000000" elite="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="9002"
+              name="결계발동장치(보복)"
+              scale="0.6"
+              size="large"
+              shapeId="611150"
+              basicActionId="6111500"
+              spawnScriptId="475900201"
+              isWideBroadcaster="true"
+              parentId="61115000"
+              despawnScriptId="475000000"
+              elite="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <Aggro />
         <Anger gaugeSize="78098.410901046" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="35870" def="2950" maxHp="312.94564360418" />
+        <Stat level="58"
+              atk="35870"
+              def="2950"
+              maxHp="312.94564360418" />
     </Template>
-    <Template id="9003" name="결계발동장치(응징)" scale="0.6" size="large" shapeId="611150" basicActionId="6111500" spawnScriptId="475900201" isWideBroadcaster="true" parentId="61115000" despawnScriptId="475000000" elite="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="9003"
+              name="결계발동장치(응징)"
+              scale="0.6"
+              size="large"
+              shapeId="611150"
+              basicActionId="6111500"
+              spawnScriptId="475900201"
+              isWideBroadcaster="true"
+              parentId="61115000"
+              despawnScriptId="475000000"
+              elite="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <Aggro />
         <Anger gaugeSize="78098.410901046" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="35870" def="2950" maxHp="312.94564360418" />
+        <Stat level="58"
+              atk="35870"
+              def="2950"
+              maxHp="312.94564360418" />
     </Template>
-    <Template id="9004" name="결계발동장치(죽음)" scale="0.6" size="large" shapeId="611150" basicActionId="6111500" spawnScriptId="475900201" isWideBroadcaster="true" parentId="61115000" despawnScriptId="475000000" elite="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="9004"
+              name="결계발동장치(죽음)"
+              scale="0.6"
+              size="large"
+              shapeId="611150"
+              basicActionId="6111500"
+              spawnScriptId="475900201"
+              isWideBroadcaster="true"
+              parentId="61115000"
+              despawnScriptId="475000000"
+              elite="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <Aggro />
         <Anger gaugeSize="78098.410901046" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="35870" def="2950" maxHp="312.94564360418" />
+        <Stat level="58"
+              atk="35870"
+              def="2950"
+              maxHp="312.94564360418" />
     </Template>
-    <Template id="9020" name="이동마커(1)" scale="1" gender="male" race="marker" size="medium" shapeId="611412" basicActionId="6114100" resourceSize="100" resourceType="medium" parentId="72037100" elite="false" invincible="true" isObjectNpc="true" unionElite="false" villager="true">
+    <Template id="9020"
+              name="이동마커(1)"
+              scale="1"
+              gender="male"
+              race="marker"
+              size="medium"
+              shapeId="611412"
+              basicActionId="6114100"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="72037100"
+              elite="false"
+              invincible="true"
+              isObjectNpc="true"
+              unionElite="false"
+              villager="true">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="0" />
         <Reaction maxAdditionalGauge="0" />
-        <Stat level="1" atk="0" def="0" maxHp="0" />
+        <Stat level="1"
+              atk="0"
+              def="0"
+              maxHp="0" />
     </Template>
-    <Template id="9998" name="켈사이크버프해제장치" scale="1" size="medium" shapeId="600960" basicActionId="9999999" spawnScriptId="475000000" parentId="60096000" despawnScriptId="475000000" deathShapeId="600961" elite="true" invincible="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false">
+    <Template id="9998"
+              name="켈사이크버프해제장치"
+              scale="1"
+              size="medium"
+              shapeId="600960"
+              basicActionId="9999999"
+              spawnScriptId="475000000"
+              parentId="60096000"
+              despawnScriptId="475000000"
+              deathShapeId="600961"
+              elite="true"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              showTargetInfo="false">
         <Aggro />
         <Anger gaugeSize="21475.707394974" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="36" def="2950" maxHp="42950.414789948" />
+        <Stat level="58"
+              atk="36"
+              def="2950"
+              maxHp="42950.414789948" />
     </Template>
-    <Template id="9999" name="켈사이크의 저주" scale="1" size="medium" shapeId="600960" basicActionId="6009600" spawnScriptId="475000000" isWideBroadcaster="true" parentId="61115000" despawnScriptId="475000000" elite="true" invincible="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false">
+    <Template id="9999"
+              name="켈사이크의 저주"
+              scale="1"
+              size="medium"
+              shapeId="600960"
+              basicActionId="6009600"
+              spawnScriptId="475000000"
+              isWideBroadcaster="true"
+              parentId="61115000"
+              despawnScriptId="475000000"
+              elite="true"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              showTargetInfo="false">
         <Aggro />
         <Anger gaugeSize="21475.707394974" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="58" atk="3" def="2950" maxHp="64425.122184922" />
+        <Stat level="58"
+              atk="3"
+              def="2950"
+              maxHp="64425.122184922" />
     </Template>
-    <Template id="11111" class="" name="필드상인(포포리 남)" scale="1" gender="male" race="Popori" size="medium" shapeId="90870001" basicActionId="5103800" spawnScriptId="0" resourceSize="100" resourceType="medium" parentId="51038000" despawnScriptId="0" collideOnMove="false" dontTurn="false" elite="false" invincible="true" isObjectNpc="false" unionElite="false" villager="true">
+    <Template id="11111"
+              class=""
+              name="필드상인(포포리 남)"
+              scale="1"
+              gender="male"
+              race="Popori"
+              size="medium"
+              shapeId="90870001"
+              basicActionId="5103800"
+              spawnScriptId="0"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="51038000"
+              despawnScriptId="0"
+              collideOnMove="false"
+              dontTurn="false"
+              elite="false"
+              invincible="true"
+              isObjectNpc="false"
+              unionElite="false"
+              villager="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -347,6 +1051,9 @@
         <Anger gaugeSize="100" />
         <NamePlate nameplateHeight="0" />
         <Reaction maxAdditionalGauge="400" />
-        <Stat level="40" atk="100" def="2000" maxHp="10000" />
+        <Stat level="40"
+              atk="100"
+              def="2000"
+              maxHp="10000" />
     </Template>
 </NpcData>

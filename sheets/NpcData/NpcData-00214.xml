@@ -1,12 +1,55 @@
-<NpcData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/NpcData NpcData.xsd" huntingZoneId="439" xmlns="https://vezel.dev/novadrop/dc/NpcData">
-    <Template id="201" name="이동마커(귀환용 마법석)" scale="1" gender="male" race="marker" size="medium" shapeId="611412" basicActionId="6114100" resourceSize="100" resourceType="medium" parentId="72037100" elite="false" invincible="true" isObjectNpc="true" unionElite="false" villager="true">
+<NpcData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://vezel.dev/novadrop/dc/NpcData NpcData.xsd"
+         huntingZoneId="439"
+         xmlns="https://vezel.dev/novadrop/dc/NpcData">
+    <Template id="201"
+              name="이동마커(귀환용 마법석)"
+              scale="1"
+              gender="male"
+              race="marker"
+              size="medium"
+              shapeId="611412"
+              basicActionId="6114100"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="72037100"
+              elite="false"
+              invincible="true"
+              isObjectNpc="true"
+              unionElite="false"
+              villager="true">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="0" />
         <Reaction maxAdditionalGauge="0" />
-        <Stat level="1" atk="0" def="0" maxHp="0" />
+        <Stat level="1"
+              atk="0"
+              def="0"
+              maxHp="0" />
     </Template>
-    <Template id="1001" class="" name="고장난 호송마차" scale="0.35" gender="male" race="object" size="medium" shapeId="600490" basicActionId="6004900" spawnScriptId="0" resourceSize="100" resourceType="medium" despawnScriptId="0" collideOnMove="true" dontTurn="true" elite="false" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="true">
+    <Template id="1001"
+              class=""
+              name="고장난 호송마차"
+              scale="0.35"
+              gender="male"
+              race="object"
+              size="medium"
+              shapeId="600490"
+              basicActionId="6004900"
+              spawnScriptId="0"
+              resourceSize="100"
+              resourceType="medium"
+              despawnScriptId="0"
+              collideOnMove="true"
+              dontTurn="true"
+              elite="false"
+              invincible="false"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -16,9 +59,29 @@
         <Anger gaugeSize="3473.28658977666" />
         <NamePlate nameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="25" atk="250" def="304" maxHp="17366.4329488833" />
+        <Stat level="25"
+              atk="250"
+              def="304"
+              maxHp="17366.4329488833" />
     </Template>
-    <Template id="1002" name="호송대 호위병(아만 남자 광전사)" scale="0.8" gender="male" race="Aman" size="medium" shapeId="510530" basicActionId="5105300" resourceSize="100" resourceType="medium" parentId="51053000" elite="false" invincible="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="true">
+    <Template id="1002"
+              name="호송대 호위병(아만 남자 광전사)"
+              scale="0.8"
+              gender="male"
+              race="Aman"
+              size="medium"
+              shapeId="510530"
+              basicActionId="5105300"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="51053000"
+              elite="false"
+              invincible="false"
+              isFreeNamed="false"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -27,9 +90,29 @@
         <Aggro />
         <Anger gaugeSize="3473.28658977666" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="25" atk="250" def="304" maxHp="11577.6219659222" />
+        <Stat level="25"
+              atk="250"
+              def="304"
+              maxHp="11577.6219659222" />
     </Template>
-    <Template id="1003" name="호송대 하사관(포포리 여자 광전사)" scale="1.2" gender="male" race="popori" size="medium" shapeId="510550" basicActionId="5105500" resourceSize="100" resourceType="medium" parentId="51055000" elite="false" invincible="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="true">
+    <Template id="1003"
+              name="호송대 하사관(포포리 여자 광전사)"
+              scale="1.2"
+              gender="male"
+              race="popori"
+              size="medium"
+              shapeId="510550"
+              basicActionId="5105500"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="51055000"
+              elite="false"
+              invincible="false"
+              isFreeNamed="false"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -38,9 +121,29 @@
         <Aggro />
         <Anger gaugeSize="3473.28658977666" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="25" atk="250" def="304" maxHp="8683.21647444167" />
+        <Stat level="25"
+              atk="250"
+              def="304"
+              maxHp="8683.21647444167" />
     </Template>
-    <Template id="1004" class="" name="귀환용 마법석" scale="0.625" gender="male" race="object" size="medium" shapeId="600920" basicActionId="200010" spawnScriptId="0" resourceSize="100" resourceType="medium" despawnScriptId="0" collideOnMove="true" dontTurn="true" invincible="true" isObjectNpc="false" villager="true">
+    <Template id="1004"
+              class=""
+              name="귀환용 마법석"
+              scale="0.625"
+              gender="male"
+              race="object"
+              size="medium"
+              shapeId="600920"
+              basicActionId="200010"
+              spawnScriptId="0"
+              resourceSize="100"
+              resourceType="medium"
+              despawnScriptId="0"
+              collideOnMove="true"
+              dontTurn="true"
+              invincible="true"
+              isObjectNpc="false"
+              villager="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -50,20 +153,55 @@
         <Anger gaugeSize="100.000000" />
         <NamePlate nameplateHeight="0" />
         <Reaction maxAdditionalGauge="400" />
-        <Stat level="40" atk="100" def="2000" maxHp="10000.000000" />
+        <Stat level="40"
+              atk="100"
+              def="2000"
+              maxHp="10000.000000" />
     </Template>
-    <Template id="2000" name="투명NPC" scale="1" race="" size="medium" shapeId="611410" basicActionId="6114100" resourceSize="0" resourceType="" parentId="61141000" elite="false" invincible="true" isObjectNpc="true" showTargetInfo="false" unionElite="false" villager="false">
+    <Template id="2000"
+              name="투명NPC"
+              scale="1"
+              race=""
+              size="medium"
+              shapeId="611410"
+              basicActionId="6114100"
+              resourceSize="0"
+              resourceType=""
+              parentId="61141000"
+              elite="false"
+              invincible="true"
+              isObjectNpc="true"
+              showTargetInfo="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="6519.093750" />
-        <NamePlate nameplateHeight="30" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="30"
+                   deathNameplateHeight="0" />
         <ObjectNpcAiParam>
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="26" atk="62" def="143" maxHp="13038.187500" />
+        <Stat level="26"
+              atk="62"
+              def="143"
+              maxHp="13038.187500" />
     </Template>
-    <Template id="5001" name="2인1조 광인" scale="1.05" gender="male" race="MadmanDuo" size="medium" shapeId="300520" basicActionId="3005200" parentId="30052000" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="5001"
+              name="2인1조 광인"
+              scale="1.05"
+              gender="male"
+              race="MadmanDuo"
+              size="medium"
+              shapeId="300520"
+              basicActionId="3005200"
+              parentId="30052000"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -71,11 +209,28 @@
         </AbnormalityResistanceOverride>
         <Aggro />
         <Anger gaugeSize="2142.33512334964" />
-        <NamePlate nameplateHeight="5" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="5"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="23" atk="54" def="217" maxHp="4284.67024669927" />
+        <Stat level="23"
+              atk="54"
+              def="217"
+              maxHp="4284.67024669927" />
     </Template>
-    <Template id="5002" name="난쟁이 광인" scale="0.6" gender="male" race="DwarfMadman" size="small" shapeId="300550" basicActionId="3005500" parentId="30055000" elite="false" isFreeNamed="false" partyMember="3" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="5002"
+              name="난쟁이 광인"
+              scale="0.6"
+              gender="male"
+              race="DwarfMadman"
+              size="small"
+              shapeId="300550"
+              basicActionId="3005500"
+              parentId="30055000"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="3"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -83,11 +238,28 @@
         </AbnormalityResistanceOverride>
         <Aggro />
         <Anger gaugeSize="0" />
-        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="0"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="23" atk="11" def="217" maxHp="1036.35461592039" />
+        <Stat level="23"
+              atk="11"
+              def="217"
+              maxHp="1036.35461592039" />
     </Template>
-    <Template id="5003" name="난폭한 난쟁이 광인" scale="0.6" gender="male" race="DwarfMadman" size="small" shapeId="300551" basicActionId="3005500" parentId="30055100" elite="false" isFreeNamed="false" partyMember="3" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="5003"
+              name="난폭한 난쟁이 광인"
+              scale="0.6"
+              gender="male"
+              race="DwarfMadman"
+              size="small"
+              shapeId="300551"
+              basicActionId="3005500"
+              parentId="30055100"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="3"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -95,11 +267,28 @@
         </AbnormalityResistanceOverride>
         <Aggro />
         <Anger gaugeSize="0" />
-        <NamePlate nameplateHeight="19" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="19"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="23" atk="18" def="217" maxHp="1036.35461592039" />
+        <Stat level="23"
+              atk="18"
+              def="217"
+              maxHp="1036.35461592039" />
     </Template>
-    <Template id="5004" name="우둔한 아만 광인" scale="1.15" gender="male" race="FatAmanMadman" size="medium" shapeId="300480" basicActionId="3004800" parentId="30048000" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="5004"
+              name="우둔한 아만 광인"
+              scale="1.15"
+              gender="male"
+              race="FatAmanMadman"
+              size="medium"
+              shapeId="300480"
+              basicActionId="3004800"
+              parentId="30048000"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="2"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -107,11 +296,28 @@
         </AbnormalityResistanceOverride>
         <Aggro />
         <Anger gaugeSize="1300.6871936483" />
-        <NamePlate nameplateHeight="-1" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="-1"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="23" atk="37" def="217" maxHp="2081.09950983729" />
+        <Stat level="23"
+              atk="37"
+              def="217"
+              maxHp="2081.09950983729" />
     </Template>
-    <Template id="5005" name="날렵한 캐스타닉 광인" scale="1.35" gender="male" race="SlimCastanicMadman" size="medium" shapeId="300450" basicActionId="3004500" parentId="30045000" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="5005"
+              name="날렵한 캐스타닉 광인"
+              scale="1.35"
+              gender="male"
+              race="SlimCastanicMadman"
+              size="medium"
+              shapeId="300450"
+              basicActionId="3004500"
+              parentId="30045000"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="2"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -119,11 +325,30 @@
         </AbnormalityResistanceOverride>
         <Aggro />
         <Anger gaugeSize="1300.6871936483" />
-        <NamePlate nameplateHeight="23" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="23"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="23" atk="37" def="217" maxHp="2081.09950983729" />
+        <Stat level="23"
+              atk="37"
+              def="217"
+              maxHp="2081.09950983729" />
     </Template>
-    <Template id="5006" name="마을 경비 소대장" scale="1.05" gender="male" race="TownMilitiaOfficier" size="medium" shapeId="301210" basicActionId="3012100" resourceSize="100" resourceType="medium" parentId="30121000" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="5006"
+              name="마을 경비 소대장"
+              scale="1.05"
+              gender="male"
+              race="TownMilitiaOfficier"
+              size="medium"
+              shapeId="301210"
+              basicActionId="3012100"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="30121000"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -131,11 +356,30 @@
         </AbnormalityResistanceOverride>
         <Aggro />
         <Anger gaugeSize="2142.33512334964" />
-        <NamePlate nameplateHeight="16" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="16"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="23" atk="54" def="217" maxHp="3427.73619735942" />
+        <Stat level="23"
+              atk="54"
+              def="217"
+              maxHp="3427.73619735942" />
     </Template>
-    <Template id="5007" name="마을 경비대원" scale="0.8" gender="male" race="TownMilitia" size="small" shapeId="301220" basicActionId="3012200" resourceSize="100" resourceType="medium" parentId="30122000" elite="false" isFreeNamed="false" partyMember="3" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="5007"
+              name="마을 경비대원"
+              scale="0.8"
+              gender="male"
+              race="TownMilitia"
+              size="small"
+              shapeId="301220"
+              basicActionId="3012200"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="30122000"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="3"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -143,8 +387,12 @@
         </AbnormalityResistanceOverride>
         <Aggro />
         <Anger gaugeSize="0" />
-        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="0"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="23" atk="18" def="217" maxHp="1036.35461592039" />
+        <Stat level="23"
+              atk="18"
+              def="217"
+              maxHp="1036.35461592039" />
     </Template>
 </NpcData>

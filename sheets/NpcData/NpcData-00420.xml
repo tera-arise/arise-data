@@ -1,14 +1,58 @@
-<NpcData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/NpcData NpcData.xsd" huntingZoneId="3032" xmlns="https://vezel.dev/novadrop/dc/NpcData">
-    <Template id="100" name="아르곤 도어" scale="1.5" gender="male" race="argon_door" size="medium" shapeId="600319" basicActionId="6003190" resourceSize="100" resourceType="medium" isWideBroadcaster="true" parentId="60031900" balanceType="밸런싱 안함" cannotPassThrough="true" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="true" partyMember="0" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+<NpcData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://vezel.dev/novadrop/dc/NpcData NpcData.xsd"
+         huntingZoneId="3032"
+         xmlns="https://vezel.dev/novadrop/dc/NpcData">
+    <Template id="100"
+              name="아르곤 도어"
+              scale="1.5"
+              gender="male"
+              race="argon_door"
+              size="medium"
+              shapeId="600319"
+              basicActionId="6003190"
+              resourceSize="100"
+              resourceType="medium"
+              isWideBroadcaster="true"
+              parentId="60031900"
+              balanceType="밸런싱 안함"
+              cannotPassThrough="true"
+              elite="false"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="0"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              showTargetInfo="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="0.000000" />
         <BalanceRef ignoreAttr="exp" />
         <ObjectNpcAiParam />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="1" atk="0" def="0" maxHp="0" />
+        <Stat level="1"
+              atk="0"
+              def="0"
+              maxHp="0" />
     </Template>
-    <Template id="131" name="[빌리저]나가_여성D_2" scale="1.4" gender="female" race="fdi_naga" size="medium" shapeId="303631" basicActionId="3036310" resourceSize="100" resourceType="medium" parentId="30363100" elite="false" invincible="true" isObjectNpc="false" unionElite="false" villager="true">
+    <Template id="131"
+              name="[빌리저]나가_여성D_2"
+              scale="1.4"
+              gender="female"
+              race="fdi_naga"
+              size="medium"
+              shapeId="303631"
+              basicActionId="3036310"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="30363100"
+              elite="false"
+              invincible="true"
+              isObjectNpc="false"
+              unionElite="false"
+              villager="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -18,9 +62,26 @@
         <AltAnimation />
         <Anger gaugeSize="225" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="67" atk="1500" def="8960" maxHp="1244877" />
+        <Stat level="67"
+              atk="1500"
+              def="8960"
+              maxHp="1244877" />
     </Template>
-    <Template id="200" name="2지역_근육 가신A" scale="1" gender="male" race="fdi_naga" size="medium" shapeId="303623" basicActionId="3036230" resourceSize="100" resourceType="medium" elite="false" invincible="false" isObjectNpc="false" unionElite="false" villager="false">
+    <Template id="200"
+              name="2지역_근육 가신A"
+              scale="1"
+              gender="male"
+              race="fdi_naga"
+              size="medium"
+              shapeId="303623"
+              basicActionId="3036230"
+              resourceSize="100"
+              resourceType="medium"
+              elite="false"
+              invincible="false"
+              isObjectNpc="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -30,9 +91,27 @@
         <AltAnimation />
         <Anger gaugeSize="225" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="67" atk="9000" def="8960" maxHp="1244877" />
+        <Stat level="67"
+              atk="9000"
+              def="8960"
+              maxHp="1244877" />
     </Template>
-    <Template id="201" name="fdi_용족_관리자" scale="1.18" gender="female" race="fdi_dragonian" size="medium" shapeId="303680" basicActionId="3036800" resourceSize="100" resourceType="medium" parentId="30368000" elite="false" invincible="false" isObjectNpc="false" unionElite="false" villager="false">
+    <Template id="201"
+              name="fdi_용족_관리자"
+              scale="1.18"
+              gender="female"
+              race="fdi_dragonian"
+              size="medium"
+              shapeId="303680"
+              basicActionId="3036800"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="30368000"
+              elite="false"
+              invincible="false"
+              isObjectNpc="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -42,9 +121,41 @@
         <AltAnimation />
         <Anger gaugeSize="225" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="67" atk="4500" def="8960" maxHp="2744877" />
+        <Stat level="67"
+              atk="4500"
+              def="8960"
+              maxHp="2744877" />
     </Template>
-    <Template id="999" class="" name="명품관 상인(남)" scale="1" gender="male" race="Aman" size="medium" shapeId="500170" basicActionId="5001700" spawnScriptId="0" resourceSize="100" resourceType="medium" isWideBroadcaster="false" unionId="2" despawnScriptId="0" balanceType="" collideOnMove="false" dontTurn="false" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="false" showShorttermTarget="false" villager="true" villagerVolumeActiveRange="0" villagerVolumeHalfHeight="0" villagerVolumeInteractionDist="0" villagerVolumeOffset="">
+    <Template id="999"
+              class=""
+              name="명품관 상인(남)"
+              scale="1"
+              gender="male"
+              race="Aman"
+              size="medium"
+              shapeId="500170"
+              basicActionId="5001700"
+              spawnScriptId="0"
+              resourceSize="100"
+              resourceType="medium"
+              isWideBroadcaster="false"
+              unionId="2"
+              despawnScriptId="0"
+              balanceType=""
+              collideOnMove="false"
+              dontTurn="false"
+              elite="false"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              partyMember="0"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="true"
+              villagerVolumeActiveRange="0"
+              villagerVolumeHalfHeight="0"
+              villagerVolumeInteractionDist="0"
+              villagerVolumeOffset="">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -53,11 +164,38 @@
         <Aggro />
         <Anger gaugeSize="403799" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="0"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="40" atk="100" def="2000" maxHp="10000" />
+        <Stat level="40"
+              atk="100"
+              def="2000"
+              maxHp="10000" />
     </Template>
-    <Template id="1000" name="1넴_아카칼라쉬_트루퍼" scale="1.1" gender="male" race="LesserElementalKumas" size="large" shapeId="303481" basicActionId="3008000" resourceSize="100" resourceType="large" isWideBroadcaster="true" parentId="30348000" balanceType="인던_네임드_보스" elite="true" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="5" showAggroTarget="true" showShorttermTarget="true" showTargetInfo="false" speciesId="2" unionElite="false" villager="false">
+    <Template id="1000"
+              name="1넴_아카칼라쉬_트루퍼"
+              scale="1.1"
+              gender="male"
+              race="LesserElementalKumas"
+              size="large"
+              shapeId="303481"
+              basicActionId="3008000"
+              resourceSize="100"
+              resourceType="large"
+              isWideBroadcaster="true"
+              parentId="30348000"
+              balanceType="인던_네임드_보스"
+              elite="true"
+              invincible="false"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              partyMember="5"
+              showAggroTarget="true"
+              showShorttermTarget="true"
+              showTargetInfo="false"
+              speciesId="2"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -68,18 +206,64 @@
         <BalanceRef ignoreAttr="atk,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
         <NamePlate nameplateHeight="55" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="71" atk="1300" def="8960" maxHp="13824000000" />
+        <Stat level="71"
+              atk="1300"
+              def="8960"
+              maxHp="13824000000" />
     </Template>
-    <Template id="1050" name="1네임드_창기사 소환 마석" scale="1" gender="" race="" size="medium" shapeId="600960" basicActionId="6009600" resourceSize="0" resourceType="" parentId="60096000" balanceType="밸런싱 안함" deathShapeId="600961" elite="false" invincible="false" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="false">
+    <Template id="1050"
+              name="1네임드_창기사 소환 마석"
+              scale="1"
+              gender=""
+              race=""
+              size="medium"
+              shapeId="600960"
+              basicActionId="6009600"
+              resourceSize="0"
+              resourceType=""
+              parentId="60096000"
+              balanceType="밸런싱 안함"
+              deathShapeId="600961"
+              elite="false"
+              invincible="false"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="65100009" />
         <BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
         <ObjectNpcAiParam />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="65" atk="62" def="143" maxHp="10" />
+        <Stat level="65"
+              atk="62"
+              def="143"
+              maxHp="10" />
     </Template>
-    <Template id="1051" name="1네임드_창기사" scale="2" gender="male" race="Highelf" size="medium" shapeId="530510" basicActionId="5305100" resourceSize="100" resourceType="medium" parentId="53051000" balanceType="파티_중형" elite="false" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="true">
+    <Template id="1051"
+              name="1네임드_창기사"
+              scale="2"
+              gender="male"
+              race="Highelf"
+              size="medium"
+              shapeId="530510"
+              basicActionId="5305100"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="53051000"
+              balanceType="파티_중형"
+              elite="false"
+              invincible="false"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -90,9 +274,33 @@
         <BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
         <Reaction maxAdditionalGauge="600000" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="73" atk="300000" def="8960" maxHp="99999999999" />
+        <Stat level="73"
+              atk="300000"
+              def="8960"
+              maxHp="99999999999" />
     </Template>
-    <Template id="1052" name="1네임드 사제 소환 마석" scale="1" gender="" race="" size="medium" shapeId="600962" basicActionId="6009600" resourceSize="0" resourceType="" parentId="60096200" balanceType="밸런싱 안함" deathShapeId="600965" elite="false" invincible="false" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="false">
+    <Template id="1052"
+              name="1네임드 사제 소환 마석"
+              scale="1"
+              gender=""
+              race=""
+              size="medium"
+              shapeId="600962"
+              basicActionId="6009600"
+              resourceSize="0"
+              resourceType=""
+              parentId="60096200"
+              balanceType="밸런싱 안함"
+              deathShapeId="600965"
+              elite="false"
+              invincible="false"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="65100009" />
@@ -101,9 +309,32 @@
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="65" atk="62" def="143" maxHp="10" />
+        <Stat level="65"
+              atk="62"
+              def="143"
+              maxHp="10" />
     </Template>
-    <Template id="1053" name="1네임드 사제" scale="2" gender="female" race="Human" size="medium" shapeId="527020" basicActionId="5270200" resourceSize="100" resourceType="medium" parentId="52702000" balanceType="파티_중형" elite="false" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="true">
+    <Template id="1053"
+              name="1네임드 사제"
+              scale="2"
+              gender="female"
+              race="Human"
+              size="medium"
+              shapeId="527020"
+              basicActionId="5270200"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="52702000"
+              balanceType="파티_중형"
+              elite="false"
+              invincible="false"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              unionElite="false"
+              villager="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -114,9 +345,33 @@
         <BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
         <Reaction maxAdditionalGauge="600000" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="73" atk="230000" def="9999999" maxHp="99999999999" />
+        <Stat level="73"
+              atk="230000"
+              def="9999999"
+              maxHp="99999999999" />
     </Template>
-    <Template id="1054" name="1네임드 설명" scale="1" gender="" race="" size="medium" shapeId="600962" basicActionId="6009600" resourceSize="0" resourceType="" parentId="60096200" balanceType="밸런싱 안함" deathShapeId="600965" elite="false" invincible="false" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="false">
+    <Template id="1054"
+              name="1네임드 설명"
+              scale="1"
+              gender=""
+              race=""
+              size="medium"
+              shapeId="600962"
+              basicActionId="6009600"
+              resourceSize="0"
+              resourceType=""
+              parentId="60096200"
+              balanceType="밸런싱 안함"
+              deathShapeId="600965"
+              elite="false"
+              invincible="false"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="65100009" />
@@ -125,9 +380,39 @@
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="65" atk="62" def="143" maxHp="5000000" />
+        <Stat level="65"
+              atk="62"
+              def="143"
+              maxHp="5000000" />
     </Template>
-    <Template id="1501" class="" name="입구 퇴장용 마법석" scale="0.625" race="object" size="medium" shapeId="600920" basicActionId="200010" spawnScriptId="0" resourceSize="100" resourceType="medium" isWideBroadcaster="false" despawnScriptId="0" balanceType="" collideOnMove="true" dontTurn="true" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="false" showShorttermTarget="false" villager="true" villagerVolumeActiveRange="0" villagerVolumeHalfHeight="0" villagerVolumeInteractionDist="0" villagerVolumeOffset="">
+    <Template id="1501"
+              class=""
+              name="입구 퇴장용 마법석"
+              scale="0.625"
+              race="object"
+              size="medium"
+              shapeId="600920"
+              basicActionId="200010"
+              spawnScriptId="0"
+              resourceSize="100"
+              resourceType="medium"
+              isWideBroadcaster="false"
+              despawnScriptId="0"
+              balanceType=""
+              collideOnMove="true"
+              dontTurn="true"
+              elite="false"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              partyMember="0"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="true"
+              villagerVolumeActiveRange="0"
+              villagerVolumeHalfHeight="0"
+              villagerVolumeInteractionDist="0"
+              villagerVolumeOffset="">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -136,11 +421,42 @@
         <Aggro />
         <Anger gaugeSize="403799" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="0"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="40" atk="50" def="2000" maxHp="10000" />
+        <Stat level="40"
+              atk="50"
+              def="2000"
+              maxHp="10000" />
     </Template>
-    <Template id="1502" class="" name="1네임드로 이동하는 마법석" scale="0.625" race="object" size="medium" shapeId="600920" basicActionId="200010" spawnScriptId="0" resourceSize="100" resourceType="medium" isWideBroadcaster="false" despawnScriptId="0" balanceType="" collideOnMove="true" dontTurn="true" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="false" showShorttermTarget="false" villager="true" villagerVolumeActiveRange="0" villagerVolumeHalfHeight="0" villagerVolumeInteractionDist="0" villagerVolumeOffset="">
+    <Template id="1502"
+              class=""
+              name="1네임드로 이동하는 마법석"
+              scale="0.625"
+              race="object"
+              size="medium"
+              shapeId="600920"
+              basicActionId="200010"
+              spawnScriptId="0"
+              resourceSize="100"
+              resourceType="medium"
+              isWideBroadcaster="false"
+              despawnScriptId="0"
+              balanceType=""
+              collideOnMove="true"
+              dontTurn="true"
+              elite="false"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              partyMember="0"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="true"
+              villagerVolumeActiveRange="0"
+              villagerVolumeHalfHeight="0"
+              villagerVolumeInteractionDist="0"
+              villagerVolumeOffset="">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -149,11 +465,42 @@
         <Aggro />
         <Anger gaugeSize="403799" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="0"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="40" atk="50" def="2000" maxHp="10000" />
+        <Stat level="40"
+              atk="50"
+              def="2000"
+              maxHp="10000" />
     </Template>
-    <Template id="1503" class="" name="2네임드로 이동하는 마법석" scale="0.625" race="object" size="medium" shapeId="600920" basicActionId="200010" spawnScriptId="0" resourceSize="100" resourceType="medium" isWideBroadcaster="false" despawnScriptId="0" balanceType="" collideOnMove="true" dontTurn="true" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="false" showShorttermTarget="false" villager="true" villagerVolumeActiveRange="0" villagerVolumeHalfHeight="0" villagerVolumeInteractionDist="0" villagerVolumeOffset="">
+    <Template id="1503"
+              class=""
+              name="2네임드로 이동하는 마법석"
+              scale="0.625"
+              race="object"
+              size="medium"
+              shapeId="600920"
+              basicActionId="200010"
+              spawnScriptId="0"
+              resourceSize="100"
+              resourceType="medium"
+              isWideBroadcaster="false"
+              despawnScriptId="0"
+              balanceType=""
+              collideOnMove="true"
+              dontTurn="true"
+              elite="false"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              partyMember="0"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="true"
+              villagerVolumeActiveRange="0"
+              villagerVolumeHalfHeight="0"
+              villagerVolumeInteractionDist="0"
+              villagerVolumeOffset="">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -162,11 +509,35 @@
         <Aggro />
         <Anger gaugeSize="403799" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="0"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="40" atk="50" def="2000" maxHp="10000" />
+        <Stat level="40"
+              atk="50"
+              def="2000"
+              maxHp="10000" />
     </Template>
-    <Template id="2000" name="2넴_변이된 야수" scale="1.3" gender="male" race="lion" size="large" shapeId="303493" basicActionId="3034900" resourceSize="100" resourceType="large" isWideBroadcaster="true" parentId="30349000" elite="true" invincible="false" isObjectNpc="false" showAggroTarget="true" showShorttermTarget="true" showTargetInfo="false" speciesId="2" unionElite="false" villager="false">
+    <Template id="2000"
+              name="2넴_변이된 야수"
+              scale="1.3"
+              gender="male"
+              race="lion"
+              size="large"
+              shapeId="303493"
+              basicActionId="3034900"
+              resourceSize="100"
+              resourceType="large"
+              isWideBroadcaster="true"
+              parentId="30349000"
+              elite="true"
+              invincible="false"
+              isObjectNpc="false"
+              showAggroTarget="true"
+              showShorttermTarget="true"
+              showTargetInfo="false"
+              speciesId="2"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -177,9 +548,28 @@
         <Anger gaugeSize="1536000000" />
         <NamePlate nameplateHeight="55" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="71" atk="2000" def="8960" maxHp="15360000000" />
+        <Stat level="71"
+              atk="2000"
+              def="8960"
+              maxHp="15360000000" />
     </Template>
-    <Template id="2001" name="2넴_분신1" scale="1.3" race="lion" size="large" shapeId="303493" basicActionId="6114100" resourceSize="0" resourceType="" isWideBroadcaster="true" parentId="61196000" elite="false" invincible="false" isObjectNpc="false" showTargetInfo="false" unionElite="false" villager="false">
+    <Template id="2001"
+              name="2넴_분신1"
+              scale="1.3"
+              race="lion"
+              size="large"
+              shapeId="303493"
+              basicActionId="6114100"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="true"
+              parentId="61196000"
+              elite="false"
+              invincible="false"
+              isObjectNpc="false"
+              showTargetInfo="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <AltAnimation />
@@ -189,9 +579,28 @@
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="68" atk="700" def="8960" maxHp="500000000" />
+        <Stat level="68"
+              atk="700"
+              def="8960"
+              maxHp="500000000" />
     </Template>
-    <Template id="2002" name="2넴_분신2" scale="1.3" race="lion" size="large" shapeId="303493" basicActionId="6114100" resourceSize="0" resourceType="" isWideBroadcaster="true" parentId="61196000" elite="false" invincible="false" isObjectNpc="false" showTargetInfo="false" unionElite="false" villager="false">
+    <Template id="2002"
+              name="2넴_분신2"
+              scale="1.3"
+              race="lion"
+              size="large"
+              shapeId="303493"
+              basicActionId="6114100"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="true"
+              parentId="61196000"
+              elite="false"
+              invincible="false"
+              isObjectNpc="false"
+              showTargetInfo="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <AltAnimation />
@@ -201,9 +610,34 @@
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="68" atk="700" def="8960" maxHp="500000000" />
+        <Stat level="68"
+              atk="700"
+              def="8960"
+              maxHp="500000000" />
     </Template>
-    <Template id="2003" name="2넴_야수의 패기 부여 투명npc" scale="0.3" gender="" race="" size="medium" shapeId="611410" basicActionId="6114100" resourceSize="0" resourceType="" isWideBroadcaster="true" parentId="61167000" balanceType="" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+    <Template id="2003"
+              name="2넴_야수의 패기 부여 투명npc"
+              scale="0.3"
+              gender=""
+              race=""
+              size="medium"
+              shapeId="611410"
+              basicActionId="6114100"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="true"
+              parentId="61167000"
+              balanceType=""
+              elite="false"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              partyMember="0"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              showTargetInfo="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="6519" />
@@ -211,9 +645,34 @@
         <Emoticon forceHidden="true" />
         <ObjectNpcAiParam />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="68" atk="62" def="8960" maxHp="10000" />
+        <Stat level="68"
+              atk="62"
+              def="8960"
+              maxHp="10000" />
     </Template>
-    <Template id="2004" name="2넴 앞 다리 막는 투명 NPC" scale="4" gender="" race="" size="medium" shapeId="611410" basicActionId="3034710" resourceSize="0" resourceType="" isWideBroadcaster="true" balanceType="" cannotPassThrough="true" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="true" partyMember="0" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+    <Template id="2004"
+              name="2넴 앞 다리 막는 투명 NPC"
+              scale="4"
+              gender=""
+              race=""
+              size="medium"
+              shapeId="611410"
+              basicActionId="3034710"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="true"
+              balanceType=""
+              cannotPassThrough="true"
+              elite="false"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="0"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              showTargetInfo="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="6519" />
@@ -221,18 +680,64 @@
         <Emoticon forceHidden="true" />
         <ObjectNpcAiParam />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="68" atk="62" def="9999999" maxHp="53038000" />
+        <Stat level="68"
+              atk="62"
+              def="9999999"
+              maxHp="53038000" />
     </Template>
-    <Template id="2050" name="2네임드_창기사 소환 마석" scale="1" gender="" race="" size="medium" shapeId="600960" basicActionId="6009600" resourceSize="0" resourceType="" parentId="60096000" balanceType="밸런싱 안함" deathShapeId="600961" elite="false" invincible="false" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="false">
+    <Template id="2050"
+              name="2네임드_창기사 소환 마석"
+              scale="1"
+              gender=""
+              race=""
+              size="medium"
+              shapeId="600960"
+              basicActionId="6009600"
+              resourceSize="0"
+              resourceType=""
+              parentId="60096000"
+              balanceType="밸런싱 안함"
+              deathShapeId="600961"
+              elite="false"
+              invincible="false"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="65100009" />
         <BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
         <ObjectNpcAiParam />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="65" atk="62" def="143" maxHp="10" />
+        <Stat level="65"
+              atk="62"
+              def="143"
+              maxHp="10" />
     </Template>
-    <Template id="2051" name="2네임드_창기사" scale="2" gender="male" race="Highelf" size="medium" shapeId="530510" basicActionId="5305100" resourceSize="100" resourceType="medium" parentId="53051000" balanceType="파티_중형" elite="false" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="true">
+    <Template id="2051"
+              name="2네임드_창기사"
+              scale="2"
+              gender="male"
+              race="Highelf"
+              size="medium"
+              shapeId="530510"
+              basicActionId="5305100"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="53051000"
+              balanceType="파티_중형"
+              elite="false"
+              invincible="false"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -243,9 +748,33 @@
         <BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
         <Reaction maxAdditionalGauge="600000" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="73" atk="300000" def="8960" maxHp="99999999999" />
+        <Stat level="73"
+              atk="300000"
+              def="8960"
+              maxHp="99999999999" />
     </Template>
-    <Template id="2052" name="2네임드 사제 소환 마석" scale="1" gender="" race="" size="medium" shapeId="600962" basicActionId="6009600" resourceSize="0" resourceType="" parentId="60096200" balanceType="밸런싱 안함" deathShapeId="600965" elite="false" invincible="false" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="false">
+    <Template id="2052"
+              name="2네임드 사제 소환 마석"
+              scale="1"
+              gender=""
+              race=""
+              size="medium"
+              shapeId="600962"
+              basicActionId="6009600"
+              resourceSize="0"
+              resourceType=""
+              parentId="60096200"
+              balanceType="밸런싱 안함"
+              deathShapeId="600965"
+              elite="false"
+              invincible="false"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="65100009" />
@@ -254,9 +783,32 @@
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="65" atk="62" def="143" maxHp="10" />
+        <Stat level="65"
+              atk="62"
+              def="143"
+              maxHp="10" />
     </Template>
-    <Template id="2053" name="2네임드 사제" scale="2" gender="female" race="Human" size="medium" shapeId="527020" basicActionId="5270200" resourceSize="100" resourceType="medium" parentId="52702000" balanceType="파티_중형" elite="false" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="true">
+    <Template id="2053"
+              name="2네임드 사제"
+              scale="2"
+              gender="female"
+              race="Human"
+              size="medium"
+              shapeId="527020"
+              basicActionId="5270200"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="52702000"
+              balanceType="파티_중형"
+              elite="false"
+              invincible="false"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              unionElite="false"
+              villager="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -267,9 +819,33 @@
         <BalanceRef ignoreAttr="def,maxHp,moveSpeedUpRate,statRes,miniRes,basicRes,resC" />
         <Reaction maxAdditionalGauge="600000" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="73" atk="230000" def="9999999" maxHp="99999999999" />
+        <Stat level="73"
+              atk="230000"
+              def="9999999"
+              maxHp="99999999999" />
     </Template>
-    <Template id="2054" name="2네임드 설명" scale="1" gender="" race="" size="medium" shapeId="600962" basicActionId="6009600" resourceSize="0" resourceType="" parentId="60096200" balanceType="밸런싱 안함" deathShapeId="600965" elite="false" invincible="false" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="false">
+    <Template id="2054"
+              name="2네임드 설명"
+              scale="1"
+              gender=""
+              race=""
+              size="medium"
+              shapeId="600962"
+              basicActionId="6009600"
+              resourceSize="0"
+              resourceType=""
+              parentId="60096200"
+              balanceType="밸런싱 안함"
+              deathShapeId="600965"
+              elite="false"
+              invincible="false"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="65100009" />
@@ -278,9 +854,32 @@
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="65" atk="62" def="143" maxHp="5000000" />
+        <Stat level="65"
+              atk="62"
+              def="143"
+              maxHp="5000000" />
     </Template>
-    <Template id="3110" name="언데드 장군" scale="1.1" gender="male" race="UndeadCommander" size="medium" shapeId="301146" basicActionId="3011400" resourceSize="100" resourceType="medium" parentId="30114000" balanceType="인던_네임드_기본" elite="false" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="5" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="false">
+    <Template id="3110"
+              name="언데드 장군"
+              scale="1.1"
+              gender="male"
+              race="UndeadCommander"
+              size="medium"
+              shapeId="301146"
+              basicActionId="3011400"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="30114000"
+              balanceType="인던_네임드_기본"
+              elite="false"
+              invincible="false"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              partyMember="5"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -290,9 +889,26 @@
         <Anger gaugeSize="0" />
         <BalanceRef ignoreAttr="" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="65" atk="10059" def="4464" maxHp="2900000" />
+        <Stat level="65"
+              atk="10059"
+              def="4464"
+              maxHp="2900000" />
     </Template>
-    <Template id="6001" name="사제 버프" scale="1" size="medium" shapeId="600962" basicActionId="6009600" parentId="60096200" balanceType="" deathShapeId="600965" elite="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="6001"
+              name="사제 버프"
+              scale="1"
+              size="medium"
+              shapeId="600962"
+              basicActionId="6009600"
+              parentId="60096200"
+              balanceType=""
+              deathShapeId="600965"
+              elite="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <Aggro />
         <Anger gaugeSize="102890.796875" />
         <BalanceRef ignoreAttr="" />
@@ -300,9 +916,26 @@
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="54" atk="265" def="2338" maxHp="0" />
+        <Stat level="54"
+              atk="265"
+              def="2338"
+              maxHp="0" />
     </Template>
-    <Template id="6002" name="정령 버프" scale="1" size="medium" shapeId="600963" basicActionId="6009600" parentId="60096300" balanceType="" deathShapeId="600966" elite="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="6002"
+              name="정령 버프"
+              scale="1"
+              size="medium"
+              shapeId="600963"
+              basicActionId="6009600"
+              parentId="60096300"
+              balanceType=""
+              deathShapeId="600966"
+              elite="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <Aggro />
         <Anger gaugeSize="102890.796875" />
         <BalanceRef ignoreAttr="" />
@@ -310,9 +943,28 @@
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="54" atk="265" def="2338" maxHp="0" />
+        <Stat level="54"
+              atk="265"
+              def="2338"
+              maxHp="0" />
     </Template>
-    <Template id="93931" name="3넴_투명NPC_1번대상누킹" scale="1.3" race="invisibleObject" size="large" shapeId="303493" basicActionId="6114100" resourceSize="0" resourceType="" isWideBroadcaster="true" parentId="61196000" elite="false" invincible="true" isObjectNpc="false" showTargetInfo="false" unionElite="false" villager="false">
+    <Template id="93931"
+              name="3넴_투명NPC_1번대상누킹"
+              scale="1.3"
+              race="invisibleObject"
+              size="large"
+              shapeId="303493"
+              basicActionId="6114100"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="true"
+              parentId="61196000"
+              elite="false"
+              invincible="true"
+              isObjectNpc="false"
+              showTargetInfo="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <AltAnimation />
@@ -322,9 +974,28 @@
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="68" atk="7000" def="8960" maxHp="500000000" />
+        <Stat level="68"
+              atk="7000"
+              def="8960"
+              maxHp="500000000" />
     </Template>
-    <Template id="93932" name="3넴_투명NPC_2번대상누킹" scale="1.3" race="invisibleObject" size="large" shapeId="303493" basicActionId="6114100" resourceSize="0" resourceType="" isWideBroadcaster="true" parentId="61196000" elite="false" invincible="true" isObjectNpc="false" showTargetInfo="false" unionElite="false" villager="false">
+    <Template id="93932"
+              name="3넴_투명NPC_2번대상누킹"
+              scale="1.3"
+              race="invisibleObject"
+              size="large"
+              shapeId="303493"
+              basicActionId="6114100"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="true"
+              parentId="61196000"
+              elite="false"
+              invincible="true"
+              isObjectNpc="false"
+              showTargetInfo="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <AltAnimation />
@@ -334,9 +1005,28 @@
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="68" atk="7000" def="8960" maxHp="500000000" />
+        <Stat level="68"
+              atk="7000"
+              def="8960"
+              maxHp="500000000" />
     </Template>
-    <Template id="93933" name="3넴_투명NPC_3번대상누킹" scale="1.3" race="invisibleObject" size="large" shapeId="303493" basicActionId="6114100" resourceSize="0" resourceType="" isWideBroadcaster="true" parentId="61196000" elite="false" invincible="true" isObjectNpc="false" showTargetInfo="false" unionElite="false" villager="false">
+    <Template id="93933"
+              name="3넴_투명NPC_3번대상누킹"
+              scale="1.3"
+              race="invisibleObject"
+              size="large"
+              shapeId="303493"
+              basicActionId="6114100"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="true"
+              parentId="61196000"
+              elite="false"
+              invincible="true"
+              isObjectNpc="false"
+              showTargetInfo="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <AltAnimation />
@@ -346,9 +1036,28 @@
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="68" atk="7000" def="8960" maxHp="500000000" />
+        <Stat level="68"
+              atk="7000"
+              def="8960"
+              maxHp="500000000" />
     </Template>
-    <Template id="93934" name="3넴_투명NPC_4번대상누킹" scale="1.3" race="invisibleObject" size="large" shapeId="303493" basicActionId="6114100" resourceSize="0" resourceType="" isWideBroadcaster="true" parentId="61196000" elite="false" invincible="true" isObjectNpc="false" showTargetInfo="false" unionElite="false" villager="false">
+    <Template id="93934"
+              name="3넴_투명NPC_4번대상누킹"
+              scale="1.3"
+              race="invisibleObject"
+              size="large"
+              shapeId="303493"
+              basicActionId="6114100"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="true"
+              parentId="61196000"
+              elite="false"
+              invincible="true"
+              isObjectNpc="false"
+              showTargetInfo="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <AltAnimation />
@@ -358,9 +1067,28 @@
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="68" atk="7000" def="8960" maxHp="500000000" />
+        <Stat level="68"
+              atk="7000"
+              def="8960"
+              maxHp="500000000" />
     </Template>
-    <Template id="93935" name="3넴_투명NPC_5번대상누킹" scale="1.3" race="invisibleObject" size="large" shapeId="303493" basicActionId="6114100" resourceSize="0" resourceType="" isWideBroadcaster="true" parentId="61196000" elite="false" invincible="true" isObjectNpc="false" showTargetInfo="false" unionElite="false" villager="false">
+    <Template id="93935"
+              name="3넴_투명NPC_5번대상누킹"
+              scale="1.3"
+              race="invisibleObject"
+              size="large"
+              shapeId="303493"
+              basicActionId="6114100"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="true"
+              parentId="61196000"
+              elite="false"
+              invincible="true"
+              isObjectNpc="false"
+              showTargetInfo="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <AltAnimation />
@@ -370,9 +1098,28 @@
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="68" atk="7000" def="8960" maxHp="500000000" />
+        <Stat level="68"
+              atk="7000"
+              def="8960"
+              maxHp="500000000" />
     </Template>
-    <Template id="93936" name="3넴_투명NPC_3페이즈누킹" scale="1.3" race="invisibleObject" size="large" shapeId="303493" basicActionId="6114100" resourceSize="0" resourceType="" isWideBroadcaster="true" parentId="61196000" elite="false" invincible="true" isObjectNpc="false" showTargetInfo="false" unionElite="false" villager="false">
+    <Template id="93936"
+              name="3넴_투명NPC_3페이즈누킹"
+              scale="1.3"
+              race="invisibleObject"
+              size="large"
+              shapeId="303493"
+              basicActionId="6114100"
+              resourceSize="0"
+              resourceType=""
+              isWideBroadcaster="true"
+              parentId="61196000"
+              elite="false"
+              invincible="true"
+              isObjectNpc="false"
+              showTargetInfo="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <AltAnimation />
@@ -382,6 +1129,9 @@
             <RepeatSkill />
         </ObjectNpcAiParam>
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="68" atk="7000" def="8960" maxHp="500000000" />
+        <Stat level="68"
+              atk="7000"
+              def="8960"
+              maxHp="500000000" />
     </Template>
 </NpcData>

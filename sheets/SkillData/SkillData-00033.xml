@@ -1,71 +1,195 @@
-<SkillData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/SkillData SkillData.xsd" templateId="9999" huntingZoneId="0" xmlns="https://vezel.dev/novadrop/dc/SkillData">
-    <Skill id="8881001" category="8881001" name="길드장_길드원_소환" type="notimeline" templateId="9999" nextSkill="0" ignoreDefence="true" autoUse="false" timeRate="1.1" attackRange="100.000000" changeDirToCenter="true" needWeapon="true" pushtarget="pass" returnAnimName="Wait" returnAnimSet="" totalAtk="0.0000">
+<SkillData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://vezel.dev/novadrop/dc/SkillData SkillData.xsd"
+           templateId="9999"
+           huntingZoneId="0"
+           xmlns="https://vezel.dev/novadrop/dc/SkillData">
+    <Skill id="8881001"
+           category="8881001"
+           name="길드장_길드원_소환"
+           type="notimeline"
+           templateId="9999"
+           nextSkill="0"
+           ignoreDefence="true"
+           autoUse="false"
+           timeRate="1.1"
+           attackRange="100.000000"
+           changeDirToCenter="true"
+           needWeapon="true"
+           pushtarget="pass"
+           returnAnimName="Wait"
+           returnAnimSet=""
+           totalAtk="0.0000">
         <Action>
             <CameraShakeList />
-            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
-            <Cancel frontCancelEndTime="0" rearCancelStartTime="0" />
-            <MoveInvincible startTime="0" endTime="0" />
+            <CameraType type="none"
+                        duration="2000"
+                        startTime="0"
+                        weight="2"
+                        prepareStageId="0"
+                        startStageId="0" />
+            <Cancel frontCancelEndTime="0"
+                    rearCancelStartTime="0" />
+            <MoveInvincible startTime="0"
+                            endTime="0" />
             <Pending startTime="500" />
             <SpecialEffectList />
             <StageList>
-                <Stage changeDirToTarget="true" movable="false">
-                    <AnimSeq animSet="" duration="2000" animName="" animRate="1" blendInTime="200" bAnimLooping="true" animMotionId="1" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" />
-                    <AnimSeq animSet="" duration="0" animName="" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="7" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" />
+                <Stage changeDirToTarget="true"
+                       movable="false">
+                    <AnimSeq animSet=""
+                             duration="2000"
+                             animName=""
+                             animRate="1"
+                             blendInTime="200"
+                             bAnimLooping="true"
+                             animMotionId="1"
+                             loopingRate="1"
+                             readOnlyDuration="0"
+                             rootMotionXYRate="1"
+                             rootMotionZRate="1" />
+                    <AnimSeq animSet=""
+                             duration="0"
+                             animName=""
+                             animRate="1"
+                             blendInTime="200"
+                             bAnimLooping="false"
+                             animMotionId="7"
+                             loopingRate="1"
+                             readOnlyDuration="0"
+                             rootMotionXYRate="1"
+                             rootMotionZRate="1" />
                     <Property />
                 </Stage>
             </StageList>
         </Action>
         <Anger speedUpRate="0" />
-        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="0" startSkill="0" />
-        <Defence successAnimName="" successAnimSet="" />
+        <Bullet detachTime="0"
+                shotSkill="0"
+                createTime="0"
+                flyingDuration="0"
+                startSkill="0" />
+        <Defence successAnimName=""
+                 successAnimSet="" />
         <Drain backSkillId="0" />
-        <Precondition coolTime="3600000" modeChangeMethod="2" modeNo="0">
-            <Cost hp="0" mp="0" />
+        <Precondition coolTime="3600000"
+                      modeChangeMethod="2"
+                      modeNo="0">
+            <Cost hp="0"
+                  mp="0" />
             <ExclusiveAbnormality />
         </Precondition>
-        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
-        <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
-        <Property weaponStatus="out" reactionPendingType="normal" skillPendingType="normal" />
+        <Projectile lifeTime="0"
+                    areaBoxSizeX="0"
+                    areaBoxSizeY="0"
+                    areaBoxSizeZ="0"
+                    loopingTime="0" />
+        <Property weaponStatus="in"
+                  reactionPendingType="normal"
+                  skillPendingType="normal" />
+        <Property weaponStatus="out"
+                  reactionPendingType="normal"
+                  skillPendingType="normal" />
         <TargetingList>
-            <Targeting id="-1" time="0" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0">
+            <Targeting id="-1"
+                       time="0"
+                       method="normal"
+                       type="none"
+                       startTime="0"
+                       endTime="0"
+                       interval="0"
+                       until="0">
                 <AreaList>
-                    <Area type="me" rotateAngle="0" maxHeight="100" maxCount="20" offsetAngle="0" offsetDistance="0" maxRadius="100" pierceDepth="1" minHeight="-75" rangeAngle="360" crosshairRadius="1" minRadius="0">
-                        <Effect atk="0" abnormalityRate="0">
+                    <Area type="me"
+                          rotateAngle="0"
+                          maxHeight="100"
+                          maxCount="20"
+                          offsetAngle="0"
+                          offsetDistance="0"
+                          maxRadius="100"
+                          pierceDepth="1"
+                          minHeight="-75"
+                          rangeAngle="360"
+                          crosshairRadius="1"
+                          minRadius="0">
+                        <Effect atk="0"
+                                abnormalityRate="0">
                             <HpDiff value="0" />
                             <MpDiff value="0" />
                             <Teleport type="GUILD" />
                         </Effect>
                         <HitEffect type="nothing" />
-                        <Reaction basicRate="0" miniRate="0" />
+                        <Reaction basicRate="0"
+                                  miniRate="0" />
                     </Area>
                 </AreaList>
-                <Cost hp="0" mp="0" />
+                <Cost hp="0"
+                      mp="0" />
             </Targeting>
         </TargetingList>
-        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+        <Teleport type="BONFIRE"
+                  range="0"
+                  istrue="false"
+                  distRange="0" />
     </Skill>
-    <Skill id="8881002" category="8881001" name="길드스킬_길드원_버프_결전" type="notimeline" templateId="9999" nextSkill="0" ignoreDefence="true" autoUse="false" timeRate="1.1" attackRange="100.000000" changeDirToCenter="false" needWeapon="false" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000" waistAngleIK="false">
+    <Skill id="8881002"
+           category="8881001"
+           name="길드스킬_길드원_버프_결전"
+           type="notimeline"
+           templateId="9999"
+           nextSkill="0"
+           ignoreDefence="true"
+           autoUse="false"
+           timeRate="1.1"
+           attackRange="100.000000"
+           changeDirToCenter="false"
+           needWeapon="false"
+           pushtarget="pass"
+           returnAnimName=""
+           returnAnimSet=""
+           totalAtk="0.000000"
+           waistAngleIK="false">
         <Action>
             <CameraShakeList />
-            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
-            <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
-            <MoveInvincible startTime="0" endTime="0" />
+            <CameraType type="none"
+                        duration="2000"
+                        startTime="0"
+                        weight="2"
+                        prepareStageId="0"
+                        startStageId="0" />
+            <Cancel frontCancelEndTime="0"
+                    rearCancelStartTime="-1" />
+            <MoveInvincible startTime="0"
+                            endTime="0" />
             <Pending startTime="-1" />
             <SpecialEffectList />
         </Action>
         <Anger speedUpRate="0" />
-        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
-        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Bullet detachTime="0"
+                shotSkill="0"
+                createTime="0"
+                flyingDuration="1000"
+                startSkill="-1" />
+        <Defence rootMotion="false"
+                 successAnimName=""
+                 successAnimSet="" />
         <Drain backSkillId="0" />
-        <Precondition coolTime="3600000" modeChangeMethod="2" modeNo="0">
-            <Cost hp="0" mp="0" />
+        <Precondition coolTime="3600000"
+                      modeChangeMethod="2"
+                      modeNo="0">
+            <Cost hp="0"
+                  mp="0" />
             <ExclusiveAbnormality />
         </Precondition>
-        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0">
+        <Projectile lifeTime="0"
+                    areaBoxSizeX="0"
+                    areaBoxSizeY="0"
+                    areaBoxSizeZ="0"
+                    loopingTime="0">
             <TargetingList>
                 <Targeting>
                     <AreaList>
-                        <Area time="0" maxCount="10">
+                        <Area time="0"
+                              maxCount="10">
                             <Effect atk="0">
                                 <HpDiff value="0" />
                                 <MpDiff value="0" />
@@ -76,46 +200,106 @@
                 </Targeting>
             </TargetingList>
         </Projectile>
-        <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+        <Property weaponStatus="in"
+                  reactionPendingType="normal"
+                  skillPendingType="normal" />
         <TargetingList>
-            <Targeting id="-1" time="0" method="normal" interval="0" until="0">
+            <Targeting id="-1"
+                       time="0"
+                       method="normal"
+                       interval="0"
+                       until="0">
                 <AreaList>
-                    <Area type="me" rotateAngle="0" maxHeight="0" maxCount="20" offsetAngle="0" offsetDistance="0" maxRadius="50" pierceDepth="1" minHeight="0" rangeAngle="0" crosshairRadius="1" minRadius="0">
-                        <Effect atk="0" abnormalityRate="0">
+                    <Area type="me"
+                          rotateAngle="0"
+                          maxHeight="0"
+                          maxCount="20"
+                          offsetAngle="0"
+                          offsetDistance="0"
+                          maxRadius="50"
+                          pierceDepth="1"
+                          minHeight="0"
+                          rangeAngle="0"
+                          crosshairRadius="1"
+                          minRadius="0">
+                        <Effect atk="0"
+                                abnormalityRate="0">
                             <HpDiff value="0" />
                             <MpDiff value="0" />
                         </Effect>
                         <HitEffect type="onlyDamage" />
-                        <Reaction basicRate="1.5" miniRate="0" />
+                        <Reaction basicRate="1.5"
+                                  miniRate="0" />
                     </Area>
                 </AreaList>
-                <Cost hp="0" mp="0" />
+                <Cost hp="0"
+                      mp="0" />
             </Targeting>
         </TargetingList>
-        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+        <Teleport type="BONFIRE"
+                  range="0"
+                  istrue="false"
+                  distRange="0" />
     </Skill>
-    <Skill id="8881003" category="8881001" name="길드스킬_길드원_버프_난공불락" type="notimeline" templateId="9999" nextSkill="0" ignoreDefence="true" autoUse="false" timeRate="1.1" attackRange="100.000000" changeDirToCenter="false" needWeapon="false" pushtarget="pass" returnAnimName="" returnAnimSet="" totalAtk="0.000000" waistAngleIK="false">
+    <Skill id="8881003"
+           category="8881001"
+           name="길드스킬_길드원_버프_난공불락"
+           type="notimeline"
+           templateId="9999"
+           nextSkill="0"
+           ignoreDefence="true"
+           autoUse="false"
+           timeRate="1.1"
+           attackRange="100.000000"
+           changeDirToCenter="false"
+           needWeapon="false"
+           pushtarget="pass"
+           returnAnimName=""
+           returnAnimSet=""
+           totalAtk="0.000000"
+           waistAngleIK="false">
         <Action>
             <CameraShakeList />
-            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
-            <Cancel frontCancelEndTime="0" rearCancelStartTime="-1" />
-            <MoveInvincible startTime="0" endTime="0" />
+            <CameraType type="none"
+                        duration="2000"
+                        startTime="0"
+                        weight="2"
+                        prepareStageId="0"
+                        startStageId="0" />
+            <Cancel frontCancelEndTime="0"
+                    rearCancelStartTime="-1" />
+            <MoveInvincible startTime="0"
+                            endTime="0" />
             <Pending startTime="-1" />
             <SpecialEffectList />
         </Action>
         <Anger speedUpRate="0" />
-        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
-        <Defence rootMotion="false" successAnimName="" successAnimSet="" />
+        <Bullet detachTime="0"
+                shotSkill="0"
+                createTime="0"
+                flyingDuration="1000"
+                startSkill="-1" />
+        <Defence rootMotion="false"
+                 successAnimName=""
+                 successAnimSet="" />
         <Drain backSkillId="0" />
-        <Precondition coolTime="3600000" modeChangeMethod="2" modeNo="0">
-            <Cost hp="0" mp="0" />
+        <Precondition coolTime="3600000"
+                      modeChangeMethod="2"
+                      modeNo="0">
+            <Cost hp="0"
+                  mp="0" />
             <ExclusiveAbnormality />
         </Precondition>
-        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0">
+        <Projectile lifeTime="0"
+                    areaBoxSizeX="0"
+                    areaBoxSizeY="0"
+                    areaBoxSizeZ="0"
+                    loopingTime="0">
             <TargetingList>
                 <Targeting>
                     <AreaList>
-                        <Area time="0" maxCount="10">
+                        <Area time="0"
+                              maxCount="10">
                             <Effect atk="0">
                                 <HpDiff value="0" />
                                 <MpDiff value="0" />
@@ -126,22 +310,45 @@
                 </Targeting>
             </TargetingList>
         </Projectile>
-        <Property weaponStatus="in" reactionPendingType="normal" skillPendingType="normal" />
+        <Property weaponStatus="in"
+                  reactionPendingType="normal"
+                  skillPendingType="normal" />
         <TargetingList>
-            <Targeting id="-1" time="0" method="normal" interval="0" until="0">
+            <Targeting id="-1"
+                       time="0"
+                       method="normal"
+                       interval="0"
+                       until="0">
                 <AreaList>
-                    <Area type="me" rotateAngle="0" maxHeight="0" maxCount="20" offsetAngle="0" offsetDistance="0" maxRadius="50" pierceDepth="1" minHeight="0" rangeAngle="0" crosshairRadius="1" minRadius="0">
-                        <Effect atk="0" abnormalityRate="0">
+                    <Area type="me"
+                          rotateAngle="0"
+                          maxHeight="0"
+                          maxCount="20"
+                          offsetAngle="0"
+                          offsetDistance="0"
+                          maxRadius="50"
+                          pierceDepth="1"
+                          minHeight="0"
+                          rangeAngle="0"
+                          crosshairRadius="1"
+                          minRadius="0">
+                        <Effect atk="0"
+                                abnormalityRate="0">
                             <HpDiff value="0" />
                             <MpDiff value="0" />
                         </Effect>
                         <HitEffect type="onlyDamage" />
-                        <Reaction basicRate="1.5" miniRate="0" />
+                        <Reaction basicRate="1.5"
+                                  miniRate="0" />
                     </Area>
                 </AreaList>
-                <Cost hp="0" mp="0" />
+                <Cost hp="0"
+                      mp="0" />
             </Targeting>
         </TargetingList>
-        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+        <Teleport type="BONFIRE"
+                  range="0"
+                  istrue="false"
+                  distRange="0" />
     </Skill>
 </SkillData>

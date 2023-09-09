@@ -1,339 +1,678 @@
-<StrSheet_EquipmentSetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/StrSheet_EquipmentSetData StrSheet_EquipmentSetData.xsd" xmlns="https://vezel.dev/novadrop/dc/StrSheet_EquipmentSetData">
-    <String id="8001" string="Patron Weapon" />
-    <String id="8003" string="Patron Body Armor" />
-    <String id="8004" string="Patron Handwear" />
-    <String id="8005" string="Patron Footwear" />
-    <String id="8011" string="Devastator Weapon" />
-    <String id="8013" string="Devastator Body Armor" />
-    <String id="8014" string="Devastator Handwear" />
-    <String id="8015" string="Devastator Footwear" />
-    <String id="8021" string="Archetype Weapon" />
-    <String id="8023" string="Archetype Body Armor" />
-    <String id="8024" string="Archetype Handwear" />
-    <String id="8025" string="Archetype Footwear" />
-    <String id="8036" string="Escutcheon Earring" />
-    <String id="8037" string="Escutcheon Earring" />
-    <String id="8038" string="Escutcheon Ring" />
-    <String id="8039" string="Escutcheon Ring" />
-    <String id="8046" string="Harrier Earring" />
-    <String id="8047" string="Harrier Earring" />
-    <String id="8048" string="Harrier Ring" />
-    <String id="8049" string="Harrier Ring" />
-    <String id="8056" string="Melior Earring" />
-    <String id="8057" string="Melior Earring" />
-    <String id="8058" string="Melior Ring" />
-    <String id="8059" string="Melior Ring" />
-    <String id="8066" string="Sunturn Earring" />
-    <String id="8067" string="Sunturn Earring" />
-    <String id="8068" string="Sunturn Ring" />
-    <String id="8069" string="Sunturn Ring" />
-    <String id="8076" string="Seaturn Earring" />
-    <String id="8077" string="Seaturn Earring" />
-    <String id="8078" string="Seaturn Ring" />
-    <String id="8079" string="Seaturn Ring" />
-    <String id="8086" string="Sandturn Earring" />
-    <String id="8087" string="Sandturn Earring" />
-    <String id="8088" string="Sandturn Ring" />
-    <String id="8089" string="Sandturn Ring" />
-    <String id="8091" string="Opportune Weapon" />
-    <String id="8093" string="Opportune Body Armor" />
-    <String id="8094" string="Opportune Handwear" />
-    <String id="8095" string="Opportune Footwear" />
-    <String id="8101" string="Favored Weapon" />
-    <String id="8103" string="Favored Body Armor" />
-    <String id="8104" string="Favored Handwear" />
-    <String id="8105" string="Favored Footwear" />
-    <String id="8111" string="Advantaged Weapon" />
-    <String id="8113" string="Advantaged Body Armor" />
-    <String id="8114" string="Advantaged Handwear" />
-    <String id="8115" string="Advantaged Footwear" />
-    <String id="8201" string="Test Weapon" />
-    <String id="8202" string="Test Armor" />
-    <String id="8203" string="Test Handwear" />
-    <String id="8204" string="Test Foortwear" />
-    <String id="8205" string="Test Belt" />
-    <String id="9001" string="Ambit Weapon" />
-    <String id="9003" string="Ambit Body Armor" />
-    <String id="9004" string="Ambit Handwear" />
-    <String id="9005" string="Ambit Footwear" />
-    <String id="9011" string="Discovery Weapon" />
-    <String id="9013" string="Discovery Body Armor" />
-    <String id="9014" string="Discovery Handwear" />
-    <String id="9015" string="Discovery Footwear" />
-    <String id="9021" string="Generation Weapon" />
-    <String id="9023" string="Generation Body Armor" />
-    <String id="9024" string="Generation Handwear" />
-    <String id="9025" string="Generation Footwear" />
-    <String id="9036" string="Foresttune Earring" />
-    <String id="9037" string="Foresttune Earring" />
-    <String id="9038" string="Foresttune Ring" />
-    <String id="9039" string="Foresttune Ring" />
-    <String id="9046" string="Firetune Earring" />
-    <String id="9047" string="Firetune Earring" />
-    <String id="9048" string="Firetune Ring" />
-    <String id="9049" string="Firetune Ring" />
-    <String id="9056" string="Rivertune Earring" />
-    <String id="9057" string="Rivertune Earring" />
-    <String id="9058" string="Rivertune Ring" />
-    <String id="9059" string="Rivertune Ring" />
-    <String id="9061" string="Controvert Weapon" />
-    <String id="9063" string="Controvert Body Armor" />
-    <String id="9064" string="Controvert Handwear" />
-    <String id="9065" string="Controvert Footwear" />
-    <String id="9071" string="Defiance Weapon" />
-    <String id="9073" string="Defiance Body Armor" />
-    <String id="9074" string="Defiance Handwear" />
-    <String id="9075" string="Defiance Footwear" />
-    <String id="9081" string="Renegade Weapon" />
-    <String id="9083" string="Renegade Body Armor" />
-    <String id="9084" string="Renegade Handwear" />
-    <String id="9085" string="Renegade Footwear" />
-    <String id="9096" string="Bloodwise Earring" />
-    <String id="9097" string="Bloodwise Earring" />
-    <String id="9098" string="Bloodwise Ring" />
-    <String id="9099" string="Bloodwise Ring" />
-    <String id="9106" string="Frostwise Earring" />
-    <String id="9107" string="Frostwise Earring" />
-    <String id="9108" string="Frostwise Ring" />
-    <String id="9109" string="Frostwise Ring" />
-    <String id="9116" string="Deathwise Earring" />
-    <String id="9117" string="Deathwise Earring" />
-    <String id="9118" string="Deathwise Ring" />
-    <String id="9119" string="Deathwise Ring" />
-    <String id="9121" string="Idoneal Weapon" />
-    <String id="9123" string="Idoneal Body Armor" />
-    <String id="9124" string="Idoneal Handwear" />
-    <String id="9125" string="Idoneal Footwear" />
-    <String id="10001" string="Wroth Weapon" />
-    <String id="10003" string="Wroth Body Armor" />
-    <String id="10004" string="Wroth Handwear" />
-    <String id="10005" string="Wroth Footwear" />
-    <String id="10011" string="Schisma Weapon" />
-    <String id="10013" string="Schisma Body Armor" />
-    <String id="10014" string="Schisma Handwear" />
-    <String id="10015" string="Schisma Footwear" />
-    <String id="10021" string="Lucid Weapon" />
-    <String id="10023" string="Lucid Body Armor" />
-    <String id="10024" string="Lucid Handwear" />
-    <String id="10025" string="Lucid Footwear" />
-    <String id="10036" string="Iretime Earring" />
-    <String id="10037" string="Iretime Earring" />
-    <String id="10038" string="Iretime Ring" />
-    <String id="10039" string="Iretime Ring" />
-    <String id="10046" string="Edgetime Earring" />
-    <String id="10047" string="Edgetime Earring" />
-    <String id="10048" string="Edgetime Ring" />
-    <String id="10049" string="Edgetime Ring" />
-    <String id="10056" string="Forcetime Earring" />
-    <String id="10057" string="Forcetime Earring" />
-    <String id="10058" string="Forcetime Ring" />
-    <String id="10059" string="Forcetime Ring" />
-    <String id="10061" string="Deviate Weapon" />
-    <String id="10063" string="Deviate Body Armor" />
-    <String id="10064" string="Deviate Handwear" />
-    <String id="10065" string="Deviate Footwear" />
-    <String id="10066" string="Lifetime Earring" />
-    <String id="10067" string="Lifetime Earring" />
-    <String id="10068" string="Lifetime Ring" />
-    <String id="10069" string="Lifetime Ring" />
-    <String id="10071" string="Tensus Weapon" />
-    <String id="10073" string="Tensus Body Armor" />
-    <String id="10074" string="Tensus Handwear" />
-    <String id="10075" string="Tensus Footwear" />
-    <String id="10081" string="Fulminate Weapon" />
-    <String id="10083" string="Fulminate Body Armor" />
-    <String id="10084" string="Fulminate Handwear" />
-    <String id="10085" string="Fulminate Footwear" />
-    <String id="10091" string="Conflict Weapon" />
-    <String id="10093" string="Conflict Body Armor" />
-    <String id="10094" string="Conflict Handwear" />
-    <String id="10095" string="Conflict Footwear" />
-    <String id="10096" string="Conflict Earring" />
-    <String id="10097" string="Conflict Earring" />
-    <String id="10098" string="Conflict Ring" />
-    <String id="10099" string="Conflict Ring" />
-    <String id="11001" string="[PC Cafe] Conqueror's Weapon" />
-    <String id="11003" string="[PC Cafe] Conqueror's Body Armor" />
-    <String id="11004" string="[PC Cafe] Conqueror's Handwear" />
-    <String id="11005" string="[PC Cafe] Conqueror's Footwear" />
-    <String id="11011" string="Dreadnaught Weapon" />
-    <String id="11013" string="Dreadnaught Body Armor" />
-    <String id="11014" string="Dreadnaught Handwear" />
-    <String id="11015" string="Dreadnaught Footwear" />
-    <String id="11021" string="Starfall Weapon" />
-    <String id="11023" string="Starfall Body Armor" />
-    <String id="11024" string="Starfall Handwear" />
-    <String id="11025" string="Starfall Footwear" />
-    <String id="11036" string="Brigantine or Man-o'War Earring" />
-    <String id="11037" string="Brigantine or Man-o'-War Earring" />
-    <String id="11038" string="Brigantine or Man-o'-War Ring" />
-    <String id="11039" string="Brigantine or Man-o'-War Ring" />
-    <String id="11046" string="Cutter or Corvette Earring" />
-    <String id="11047" string="Cutter or Corvette Earring" />
-    <String id="11048" string="Cutter or Corvette Ring" />
-    <String id="11049" string="Cutter or Corvette Ring" />
-    <String id="11056" string="Galley or Galleon Earring" />
-    <String id="11057" string="Galley or Galleon Earring" />
-    <String id="11058" string="Galley or Galleon Ring" />
-    <String id="11059" string="Galley or Galleon Ring" />
-    <String id="11066" string="Pinnace or Argosy Earring" />
-    <String id="11067" string="Pinnace or Argosy Earring" />
-    <String id="11068" string="Pinnace or Argosy Ring" />
-    <String id="11069" string="Pinnace or Argosy Ring" />
-    <String id="11070" string="Shademaze Earring" />
-    <String id="11071" string="Shademaze Ring" />
-    <String id="11072" string="Bloodmaze Earring" />
-    <String id="11073" string="Bloodmaze Ring" />
-    <String id="11075" string="Conflate Weapon" />
-    <String id="11076" string="Conflate Body Armor" />
-    <String id="11077" string="Conflate Handwear" />
-    <String id="11078" string="Conflate Footwear" />
-    <String id="11116" string="Shadowgate Earring" />
-    <String id="11117" string="Vainshadow Earring" />
-    <String id="11118" string="Shadowgate Ring" />
-    <String id="11119" string="Vainshadow Ring" />
-    <String id="11126" string="Bloodgate Earring" />
-    <String id="11127" string="Bloodvain Earring" />
-    <String id="11128" string="Bloodgate Ring" />
-    <String id="11129" string="Bloodvain Ring" />
-    <String id="11131" string="Slaughter Weapon" />
-    <String id="11133" string="Slaughter Body Armor" />
-    <String id="11134" string="Slaughter Handwear" />
-    <String id="11135" string="Slaughter Footwear" />
-    <String id="11141" string="Imperator Weapon" />
-    <String id="11143" string="Imperator Body Armor" />
-    <String id="11144" string="Imperator Handwear" />
-    <String id="11145" string="Imperator Footwear" />
-    <String id="11151" string="Guile Weapon" />
-    <String id="11153" string="Guile Body Armor" />
-    <String id="11154" string="Guile Handwear" />
-    <String id="11155" string="Guile Footwear" />
-    <String id="11161" string="Ambush Weapon" />
-    <String id="11163" string="Ambush Body Armor" />
-    <String id="11164" string="Ambush Handwear" />
-    <String id="11165" string="Ambush Footwear" />
-    <String id="11171" string="Behemoth Weapon" />
-    <String id="11173" string="Behemoth Body Armor" />
-    <String id="11174" string="Behemoth Handwear" />
-    <String id="11175" string="Behemoth Footwear" />
-    <String id="11185" string="Manor Necklace" />
-    <String id="11186" string="Manor Earring" />
-    <String id="11187" string="Manor Earring" />
-    <String id="11188" string="Manor Ring" />
-    <String id="11189" string="Manor Ring" />
-    <String id="11195" string="Estate Necklace" />
-    <String id="11196" string="Estate Earring" />
-    <String id="11197" string="Estate Earring" />
-    <String id="11198" string="Estate Ring" />
-    <String id="11199" string="Estate Ring" />
-    <String id="11200" string="Blubred Earring" />
-    <String id="11201" string="Blubred Ring" />
-    <String id="11203" string="Blubred Necklace" />
-    <String id="11211" string="Landsheart Earring" />
-    <String id="11212" string="Landsheart Ring" />
-    <String id="11213" string="Landsheart Necklace" />
-    <String id="11221" string="Misery Weapon" />
-    <String id="11223" string="Misery Armor" />
-    <String id="11224" string="Misery Handwear" />
-    <String id="11225" string="Misery Footwear" />
-    <String id="11231" string="Deathwrack Weapon" />
-    <String id="11233" string="Deathwrack Armor" />
-    <String id="11234" string="Deathwrack Handwear" />
-    <String id="11235" string="Deathwrack Footwear" />
-    <String id="11241" string="Oblit Weapon" />
-    <String id="11243" string="Oblit Armor" />
-    <String id="11244" string="Oblit Handwear" />
-    <String id="11245" string="Oblit Footwear" />
-    <String id="11255" string="Godly Necklace" />
-    <String id="11256" string="Godly Earring" />
-    <String id="11257" string="Godly Earring" />
-    <String id="11258" string="Godly Ring" />
-    <String id="11259" string="Godly Ring" />
-    <String id="11265" string="Heavenly Necklace" />
-    <String id="11266" string="Heavenly Earring" />
-    <String id="11267" string="Heavenly Earring" />
-    <String id="11268" string="Heavenly Ring" />
-    <String id="11269" string="Heavenly Ring" />
-    <String id="11270" string="Keytrap Earring" />
-    <String id="11271" string="Keytrap Ring" />
-    <String id="11273" string="Keytrap Necklace" />
-    <String id="11281" string="Keylock Earring" />
-    <String id="11282" string="Keylock Ring" />
-    <String id="11283" string="Keylock Necklace" />
-    <String id="11284" string="[Amplification I] Stormcry (Heroic Oath) Belt" />
-    <String id="11285" string="[Amplification I] Entropy (Ethereal) Necklace" />
-    <String id="11286" string="[Amplification I] Entropy (Ethereal) Earring" />
-    <String id="11287" string="[Amplification I] Entropy (Ethereal) Earring" />
-    <String id="11288" string="[Amplification I] Entropy (Ethereal) Ring" />
-    <String id="11289" string="[Amplification I] Entropy (Ethereal) Ring" />
-    <String id="11290" string="[Amplification I] Entropy (Ethereal) Circlet" />
-    <String id="11291" string="[Amplification II] Ethereal Necklace" />
-    <String id="11292" string="[Amplification II] Ethereal Earring" />
-    <String id="11293" string="[Amplification II] Ethereal Earring" />
-    <String id="11294" string="[Amplification II] Ethereal Ring" />
-    <String id="11295" string="[Amplification II] Ethereal Ring" />
-    <String id="11296" string="Hagufna's Body Armor" />
-    <String id="11297" string="Hagufna's Bandana" />
-    <String id="11298" string="Evil God Armor" />
-    <String id="11299" string="Evil God Helmet" />
-    <String id="11300" string="Asgard Steel Armor" />
-    <String id="11301" string="Asgard Steel Helm" />
-    <String id="11302" string="Asgard Gold Armor" />
-    <String id="11303" string="Asgard Gold Helm" />
-    <String id="11304" string="Eternal Brawler's Armor" />
-    <String id="11305" string="Eternal Brawler's Mask" />
-    <String id="11306" string="Blazing Golden Dragon Armor" />
-    <String id="11307" string="Blazing Golden Dragon Wings" />
-    <String id="11308" string="Blazing Golden Dragon Helmet" />
-    <String id="11309" string="Gardan's Armor" />
-    <String id="11310" string="Gardan's Helmet" />
-    <String id="11311" string="Gardan's Cloak" />
-    <String id="11312" string="Shandra Manaya's Armor" />
-    <String id="11313" string="Argon Helmet" />
-    <String id="11314" string="Argon Queen's Wings" />
-    <String id="11315" string="Atlantean Guardian's Armor" />
-    <String id="11316" string="Hagufna's Cape" />
-    <String id="80019" string="Patron Belt" />
-    <String id="80119" string="Devastator Belt" />
-    <String id="80610" string="Sunturn Necklace" />
-    <String id="80710" string="Seaturn Necklace" />
-    <String id="80810" string="Sandturn Necklace" />
-    <String id="80919" string="Opportune Belt" />
-    <String id="81019" string="Favored Belt" />
-    <String id="81119" string="Advantaged Belt" />
-    <String id="90010" string="[Time-Limited]  Ambit Weapon" />
-    <String id="90019" string="Ambit Belt" />
-    <String id="90030" string="[Time-Limited]  Ambit Armor" />
-    <String id="90040" string="[Time-Limited]  Ambit Handwear" />
-    <String id="90050" string="[Time-Limited]  Ambit Footwear" />
-    <String id="90110" string="[Time-Limited] Discovery Weapon" />
-    <String id="90119" string="Discovery Belt" />
-    <String id="90130" string="[Time-Limited] Discovery Body Armor" />
-    <String id="90140" string="[Time-Limited] Discovery Handwear" />
-    <String id="90150" string="[Time-Limited] Discovery Footwear" />
-    <String id="90619" string="Controvert Belt" />
-    <String id="90719" string="Defiance Belt" />
-    <String id="90819" string="Renegade Belt" />
-    <String id="91219" string="Idoneal Belt" />
-    <String id="100019" string="Wroth Belt" />
-    <String id="100119" string="Schisma Belt" />
-    <String id="100219" string="Lucid Belt" />
-    <String id="100619" string="Deviate Belt" />
-    <String id="100719" string="Tensus Belt" />
-    <String id="100819" string="Fulminate Belt" />
-    <String id="100919" string="Conflict Belt" />
-    <String id="110019" string="Conqueror's Belt" />
-    <String id="110119" string="Dreadnaught Belt" />
-    <String id="110219" string="Starfall Belt" />
-    <String id="110759" string="Conflate Belt" />
-    <String id="111319" string="Slaughter Belt" />
-    <String id="111419" string="Imperator Belt" />
-    <String id="111519" string="Guile Belt" />
-    <String id="111619" string="Ambush Belt" />
-    <String id="111719" string="Behemoth Belt" />
-    <String id="112219" string="Misery Belt" />
-    <String id="112319" string="Deathwrack Belt" />
-    <String id="112419" string="Oblit Belt" />
-    <String id="900190" string="[Time-Limited]  Ambit Belt" />
-    <String id="901190" string="[Time-Limited] Discovery Belt" />
+<StrSheet_EquipmentSetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                           xsi:schemaLocation="https://vezel.dev/novadrop/dc/StrSheet_EquipmentSetData StrSheet_EquipmentSetData.xsd"
+                           xmlns="https://vezel.dev/novadrop/dc/StrSheet_EquipmentSetData">
+    <String id="8001"
+            string="Patron Weapon" />
+    <String id="8003"
+            string="Patron Body Armor" />
+    <String id="8004"
+            string="Patron Handwear" />
+    <String id="8005"
+            string="Patron Footwear" />
+    <String id="8011"
+            string="Devastator Weapon" />
+    <String id="8013"
+            string="Devastator Body Armor" />
+    <String id="8014"
+            string="Devastator Handwear" />
+    <String id="8015"
+            string="Devastator Footwear" />
+    <String id="8021"
+            string="Archetype Weapon" />
+    <String id="8023"
+            string="Archetype Body Armor" />
+    <String id="8024"
+            string="Archetype Handwear" />
+    <String id="8025"
+            string="Archetype Footwear" />
+    <String id="8036"
+            string="Escutcheon Earring" />
+    <String id="8037"
+            string="Escutcheon Earring" />
+    <String id="8038"
+            string="Escutcheon Ring" />
+    <String id="8039"
+            string="Escutcheon Ring" />
+    <String id="8046"
+            string="Harrier Earring" />
+    <String id="8047"
+            string="Harrier Earring" />
+    <String id="8048"
+            string="Harrier Ring" />
+    <String id="8049"
+            string="Harrier Ring" />
+    <String id="8056"
+            string="Melior Earring" />
+    <String id="8057"
+            string="Melior Earring" />
+    <String id="8058"
+            string="Melior Ring" />
+    <String id="8059"
+            string="Melior Ring" />
+    <String id="8066"
+            string="Sunturn Earring" />
+    <String id="8067"
+            string="Sunturn Earring" />
+    <String id="8068"
+            string="Sunturn Ring" />
+    <String id="8069"
+            string="Sunturn Ring" />
+    <String id="8076"
+            string="Seaturn Earring" />
+    <String id="8077"
+            string="Seaturn Earring" />
+    <String id="8078"
+            string="Seaturn Ring" />
+    <String id="8079"
+            string="Seaturn Ring" />
+    <String id="8086"
+            string="Sandturn Earring" />
+    <String id="8087"
+            string="Sandturn Earring" />
+    <String id="8088"
+            string="Sandturn Ring" />
+    <String id="8089"
+            string="Sandturn Ring" />
+    <String id="8091"
+            string="Opportune Weapon" />
+    <String id="8093"
+            string="Opportune Body Armor" />
+    <String id="8094"
+            string="Opportune Handwear" />
+    <String id="8095"
+            string="Opportune Footwear" />
+    <String id="8101"
+            string="Favored Weapon" />
+    <String id="8103"
+            string="Favored Body Armor" />
+    <String id="8104"
+            string="Favored Handwear" />
+    <String id="8105"
+            string="Favored Footwear" />
+    <String id="8111"
+            string="Advantaged Weapon" />
+    <String id="8113"
+            string="Advantaged Body Armor" />
+    <String id="8114"
+            string="Advantaged Handwear" />
+    <String id="8115"
+            string="Advantaged Footwear" />
+    <String id="8201"
+            string="Test Weapon" />
+    <String id="8202"
+            string="Test Armor" />
+    <String id="8203"
+            string="Test Handwear" />
+    <String id="8204"
+            string="Test Foortwear" />
+    <String id="8205"
+            string="Test Belt" />
+    <String id="9001"
+            string="Ambit Weapon" />
+    <String id="9003"
+            string="Ambit Body Armor" />
+    <String id="9004"
+            string="Ambit Handwear" />
+    <String id="9005"
+            string="Ambit Footwear" />
+    <String id="9011"
+            string="Discovery Weapon" />
+    <String id="9013"
+            string="Discovery Body Armor" />
+    <String id="9014"
+            string="Discovery Handwear" />
+    <String id="9015"
+            string="Discovery Footwear" />
+    <String id="9021"
+            string="Generation Weapon" />
+    <String id="9023"
+            string="Generation Body Armor" />
+    <String id="9024"
+            string="Generation Handwear" />
+    <String id="9025"
+            string="Generation Footwear" />
+    <String id="9036"
+            string="Foresttune Earring" />
+    <String id="9037"
+            string="Foresttune Earring" />
+    <String id="9038"
+            string="Foresttune Ring" />
+    <String id="9039"
+            string="Foresttune Ring" />
+    <String id="9046"
+            string="Firetune Earring" />
+    <String id="9047"
+            string="Firetune Earring" />
+    <String id="9048"
+            string="Firetune Ring" />
+    <String id="9049"
+            string="Firetune Ring" />
+    <String id="9056"
+            string="Rivertune Earring" />
+    <String id="9057"
+            string="Rivertune Earring" />
+    <String id="9058"
+            string="Rivertune Ring" />
+    <String id="9059"
+            string="Rivertune Ring" />
+    <String id="9061"
+            string="Controvert Weapon" />
+    <String id="9063"
+            string="Controvert Body Armor" />
+    <String id="9064"
+            string="Controvert Handwear" />
+    <String id="9065"
+            string="Controvert Footwear" />
+    <String id="9071"
+            string="Defiance Weapon" />
+    <String id="9073"
+            string="Defiance Body Armor" />
+    <String id="9074"
+            string="Defiance Handwear" />
+    <String id="9075"
+            string="Defiance Footwear" />
+    <String id="9081"
+            string="Renegade Weapon" />
+    <String id="9083"
+            string="Renegade Body Armor" />
+    <String id="9084"
+            string="Renegade Handwear" />
+    <String id="9085"
+            string="Renegade Footwear" />
+    <String id="9096"
+            string="Bloodwise Earring" />
+    <String id="9097"
+            string="Bloodwise Earring" />
+    <String id="9098"
+            string="Bloodwise Ring" />
+    <String id="9099"
+            string="Bloodwise Ring" />
+    <String id="9106"
+            string="Frostwise Earring" />
+    <String id="9107"
+            string="Frostwise Earring" />
+    <String id="9108"
+            string="Frostwise Ring" />
+    <String id="9109"
+            string="Frostwise Ring" />
+    <String id="9116"
+            string="Deathwise Earring" />
+    <String id="9117"
+            string="Deathwise Earring" />
+    <String id="9118"
+            string="Deathwise Ring" />
+    <String id="9119"
+            string="Deathwise Ring" />
+    <String id="9121"
+            string="Idoneal Weapon" />
+    <String id="9123"
+            string="Idoneal Body Armor" />
+    <String id="9124"
+            string="Idoneal Handwear" />
+    <String id="9125"
+            string="Idoneal Footwear" />
+    <String id="10001"
+            string="Wroth Weapon" />
+    <String id="10003"
+            string="Wroth Body Armor" />
+    <String id="10004"
+            string="Wroth Handwear" />
+    <String id="10005"
+            string="Wroth Footwear" />
+    <String id="10011"
+            string="Schisma Weapon" />
+    <String id="10013"
+            string="Schisma Body Armor" />
+    <String id="10014"
+            string="Schisma Handwear" />
+    <String id="10015"
+            string="Schisma Footwear" />
+    <String id="10021"
+            string="Lucid Weapon" />
+    <String id="10023"
+            string="Lucid Body Armor" />
+    <String id="10024"
+            string="Lucid Handwear" />
+    <String id="10025"
+            string="Lucid Footwear" />
+    <String id="10036"
+            string="Iretime Earring" />
+    <String id="10037"
+            string="Iretime Earring" />
+    <String id="10038"
+            string="Iretime Ring" />
+    <String id="10039"
+            string="Iretime Ring" />
+    <String id="10046"
+            string="Edgetime Earring" />
+    <String id="10047"
+            string="Edgetime Earring" />
+    <String id="10048"
+            string="Edgetime Ring" />
+    <String id="10049"
+            string="Edgetime Ring" />
+    <String id="10056"
+            string="Forcetime Earring" />
+    <String id="10057"
+            string="Forcetime Earring" />
+    <String id="10058"
+            string="Forcetime Ring" />
+    <String id="10059"
+            string="Forcetime Ring" />
+    <String id="10061"
+            string="Deviate Weapon" />
+    <String id="10063"
+            string="Deviate Body Armor" />
+    <String id="10064"
+            string="Deviate Handwear" />
+    <String id="10065"
+            string="Deviate Footwear" />
+    <String id="10066"
+            string="Lifetime Earring" />
+    <String id="10067"
+            string="Lifetime Earring" />
+    <String id="10068"
+            string="Lifetime Ring" />
+    <String id="10069"
+            string="Lifetime Ring" />
+    <String id="10071"
+            string="Tensus Weapon" />
+    <String id="10073"
+            string="Tensus Body Armor" />
+    <String id="10074"
+            string="Tensus Handwear" />
+    <String id="10075"
+            string="Tensus Footwear" />
+    <String id="10081"
+            string="Fulminate Weapon" />
+    <String id="10083"
+            string="Fulminate Body Armor" />
+    <String id="10084"
+            string="Fulminate Handwear" />
+    <String id="10085"
+            string="Fulminate Footwear" />
+    <String id="10091"
+            string="Conflict Weapon" />
+    <String id="10093"
+            string="Conflict Body Armor" />
+    <String id="10094"
+            string="Conflict Handwear" />
+    <String id="10095"
+            string="Conflict Footwear" />
+    <String id="10096"
+            string="Conflict Earring" />
+    <String id="10097"
+            string="Conflict Earring" />
+    <String id="10098"
+            string="Conflict Ring" />
+    <String id="10099"
+            string="Conflict Ring" />
+    <String id="11001"
+            string="[PC Cafe] Conqueror's Weapon" />
+    <String id="11003"
+            string="[PC Cafe] Conqueror's Body Armor" />
+    <String id="11004"
+            string="[PC Cafe] Conqueror's Handwear" />
+    <String id="11005"
+            string="[PC Cafe] Conqueror's Footwear" />
+    <String id="11011"
+            string="Dreadnaught Weapon" />
+    <String id="11013"
+            string="Dreadnaught Body Armor" />
+    <String id="11014"
+            string="Dreadnaught Handwear" />
+    <String id="11015"
+            string="Dreadnaught Footwear" />
+    <String id="11021"
+            string="Starfall Weapon" />
+    <String id="11023"
+            string="Starfall Body Armor" />
+    <String id="11024"
+            string="Starfall Handwear" />
+    <String id="11025"
+            string="Starfall Footwear" />
+    <String id="11036"
+            string="Brigantine or Man-o'War Earring" />
+    <String id="11037"
+            string="Brigantine or Man-o'-War Earring" />
+    <String id="11038"
+            string="Brigantine or Man-o'-War Ring" />
+    <String id="11039"
+            string="Brigantine or Man-o'-War Ring" />
+    <String id="11046"
+            string="Cutter or Corvette Earring" />
+    <String id="11047"
+            string="Cutter or Corvette Earring" />
+    <String id="11048"
+            string="Cutter or Corvette Ring" />
+    <String id="11049"
+            string="Cutter or Corvette Ring" />
+    <String id="11056"
+            string="Galley or Galleon Earring" />
+    <String id="11057"
+            string="Galley or Galleon Earring" />
+    <String id="11058"
+            string="Galley or Galleon Ring" />
+    <String id="11059"
+            string="Galley or Galleon Ring" />
+    <String id="11066"
+            string="Pinnace or Argosy Earring" />
+    <String id="11067"
+            string="Pinnace or Argosy Earring" />
+    <String id="11068"
+            string="Pinnace or Argosy Ring" />
+    <String id="11069"
+            string="Pinnace or Argosy Ring" />
+    <String id="11070"
+            string="Shademaze Earring" />
+    <String id="11071"
+            string="Shademaze Ring" />
+    <String id="11072"
+            string="Bloodmaze Earring" />
+    <String id="11073"
+            string="Bloodmaze Ring" />
+    <String id="11075"
+            string="Conflate Weapon" />
+    <String id="11076"
+            string="Conflate Body Armor" />
+    <String id="11077"
+            string="Conflate Handwear" />
+    <String id="11078"
+            string="Conflate Footwear" />
+    <String id="11116"
+            string="Shadowgate Earring" />
+    <String id="11117"
+            string="Vainshadow Earring" />
+    <String id="11118"
+            string="Shadowgate Ring" />
+    <String id="11119"
+            string="Vainshadow Ring" />
+    <String id="11126"
+            string="Bloodgate Earring" />
+    <String id="11127"
+            string="Bloodvain Earring" />
+    <String id="11128"
+            string="Bloodgate Ring" />
+    <String id="11129"
+            string="Bloodvain Ring" />
+    <String id="11131"
+            string="Slaughter Weapon" />
+    <String id="11133"
+            string="Slaughter Body Armor" />
+    <String id="11134"
+            string="Slaughter Handwear" />
+    <String id="11135"
+            string="Slaughter Footwear" />
+    <String id="11141"
+            string="Imperator Weapon" />
+    <String id="11143"
+            string="Imperator Body Armor" />
+    <String id="11144"
+            string="Imperator Handwear" />
+    <String id="11145"
+            string="Imperator Footwear" />
+    <String id="11151"
+            string="Guile Weapon" />
+    <String id="11153"
+            string="Guile Body Armor" />
+    <String id="11154"
+            string="Guile Handwear" />
+    <String id="11155"
+            string="Guile Footwear" />
+    <String id="11161"
+            string="Ambush Weapon" />
+    <String id="11163"
+            string="Ambush Body Armor" />
+    <String id="11164"
+            string="Ambush Handwear" />
+    <String id="11165"
+            string="Ambush Footwear" />
+    <String id="11171"
+            string="Behemoth Weapon" />
+    <String id="11173"
+            string="Behemoth Body Armor" />
+    <String id="11174"
+            string="Behemoth Handwear" />
+    <String id="11175"
+            string="Behemoth Footwear" />
+    <String id="11185"
+            string="Manor Necklace" />
+    <String id="11186"
+            string="Manor Earring" />
+    <String id="11187"
+            string="Manor Earring" />
+    <String id="11188"
+            string="Manor Ring" />
+    <String id="11189"
+            string="Manor Ring" />
+    <String id="11195"
+            string="Estate Necklace" />
+    <String id="11196"
+            string="Estate Earring" />
+    <String id="11197"
+            string="Estate Earring" />
+    <String id="11198"
+            string="Estate Ring" />
+    <String id="11199"
+            string="Estate Ring" />
+    <String id="11200"
+            string="Blubred Earring" />
+    <String id="11201"
+            string="Blubred Ring" />
+    <String id="11203"
+            string="Blubred Necklace" />
+    <String id="11211"
+            string="Landsheart Earring" />
+    <String id="11212"
+            string="Landsheart Ring" />
+    <String id="11213"
+            string="Landsheart Necklace" />
+    <String id="11221"
+            string="Misery Weapon" />
+    <String id="11223"
+            string="Misery Armor" />
+    <String id="11224"
+            string="Misery Handwear" />
+    <String id="11225"
+            string="Misery Footwear" />
+    <String id="11231"
+            string="Deathwrack Weapon" />
+    <String id="11233"
+            string="Deathwrack Armor" />
+    <String id="11234"
+            string="Deathwrack Handwear" />
+    <String id="11235"
+            string="Deathwrack Footwear" />
+    <String id="11241"
+            string="Oblit Weapon" />
+    <String id="11243"
+            string="Oblit Armor" />
+    <String id="11244"
+            string="Oblit Handwear" />
+    <String id="11245"
+            string="Oblit Footwear" />
+    <String id="11255"
+            string="Godly Necklace" />
+    <String id="11256"
+            string="Godly Earring" />
+    <String id="11257"
+            string="Godly Earring" />
+    <String id="11258"
+            string="Godly Ring" />
+    <String id="11259"
+            string="Godly Ring" />
+    <String id="11265"
+            string="Heavenly Necklace" />
+    <String id="11266"
+            string="Heavenly Earring" />
+    <String id="11267"
+            string="Heavenly Earring" />
+    <String id="11268"
+            string="Heavenly Ring" />
+    <String id="11269"
+            string="Heavenly Ring" />
+    <String id="11270"
+            string="Keytrap Earring" />
+    <String id="11271"
+            string="Keytrap Ring" />
+    <String id="11273"
+            string="Keytrap Necklace" />
+    <String id="11281"
+            string="Keylock Earring" />
+    <String id="11282"
+            string="Keylock Ring" />
+    <String id="11283"
+            string="Keylock Necklace" />
+    <String id="11284"
+            string="[Amplification I] Stormcry (Heroic Oath) Belt" />
+    <String id="11285"
+            string="[Amplification I] Entropy (Ethereal) Necklace" />
+    <String id="11286"
+            string="[Amplification I] Entropy (Ethereal) Earring" />
+    <String id="11287"
+            string="[Amplification I] Entropy (Ethereal) Earring" />
+    <String id="11288"
+            string="[Amplification I] Entropy (Ethereal) Ring" />
+    <String id="11289"
+            string="[Amplification I] Entropy (Ethereal) Ring" />
+    <String id="11290"
+            string="[Amplification I] Entropy (Ethereal) Circlet" />
+    <String id="11291"
+            string="[Amplification II] Ethereal Necklace" />
+    <String id="11292"
+            string="[Amplification II] Ethereal Earring" />
+    <String id="11293"
+            string="[Amplification II] Ethereal Earring" />
+    <String id="11294"
+            string="[Amplification II] Ethereal Ring" />
+    <String id="11295"
+            string="[Amplification II] Ethereal Ring" />
+    <String id="11296"
+            string="Hagufna's Body Armor" />
+    <String id="11297"
+            string="Hagufna's Bandana" />
+    <String id="11298"
+            string="Evil God Armor" />
+    <String id="11299"
+            string="Evil God Helmet" />
+    <String id="11300"
+            string="Asgard Steel Armor" />
+    <String id="11301"
+            string="Asgard Steel Helm" />
+    <String id="11302"
+            string="Asgard Gold Armor" />
+    <String id="11303"
+            string="Asgard Gold Helm" />
+    <String id="11304"
+            string="Eternal Brawler's Armor" />
+    <String id="11305"
+            string="Eternal Brawler's Mask" />
+    <String id="11306"
+            string="Blazing Golden Dragon Armor" />
+    <String id="11307"
+            string="Blazing Golden Dragon Wings" />
+    <String id="11308"
+            string="Blazing Golden Dragon Helmet" />
+    <String id="11309"
+            string="Gardan's Armor" />
+    <String id="11310"
+            string="Gardan's Helmet" />
+    <String id="11311"
+            string="Gardan's Cloak" />
+    <String id="11312"
+            string="Shandra Manaya's Armor" />
+    <String id="11313"
+            string="Argon Helmet" />
+    <String id="11314"
+            string="Argon Queen's Wings" />
+    <String id="11315"
+            string="Atlantean Guardian's Armor" />
+    <String id="11316"
+            string="Hagufna's Cape" />
+    <String id="80019"
+            string="Patron Belt" />
+    <String id="80119"
+            string="Devastator Belt" />
+    <String id="80610"
+            string="Sunturn Necklace" />
+    <String id="80710"
+            string="Seaturn Necklace" />
+    <String id="80810"
+            string="Sandturn Necklace" />
+    <String id="80919"
+            string="Opportune Belt" />
+    <String id="81019"
+            string="Favored Belt" />
+    <String id="81119"
+            string="Advantaged Belt" />
+    <String id="90010"
+            string="[Time-Limited]  Ambit Weapon" />
+    <String id="90019"
+            string="Ambit Belt" />
+    <String id="90030"
+            string="[Time-Limited]  Ambit Armor" />
+    <String id="90040"
+            string="[Time-Limited]  Ambit Handwear" />
+    <String id="90050"
+            string="[Time-Limited]  Ambit Footwear" />
+    <String id="90110"
+            string="[Time-Limited] Discovery Weapon" />
+    <String id="90119"
+            string="Discovery Belt" />
+    <String id="90130"
+            string="[Time-Limited] Discovery Body Armor" />
+    <String id="90140"
+            string="[Time-Limited] Discovery Handwear" />
+    <String id="90150"
+            string="[Time-Limited] Discovery Footwear" />
+    <String id="90619"
+            string="Controvert Belt" />
+    <String id="90719"
+            string="Defiance Belt" />
+    <String id="90819"
+            string="Renegade Belt" />
+    <String id="91219"
+            string="Idoneal Belt" />
+    <String id="100019"
+            string="Wroth Belt" />
+    <String id="100119"
+            string="Schisma Belt" />
+    <String id="100219"
+            string="Lucid Belt" />
+    <String id="100619"
+            string="Deviate Belt" />
+    <String id="100719"
+            string="Tensus Belt" />
+    <String id="100819"
+            string="Fulminate Belt" />
+    <String id="100919"
+            string="Conflict Belt" />
+    <String id="110019"
+            string="Conqueror's Belt" />
+    <String id="110119"
+            string="Dreadnaught Belt" />
+    <String id="110219"
+            string="Starfall Belt" />
+    <String id="110759"
+            string="Conflate Belt" />
+    <String id="111319"
+            string="Slaughter Belt" />
+    <String id="111419"
+            string="Imperator Belt" />
+    <String id="111519"
+            string="Guile Belt" />
+    <String id="111619"
+            string="Ambush Belt" />
+    <String id="111719"
+            string="Behemoth Belt" />
+    <String id="112219"
+            string="Misery Belt" />
+    <String id="112319"
+            string="Deathwrack Belt" />
+    <String id="112419"
+            string="Oblit Belt" />
+    <String id="900190"
+            string="[Time-Limited]  Ambit Belt" />
+    <String id="901190"
+            string="[Time-Limited] Discovery Belt" />
 </StrSheet_EquipmentSetData>

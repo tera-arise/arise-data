@@ -1,5 +1,8 @@
-<FieldEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/FieldEvent FieldEvent.xsd" xmlns="https://vezel.dev/novadrop/dc/FieldEvent">
-    <FieldEventBanTime banGuideRemainTime="30,20,10" banTime="120" />
+<FieldEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="https://vezel.dev/novadrop/dc/FieldEvent FieldEvent.xsd"
+            xmlns="https://vezel.dev/novadrop/dc/FieldEvent">
+    <FieldEventBanTime banGuideRemainTime="30,20,10"
+                       banTime="120" />
     <FieldEventClearReward>
         <ClearReward id="70030201">
             <ShowRewardList itemTemplateIdList="99977,98281" />
@@ -15,18 +18,36 @@
         </ClearReward>
     </FieldEventClearReward>
     <FieldEventFontColor>
-        <ColorNode type="rewardLimit" color="#ffbb00" />
+        <ColorNode type="rewardLimit"
+                   color="#ffbb00" />
     </FieldEventFontColor>
     <FieldEventReward />
     <FieldEventSize>
-        <EventSize type="small" icon="MARKER_FIELD_EVENT_SMALL" sizeStrId="1" />
-        <EventSize type="medium" icon="MARKER_FIELD_EVENT_MEDIUM" sizeStrId="2" />
-        <EventSize type="large" icon="MARKER_FIELD_EVENT_LARGE" sizeStrId="3" />
-        <EventSize type="flying_small" icon="MARKER_FLYING_NB_SMALL" sizeStrId="1" />
-        <EventSize type="flying_medium" icon="MARKER_FLYING_NB_MEDIUM" sizeStrId="2" />
-        <EventSize type="flying_large" icon="MARKER_FLYING_NB_LARGE" sizeStrId="3" />
-        <EventSize type="dragon_island" icon="MARKER_FIELD_EVENT_FDI" sizeStrId="4" />
+        <EventSize type="small"
+                   icon="MARKER_FIELD_EVENT_SMALL"
+                   sizeStrId="1" />
+        <EventSize type="medium"
+                   icon="MARKER_FIELD_EVENT_MEDIUM"
+                   sizeStrId="2" />
+        <EventSize type="large"
+                   icon="MARKER_FIELD_EVENT_LARGE"
+                   sizeStrId="3" />
+        <EventSize type="flying_small"
+                   icon="MARKER_FLYING_NB_SMALL"
+                   sizeStrId="1" />
+        <EventSize type="flying_medium"
+                   icon="MARKER_FLYING_NB_MEDIUM"
+                   sizeStrId="2" />
+        <EventSize type="flying_large"
+                   icon="MARKER_FLYING_NB_LARGE"
+                   sizeStrId="3" />
+        <EventSize type="dragon_island"
+                   icon="MARKER_FIELD_EVENT_FDI"
+                   sizeStrId="4" />
     </FieldEventSize>
-    <FieldEventTime channelFullGuidePopupTime="30" limitTimeSec="30" />
-    <FieldEventWMapUI bottomUITitleStrId="200" showMaxLevel="70" showMinLevel="65" />
+    <FieldEventTime channelFullGuidePopupTime="30"
+                    limitTimeSec="30" />
+    <FieldEventWMapUI bottomUITitleStrId="200"
+                      showMaxLevel="70"
+                      showMinLevel="65" />
 </FieldEvent>

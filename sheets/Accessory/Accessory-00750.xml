@@ -1,222 +1,1020 @@
-<Accessory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Accessory Accessory.xsd" id="836" desc="고스트드래곤 용 등악세 레어" exclusiveSlot="nothing" slot="acc_04" xmlns="https://vezel.dev/novadrop/dc/Accessory">
-    <RaceData slot="body" templateId="10101,10102,10103,10104,10105,10106,10107,10108,10111">
-        <DataPerParts type="Attach" animSet="Acc_836_ANI.Anim.Attach_836_Anim" attachBone="Bip01-Spine3" mesh="Acc_836.Skel.Attach_836_Skel" partsId="0" pos="0.160000,7.570000,-2.430000" rot="16384,19171,-11227" scale="1.000000,1.000000,1.000000">
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone001" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone005" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone003" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone004" pos="0, 0, 0" rot="0,0,0" scale="0.9,0.9,0.9" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone005" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone006" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone007" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone008" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone009" pos="0, 0, 0" rot="0,0,0" scale="0.9,0.9,0.9" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone010" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone011" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone012" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone014" pos="0, 0, 0" rot="0,0,0" scale="0.6,0.6,0.6" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone015" pos="0, 0, 0" rot="0,0,0" scale="0.7,0.7,0.7" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone016" pos="0, 0, 0" rot="0,0,0" scale="0.5,0.5,0.5" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone010" pos="0, 0, 0" rot="0,0,0" scale="0.7,0.7,0.7" />
+<Accessory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://vezel.dev/novadrop/dc/Accessory Accessory.xsd"
+           id="836"
+           desc="고스트드래곤 용 등악세 레어"
+           exclusiveSlot="nothing"
+           slot="acc_04"
+           xmlns="https://vezel.dev/novadrop/dc/Accessory">
+    <RaceData slot="body"
+              templateId="10101,10102,10103,10104,10105,10106,10107,10108,10111">
+        <DataPerParts type="Attach"
+                      animSet="Acc_836_ANI.Anim.Attach_836_Anim"
+                      attachBone="Bip01-Spine3"
+                      mesh="Acc_836.Skel.Attach_836_Skel"
+                      partsId="0"
+                      pos="0.160000,7.570000,-2.430000"
+                      rot="16384,19171,-11227"
+                      scale="1.000000,1.000000,1.000000">
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone001"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone005"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone003"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone004"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.9,0.9,0.9" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone005"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone006"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone007"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone008"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone009"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.9,0.9,0.9" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone010"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone011"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone012"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone014"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.6,0.6,0.6" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone015"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.7,0.7,0.7" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone016"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.5,0.5,0.5" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone010"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.7,0.7,0.7" />
         </DataPerParts>
     </RaceData>
-    <RaceData slot="body" templateId="10201,10202,10203,10204,10205,10206,10207,10208,10211">
-        <DataPerParts type="Attach" animSet="Acc_836_ANI.Anim.Attach_836_Anim" attachBone="Bip01-Spine3" mesh="Acc_836.Skel.Attach_836_Skel" partsId="0" pos="0.730000,6.520000,0.000000" rot="16384,18804,-12732" scale="1.000000,1.000000,1.000000">
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone001" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone005" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone003" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone004" pos="0, 0, 0" rot="0,0,0" scale="0.9,0.9,0.9" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone005" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone006" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone007" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone008" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone009" pos="0, 0, 0" rot="0,0,0" scale="0.9,0.9,0.9" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone010" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone011" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone012" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone014" pos="0, 0, 0" rot="0,0,0" scale="0.6,0.6,0.6" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone015" pos="0, 0, 0" rot="0,0,0" scale="0.7,0.7,0.7" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone016" pos="0, 0, 0" rot="0,0,0" scale="0.5,0.5,0.5" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone010" pos="0, 0, 0" rot="0,0,0" scale="0.7,0.7,0.7" />
+    <RaceData slot="body"
+              templateId="10201,10202,10203,10204,10205,10206,10207,10208,10211">
+        <DataPerParts type="Attach"
+                      animSet="Acc_836_ANI.Anim.Attach_836_Anim"
+                      attachBone="Bip01-Spine3"
+                      mesh="Acc_836.Skel.Attach_836_Skel"
+                      partsId="0"
+                      pos="0.730000,6.520000,0.000000"
+                      rot="16384,18804,-12732"
+                      scale="1.000000,1.000000,1.000000">
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone001"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone005"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone003"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone004"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.9,0.9,0.9" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone005"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone006"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone007"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone008"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone009"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.9,0.9,0.9" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone010"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone011"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone012"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone014"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.6,0.6,0.6" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone015"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.7,0.7,0.7" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone016"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.5,0.5,0.5" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone010"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.7,0.7,0.7" />
         </DataPerParts>
     </RaceData>
-    <RaceData slot="body" templateId="10301,10302,10303,10304,10305,10306,10307,10308">
-        <DataPerParts type="Attach" animSet="Acc_836_ANI.Anim.Attach_836_Anim" attachBone="Bip01-Spine3" mesh="Acc_836.Skel.Attach_836_Skel" partsId="0" pos="0.580000,5.850000,0.000000" rot="16384,18089,-13290" scale="1.000000,1.000000,1.000000">
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone001" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone005" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone003" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone004" pos="0, 0, 0" rot="0,0,0" scale="0.9,0.9,0.9" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone005" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone006" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone007" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone008" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone009" pos="0, 0, 0" rot="0,0,0" scale="0.9,0.9,0.9" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone010" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone011" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone012" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone014" pos="0, 0, 0" rot="0,0,0" scale="0.6,0.6,0.6" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone015" pos="0, 0, 0" rot="0,0,0" scale="0.7,0.7,0.7" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone016" pos="0, 0, 0" rot="0,0,0" scale="0.5,0.5,0.5" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone010" pos="0, 0, 0" rot="0,0,0" scale="0.7,0.7,0.7" />
+    <RaceData slot="body"
+              templateId="10301,10302,10303,10304,10305,10306,10307,10308">
+        <DataPerParts type="Attach"
+                      animSet="Acc_836_ANI.Anim.Attach_836_Anim"
+                      attachBone="Bip01-Spine3"
+                      mesh="Acc_836.Skel.Attach_836_Skel"
+                      partsId="0"
+                      pos="0.580000,5.850000,0.000000"
+                      rot="16384,18089,-13290"
+                      scale="1.000000,1.000000,1.000000">
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone001"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone005"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone003"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone004"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.9,0.9,0.9" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone005"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone006"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone007"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone008"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone009"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.9,0.9,0.9" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone010"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone011"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone012"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone014"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.6,0.6,0.6" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone015"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.7,0.7,0.7" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone016"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.5,0.5,0.5" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone010"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.7,0.7,0.7" />
         </DataPerParts>
     </RaceData>
-    <RaceData slot="body" templateId="10401,10402,10403,10404,10405,10406,10407,10408,10410">
-        <DataPerParts type="Attach" animSet="Acc_836_ANI.Anim.Attach_836_Anim" attachBone="Bip01-Spine3" mesh="Acc_836.Skel.Attach_836_Skel" partsId="0" pos="0.750000,6.630000,0.000000" rot="16384,17002,-14473" scale="0.914429,0.914429,0.914429">
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone001" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone005" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone003" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone004" pos="0, 0, 0" rot="0,0,0" scale="0.9,0.9,0.9" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone005" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone006" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone007" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone008" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone009" pos="0, 0, 0" rot="0,0,0" scale="0.9,0.9,0.9" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone010" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone011" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone012" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone014" pos="0, 0, 0" rot="0,0,0" scale="0.6,0.6,0.6" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone015" pos="0, 0, 0" rot="0,0,0" scale="0.7,0.7,0.7" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone016" pos="0, 0, 0" rot="0,0,0" scale="0.5,0.5,0.5" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone010" pos="0, 0, 0" rot="0,0,0" scale="0.7,0.7,0.7" />
+    <RaceData slot="body"
+              templateId="10401,10402,10403,10404,10405,10406,10407,10408,10410">
+        <DataPerParts type="Attach"
+                      animSet="Acc_836_ANI.Anim.Attach_836_Anim"
+                      attachBone="Bip01-Spine3"
+                      mesh="Acc_836.Skel.Attach_836_Skel"
+                      partsId="0"
+                      pos="0.750000,6.630000,0.000000"
+                      rot="16384,17002,-14473"
+                      scale="0.914429,0.914429,0.914429">
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone001"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone005"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone003"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone004"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.9,0.9,0.9" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone005"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone006"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone007"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone008"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone009"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.9,0.9,0.9" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone010"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone011"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone012"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone014"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.6,0.6,0.6" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone015"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.7,0.7,0.7" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone016"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.5,0.5,0.5" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone010"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.7,0.7,0.7" />
         </DataPerParts>
     </RaceData>
-    <RaceData slot="body" templateId="10501,10502,10503,10504,10505,10506,10507,10508">
-        <DataPerParts type="Attach" animSet="Acc_836_ANI.Anim.Attach_836_Anim" attachBone="Bip01-Spine3" mesh="Acc_836.Skel.Attach_836_Skel" partsId="0" pos="1.700000,11.940000,0.000000" rot="16384,16883,-13242" scale="1.435430,1.435430,1.435430">
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone001" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone005" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone003" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone004" pos="0, 0, 0" rot="0,0,0" scale="0.9,0.9,0.9" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone005" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone006" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone007" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone008" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone009" pos="0, 0, 0" rot="0,0,0" scale="0.9,0.9,0.9" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone010" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone011" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone012" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone014" pos="0, 0, 0" rot="0,0,0" scale="0.6,0.6,0.6" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone015" pos="0, 0, 0" rot="0,0,0" scale="0.7,0.7,0.7" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone016" pos="0, 0, 0" rot="0,0,0" scale="0.5,0.5,0.5" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone010" pos="0, 0, 0" rot="0,0,0" scale="0.7,0.7,0.7" />
+    <RaceData slot="body"
+              templateId="10501,10502,10503,10504,10505,10506,10507,10508">
+        <DataPerParts type="Attach"
+                      animSet="Acc_836_ANI.Anim.Attach_836_Anim"
+                      attachBone="Bip01-Spine3"
+                      mesh="Acc_836.Skel.Attach_836_Skel"
+                      partsId="0"
+                      pos="1.700000,11.940000,0.000000"
+                      rot="16384,16883,-13242"
+                      scale="1.435430,1.435430,1.435430">
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone001"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone005"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone003"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone004"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.9,0.9,0.9" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone005"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone006"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone007"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone008"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone009"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.9,0.9,0.9" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone010"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone011"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone012"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone014"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.6,0.6,0.6" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone015"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.7,0.7,0.7" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone016"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.5,0.5,0.5" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone010"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.7,0.7,0.7" />
         </DataPerParts>
     </RaceData>
-    <RaceData slot="body" templateId="10601,10602,10603,10604,10605,10606,10607,10608">
-        <DataPerParts type="Attach" animSet="Acc_836_ANI.Anim.Attach_836_Anim" attachBone="Bip01-Spine3" mesh="Acc_836.Skel.Attach_836_Skel" partsId="0" pos="1.290000,10.510000,-0.050000" rot="16384,18879,-12567" scale="1.138546,1.138546,1.138546">
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone001" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone005" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone003" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone004" pos="0, 0, 0" rot="0,0,0" scale="0.9,0.9,0.9" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone005" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone006" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone007" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone008" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone009" pos="0, 0, 0" rot="0,0,0" scale="0.9,0.9,0.9" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone010" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone011" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone012" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone014" pos="0, 0, 0" rot="0,0,0" scale="0.6,0.6,0.6" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone015" pos="0, 0, 0" rot="0,0,0" scale="0.7,0.7,0.7" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone016" pos="0, 0, 0" rot="0,0,0" scale="0.5,0.5,0.5" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone010" pos="0, 0, 0" rot="0,0,0" scale="0.7,0.7,0.7" />
+    <RaceData slot="body"
+              templateId="10601,10602,10603,10604,10605,10606,10607,10608">
+        <DataPerParts type="Attach"
+                      animSet="Acc_836_ANI.Anim.Attach_836_Anim"
+                      attachBone="Bip01-Spine3"
+                      mesh="Acc_836.Skel.Attach_836_Skel"
+                      partsId="0"
+                      pos="1.290000,10.510000,-0.050000"
+                      rot="16384,18879,-12567"
+                      scale="1.138546,1.138546,1.138546">
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone001"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone005"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone003"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone004"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.9,0.9,0.9" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone005"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone006"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone007"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone008"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone009"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.9,0.9,0.9" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone010"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone011"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone012"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone014"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.6,0.6,0.6" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone015"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.7,0.7,0.7" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone016"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.5,0.5,0.5" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone010"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.7,0.7,0.7" />
         </DataPerParts>
     </RaceData>
-    <RaceData slot="body" templateId="10701,10702,10703,10704,10705,10706,10707,10708">
-        <DataPerParts type="Attach" animSet="Acc_836_ANI.Anim.Attach_836_Anim" attachBone="Bip01-Spine3" mesh="Acc_836.Skel.Attach_836_Skel" partsId="0" pos="0.470000,5.840000,-0.040000" rot="16384,18107,-13120" scale="1.000000,1.000000,1.000000">
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone001" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone005" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone003" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone004" pos="0, 0, 0" rot="0,0,0" scale="0.9,0.9,0.9" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone005" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone006" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone007" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone008" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone009" pos="0, 0, 0" rot="0,0,0" scale="0.9,0.9,0.9" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone010" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone011" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone012" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone014" pos="0, 0, 0" rot="0,0,0" scale="0.6,0.6,0.6" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone015" pos="0, 0, 0" rot="0,0,0" scale="0.7,0.7,0.7" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone016" pos="0, 0, 0" rot="0,0,0" scale="0.5,0.5,0.5" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone010" pos="0, 0, 0" rot="0,0,0" scale="0.7,0.7,0.7" />
+    <RaceData slot="body"
+              templateId="10701,10702,10703,10704,10705,10706,10707,10708">
+        <DataPerParts type="Attach"
+                      animSet="Acc_836_ANI.Anim.Attach_836_Anim"
+                      attachBone="Bip01-Spine3"
+                      mesh="Acc_836.Skel.Attach_836_Skel"
+                      partsId="0"
+                      pos="0.470000,5.840000,-0.040000"
+                      rot="16384,18107,-13120"
+                      scale="1.000000,1.000000,1.000000">
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone001"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone005"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone003"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone004"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.9,0.9,0.9" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone005"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone006"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone007"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone008"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone009"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.9,0.9,0.9" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone010"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone011"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone012"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone014"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.6,0.6,0.6" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone015"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.7,0.7,0.7" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone016"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.5,0.5,0.5" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone010"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.7,0.7,0.7" />
         </DataPerParts>
     </RaceData>
-    <RaceData slot="body" templateId="10801,10802,10803,10804,10805,10806,10807,10808,10810,10813">
-        <DataPerParts type="Attach" animSet="Acc_836_ANI.Anim.Attach_836_Anim" attachBone="Bip01-Spine3" mesh="Acc_836.Skel.Attach_836_Skel" partsId="0" pos="1.120000,4.590000,-0.060000" rot="16384,20707,-9348" scale="0.777396,0.777396,0.777396">
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone001" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone005" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone003" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone004" pos="0, 0, 0" rot="0,0,0" scale="0.9,0.9,0.9" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone005" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone006" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone007" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone008" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone009" pos="0, 0, 0" rot="0,0,0" scale="0.9,0.9,0.9" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone010" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone011" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone012" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone014" pos="0, 0, 0" rot="0,0,0" scale="0.6,0.6,0.6" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone015" pos="0, 0, 0" rot="0,0,0" scale="0.7,0.7,0.7" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone016" pos="0, 0, 0" rot="0,0,0" scale="0.5,0.5,0.5" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone010" pos="0, 0, 0" rot="0,0,0" scale="0.7,0.7,0.7" />
+    <RaceData slot="body"
+              templateId="10801,10802,10803,10804,10805,10806,10807,10808,10810,10813">
+        <DataPerParts type="Attach"
+                      animSet="Acc_836_ANI.Anim.Attach_836_Anim"
+                      attachBone="Bip01-Spine3"
+                      mesh="Acc_836.Skel.Attach_836_Skel"
+                      partsId="0"
+                      pos="1.120000,4.590000,-0.060000"
+                      rot="16384,20707,-9348"
+                      scale="0.777396,0.777396,0.777396">
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone001"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone005"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone003"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone004"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.9,0.9,0.9" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone005"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone006"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone007"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone008"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone009"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.9,0.9,0.9" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone010"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone011"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone012"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone014"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.6,0.6,0.6" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone015"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.7,0.7,0.7" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone016"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.5,0.5,0.5" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone010"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.7,0.7,0.7" />
         </DataPerParts>
     </RaceData>
-    <RaceData slot="body" templateId="10901,10902,10903,10904,10905,10906,10907,10908,10911">
-        <DataPerParts type="Attach" animSet="Acc_836_ANI.Anim.Attach_836_Anim" attachBone="Bip01-Spine3" mesh="Acc_836.Skel.Attach_836_Skel" partsId="0" pos="1.800000,10.099999,-0.040000" rot="16384,16430,-14746" scale="1.000000,1.000000,1.000000">
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone001" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone005" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone003" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone004" pos="0, 0, 0" rot="0,0,0" scale="0.9,0.9,0.9" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone005" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone006" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone007" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone008" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone009" pos="0, 0, 0" rot="0,0,0" scale="0.9,0.9,0.9" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone010" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone011" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone012" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone014" pos="0, 0, 0" rot="0,0,0" scale="0.6,0.6,0.6" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone015" pos="0, 0, 0" rot="0,0,0" scale="0.7,0.7,0.7" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone016" pos="0, 0, 0" rot="0,0,0" scale="0.5,0.5,0.5" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone010" pos="0, 0, 0" rot="0,0,0" scale="0.7,0.7,0.7" />
+    <RaceData slot="body"
+              templateId="10901,10902,10903,10904,10905,10906,10907,10908,10911">
+        <DataPerParts type="Attach"
+                      animSet="Acc_836_ANI.Anim.Attach_836_Anim"
+                      attachBone="Bip01-Spine3"
+                      mesh="Acc_836.Skel.Attach_836_Skel"
+                      partsId="0"
+                      pos="1.800000,10.099999,-0.040000"
+                      rot="16384,16430,-14746"
+                      scale="1.000000,1.000000,1.000000">
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone001"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone005"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone003"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone004"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.9,0.9,0.9" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone005"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone006"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone007"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone008"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone009"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.9,0.9,0.9" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone010"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone011"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone012"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone014"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.6,0.6,0.6" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone015"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.7,0.7,0.7" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone016"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.5,0.5,0.5" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone010"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.7,0.7,0.7" />
         </DataPerParts>
     </RaceData>
-    <RaceData slot="body" templateId="11001,11002,11003,11004,11005,11006,11007,11008,11009,11010,11011,11012,11013">
-        <DataPerParts type="Attach" animSet="Acc_836_ANI.Anim.Attach_836_Anim" attachBone="Bip01-Spine3" mesh="Acc_836.Skel.Attach_836_Skel" partsId="0" pos="1.400000,4.860000,0.000000" rot="16384,18535,-11724" scale="0.763930,0.763930,0.763930">
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone001" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone005" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone003" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone004" pos="0, 0, 0" rot="0,0,0" scale="0.9,0.9,0.9" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone005" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone006" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone007" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone008" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone009" pos="0, 0, 0" rot="0,0,0" scale="0.9,0.9,0.9" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone010" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone011" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone012" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone014" pos="0, 0, 0" rot="0,0,0" scale="0.6,0.6,0.6" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone015" pos="0, 0, 0" rot="0,0,0" scale="0.7,0.7,0.7" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone016" pos="0, 0, 0" rot="0,0,0" scale="0.5,0.5,0.5" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone010" pos="0, 0, 0" rot="0,0,0" scale="0.7,0.7,0.7" />
+    <RaceData slot="body"
+              templateId="11001,11002,11003,11004,11005,11006,11007,11008,11009,11010,11011,11012,11013">
+        <DataPerParts type="Attach"
+                      animSet="Acc_836_ANI.Anim.Attach_836_Anim"
+                      attachBone="Bip01-Spine3"
+                      mesh="Acc_836.Skel.Attach_836_Skel"
+                      partsId="0"
+                      pos="1.400000,4.860000,0.000000"
+                      rot="16384,18535,-11724"
+                      scale="0.763930,0.763930,0.763930">
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone001"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone005"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone003"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone004"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.9,0.9,0.9" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone005"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone006"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone007"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone008"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone009"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.9,0.9,0.9" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone010"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone011"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone012"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone014"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.6,0.6,0.6" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone015"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.7,0.7,0.7" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone016"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.5,0.5,0.5" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone010"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.7,0.7,0.7" />
         </DataPerParts>
     </RaceData>
-    <RaceData slot="body" templateId="11101,11102,11103,11104,11105,11106,11107,11108">
-        <DataPerParts type="Attach" animSet="Acc_836_ANI.Anim.Attach_836_Anim" attachBone="Bip01-Spine3" mesh="Acc_836.Skel.Attach_836_Skel" partsId="0" pos="2.180000,15.610000,0.000000" rot="16384,15274,-16778" scale="1.430859,1.430859,1.430859">
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone001" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone005" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone003" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone004" pos="0, 0, 0" rot="0,0,0" scale="0.9,0.9,0.9" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone005" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone006" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone007" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone008" pos="0, 0, 0" rot="0,0,0" scale="1.0, 1.0, 1.0" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone009" pos="0, 0, 0" rot="0,0,0" scale="0.9,0.9,0.9" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone010" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone011" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone012" pos="0, 0, 0" rot="0,0,0" scale="0.8,0.8,0.8" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone014" pos="0, 0, 0" rot="0,0,0" scale="0.6,0.6,0.6" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone015" pos="0, 0, 0" rot="0,0,0" scale="0.7,0.7,0.7" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS" attachBone="Bone016" pos="0, 0, 0" rot="0,0,0" scale="0.5,0.5,0.5" />
-            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS" attachBone="Bone010" pos="0, 0, 0" rot="0,0,0" scale="0.7,0.7,0.7" />
+    <RaceData slot="body"
+              templateId="11101,11102,11103,11104,11105,11106,11107,11108">
+        <DataPerParts type="Attach"
+                      animSet="Acc_836_ANI.Anim.Attach_836_Anim"
+                      attachBone="Bip01-Spine3"
+                      mesh="Acc_836.Skel.Attach_836_Skel"
+                      partsId="0"
+                      pos="2.180000,15.610000,0.000000"
+                      rot="16384,15274,-16778"
+                      scale="1.430859,1.430859,1.430859">
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone001"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone005"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone003"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone004"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.9,0.9,0.9" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone005"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone006"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone007"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone008"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="1.0, 1.0, 1.0" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone009"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.9,0.9,0.9" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone010"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone011"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone012"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.8,0.8,0.8" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone014"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.6,0.6,0.6" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone015"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.7,0.7,0.7" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body02_PS"
+                          attachBone="Bone016"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.5,0.5,0.5" />
+            <PartParticle emitter="FX_N_HotFix_210827.PS.N_Acc836_Body01_PS"
+                          attachBone="Bone010"
+                          pos="0, 0, 0"
+                          rot="0,0,0"
+                          scale="0.7,0.7,0.7" />
         </DataPerParts>
     </RaceData>
 </Accessory>

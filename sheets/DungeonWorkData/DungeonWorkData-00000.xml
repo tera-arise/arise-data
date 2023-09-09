@@ -1,81 +1,236 @@
-<DungeonWorkData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/DungeonWorkData DungeonWorkData.xsd" xmlns="https://vezel.dev/novadrop/dc/DungeonWorkData">
+<DungeonWorkData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="https://vezel.dev/novadrop/dc/DungeonWorkData DungeonWorkData.xsd"
+                 xmlns="https://vezel.dev/novadrop/dc/DungeonWorkData">
     <DungeonWorkFont confirmBtnTooltip="@dungeonwork:500" />
     <GradeList numOfGrade="5">
-        <Grade grade="1" medal="30" />
-        <Grade grade="2" medal="80" />
-        <Grade grade="3" medal="100" />
-        <Grade grade="4" medal="105" />
-        <Grade grade="5" medal="110" />
+        <Grade grade="1"
+               medal="30" />
+        <Grade grade="2"
+               medal="80" />
+        <Grade grade="3"
+               medal="100" />
+        <Grade grade="4"
+               medal="105" />
+        <Grade grade="5"
+               medal="110" />
     </GradeList>
     <RankList id="1">
-        <Rank value="200" grade="1" />
-        <Rank value="80" grade="2" />
-        <Rank value="30" grade="3" />
-        <Rank value="5" grade="4" />
-        <Rank value="0" grade="5" />
-        <Rank value="0" grade="5" isDummy="true" />
+        <Rank value="200"
+              grade="1" />
+        <Rank value="80"
+              grade="2" />
+        <Rank value="30"
+              grade="3" />
+        <Rank value="5"
+              grade="4" />
+        <Rank value="0"
+              grade="5" />
+        <Rank value="0"
+              grade="5"
+              isDummy="true" />
     </RankList>
     <RankList id="2">
-        <Rank value="150" grade="5" />
-        <Rank value="100" grade="4" />
-        <Rank value="50" grade="3" />
-        <Rank value="20" grade="2" />
-        <Rank value="0" grade="1" />
-        <Rank value="0" grade="1" isDummy="true" />
+        <Rank value="150"
+              grade="5" />
+        <Rank value="100"
+              grade="4" />
+        <Rank value="50"
+              grade="3" />
+        <Rank value="20"
+              grade="2" />
+        <Rank value="0"
+              grade="1" />
+        <Rank value="0"
+              grade="1"
+              isDummy="true" />
     </RankList>
     <RankList id="3">
-        <Rank value="330" grade="1" />
-        <Rank value="270" grade="2" />
-        <Rank value="210" grade="3" />
-        <Rank value="180" grade="4" />
-        <Rank value="0" grade="5" />
-        <Rank value="0" grade="5" isDummy="true" />
+        <Rank value="330"
+              grade="1" />
+        <Rank value="270"
+              grade="2" />
+        <Rank value="210"
+              grade="3" />
+        <Rank value="180"
+              grade="4" />
+        <Rank value="0"
+              grade="5" />
+        <Rank value="0"
+              grade="5"
+              isDummy="true" />
     </RankList>
     <WorkDungeonListUISortPriority dungeonIds="3046,3040,3042,3043,9032,9031,3016,9033" />
-    <WorkList dungeonId="9031" dungeonLevel="65" maxWorkCount="2" minWorkCount="1">
-        <DungeonWork id="1" type="hitcount" title="@dungeonwork:1" innerText="@dungeonwork:10" useRankId="1" />
-        <DungeonWork id="2" type="timer" title="@dungeonwork:2" innerText="@dungeonwork:11" useRankId="3" />
-        <DungeonWork id="3" type="maxcombocount" title="@dungeonwork:3" innerText="@dungeonwork:12" useRankId="2" />
-        <Random id="4" tooltip="@dungeonwork:505" randomBonusRate="0.3" />
+    <WorkList dungeonId="9031"
+              dungeonLevel="65"
+              maxWorkCount="2"
+              minWorkCount="1">
+        <DungeonWork id="1"
+                     type="hitcount"
+                     title="@dungeonwork:1"
+                     innerText="@dungeonwork:10"
+                     useRankId="1" />
+        <DungeonWork id="2"
+                     type="timer"
+                     title="@dungeonwork:2"
+                     innerText="@dungeonwork:11"
+                     useRankId="3" />
+        <DungeonWork id="3"
+                     type="maxcombocount"
+                     title="@dungeonwork:3"
+                     innerText="@dungeonwork:12"
+                     useRankId="2" />
+        <Random id="4"
+                tooltip="@dungeonwork:505"
+                randomBonusRate="0.3" />
     </WorkList>
-    <WorkList dungeonId="9032" dungeonLevel="65" maxWorkCount="2" minWorkCount="1">
-        <DungeonWork id="1" type="hitcount" title="@dungeonwork:1" innerText="@dungeonwork:10" useRankId="1" />
-        <DungeonWork id="2" type="timer" title="@dungeonwork:2" innerText="@dungeonwork:11" useRankId="3" />
-        <DungeonWork id="3" type="maxcombocount" title="@dungeonwork:3" innerText="@dungeonwork:12" useRankId="2" />
-        <Random id="4" tooltip="@dungeonwork:505" randomBonusRate="0.3" />
+    <WorkList dungeonId="9032"
+              dungeonLevel="65"
+              maxWorkCount="2"
+              minWorkCount="1">
+        <DungeonWork id="1"
+                     type="hitcount"
+                     title="@dungeonwork:1"
+                     innerText="@dungeonwork:10"
+                     useRankId="1" />
+        <DungeonWork id="2"
+                     type="timer"
+                     title="@dungeonwork:2"
+                     innerText="@dungeonwork:11"
+                     useRankId="3" />
+        <DungeonWork id="3"
+                     type="maxcombocount"
+                     title="@dungeonwork:3"
+                     innerText="@dungeonwork:12"
+                     useRankId="2" />
+        <Random id="4"
+                tooltip="@dungeonwork:505"
+                randomBonusRate="0.3" />
     </WorkList>
-    <WorkList dungeonId="3016" dungeonLevel="65" maxWorkCount="2" minWorkCount="1">
-        <DungeonWork id="1" type="hitcount" title="@dungeonwork:1" innerText="@dungeonwork:10" useRankId="1" />
-        <DungeonWork id="2" type="timer" title="@dungeonwork:2" innerText="@dungeonwork:11" useRankId="3" />
-        <DungeonWork id="3" type="maxcombocount" title="@dungeonwork:3" innerText="@dungeonwork:12" useRankId="2" />
-        <Random id="4" tooltip="@dungeonwork:505" randomBonusRate="0.3" />
+    <WorkList dungeonId="3016"
+              dungeonLevel="65"
+              maxWorkCount="2"
+              minWorkCount="1">
+        <DungeonWork id="1"
+                     type="hitcount"
+                     title="@dungeonwork:1"
+                     innerText="@dungeonwork:10"
+                     useRankId="1" />
+        <DungeonWork id="2"
+                     type="timer"
+                     title="@dungeonwork:2"
+                     innerText="@dungeonwork:11"
+                     useRankId="3" />
+        <DungeonWork id="3"
+                     type="maxcombocount"
+                     title="@dungeonwork:3"
+                     innerText="@dungeonwork:12"
+                     useRankId="2" />
+        <Random id="4"
+                tooltip="@dungeonwork:505"
+                randomBonusRate="0.3" />
     </WorkList>
-    <WorkList dungeonId="3040" dungeonLevel="70" maxWorkCount="2" minWorkCount="1">
-        <DungeonWork id="1" type="hitcount" title="@dungeonwork:1" innerText="@dungeonwork:10" useRankId="1" />
-        <DungeonWork id="2" type="timer" title="@dungeonwork:2" innerText="@dungeonwork:11" useRankId="3" />
-        <DungeonWork id="3" type="maxcombocount" title="@dungeonwork:3" innerText="@dungeonwork:12" useRankId="2" />
-        <Random id="4" tooltip="@dungeonwork:505" randomBonusRate="0.3" />
+    <WorkList dungeonId="3040"
+              dungeonLevel="70"
+              maxWorkCount="2"
+              minWorkCount="1">
+        <DungeonWork id="1"
+                     type="hitcount"
+                     title="@dungeonwork:1"
+                     innerText="@dungeonwork:10"
+                     useRankId="1" />
+        <DungeonWork id="2"
+                     type="timer"
+                     title="@dungeonwork:2"
+                     innerText="@dungeonwork:11"
+                     useRankId="3" />
+        <DungeonWork id="3"
+                     type="maxcombocount"
+                     title="@dungeonwork:3"
+                     innerText="@dungeonwork:12"
+                     useRankId="2" />
+        <Random id="4"
+                tooltip="@dungeonwork:505"
+                randomBonusRate="0.3" />
     </WorkList>
-    <WorkList dungeonId="3042" dungeonLevel="70" maxWorkCount="2" minWorkCount="1">
-        <DungeonWork id="1" type="hitcount" title="@dungeonwork:1" innerText="@dungeonwork:10" useRankId="1" />
-        <DungeonWork id="2" type="timer" title="@dungeonwork:2" innerText="@dungeonwork:11" useRankId="3" />
-        <DungeonWork id="3" type="maxcombocount" title="@dungeonwork:3" innerText="@dungeonwork:12" useRankId="2" />
-        <Random id="4" tooltip="@dungeonwork:505" randomBonusRate="0.3" />
+    <WorkList dungeonId="3042"
+              dungeonLevel="70"
+              maxWorkCount="2"
+              minWorkCount="1">
+        <DungeonWork id="1"
+                     type="hitcount"
+                     title="@dungeonwork:1"
+                     innerText="@dungeonwork:10"
+                     useRankId="1" />
+        <DungeonWork id="2"
+                     type="timer"
+                     title="@dungeonwork:2"
+                     innerText="@dungeonwork:11"
+                     useRankId="3" />
+        <DungeonWork id="3"
+                     type="maxcombocount"
+                     title="@dungeonwork:3"
+                     innerText="@dungeonwork:12"
+                     useRankId="2" />
+        <Random id="4"
+                tooltip="@dungeonwork:505"
+                randomBonusRate="0.3" />
     </WorkList>
-    <WorkList dungeonId="3043" dungeonLevel="70" maxWorkCount="2" minWorkCount="1">
-        <DungeonWork id="1" type="hitcount" title="@dungeonwork:1" innerText="@dungeonwork:10" useRankId="1" />
-        <DungeonWork id="2" type="timer" title="@dungeonwork:2" innerText="@dungeonwork:11" useRankId="3" />
-        <DungeonWork id="3" type="maxcombocount" title="@dungeonwork:3" innerText="@dungeonwork:12" useRankId="2" />
-        <Random id="4" tooltip="@dungeonwork:505" randomBonusRate="0.3" />
+    <WorkList dungeonId="3043"
+              dungeonLevel="70"
+              maxWorkCount="2"
+              minWorkCount="1">
+        <DungeonWork id="1"
+                     type="hitcount"
+                     title="@dungeonwork:1"
+                     innerText="@dungeonwork:10"
+                     useRankId="1" />
+        <DungeonWork id="2"
+                     type="timer"
+                     title="@dungeonwork:2"
+                     innerText="@dungeonwork:11"
+                     useRankId="3" />
+        <DungeonWork id="3"
+                     type="maxcombocount"
+                     title="@dungeonwork:3"
+                     innerText="@dungeonwork:12"
+                     useRankId="2" />
+        <Random id="4"
+                tooltip="@dungeonwork:505"
+                randomBonusRate="0.3" />
     </WorkList>
-    <WorkList dungeonId="3046" dungeonLevel="70" maxWorkCount="2" minWorkCount="1">
-        <DungeonWork id="1" type="hitcount" title="@dungeonwork:1" innerText="@dungeonwork:10" useRankId="1" />
-        <DungeonWork id="2" type="timer" title="@dungeonwork:2" innerText="@dungeonwork:11" useRankId="3" />
-        <DungeonWork id="3" type="maxcombocount" title="@dungeonwork:3" innerText="@dungeonwork:12" useRankId="2" />
-        <Random id="4" tooltip="@dungeonwork:505" randomBonusRate="0.3" />
+    <WorkList dungeonId="3046"
+              dungeonLevel="70"
+              maxWorkCount="2"
+              minWorkCount="1">
+        <DungeonWork id="1"
+                     type="hitcount"
+                     title="@dungeonwork:1"
+                     innerText="@dungeonwork:10"
+                     useRankId="1" />
+        <DungeonWork id="2"
+                     type="timer"
+                     title="@dungeonwork:2"
+                     innerText="@dungeonwork:11"
+                     useRankId="3" />
+        <DungeonWork id="3"
+                     type="maxcombocount"
+                     title="@dungeonwork:3"
+                     innerText="@dungeonwork:12"
+                     useRankId="2" />
+        <Random id="4"
+                tooltip="@dungeonwork:505"
+                randomBonusRate="0.3" />
     </WorkList>
-    <WorkType type="hitcount" tooltipText="@dungeonwork:1000" workTooltip="@dungeonwork:501" />
-    <WorkType type="timer" tooltipText="@dungeonwork:2000" workTooltip="@dungeonwork:502" />
-    <WorkType type="abnormalityapply" tooltipText="@dungeonwork:4000" workTooltip="@dungeonwork:503" />
-    <WorkType type="maxcombocount" tooltipText="@dungeonwork:3000" workTooltip="@dungeonwork:504" />
+    <WorkType type="hitcount"
+              tooltipText="@dungeonwork:1000"
+              workTooltip="@dungeonwork:501" />
+    <WorkType type="timer"
+              tooltipText="@dungeonwork:2000"
+              workTooltip="@dungeonwork:502" />
+    <WorkType type="abnormalityapply"
+              tooltipText="@dungeonwork:4000"
+              workTooltip="@dungeonwork:503" />
+    <WorkType type="maxcombocount"
+              tooltipText="@dungeonwork:3000"
+              workTooltip="@dungeonwork:504" />
 </DungeonWorkData>

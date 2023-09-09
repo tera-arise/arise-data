@@ -1,5 +1,24 @@
-<NpcData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/NpcData NpcData.xsd" huntingZoneId="2530" xmlns="https://vezel.dev/novadrop/dc/NpcData">
-    <Template id="18" name="유안티 광전사(고레벨)" scale="1" gender="male" race="YuantiBuserker" size="large" shapeId="300850" basicActionId="3008500" resourceSize="100" resourceType="medium" parentId="30085001" balanceType="솔로_중형" elite="true" isFreeNamed="false" partyMember="1" showAggroTarget="true" showShorttermTarget="true">
+<NpcData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://vezel.dev/novadrop/dc/NpcData NpcData.xsd"
+         huntingZoneId="2530"
+         xmlns="https://vezel.dev/novadrop/dc/NpcData">
+    <Template id="18"
+              name="유안티 광전사(고레벨)"
+              scale="1"
+              gender="male"
+              race="YuantiBuserker"
+              size="large"
+              shapeId="300850"
+              basicActionId="3008500"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="30085001"
+              balanceType="솔로_중형"
+              elite="true"
+              isFreeNamed="false"
+              partyMember="1"
+              showAggroTarget="true"
+              showShorttermTarget="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -8,20 +27,74 @@
         <Aggro />
         <Anger gaugeSize="1" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="25" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="25"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="1" atk="100" def="100" maxHp="510000000" />
+        <Stat level="1"
+              atk="100"
+              def="100"
+              maxHp="510000000" />
     </Template>
-    <Template id="100" name="투명NPC_타겟용" scale="1" race="" size="large" shapeId="611640" basicActionId="6114100" resourceSize="0" resourceType="" parentId="61164000" balanceType="인던_네임드_보스" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="false" unionElite="false" villager="false">
+    <Template id="100"
+              name="투명NPC_타겟용"
+              scale="1"
+              race=""
+              size="large"
+              shapeId="611640"
+              basicActionId="6114100"
+              resourceSize="0"
+              resourceType=""
+              parentId="61164000"
+              balanceType="인던_네임드_보스"
+              elite="false"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              showTargetInfo="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="6519" />
         <BalanceRef ignoreAttr="" />
         <ObjectNpcAiParam />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="1" atk="62" def="143" maxHp="13038" />
+        <Stat level="1"
+              atk="62"
+              def="143"
+              maxHp="13038" />
     </Template>
-    <Template id="1501" class="" name="차원의 마법석" scale="1.25" race="object" size="medium" shapeId="600920" basicActionId="200010" spawnScriptId="0" resourceSize="100" resourceType="medium" isWideBroadcaster="false" despawnScriptId="0" balanceType="" collideOnMove="true" dontTurn="true" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="false" showShorttermTarget="false" villager="true" villagerVolumeActiveRange="0" villagerVolumeHalfHeight="0" villagerVolumeInteractionDist="0" villagerVolumeOffset="">
+    <Template id="1501"
+              class=""
+              name="차원의 마법석"
+              scale="1.25"
+              race="object"
+              size="medium"
+              shapeId="600920"
+              basicActionId="200010"
+              spawnScriptId="0"
+              resourceSize="100"
+              resourceType="medium"
+              isWideBroadcaster="false"
+              despawnScriptId="0"
+              balanceType=""
+              collideOnMove="true"
+              dontTurn="true"
+              elite="false"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              partyMember="0"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="true"
+              villagerVolumeActiveRange="0"
+              villagerVolumeHalfHeight="0"
+              villagerVolumeInteractionDist="0"
+              villagerVolumeOffset="">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -30,32 +103,87 @@
         <Aggro />
         <Anger gaugeSize="403799" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="0"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="1" atk="50" def="2000" maxHp="10000" />
+        <Stat level="1"
+              atk="50"
+              def="2000"
+              maxHp="10000" />
     </Template>
-    <Template id="6001" name="사제 버프" scale="1" size="medium" shapeId="600962" basicActionId="6009600" parentId="60096200" balanceType="" deathShapeId="600965" elite="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="6001"
+              name="사제 버프"
+              scale="1"
+              size="medium"
+              shapeId="600962"
+              basicActionId="6009600"
+              parentId="60096200"
+              balanceType=""
+              deathShapeId="600965"
+              elite="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <Aggro />
         <Anger gaugeSize="102890.796875" />
         <BalanceRef ignoreAttr="" />
         <ObjectNpcAiParam />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="1" atk="265" def="2338" maxHp="0" />
+        <Stat level="1"
+              atk="265"
+              def="2338"
+              maxHp="0" />
     </Template>
-    <Template id="6002" name="정령 버프" scale="1" size="medium" shapeId="600963" basicActionId="6009600" parentId="60096300" balanceType="" deathShapeId="600966" elite="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="6002"
+              name="정령 버프"
+              scale="1"
+              size="medium"
+              shapeId="600963"
+              basicActionId="6009600"
+              parentId="60096300"
+              balanceType=""
+              deathShapeId="600966"
+              elite="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <Aggro />
         <Anger gaugeSize="102890.796875" />
         <BalanceRef ignoreAttr="" />
         <ObjectNpcAiParam />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="1" atk="265" def="2338" maxHp="0" />
+        <Stat level="1"
+              atk="265"
+              def="2338"
+              maxHp="0" />
     </Template>
-    <Template id="6003" name="리셋 마석" scale="1" size="medium" shapeId="600963" basicActionId="6009600" parentId="60096300" balanceType="" deathShapeId="600966" elite="true" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="6003"
+              name="리셋 마석"
+              scale="1"
+              size="medium"
+              shapeId="600963"
+              basicActionId="6009600"
+              parentId="60096300"
+              balanceType=""
+              deathShapeId="600966"
+              elite="true"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <Aggro />
         <Anger gaugeSize="102890.796875" />
         <BalanceRef ignoreAttr="" />
         <ObjectNpcAiParam />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="1" atk="265" def="2338" maxHp="0" />
+        <Stat level="1"
+              atk="265"
+              def="2338"
+              maxHp="0" />
     </Template>
 </NpcData>

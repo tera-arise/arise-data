@@ -1,5 +1,25 @@
-<NpcData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/NpcData NpcData.xsd" huntingZoneId="9" xmlns="https://vezel.dev/novadrop/dc/NpcData">
-    <Template id="100" name="세이버투스 쿠거" scale="1.25" gender="male" race="SaberToothCougar" size="medium" shapeId="300260" basicActionId="3002600" resourceSize="100" resourceType="medium" parentId="30026001" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" speciesId="8">
+<NpcData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://vezel.dev/novadrop/dc/NpcData NpcData.xsd"
+         huntingZoneId="9"
+         xmlns="https://vezel.dev/novadrop/dc/NpcData">
+    <Template id="100"
+              name="세이버투스 쿠거"
+              scale="1.25"
+              gender="male"
+              race="SaberToothCougar"
+              size="medium"
+              shapeId="300260"
+              basicActionId="3002600"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="30026001"
+              balanceType="솔로_기본"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              speciesId="8">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -8,11 +28,29 @@
         <Aggro />
         <Anger gaugeSize="9209.31002045621" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="13" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="13"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="85" def="434" maxHp="18418.6200409124" />
+        <Stat level="32"
+              atk="85"
+              def="434"
+              maxHp="18418.6200409124" />
     </Template>
-    <Template id="200" name="아크투스" scale="1.45" gender="male" race="Arctus" size="medium" shapeId="300780" basicActionId="3007800" parentId="30078103" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="200"
+              name="아크투스"
+              scale="1.45"
+              gender="male"
+              race="Arctus"
+              size="medium"
+              shapeId="300780"
+              basicActionId="3007800"
+              parentId="30078103"
+              balanceType="솔로_기본"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -21,39 +59,132 @@
         <Aggro />
         <Anger gaugeSize="9209.31002045621" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="69" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="69"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="85" def="434" maxHp="18418.6200409124" />
+        <Stat level="32"
+              atk="85"
+              def="434"
+              maxHp="18418.6200409124" />
     </Template>
-    <Template id="201" name="이동마커(용서할 수 없는 죄)" scale="1" gender="male" race="marker" size="medium" shapeId="611412" basicActionId="6114100" resourceSize="100" resourceType="medium" parentId="72037100" elite="false" invincible="true" isObjectNpc="true" unionElite="false" villager="true">
+    <Template id="201"
+              name="이동마커(용서할 수 없는 죄)"
+              scale="1"
+              gender="male"
+              race="marker"
+              size="medium"
+              shapeId="611412"
+              basicActionId="6114100"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="72037100"
+              elite="false"
+              invincible="true"
+              isObjectNpc="true"
+              unionElite="false"
+              villager="true">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="0" />
         <Reaction maxAdditionalGauge="0" />
-        <Stat level="1" atk="0" def="0" maxHp="0" />
+        <Stat level="1"
+              atk="0"
+              def="0"
+              maxHp="0" />
     </Template>
-    <Template id="202" name="이동마커(배신자의 최후)" scale="1" gender="male" race="marker" size="medium" shapeId="611412" basicActionId="6114100" resourceSize="100" resourceType="medium" parentId="72037100" elite="false" invincible="true" isObjectNpc="true" unionElite="false" villager="true">
+    <Template id="202"
+              name="이동마커(배신자의 최후)"
+              scale="1"
+              gender="male"
+              race="marker"
+              size="medium"
+              shapeId="611412"
+              basicActionId="6114100"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="72037100"
+              elite="false"
+              invincible="true"
+              isObjectNpc="true"
+              unionElite="false"
+              villager="true">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="0" />
         <Reaction maxAdditionalGauge="0" />
-        <Stat level="1" atk="0" def="0" maxHp="0" />
+        <Stat level="1"
+              atk="0"
+              def="0"
+              maxHp="0" />
     </Template>
-    <Template id="211" name="입구 던전 관리인 가이드 (1)" scale="2" gender="male" race="marker" size="medium" shapeId="730250" basicActionId="7203700" resourceSize="100" resourceType="medium" parentId="72037100" elite="false" invincible="true" isObjectNpc="true" unionElite="false" villager="true">
+    <Template id="211"
+              name="입구 던전 관리인 가이드 (1)"
+              scale="2"
+              gender="male"
+              race="marker"
+              size="medium"
+              shapeId="730250"
+              basicActionId="7203700"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="72037100"
+              elite="false"
+              invincible="true"
+              isObjectNpc="true"
+              unionElite="false"
+              villager="true">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="0" />
         <Reaction maxAdditionalGauge="0" />
-        <Stat level="1" atk="0" def="0" maxHp="0" />
+        <Stat level="1"
+              atk="0"
+              def="0"
+              maxHp="0" />
     </Template>
-    <Template id="212" name="입구 던전 관리인 가이드 (2)" scale="2" gender="male" race="marker" size="medium" shapeId="730250" basicActionId="7203700" resourceSize="100" resourceType="medium" parentId="72037100" elite="false" invincible="true" isObjectNpc="true" unionElite="false" villager="true">
+    <Template id="212"
+              name="입구 던전 관리인 가이드 (2)"
+              scale="2"
+              gender="male"
+              race="marker"
+              size="medium"
+              shapeId="730250"
+              basicActionId="7203700"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="72037100"
+              elite="false"
+              invincible="true"
+              isObjectNpc="true"
+              unionElite="false"
+              villager="true">
         <AbnormalityResistanceOverride />
         <Aggro />
         <Anger gaugeSize="0" />
         <Reaction maxAdditionalGauge="0" />
-        <Stat level="1" atk="0" def="0" maxHp="0" />
+        <Stat level="1"
+              atk="0"
+              def="0"
+              maxHp="0" />
     </Template>
-    <Template id="300" name="배고픈 하이에나" scale="1.25" gender="male" race="Hyena" size="medium" shapeId="300201" basicActionId="3002000" resourceSize="200" resourceType="medium" parentId="30020001" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false" speciesId="8">
+    <Template id="300"
+              name="배고픈 하이에나"
+              scale="1.25"
+              gender="male"
+              race="Hyena"
+              size="medium"
+              shapeId="300201"
+              basicActionId="3002000"
+              resourceSize="200"
+              resourceType="medium"
+              parentId="30020001"
+              balanceType="솔로_기본"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="2"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              speciesId="8">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -62,11 +193,32 @@
         <Aggro />
         <Anger gaugeSize="5801.86531288741" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="-2" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="-2"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="57" def="434" maxHp="11603.7306257748" />
+        <Stat level="32"
+              atk="57"
+              def="434"
+              maxHp="11603.7306257748" />
     </Template>
-    <Template id="310" name="배고픈 하이에나 대장" scale="1.25" gender="male" race="Hyena" size="medium" shapeId="300201" basicActionId="3002000" resourceSize="200" resourceType="medium" parentId="30020004" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false" speciesId="8">
+    <Template id="310"
+              name="배고픈 하이에나 대장"
+              scale="1.25"
+              gender="male"
+              race="Hyena"
+              size="medium"
+              shapeId="300201"
+              basicActionId="3002000"
+              resourceSize="200"
+              resourceType="medium"
+              parentId="30020004"
+              balanceType="솔로_기본"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="2"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              speciesId="8">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -75,11 +227,31 @@
         <Aggro />
         <Anger gaugeSize="5801.86531288741" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="-1" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="-1"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="57" def="434" maxHp="11603.7306257748" />
+        <Stat level="32"
+              atk="57"
+              def="434"
+              maxHp="11603.7306257748" />
     </Template>
-    <Template id="400" name="굴라 도살자" scale="1.25" gender="male" race="GulaChef" size="medium" shapeId="300372" basicActionId="3003700" resourceSize="200" resourceType="medium" parentId="30037002" balanceType="솔로_풀-목표" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="400"
+              name="굴라 도살자"
+              scale="1.25"
+              gender="male"
+              race="GulaChef"
+              size="medium"
+              shapeId="300372"
+              basicActionId="3003700"
+              resourceSize="200"
+              resourceType="medium"
+              parentId="30037002"
+              balanceType="솔로_풀-목표"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -88,11 +260,31 @@
         <Aggro />
         <Anger gaugeSize="6583.11042695271" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="15" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="15"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="85" def="434" maxHp="13166.2208539054" />
+        <Stat level="32"
+              atk="85"
+              def="434"
+              maxHp="13166.2208539054" />
     </Template>
-    <Template id="410" name="굴라 입구 경비병" scale="1.5" gender="male" race="GulaChef" size="medium" shapeId="300372" basicActionId="3003700" resourceSize="200" resourceType="medium" parentId="30037002" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="410"
+              name="굴라 입구 경비병"
+              scale="1.5"
+              gender="male"
+              race="GulaChef"
+              size="medium"
+              shapeId="300372"
+              basicActionId="3003700"
+              resourceSize="200"
+              resourceType="medium"
+              parentId="30037002"
+              balanceType="솔로_기본"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="2"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -101,11 +293,31 @@
         <Aggro />
         <Anger gaugeSize="5801.86531288741" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="17" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="17"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="57" def="434" maxHp="11603.7306257748" />
+        <Stat level="32"
+              atk="57"
+              def="434"
+              maxHp="11603.7306257748" />
     </Template>
-    <Template id="420" name="굴라 입구 돌격병" scale="1.25" gender="male" race="GulaChef" size="medium" shapeId="300372" basicActionId="3003700" resourceSize="200" resourceType="medium" parentId="30037002" balanceType="밸런싱 안함" elite="false" isFreeNamed="false" partyMember="6" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="420"
+              name="굴라 입구 돌격병"
+              scale="1.25"
+              gender="male"
+              race="GulaChef"
+              size="medium"
+              shapeId="300372"
+              basicActionId="3003700"
+              resourceSize="200"
+              resourceType="medium"
+              parentId="30037002"
+              balanceType="밸런싱 안함"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="6"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -114,11 +326,31 @@
         <Aggro />
         <Anger gaugeSize="2062.5978881086" />
         <BalanceRef ignoreAttr="atk,maxHp" />
-        <NamePlate nameplateHeight="15" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="15"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="102" def="434" maxHp="1237" />
+        <Stat level="32"
+              atk="102"
+              def="434"
+              maxHp="1237" />
     </Template>
-    <Template id="430" name="굴라 지하 1층 순찰병" scale="1.5" gender="male" race="GulaChef" size="medium" shapeId="300372" basicActionId="3003700" resourceSize="200" resourceType="medium" parentId="30037001" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="430"
+              name="굴라 지하 1층 순찰병"
+              scale="1.5"
+              gender="male"
+              race="GulaChef"
+              size="medium"
+              shapeId="300372"
+              basicActionId="3003700"
+              resourceSize="200"
+              resourceType="medium"
+              parentId="30037001"
+              balanceType="솔로_기본"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="2"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -127,11 +359,31 @@
         <Aggro />
         <Anger gaugeSize="5801.86531288741" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="17" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="17"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="57" def="434" maxHp="11603.7306257748" />
+        <Stat level="32"
+              atk="57"
+              def="434"
+              maxHp="11603.7306257748" />
     </Template>
-    <Template id="440" name="굴라 지하 2층 순찰병" scale="1.5" gender="male" race="GulaChef" size="medium" shapeId="300372" basicActionId="3003700" resourceSize="200" resourceType="medium" parentId="30037003" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="440"
+              name="굴라 지하 2층 순찰병"
+              scale="1.5"
+              gender="male"
+              race="GulaChef"
+              size="medium"
+              shapeId="300372"
+              basicActionId="3003700"
+              resourceSize="200"
+              resourceType="medium"
+              parentId="30037003"
+              balanceType="솔로_기본"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="2"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -140,11 +392,31 @@
         <Aggro />
         <Anger gaugeSize="5801.86531288741" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="18" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="18"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="57" def="434" maxHp="11603.7306257748" />
+        <Stat level="32"
+              atk="57"
+              def="434"
+              maxHp="11603.7306257748" />
     </Template>
-    <Template id="450" name="굴라 전사" scale="1.5" gender="male" race="GulaChef" size="medium" shapeId="300372" basicActionId="3003700" resourceSize="200" resourceType="medium" parentId="30037003" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="450"
+              name="굴라 전사"
+              scale="1.5"
+              gender="male"
+              race="GulaChef"
+              size="medium"
+              shapeId="300372"
+              basicActionId="3003700"
+              resourceSize="200"
+              resourceType="medium"
+              parentId="30037003"
+              balanceType="솔로_기본"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="2"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -153,11 +425,31 @@
         <Aggro />
         <Anger gaugeSize="5801.86531288741" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="13" deathNameplateHeight="49" />
+        <NamePlate nameplateHeight="13"
+                   deathNameplateHeight="49" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="57" def="434" maxHp="11603.7306257748" />
+        <Stat level="32"
+              atk="57"
+              def="434"
+              maxHp="11603.7306257748" />
     </Template>
-    <Template id="500" name="코볼트 약탈자" scale="0.8" gender="male" race="KoboldMarauder" size="small" shapeId="300500" basicActionId="3005000" resourceSize="100" resourceType="medium" parentId="30050000" balanceType="솔로_풀-자코" elite="false" isFreeNamed="false" partyMember="8" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="500"
+              name="코볼트 약탈자"
+              scale="0.8"
+              gender="male"
+              race="KoboldMarauder"
+              size="small"
+              shapeId="300500"
+              basicActionId="3005000"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="30050000"
+              balanceType="솔로_풀-자코"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="8"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -167,9 +459,28 @@
         <Anger gaugeSize="0" />
         <BalanceRef ignoreAttr="" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="32" def="434" maxHp="1481.19984606436" />
+        <Stat level="32"
+              atk="32"
+              def="434"
+              maxHp="1481.19984606436" />
     </Template>
-    <Template id="600" name="좀비 죄수" scale="0.8" gender="male" race="Zombie" size="small" shapeId="300121" basicActionId="3001200" resourceSize="100" resourceType="small" parentId="30012002" balanceType="솔로_풀-자코" elite="false" isFreeNamed="false" partyMember="6" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="600"
+              name="좀비 죄수"
+              scale="0.8"
+              gender="male"
+              race="Zombie"
+              size="small"
+              shapeId="300121"
+              basicActionId="3001200"
+              resourceSize="100"
+              resourceType="small"
+              parentId="30012002"
+              balanceType="솔로_풀-자코"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="6"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -178,11 +489,31 @@
         <Aggro />
         <Anger gaugeSize="0" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="9" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="9"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="34" def="434" maxHp="1851.49980758045" />
+        <Stat level="32"
+              atk="34"
+              def="434"
+              maxHp="1851.49980758045" />
     </Template>
-    <Template id="700" name="사악한 임프 서번트 대장" scale="1.74" gender="male" race="ImpServant" size="medium" shapeId="300030" basicActionId="3000300" resourceSize="100" resourceType="medium" parentId="30003001" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="700"
+              name="사악한 임프 서번트 대장"
+              scale="1.74"
+              gender="male"
+              race="ImpServant"
+              size="medium"
+              shapeId="300030"
+              basicActionId="3000300"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="30003001"
+              balanceType="솔로_기본"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="2"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -191,11 +522,31 @@
         <Aggro />
         <Anger gaugeSize="5801.86531288741" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="10" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="10"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="57" def="434" maxHp="11603.7306257748" />
+        <Stat level="32"
+              atk="57"
+              def="434"
+              maxHp="11603.7306257748" />
     </Template>
-    <Template id="710" name="사악한 임프 서번트" scale="1.74" gender="male" race="ImpServant" size="medium" shapeId="300030" basicActionId="3000300" resourceSize="100" resourceType="medium" parentId="30003002" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="710"
+              name="사악한 임프 서번트"
+              scale="1.74"
+              gender="male"
+              race="ImpServant"
+              size="medium"
+              shapeId="300030"
+              basicActionId="3000300"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="30003002"
+              balanceType="솔로_기본"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="2"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -204,11 +555,31 @@
         <Aggro />
         <Anger gaugeSize="5801.86531288741" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="9" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="9"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="57" def="434" maxHp="11603.7306257748" />
+        <Stat level="32"
+              atk="57"
+              def="434"
+              maxHp="11603.7306257748" />
     </Template>
-    <Template id="800" name="굴라 수습 요리사" scale="1.5" gender="male" race="GulaChef" size="medium" shapeId="300370" basicActionId="3003700" resourceSize="200" resourceType="medium" parentId="30037002" balanceType="솔로_풀-목표" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="800"
+              name="굴라 수습 요리사"
+              scale="1.5"
+              gender="male"
+              race="GulaChef"
+              size="medium"
+              shapeId="300370"
+              basicActionId="3003700"
+              resourceSize="200"
+              resourceType="medium"
+              parentId="30037002"
+              balanceType="솔로_풀-목표"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -217,11 +588,31 @@
         <Aggro />
         <Anger gaugeSize="6583.11042695271" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="25" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="25"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="85" def="434" maxHp="13166.2208539054" />
+        <Stat level="32"
+              atk="85"
+              def="434"
+              maxHp="13166.2208539054" />
     </Template>
-    <Template id="810" name="굴라 수석 요리사" scale="1.5" gender="male" race="GulaChef" size="medium" shapeId="300370" basicActionId="3003700" resourceSize="200" resourceType="medium" parentId="30037003" balanceType="솔로_풀-목표" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="810"
+              name="굴라 수석 요리사"
+              scale="1.5"
+              gender="male"
+              race="GulaChef"
+              size="medium"
+              shapeId="300370"
+              basicActionId="3003700"
+              resourceSize="200"
+              resourceType="medium"
+              parentId="30037003"
+              balanceType="솔로_풀-목표"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -230,11 +621,29 @@
         <Aggro />
         <Anger gaugeSize="6583.11042695271" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="23" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="23"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="85" def="434" maxHp="13166.2208539054" />
+        <Stat level="32"
+              atk="85"
+              def="434"
+              maxHp="13166.2208539054" />
     </Template>
-    <Template id="900" name="얼빵한 시누스" scale="0.7" gender="male" race="animal" size="small" shapeId="300380" basicActionId="3003800" parentId="30038002" balanceType="솔로_풀-자코" elite="false" isFreeNamed="false" partyMember="12" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="900"
+              name="얼빵한 시누스"
+              scale="0.7"
+              gender="male"
+              race="animal"
+              size="small"
+              shapeId="300380"
+              basicActionId="3003800"
+              parentId="30038002"
+              balanceType="솔로_풀-자코"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="12"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -243,11 +652,29 @@
         <Aggro />
         <Anger gaugeSize="0" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="7" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="7"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="27" def="434" maxHp="1036.83989224505" />
+        <Stat level="32"
+              atk="27"
+              def="434"
+              maxHp="1036.83989224505" />
     </Template>
-    <Template id="910" name="광포한 시누스" scale="0.7" gender="male" race="animal" size="small" shapeId="300381" basicActionId="3003800" parentId="30038002" balanceType="솔로_풀-자코" elite="false" isFreeNamed="false" partyMember="16" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="910"
+              name="광포한 시누스"
+              scale="0.7"
+              gender="male"
+              race="animal"
+              size="small"
+              shapeId="300381"
+              basicActionId="3003800"
+              parentId="30038002"
+              balanceType="솔로_풀-자코"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="16"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -256,11 +683,31 @@
         <Aggro />
         <Anger gaugeSize="0" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="14" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="14"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="27" def="434" maxHp="1036.83989224505" />
+        <Stat level="32"
+              atk="27"
+              def="434"
+              maxHp="1036.83989224505" />
     </Template>
-    <Template id="1000" name="필드 종족형 사교도 무사" scale="1.3" gender="male" race="Slayer_Darker" size="medium" shapeId="301381" basicActionId="3013800" resourceSize="100" resourceType="medium" parentId="30138100" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="1000"
+              name="필드 종족형 사교도 무사"
+              scale="1.3"
+              gender="male"
+              race="Slayer_Darker"
+              size="medium"
+              shapeId="301381"
+              basicActionId="3013800"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="30138100"
+              balanceType="솔로_기본"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="2"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -269,11 +716,31 @@
         <Aggro />
         <Anger gaugeSize="5801.86531288741" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="-14" deathNameplateHeight="41" />
+        <NamePlate nameplateHeight="-14"
+                   deathNameplateHeight="41" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="57" def="434" maxHp="11603.7306257748" />
+        <Stat level="32"
+              atk="57"
+              def="434"
+              maxHp="11603.7306257748" />
     </Template>
-    <Template id="1100" name="필드 종족형 사교도 궁수" scale="1.3" gender="male" race="Archer_Darker" size="medium" shapeId="301371" basicActionId="3013700" resourceSize="100" resourceType="medium" parentId="30137100" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="1100"
+              name="필드 종족형 사교도 궁수"
+              scale="1.3"
+              gender="male"
+              race="Archer_Darker"
+              size="medium"
+              shapeId="301371"
+              basicActionId="3013700"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="30137100"
+              balanceType="솔로_기본"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="2"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -282,11 +749,31 @@
         <Aggro />
         <Anger gaugeSize="5801.86531288741" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="1" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="1"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="57" def="434" maxHp="11603.7306257748" />
+        <Stat level="32"
+              atk="57"
+              def="434"
+              maxHp="11603.7306257748" />
     </Template>
-    <Template id="1200" name="필드 종족형 사교도 창기사" scale="1.3" gender="male" race="Lance_Darker" size="medium" shapeId="301361" basicActionId="3013600" resourceSize="100" resourceType="medium" parentId="30136100" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="1200"
+              name="필드 종족형 사교도 창기사"
+              scale="1.3"
+              gender="male"
+              race="Lance_Darker"
+              size="medium"
+              shapeId="301361"
+              basicActionId="3013600"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="30136100"
+              balanceType="솔로_기본"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="2"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -295,11 +782,43 @@
         <Aggro />
         <Anger gaugeSize="5801.86531288741" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="-5" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="-5"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="57" def="434" maxHp="11603.7306257748" />
+        <Stat level="32"
+              atk="57"
+              def="434"
+              maxHp="11603.7306257748" />
     </Template>
-    <Template id="1271" class="" name="동부 가드 유랑 상인" scale="1" gender="male" race="BlackMarketer" size="medium" shapeId="506040" basicActionId="3020402" spawnScriptId="0" resourceSize="100" resourceType="medium" isWideBroadcaster="false" despawnScriptId="0" balanceType="" collideOnMove="false" dontTurn="false" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="false" showShorttermTarget="false" villager="true" villagerVolumeActiveRange="0" villagerVolumeHalfHeight="0" villagerVolumeInteractionDist="0" villagerVolumeOffset="">
+    <Template id="1271"
+              class=""
+              name="동부 가드 유랑 상인"
+              scale="1"
+              gender="male"
+              race="BlackMarketer"
+              size="medium"
+              shapeId="506040"
+              basicActionId="3020402"
+              spawnScriptId="0"
+              resourceSize="100"
+              resourceType="medium"
+              isWideBroadcaster="false"
+              despawnScriptId="0"
+              balanceType=""
+              collideOnMove="false"
+              dontTurn="false"
+              elite="false"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              partyMember="0"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="true"
+              villagerVolumeActiveRange="0"
+              villagerVolumeHalfHeight="0"
+              villagerVolumeInteractionDist="0"
+              villagerVolumeOffset="">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -308,11 +827,31 @@
         <Aggro />
         <Anger gaugeSize="403799" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="15" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="15"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="40" atk="100" def="2000" maxHp="10000" />
+        <Stat level="40"
+              atk="100"
+              def="2000"
+              maxHp="10000" />
     </Template>
-    <Template id="1300" name="필드 종족형 사교도 광전사" scale="1.3" gender="male" race="Berserker_Darker" size="medium" shapeId="301423" basicActionId="3014200" resourceSize="100" resourceType="medium" parentId="30142300" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="1300"
+              name="필드 종족형 사교도 광전사"
+              scale="1.3"
+              gender="male"
+              race="Berserker_Darker"
+              size="medium"
+              shapeId="301423"
+              basicActionId="3014200"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="30142300"
+              balanceType="솔로_기본"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="2"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -321,11 +860,32 @@
         <Aggro />
         <Anger gaugeSize="5801.86531288741" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="7" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="7"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="57" def="434" maxHp="11603.7306257748" />
+        <Stat level="32"
+              atk="57"
+              def="434"
+              maxHp="11603.7306257748" />
     </Template>
-    <Template id="1400" name="볼카누스(저레벨)" scale="2.55" gender="male" race="Volcanus" size="large" shapeId="301341" basicActionId="3013400" resourceSize="100" resourceType="medium" parentId="30134000" balanceType="솔로_중형" elite="true" isFreeNamed="false" partyMember="1" showAggroTarget="true" showShorttermTarget="true" speciesId="1">
+    <Template id="1400"
+              name="볼카누스(저레벨)"
+              scale="2.55"
+              gender="male"
+              race="Volcanus"
+              size="large"
+              shapeId="301341"
+              basicActionId="3013400"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="30134000"
+              balanceType="솔로_중형"
+              elite="true"
+              isFreeNamed="false"
+              partyMember="1"
+              showAggroTarget="true"
+              showShorttermTarget="true"
+              speciesId="1">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -334,11 +894,32 @@
         <Aggro />
         <Anger gaugeSize="33624.995496152" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="96" deathNameplateHeight="71" />
+        <NamePlate nameplateHeight="96"
+                   deathNameplateHeight="71" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="317" def="434" maxHp="134499.981984608" />
+        <Stat level="32"
+              atk="317"
+              def="434"
+              maxHp="134499.981984608" />
     </Template>
-    <Template id="1410" name="볼카누스(저레벨)" scale="2.55" gender="male" race="Volcanus" size="large" shapeId="301340" basicActionId="3013400" resourceSize="100" resourceType="medium" parentId="30134000" balanceType="솔로_중형" elite="true" isFreeNamed="false" partyMember="1" showAggroTarget="true" showShorttermTarget="true" speciesId="1">
+    <Template id="1410"
+              name="볼카누스(저레벨)"
+              scale="2.55"
+              gender="male"
+              race="Volcanus"
+              size="large"
+              shapeId="301340"
+              basicActionId="3013400"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="30134000"
+              balanceType="솔로_중형"
+              elite="true"
+              isFreeNamed="false"
+              partyMember="1"
+              showAggroTarget="true"
+              showShorttermTarget="true"
+              speciesId="1">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -347,11 +928,31 @@
         <Aggro />
         <Anger gaugeSize="33624.995496152" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="94" deathNameplateHeight="110" />
+        <NamePlate nameplateHeight="94"
+                   deathNameplateHeight="110" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="317" def="434" maxHp="134499.981984608" />
+        <Stat level="32"
+              atk="317"
+              def="434"
+              maxHp="134499.981984608" />
     </Template>
-    <Template id="2100" name="필드 종족형 사교도 창기사" scale="1.5" gender="male" race="Lance_Darker" size="medium" shapeId="301362" basicActionId="3013600" resourceSize="100" resourceType="medium" parentId="30136100" balanceType="솔로_네임드_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="2100"
+              name="필드 종족형 사교도 창기사"
+              scale="1.5"
+              gender="male"
+              race="Lance_Darker"
+              size="medium"
+              shapeId="301362"
+              basicActionId="3013600"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="30136100"
+              balanceType="솔로_네임드_기본"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="2"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -360,11 +961,31 @@
         <Aggro />
         <Anger gaugeSize="8006.57413178463" />
         <BalanceRef ignoreAttr="atk" />
-        <NamePlate nameplateHeight="-5" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="-5"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="102" def="521" maxHp="15084.8498135073" />
+        <Stat level="32"
+              atk="102"
+              def="521"
+              maxHp="15084.8498135073" />
     </Template>
-    <Template id="2200" name="필드 종족형 사교도 광전사" scale="1.5" gender="male" race="Berserker_Darker" size="medium" shapeId="301422" basicActionId="3014200" resourceSize="100" resourceType="medium" parentId="30142300" balanceType="솔로_네임드_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="2200"
+              name="필드 종족형 사교도 광전사"
+              scale="1.5"
+              gender="male"
+              race="Berserker_Darker"
+              size="medium"
+              shapeId="301422"
+              basicActionId="3014200"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="30142300"
+              balanceType="솔로_네임드_기본"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="2"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -373,11 +994,29 @@
         <Aggro />
         <Anger gaugeSize="8006.57413178463" />
         <BalanceRef ignoreAttr="atk" />
-        <NamePlate nameplateHeight="7" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="7"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="102" def="521" maxHp="15084.8498135073" />
+        <Stat level="32"
+              atk="102"
+              def="521"
+              maxHp="15084.8498135073" />
     </Template>
-    <Template id="5000" name="아크투스(네임드)" scale="1.45" gender="male" race="Arctus" size="medium" shapeId="300780" basicActionId="3007800" parentId="30078102" balanceType="솔로_네임드_기본" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="5000"
+              name="아크투스(네임드)"
+              scale="1.45"
+              gender="male"
+              race="Arctus"
+              size="medium"
+              shapeId="300780"
+              basicActionId="3007800"
+              parentId="30078102"
+              balanceType="솔로_네임드_기본"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -386,11 +1025,31 @@
         <Aggro />
         <Anger gaugeSize="12708.8478282296" />
         <BalanceRef ignoreAttr="atk" />
-        <NamePlate nameplateHeight="62" deathNameplateHeight="76" />
+        <NamePlate nameplateHeight="62"
+                   deathNameplateHeight="76" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="551" def="521" maxHp="23944.2060531861" />
+        <Stat level="32"
+              atk="551"
+              def="521"
+              maxHp="23944.2060531861" />
     </Template>
-    <Template id="5001" name="사악한 임프 서번트 대장(네임드)" scale="1.74" gender="male" race="ImpServant" size="medium" shapeId="300030" basicActionId="3000300" resourceSize="100" resourceType="medium" parentId="30003003" balanceType="솔로_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="5001"
+              name="사악한 임프 서번트 대장(네임드)"
+              scale="1.74"
+              gender="male"
+              race="ImpServant"
+              size="medium"
+              shapeId="300030"
+              basicActionId="3000300"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="30003003"
+              balanceType="솔로_기본"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="2"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -399,11 +1058,31 @@
         <Aggro />
         <Anger gaugeSize="5801.86531288741" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="10" deathNameplateHeight="26" />
+        <NamePlate nameplateHeight="10"
+                   deathNameplateHeight="26" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="57" def="434" maxHp="11603.7306257748" />
+        <Stat level="32"
+              atk="57"
+              def="434"
+              maxHp="11603.7306257748" />
     </Template>
-    <Template id="5002" name="굴라 전사(네임드)" scale="1.5" gender="male" race="GulaChef" size="medium" shapeId="300372" basicActionId="3003700" resourceSize="200" resourceType="medium" parentId="30037003" balanceType="솔로_네임드_기본" elite="false" isFreeNamed="false" partyMember="2" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="5002"
+              name="굴라 전사(네임드)"
+              scale="1.5"
+              gender="male"
+              race="GulaChef"
+              size="medium"
+              shapeId="300372"
+              basicActionId="3003700"
+              resourceSize="200"
+              resourceType="medium"
+              parentId="30037003"
+              balanceType="솔로_네임드_기본"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="2"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -412,11 +1091,31 @@
         <Aggro />
         <Anger gaugeSize="8006.57413178463" />
         <BalanceRef ignoreAttr="atk" />
-        <NamePlate nameplateHeight="14" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="14"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="375" def="521" maxHp="15084.8498135073" />
+        <Stat level="32"
+              atk="375"
+              def="521"
+              maxHp="15084.8498135073" />
     </Template>
-    <Template id="5003" name="굴라 도살자(네임드)" scale="1.5" gender="male" race="GulaChef" size="medium" shapeId="300372" basicActionId="3003700" resourceSize="200" resourceType="medium" parentId="30037003" balanceType="솔로_네임드_풀-목표" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="5003"
+              name="굴라 도살자(네임드)"
+              scale="1.5"
+              gender="male"
+              race="GulaChef"
+              size="medium"
+              shapeId="300372"
+              basicActionId="3003700"
+              resourceSize="200"
+              resourceType="medium"
+              parentId="30037003"
+              balanceType="솔로_네임드_풀-목표"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -425,11 +1124,31 @@
         <Aggro />
         <Anger gaugeSize="9084.69238919473" />
         <BalanceRef ignoreAttr="atk" />
-        <NamePlate nameplateHeight="18" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="18"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="551" def="521" maxHp="17116.087110077" />
+        <Stat level="32"
+              atk="551"
+              def="521"
+              maxHp="17116.087110077" />
     </Template>
-    <Template id="5004" name="코볼트 약탈자(네임드)" scale="0.8" gender="male" race="KoboldMarauder" size="small" shapeId="300500" basicActionId="3005000" resourceSize="100" resourceType="medium" parentId="30050000" balanceType="솔로_네임드_풀-자코" elite="false" isFreeNamed="false" partyMember="8" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="5004"
+              name="코볼트 약탈자(네임드)"
+              scale="0.8"
+              gender="male"
+              race="KoboldMarauder"
+              size="small"
+              shapeId="300500"
+              basicActionId="3005000"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="30050000"
+              balanceType="솔로_네임드_풀-자코"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="8"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -438,11 +1157,31 @@
         <Aggro />
         <Anger gaugeSize="0" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="0" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="0"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="156" def="521" maxHp="1925.55979988367" />
+        <Stat level="32"
+              atk="156"
+              def="521"
+              maxHp="1925.55979988367" />
     </Template>
-    <Template id="5005" name="굴라 보스(네임드)" scale="1.5" gender="male" race="GulaChef" size="medium" shapeId="300374" basicActionId="3003700" resourceSize="200" resourceType="medium" parentId="30037003" balanceType="솔로_네임드_기본" elite="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="5005"
+              name="굴라 보스(네임드)"
+              scale="1.5"
+              gender="male"
+              race="GulaChef"
+              size="medium"
+              shapeId="300374"
+              basicActionId="3003700"
+              resourceSize="200"
+              resourceType="medium"
+              parentId="30037003"
+              balanceType="솔로_네임드_기본"
+              elite="false"
+              isFreeNamed="false"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -451,11 +1190,32 @@
         <Aggro />
         <Anger gaugeSize="12708.8478282296" />
         <BalanceRef ignoreAttr="atk" />
-        <NamePlate nameplateHeight="18" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="18"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="551" def="521" maxHp="23944.2060531861" />
+        <Stat level="32"
+              atk="551"
+              def="521"
+              maxHp="23944.2060531861" />
     </Template>
-    <Template id="5006" name="볼카누스(중레벨_인던용)" scale="2.85" gender="male" race="Volcanus" size="large" shapeId="301342" basicActionId="3013400" resourceSize="100" resourceType="medium" parentId="30134002" balanceType="솔로_중형" elite="true" isFreeNamed="true" partyMember="1" showAggroTarget="true" showShorttermTarget="true" speciesId="1">
+    <Template id="5006"
+              name="볼카누스(중레벨_인던용)"
+              scale="2.85"
+              gender="male"
+              race="Volcanus"
+              size="large"
+              shapeId="301342"
+              basicActionId="3013400"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="30134002"
+              balanceType="솔로_중형"
+              elite="true"
+              isFreeNamed="true"
+              partyMember="1"
+              showAggroTarget="true"
+              showShorttermTarget="true"
+              speciesId="1">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -464,11 +1224,33 @@
         <Aggro />
         <Anger gaugeSize="37722.0224517701" />
         <BalanceRef ignoreAttr="balanceType,def,maxHp,exp" />
-        <NamePlate nameplateHeight="118" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="118"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="33" atk="317" def="469" maxHp="196154.516749204" />
+        <Stat level="33"
+              atk="317"
+              def="469"
+              maxHp="196154.516749204" />
     </Template>
-    <Template id="7000" name="카이아의 검 남병사(캐스타닉 남자 무사)" scale="1" gender="male" race="Castanic" size="medium" shapeId="523020" basicActionId="5230200" resourceSize="100" resourceType="medium" parentId="52302000" balanceType="밸런싱 안함" elite="false" invincible="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="true">
+    <Template id="7000"
+              name="카이아의 검 남병사(캐스타닉 남자 무사)"
+              scale="1"
+              gender="male"
+              race="Castanic"
+              size="medium"
+              shapeId="523020"
+              basicActionId="5230200"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="52302000"
+              balanceType="밸런싱 안함"
+              elite="false"
+              invincible="false"
+              isFreeNamed="false"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -477,11 +1259,33 @@
         <Aggro />
         <Anger gaugeSize="4583.55086246355" />
         <BalanceRef ignoreAttr="atk" />
-        <NamePlate nameplateHeight="9" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="9"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="170" def="434" maxHp="10999" />
+        <Stat level="32"
+              atk="170"
+              def="434"
+              maxHp="10999" />
     </Template>
-    <Template id="7001" name="카이아의 검 여병사(캐스타닉 여자 검투사)" scale="1" gender="female" race="Castanic" size="medium" shapeId="521011" basicActionId="5210100" resourceSize="100" resourceType="medium" parentId="52101100" balanceType="밸런싱 안함" elite="false" invincible="false" isFreeNamed="false" partyMember="1" showAggroTarget="false" showShorttermTarget="false" villager="true">
+    <Template id="7001"
+              name="카이아의 검 여병사(캐스타닉 여자 검투사)"
+              scale="1"
+              gender="female"
+              race="Castanic"
+              size="medium"
+              shapeId="521011"
+              basicActionId="5210100"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="52101100"
+              balanceType="밸런싱 안함"
+              elite="false"
+              invincible="false"
+              isFreeNamed="false"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              villager="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -491,14 +1295,35 @@
         <Anger gaugeSize="4583.55086246355" />
         <BalanceRef ignoreAttr="atk" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="170" def="434" maxHp="10999" />
+        <Stat level="32"
+              atk="170"
+              def="434"
+              maxHp="10999" />
     </Template>
-    <Template id="9000" name="통로용 파괴문" scale="1" size="medium" shapeId="600530" basicActionId="6005300" isWideBroadcaster="true" parentId="60053000" balanceType="밸런싱 안함" deathShapeId="600531" elite="false" isFreeNamed="false" isObjectNpc="true" partyMember="1" showAggroTarget="false" showShorttermTarget="false">
+    <Template id="9000"
+              name="통로용 파괴문"
+              scale="1"
+              size="medium"
+              shapeId="600530"
+              basicActionId="6005300"
+              isWideBroadcaster="true"
+              parentId="60053000"
+              balanceType="밸런싱 안함"
+              deathShapeId="600531"
+              elite="false"
+              isFreeNamed="false"
+              isObjectNpc="true"
+              partyMember="1"
+              showAggroTarget="false"
+              showShorttermTarget="false">
         <Aggro />
         <Anger gaugeSize="4583.55086246355" />
         <BalanceRef ignoreAttr="atk" />
         <ObjectNpcAiParam />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="170" def="434" maxHp="3299" />
+        <Stat level="32"
+              atk="170"
+              def="434"
+              maxHp="3299" />
     </Template>
 </NpcData>

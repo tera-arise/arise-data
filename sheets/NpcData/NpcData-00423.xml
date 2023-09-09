@@ -1,5 +1,25 @@
-<NpcData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/NpcData NpcData.xsd" huntingZoneId="3035" xmlns="https://vezel.dev/novadrop/dc/NpcData">
-    <Template id="1001" class="" name="벨릭" scale="2" gender="female" race="orignal" size="medium" shapeId="510770" basicActionId="5107700" spawnScriptId="0" resourceSize="100" resourceType="medium" despawnScriptId="0" collideOnMove="false" dontTurn="false" invincible="true" isObjectNpc="false" villager="true">
+<NpcData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://vezel.dev/novadrop/dc/NpcData NpcData.xsd"
+         huntingZoneId="3035"
+         xmlns="https://vezel.dev/novadrop/dc/NpcData">
+    <Template id="1001"
+              class=""
+              name="벨릭"
+              scale="2"
+              gender="female"
+              race="orignal"
+              size="medium"
+              shapeId="510770"
+              basicActionId="5107700"
+              spawnScriptId="0"
+              resourceSize="100"
+              resourceType="medium"
+              despawnScriptId="0"
+              collideOnMove="false"
+              dontTurn="false"
+              invincible="true"
+              isObjectNpc="false"
+              villager="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -9,9 +29,34 @@
         <Anger gaugeSize="403799" />
         <NamePlate nameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="40" atk="30" def="2000" maxHp="10000" />
+        <Stat level="40"
+              atk="30"
+              def="2000"
+              maxHp="10000" />
     </Template>
-    <Template id="1002" name="용족수하_2" scale="1" gender="male" race="Human" size="large" shapeId="510493" basicActionId="5321100" resourceSize="100" resourceType="large" isWideBroadcaster="false" parentId="53210000" balanceType="" elite="true" invincible="false" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="false" showShorttermTarget="false" showTargetInfo="true" unionElite="false" villager="false">
+    <Template id="1002"
+              name="용족수하_2"
+              scale="1"
+              gender="male"
+              race="Human"
+              size="large"
+              shapeId="510493"
+              basicActionId="5321100"
+              resourceSize="100"
+              resourceType="large"
+              isWideBroadcaster="false"
+              parentId="53210000"
+              balanceType=""
+              elite="true"
+              invincible="false"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              partyMember="0"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              showTargetInfo="true"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -19,15 +64,36 @@
         </AbnormalityResistanceOverride>
         <Aggro />
         <AltAnimation>
-            <AltAnim type="Death" altAnimName="Death" />
-            <AltAnim type="deathwait" altAnimName="deathwait" />
+            <AltAnim type="Death"
+                     altAnimName="Death" />
+            <AltAnim type="deathwait"
+                     altAnimName="deathwait" />
         </AltAnimation>
         <Anger gaugeSize="331" />
         <BalanceRef ignoreAttr="" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="68" atk="30" def="8960" maxHp="20000000" />
+        <Stat level="68"
+              atk="30"
+              def="8960"
+              maxHp="20000000" />
     </Template>
-    <Template id="1003" name="유안티 광전사(고레벨)" scale="0.5" gender="male" race="YuantiBuserker" size="large" shapeId="300850" basicActionId="3008500" resourceSize="100" resourceType="medium" parentId="30085001" balanceType="솔로_중형" elite="true" isFreeNamed="false" partyMember="1" showAggroTarget="true" showShorttermTarget="true">
+    <Template id="1003"
+              name="유안티 광전사(고레벨)"
+              scale="0.5"
+              gender="male"
+              race="YuantiBuserker"
+              size="large"
+              shapeId="300850"
+              basicActionId="3008500"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="30085001"
+              balanceType="솔로_중형"
+              elite="true"
+              isFreeNamed="false"
+              partyMember="1"
+              showAggroTarget="true"
+              showShorttermTarget="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -36,11 +102,29 @@
         <Aggro />
         <Anger gaugeSize="1" />
         <BalanceRef ignoreAttr="" />
-        <NamePlate nameplateHeight="25" deathNameplateHeight="0" />
+        <NamePlate nameplateHeight="25"
+                   deathNameplateHeight="0" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="68" atk="30" def="8960" maxHp="255000000" />
+        <Stat level="68"
+              atk="30"
+              def="8960"
+              maxHp="255000000" />
     </Template>
-    <Template id="1006" name="2지역_근육 가신A" scale="1" gender="male" race="fdi_naga" size="medium" shapeId="303623" basicActionId="3036230" resourceSize="100" resourceType="medium" elite="false" invincible="false" isObjectNpc="false" unionElite="false" villager="false">
+    <Template id="1006"
+              name="2지역_근육 가신A"
+              scale="1"
+              gender="male"
+              race="fdi_naga"
+              size="medium"
+              shapeId="303623"
+              basicActionId="3036230"
+              resourceSize="100"
+              resourceType="medium"
+              elite="false"
+              invincible="false"
+              isObjectNpc="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -50,9 +134,27 @@
         <AltAnimation />
         <Anger gaugeSize="225" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="67" atk="1000" def="8960" maxHp="27448770" />
+        <Stat level="67"
+              atk="1000"
+              def="8960"
+              maxHp="27448770" />
     </Template>
-    <Template id="1007" name="fdi_용족_관리자" scale="1" gender="female" race="fdi_dragonian" size="medium" shapeId="303680" basicActionId="3036800" resourceSize="100" resourceType="medium" parentId="30368000" elite="false" invincible="false" isObjectNpc="false" unionElite="false" villager="false">
+    <Template id="1007"
+              name="fdi_용족_관리자"
+              scale="1"
+              gender="female"
+              race="fdi_dragonian"
+              size="medium"
+              shapeId="303680"
+              basicActionId="3036800"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="30368000"
+              elite="false"
+              invincible="false"
+              isObjectNpc="false"
+              unionElite="false"
+              villager="false">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -62,9 +164,33 @@
         <AltAnimation />
         <Anger gaugeSize="225" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="67" atk="1000" def="8960" maxHp="27448770" />
+        <Stat level="67"
+              atk="1000"
+              def="8960"
+              maxHp="27448770" />
     </Template>
-    <Template id="2000" name="벨릭의 사제1" scale="1" gender="female" race="Highelf" size="medium" shapeId="5250122" basicActionId="5250100" spawnScriptId="30351001" resourceSize="100" resourceType="medium" parentId="52501220" balanceType="" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="true">
+    <Template id="2000"
+              name="벨릭의 사제1"
+              scale="1"
+              gender="female"
+              race="Highelf"
+              size="medium"
+              shapeId="5250122"
+              basicActionId="5250100"
+              spawnScriptId="30351001"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="52501220"
+              balanceType=""
+              elite="false"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              partyMember="0"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              unionElite="false"
+              villager="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -75,9 +201,33 @@
         <Anger gaugeSize="0" />
         <BalanceRef ignoreAttr="" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="1" def="1" maxHp="1" />
+        <Stat level="32"
+              atk="1"
+              def="1"
+              maxHp="1" />
     </Template>
-    <Template id="2001" name="벨릭의 사제2" scale="1" gender="female" race="Highelf" size="medium" shapeId="5250122" basicActionId="5250100" spawnScriptId="30351003" resourceSize="100" resourceType="medium" parentId="52501220" balanceType="" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="true">
+    <Template id="2001"
+              name="벨릭의 사제2"
+              scale="1"
+              gender="female"
+              race="Highelf"
+              size="medium"
+              shapeId="5250122"
+              basicActionId="5250100"
+              spawnScriptId="30351003"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="52501220"
+              balanceType=""
+              elite="false"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              partyMember="0"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              unionElite="false"
+              villager="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -88,9 +238,33 @@
         <Anger gaugeSize="0" />
         <BalanceRef ignoreAttr="" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="1" def="1" maxHp="1" />
+        <Stat level="32"
+              atk="1"
+              def="1"
+              maxHp="1" />
     </Template>
-    <Template id="2002" name="벨릭의 사제3" scale="1" gender="female" race="Highelf" size="medium" shapeId="5250122" basicActionId="5250100" spawnScriptId="30351004" resourceSize="100" resourceType="medium" parentId="52501220" balanceType="" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="true">
+    <Template id="2002"
+              name="벨릭의 사제3"
+              scale="1"
+              gender="female"
+              race="Highelf"
+              size="medium"
+              shapeId="5250122"
+              basicActionId="5250100"
+              spawnScriptId="30351004"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="52501220"
+              balanceType=""
+              elite="false"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              partyMember="0"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              unionElite="false"
+              villager="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -101,9 +275,33 @@
         <Anger gaugeSize="0" />
         <BalanceRef ignoreAttr="" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="1" def="1" maxHp="1" />
+        <Stat level="32"
+              atk="1"
+              def="1"
+              maxHp="1" />
     </Template>
-    <Template id="2003" name="벨릭의 사제4" scale="1" gender="female" race="Highelf" size="medium" shapeId="5250122" basicActionId="5250100" spawnScriptId="30351005" resourceSize="100" resourceType="medium" parentId="52501220" balanceType="" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="true">
+    <Template id="2003"
+              name="벨릭의 사제4"
+              scale="1"
+              gender="female"
+              race="Highelf"
+              size="medium"
+              shapeId="5250122"
+              basicActionId="5250100"
+              spawnScriptId="30351005"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="52501220"
+              balanceType=""
+              elite="false"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              partyMember="0"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              unionElite="false"
+              villager="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -114,9 +312,33 @@
         <Anger gaugeSize="0" />
         <BalanceRef ignoreAttr="" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="1" def="1" maxHp="1" />
+        <Stat level="32"
+              atk="1"
+              def="1"
+              maxHp="1" />
     </Template>
-    <Template id="2004" name="벨릭의 사제5" scale="1" gender="female" race="Highelf" size="medium" shapeId="5250122" basicActionId="5250100" spawnScriptId="0" resourceSize="100" resourceType="medium" parentId="52501220" balanceType="" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="true">
+    <Template id="2004"
+              name="벨릭의 사제5"
+              scale="1"
+              gender="female"
+              race="Highelf"
+              size="medium"
+              shapeId="5250122"
+              basicActionId="5250100"
+              spawnScriptId="0"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="52501220"
+              balanceType=""
+              elite="false"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              partyMember="0"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              unionElite="false"
+              villager="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -127,9 +349,33 @@
         <Anger gaugeSize="0" />
         <BalanceRef ignoreAttr="" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="1" def="1" maxHp="1" />
+        <Stat level="32"
+              atk="1"
+              def="1"
+              maxHp="1" />
     </Template>
-    <Template id="2005" name="벨릭의 사제6_303501" scale="1" gender="female" race="Highelf" size="medium" shapeId="5250122" basicActionId="5250100" spawnScriptId="30351007" resourceSize="100" resourceType="medium" parentId="52501220" balanceType="" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="true">
+    <Template id="2005"
+              name="벨릭의 사제6_303501"
+              scale="1"
+              gender="female"
+              race="Highelf"
+              size="medium"
+              shapeId="5250122"
+              basicActionId="5250100"
+              spawnScriptId="30351007"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="52501220"
+              balanceType=""
+              elite="false"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              partyMember="0"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              unionElite="false"
+              villager="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -140,9 +386,32 @@
         <Anger gaugeSize="0" />
         <BalanceRef ignoreAttr="" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="1" def="1" maxHp="1" />
+        <Stat level="32"
+              atk="1"
+              def="1"
+              maxHp="1" />
     </Template>
-    <Template id="2006" name="벨릭의 사제7" scale="1" gender="female" race="Highelf" size="medium" shapeId="5250122" basicActionId="5250100" resourceSize="100" resourceType="medium" parentId="52501220" balanceType="" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="true">
+    <Template id="2006"
+              name="벨릭의 사제7"
+              scale="1"
+              gender="female"
+              race="Highelf"
+              size="medium"
+              shapeId="5250122"
+              basicActionId="5250100"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="52501220"
+              balanceType=""
+              elite="false"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              partyMember="0"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              unionElite="false"
+              villager="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -153,9 +422,32 @@
         <Anger gaugeSize="0" />
         <BalanceRef ignoreAttr="" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="1" def="1" maxHp="1" />
+        <Stat level="32"
+              atk="1"
+              def="1"
+              maxHp="1" />
     </Template>
-    <Template id="2007" name="벨릭의 사제8" scale="1" gender="female" race="Highelf" size="medium" shapeId="5250122" basicActionId="5250100" resourceSize="100" resourceType="medium" parentId="52501220" balanceType="" elite="false" invincible="true" isFreeNamed="false" isObjectNpc="false" partyMember="0" showAggroTarget="false" showShorttermTarget="false" unionElite="false" villager="true">
+    <Template id="2007"
+              name="벨릭의 사제8"
+              scale="1"
+              gender="female"
+              race="Highelf"
+              size="medium"
+              shapeId="5250122"
+              basicActionId="5250100"
+              resourceSize="100"
+              resourceType="medium"
+              parentId="52501220"
+              balanceType=""
+              elite="false"
+              invincible="true"
+              isFreeNamed="false"
+              isObjectNpc="false"
+              partyMember="0"
+              showAggroTarget="false"
+              showShorttermTarget="false"
+              unionElite="false"
+              villager="true">
         <AbnormalityResistanceOverride>
             <Abnormality />
             <Abnormality />
@@ -166,6 +458,9 @@
         <Anger gaugeSize="0" />
         <BalanceRef ignoreAttr="" />
         <Reaction maxAdditionalGauge="600000" />
-        <Stat level="32" atk="1" def="1" maxHp="1" />
+        <Stat level="32"
+              atk="1"
+              def="1"
+              maxHp="1" />
     </Template>
 </NpcData>

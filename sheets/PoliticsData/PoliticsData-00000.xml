@@ -1,267 +1,955 @@
-<PoliticsData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/PoliticsData PoliticsData.xsd" xmlns="https://vezel.dev/novadrop/dc/PoliticsData">
+<PoliticsData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="https://vezel.dev/novadrop/dc/PoliticsData PoliticsData.xsd"
+              xmlns="https://vezel.dev/novadrop/dc/PoliticsData">
     <GuardTaxData>
         <TaxGroup stringId="@politics:1001">
-            <TaxData id="1" tooltip="@politics:10009" stringId="@politics:1002" maxRate="15" minRate="1" />
-            <TaxData id="2" tooltip="@politics:10010" stringId="@politics:1003" maxRate="15" minRate="1" />
-            <TaxData id="3" tooltip="@politics:10021" stringId="@politics:1006" maxRate="15" minRate="1" />
+            <TaxData id="1"
+                     tooltip="@politics:10009"
+                     stringId="@politics:1002"
+                     maxRate="15"
+                     minRate="1" />
+            <TaxData id="2"
+                     tooltip="@politics:10010"
+                     stringId="@politics:1003"
+                     maxRate="15"
+                     minRate="1" />
+            <TaxData id="3"
+                     tooltip="@politics:10021"
+                     stringId="@politics:1006"
+                     maxRate="15"
+                     minRate="1" />
         </TaxGroup>
         <TaxGroup stringId="@politics:2001">
-            <TaxData id="5" tooltip="@politics:10013" stringId="@politics:2002" maxRate="15" minRate="1" />
-            <TaxData id="6" tooltip="@politics:10014" stringId="@politics:2003" maxRate="15" minRate="1" />
-            <TaxData id="7" tooltip="@politics:10015" stringId="@politics:2004" maxRate="15" minRate="1" />
+            <TaxData id="5"
+                     tooltip="@politics:10013"
+                     stringId="@politics:2002"
+                     maxRate="15"
+                     minRate="1" />
+            <TaxData id="6"
+                     tooltip="@politics:10014"
+                     stringId="@politics:2003"
+                     maxRate="15"
+                     minRate="1" />
+            <TaxData id="7"
+                     tooltip="@politics:10015"
+                     stringId="@politics:2004"
+                     maxRate="15"
+                     minRate="1" />
         </TaxGroup>
     </GuardTaxData>
     <LordElectionData>
-        <Candidacy tooltip="@politics:20031" description="@politics:20021" stringId="@politics:20011" period="1">
-            <Constraint requireGold="30000000" requireGuildLevel="3" requireGuildMember="20" requireItemCount="100" requireItemTemplateId="14" requireUserLevel="50" />
+        <Candidacy tooltip="@politics:20031"
+                   description="@politics:20021"
+                   stringId="@politics:20011"
+                   period="1">
+            <Constraint requireGold="30000000"
+                        requireGuildLevel="3"
+                        requireGuildMember="20"
+                        requireItemCount="100"
+                        requireItemTemplateId="14"
+                        requireUserLevel="50" />
         </Candidacy>
-        <Competition tooltip="@politics:20032" description="@politics:20022" stringId="@politics:20012" period="6">
-            <LordGuildWar scoreCanGainTooltip="@politics:20043" scoreTooltip="@politics:20042" />
-            <VoteRewardMail addItemAmount="1" addItemTemplateId="112" />
+        <Competition tooltip="@politics:20032"
+                     description="@politics:20022"
+                     stringId="@politics:20012"
+                     period="6">
+            <LordGuildWar scoreCanGainTooltip="@politics:20043"
+                          scoreTooltip="@politics:20042" />
+            <VoteRewardMail addItemAmount="1"
+                            addItemTemplateId="112" />
         </Competition>
-        <Reign tooltip="@politics:20033" description="@politics:20023" stringId="@politics:20013">
-            <GuardInfoWindow behaviorPoints="@politics:30013" behaviorPointsText="@politics:30016" behaviorPointsTooltip="@politics:30014" behaviorRank="@politics:30011" behaviorRankText="@politics:30015" behaviorRankTooltip="@politics:30012" />
+        <Reign tooltip="@politics:20033"
+               description="@politics:20023"
+               stringId="@politics:20013">
+            <GuardInfoWindow behaviorPoints="@politics:30013"
+                             behaviorPointsText="@politics:30016"
+                             behaviorPointsTooltip="@politics:30014"
+                             behaviorRank="@politics:30011"
+                             behaviorRankText="@politics:30015"
+                             behaviorRankTooltip="@politics:30012" />
         </Reign>
         <Vote candidateScoreTooltip="@politics:40001" />
     </LordElectionData>
     <LordPolicyData>
-        <PolicyData id="1" type="pk" default="1" stringId="@politics:6">
-            <PolicyItem id="1" tooltip="@politics:10001" fee="0" stringId="@politics:7" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10002" fee="5000" stringId="@politics:8" period="1" />
+        <PolicyData id="1"
+                    type="pk"
+                    default="1"
+                    stringId="@politics:6">
+            <PolicyItem id="1"
+                        tooltip="@politics:10001"
+                        fee="0"
+                        stringId="@politics:7"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10002"
+                        fee="5000"
+                        stringId="@politics:8"
+                        period="1" />
         </PolicyData>
-        <PolicyData id="36401" type="spawn" default="2" stringId="@politics:10">
-            <PolicyItem id="1" tooltip="@politics:10003" fee="0" stringId="@politics:31300005" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10004" fee="0" stringId="@politics:31300006" period="0" />
+        <PolicyData id="36401"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:10">
+            <PolicyItem id="1"
+                        tooltip="@politics:10003"
+                        fee="0"
+                        stringId="@politics:31300005"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10004"
+                        fee="0"
+                        stringId="@politics:31300006"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="36402" type="spawn" default="2" stringId="@politics:20">
-            <PolicyItem id="1" tooltip="@politics:10005" fee="0" stringId="@politics:31300007" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10006" fee="0" stringId="@politics:31300008" period="0" />
+        <PolicyData id="36402"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:20">
+            <PolicyItem id="1"
+                        tooltip="@politics:10005"
+                        fee="0"
+                        stringId="@politics:31300007"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10006"
+                        fee="0"
+                        stringId="@politics:31300008"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="36001" type="spawn" default="2" stringId="@politics:10">
-            <PolicyItem id="1" tooltip="@politics:10003" fee="0" stringId="@politics:31300005" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10004" fee="0" stringId="@politics:31300006" period="0" />
+        <PolicyData id="36001"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:10">
+            <PolicyItem id="1"
+                        tooltip="@politics:10003"
+                        fee="0"
+                        stringId="@politics:31300005"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10004"
+                        fee="0"
+                        stringId="@politics:31300006"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="36002" type="spawn" default="2" stringId="@politics:20">
-            <PolicyItem id="1" tooltip="@politics:10005" fee="0" stringId="@politics:31300007" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10006" fee="0" stringId="@politics:31300008" period="0" />
+        <PolicyData id="36002"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:20">
+            <PolicyItem id="1"
+                        tooltip="@politics:10005"
+                        fee="0"
+                        stringId="@politics:31300007"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10006"
+                        fee="0"
+                        stringId="@politics:31300008"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="36801" type="spawn" default="2" stringId="@politics:10">
-            <PolicyItem id="1" tooltip="@politics:10003" fee="0" stringId="@politics:31300005" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10004" fee="0" stringId="@politics:31300006" period="0" />
+        <PolicyData id="36801"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:10">
+            <PolicyItem id="1"
+                        tooltip="@politics:10003"
+                        fee="0"
+                        stringId="@politics:31300005"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10004"
+                        fee="0"
+                        stringId="@politics:31300006"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="36802" type="spawn" default="2" stringId="@politics:20">
-            <PolicyItem id="1" tooltip="@politics:10005" fee="0" stringId="@politics:31300007" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10006" fee="0" stringId="@politics:31300008" period="0" />
+        <PolicyData id="36802"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:20">
+            <PolicyItem id="1"
+                        tooltip="@politics:10005"
+                        fee="0"
+                        stringId="@politics:31300007"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10006"
+                        fee="0"
+                        stringId="@politics:31300008"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="36803" type="spawn" default="2" stringId="@politics:30">
-            <PolicyItem id="1" tooltip="@politics:10007" fee="0" stringId="@politics:31300009" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10008" fee="0" stringId="@politics:31300010" period="0" />
+        <PolicyData id="36803"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:30">
+            <PolicyItem id="1"
+                        tooltip="@politics:10007"
+                        fee="0"
+                        stringId="@politics:31300009"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10008"
+                        fee="0"
+                        stringId="@politics:31300010"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="36501" type="spawn" default="2" stringId="@politics:10">
-            <PolicyItem id="1" tooltip="@politics:10003" fee="0" stringId="@politics:31300005" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10004" fee="0" stringId="@politics:31300006" period="0" />
+        <PolicyData id="36501"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:10">
+            <PolicyItem id="1"
+                        tooltip="@politics:10003"
+                        fee="0"
+                        stringId="@politics:31300005"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10004"
+                        fee="0"
+                        stringId="@politics:31300006"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="36502" type="spawn" default="2" stringId="@politics:20">
-            <PolicyItem id="1" tooltip="@politics:10005" fee="0" stringId="@politics:31300007" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10006" fee="0" stringId="@politics:31300008" period="0" />
+        <PolicyData id="36502"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:20">
+            <PolicyItem id="1"
+                        tooltip="@politics:10005"
+                        fee="0"
+                        stringId="@politics:31300007"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10006"
+                        fee="0"
+                        stringId="@politics:31300008"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="36503" type="spawn" default="2" stringId="@politics:30">
-            <PolicyItem id="1" tooltip="@politics:10007" fee="0" stringId="@politics:31300009" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10008" fee="0" stringId="@politics:31300010" period="0" />
+        <PolicyData id="36503"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:30">
+            <PolicyItem id="1"
+                        tooltip="@politics:10007"
+                        fee="0"
+                        stringId="@politics:31300009"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10008"
+                        fee="0"
+                        stringId="@politics:31300010"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="36101" type="spawn" default="2" stringId="@politics:10">
-            <PolicyItem id="1" tooltip="@politics:10003" fee="0" stringId="@politics:31300005" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10004" fee="0" stringId="@politics:31300006" period="0" />
+        <PolicyData id="36101"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:10">
+            <PolicyItem id="1"
+                        tooltip="@politics:10003"
+                        fee="0"
+                        stringId="@politics:31300005"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10004"
+                        fee="0"
+                        stringId="@politics:31300006"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="36102" type="spawn" default="2" stringId="@politics:20">
-            <PolicyItem id="1" tooltip="@politics:10005" fee="0" stringId="@politics:31300007" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10006" fee="0" stringId="@politics:31300008" period="0" />
+        <PolicyData id="36102"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:20">
+            <PolicyItem id="1"
+                        tooltip="@politics:10005"
+                        fee="0"
+                        stringId="@politics:31300007"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10006"
+                        fee="0"
+                        stringId="@politics:31300008"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="36103" type="spawn" default="2" stringId="@politics:30">
-            <PolicyItem id="1" tooltip="@politics:10007" fee="0" stringId="@politics:31300009" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10008" fee="0" stringId="@politics:31300010" period="0" />
+        <PolicyData id="36103"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:30">
+            <PolicyItem id="1"
+                        tooltip="@politics:10007"
+                        fee="0"
+                        stringId="@politics:31300009"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10008"
+                        fee="0"
+                        stringId="@politics:31300010"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="36104" type="spawn" default="2" stringId="@politics:40">
-            <PolicyItem id="1" tooltip="@politics:10019" fee="0" stringId="@politics:31300011" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10020" fee="0" stringId="@politics:31300012" period="0" />
+        <PolicyData id="36104"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:40">
+            <PolicyItem id="1"
+                        tooltip="@politics:10019"
+                        fee="0"
+                        stringId="@politics:31300011"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10020"
+                        fee="0"
+                        stringId="@politics:31300012"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="35801" type="spawn" default="2" stringId="@politics:10">
-            <PolicyItem id="1" tooltip="@politics:10003" fee="0" stringId="@politics:31300005" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10004" fee="0" stringId="@politics:31300006" period="0" />
+        <PolicyData id="35801"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:10">
+            <PolicyItem id="1"
+                        tooltip="@politics:10003"
+                        fee="0"
+                        stringId="@politics:31300005"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10004"
+                        fee="0"
+                        stringId="@politics:31300006"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="35802" type="spawn" default="2" stringId="@politics:20">
-            <PolicyItem id="1" tooltip="@politics:10005" fee="0" stringId="@politics:31300007" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10006" fee="0" stringId="@politics:31300008" period="0" />
+        <PolicyData id="35802"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:20">
+            <PolicyItem id="1"
+                        tooltip="@politics:10005"
+                        fee="0"
+                        stringId="@politics:31300007"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10006"
+                        fee="0"
+                        stringId="@politics:31300008"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="35803" type="spawn" default="2" stringId="@politics:30">
-            <PolicyItem id="1" tooltip="@politics:10007" fee="0" stringId="@politics:31300009" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10008" fee="0" stringId="@politics:31300010" period="0" />
+        <PolicyData id="35803"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:30">
+            <PolicyItem id="1"
+                        tooltip="@politics:10007"
+                        fee="0"
+                        stringId="@politics:31300009"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10008"
+                        fee="0"
+                        stringId="@politics:31300010"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37401" type="spawn" default="2" stringId="@politics:10">
-            <PolicyItem id="1" tooltip="@politics:10003" fee="0" stringId="@politics:31300005" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10004" fee="0" stringId="@politics:31300006" period="0" />
+        <PolicyData id="37401"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:10">
+            <PolicyItem id="1"
+                        tooltip="@politics:10003"
+                        fee="0"
+                        stringId="@politics:31300005"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10004"
+                        fee="0"
+                        stringId="@politics:31300006"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37402" type="spawn" default="2" stringId="@politics:20">
-            <PolicyItem id="1" tooltip="@politics:10005" fee="0" stringId="@politics:31300007" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10006" fee="0" stringId="@politics:31300008" period="0" />
+        <PolicyData id="37402"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:20">
+            <PolicyItem id="1"
+                        tooltip="@politics:10005"
+                        fee="0"
+                        stringId="@politics:31300007"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10006"
+                        fee="0"
+                        stringId="@politics:31300008"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37403" type="spawn" default="2" stringId="@politics:30">
-            <PolicyItem id="1" tooltip="@politics:10007" fee="0" stringId="@politics:31300009" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10008" fee="0" stringId="@politics:31300010" period="0" />
+        <PolicyData id="37403"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:30">
+            <PolicyItem id="1"
+                        tooltip="@politics:10007"
+                        fee="0"
+                        stringId="@politics:31300009"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10008"
+                        fee="0"
+                        stringId="@politics:31300010"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37404" type="spawn" default="2" stringId="@politics:40">
-            <PolicyItem id="1" tooltip="@politics:10019" fee="0" stringId="@politics:31300011" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10020" fee="0" stringId="@politics:31300012" period="0" />
+        <PolicyData id="37404"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:40">
+            <PolicyItem id="1"
+                        tooltip="@politics:10019"
+                        fee="0"
+                        stringId="@politics:31300011"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10020"
+                        fee="0"
+                        stringId="@politics:31300012"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37301" type="spawn" default="2" stringId="@politics:10">
-            <PolicyItem id="1" tooltip="@politics:10003" fee="0" stringId="@politics:31300005" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10004" fee="0" stringId="@politics:31300006" period="0" />
+        <PolicyData id="37301"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:10">
+            <PolicyItem id="1"
+                        tooltip="@politics:10003"
+                        fee="0"
+                        stringId="@politics:31300005"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10004"
+                        fee="0"
+                        stringId="@politics:31300006"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37302" type="spawn" default="2" stringId="@politics:20">
-            <PolicyItem id="1" tooltip="@politics:10005" fee="0" stringId="@politics:31300007" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10006" fee="0" stringId="@politics:31300008" period="0" />
+        <PolicyData id="37302"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:20">
+            <PolicyItem id="1"
+                        tooltip="@politics:10005"
+                        fee="0"
+                        stringId="@politics:31300007"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10006"
+                        fee="0"
+                        stringId="@politics:31300008"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37303" type="spawn" default="2" stringId="@politics:30">
-            <PolicyItem id="1" tooltip="@politics:10007" fee="0" stringId="@politics:31300009" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10008" fee="0" stringId="@politics:31300010" period="0" />
+        <PolicyData id="37303"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:30">
+            <PolicyItem id="1"
+                        tooltip="@politics:10007"
+                        fee="0"
+                        stringId="@politics:31300009"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10008"
+                        fee="0"
+                        stringId="@politics:31300010"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37304" type="spawn" default="2" stringId="@politics:40">
-            <PolicyItem id="1" tooltip="@politics:10019" fee="0" stringId="@politics:31300011" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10020" fee="0" stringId="@politics:31300012" period="0" />
+        <PolicyData id="37304"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:40">
+            <PolicyItem id="1"
+                        tooltip="@politics:10019"
+                        fee="0"
+                        stringId="@politics:31300011"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10020"
+                        fee="0"
+                        stringId="@politics:31300012"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37001" type="spawn" default="2" stringId="@politics:10">
-            <PolicyItem id="1" tooltip="@politics:10003" fee="0" stringId="@politics:31300005" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10004" fee="0" stringId="@politics:31300006" period="0" />
+        <PolicyData id="37001"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:10">
+            <PolicyItem id="1"
+                        tooltip="@politics:10003"
+                        fee="0"
+                        stringId="@politics:31300005"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10004"
+                        fee="0"
+                        stringId="@politics:31300006"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37002" type="spawn" default="2" stringId="@politics:20">
-            <PolicyItem id="1" tooltip="@politics:10005" fee="0" stringId="@politics:31300007" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10006" fee="0" stringId="@politics:31300008" period="0" />
+        <PolicyData id="37002"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:20">
+            <PolicyItem id="1"
+                        tooltip="@politics:10005"
+                        fee="0"
+                        stringId="@politics:31300007"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10006"
+                        fee="0"
+                        stringId="@politics:31300008"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37003" type="spawn" default="2" stringId="@politics:30">
-            <PolicyItem id="1" tooltip="@politics:10007" fee="0" stringId="@politics:31300009" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10008" fee="0" stringId="@politics:31300010" period="0" />
+        <PolicyData id="37003"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:30">
+            <PolicyItem id="1"
+                        tooltip="@politics:10007"
+                        fee="0"
+                        stringId="@politics:31300009"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10008"
+                        fee="0"
+                        stringId="@politics:31300010"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37004" type="spawn" default="2" stringId="@politics:40">
-            <PolicyItem id="1" tooltip="@politics:10019" fee="0" stringId="@politics:31300011" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10020" fee="0" stringId="@politics:31300012" period="0" />
+        <PolicyData id="37004"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:40">
+            <PolicyItem id="1"
+                        tooltip="@politics:10019"
+                        fee="0"
+                        stringId="@politics:31300011"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10020"
+                        fee="0"
+                        stringId="@politics:31300012"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37501" type="spawn" default="2" stringId="@politics:10">
-            <PolicyItem id="1" tooltip="@politics:10003" fee="0" stringId="@politics:31300005" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10004" fee="0" stringId="@politics:31300006" period="0" />
+        <PolicyData id="37501"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:10">
+            <PolicyItem id="1"
+                        tooltip="@politics:10003"
+                        fee="0"
+                        stringId="@politics:31300005"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10004"
+                        fee="0"
+                        stringId="@politics:31300006"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37502" type="spawn" default="2" stringId="@politics:20">
-            <PolicyItem id="1" tooltip="@politics:10005" fee="0" stringId="@politics:31300007" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10006" fee="0" stringId="@politics:31300008" period="0" />
+        <PolicyData id="37502"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:20">
+            <PolicyItem id="1"
+                        tooltip="@politics:10005"
+                        fee="0"
+                        stringId="@politics:31300007"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10006"
+                        fee="0"
+                        stringId="@politics:31300008"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37503" type="spawn" default="2" stringId="@politics:30">
-            <PolicyItem id="1" tooltip="@politics:10007" fee="0" stringId="@politics:31300009" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10008" fee="0" stringId="@politics:31300010" period="0" />
+        <PolicyData id="37503"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:30">
+            <PolicyItem id="1"
+                        tooltip="@politics:10007"
+                        fee="0"
+                        stringId="@politics:31300009"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10008"
+                        fee="0"
+                        stringId="@politics:31300010"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37504" type="spawn" default="2" stringId="@politics:40">
-            <PolicyItem id="1" tooltip="@politics:10019" fee="0" stringId="@politics:31300011" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10020" fee="0" stringId="@politics:31300012" period="0" />
+        <PolicyData id="37504"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:40">
+            <PolicyItem id="1"
+                        tooltip="@politics:10019"
+                        fee="0"
+                        stringId="@politics:31300011"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10020"
+                        fee="0"
+                        stringId="@politics:31300012"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37101" type="spawn" default="2" stringId="@politics:10">
-            <PolicyItem id="1" tooltip="@politics:10003" fee="0" stringId="@politics:31300005" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10004" fee="0" stringId="@politics:31300006" period="0" />
+        <PolicyData id="37101"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:10">
+            <PolicyItem id="1"
+                        tooltip="@politics:10003"
+                        fee="0"
+                        stringId="@politics:31300005"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10004"
+                        fee="0"
+                        stringId="@politics:31300006"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37102" type="spawn" default="2" stringId="@politics:20">
-            <PolicyItem id="1" tooltip="@politics:10005" fee="0" stringId="@politics:31300007" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10006" fee="0" stringId="@politics:31300008" period="0" />
+        <PolicyData id="37102"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:20">
+            <PolicyItem id="1"
+                        tooltip="@politics:10005"
+                        fee="0"
+                        stringId="@politics:31300007"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10006"
+                        fee="0"
+                        stringId="@politics:31300008"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37103" type="spawn" default="2" stringId="@politics:30">
-            <PolicyItem id="1" tooltip="@politics:10007" fee="0" stringId="@politics:31300009" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10008" fee="0" stringId="@politics:31300010" period="0" />
+        <PolicyData id="37103"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:30">
+            <PolicyItem id="1"
+                        tooltip="@politics:10007"
+                        fee="0"
+                        stringId="@politics:31300009"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10008"
+                        fee="0"
+                        stringId="@politics:31300010"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37104" type="spawn" default="2" stringId="@politics:40">
-            <PolicyItem id="1" tooltip="@politics:10019" fee="0" stringId="@politics:31300011" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10020" fee="0" stringId="@politics:31300012" period="0" />
+        <PolicyData id="37104"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:40">
+            <PolicyItem id="1"
+                        tooltip="@politics:10019"
+                        fee="0"
+                        stringId="@politics:31300011"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10020"
+                        fee="0"
+                        stringId="@politics:31300012"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37901" type="spawn" default="2" stringId="@politics:10">
-            <PolicyItem id="1" tooltip="@politics:10003" fee="0" stringId="@politics:31300005" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10004" fee="0" stringId="@politics:31300006" period="0" />
+        <PolicyData id="37901"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:10">
+            <PolicyItem id="1"
+                        tooltip="@politics:10003"
+                        fee="0"
+                        stringId="@politics:31300005"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10004"
+                        fee="0"
+                        stringId="@politics:31300006"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37902" type="spawn" default="2" stringId="@politics:20">
-            <PolicyItem id="1" tooltip="@politics:10005" fee="0" stringId="@politics:31300007" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10006" fee="0" stringId="@politics:31300008" period="0" />
+        <PolicyData id="37902"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:20">
+            <PolicyItem id="1"
+                        tooltip="@politics:10005"
+                        fee="0"
+                        stringId="@politics:31300007"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10006"
+                        fee="0"
+                        stringId="@politics:31300008"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37903" type="spawn" default="2" stringId="@politics:30">
-            <PolicyItem id="1" tooltip="@politics:10007" fee="0" stringId="@politics:31300009" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10008" fee="0" stringId="@politics:31300010" period="0" />
+        <PolicyData id="37903"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:30">
+            <PolicyItem id="1"
+                        tooltip="@politics:10007"
+                        fee="0"
+                        stringId="@politics:31300009"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10008"
+                        fee="0"
+                        stringId="@politics:31300010"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37904" type="spawn" default="2" stringId="@politics:40">
-            <PolicyItem id="1" tooltip="@politics:10019" fee="0" stringId="@politics:31300011" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10020" fee="0" stringId="@politics:31300012" period="0" />
+        <PolicyData id="37904"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:40">
+            <PolicyItem id="1"
+                        tooltip="@politics:10019"
+                        fee="0"
+                        stringId="@politics:31300011"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10020"
+                        fee="0"
+                        stringId="@politics:31300012"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="38001" type="spawn" default="2" stringId="@politics:10">
-            <PolicyItem id="1" tooltip="@politics:10003" fee="0" stringId="@politics:31300005" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10004" fee="0" stringId="@politics:31300006" period="0" />
+        <PolicyData id="38001"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:10">
+            <PolicyItem id="1"
+                        tooltip="@politics:10003"
+                        fee="0"
+                        stringId="@politics:31300005"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10004"
+                        fee="0"
+                        stringId="@politics:31300006"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="38002" type="spawn" default="2" stringId="@politics:20">
-            <PolicyItem id="1" tooltip="@politics:10005" fee="0" stringId="@politics:31300007" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10006" fee="0" stringId="@politics:31300008" period="0" />
+        <PolicyData id="38002"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:20">
+            <PolicyItem id="1"
+                        tooltip="@politics:10005"
+                        fee="0"
+                        stringId="@politics:31300007"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10006"
+                        fee="0"
+                        stringId="@politics:31300008"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="38003" type="spawn" default="2" stringId="@politics:30">
-            <PolicyItem id="1" tooltip="@politics:10007" fee="0" stringId="@politics:31300009" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10008" fee="0" stringId="@politics:31300010" period="0" />
+        <PolicyData id="38003"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:30">
+            <PolicyItem id="1"
+                        tooltip="@politics:10007"
+                        fee="0"
+                        stringId="@politics:31300009"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10008"
+                        fee="0"
+                        stringId="@politics:31300010"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="38004" type="spawn" default="2" stringId="@politics:40">
-            <PolicyItem id="1" tooltip="@politics:10019" fee="0" stringId="@politics:31300011" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10020" fee="0" stringId="@politics:31300012" period="0" />
+        <PolicyData id="38004"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:40">
+            <PolicyItem id="1"
+                        tooltip="@politics:10019"
+                        fee="0"
+                        stringId="@politics:31300011"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10020"
+                        fee="0"
+                        stringId="@politics:31300012"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37701" type="spawn" default="2" stringId="@politics:10">
-            <PolicyItem id="1" tooltip="@politics:10003" fee="0" stringId="@politics:31300005" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10004" fee="0" stringId="@politics:31300006" period="0" />
+        <PolicyData id="37701"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:10">
+            <PolicyItem id="1"
+                        tooltip="@politics:10003"
+                        fee="0"
+                        stringId="@politics:31300005"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10004"
+                        fee="0"
+                        stringId="@politics:31300006"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37702" type="spawn" default="2" stringId="@politics:20">
-            <PolicyItem id="1" tooltip="@politics:10005" fee="0" stringId="@politics:31300007" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10006" fee="0" stringId="@politics:31300008" period="0" />
+        <PolicyData id="37702"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:20">
+            <PolicyItem id="1"
+                        tooltip="@politics:10005"
+                        fee="0"
+                        stringId="@politics:31300007"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10006"
+                        fee="0"
+                        stringId="@politics:31300008"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37703" type="spawn" default="2" stringId="@politics:30">
-            <PolicyItem id="1" tooltip="@politics:10007" fee="0" stringId="@politics:31300009" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10008" fee="0" stringId="@politics:31300010" period="0" />
+        <PolicyData id="37703"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:30">
+            <PolicyItem id="1"
+                        tooltip="@politics:10007"
+                        fee="0"
+                        stringId="@politics:31300009"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10008"
+                        fee="0"
+                        stringId="@politics:31300010"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37704" type="spawn" default="2" stringId="@politics:40">
-            <PolicyItem id="1" tooltip="@politics:10007" fee="0" stringId="@politics:31300011" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10008" fee="0" stringId="@politics:31300012" period="0" />
+        <PolicyData id="37704"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:40">
+            <PolicyItem id="1"
+                        tooltip="@politics:10007"
+                        fee="0"
+                        stringId="@politics:31300011"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10008"
+                        fee="0"
+                        stringId="@politics:31300012"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="38501" type="spawn" default="2" stringId="@politics:10">
-            <PolicyItem id="1" tooltip="@politics:10003" fee="0" stringId="@politics:31300005" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10004" fee="0" stringId="@politics:31300006" period="0" />
+        <PolicyData id="38501"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:10">
+            <PolicyItem id="1"
+                        tooltip="@politics:10003"
+                        fee="0"
+                        stringId="@politics:31300005"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10004"
+                        fee="0"
+                        stringId="@politics:31300006"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="38502" type="spawn" default="2" stringId="@politics:20">
-            <PolicyItem id="1" tooltip="@politics:10005" fee="0" stringId="@politics:31300007" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10006" fee="0" stringId="@politics:31300008" period="0" />
+        <PolicyData id="38502"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:20">
+            <PolicyItem id="1"
+                        tooltip="@politics:10005"
+                        fee="0"
+                        stringId="@politics:31300007"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10006"
+                        fee="0"
+                        stringId="@politics:31300008"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="38503" type="spawn" default="2" stringId="@politics:30">
-            <PolicyItem id="1" tooltip="@politics:10007" fee="0" stringId="@politics:31300009" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10008" fee="0" stringId="@politics:31300010" period="0" />
+        <PolicyData id="38503"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:30">
+            <PolicyItem id="1"
+                        tooltip="@politics:10007"
+                        fee="0"
+                        stringId="@politics:31300009"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10008"
+                        fee="0"
+                        stringId="@politics:31300010"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="38504" type="spawn" default="2" stringId="@politics:40">
-            <PolicyItem id="1" tooltip="@politics:10019" fee="0" stringId="@politics:31300011" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10020" fee="0" stringId="@politics:31300012" period="0" />
+        <PolicyData id="38504"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:40">
+            <PolicyItem id="1"
+                        tooltip="@politics:10019"
+                        fee="0"
+                        stringId="@politics:31300011"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10020"
+                        fee="0"
+                        stringId="@politics:31300012"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37801" type="spawn" default="2" stringId="@politics:10">
-            <PolicyItem id="1" tooltip="@politics:10003" fee="0" stringId="@politics:31300005" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10004" fee="0" stringId="@politics:31300006" period="0" />
+        <PolicyData id="37801"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:10">
+            <PolicyItem id="1"
+                        tooltip="@politics:10003"
+                        fee="0"
+                        stringId="@politics:31300005"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10004"
+                        fee="0"
+                        stringId="@politics:31300006"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37802" type="spawn" default="2" stringId="@politics:20">
-            <PolicyItem id="1" tooltip="@politics:10005" fee="0" stringId="@politics:31300007" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10006" fee="0" stringId="@politics:31300008" period="0" />
+        <PolicyData id="37802"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:20">
+            <PolicyItem id="1"
+                        tooltip="@politics:10005"
+                        fee="0"
+                        stringId="@politics:31300007"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10006"
+                        fee="0"
+                        stringId="@politics:31300008"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37803" type="spawn" default="2" stringId="@politics:30">
-            <PolicyItem id="1" tooltip="@politics:10007" fee="0" stringId="@politics:31300009" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10008" fee="0" stringId="@politics:31300010" period="0" />
+        <PolicyData id="37803"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:30">
+            <PolicyItem id="1"
+                        tooltip="@politics:10007"
+                        fee="0"
+                        stringId="@politics:31300009"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10008"
+                        fee="0"
+                        stringId="@politics:31300010"
+                        period="0" />
         </PolicyData>
-        <PolicyData id="37804" type="spawn" default="2" stringId="@politics:40">
-            <PolicyItem id="1" tooltip="@politics:10019" fee="0" stringId="@politics:31300011" period="0" />
-            <PolicyItem id="2" tooltip="@politics:10020" fee="0" stringId="@politics:31300012" period="0" />
+        <PolicyData id="37804"
+                    type="spawn"
+                    default="2"
+                    stringId="@politics:40">
+            <PolicyItem id="1"
+                        tooltip="@politics:10019"
+                        fee="0"
+                        stringId="@politics:31300011"
+                        period="0" />
+            <PolicyItem id="2"
+                        tooltip="@politics:10020"
+                        fee="0"
+                        stringId="@politics:31300012"
+                        period="0" />
         </PolicyData>
     </LordPolicyData>
-    <ToolTipData tooltipBallot="@politics:20002" tooltipBattleField="@politics:20001" tooltipGuildWar="@politics:20003" />
+    <ToolTipData tooltipBallot="@politics:20002"
+                 tooltipBattleField="@politics:20001"
+                 tooltipGuildWar="@politics:20003" />
     <UIStringData lowRankerExpectGuard="@politics:20041" />
     <UserCareerData>
-        <Career id="1" stringId="@politics:30001" />
-        <Career id="2" stringId="@politics:30002" />
+        <Career id="1"
+                stringId="@politics:30001" />
+        <Career id="2"
+                stringId="@politics:30002" />
     </UserCareerData>
 </PoliticsData>

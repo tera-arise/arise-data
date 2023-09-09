@@ -1,75 +1,203 @@
-<StrSheet_FloatingCastle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/StrSheet_FloatingCastle StrSheet_FloatingCastle.xsd" xmlns="https://vezel.dev/novadrop/dc/StrSheet_FloatingCastle">
-    <String id="1" string="View All" />
-    <String id="2" string="Owned" />
-    <String id="3" string="Not Owned" />
-    <String id="4" string="All" />
-    <String id="5" string="Keep" />
-    <String id="6" string="Bailey" />
-    <String id="7" string="Wing" />
-    <String id="8" string="NPCs" />
-    <String id="9" string="Equip" />
-    <String id="10" string="Not Equipped" />
-    <String id="100" string="Grade {grade} Skycastle" />
-    <String id="101" string="Grade {grade} Village Skycastle" />
-    <String id="102" string="Grade {grade} Beach Skycastle" />
-    <String id="103" string="Grade {grade} Permanent Skycastle" />
-    <String id="50009" string="Weapon Skins (500PP for 12hrs)" />
-    <String id="50010" string="Accessories (300PP for 12hrs)" />
-    <String id="50011" string="Back Accessories (300PP for 12hrs)" />
-    <String id="50012" string="Costumes (Elin, Aman, Baraka) (800PP, 6hrs)" />
-    <String id="50013" string="Costumes (Human, High Elf) (800PP, 6hrs)" />
-    <String id="50014" string="Costumes (Castanic, Popori) (800PP, 6hrs)" />
-    <String id="98000" toolTip="" string="Default Keep" />
-    <String id="98001" toolTip="" string="Default Wall" />
-    <String id="98002" toolTip="" string="Grade 1 Skycastle Default Floor" />
-    <String id="98003" toolTip="" string="Grade 2 Skycastle Default Floor" />
-    <String id="98004" toolTip="" string="Grade 3 Skycastle Default Floor" />
-    <String id="98005" toolTip="" string="Lordly Blue Keep" />
-    <String id="98006" toolTip="" string="Lordly Red Keep" />
-    <String id="98007" toolTip="" string="Lordly Black Keep" />
-    <String id="98008" toolTip="" string="Palatial Blue Keep" />
-    <String id="98009" toolTip="" string="Palatial Red Keep" />
-    <String id="98010" toolTip="" string="Palatial Black Keep" />
-    <String id="98011" toolTip="" string="Towering Blue Keep" />
-    <String id="98012" toolTip="" string="Towering Red Keep" />
-    <String id="98013" toolTip="" string="Towering Black Keep" />
-    <String id="98014" toolTip="" string="Stone Rampart" />
-    <String id="98015" toolTip="" string="Barbican Battlement" />
-    <String id="98016" toolTip="" string="Gilded Barbican" />
-    <String id="98017" toolTip="" string="Stone Bridge" />
-    <String id="98018" toolTip="" string="Griffon Gazebo" />
-    <String id="98019" toolTip="" string="Cyasmic Griffonspire Pavilion" />
-    <String id="98020" toolTip="" string="Flaming Griffonspire Pavilion" />
-    <String id="98021" toolTip="" string="Nether Griffonspire Pavilion" />
-    <String id="98022" toolTip="" string="Pond" />
-    <String id="98023" toolTip="" string="Cyasmic Aqueduct" />
-    <String id="98024" toolTip="" string="Flaming Aqueduct" />
-    <String id="98025" toolTip="" string="Nether Aqueduct" />
-    <String id="98026" toolTip="" string="Trade Broker NPC" />
-    <String id="98027" toolTip="" string="Sharan Merchants" />
-    <String id="98028" toolTip="" string="Arunic Merchants" />
-    <String id="98029" toolTip="" string="Bellicose Merchant" />
-    <String id="98030" toolTip="" string="Specialty Merchant" />
-    <String id="98031" toolTip="" string="Banker NPC" />
-    <String id="98042" toolTip="" string="Cyasmic Furnace Keep" />
-    <String id="98043" toolTip="" string="Sanguine Furnace Keep" />
-    <String id="98044" toolTip="" string="Xanthic Furnace Keep" />
-    <String id="98045" toolTip="" string="Cyasmic Foundry Keep" />
-    <String id="98046" toolTip="" string="Sanguine Foundry Keep" />
-    <String id="98047" toolTip="" string="Xanthic Foundry Keep" />
-    <String id="98048" toolTip="" string="Cyasmic Flame Tribute" />
-    <String id="98049" toolTip="" string="Sanguine Flame Tribute" />
-    <String id="98050" toolTip="" string="Xanthic Flame Tribute" />
-    <String id="98051" toolTip="" string="Iron Rampart" />
-    <String id="98052" toolTip="" string="Fortress Battlement" />
-    <String id="98053" toolTip="" string="Ironthorn Barbican" />
-    <String id="98054" toolTip="" string="Iron Bridge" />
-    <String id="98055" toolTip="" string="Iron Gazebo" />
-    <String id="98056" toolTip="" string="Cyasmic Fenric Pavilion" />
-    <String id="98057" toolTip="" string="Sanguine Fenric Pavilion" />
-    <String id="98058" toolTip="" string="Xanthic Fenric Pavilion" />
-    <String id="98059" toolTip="" string="Iron Nozzle" />
-    <String id="98060" toolTip="" string="Cyasmic Aerojet" />
-    <String id="98061" toolTip="" string="Sanguine Aerojet" />
-    <String id="98062" toolTip="" string="Xanthic Aerojet" />
+<StrSheet_FloatingCastle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                         xsi:schemaLocation="https://vezel.dev/novadrop/dc/StrSheet_FloatingCastle StrSheet_FloatingCastle.xsd"
+                         xmlns="https://vezel.dev/novadrop/dc/StrSheet_FloatingCastle">
+    <String id="1"
+            string="View All" />
+    <String id="2"
+            string="Owned" />
+    <String id="3"
+            string="Not Owned" />
+    <String id="4"
+            string="All" />
+    <String id="5"
+            string="Keep" />
+    <String id="6"
+            string="Bailey" />
+    <String id="7"
+            string="Wing" />
+    <String id="8"
+            string="NPCs" />
+    <String id="9"
+            string="Equip" />
+    <String id="10"
+            string="Not Equipped" />
+    <String id="100"
+            string="Grade {grade} Skycastle" />
+    <String id="101"
+            string="Grade {grade} Village Skycastle" />
+    <String id="102"
+            string="Grade {grade} Beach Skycastle" />
+    <String id="103"
+            string="Grade {grade} Permanent Skycastle" />
+    <String id="50009"
+            string="Weapon Skins (500PP for 12hrs)" />
+    <String id="50010"
+            string="Accessories (300PP for 12hrs)" />
+    <String id="50011"
+            string="Back Accessories (300PP for 12hrs)" />
+    <String id="50012"
+            string="Costumes (Elin, Aman, Baraka) (800PP, 6hrs)" />
+    <String id="50013"
+            string="Costumes (Human, High Elf) (800PP, 6hrs)" />
+    <String id="50014"
+            string="Costumes (Castanic, Popori) (800PP, 6hrs)" />
+    <String id="98000"
+            toolTip=""
+            string="Default Keep" />
+    <String id="98001"
+            toolTip=""
+            string="Default Wall" />
+    <String id="98002"
+            toolTip=""
+            string="Grade 1 Skycastle Default Floor" />
+    <String id="98003"
+            toolTip=""
+            string="Grade 2 Skycastle Default Floor" />
+    <String id="98004"
+            toolTip=""
+            string="Grade 3 Skycastle Default Floor" />
+    <String id="98005"
+            toolTip=""
+            string="Lordly Blue Keep" />
+    <String id="98006"
+            toolTip=""
+            string="Lordly Red Keep" />
+    <String id="98007"
+            toolTip=""
+            string="Lordly Black Keep" />
+    <String id="98008"
+            toolTip=""
+            string="Palatial Blue Keep" />
+    <String id="98009"
+            toolTip=""
+            string="Palatial Red Keep" />
+    <String id="98010"
+            toolTip=""
+            string="Palatial Black Keep" />
+    <String id="98011"
+            toolTip=""
+            string="Towering Blue Keep" />
+    <String id="98012"
+            toolTip=""
+            string="Towering Red Keep" />
+    <String id="98013"
+            toolTip=""
+            string="Towering Black Keep" />
+    <String id="98014"
+            toolTip=""
+            string="Stone Rampart" />
+    <String id="98015"
+            toolTip=""
+            string="Barbican Battlement" />
+    <String id="98016"
+            toolTip=""
+            string="Gilded Barbican" />
+    <String id="98017"
+            toolTip=""
+            string="Stone Bridge" />
+    <String id="98018"
+            toolTip=""
+            string="Griffon Gazebo" />
+    <String id="98019"
+            toolTip=""
+            string="Cyasmic Griffonspire Pavilion" />
+    <String id="98020"
+            toolTip=""
+            string="Flaming Griffonspire Pavilion" />
+    <String id="98021"
+            toolTip=""
+            string="Nether Griffonspire Pavilion" />
+    <String id="98022"
+            toolTip=""
+            string="Pond" />
+    <String id="98023"
+            toolTip=""
+            string="Cyasmic Aqueduct" />
+    <String id="98024"
+            toolTip=""
+            string="Flaming Aqueduct" />
+    <String id="98025"
+            toolTip=""
+            string="Nether Aqueduct" />
+    <String id="98026"
+            toolTip=""
+            string="Trade Broker NPC" />
+    <String id="98027"
+            toolTip=""
+            string="Sharan Merchants" />
+    <String id="98028"
+            toolTip=""
+            string="Arunic Merchants" />
+    <String id="98029"
+            toolTip=""
+            string="Bellicose Merchant" />
+    <String id="98030"
+            toolTip=""
+            string="Specialty Merchant" />
+    <String id="98031"
+            toolTip=""
+            string="Banker NPC" />
+    <String id="98042"
+            toolTip=""
+            string="Cyasmic Furnace Keep" />
+    <String id="98043"
+            toolTip=""
+            string="Sanguine Furnace Keep" />
+    <String id="98044"
+            toolTip=""
+            string="Xanthic Furnace Keep" />
+    <String id="98045"
+            toolTip=""
+            string="Cyasmic Foundry Keep" />
+    <String id="98046"
+            toolTip=""
+            string="Sanguine Foundry Keep" />
+    <String id="98047"
+            toolTip=""
+            string="Xanthic Foundry Keep" />
+    <String id="98048"
+            toolTip=""
+            string="Cyasmic Flame Tribute" />
+    <String id="98049"
+            toolTip=""
+            string="Sanguine Flame Tribute" />
+    <String id="98050"
+            toolTip=""
+            string="Xanthic Flame Tribute" />
+    <String id="98051"
+            toolTip=""
+            string="Iron Rampart" />
+    <String id="98052"
+            toolTip=""
+            string="Fortress Battlement" />
+    <String id="98053"
+            toolTip=""
+            string="Ironthorn Barbican" />
+    <String id="98054"
+            toolTip=""
+            string="Iron Bridge" />
+    <String id="98055"
+            toolTip=""
+            string="Iron Gazebo" />
+    <String id="98056"
+            toolTip=""
+            string="Cyasmic Fenric Pavilion" />
+    <String id="98057"
+            toolTip=""
+            string="Sanguine Fenric Pavilion" />
+    <String id="98058"
+            toolTip=""
+            string="Xanthic Fenric Pavilion" />
+    <String id="98059"
+            toolTip=""
+            string="Iron Nozzle" />
+    <String id="98060"
+            toolTip=""
+            string="Cyasmic Aerojet" />
+    <String id="98061"
+            toolTip=""
+            string="Sanguine Aerojet" />
+    <String id="98062"
+            toolTip=""
+            string="Xanthic Aerojet" />
 </StrSheet_FloatingCastle>

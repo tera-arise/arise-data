@@ -1,64 +1,217 @@
-<MainMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/MainMenu MainMenu.xsd" xmlns="https://vezel.dev/novadrop/dc/MainMenu">
-    <Menu id="Event" index="0" readableId="SMT_MENU_EVENT" excludedGameModeList="2" iconPath="img://__S1UIRES_Emblem.Ico_PaperDoll">
-        <MenuItem id="PCBangAccTimeEvent" uiName="PCEvent" readableId="SMT_MENU_PCBANG_ACC_TIME_EVENT" excludedGameModeList="2" />
-        <MenuItem id="AttendanceEvent" uiName="AttendEvent" readableId="SMT_MENU_ATTENDANCE_EVENT" excludedGameModeList="2" />
-        <MenuItem id="OXQuizEvent" uiName="OXQuizEvent" readableId="SMT_MENU_OX_QUIZ_EVENT" excludedGameModeList="2" />
-        <MenuItem id="CharacterEvent" uiName="EventSystemAlim" readableId="SMT_MENU_CHARACTER_EVENT" excludedGameModeList="2" />
-        <MenuItem id="EventCalender" uiName="PlayGuide" readableId="SMT_MENU_EVENT_CALENDER" excludedGameModeList="2" />
-        <MenuItem id="ReturnUserEvent" uiName="ReturnUserEvent" readableId="SMT_MENU_RETURN_USER_EVENT" excludedGameModeList="2" />
-        <MenuItem id="GuildCoOpEvent" uiName="GuildCoOpEvent" readableId="SMT_GUILD_COOP_MAINMENU_STRING" />
+<MainMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="https://vezel.dev/novadrop/dc/MainMenu MainMenu.xsd"
+          xmlns="https://vezel.dev/novadrop/dc/MainMenu">
+    <Menu id="Event"
+          index="0"
+          readableId="SMT_MENU_EVENT"
+          excludedGameModeList="2"
+          iconPath="img://__S1UIRES_Emblem.Ico_PaperDoll">
+        <MenuItem id="PCBangAccTimeEvent"
+                  uiName="PCEvent"
+                  readableId="SMT_MENU_PCBANG_ACC_TIME_EVENT"
+                  excludedGameModeList="2" />
+        <MenuItem id="AttendanceEvent"
+                  uiName="AttendEvent"
+                  readableId="SMT_MENU_ATTENDANCE_EVENT"
+                  excludedGameModeList="2" />
+        <MenuItem id="OXQuizEvent"
+                  uiName="OXQuizEvent"
+                  readableId="SMT_MENU_OX_QUIZ_EVENT"
+                  excludedGameModeList="2" />
+        <MenuItem id="CharacterEvent"
+                  uiName="EventSystemAlim"
+                  readableId="SMT_MENU_CHARACTER_EVENT"
+                  excludedGameModeList="2" />
+        <MenuItem id="EventCalender"
+                  uiName="PlayGuide"
+                  readableId="SMT_MENU_EVENT_CALENDER"
+                  excludedGameModeList="2" />
+        <MenuItem id="ReturnUserEvent"
+                  uiName="ReturnUserEvent"
+                  readableId="SMT_MENU_RETURN_USER_EVENT"
+                  excludedGameModeList="2" />
+        <MenuItem id="GuildCoOpEvent"
+                  uiName="GuildCoOpEvent"
+                  readableId="SMT_GUILD_COOP_MAINMENU_STRING" />
     </Menu>
-    <Menu id="HomePage" index="0" readableId="SMT_MENU_HOMEPAGE" excludedGameModeList="2" iconPath="img://__S1UIRES_Emblem.Ico_PaperDoll">
-        <MenuItem id="SnsPromotionYoutube" uiName="WebService" readableId="SMT_MENU_SNS_PROMOTION_YOUTUBE" excludedGameModeList="2" />
+    <Menu id="HomePage"
+          index="0"
+          readableId="SMT_MENU_HOMEPAGE"
+          excludedGameModeList="2"
+          iconPath="img://__S1UIRES_Emblem.Ico_PaperDoll">
+        <MenuItem id="SnsPromotionYoutube"
+                  uiName="WebService"
+                  readableId="SMT_MENU_SNS_PROMOTION_YOUTUBE"
+                  excludedGameModeList="2" />
     </Menu>
-    <Menu id="MyCharacter" index="0" readableId="SMT_MENU_MY_CHARACTER" excludedGameModeList="2" iconPath="img://__S1UIRES_Emblem.Ico_PaperDoll">
-        <MenuItem id="EPSystem" uiName="EPSystem" readableId="SMT_MENU_EP_SYSTEM" />
-        <MenuItem id="Achievement" uiName="Achievement" readableId="SMT_MENU_ACHIEVEMENT" />
-        <MenuItem id="Artisan" uiName="ProductionList" readableId="SMT_MENU_ARTISAN" />
-        <MenuItem id="QuestJournal" uiName="QuestJournal" readableId="SMT_MENU_QUEST_JOURNAL" />
-        <MenuItem id="SkillWindow" uiName="SkillWindow" readableId="SMT_MENU_SKILLBOOK" />
-        <MenuItem id="PaperDoll" uiName="PaperDoll" readableId="SMT_MENU_MYINFO" />
-        <MenuItem id="CollectionBookWindow" uiName="CollectionBookWindow" readableId="SMT_MENU_COLLECTION_BOOK" />
-        <MenuItem id="DamageMeter" uiName="DamageMeter" readableId="SMT_MENU_DAMAGE_METER" />
-        <MenuItem id="BuffManageWindow" uiName="BuffManageWindow" readableId="SMT_MENU_BUFF_MANAGEMENT" />
+    <Menu id="MyCharacter"
+          index="0"
+          readableId="SMT_MENU_MY_CHARACTER"
+          excludedGameModeList="2"
+          iconPath="img://__S1UIRES_Emblem.Ico_PaperDoll">
+        <MenuItem id="EPSystem"
+                  uiName="EPSystem"
+                  readableId="SMT_MENU_EP_SYSTEM" />
+        <MenuItem id="Achievement"
+                  uiName="Achievement"
+                  readableId="SMT_MENU_ACHIEVEMENT" />
+        <MenuItem id="Artisan"
+                  uiName="ProductionList"
+                  readableId="SMT_MENU_ARTISAN" />
+        <MenuItem id="QuestJournal"
+                  uiName="QuestJournal"
+                  readableId="SMT_MENU_QUEST_JOURNAL" />
+        <MenuItem id="SkillWindow"
+                  uiName="SkillWindow"
+                  readableId="SMT_MENU_SKILLBOOK" />
+        <MenuItem id="PaperDoll"
+                  uiName="PaperDoll"
+                  readableId="SMT_MENU_MYINFO" />
+        <MenuItem id="CollectionBookWindow"
+                  uiName="CollectionBookWindow"
+                  readableId="SMT_MENU_COLLECTION_BOOK" />
+        <MenuItem id="DamageMeter"
+                  uiName="DamageMeter"
+                  readableId="SMT_MENU_DAMAGE_METER" />
+        <MenuItem id="BuffManageWindow"
+                  uiName="BuffManageWindow"
+                  readableId="SMT_MENU_BUFF_MANAGEMENT" />
     </Menu>
-    <Menu id="Inventory" index="0" uiName="Inventory" readableId="SMT_MENU_INVENTORY" excludedGameModeList="2" iconPath="img://__S1UIRES_Emblem.Ico_Inventory" />
-    <Menu id="Party" index="0" readableId="SMT_MENU_PARTY_AND_GUILD" excludedGameModeList="2" iconPath="img://__S1UIRES_Emblem.Ico_PartyBoard">
-        <MenuItem id="GuildList" uiName="GuildList" readableId="SMT_MENU_GUILD_LIST" />
-        <MenuItem id="GuildWindow" uiName="GuildWindow" readableId="SMT_MENU_GUILD" />
-        <MenuItem id="GroupDuel" uiName="GroupDuel" readableId="SMT_MENU_GROUP_DUEL" />
-        <MenuItem id="PartyWindowRaidConfig" uiName="PartyWindowRaidConfig" readableId="SMT_MENU_PARTYWINDOW_RAIDCONFIG" />
-        <MenuItem id="PartyBoardMemberInfo" uiName="PartyBoardMemberInfo" readableId="SMT_MENU_PARTY_APPLICANT" />
-        <MenuItem id="PartyBoard" uiName="PartyBoard" readableId="SMT_MENU_PARTY_SEARCH" />
+    <Menu id="Inventory"
+          index="0"
+          uiName="Inventory"
+          readableId="SMT_MENU_INVENTORY"
+          excludedGameModeList="2"
+          iconPath="img://__S1UIRES_Emblem.Ico_Inventory" />
+    <Menu id="Party"
+          index="0"
+          readableId="SMT_MENU_PARTY_AND_GUILD"
+          excludedGameModeList="2"
+          iconPath="img://__S1UIRES_Emblem.Ico_PartyBoard">
+        <MenuItem id="GuildList"
+                  uiName="GuildList"
+                  readableId="SMT_MENU_GUILD_LIST" />
+        <MenuItem id="GuildWindow"
+                  uiName="GuildWindow"
+                  readableId="SMT_MENU_GUILD" />
+        <MenuItem id="GroupDuel"
+                  uiName="GroupDuel"
+                  readableId="SMT_MENU_GROUP_DUEL" />
+        <MenuItem id="PartyWindowRaidConfig"
+                  uiName="PartyWindowRaidConfig"
+                  readableId="SMT_MENU_PARTYWINDOW_RAIDCONFIG" />
+        <MenuItem id="PartyBoardMemberInfo"
+                  uiName="PartyBoardMemberInfo"
+                  readableId="SMT_MENU_PARTY_APPLICANT" />
+        <MenuItem id="PartyBoard"
+                  uiName="PartyBoard"
+                  readableId="SMT_MENU_PARTY_SEARCH" />
     </Menu>
-    <Menu id="Community" index="0" readableId="SMT_MENU_COMMUNITY" excludedGameModeList="2" iconPath="img://__S1UIRES_Emblem.Ico_CommunityWindow">
-        <MenuItem id="ServantStorageWindow" uiName="ServantStorageWindow" readableId="SMT_MENU_SERVANTEXSTORAGE" />
-        <MenuItem id="TradeLog" uiName="TradeLog" readableId="SMT_MENU_TRADE_LOG" />
-        <MenuItem id="Social" uiName="Social" readableId="SMT_MENU_SOCIALWINDOW" />
-        <MenuItem id="LeaderBoard" uiName="LeaderBoard" readableId="SMT_MENU_LEADERBOARD" />
-        <MenuItem id="Post" uiName="ParcelPost" readableId="SMT_MENU_POST" />
-        <MenuItem id="FriendsList" uiName="CommunityWindow" readableId="SMT_MENU_FRIEND_LIST" />
+    <Menu id="Community"
+          index="0"
+          readableId="SMT_MENU_COMMUNITY"
+          excludedGameModeList="2"
+          iconPath="img://__S1UIRES_Emblem.Ico_CommunityWindow">
+        <MenuItem id="ServantStorageWindow"
+                  uiName="ServantStorageWindow"
+                  readableId="SMT_MENU_SERVANTEXSTORAGE" />
+        <MenuItem id="TradeLog"
+                  uiName="TradeLog"
+                  readableId="SMT_MENU_TRADE_LOG" />
+        <MenuItem id="Social"
+                  uiName="Social"
+                  readableId="SMT_MENU_SOCIALWINDOW" />
+        <MenuItem id="LeaderBoard"
+                  uiName="LeaderBoard"
+                  readableId="SMT_MENU_LEADERBOARD" />
+        <MenuItem id="Post"
+                  uiName="ParcelPost"
+                  readableId="SMT_MENU_POST" />
+        <MenuItem id="FriendsList"
+                  uiName="CommunityWindow"
+                  readableId="SMT_MENU_FRIEND_LIST" />
     </Menu>
-    <Menu id="QuickMatching" index="0" readableId="SMT_MENU_QUICK_MATCHING" excludedGameModeList="2" iconPath="img://__S1UIRES_Emblem.Ico_CommunityWindow">
-        <MenuItem id="IconBFMatching" uiName="BFMatching" readableId="SMT_MENU_BF_MATCHING" />
-        <MenuItem id="IconDungeonMatching" uiName="DungeonPartyMatching" readableId="SMT_MENU_DUNGEON_MATCHING" />
-        <MenuItem id="Orders" uiName="Orders" readableId="SMT_MENU_PLAYGUIDE" conditionLevel="20" />
+    <Menu id="QuickMatching"
+          index="0"
+          readableId="SMT_MENU_QUICK_MATCHING"
+          excludedGameModeList="2"
+          iconPath="img://__S1UIRES_Emblem.Ico_CommunityWindow">
+        <MenuItem id="IconBFMatching"
+                  uiName="BFMatching"
+                  readableId="SMT_MENU_BF_MATCHING" />
+        <MenuItem id="IconDungeonMatching"
+                  uiName="DungeonPartyMatching"
+                  readableId="SMT_MENU_DUNGEON_MATCHING" />
+        <MenuItem id="Orders"
+                  uiName="Orders"
+                  readableId="SMT_MENU_PLAYGUIDE"
+                  conditionLevel="20" />
     </Menu>
-    <Menu id="InGameStore" uiName="InGameStore" readableId="SMT_MENU_INGAMESTORE" excludedGameModeList="2" />
-    <Menu id="store" index="2" readableId="SMT_MENU_STORE" excludedGameModeList="2" iconPath="img://__S1UIRES_Emblem.Ico_InGameStore">
-        <MenuItem id="AccessoryTransform" uiName="AccessoryTransform" readableId="SMT_ACCESSORY_TRANSFORMER" />
-        <MenuItem id="StyleShop" uiName="StyleShop" readableId="SMT_STYLE_SHOP" />
-        <MenuItem id="WebService" uiName="WebService" readableId="SMT_MENU_TCATSTRORE" />
-        <MenuItem id="CouponBox" uiName="CouponBox" readableId="SMT_MENU_COUPONBOX" />
+    <Menu id="InGameStore"
+          uiName="InGameStore"
+          readableId="SMT_MENU_INGAMESTORE"
+          excludedGameModeList="2" />
+    <Menu id="store"
+          index="2"
+          readableId="SMT_MENU_STORE"
+          excludedGameModeList="2"
+          iconPath="img://__S1UIRES_Emblem.Ico_InGameStore">
+        <MenuItem id="AccessoryTransform"
+                  uiName="AccessoryTransform"
+                  readableId="SMT_ACCESSORY_TRANSFORMER" />
+        <MenuItem id="StyleShop"
+                  uiName="StyleShop"
+                  readableId="SMT_STYLE_SHOP" />
+        <MenuItem id="WebService"
+                  uiName="WebService"
+                  readableId="SMT_MENU_TCATSTRORE" />
+        <MenuItem id="CouponBox"
+                  uiName="CouponBox"
+                  readableId="SMT_MENU_COUPONBOX" />
     </Menu>
-    <Menu id="TBACouponBox" index="0" uiName="CouponBox" readableId="SMT_MENU_COUPONBOX" excludedGameModeList="1" iconPath="img://__S1UIRES_Emblem.Ico_Inventory" />
-    <Menu id="Post" index="0" uiName="ParcelPost" readableId="SMT_MENU_POST" excludedGameModeList="1" iconPath="img://__S1UIRES_Emblem.Ico_Inventory" />
-    <Menu id="TBARuneSettingWindow" index="0" uiName="TBARuneSettingWindow" readableId="SMT_MENU_TBA_RUNE_WINDOW" excludedGameModeList="1" iconPath="img://__S1UIRES_Emblem.Ico_Inventory" />
-    <Menu id="TBAUserInfo" index="1" uiName="TBAUserInfoWindow" readableId="SMT_MENU_TBA_USER_INFO" excludedGameModeList="1" iconPath="img://__S1UIRES_Emblem.Ico_Inventory" />
-    <Menu id="WebGuide" index="0" uiName="WebGuide" readableId="SMT_MENU_WEB_GUIDE" excludedGameModeList="1,2" iconPath="img://__S1UIRES_Emblem.Ico_Inventory" />
-    <Menu id="System" index="2" readableId="SMT_MENU_SYSTEM_MENU" iconPath="img://__S1UIRES_Emblem.Ico_SystemOption">
-        <MenuItem id="NearTown" uiName="NearTown" readableId="SMT_MENU_NEAR_TOWN" excludedGameModeList="2" />
-        <MenuItem id="SystemOption" uiName="SystemOption" readableId="SMT_MENU_SYSTEM_OPTION" />
-        <MenuItem id="LogOut" uiName="LogOut" readableId="SMT_MENU_EXIT" />
+    <Menu id="TBACouponBox"
+          index="0"
+          uiName="CouponBox"
+          readableId="SMT_MENU_COUPONBOX"
+          excludedGameModeList="1"
+          iconPath="img://__S1UIRES_Emblem.Ico_Inventory" />
+    <Menu id="Post"
+          index="0"
+          uiName="ParcelPost"
+          readableId="SMT_MENU_POST"
+          excludedGameModeList="1"
+          iconPath="img://__S1UIRES_Emblem.Ico_Inventory" />
+    <Menu id="TBARuneSettingWindow"
+          index="0"
+          uiName="TBARuneSettingWindow"
+          readableId="SMT_MENU_TBA_RUNE_WINDOW"
+          excludedGameModeList="1"
+          iconPath="img://__S1UIRES_Emblem.Ico_Inventory" />
+    <Menu id="TBAUserInfo"
+          index="1"
+          uiName="TBAUserInfoWindow"
+          readableId="SMT_MENU_TBA_USER_INFO"
+          excludedGameModeList="1"
+          iconPath="img://__S1UIRES_Emblem.Ico_Inventory" />
+    <Menu id="WebGuide"
+          index="0"
+          uiName="WebGuide"
+          readableId="SMT_MENU_WEB_GUIDE"
+          excludedGameModeList="1,2"
+          iconPath="img://__S1UIRES_Emblem.Ico_Inventory" />
+    <Menu id="System"
+          index="2"
+          readableId="SMT_MENU_SYSTEM_MENU"
+          iconPath="img://__S1UIRES_Emblem.Ico_SystemOption">
+        <MenuItem id="NearTown"
+                  uiName="NearTown"
+                  readableId="SMT_MENU_NEAR_TOWN"
+                  excludedGameModeList="2" />
+        <MenuItem id="SystemOption"
+                  uiName="SystemOption"
+                  readableId="SMT_MENU_SYSTEM_OPTION" />
+        <MenuItem id="LogOut"
+                  uiName="LogOut"
+                  readableId="SMT_MENU_EXIT" />
     </Menu>
 </MainMenu>

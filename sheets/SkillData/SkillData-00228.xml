@@ -1,131 +1,389 @@
-<SkillData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/SkillData SkillData.xsd" huntingZoneId="113" xmlns="https://vezel.dev/novadrop/dc/SkillData">
-    <Skill id="1101" category="" name="오크통 폭발" type="normal" templateId="7001" nextSkill="0" parentId="60001000" ignoreDefence="false" autoUse="false" timeRate="0.89" attackRange="100.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="ExplosiveDrum_ANI.Anim.ExplosiveDrum_Anim" totalAtk="1.17800264">
+<SkillData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://vezel.dev/novadrop/dc/SkillData SkillData.xsd"
+           huntingZoneId="113"
+           xmlns="https://vezel.dev/novadrop/dc/SkillData">
+    <Skill id="1101"
+           category=""
+           name="오크통 폭발"
+           type="normal"
+           templateId="7001"
+           nextSkill="0"
+           parentId="60001000"
+           ignoreDefence="false"
+           autoUse="false"
+           timeRate="0.89"
+           attackRange="100.000000"
+           attackRangeMax="0.000000"
+           changeDirToCenter="false"
+           needWeapon="true"
+           pushtarget="stop"
+           returnAnimName=""
+           returnAnimSet="ExplosiveDrum_ANI.Anim.ExplosiveDrum_Anim"
+           totalAtk="1.17800264">
         <Action>
             <CameraShakeList />
-            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
-            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
-            <MoveInvincible startTime="0" endTime="0" />
+            <CameraType type="none"
+                        duration="2000"
+                        startTime="0"
+                        weight="2"
+                        prepareStageId="0"
+                        startStageId="0" />
+            <Cancel frontCancelEndTime="0"
+                    moveCancelStartTime="-1"
+                    rearCancelStartTime="0" />
+            <MoveInvincible startTime="0"
+                            endTime="0" />
             <Pending startTime="-1" />
             <SpecialEffectList />
             <StageList>
-                <Stage changeDirToTarget="false" movable="false">
-                    <AnimSeq animSet="ExplosiveDrum_ANI.Anim.ExplosiveDrum_Anim" duration="0" animName="atk02" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="0" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                <Stage changeDirToTarget="false"
+                       movable="false">
+                    <AnimSeq animSet="ExplosiveDrum_ANI.Anim.ExplosiveDrum_Anim"
+                             duration="0"
+                             animName="atk02"
+                             animRate="1"
+                             blendInTime="200"
+                             bAnimLooping="false"
+                             animMotionId="0"
+                             loopingRate="1"
+                             readOnlyDuration="0"
+                             rootMotionXYRate="1"
+                             rootMotionZRate="1"
+                             movingAnimName=""
+                             waitAnimName="" />
                     <Property animControlType="normal" />
                 </Stage>
             </StageList>
         </Action>
         <Anger />
-        <BalanceRef ignoreAttr="" isAngerSkill="False" needBalance="" refItemLevel="" refLeatherDmgRate="" refMailDmgRate="" refRobeDmgRate="" refTotalAtk="" />
-        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
-        <Defence rootMotion="false" successAnimName="" successAnimSet="ExplosiveDrum_ANI.Anim.ExplosiveDrum_Anim" />
+        <BalanceRef ignoreAttr=""
+                    isAngerSkill="False"
+                    needBalance=""
+                    refItemLevel=""
+                    refLeatherDmgRate=""
+                    refMailDmgRate=""
+                    refRobeDmgRate=""
+                    refTotalAtk="" />
+        <Bullet detachTime="0"
+                shotSkill="0"
+                createTime="0"
+                flyingDuration="1000"
+                startSkill="-1" />
+        <Defence rootMotion="false"
+                 successAnimName=""
+                 successAnimSet="ExplosiveDrum_ANI.Anim.ExplosiveDrum_Anim" />
         <Drain backSkillId="0" />
-        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
-            <Cost hp="0" mp="0" />
+        <Precondition coolTime="0"
+                      modeChangeMethod="2"
+                      modeNo="0">
+            <Cost hp="0"
+                  mp="0" />
         </Precondition>
-        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
-        <Property weaponStatus="out" defence="false" reactionPendingType="normal" skillPendingType="normal" toCenterWhenNoMove="false" />
+        <Projectile lifeTime="0"
+                    areaBoxSizeX="0"
+                    areaBoxSizeY="0"
+                    areaBoxSizeZ="0"
+                    loopingTime="0" />
+        <Property weaponStatus="out"
+                  defence="false"
+                  reactionPendingType="normal"
+                  skillPendingType="normal"
+                  toCenterWhenNoMove="false" />
         <TargetingList>
-            <Targeting id="-1" time="10" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0">
+            <Targeting id="-1"
+                       time="10"
+                       method="normal"
+                       type="none"
+                       startTime="0"
+                       endTime="0"
+                       interval="0"
+                       until="0">
                 <AreaList>
-                    <Area type="allExceptMe" rotateAngle="0" maxHeight="30" maxCount="20" offsetAngle="0" offsetDistance="0" maxRadius="100" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="1" minRadius="0">
+                    <Area type="allExceptMe"
+                          rotateAngle="0"
+                          maxHeight="30"
+                          maxCount="20"
+                          offsetAngle="0"
+                          offsetDistance="0"
+                          maxRadius="100"
+                          pierceDepth="1"
+                          minHeight="0"
+                          rangeAngle="360"
+                          crosshairRadius="1"
+                          minRadius="0">
                         <Effect atk="1">
                             <AbnormalityOnCommon id="0" />
                             <HpDiff value="0" />
                             <MpDiff value="0" />
                         </Effect>
                         <HitEffect type="animationDamage" />
-                        <Reaction basicRate="0" miniRate="0" />
+                        <Reaction basicRate="0"
+                                  miniRate="0" />
                     </Area>
                 </AreaList>
-                <Cost hp="0" mp="0" />
+                <Cost hp="0"
+                      mp="0" />
             </Targeting>
         </TargetingList>
-        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+        <Teleport type="BONFIRE"
+                  range="0"
+                  istrue="false"
+                  distRange="0" />
     </Skill>
-    <Skill id="1101" category="" name="오크통 폭발" type="normal" templateId="7002" nextSkill="0" parentId="60001000" ignoreDefence="false" autoUse="false" timeRate="0.89" attackRange="100.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="ExplosiveDrum_ANI.Anim.ExplosiveDrum_Anim" totalAtk="1.17800264">
+    <Skill id="1101"
+           category=""
+           name="오크통 폭발"
+           type="normal"
+           templateId="7002"
+           nextSkill="0"
+           parentId="60001000"
+           ignoreDefence="false"
+           autoUse="false"
+           timeRate="0.89"
+           attackRange="100.000000"
+           attackRangeMax="0.000000"
+           changeDirToCenter="false"
+           needWeapon="true"
+           pushtarget="stop"
+           returnAnimName=""
+           returnAnimSet="ExplosiveDrum_ANI.Anim.ExplosiveDrum_Anim"
+           totalAtk="1.17800264">
         <Action>
             <CameraShakeList />
-            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
-            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
-            <MoveInvincible startTime="0" endTime="0" />
+            <CameraType type="none"
+                        duration="2000"
+                        startTime="0"
+                        weight="2"
+                        prepareStageId="0"
+                        startStageId="0" />
+            <Cancel frontCancelEndTime="0"
+                    moveCancelStartTime="-1"
+                    rearCancelStartTime="0" />
+            <MoveInvincible startTime="0"
+                            endTime="0" />
             <Pending startTime="-1" />
             <SpecialEffectList />
             <StageList>
-                <Stage changeDirToTarget="false" movable="false">
-                    <AnimSeq animSet="ExplosiveDrum_ANI.Anim.ExplosiveDrum_Anim" duration="0" animName="atk02" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="0" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                <Stage changeDirToTarget="false"
+                       movable="false">
+                    <AnimSeq animSet="ExplosiveDrum_ANI.Anim.ExplosiveDrum_Anim"
+                             duration="0"
+                             animName="atk02"
+                             animRate="1"
+                             blendInTime="200"
+                             bAnimLooping="false"
+                             animMotionId="0"
+                             loopingRate="1"
+                             readOnlyDuration="0"
+                             rootMotionXYRate="1"
+                             rootMotionZRate="1"
+                             movingAnimName=""
+                             waitAnimName="" />
                     <Property animControlType="normal" />
                 </Stage>
             </StageList>
         </Action>
         <Anger />
-        <BalanceRef ignoreAttr="" isAngerSkill="False" needBalance="" refItemLevel="" refLeatherDmgRate="" refMailDmgRate="" refRobeDmgRate="" refTotalAtk="" />
-        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
-        <Defence rootMotion="false" successAnimName="" successAnimSet="ExplosiveDrum_ANI.Anim.ExplosiveDrum_Anim" />
+        <BalanceRef ignoreAttr=""
+                    isAngerSkill="False"
+                    needBalance=""
+                    refItemLevel=""
+                    refLeatherDmgRate=""
+                    refMailDmgRate=""
+                    refRobeDmgRate=""
+                    refTotalAtk="" />
+        <Bullet detachTime="0"
+                shotSkill="0"
+                createTime="0"
+                flyingDuration="1000"
+                startSkill="-1" />
+        <Defence rootMotion="false"
+                 successAnimName=""
+                 successAnimSet="ExplosiveDrum_ANI.Anim.ExplosiveDrum_Anim" />
         <Drain backSkillId="0" />
-        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
-            <Cost hp="0" mp="0" />
+        <Precondition coolTime="0"
+                      modeChangeMethod="2"
+                      modeNo="0">
+            <Cost hp="0"
+                  mp="0" />
         </Precondition>
-        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
-        <Property weaponStatus="out" defence="false" reactionPendingType="normal" skillPendingType="normal" toCenterWhenNoMove="false" />
+        <Projectile lifeTime="0"
+                    areaBoxSizeX="0"
+                    areaBoxSizeY="0"
+                    areaBoxSizeZ="0"
+                    loopingTime="0" />
+        <Property weaponStatus="out"
+                  defence="false"
+                  reactionPendingType="normal"
+                  skillPendingType="normal"
+                  toCenterWhenNoMove="false" />
         <TargetingList>
-            <Targeting id="-1" time="10" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0">
+            <Targeting id="-1"
+                       time="10"
+                       method="normal"
+                       type="none"
+                       startTime="0"
+                       endTime="0"
+                       interval="0"
+                       until="0">
                 <AreaList>
-                    <Area type="allExceptMe" rotateAngle="0" maxHeight="30" maxCount="20" offsetAngle="0" offsetDistance="0" maxRadius="100" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="1" minRadius="0">
+                    <Area type="allExceptMe"
+                          rotateAngle="0"
+                          maxHeight="30"
+                          maxCount="20"
+                          offsetAngle="0"
+                          offsetDistance="0"
+                          maxRadius="100"
+                          pierceDepth="1"
+                          minHeight="0"
+                          rangeAngle="360"
+                          crosshairRadius="1"
+                          minRadius="0">
                         <Effect atk="1">
                             <AbnormalityOnCommon id="0" />
                             <HpDiff value="0" />
                             <MpDiff value="0" />
                         </Effect>
                         <HitEffect type="animationDamage" />
-                        <Reaction basicRate="0" miniRate="0" />
+                        <Reaction basicRate="0"
+                                  miniRate="0" />
                     </Area>
                 </AreaList>
-                <Cost hp="0" mp="0" />
+                <Cost hp="0"
+                      mp="0" />
             </Targeting>
         </TargetingList>
-        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+        <Teleport type="BONFIRE"
+                  range="0"
+                  istrue="false"
+                  distRange="0" />
     </Skill>
-    <Skill id="1101" category="" name="오크통 폭발" type="normal" templateId="7003" nextSkill="0" parentId="60001000" ignoreDefence="false" autoUse="false" timeRate="0.89" attackRange="100.000000" attackRangeMax="0.000000" changeDirToCenter="false" needWeapon="true" pushtarget="stop" returnAnimName="" returnAnimSet="ExplosiveDrum_ANI.Anim.ExplosiveDrum_Anim" totalAtk="1.17800264">
+    <Skill id="1101"
+           category=""
+           name="오크통 폭발"
+           type="normal"
+           templateId="7003"
+           nextSkill="0"
+           parentId="60001000"
+           ignoreDefence="false"
+           autoUse="false"
+           timeRate="0.89"
+           attackRange="100.000000"
+           attackRangeMax="0.000000"
+           changeDirToCenter="false"
+           needWeapon="true"
+           pushtarget="stop"
+           returnAnimName=""
+           returnAnimSet="ExplosiveDrum_ANI.Anim.ExplosiveDrum_Anim"
+           totalAtk="1.17800264">
         <Action>
             <CameraShakeList />
-            <CameraType type="none" duration="2000" startTime="0" weight="2" prepareStageId="0" startStageId="0" />
-            <Cancel frontCancelEndTime="0" moveCancelStartTime="-1" rearCancelStartTime="0" />
-            <MoveInvincible startTime="0" endTime="0" />
+            <CameraType type="none"
+                        duration="2000"
+                        startTime="0"
+                        weight="2"
+                        prepareStageId="0"
+                        startStageId="0" />
+            <Cancel frontCancelEndTime="0"
+                    moveCancelStartTime="-1"
+                    rearCancelStartTime="0" />
+            <MoveInvincible startTime="0"
+                            endTime="0" />
             <Pending startTime="-1" />
             <SpecialEffectList />
             <StageList>
-                <Stage changeDirToTarget="false" movable="false">
-                    <AnimSeq animSet="ExplosiveDrum_ANI.Anim.ExplosiveDrum_Anim" duration="0" animName="atk02" animRate="1" blendInTime="200" bAnimLooping="false" animMotionId="0" loopingRate="1" readOnlyDuration="0" rootMotionXYRate="1" rootMotionZRate="1" movingAnimName="" waitAnimName="" />
+                <Stage changeDirToTarget="false"
+                       movable="false">
+                    <AnimSeq animSet="ExplosiveDrum_ANI.Anim.ExplosiveDrum_Anim"
+                             duration="0"
+                             animName="atk02"
+                             animRate="1"
+                             blendInTime="200"
+                             bAnimLooping="false"
+                             animMotionId="0"
+                             loopingRate="1"
+                             readOnlyDuration="0"
+                             rootMotionXYRate="1"
+                             rootMotionZRate="1"
+                             movingAnimName=""
+                             waitAnimName="" />
                     <Property animControlType="normal" />
                 </Stage>
             </StageList>
         </Action>
         <Anger />
-        <BalanceRef ignoreAttr="" isAngerSkill="False" needBalance="" refItemLevel="" refLeatherDmgRate="" refMailDmgRate="" refRobeDmgRate="" refTotalAtk="" />
-        <Bullet detachTime="0" shotSkill="0" createTime="0" flyingDuration="1000" startSkill="-1" />
-        <Defence rootMotion="false" successAnimName="" successAnimSet="ExplosiveDrum_ANI.Anim.ExplosiveDrum_Anim" />
+        <BalanceRef ignoreAttr=""
+                    isAngerSkill="False"
+                    needBalance=""
+                    refItemLevel=""
+                    refLeatherDmgRate=""
+                    refMailDmgRate=""
+                    refRobeDmgRate=""
+                    refTotalAtk="" />
+        <Bullet detachTime="0"
+                shotSkill="0"
+                createTime="0"
+                flyingDuration="1000"
+                startSkill="-1" />
+        <Defence rootMotion="false"
+                 successAnimName=""
+                 successAnimSet="ExplosiveDrum_ANI.Anim.ExplosiveDrum_Anim" />
         <Drain backSkillId="0" />
-        <Precondition coolTime="0" modeChangeMethod="2" modeNo="0">
-            <Cost hp="0" mp="0" />
+        <Precondition coolTime="0"
+                      modeChangeMethod="2"
+                      modeNo="0">
+            <Cost hp="0"
+                  mp="0" />
         </Precondition>
-        <Projectile lifeTime="0" areaBoxSizeX="0" areaBoxSizeY="0" areaBoxSizeZ="0" loopingTime="0" />
-        <Property weaponStatus="out" defence="false" reactionPendingType="normal" skillPendingType="normal" toCenterWhenNoMove="false" />
+        <Projectile lifeTime="0"
+                    areaBoxSizeX="0"
+                    areaBoxSizeY="0"
+                    areaBoxSizeZ="0"
+                    loopingTime="0" />
+        <Property weaponStatus="out"
+                  defence="false"
+                  reactionPendingType="normal"
+                  skillPendingType="normal"
+                  toCenterWhenNoMove="false" />
         <TargetingList>
-            <Targeting id="-1" time="10" method="normal" type="none" startTime="0" endTime="0" interval="0" until="0">
+            <Targeting id="-1"
+                       time="10"
+                       method="normal"
+                       type="none"
+                       startTime="0"
+                       endTime="0"
+                       interval="0"
+                       until="0">
                 <AreaList>
-                    <Area type="allExceptMe" rotateAngle="0" maxHeight="30" maxCount="20" offsetAngle="0" offsetDistance="0" maxRadius="100" pierceDepth="1" minHeight="0" rangeAngle="360" crosshairRadius="1" minRadius="0">
+                    <Area type="allExceptMe"
+                          rotateAngle="0"
+                          maxHeight="30"
+                          maxCount="20"
+                          offsetAngle="0"
+                          offsetDistance="0"
+                          maxRadius="100"
+                          pierceDepth="1"
+                          minHeight="0"
+                          rangeAngle="360"
+                          crosshairRadius="1"
+                          minRadius="0">
                         <Effect atk="1">
                             <AbnormalityOnCommon id="0" />
                             <HpDiff value="0" />
                             <MpDiff value="0" />
                         </Effect>
                         <HitEffect type="animationDamage" />
-                        <Reaction basicRate="0" miniRate="0" />
+                        <Reaction basicRate="0"
+                                  miniRate="0" />
                     </Area>
                 </AreaList>
-                <Cost hp="0" mp="0" />
+                <Cost hp="0"
+                      mp="0" />
             </Targeting>
         </TargetingList>
-        <Teleport type="BONFIRE" range="0" istrue="false" distRange="0" />
+        <Teleport type="BONFIRE"
+                  range="0"
+                  istrue="false"
+                  distRange="0" />
     </Skill>
 </SkillData>

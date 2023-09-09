@@ -1,45 +1,130 @@
-<Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/Field Field.xsd" continentId="7021" xmlns="https://vezel.dev/novadrop/dc/Field">
-    <FieldEvent id="1" type="1" startPos="-42676,22348,2230" reviveTownNameId="7777">
-        <FieldEventCloud aeroBlendingRadiusFactor="0.85" aeroCylinderHeight="10000" areaSpreadSpeed="100000" asyncLoadDistance="1500000" primaryAeroWeight="40" secondaryAeroWeight="50" aeroLoc="-42676,22348,2230" targetRadius="100000">
+<Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="https://vezel.dev/novadrop/dc/Field Field.xsd"
+       continentId="7021"
+       xmlns="https://vezel.dev/novadrop/dc/Field">
+    <FieldEvent id="1"
+                type="1"
+                startPos="-42676,22348,2230"
+                reviveTownNameId="7777">
+        <FieldEventCloud aeroBlendingRadiusFactor="0.85"
+                         aeroCylinderHeight="10000"
+                         areaSpreadSpeed="100000"
+                         asyncLoadDistance="1500000"
+                         primaryAeroWeight="40"
+                         secondaryAeroWeight="50"
+                         aeroLoc="-42676,22348,2230"
+                         targetRadius="100000">
             <AeroList>
-                <Aero step="1" aeroName="FlyingContent_01_Aero.AERO.FlyingContent_01_Aero" />
+                <Aero step="1"
+                      aeroName="FlyingContent_01_Aero.AERO.FlyingContent_01_Aero" />
             </AeroList>
         </FieldEventCloud>
-        <Guide description="@field:7021010" titleString="@field:702101" eventSize="flying_medium">
-            <Task id="0" string="@field:100000" target="" iconId="1">
-                <Marker markerPos="-45590,21601,2320" markerScaleX="0.75" markerScaleY="0.75" markerType="MARKER_FIELD_EVENT_AREA_01" />
-                <Marker markerPos="-65697,22976,3550" markerScaleX="0.75" markerScaleY="0.75" markerType="MARKER_FIELD_EVENT_AREA_01" />
-                <Marker markerPos="-50947,38578,4506" markerScaleX="0.75" markerScaleY="0.75" markerType="MARKER_FIELD_EVENT_AREA_01" />
-                <Marker markerPos="-52170,-7402,2049" markerScaleX="0.75" markerScaleY="0.75" markerType="MARKER_FIELD_EVENT_AREA_01" />
-                <Marker markerPos="-51569,-23328,2827" markerScaleX="0.75" markerScaleY="0.75" markerType="MARKER_FIELD_EVENT_AREA_01" />
+        <Guide description="@field:7021010"
+               titleString="@field:702101"
+               eventSize="flying_medium">
+            <Task id="0"
+                  string="@field:100000"
+                  target=""
+                  iconId="1">
+                <Marker markerPos="-45590,21601,2320"
+                        markerScaleX="0.75"
+                        markerScaleY="0.75"
+                        markerType="MARKER_FIELD_EVENT_AREA_01" />
+                <Marker markerPos="-65697,22976,3550"
+                        markerScaleX="0.75"
+                        markerScaleY="0.75"
+                        markerType="MARKER_FIELD_EVENT_AREA_01" />
+                <Marker markerPos="-50947,38578,4506"
+                        markerScaleX="0.75"
+                        markerScaleY="0.75"
+                        markerType="MARKER_FIELD_EVENT_AREA_01" />
+                <Marker markerPos="-52170,-7402,2049"
+                        markerScaleX="0.75"
+                        markerScaleY="0.75"
+                        markerType="MARKER_FIELD_EVENT_AREA_01" />
+                <Marker markerPos="-51569,-23328,2827"
+                        markerScaleX="0.75"
+                        markerScaleY="0.75"
+                        markerType="MARKER_FIELD_EVENT_AREA_01" />
             </Task>
-            <Task id="1" string="@field:631001" target="" iconId="1">
-                <Marker markerPos="-45590,21601,2320" markerScaleX="1" markerScaleY="1" markerType="MARKER_FIELD_EVENT_AREA_01" />
-                <Marker markerPos="-65697,22976,3550" markerScaleX="1" markerScaleY="1" markerType="MARKER_FIELD_EVENT_AREA_01" />
-                <Marker markerPos="-50947,38578,4506" markerScaleX="1" markerScaleY="1" markerType="MARKER_FIELD_EVENT_AREA_01" />
-                <Marker markerPos="-52170,-7402,2049" markerScaleX="1" markerScaleY="1" markerType="MARKER_FIELD_EVENT_AREA_01" />
-                <Marker markerPos="-51569,-23328,2827" markerScaleX="1" markerScaleY="1" markerType="MARKER_FIELD_EVENT_AREA_01" />
+            <Task id="1"
+                  string="@field:631001"
+                  target=""
+                  iconId="1">
+                <Marker markerPos="-45590,21601,2320"
+                        markerScaleX="1"
+                        markerScaleY="1"
+                        markerType="MARKER_FIELD_EVENT_AREA_01" />
+                <Marker markerPos="-65697,22976,3550"
+                        markerScaleX="1"
+                        markerScaleY="1"
+                        markerType="MARKER_FIELD_EVENT_AREA_01" />
+                <Marker markerPos="-50947,38578,4506"
+                        markerScaleX="1"
+                        markerScaleY="1"
+                        markerType="MARKER_FIELD_EVENT_AREA_01" />
+                <Marker markerPos="-52170,-7402,2049"
+                        markerScaleX="1"
+                        markerScaleY="1"
+                        markerType="MARKER_FIELD_EVENT_AREA_01" />
+                <Marker markerPos="-51569,-23328,2827"
+                        markerScaleX="1"
+                        markerScaleY="1"
+                        markerType="MARKER_FIELD_EVENT_AREA_01" />
             </Task>
-            <Task id="2" string="@field:631003" target="" iconId="3">
-                <Marker markerPos="-45590,21601,2320" markerScaleX="1" markerScaleY="1" markerType="MARKER_FIELD_EVENT_AREA_03" />
-                <Marker markerPos="-65697,22976,3550" markerScaleX="1" markerScaleY="1" markerType="MARKER_FIELD_EVENT_AREA_03" />
-                <Marker markerPos="-50947,38578,4506" markerScaleX="1" markerScaleY="1" markerType="MARKER_FIELD_EVENT_AREA_03" />
-                <Marker markerPos="-52170,-7402,2049" markerScaleX="1" markerScaleY="1" markerType="MARKER_FIELD_EVENT_AREA_03" />
-                <Marker markerPos="-51569,-23328,2827" markerScaleX="1" markerScaleY="1" markerType="MARKER_FIELD_EVENT_AREA_03" />
+            <Task id="2"
+                  string="@field:631003"
+                  target=""
+                  iconId="3">
+                <Marker markerPos="-45590,21601,2320"
+                        markerScaleX="1"
+                        markerScaleY="1"
+                        markerType="MARKER_FIELD_EVENT_AREA_03" />
+                <Marker markerPos="-65697,22976,3550"
+                        markerScaleX="1"
+                        markerScaleY="1"
+                        markerType="MARKER_FIELD_EVENT_AREA_03" />
+                <Marker markerPos="-50947,38578,4506"
+                        markerScaleX="1"
+                        markerScaleY="1"
+                        markerType="MARKER_FIELD_EVENT_AREA_03" />
+                <Marker markerPos="-52170,-7402,2049"
+                        markerScaleX="1"
+                        markerScaleY="1"
+                        markerType="MARKER_FIELD_EVENT_AREA_03" />
+                <Marker markerPos="-51569,-23328,2827"
+                        markerScaleX="1"
+                        markerScaleY="1"
+                        markerType="MARKER_FIELD_EVENT_AREA_03" />
             </Task>
-            <Task id="3" string="@field:631002" target="" iconId="1">
+            <Task id="3"
+                  string="@field:631002"
+                  target=""
+                  iconId="1">
                 <Marker />
             </Task>
-            <Task id="4" string="@field:631003" target="" iconId="1">
+            <Task id="4"
+                  string="@field:631003"
+                  target=""
+                  iconId="1">
                 <Marker />
             </Task>
-            <Task id="5" string="@field:631004" target="" iconId="3">
+            <Task id="5"
+                  string="@field:631004"
+                  target=""
+                  iconId="3">
                 <Marker />
             </Task>
-            <Task id="6" string="@field:631005" target="" iconId="3">
+            <Task id="6"
+                  string="@field:631005"
+                  target=""
+                  iconId="3">
                 <Marker />
             </Task>
-            <Task id="7" string="@field:111111" target="" iconId="1">
+            <Task id="7"
+                  string="@field:111111"
+                  target=""
+                  iconId="1">
                 <Marker />
             </Task>
         </Guide>

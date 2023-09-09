@@ -1,61 +1,108 @@
-<CardCompose xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/CardCompose CardCompose.xsd" xmlns="https://vezel.dev/novadrop/dc/CardCompose">
+<CardCompose xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://vezel.dev/novadrop/dc/CardCompose CardCompose.xsd"
+             xmlns="https://vezel.dev/novadrop/dc/CardCompose">
     <CardAutoRegistFilterData>
         <GradeFilter labelStringId="@cardsystem:10012">
-            <ChildFilter labelStringId="@cardsystem:10201" refId="0" />
-            <ChildFilter labelStringId="@cardsystem:10202" refId="1" />
-            <ChildFilter labelStringId="@cardsystem:10203" refId="2" />
+            <ChildFilter labelStringId="@cardsystem:10201"
+                         refId="0" />
+            <ChildFilter labelStringId="@cardsystem:10202"
+                         refId="1" />
+            <ChildFilter labelStringId="@cardsystem:10203"
+                         refId="2" />
         </GradeFilter>
         <PropertyFilter labelStringId="@cardsystem:10011">
-            <ChildFilter labelStringId="@cardsystem:10300" refId="0" />
-            <ChildFilter labelStringId="@cardsystem:10301" refId="1" />
-            <ChildFilter labelStringId="@cardsystem:10302" refId="2" />
-            <ChildFilter labelStringId="@cardsystem:10303" refId="3" />
-            <ChildFilter labelStringId="@cardsystem:10304" refId="4" />
-            <ChildFilter labelStringId="@cardsystem:10305" refId="5" />
-            <ChildFilter labelStringId="@cardsystem:10306" refId="6" />
+            <ChildFilter labelStringId="@cardsystem:10300"
+                         refId="0" />
+            <ChildFilter labelStringId="@cardsystem:10301"
+                         refId="1" />
+            <ChildFilter labelStringId="@cardsystem:10302"
+                         refId="2" />
+            <ChildFilter labelStringId="@cardsystem:10303"
+                         refId="3" />
+            <ChildFilter labelStringId="@cardsystem:10304"
+                         refId="4" />
+            <ChildFilter labelStringId="@cardsystem:10305"
+                         refId="5" />
+            <ChildFilter labelStringId="@cardsystem:10306"
+                         refId="6" />
         </PropertyFilter>
     </CardAutoRegistFilterData>
-    <CardComposeData id="1" type="random" cardKindAmount="4" eachCardAmount="1" failMileagePerCard="5" requiredCardLevel="0">
+    <CardComposeData id="1"
+                     type="random"
+                     cardKindAmount="4"
+                     eachCardAmount="1"
+                     failMileagePerCard="5"
+                     requiredCardLevel="0">
         <FailResult itemTableId="101" />
         <Material>
             <Gold money="1000000" />
         </Material>
         <SuccessResult itemTableId="201" />
     </CardComposeData>
-    <CardComposeData id="2" type="random" cardKindAmount="4" eachCardAmount="1" failMileagePerCard="10" requiredCardLevel="1">
+    <CardComposeData id="2"
+                     type="random"
+                     cardKindAmount="4"
+                     eachCardAmount="1"
+                     failMileagePerCard="10"
+                     requiredCardLevel="1">
         <FailResult itemTableId="102" />
         <Material>
             <Gold money="5000000" />
         </Material>
         <SuccessResult itemTableId="202" />
     </CardComposeData>
-    <CardComposeData id="7" type="random" cardKindAmount="4" eachCardAmount="1" failMileagePerCard="20" requiredCardLevel="2">
+    <CardComposeData id="7"
+                     type="random"
+                     cardKindAmount="4"
+                     eachCardAmount="1"
+                     failMileagePerCard="20"
+                     requiredCardLevel="2">
         <FailResult itemTableId="103" />
         <Material>
             <Gold money="50000000" />
         </Material>
         <SuccessResult itemTableId="203" />
     </CardComposeData>
-    <CardComposeData id="3" type="same" cardKindAmount="1" eachCardAmount="20" failMileagePerCard="1" requiredCardLevel="0">
+    <CardComposeData id="3"
+                     type="same"
+                     cardKindAmount="1"
+                     eachCardAmount="20"
+                     failMileagePerCard="1"
+                     requiredCardLevel="0">
         <Material>
             <Gold money="5000000" />
         </Material>
         <SuccessResult itemTableId="1001" />
     </CardComposeData>
-    <CardComposeData id="4" type="same" cardKindAmount="1" eachCardAmount="20" failMileagePerCard="2" requiredCardLevel="1">
+    <CardComposeData id="4"
+                     type="same"
+                     cardKindAmount="1"
+                     eachCardAmount="20"
+                     failMileagePerCard="2"
+                     requiredCardLevel="1">
         <Material>
             <Gold money="10000000" />
         </Material>
         <SuccessResult itemTableId="1002" />
     </CardComposeData>
-    <CardComposeData id="5" type="season" cardKindAmount="4" eachCardAmount="1" failMileagePerCard="5" requiredCardLevel="0">
+    <CardComposeData id="5"
+                     type="season"
+                     cardKindAmount="4"
+                     eachCardAmount="1"
+                     failMileagePerCard="5"
+                     requiredCardLevel="0">
         <FailResult itemTableId="101" />
         <Material>
             <Gold money="1000000" />
         </Material>
         <SuccessResult seasonGroupListId="101" />
     </CardComposeData>
-    <CardComposeData id="6" type="season" cardKindAmount="4" eachCardAmount="1" failMileagePerCard="10" requiredCardLevel="1">
+    <CardComposeData id="6"
+                     type="season"
+                     cardKindAmount="4"
+                     eachCardAmount="1"
+                     failMileagePerCard="10"
+                     requiredCardLevel="1">
         <FailResult itemTableId="102" />
         <Material>
             <Gold money="5000000" />
@@ -63,9 +110,12 @@
         <SuccessResult seasonGroupListId="102" />
     </CardComposeData>
     <GuideInfo>
-        <GuideText type="random" text="@CardCompose:100" />
-        <GuideText type="same" text="@CardCompose:200" />
-        <GuideText type="season" text="@CardCompose:300" />
+        <GuideText type="random"
+                   text="@CardCompose:100" />
+        <GuideText type="same"
+                   text="@CardCompose:200" />
+        <GuideText type="season"
+                   text="@CardCompose:300" />
     </GuideInfo>
     <ItemTable id="101">
         <Item templateId="330000" />
@@ -657,150 +707,293 @@
         <Item templateId="321015" />
         <Item templateId="321016" />
         <Item templateId="321017" />
-        <Item templateId="331000" featuredProductNotification="true" />
-        <Item templateId="331001" featuredProductNotification="true" />
-        <Item templateId="331002" featuredProductNotification="true" />
-        <Item templateId="331003" featuredProductNotification="true" />
-        <Item templateId="331004" featuredProductNotification="true" />
-        <Item templateId="331005" featuredProductNotification="true" />
-        <Item templateId="331006" featuredProductNotification="true" />
-        <Item templateId="331007" featuredProductNotification="true" />
-        <Item templateId="331008" featuredProductNotification="true" />
-        <Item templateId="331009" featuredProductNotification="true" />
-        <Item templateId="331010" featuredProductNotification="true" />
-        <Item templateId="331011" featuredProductNotification="true" />
-        <Item templateId="331012" featuredProductNotification="true" />
-        <Item templateId="331013" featuredProductNotification="true" />
-        <Item templateId="331014" featuredProductNotification="true" />
-        <Item templateId="331015" featuredProductNotification="true" />
-        <Item templateId="331016" featuredProductNotification="true" />
-        <Item templateId="331017" featuredProductNotification="true" />
-        <Item templateId="311001" featuredProductNotification="true" />
-        <Item templateId="311002" featuredProductNotification="true" />
-        <Item templateId="311003" featuredProductNotification="true" />
-        <Item templateId="311004" featuredProductNotification="true" />
-        <Item templateId="311005" featuredProductNotification="true" />
-        <Item templateId="311006" featuredProductNotification="true" />
-        <Item templateId="311007" featuredProductNotification="true" />
-        <Item templateId="311008" featuredProductNotification="true" />
-        <Item templateId="311009" featuredProductNotification="true" />
-        <Item templateId="311010" featuredProductNotification="true" />
-        <Item templateId="311011" featuredProductNotification="true" />
-        <Item templateId="311012" featuredProductNotification="true" />
-        <Item templateId="311013" featuredProductNotification="true" />
-        <Item templateId="311014" featuredProductNotification="true" />
-        <Item templateId="311015" featuredProductNotification="true" />
-        <Item templateId="311016" featuredProductNotification="true" />
-        <Item templateId="311017" featuredProductNotification="true" />
-        <Item templateId="311018" featuredProductNotification="true" />
-        <Item templateId="311019" featuredProductNotification="true" />
-        <Item templateId="311020" featuredProductNotification="true" />
-        <Item templateId="311021" featuredProductNotification="true" />
-        <Item templateId="311022" featuredProductNotification="true" />
-        <Item templateId="311023" featuredProductNotification="true" />
-        <Item templateId="311024" featuredProductNotification="true" />
-        <Item templateId="311025" featuredProductNotification="true" />
-        <Item templateId="311026" featuredProductNotification="true" />
-        <Item templateId="311028" featuredProductNotification="true" />
-        <Item templateId="311029" featuredProductNotification="true" />
-        <Item templateId="311030" featuredProductNotification="true" />
-        <Item templateId="311031" featuredProductNotification="true" />
-        <Item templateId="311032" featuredProductNotification="true" />
-        <Item templateId="311033" featuredProductNotification="true" />
-        <Item templateId="311034" featuredProductNotification="true" />
-        <Item templateId="311035" featuredProductNotification="true" />
-        <Item templateId="311036" featuredProductNotification="true" />
-        <Item templateId="311037" featuredProductNotification="true" />
-        <Item templateId="311038" featuredProductNotification="true" />
-        <Item templateId="311039" featuredProductNotification="true" />
-        <Item templateId="311040" featuredProductNotification="true" />
-        <Item templateId="311041" featuredProductNotification="true" />
-        <Item templateId="311042" featuredProductNotification="true" />
-        <Item templateId="311043" featuredProductNotification="true" />
-        <Item templateId="311044" featuredProductNotification="true" />
-        <Item templateId="311046" featuredProductNotification="true" />
-        <Item templateId="311047" featuredProductNotification="true" />
-        <Item templateId="311048" featuredProductNotification="true" />
-        <Item templateId="311049" featuredProductNotification="true" />
-        <Item templateId="311050" featuredProductNotification="true" />
-        <Item templateId="311051" featuredProductNotification="true" />
-        <Item templateId="311052" featuredProductNotification="true" />
-        <Item templateId="311053" featuredProductNotification="true" />
-        <Item templateId="311054" featuredProductNotification="true" />
-        <Item templateId="311055" featuredProductNotification="true" />
-        <Item templateId="311056" featuredProductNotification="true" />
-        <Item templateId="311057" featuredProductNotification="true" />
-        <Item templateId="311058" featuredProductNotification="true" />
-        <Item templateId="311059" featuredProductNotification="true" />
-        <Item templateId="311060" featuredProductNotification="true" />
-        <Item templateId="311061" featuredProductNotification="true" />
-        <Item templateId="311062" featuredProductNotification="true" />
-        <Item templateId="311063" featuredProductNotification="true" />
-        <Item templateId="311064" featuredProductNotification="true" />
-        <Item templateId="311065" featuredProductNotification="true" />
-        <Item templateId="301005" featuredProductNotification="true" />
-        <Item templateId="301006" featuredProductNotification="true" />
-        <Item templateId="301007" featuredProductNotification="true" />
-        <Item templateId="301011" featuredProductNotification="true" />
-        <Item templateId="301012" featuredProductNotification="true" />
-        <Item templateId="301013" featuredProductNotification="true" />
-        <Item templateId="301014" featuredProductNotification="true" />
-        <Item templateId="301015" featuredProductNotification="true" />
-        <Item templateId="301016" featuredProductNotification="true" />
-        <Item templateId="301017" featuredProductNotification="true" />
-        <Item templateId="301018" featuredProductNotification="true" />
-        <Item templateId="301029" featuredProductNotification="true" />
-        <Item templateId="301030" featuredProductNotification="true" />
-        <Item templateId="301031" featuredProductNotification="true" />
-        <Item templateId="341002" featuredProductNotification="true" />
-        <Item templateId="341003" featuredProductNotification="true" />
-        <Item templateId="341004" featuredProductNotification="true" />
-        <Item templateId="341005" featuredProductNotification="true" />
-        <Item templateId="341006" featuredProductNotification="true" />
-        <Item templateId="341007" featuredProductNotification="true" />
-        <Item templateId="341008" featuredProductNotification="true" />
-        <Item templateId="341009" featuredProductNotification="true" />
-        <Item templateId="341010" featuredProductNotification="true" />
-        <Item templateId="341011" featuredProductNotification="true" />
-        <Item templateId="341012" featuredProductNotification="true" />
-        <Item templateId="341013" featuredProductNotification="true" />
-        <Item templateId="341014" featuredProductNotification="true" />
-        <Item templateId="341015" featuredProductNotification="true" />
-        <Item templateId="341016" featuredProductNotification="true" />
-        <Item templateId="341017" featuredProductNotification="true" />
-        <Item templateId="341018" featuredProductNotification="true" />
-        <Item templateId="341019" featuredProductNotification="true" />
-        <Item templateId="341020" featuredProductNotification="true" />
-        <Item templateId="341021" featuredProductNotification="true" />
-        <Item templateId="341022" featuredProductNotification="true" />
-        <Item templateId="341024" featuredProductNotification="true" />
-        <Item templateId="341025" featuredProductNotification="true" />
-        <Item templateId="341026" featuredProductNotification="true" />
-        <Item templateId="341027" featuredProductNotification="true" />
-        <Item templateId="341028" featuredProductNotification="true" />
-        <Item templateId="341029" featuredProductNotification="true" />
-        <Item templateId="341030" featuredProductNotification="true" />
-        <Item templateId="341031" featuredProductNotification="true" />
-        <Item templateId="321000" featuredProductNotification="true" />
-        <Item templateId="321001" featuredProductNotification="true" />
-        <Item templateId="321002" featuredProductNotification="true" />
-        <Item templateId="321003" featuredProductNotification="true" />
-        <Item templateId="321004" featuredProductNotification="true" />
-        <Item templateId="321005" featuredProductNotification="true" />
-        <Item templateId="321006" featuredProductNotification="true" />
-        <Item templateId="321007" featuredProductNotification="true" />
-        <Item templateId="321008" featuredProductNotification="true" />
-        <Item templateId="321009" featuredProductNotification="true" />
-        <Item templateId="321010" featuredProductNotification="true" />
-        <Item templateId="321011" featuredProductNotification="true" />
-        <Item templateId="321012" featuredProductNotification="true" />
-        <Item templateId="321013" featuredProductNotification="true" />
-        <Item templateId="321014" featuredProductNotification="true" />
-        <Item templateId="321015" featuredProductNotification="true" />
-        <Item templateId="321016" featuredProductNotification="true" />
-        <Item templateId="321017" featuredProductNotification="true" />
+        <Item templateId="331000"
+              featuredProductNotification="true" />
+        <Item templateId="331001"
+              featuredProductNotification="true" />
+        <Item templateId="331002"
+              featuredProductNotification="true" />
+        <Item templateId="331003"
+              featuredProductNotification="true" />
+        <Item templateId="331004"
+              featuredProductNotification="true" />
+        <Item templateId="331005"
+              featuredProductNotification="true" />
+        <Item templateId="331006"
+              featuredProductNotification="true" />
+        <Item templateId="331007"
+              featuredProductNotification="true" />
+        <Item templateId="331008"
+              featuredProductNotification="true" />
+        <Item templateId="331009"
+              featuredProductNotification="true" />
+        <Item templateId="331010"
+              featuredProductNotification="true" />
+        <Item templateId="331011"
+              featuredProductNotification="true" />
+        <Item templateId="331012"
+              featuredProductNotification="true" />
+        <Item templateId="331013"
+              featuredProductNotification="true" />
+        <Item templateId="331014"
+              featuredProductNotification="true" />
+        <Item templateId="331015"
+              featuredProductNotification="true" />
+        <Item templateId="331016"
+              featuredProductNotification="true" />
+        <Item templateId="331017"
+              featuredProductNotification="true" />
+        <Item templateId="311001"
+              featuredProductNotification="true" />
+        <Item templateId="311002"
+              featuredProductNotification="true" />
+        <Item templateId="311003"
+              featuredProductNotification="true" />
+        <Item templateId="311004"
+              featuredProductNotification="true" />
+        <Item templateId="311005"
+              featuredProductNotification="true" />
+        <Item templateId="311006"
+              featuredProductNotification="true" />
+        <Item templateId="311007"
+              featuredProductNotification="true" />
+        <Item templateId="311008"
+              featuredProductNotification="true" />
+        <Item templateId="311009"
+              featuredProductNotification="true" />
+        <Item templateId="311010"
+              featuredProductNotification="true" />
+        <Item templateId="311011"
+              featuredProductNotification="true" />
+        <Item templateId="311012"
+              featuredProductNotification="true" />
+        <Item templateId="311013"
+              featuredProductNotification="true" />
+        <Item templateId="311014"
+              featuredProductNotification="true" />
+        <Item templateId="311015"
+              featuredProductNotification="true" />
+        <Item templateId="311016"
+              featuredProductNotification="true" />
+        <Item templateId="311017"
+              featuredProductNotification="true" />
+        <Item templateId="311018"
+              featuredProductNotification="true" />
+        <Item templateId="311019"
+              featuredProductNotification="true" />
+        <Item templateId="311020"
+              featuredProductNotification="true" />
+        <Item templateId="311021"
+              featuredProductNotification="true" />
+        <Item templateId="311022"
+              featuredProductNotification="true" />
+        <Item templateId="311023"
+              featuredProductNotification="true" />
+        <Item templateId="311024"
+              featuredProductNotification="true" />
+        <Item templateId="311025"
+              featuredProductNotification="true" />
+        <Item templateId="311026"
+              featuredProductNotification="true" />
+        <Item templateId="311028"
+              featuredProductNotification="true" />
+        <Item templateId="311029"
+              featuredProductNotification="true" />
+        <Item templateId="311030"
+              featuredProductNotification="true" />
+        <Item templateId="311031"
+              featuredProductNotification="true" />
+        <Item templateId="311032"
+              featuredProductNotification="true" />
+        <Item templateId="311033"
+              featuredProductNotification="true" />
+        <Item templateId="311034"
+              featuredProductNotification="true" />
+        <Item templateId="311035"
+              featuredProductNotification="true" />
+        <Item templateId="311036"
+              featuredProductNotification="true" />
+        <Item templateId="311037"
+              featuredProductNotification="true" />
+        <Item templateId="311038"
+              featuredProductNotification="true" />
+        <Item templateId="311039"
+              featuredProductNotification="true" />
+        <Item templateId="311040"
+              featuredProductNotification="true" />
+        <Item templateId="311041"
+              featuredProductNotification="true" />
+        <Item templateId="311042"
+              featuredProductNotification="true" />
+        <Item templateId="311043"
+              featuredProductNotification="true" />
+        <Item templateId="311044"
+              featuredProductNotification="true" />
+        <Item templateId="311046"
+              featuredProductNotification="true" />
+        <Item templateId="311047"
+              featuredProductNotification="true" />
+        <Item templateId="311048"
+              featuredProductNotification="true" />
+        <Item templateId="311049"
+              featuredProductNotification="true" />
+        <Item templateId="311050"
+              featuredProductNotification="true" />
+        <Item templateId="311051"
+              featuredProductNotification="true" />
+        <Item templateId="311052"
+              featuredProductNotification="true" />
+        <Item templateId="311053"
+              featuredProductNotification="true" />
+        <Item templateId="311054"
+              featuredProductNotification="true" />
+        <Item templateId="311055"
+              featuredProductNotification="true" />
+        <Item templateId="311056"
+              featuredProductNotification="true" />
+        <Item templateId="311057"
+              featuredProductNotification="true" />
+        <Item templateId="311058"
+              featuredProductNotification="true" />
+        <Item templateId="311059"
+              featuredProductNotification="true" />
+        <Item templateId="311060"
+              featuredProductNotification="true" />
+        <Item templateId="311061"
+              featuredProductNotification="true" />
+        <Item templateId="311062"
+              featuredProductNotification="true" />
+        <Item templateId="311063"
+              featuredProductNotification="true" />
+        <Item templateId="311064"
+              featuredProductNotification="true" />
+        <Item templateId="311065"
+              featuredProductNotification="true" />
+        <Item templateId="301005"
+              featuredProductNotification="true" />
+        <Item templateId="301006"
+              featuredProductNotification="true" />
+        <Item templateId="301007"
+              featuredProductNotification="true" />
+        <Item templateId="301011"
+              featuredProductNotification="true" />
+        <Item templateId="301012"
+              featuredProductNotification="true" />
+        <Item templateId="301013"
+              featuredProductNotification="true" />
+        <Item templateId="301014"
+              featuredProductNotification="true" />
+        <Item templateId="301015"
+              featuredProductNotification="true" />
+        <Item templateId="301016"
+              featuredProductNotification="true" />
+        <Item templateId="301017"
+              featuredProductNotification="true" />
+        <Item templateId="301018"
+              featuredProductNotification="true" />
+        <Item templateId="301029"
+              featuredProductNotification="true" />
+        <Item templateId="301030"
+              featuredProductNotification="true" />
+        <Item templateId="301031"
+              featuredProductNotification="true" />
+        <Item templateId="341002"
+              featuredProductNotification="true" />
+        <Item templateId="341003"
+              featuredProductNotification="true" />
+        <Item templateId="341004"
+              featuredProductNotification="true" />
+        <Item templateId="341005"
+              featuredProductNotification="true" />
+        <Item templateId="341006"
+              featuredProductNotification="true" />
+        <Item templateId="341007"
+              featuredProductNotification="true" />
+        <Item templateId="341008"
+              featuredProductNotification="true" />
+        <Item templateId="341009"
+              featuredProductNotification="true" />
+        <Item templateId="341010"
+              featuredProductNotification="true" />
+        <Item templateId="341011"
+              featuredProductNotification="true" />
+        <Item templateId="341012"
+              featuredProductNotification="true" />
+        <Item templateId="341013"
+              featuredProductNotification="true" />
+        <Item templateId="341014"
+              featuredProductNotification="true" />
+        <Item templateId="341015"
+              featuredProductNotification="true" />
+        <Item templateId="341016"
+              featuredProductNotification="true" />
+        <Item templateId="341017"
+              featuredProductNotification="true" />
+        <Item templateId="341018"
+              featuredProductNotification="true" />
+        <Item templateId="341019"
+              featuredProductNotification="true" />
+        <Item templateId="341020"
+              featuredProductNotification="true" />
+        <Item templateId="341021"
+              featuredProductNotification="true" />
+        <Item templateId="341022"
+              featuredProductNotification="true" />
+        <Item templateId="341024"
+              featuredProductNotification="true" />
+        <Item templateId="341025"
+              featuredProductNotification="true" />
+        <Item templateId="341026"
+              featuredProductNotification="true" />
+        <Item templateId="341027"
+              featuredProductNotification="true" />
+        <Item templateId="341028"
+              featuredProductNotification="true" />
+        <Item templateId="341029"
+              featuredProductNotification="true" />
+        <Item templateId="341030"
+              featuredProductNotification="true" />
+        <Item templateId="341031"
+              featuredProductNotification="true" />
+        <Item templateId="321000"
+              featuredProductNotification="true" />
+        <Item templateId="321001"
+              featuredProductNotification="true" />
+        <Item templateId="321002"
+              featuredProductNotification="true" />
+        <Item templateId="321003"
+              featuredProductNotification="true" />
+        <Item templateId="321004"
+              featuredProductNotification="true" />
+        <Item templateId="321005"
+              featuredProductNotification="true" />
+        <Item templateId="321006"
+              featuredProductNotification="true" />
+        <Item templateId="321007"
+              featuredProductNotification="true" />
+        <Item templateId="321008"
+              featuredProductNotification="true" />
+        <Item templateId="321009"
+              featuredProductNotification="true" />
+        <Item templateId="321010"
+              featuredProductNotification="true" />
+        <Item templateId="321011"
+              featuredProductNotification="true" />
+        <Item templateId="321012"
+              featuredProductNotification="true" />
+        <Item templateId="321013"
+              featuredProductNotification="true" />
+        <Item templateId="321014"
+              featuredProductNotification="true" />
+        <Item templateId="321015"
+              featuredProductNotification="true" />
+        <Item templateId="321016"
+              featuredProductNotification="true" />
+        <Item templateId="321017"
+              featuredProductNotification="true" />
     </ItemTable>
-    <ItemTable id="202" jackpotAmount="3">
+    <ItemTable id="202"
+               jackpotAmount="3">
         <Item templateId="332000" />
         <Item templateId="332001" />
         <Item templateId="332002" />
@@ -958,165 +1151,323 @@
         <Item templateId="322015" />
         <Item templateId="322016" />
         <Item templateId="322017" />
-        <Item templateId="332000" featuredProductNotification="true" />
-        <Item templateId="332001" featuredProductNotification="true" />
-        <Item templateId="332002" featuredProductNotification="true" />
-        <Item templateId="332003" featuredProductNotification="true" />
-        <Item templateId="332004" featuredProductNotification="true" />
-        <Item templateId="332005" featuredProductNotification="true" />
-        <Item templateId="332006" featuredProductNotification="true" />
-        <Item templateId="332007" featuredProductNotification="true" />
-        <Item templateId="332008" featuredProductNotification="true" />
-        <Item templateId="332009" featuredProductNotification="true" />
-        <Item templateId="332010" featuredProductNotification="true" />
-        <Item templateId="332011" featuredProductNotification="true" />
-        <Item templateId="332012" featuredProductNotification="true" />
-        <Item templateId="332013" featuredProductNotification="true" />
-        <Item templateId="332014" featuredProductNotification="true" />
-        <Item templateId="332015" featuredProductNotification="true" />
-        <Item templateId="332016" featuredProductNotification="true" />
-        <Item templateId="332017" featuredProductNotification="true" />
-        <Item templateId="312000" featuredProductNotification="true" />
-        <Item templateId="312001" featuredProductNotification="true" />
-        <Item templateId="312002" featuredProductNotification="true" />
-        <Item templateId="312003" featuredProductNotification="true" />
-        <Item templateId="312004" featuredProductNotification="true" />
-        <Item templateId="312005" featuredProductNotification="true" />
-        <Item templateId="312006" featuredProductNotification="true" />
-        <Item templateId="312007" featuredProductNotification="true" />
-        <Item templateId="312008" featuredProductNotification="true" />
-        <Item templateId="312009" featuredProductNotification="true" />
-        <Item templateId="312010" featuredProductNotification="true" />
-        <Item templateId="312011" featuredProductNotification="true" />
-        <Item templateId="312012" featuredProductNotification="true" />
-        <Item templateId="312013" featuredProductNotification="true" />
-        <Item templateId="312014" featuredProductNotification="true" />
-        <Item templateId="312015" featuredProductNotification="true" />
-        <Item templateId="312016" featuredProductNotification="true" />
-        <Item templateId="312017" featuredProductNotification="true" />
-        <Item templateId="312018" featuredProductNotification="true" />
-        <Item templateId="312019" featuredProductNotification="true" />
-        <Item templateId="312020" featuredProductNotification="true" />
-        <Item templateId="312021" featuredProductNotification="true" />
-        <Item templateId="312022" featuredProductNotification="true" />
-        <Item templateId="312023" featuredProductNotification="true" />
-        <Item templateId="312024" featuredProductNotification="true" />
-        <Item templateId="312025" featuredProductNotification="true" />
-        <Item templateId="312026" featuredProductNotification="true" />
-        <Item templateId="312027" featuredProductNotification="true" />
-        <Item templateId="312028" featuredProductNotification="true" />
-        <Item templateId="312029" featuredProductNotification="true" />
-        <Item templateId="312030" featuredProductNotification="true" />
-        <Item templateId="312031" featuredProductNotification="true" />
-        <Item templateId="312032" featuredProductNotification="true" />
-        <Item templateId="312033" featuredProductNotification="true" />
-        <Item templateId="312034" featuredProductNotification="true" />
-        <Item templateId="312035" featuredProductNotification="true" />
-        <Item templateId="312036" featuredProductNotification="true" />
-        <Item templateId="312037" featuredProductNotification="true" />
-        <Item templateId="312038" featuredProductNotification="true" />
-        <Item templateId="312039" featuredProductNotification="true" />
-        <Item templateId="312040" featuredProductNotification="true" />
-        <Item templateId="312041" featuredProductNotification="true" />
-        <Item templateId="312042" featuredProductNotification="true" />
-        <Item templateId="312043" featuredProductNotification="true" />
-        <Item templateId="312044" featuredProductNotification="true" />
-        <Item templateId="312046" featuredProductNotification="true" />
-        <Item templateId="312047" featuredProductNotification="true" />
-        <Item templateId="312048" featuredProductNotification="true" />
-        <Item templateId="312049" featuredProductNotification="true" />
-        <Item templateId="312050" featuredProductNotification="true" />
-        <Item templateId="312051" featuredProductNotification="true" />
-        <Item templateId="312052" featuredProductNotification="true" />
-        <Item templateId="312053" featuredProductNotification="true" />
-        <Item templateId="312054" featuredProductNotification="true" />
-        <Item templateId="312055" featuredProductNotification="true" />
-        <Item templateId="312056" featuredProductNotification="true" />
-        <Item templateId="312057" featuredProductNotification="true" />
-        <Item templateId="312058" featuredProductNotification="true" />
-        <Item templateId="312059" featuredProductNotification="true" />
-        <Item templateId="312060" featuredProductNotification="true" />
-        <Item templateId="312061" featuredProductNotification="true" />
-        <Item templateId="312062" featuredProductNotification="true" />
-        <Item templateId="312063" featuredProductNotification="true" />
-        <Item templateId="312064" featuredProductNotification="true" />
-        <Item templateId="312065" featuredProductNotification="true" />
-        <Item templateId="302000" featuredProductNotification="true" />
-        <Item templateId="302001" featuredProductNotification="true" />
-        <Item templateId="302002" featuredProductNotification="true" />
-        <Item templateId="302003" featuredProductNotification="true" />
-        <Item templateId="302004" featuredProductNotification="true" />
-        <Item templateId="302005" featuredProductNotification="true" />
-        <Item templateId="302006" featuredProductNotification="true" />
-        <Item templateId="302007" featuredProductNotification="true" />
-        <Item templateId="302008" featuredProductNotification="true" />
-        <Item templateId="302009" featuredProductNotification="true" />
-        <Item templateId="302010" featuredProductNotification="true" />
-        <Item templateId="302011" featuredProductNotification="true" />
-        <Item templateId="302012" featuredProductNotification="true" />
-        <Item templateId="302013" featuredProductNotification="true" />
-        <Item templateId="302014" featuredProductNotification="true" />
-        <Item templateId="302015" featuredProductNotification="true" />
-        <Item templateId="302016" featuredProductNotification="true" />
-        <Item templateId="302017" featuredProductNotification="true" />
-        <Item templateId="302018" featuredProductNotification="true" />
-        <Item templateId="302027" featuredProductNotification="true" />
-        <Item templateId="302028" featuredProductNotification="true" />
-        <Item templateId="302029" featuredProductNotification="true" />
-        <Item templateId="302030" featuredProductNotification="true" />
-        <Item templateId="302031" featuredProductNotification="true" />
-        <Item templateId="342000" featuredProductNotification="true" />
-        <Item templateId="342001" featuredProductNotification="true" />
-        <Item templateId="342002" featuredProductNotification="true" />
-        <Item templateId="342003" featuredProductNotification="true" />
-        <Item templateId="342004" featuredProductNotification="true" />
-        <Item templateId="342005" featuredProductNotification="true" />
-        <Item templateId="342006" featuredProductNotification="true" />
-        <Item templateId="342007" featuredProductNotification="true" />
-        <Item templateId="342008" featuredProductNotification="true" />
-        <Item templateId="342009" featuredProductNotification="true" />
-        <Item templateId="342010" featuredProductNotification="true" />
-        <Item templateId="342011" featuredProductNotification="true" />
-        <Item templateId="342012" featuredProductNotification="true" />
-        <Item templateId="342013" featuredProductNotification="true" />
-        <Item templateId="342014" featuredProductNotification="true" />
-        <Item templateId="342015" featuredProductNotification="true" />
-        <Item templateId="342016" featuredProductNotification="true" />
-        <Item templateId="342017" featuredProductNotification="true" />
-        <Item templateId="342018" featuredProductNotification="true" />
-        <Item templateId="342019" featuredProductNotification="true" />
-        <Item templateId="342020" featuredProductNotification="true" />
-        <Item templateId="342021" featuredProductNotification="true" />
-        <Item templateId="342022" featuredProductNotification="true" />
-        <Item templateId="342023" featuredProductNotification="true" />
-        <Item templateId="342024" featuredProductNotification="true" />
-        <Item templateId="342025" featuredProductNotification="true" />
-        <Item templateId="342026" featuredProductNotification="true" />
-        <Item templateId="342027" featuredProductNotification="true" />
-        <Item templateId="342028" featuredProductNotification="true" />
-        <Item templateId="342029" featuredProductNotification="true" />
-        <Item templateId="342030" featuredProductNotification="true" />
-        <Item templateId="342031" featuredProductNotification="true" />
-        <Item templateId="322000" featuredProductNotification="true" />
-        <Item templateId="322001" featuredProductNotification="true" />
-        <Item templateId="322002" featuredProductNotification="true" />
-        <Item templateId="322003" featuredProductNotification="true" />
-        <Item templateId="322004" featuredProductNotification="true" />
-        <Item templateId="322005" featuredProductNotification="true" />
-        <Item templateId="322006" featuredProductNotification="true" />
-        <Item templateId="322007" featuredProductNotification="true" />
-        <Item templateId="322008" featuredProductNotification="true" />
-        <Item templateId="322009" featuredProductNotification="true" />
-        <Item templateId="322010" featuredProductNotification="true" />
-        <Item templateId="322011" featuredProductNotification="true" />
-        <Item templateId="322012" featuredProductNotification="true" />
-        <Item templateId="322013" featuredProductNotification="true" />
-        <Item templateId="322014" featuredProductNotification="true" />
-        <Item templateId="322015" featuredProductNotification="true" />
-        <Item templateId="322016" featuredProductNotification="true" />
-        <Item templateId="322017" featuredProductNotification="true" />
+        <Item templateId="332000"
+              featuredProductNotification="true" />
+        <Item templateId="332001"
+              featuredProductNotification="true" />
+        <Item templateId="332002"
+              featuredProductNotification="true" />
+        <Item templateId="332003"
+              featuredProductNotification="true" />
+        <Item templateId="332004"
+              featuredProductNotification="true" />
+        <Item templateId="332005"
+              featuredProductNotification="true" />
+        <Item templateId="332006"
+              featuredProductNotification="true" />
+        <Item templateId="332007"
+              featuredProductNotification="true" />
+        <Item templateId="332008"
+              featuredProductNotification="true" />
+        <Item templateId="332009"
+              featuredProductNotification="true" />
+        <Item templateId="332010"
+              featuredProductNotification="true" />
+        <Item templateId="332011"
+              featuredProductNotification="true" />
+        <Item templateId="332012"
+              featuredProductNotification="true" />
+        <Item templateId="332013"
+              featuredProductNotification="true" />
+        <Item templateId="332014"
+              featuredProductNotification="true" />
+        <Item templateId="332015"
+              featuredProductNotification="true" />
+        <Item templateId="332016"
+              featuredProductNotification="true" />
+        <Item templateId="332017"
+              featuredProductNotification="true" />
+        <Item templateId="312000"
+              featuredProductNotification="true" />
+        <Item templateId="312001"
+              featuredProductNotification="true" />
+        <Item templateId="312002"
+              featuredProductNotification="true" />
+        <Item templateId="312003"
+              featuredProductNotification="true" />
+        <Item templateId="312004"
+              featuredProductNotification="true" />
+        <Item templateId="312005"
+              featuredProductNotification="true" />
+        <Item templateId="312006"
+              featuredProductNotification="true" />
+        <Item templateId="312007"
+              featuredProductNotification="true" />
+        <Item templateId="312008"
+              featuredProductNotification="true" />
+        <Item templateId="312009"
+              featuredProductNotification="true" />
+        <Item templateId="312010"
+              featuredProductNotification="true" />
+        <Item templateId="312011"
+              featuredProductNotification="true" />
+        <Item templateId="312012"
+              featuredProductNotification="true" />
+        <Item templateId="312013"
+              featuredProductNotification="true" />
+        <Item templateId="312014"
+              featuredProductNotification="true" />
+        <Item templateId="312015"
+              featuredProductNotification="true" />
+        <Item templateId="312016"
+              featuredProductNotification="true" />
+        <Item templateId="312017"
+              featuredProductNotification="true" />
+        <Item templateId="312018"
+              featuredProductNotification="true" />
+        <Item templateId="312019"
+              featuredProductNotification="true" />
+        <Item templateId="312020"
+              featuredProductNotification="true" />
+        <Item templateId="312021"
+              featuredProductNotification="true" />
+        <Item templateId="312022"
+              featuredProductNotification="true" />
+        <Item templateId="312023"
+              featuredProductNotification="true" />
+        <Item templateId="312024"
+              featuredProductNotification="true" />
+        <Item templateId="312025"
+              featuredProductNotification="true" />
+        <Item templateId="312026"
+              featuredProductNotification="true" />
+        <Item templateId="312027"
+              featuredProductNotification="true" />
+        <Item templateId="312028"
+              featuredProductNotification="true" />
+        <Item templateId="312029"
+              featuredProductNotification="true" />
+        <Item templateId="312030"
+              featuredProductNotification="true" />
+        <Item templateId="312031"
+              featuredProductNotification="true" />
+        <Item templateId="312032"
+              featuredProductNotification="true" />
+        <Item templateId="312033"
+              featuredProductNotification="true" />
+        <Item templateId="312034"
+              featuredProductNotification="true" />
+        <Item templateId="312035"
+              featuredProductNotification="true" />
+        <Item templateId="312036"
+              featuredProductNotification="true" />
+        <Item templateId="312037"
+              featuredProductNotification="true" />
+        <Item templateId="312038"
+              featuredProductNotification="true" />
+        <Item templateId="312039"
+              featuredProductNotification="true" />
+        <Item templateId="312040"
+              featuredProductNotification="true" />
+        <Item templateId="312041"
+              featuredProductNotification="true" />
+        <Item templateId="312042"
+              featuredProductNotification="true" />
+        <Item templateId="312043"
+              featuredProductNotification="true" />
+        <Item templateId="312044"
+              featuredProductNotification="true" />
+        <Item templateId="312046"
+              featuredProductNotification="true" />
+        <Item templateId="312047"
+              featuredProductNotification="true" />
+        <Item templateId="312048"
+              featuredProductNotification="true" />
+        <Item templateId="312049"
+              featuredProductNotification="true" />
+        <Item templateId="312050"
+              featuredProductNotification="true" />
+        <Item templateId="312051"
+              featuredProductNotification="true" />
+        <Item templateId="312052"
+              featuredProductNotification="true" />
+        <Item templateId="312053"
+              featuredProductNotification="true" />
+        <Item templateId="312054"
+              featuredProductNotification="true" />
+        <Item templateId="312055"
+              featuredProductNotification="true" />
+        <Item templateId="312056"
+              featuredProductNotification="true" />
+        <Item templateId="312057"
+              featuredProductNotification="true" />
+        <Item templateId="312058"
+              featuredProductNotification="true" />
+        <Item templateId="312059"
+              featuredProductNotification="true" />
+        <Item templateId="312060"
+              featuredProductNotification="true" />
+        <Item templateId="312061"
+              featuredProductNotification="true" />
+        <Item templateId="312062"
+              featuredProductNotification="true" />
+        <Item templateId="312063"
+              featuredProductNotification="true" />
+        <Item templateId="312064"
+              featuredProductNotification="true" />
+        <Item templateId="312065"
+              featuredProductNotification="true" />
+        <Item templateId="302000"
+              featuredProductNotification="true" />
+        <Item templateId="302001"
+              featuredProductNotification="true" />
+        <Item templateId="302002"
+              featuredProductNotification="true" />
+        <Item templateId="302003"
+              featuredProductNotification="true" />
+        <Item templateId="302004"
+              featuredProductNotification="true" />
+        <Item templateId="302005"
+              featuredProductNotification="true" />
+        <Item templateId="302006"
+              featuredProductNotification="true" />
+        <Item templateId="302007"
+              featuredProductNotification="true" />
+        <Item templateId="302008"
+              featuredProductNotification="true" />
+        <Item templateId="302009"
+              featuredProductNotification="true" />
+        <Item templateId="302010"
+              featuredProductNotification="true" />
+        <Item templateId="302011"
+              featuredProductNotification="true" />
+        <Item templateId="302012"
+              featuredProductNotification="true" />
+        <Item templateId="302013"
+              featuredProductNotification="true" />
+        <Item templateId="302014"
+              featuredProductNotification="true" />
+        <Item templateId="302015"
+              featuredProductNotification="true" />
+        <Item templateId="302016"
+              featuredProductNotification="true" />
+        <Item templateId="302017"
+              featuredProductNotification="true" />
+        <Item templateId="302018"
+              featuredProductNotification="true" />
+        <Item templateId="302027"
+              featuredProductNotification="true" />
+        <Item templateId="302028"
+              featuredProductNotification="true" />
+        <Item templateId="302029"
+              featuredProductNotification="true" />
+        <Item templateId="302030"
+              featuredProductNotification="true" />
+        <Item templateId="302031"
+              featuredProductNotification="true" />
+        <Item templateId="342000"
+              featuredProductNotification="true" />
+        <Item templateId="342001"
+              featuredProductNotification="true" />
+        <Item templateId="342002"
+              featuredProductNotification="true" />
+        <Item templateId="342003"
+              featuredProductNotification="true" />
+        <Item templateId="342004"
+              featuredProductNotification="true" />
+        <Item templateId="342005"
+              featuredProductNotification="true" />
+        <Item templateId="342006"
+              featuredProductNotification="true" />
+        <Item templateId="342007"
+              featuredProductNotification="true" />
+        <Item templateId="342008"
+              featuredProductNotification="true" />
+        <Item templateId="342009"
+              featuredProductNotification="true" />
+        <Item templateId="342010"
+              featuredProductNotification="true" />
+        <Item templateId="342011"
+              featuredProductNotification="true" />
+        <Item templateId="342012"
+              featuredProductNotification="true" />
+        <Item templateId="342013"
+              featuredProductNotification="true" />
+        <Item templateId="342014"
+              featuredProductNotification="true" />
+        <Item templateId="342015"
+              featuredProductNotification="true" />
+        <Item templateId="342016"
+              featuredProductNotification="true" />
+        <Item templateId="342017"
+              featuredProductNotification="true" />
+        <Item templateId="342018"
+              featuredProductNotification="true" />
+        <Item templateId="342019"
+              featuredProductNotification="true" />
+        <Item templateId="342020"
+              featuredProductNotification="true" />
+        <Item templateId="342021"
+              featuredProductNotification="true" />
+        <Item templateId="342022"
+              featuredProductNotification="true" />
+        <Item templateId="342023"
+              featuredProductNotification="true" />
+        <Item templateId="342024"
+              featuredProductNotification="true" />
+        <Item templateId="342025"
+              featuredProductNotification="true" />
+        <Item templateId="342026"
+              featuredProductNotification="true" />
+        <Item templateId="342027"
+              featuredProductNotification="true" />
+        <Item templateId="342028"
+              featuredProductNotification="true" />
+        <Item templateId="342029"
+              featuredProductNotification="true" />
+        <Item templateId="342030"
+              featuredProductNotification="true" />
+        <Item templateId="342031"
+              featuredProductNotification="true" />
+        <Item templateId="322000"
+              featuredProductNotification="true" />
+        <Item templateId="322001"
+              featuredProductNotification="true" />
+        <Item templateId="322002"
+              featuredProductNotification="true" />
+        <Item templateId="322003"
+              featuredProductNotification="true" />
+        <Item templateId="322004"
+              featuredProductNotification="true" />
+        <Item templateId="322005"
+              featuredProductNotification="true" />
+        <Item templateId="322006"
+              featuredProductNotification="true" />
+        <Item templateId="322007"
+              featuredProductNotification="true" />
+        <Item templateId="322008"
+              featuredProductNotification="true" />
+        <Item templateId="322009"
+              featuredProductNotification="true" />
+        <Item templateId="322010"
+              featuredProductNotification="true" />
+        <Item templateId="322011"
+              featuredProductNotification="true" />
+        <Item templateId="322012"
+              featuredProductNotification="true" />
+        <Item templateId="322013"
+              featuredProductNotification="true" />
+        <Item templateId="322014"
+              featuredProductNotification="true" />
+        <Item templateId="322015"
+              featuredProductNotification="true" />
+        <Item templateId="322016"
+              featuredProductNotification="true" />
+        <Item templateId="322017"
+              featuredProductNotification="true" />
     </ItemTable>
-    <ItemTable id="203" jackpotAmount="3">
+    <ItemTable id="203"
+               jackpotAmount="3">
         <Item templateId="323024" />
         <Item templateId="323025" />
         <Item templateId="303025" />
@@ -1269,9 +1620,12 @@
         <Item templateId="321015" />
         <Item templateId="321016" />
         <Item templateId="321017" />
-        <Item templateId="321006" featuredProductNotification="true" />
-        <Item templateId="321007" featuredProductNotification="true" />
-        <Item templateId="321008" featuredProductNotification="true" />
+        <Item templateId="321006"
+              featuredProductNotification="true" />
+        <Item templateId="321007"
+              featuredProductNotification="true" />
+        <Item templateId="321008"
+              featuredProductNotification="true" />
     </ItemTable>
     <ItemTable id="302">
         <Item templateId="331000" />
@@ -1416,9 +1770,12 @@
         <Item templateId="321015" />
         <Item templateId="321016" />
         <Item templateId="321017" />
-        <Item templateId="311014" featuredProductNotification="true" />
-        <Item templateId="311057" featuredProductNotification="true" />
-        <Item templateId="311063" featuredProductNotification="true" />
+        <Item templateId="311014"
+              featuredProductNotification="true" />
+        <Item templateId="311057"
+              featuredProductNotification="true" />
+        <Item templateId="311063"
+              featuredProductNotification="true" />
     </ItemTable>
     <ItemTable id="311">
         <Item templateId="332000" />
@@ -1578,9 +1935,12 @@
         <Item templateId="322015" />
         <Item templateId="322016" />
         <Item templateId="322017" />
-        <Item templateId="322006" featuredProductNotification="true" />
-        <Item templateId="322007" featuredProductNotification="true" />
-        <Item templateId="322008" featuredProductNotification="true" />
+        <Item templateId="322006"
+              featuredProductNotification="true" />
+        <Item templateId="322007"
+              featuredProductNotification="true" />
+        <Item templateId="322008"
+              featuredProductNotification="true" />
     </ItemTable>
     <ItemTable id="312">
         <Item templateId="332000" />
@@ -1740,9 +2100,12 @@
         <Item templateId="322015" />
         <Item templateId="322016" />
         <Item templateId="322017" />
-        <Item templateId="312014" featuredProductNotification="true" />
-        <Item templateId="312057" featuredProductNotification="true" />
-        <Item templateId="312063" featuredProductNotification="true" />
+        <Item templateId="312014"
+              featuredProductNotification="true" />
+        <Item templateId="312057"
+              featuredProductNotification="true" />
+        <Item templateId="312063"
+              featuredProductNotification="true" />
     </ItemTable>
     <ItemTable id="1001">
         <Item />
@@ -1752,7 +2115,9 @@
         <Item />
         <Item featuredProductNotification="true" />
     </ItemTable>
-    <Mileage amount="20" rewardItemId="69026" rewardMileage="1000" />
+    <Mileage amount="20"
+             rewardItemId="69026"
+             rewardMileage="1000" />
     <NonComposable tooltipText="@CardCompose:1000">
         <Item templateId="300000" />
         <Item templateId="300001" />
@@ -1793,12 +2158,24 @@
     </NonComposable>
     <SeasonInfo>
         <SeasonGroupList id="101">
-            <Season orderId="1" itemTableId="301" seasonCardItemId="321006, 321007, 321008" seasonTitle="@CardCompose:301" />
-            <Season orderId="2" itemTableId="302" seasonCardItemId="311014, 311057, 311063" seasonTitle="@CardCompose:302" />
+            <Season orderId="1"
+                    itemTableId="301"
+                    seasonCardItemId="321006, 321007, 321008"
+                    seasonTitle="@CardCompose:301" />
+            <Season orderId="2"
+                    itemTableId="302"
+                    seasonCardItemId="311014, 311057, 311063"
+                    seasonTitle="@CardCompose:302" />
         </SeasonGroupList>
         <SeasonGroupList id="102">
-            <Season orderId="1" itemTableId="311" seasonCardItemId="322006, 322007, 321008" seasonTitle="@CardCompose:301" />
-            <Season orderId="2" itemTableId="312" seasonCardItemId="322014, 322057, 322063" seasonTitle="@CardCompose:302" />
+            <Season orderId="1"
+                    itemTableId="311"
+                    seasonCardItemId="322006, 322007, 321008"
+                    seasonTitle="@CardCompose:301" />
+            <Season orderId="2"
+                    itemTableId="312"
+                    seasonCardItemId="322014, 322057, 322063"
+                    seasonTitle="@CardCompose:302" />
         </SeasonGroupList>
     </SeasonInfo>
 </CardCompose>

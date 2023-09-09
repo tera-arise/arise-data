@@ -1,33 +1,74 @@
-<S1ActionScripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/S1ActionScripts S1ActionScripts.xsd" type="Common" xmlns="https://vezel.dev/novadrop/dc/S1ActionScripts">
+<S1ActionScripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="https://vezel.dev/novadrop/dc/S1ActionScripts S1ActionScripts.xsd"
+                 type="Common"
+                 xmlns="https://vezel.dev/novadrop/dc/S1ActionScripts">
     <Script id="1">
-        <Action time="200" type="move" pos="66836,-79186,-2980" speed="100">
-            <Action type="move" pos="66741,-79099,-2985" speed="100">
-                <Action type="rotateToUser" duration="0">
-                    <Action type="social" socialMotionId="12">
-                        <Action type="dialog" textId="1" />
+        <Action time="200"
+                type="move"
+                pos="66836,-79186,-2980"
+                speed="100">
+            <Action type="move"
+                    pos="66741,-79099,-2985"
+                    speed="100">
+                <Action type="rotateToUser"
+                        duration="0">
+                    <Action type="social"
+                            socialMotionId="12">
+                        <Action type="dialog"
+                                textId="1" />
                     </Action>
                 </Action>
             </Action>
         </Action>
-        <Action time="12000" type="moveToInitPos" speed="100">
-            <Action type="rotateToInitDir" duration="0">
-                <Action type="animation" animName="idle1" />
-                <Action type="cameraShake" duration="5000" power="5" speed="3000">
-                    <Action effectId="1109" type="effect" />
+        <Action time="12000"
+                type="moveToInitPos"
+                speed="100">
+            <Action type="rotateToInitDir"
+                    duration="0">
+                <Action type="animation"
+                        animName="idle1" />
+                <Action type="cameraShake"
+                        duration="5000"
+                        power="5"
+                        speed="3000">
+                    <Action effectId="1109"
+                            type="effect" />
                 </Action>
             </Action>
         </Action>
-        <Action time="2000" type="scale" scale="3" duration="5000" power="5">
-            <Action type="scaleToInitScale" duration="5000" power="5" />
+        <Action time="2000"
+                type="scale"
+                scale="3"
+                duration="5000"
+                power="5">
+            <Action type="scaleToInitScale"
+                    duration="5000"
+                    power="5" />
         </Action>
     </Script>
     <Script id="2">
-        <Action time="1000" type="material" postfix="_death">
-            <Action type="materialParam" duration="2000" from="0" to="1" param="JordonCrossFactor">
-                <Action type="materialParam" duration="2000" from="1" to="0" param="JordonCrossFactor">
-                    <Action type="material" postfix="">
-                        <Action type="defaultAnim" waitAnim="Walk" moveAnim="Wait">
-                            <Action time="5000" type="defaultAnim" waitAnim="" moveAnim="" />
+        <Action time="1000"
+                type="material"
+                postfix="_death">
+            <Action type="materialParam"
+                    duration="2000"
+                    from="0"
+                    to="1"
+                    param="JordonCrossFactor">
+                <Action type="materialParam"
+                        duration="2000"
+                        from="1"
+                        to="0"
+                        param="JordonCrossFactor">
+                    <Action type="material"
+                            postfix="">
+                        <Action type="defaultAnim"
+                                waitAnim="Walk"
+                                moveAnim="Wait">
+                            <Action time="5000"
+                                    type="defaultAnim"
+                                    waitAnim=""
+                                    moveAnim="" />
                         </Action>
                     </Action>
                 </Action>
@@ -35,43 +76,119 @@
         </Action>
     </Script>
     <Script id="3">
-        <Action time="1000" type="translationZ" duration="2000" power="4" from="0" to="1000">
-            <Action type="translationZ" duration="2000" power="4" from="1000" to="0" />
+        <Action time="1000"
+                type="translationZ"
+                duration="2000"
+                power="4"
+                from="0"
+                to="1000">
+            <Action type="translationZ"
+                    duration="2000"
+                    power="4"
+                    from="1000"
+                    to="0" />
         </Action>
     </Script>
     <Script id="4">
-        <Action time="1000" type="mesh" templateId="1002" huntingZoneId="213" />
+        <Action time="1000"
+                type="mesh"
+                templateId="1002"
+                huntingZoneId="213" />
     </Script>
     <Script id="5">
-        <Action type="material" postfix="_spawn">
-            <Action type="materialParam" duration="0" from="1" to="1" param="JordonCrossFactor">
-                <Action time="1" type="visible" visibility="true">
-                    <Action type="materialParam" duration="3000" from="1" to="0" param="JordonCrossFactor">
-                        <Action type="material" postfix="" />
+        <Action type="material"
+                postfix="_spawn">
+            <Action type="materialParam"
+                    duration="0"
+                    from="1"
+                    to="1"
+                    param="JordonCrossFactor">
+                <Action time="1"
+                        type="visible"
+                        visibility="true">
+                    <Action type="materialParam"
+                            duration="3000"
+                            from="1"
+                            to="0"
+                            param="JordonCrossFactor">
+                        <Action type="material"
+                                postfix="" />
                     </Action>
                 </Action>
             </Action>
         </Action>
         <InitState visible="false" />
     </Script>
-    <Script id="6" playingTime="100000">
-        <Action time="1000" type="animation" animName="angry" blendInTime="0.2">
-            <Action time="1000" type="animation" animName="applaud" blendInTime="0.2">
-                <Action time="1000" type="animation" animName="attack" blendInTime="0.2">
-                    <Action time="1000" type="animation" animName="beg" blendInTime="0.2">
-                        <Action time="1000" type="animation" animName="bow" blendInTime="0.2">
-                            <Action time="1000" type="animation" animName="dance" blendInTime="0.2">
-                                <Action time="1000" type="animation" animName="fund" blendInTime="0.2">
-                                    <Action time="1000" type="animation" animName="greet" blendInTime="0.2">
-                                        <Action time="1000" type="animation" animName="pointing" blendInTime="0.2">
-                                            <Action time="1000" type="animation" animName="propose" blendInTime="0.2">
-                                                <Action time="1000" type="animation" animName="request" blendInTime="0.2">
-                                                    <Action time="1000" type="animation" animName="shy" blendInTime="0.2">
-                                                        <Action time="1000" type="animation" animName="smile" blendInTime="0.2">
-                                                            <Action time="1000" type="animation" animName="sob" blendInTime="0.2">
-                                                                <Action time="1000" type="animation" animName="taunt" blendInTime="0.2">
-                                                                    <Action time="1000" type="animation" animName="victory" blendInTime="0.2">
-                                                                        <Action time="1000" type="animation" animName="worry" blendInTime="0.2" />
+    <Script id="6"
+            playingTime="100000">
+        <Action time="1000"
+                type="animation"
+                animName="angry"
+                blendInTime="0.2">
+            <Action time="1000"
+                    type="animation"
+                    animName="applaud"
+                    blendInTime="0.2">
+                <Action time="1000"
+                        type="animation"
+                        animName="attack"
+                        blendInTime="0.2">
+                    <Action time="1000"
+                            type="animation"
+                            animName="beg"
+                            blendInTime="0.2">
+                        <Action time="1000"
+                                type="animation"
+                                animName="bow"
+                                blendInTime="0.2">
+                            <Action time="1000"
+                                    type="animation"
+                                    animName="dance"
+                                    blendInTime="0.2">
+                                <Action time="1000"
+                                        type="animation"
+                                        animName="fund"
+                                        blendInTime="0.2">
+                                    <Action time="1000"
+                                            type="animation"
+                                            animName="greet"
+                                            blendInTime="0.2">
+                                        <Action time="1000"
+                                                type="animation"
+                                                animName="pointing"
+                                                blendInTime="0.2">
+                                            <Action time="1000"
+                                                    type="animation"
+                                                    animName="propose"
+                                                    blendInTime="0.2">
+                                                <Action time="1000"
+                                                        type="animation"
+                                                        animName="request"
+                                                        blendInTime="0.2">
+                                                    <Action time="1000"
+                                                            type="animation"
+                                                            animName="shy"
+                                                            blendInTime="0.2">
+                                                        <Action time="1000"
+                                                                type="animation"
+                                                                animName="smile"
+                                                                blendInTime="0.2">
+                                                            <Action time="1000"
+                                                                    type="animation"
+                                                                    animName="sob"
+                                                                    blendInTime="0.2">
+                                                                <Action time="1000"
+                                                                        type="animation"
+                                                                        animName="taunt"
+                                                                        blendInTime="0.2">
+                                                                    <Action time="1000"
+                                                                            type="animation"
+                                                                            animName="victory"
+                                                                            blendInTime="0.2">
+                                                                        <Action time="1000"
+                                                                                type="animation"
+                                                                                animName="worry"
+                                                                                blendInTime="0.2" />
                                                                     </Action>
                                                                 </Action>
                                                             </Action>
@@ -89,498 +206,1576 @@
             </Action>
         </Action>
     </Script>
-    <Script id="7" playingTime="20000">
-        <Action time="1000" type="aero" on="true" aeroSet="ase_aeroset.AERO.ACE_Insanity_Hill_AERO_FINAL" blendTime="2" />
-        <Action time="4000" type="aero" on="true" aeroSet="hec_aeroset.AERO.TRP_Wild_Valley_Aero" blendTime="2" />
-        <Action time="7000" type="aero" on="false" aeroSet="hec_aeroset.AERO.TRP_Wild_Valley_Aero" blendTime="2" />
-        <Action time="10000" type="aero" on="false" aeroSet="ase_aeroset.AERO.ACE_Insanity_Hill_AERO_FINAL" blendTime="2" />
+    <Script id="7"
+            playingTime="20000">
+        <Action time="1000"
+                type="aero"
+                on="true"
+                aeroSet="ase_aeroset.AERO.ACE_Insanity_Hill_AERO_FINAL"
+                blendTime="2" />
+        <Action time="4000"
+                type="aero"
+                on="true"
+                aeroSet="hec_aeroset.AERO.TRP_Wild_Valley_Aero"
+                blendTime="2" />
+        <Action time="7000"
+                type="aero"
+                on="false"
+                aeroSet="hec_aeroset.AERO.TRP_Wild_Valley_Aero"
+                blendTime="2" />
+        <Action time="10000"
+                type="aero"
+                on="false"
+                aeroSet="ase_aeroset.AERO.ACE_Insanity_Hill_AERO_FINAL"
+                blendTime="2" />
     </Script>
-    <Script id="8" playingTime="20000">
-        <Action time="1000" type="aero" on="true" aeroSet="ase_aeroset.AERO.ACE_Insanity_Hill_AERO_FINAL" blendTime="2" />
-        <Action time="4000" type="aero" on="true" aeroSet="hec_aeroset.AERO.TRP_Wild_Valley_Aero" blendTime="2" />
-        <Action time="7000" type="aero" on="false" aeroSet="" blendTime="2" />
+    <Script id="8"
+            playingTime="20000">
+        <Action time="1000"
+                type="aero"
+                on="true"
+                aeroSet="ase_aeroset.AERO.ACE_Insanity_Hill_AERO_FINAL"
+                blendTime="2" />
+        <Action time="4000"
+                type="aero"
+                on="true"
+                aeroSet="hec_aeroset.AERO.TRP_Wild_Valley_Aero"
+                blendTime="2" />
+        <Action time="7000"
+                type="aero"
+                on="false"
+                aeroSet=""
+                blendTime="2" />
     </Script>
-    <Script id="101" playingTime="2000">
-        <Action type="materialParam" duration="2000" from="-2" to="-0.34" param="process" />
+    <Script id="101"
+            playingTime="2000">
+        <Action type="materialParam"
+                duration="2000"
+                from="-2"
+                to="-0.34"
+                param="process" />
     </Script>
-    <Script id="102" playingTime="2000">
-        <Action type="materialParam" duration="2000" from="-0.34" to="0" param="process" />
-        <Action type="aero" on="true" aeroSet="SWC_Quest_Aero.Quest_process_A_Aero" blendTime="2" />
-        <Action time="200" type="cameraShake" duration="3000" power="2" speed="1000" />
+    <Script id="102"
+            playingTime="2000">
+        <Action type="materialParam"
+                duration="2000"
+                from="-0.34"
+                to="0"
+                param="process" />
+        <Action type="aero"
+                on="true"
+                aeroSet="SWC_Quest_Aero.Quest_process_A_Aero"
+                blendTime="2" />
+        <Action time="200"
+                type="cameraShake"
+                duration="3000"
+                power="2"
+                speed="1000" />
     </Script>
-    <Script id="103" playingTime="2000">
-        <Action type="materialParam" duration="2000" from="0" to="0.5" param="process" />
-        <Action type="aero" on="false" aeroSet="SWC_Quest_Aero.Quest_process_A_Aero" blendTime="2" />
-        <Action type="aero" on="true" aeroSet="SWC_Quest_Aero.Quest_process_B_Aero" blendTime="2" />
-        <Action time="200" type="cameraShake" duration="3000" power="3" speed="1000" />
+    <Script id="103"
+            playingTime="2000">
+        <Action type="materialParam"
+                duration="2000"
+                from="0"
+                to="0.5"
+                param="process" />
+        <Action type="aero"
+                on="false"
+                aeroSet="SWC_Quest_Aero.Quest_process_A_Aero"
+                blendTime="2" />
+        <Action type="aero"
+                on="true"
+                aeroSet="SWC_Quest_Aero.Quest_process_B_Aero"
+                blendTime="2" />
+        <Action time="200"
+                type="cameraShake"
+                duration="3000"
+                power="3"
+                speed="1000" />
     </Script>
-    <Script id="104" playingTime="2000">
-        <Action type="materialParam" duration="2000" from="0.5" to="1" param="process" />
-        <Action type="aero" on="false" aeroSet="SWC_Quest_Aero.Quest_process_B_Aero" blendTime="2" />
-        <Action type="aero" on="true" aeroSet="SWC_Quest_Aero.Quest_process_C_Aero" blendTime="2" />
-        <Action time="200" type="cameraShake" duration="5000" power="3" speed="1000" />
+    <Script id="104"
+            playingTime="2000">
+        <Action type="materialParam"
+                duration="2000"
+                from="0.5"
+                to="1"
+                param="process" />
+        <Action type="aero"
+                on="false"
+                aeroSet="SWC_Quest_Aero.Quest_process_B_Aero"
+                blendTime="2" />
+        <Action type="aero"
+                on="true"
+                aeroSet="SWC_Quest_Aero.Quest_process_C_Aero"
+                blendTime="2" />
+        <Action time="200"
+                type="cameraShake"
+                duration="5000"
+                power="3"
+                speed="1000" />
     </Script>
-    <Script id="105" playingTime="2000">
-        <Action type="materialParam" duration="2000" from="-0.34" to="-2" param="process" />
-        <Action type="aero" on="false" aeroSet="" blendTime="2" />
+    <Script id="105"
+            playingTime="2000">
+        <Action type="materialParam"
+                duration="2000"
+                from="-0.34"
+                to="-2"
+                param="process" />
+        <Action type="aero"
+                on="false"
+                aeroSet=""
+                blendTime="2" />
     </Script>
-    <Script id="106" playingTime="5000">
-        <Action time="0" effectId="999001" type="effect" />
-        <Action time="200" effectId="999002" type="effect" />
-        <Action time="3500" effectId="999003" type="effect" />
+    <Script id="106"
+            playingTime="5000">
+        <Action time="0"
+                effectId="999001"
+                type="effect" />
+        <Action time="200"
+                effectId="999002"
+                type="effect" />
+        <Action time="3500"
+                effectId="999003"
+                type="effect" />
     </Script>
-    <Script id="107" playingTime="5000">
-        <Action time="0" effectId="999003" type="effect" />
-        <Action time="100" type="material" postfix="_death" />
-        <Action type="materialParam" duration="2000" from="0" to="1" param="JordonCrossFactor" />
-        <Action time="0" effectId="300004" type="effect" />
+    <Script id="107"
+            playingTime="5000">
+        <Action time="0"
+                effectId="999003"
+                type="effect" />
+        <Action time="100"
+                type="material"
+                postfix="_death" />
+        <Action type="materialParam"
+                duration="2000"
+                from="0"
+                to="1"
+                param="JordonCrossFactor" />
+        <Action time="0"
+                effectId="300004"
+                type="effect" />
     </Script>
-    <Script id="681001" playingTime="5000">
-        <Action time="0" effectId="681003" type="effect" />
-        <Action time="0" type="animation" animName="groggy" rate="1" />
+    <Script id="681001"
+            playingTime="5000">
+        <Action time="0"
+                effectId="681003"
+                type="effect" />
+        <Action time="0"
+                type="animation"
+                animName="groggy"
+                rate="1" />
     </Script>
-    <Script id="681002" playingTime="5000">
-        <Action time="0" effectId="681004" type="effect" />
-        <Action time="0" type="animation" animName="groggy" rate="1" />
+    <Script id="681002"
+            playingTime="5000">
+        <Action time="0"
+                effectId="681004"
+                type="effect" />
+        <Action time="0"
+                type="animation"
+                animName="groggy"
+                rate="1" />
     </Script>
-    <Script id="950101" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="950101" keyTextIdList="950101" xPadTextIdList="950101" />
+    <Script id="950101"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="950101"
+                keyTextIdList="950101"
+                xPadTextIdList="950101" />
     </Script>
-    <Script id="950102" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="950102" keyTextIdList="950102" xPadTextIdList="950102" />
+    <Script id="950102"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="950102"
+                keyTextIdList="950102"
+                xPadTextIdList="950102" />
     </Script>
-    <Script id="950103" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="950103" keyTextIdList="950103" xPadTextIdList="950103" />
+    <Script id="950103"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="950103"
+                keyTextIdList="950103"
+                xPadTextIdList="950103" />
     </Script>
-    <Script id="986001" enableInput="true" playingTime="0">
-        <Action time="0" type="Sound" radius="1" volume="4.5" cueName="InterfaceSound.SYSMSGCUE.SYSMSG_2088Cue" pitch="2.2" />
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="9860010" keyTextIdList="9860010" xPadTextIdList="9860010" />
+    <Script id="986001"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="Sound"
+                radius="1"
+                volume="4.5"
+                cueName="InterfaceSound.SYSMSGCUE.SYSMSG_2088Cue"
+                pitch="2.2" />
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="9860010"
+                keyTextIdList="9860010"
+                xPadTextIdList="9860010" />
     </Script>
-    <Script id="986002" enableInput="true" playingTime="0">
-        <Action time="0" type="Sound" radius="1" volume="4.5" cueName="InterfaceSound.SYSMSGCUE.SYSMSG_2088Cue" pitch="2.2" />
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="9860020" keyTextIdList="9860020" xPadTextIdList="9860020" />
+    <Script id="986002"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="Sound"
+                radius="1"
+                volume="4.5"
+                cueName="InterfaceSound.SYSMSGCUE.SYSMSG_2088Cue"
+                pitch="2.2" />
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="9860020"
+                keyTextIdList="9860020"
+                xPadTextIdList="9860020" />
     </Script>
-    <Script id="986003" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="9860030" keyTextIdList="9860030" xPadTextIdList="9860030" />
+    <Script id="986003"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="9860030"
+                keyTextIdList="9860030"
+                xPadTextIdList="9860030" />
     </Script>
-    <Script id="3024001" playingTime="3000">
-        <Action time="0" type="cameraShake" duration="2000" power="3" speed="6" />
+    <Script id="3024001"
+            playingTime="3000">
+        <Action time="0"
+                type="cameraShake"
+                duration="2000"
+                power="3"
+                speed="6" />
     </Script>
-    <Script id="4510002" playingTime="5000">
-        <Action time="0" type="visible" visibility="false" />
+    <Script id="4510002"
+            playingTime="5000">
+        <Action time="0"
+                type="visible"
+                visibility="false" />
     </Script>
-    <Script id="4510003" playingTime="6000">
-        <Action time="0" type="visible" visibility="true" />
-        <Action time="1" type="animation" animName="Death" rate="1" />
+    <Script id="4510003"
+            playingTime="6000">
+        <Action time="0"
+                type="visible"
+                visibility="true" />
+        <Action time="1"
+                type="animation"
+                animName="Death"
+                rate="1" />
     </Script>
-    <Script id="4520001" playingTime="6000">
-        <Action time="0" effectId="80038" type="effect" />
+    <Script id="4520001"
+            playingTime="6000">
+        <Action time="0"
+                effectId="80038"
+                type="effect" />
     </Script>
-    <Script id="4520003" playingTime="6000">
-        <Action time="500" type="dialog" textId="444" />
+    <Script id="4520003"
+            playingTime="6000">
+        <Action time="500"
+                type="dialog"
+                textId="444" />
     </Script>
-    <Script id="4600001" enableInput="true" playingTime="8000">
-        <Action time="0" type="PostProcess" on="true" postprocessSet="17">
-            <Action time="0" type="PostProcessMaterial" duration="8000" from="1" to="1" param="Strength" postprocessSet="17" />
+    <Script id="4600001"
+            enableInput="true"
+            playingTime="8000">
+        <Action time="0"
+                type="PostProcess"
+                on="true"
+                postprocessSet="17">
+            <Action time="0"
+                    type="PostProcessMaterial"
+                    duration="8000"
+                    from="1"
+                    to="1"
+                    param="Strength"
+                    postprocessSet="17" />
         </Action>
-        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="17" />
+        <Action type="PostProcess"
+                on="false"
+                isFinal="true"
+                postprocessSet="17" />
     </Script>
-    <Script id="4600002" playingTime="600000">
-        <Action time="0" type="cameraShake" duration="2000" power="2" speed="1000" />
+    <Script id="4600002"
+            playingTime="600000">
+        <Action time="0"
+                type="cameraShake"
+                duration="2000"
+                power="2"
+                speed="1000" />
     </Script>
-    <Script id="4600003" playingTime="900000">
-        <Action time="0" type="cameraShake" duration="4000" power="4" speed="2000" />
+    <Script id="4600003"
+            playingTime="900000">
+        <Action time="0"
+                type="cameraShake"
+                duration="4000"
+                power="4"
+                speed="2000" />
     </Script>
-    <Script id="4680001" playingTime="0">
-        <Action time="0" type="PostProcess" on="false" postprocessSet="2" />
-        <Action time="0" type="PostProcess" on="false" postprocessSet="3">
-            <Action time="0" type="PostProcess" on="true" postprocessSet="3">
-                <Action time="0" type="PostProcessMaterial" duration="500" from="0" to="0.9" param="Strength" postprocessSet="3">
-                    <Action time="1000" type="PostProcessMaterial" duration="1500" from="0.9" to="0" param="Strength" postprocessSet="3">
-                        <Action time="0" type="PostProcess" on="false" postprocessSet="3" />
+    <Script id="4680001"
+            playingTime="0">
+        <Action time="0"
+                type="PostProcess"
+                on="false"
+                postprocessSet="2" />
+        <Action time="0"
+                type="PostProcess"
+                on="false"
+                postprocessSet="3">
+            <Action time="0"
+                    type="PostProcess"
+                    on="true"
+                    postprocessSet="3">
+                <Action time="0"
+                        type="PostProcessMaterial"
+                        duration="500"
+                        from="0"
+                        to="0.9"
+                        param="Strength"
+                        postprocessSet="3">
+                    <Action time="1000"
+                            type="PostProcessMaterial"
+                            duration="1500"
+                            from="0.9"
+                            to="0"
+                            param="Strength"
+                            postprocessSet="3">
+                        <Action time="0"
+                                type="PostProcess"
+                                on="false"
+                                postprocessSet="3" />
                     </Action>
                 </Action>
             </Action>
         </Action>
-        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="3" />
+        <Action type="PostProcess"
+                on="false"
+                isFinal="true"
+                postprocessSet="3" />
     </Script>
-    <Script id="6199901" enableInput="true" playingTime="3000">
-        <Action time="0" type="Sound" radius="1" volume="1" cueName="InterfaceSound.SYSMSGCUE.SYSMSG_2001Cue" pitch="0.5" />
-        <Action time="0" type="cameraShake" duration="500" power="0.2" speed="10" />
+    <Script id="6199901"
+            enableInput="true"
+            playingTime="3000">
+        <Action time="0"
+                type="Sound"
+                radius="1"
+                volume="1"
+                cueName="InterfaceSound.SYSMSGCUE.SYSMSG_2001Cue"
+                pitch="0.5" />
+        <Action time="0"
+                type="cameraShake"
+                duration="500"
+                power="0.2"
+                speed="10" />
     </Script>
-    <Script id="6199902" enableInput="true" playingTime="3000">
-        <Action time="0" type="Sound" radius="1" volume="3" cueName="InterfaceSound.SYSMSGCUE.SYSMSG_2021Cue" pitch="1" />
-        <Action time="0" type="cameraShake" duration="1000" power="1.5" speed="20" />
-        <Action time="800" type="cameraShake" duration="2000" power="0.4" speed="5" />
-        <Action time="0" type="PostProcess" on="true" postprocessSet="4">
-            <Action time="0" type="PostProcessMaterial" duration="400" from="0" to="1.5" param="Strength" postprocessSet="4">
-                <Action time="0" type="PostProcessMaterial" duration="1000" from="1.5" to="0" param="Strength" postprocessSet="4">
-                    <Action time="0" type="PostProcess" on="false" postprocessSet="4" />
+    <Script id="6199902"
+            enableInput="true"
+            playingTime="3000">
+        <Action time="0"
+                type="Sound"
+                radius="1"
+                volume="3"
+                cueName="InterfaceSound.SYSMSGCUE.SYSMSG_2021Cue"
+                pitch="1" />
+        <Action time="0"
+                type="cameraShake"
+                duration="1000"
+                power="1.5"
+                speed="20" />
+        <Action time="800"
+                type="cameraShake"
+                duration="2000"
+                power="0.4"
+                speed="5" />
+        <Action time="0"
+                type="PostProcess"
+                on="true"
+                postprocessSet="4">
+            <Action time="0"
+                    type="PostProcessMaterial"
+                    duration="400"
+                    from="0"
+                    to="1.5"
+                    param="Strength"
+                    postprocessSet="4">
+                <Action time="0"
+                        type="PostProcessMaterial"
+                        duration="1000"
+                        from="1.5"
+                        to="0"
+                        param="Strength"
+                        postprocessSet="4">
+                    <Action time="0"
+                            type="PostProcess"
+                            on="false"
+                            postprocessSet="4" />
                 </Action>
             </Action>
         </Action>
     </Script>
-    <Script id="6311001" playingTime="12000">
-        <Action time="0" type="animation" animName="dance" blendInTime="0.2" />
-        <Action time="7183" type="animation" animName="victory" blendInTime="0.2" />
-        <Action time="9608" type="animation" animName="pointing" blendInTime="0.2" />
+    <Script id="6311001"
+            playingTime="12000">
+        <Action time="0"
+                type="animation"
+                animName="dance"
+                blendInTime="0.2" />
+        <Action time="7183"
+                type="animation"
+                animName="victory"
+                blendInTime="0.2" />
+        <Action time="9608"
+                type="animation"
+                animName="pointing"
+                blendInTime="0.2" />
     </Script>
-    <Script id="6311002" playingTime="5000">
-        <Action time="0" type="ActionScript" templateId="5208" huntingZoneId="63" scriptId="6311001" />
-        <Action time="0" type="ActionScript" templateId="5215" huntingZoneId="63" scriptId="6311001" />
-        <Action time="0" type="ActionScript" templateId="5216" huntingZoneId="63" scriptId="6311001" />
-        <Action time="0" type="ActionScript" templateId="5217" huntingZoneId="63" scriptId="6311001" />
-        <Action time="0" type="ActionScript" templateId="5218" huntingZoneId="63" scriptId="6311001" />
-        <Action time="0" type="ActionScript" templateId="5219" huntingZoneId="63" scriptId="6311001" />
+    <Script id="6311002"
+            playingTime="5000">
+        <Action time="0"
+                type="ActionScript"
+                templateId="5208"
+                huntingZoneId="63"
+                scriptId="6311001" />
+        <Action time="0"
+                type="ActionScript"
+                templateId="5215"
+                huntingZoneId="63"
+                scriptId="6311001" />
+        <Action time="0"
+                type="ActionScript"
+                templateId="5216"
+                huntingZoneId="63"
+                scriptId="6311001" />
+        <Action time="0"
+                type="ActionScript"
+                templateId="5217"
+                huntingZoneId="63"
+                scriptId="6311001" />
+        <Action time="0"
+                type="ActionScript"
+                templateId="5218"
+                huntingZoneId="63"
+                scriptId="6311001" />
+        <Action time="0"
+                type="ActionScript"
+                templateId="5219"
+                huntingZoneId="63"
+                scriptId="6311001" />
     </Script>
-    <Script id="6311003" playingTime="1000">
-        <Action time="0" type="dialog" textId="101" showChat="false" />
+    <Script id="6311003"
+            playingTime="1000">
+        <Action time="0"
+                type="dialog"
+                textId="101"
+                showChat="false" />
     </Script>
-    <Script id="8080001" playingTime="5000">
-        <Action type="move" pos="35965.5039,144918.0469,307.1051" speed="200" />
+    <Script id="8080001"
+            playingTime="5000">
+        <Action type="move"
+                pos="35965.5039,144918.0469,307.1051"
+                speed="200" />
     </Script>
-    <Script id="8080002" playingTime="10500">
-        <Action time="0" type="dialog" rate="1" textId="101" />
-        <Action time="1000" effectId="513110800" type="effect" rate="1" />
-        <Action time="1000" type="animation" animName="blastBallStart" rate="1" />
-        <Action time="2000" type="animation" animName="blastBallLoop" rate="1" />
-        <Action time="2500" type="cameraShake" duration="2000" power="1" speed="1000" />
-        <Action time="2500" effectId="1030" type="effect" rate="1" />
-        <Action time="3000" type="dialog" rate="1" textId="102" />
-        <Action time="3000" type="animation" animName="bReactionStart2" rate="1" />
-        <Action time="4000" effectId="1030" type="effect" rate="1" />
-        <Action time="4000" type="dialog" rate="1" textId="102" />
-        <Action time="4000" type="instantMove" pos="43855.8398,133768.7969,-1529.7754" dir="1" />
-        <Action time="4000" type="animation" animName="bReactionDown2" rate="1" />
-        <Action time="5000" type="animation" animName="bReactionDown2" rate="1" />
-        <Action time="6000" type="animation" animName="bReactionDown2" rate="1" />
-        <Action time="7000" type="animation" animName="bReactionCom2" rate="1" />
-        <Action time="7500" type="dialog" rate="1" textId="103" />
-        <Action time="8000" type="animation" animName="Groggy1" rate="1" />
-        <Action time="9000" effectId="1030" type="effect" rate="1" />
-        <Action time="9000" type="animation" animName="Death" rate="1" />
+    <Script id="8080002"
+            playingTime="10500">
+        <Action time="0"
+                type="dialog"
+                rate="1"
+                textId="101" />
+        <Action time="1000"
+                effectId="513110800"
+                type="effect"
+                rate="1" />
+        <Action time="1000"
+                type="animation"
+                animName="blastBallStart"
+                rate="1" />
+        <Action time="2000"
+                type="animation"
+                animName="blastBallLoop"
+                rate="1" />
+        <Action time="2500"
+                type="cameraShake"
+                duration="2000"
+                power="1"
+                speed="1000" />
+        <Action time="2500"
+                effectId="1030"
+                type="effect"
+                rate="1" />
+        <Action time="3000"
+                type="dialog"
+                rate="1"
+                textId="102" />
+        <Action time="3000"
+                type="animation"
+                animName="bReactionStart2"
+                rate="1" />
+        <Action time="4000"
+                effectId="1030"
+                type="effect"
+                rate="1" />
+        <Action time="4000"
+                type="dialog"
+                rate="1"
+                textId="102" />
+        <Action time="4000"
+                type="instantMove"
+                pos="43855.8398,133768.7969,-1529.7754"
+                dir="1" />
+        <Action time="4000"
+                type="animation"
+                animName="bReactionDown2"
+                rate="1" />
+        <Action time="5000"
+                type="animation"
+                animName="bReactionDown2"
+                rate="1" />
+        <Action time="6000"
+                type="animation"
+                animName="bReactionDown2"
+                rate="1" />
+        <Action time="7000"
+                type="animation"
+                animName="bReactionCom2"
+                rate="1" />
+        <Action time="7500"
+                type="dialog"
+                rate="1"
+                textId="103" />
+        <Action time="8000"
+                type="animation"
+                animName="Groggy1"
+                rate="1" />
+        <Action time="9000"
+                effectId="1030"
+                type="effect"
+                rate="1" />
+        <Action time="9000"
+                type="animation"
+                animName="Death"
+                rate="1" />
     </Script>
-    <Script id="8080003" playingTime="2000">
-        <Action time="0" type="cameraShake" duration="2000" power="1" speed="1000" />
+    <Script id="8080003"
+            playingTime="2000">
+        <Action time="0"
+                type="cameraShake"
+                duration="2000"
+                power="1"
+                speed="1000" />
     </Script>
-    <Script id="8230001" playingTime="600000">
-        <Action time="0" type="cameraShake" duration="2000" power="2" speed="1000" />
+    <Script id="8230001"
+            playingTime="600000">
+        <Action time="0"
+                type="cameraShake"
+                duration="2000"
+                power="2"
+                speed="1000" />
     </Script>
-    <Script id="8230002" playingTime="600000">
-        <Action time="0" type="cameraShake" duration="2000" power="2" speed="1000" />
+    <Script id="8230002"
+            playingTime="600000">
+        <Action time="0"
+                type="cameraShake"
+                duration="2000"
+                power="2"
+                speed="1000" />
     </Script>
-    <Script id="9782001" playingTime="10000">
-        <Action time="0" type="CameraFocus" templateId="5203" on="true" huntingZoneId="782" distance="550" pitch="-7" yaw="0" />
-        <Action time="2000" type="CameraFocus" templateId="5203" on="false" huntingZoneId="782" />
+    <Script id="9782001"
+            playingTime="10000">
+        <Action time="0"
+                type="CameraFocus"
+                templateId="5203"
+                on="true"
+                huntingZoneId="782"
+                distance="550"
+                pitch="-7"
+                yaw="0" />
+        <Action time="2000"
+                type="CameraFocus"
+                templateId="5203"
+                on="false"
+                huntingZoneId="782" />
     </Script>
-    <Script id="9782002" playingTime="2000">
-        <Action type="animation" animName="aggrochange" rate="1" />
+    <Script id="9782002"
+            playingTime="2000">
+        <Action type="animation"
+                animName="aggrochange"
+                rate="1" />
     </Script>
-    <Script id="9782003" playingTime="4000">
-        <Action type="animation" animName="Groggy1" rate="0.5" />
-        <Action time="2000" type="cameraShake" duration="1000" power="3" speed="6" />
+    <Script id="9782003"
+            playingTime="4000">
+        <Action type="animation"
+                animName="Groggy1"
+                rate="0.5" />
+        <Action time="2000"
+                type="cameraShake"
+                duration="1000"
+                power="3"
+                speed="6" />
     </Script>
-    <Script id="9782004" playingTime="4000">
-        <Action type="rotate" duration="500" dir="-17392" />
+    <Script id="9782004"
+            playingTime="4000">
+        <Action type="rotate"
+                duration="500"
+                dir="-17392" />
     </Script>
-    <Script id="9782005" playingTime="2000">
-        <Action type="animation" animName="Atk01End03" rate="1" />
+    <Script id="9782005"
+            playingTime="2000">
+        <Action type="animation"
+                animName="Atk01End03"
+                rate="1" />
     </Script>
-    <Script id="9782006" playingTime="10000">
-        <Action type="animation" animName="death" rate="0.8" />
+    <Script id="9782006"
+            playingTime="10000">
+        <Action type="animation"
+                animName="death"
+                rate="0.8" />
     </Script>
-    <Script id="9999997" enableInput="true" isOnlyPlayerTarget="true" isStopActionEnd="false" playingTime="200">
-        <Action time="0" type="scale" scale="0.1" duration="10" power="5" />
-        <Action time="200" type="scale" scale="1" duration="10" power="5" />
-        <Action type="scale" scale="1" on="false" isFinal="true" />
+    <Script id="9999997"
+            enableInput="true"
+            isOnlyPlayerTarget="true"
+            isStopActionEnd="false"
+            playingTime="200">
+        <Action time="0"
+                type="scale"
+                scale="0.1"
+                duration="10"
+                power="5" />
+        <Action time="200"
+                type="scale"
+                scale="1"
+                duration="10"
+                power="5" />
+        <Action type="scale"
+                scale="1"
+                on="false"
+                isFinal="true" />
     </Script>
-    <Script id="9999998" enableInput="true" isOnlyPlayerTarget="true" isStopActionEnd="false" playingTime="1500">
-        <Action time="0" type="scale" scale="0.1" duration="10" power="5" />
-        <Action time="1500" type="scale" scale="1" duration="10" power="5" />
-        <Action type="scale" scale="1" on="false" isFinal="true" />
+    <Script id="9999998"
+            enableInput="true"
+            isOnlyPlayerTarget="true"
+            isStopActionEnd="false"
+            playingTime="1500">
+        <Action time="0"
+                type="scale"
+                scale="0.1"
+                duration="10"
+                power="5" />
+        <Action time="1500"
+                type="scale"
+                scale="1"
+                duration="10"
+                power="5" />
+        <Action type="scale"
+                scale="1"
+                on="false"
+                isFinal="true" />
     </Script>
-    <Script id="9999999" enableInput="true" isOnlyPlayerTarget="true" isStopActionEnd="false" playingTime="5000">
-        <Action time="0" type="PostProcess" on="true" postprocessSet="18">
-            <Action time="0" type="PostProcessMaterial" duration="1000" from="0.2" to="1" param="Strength" postprocessSet="18" />
-            <Action time="1000" type="PostProcessMaterial" duration="3000" from="1" to="1" param="Strength" postprocessSet="18" />
-            <Action time="4000" type="PostProcessMaterial" duration="1000" from="1" to="0.2" param="Strength" postprocessSet="18" />
+    <Script id="9999999"
+            enableInput="true"
+            isOnlyPlayerTarget="true"
+            isStopActionEnd="false"
+            playingTime="5000">
+        <Action time="0"
+                type="PostProcess"
+                on="true"
+                postprocessSet="18">
+            <Action time="0"
+                    type="PostProcessMaterial"
+                    duration="1000"
+                    from="0.2"
+                    to="1"
+                    param="Strength"
+                    postprocessSet="18" />
+            <Action time="1000"
+                    type="PostProcessMaterial"
+                    duration="3000"
+                    from="1"
+                    to="1"
+                    param="Strength"
+                    postprocessSet="18" />
+            <Action time="4000"
+                    type="PostProcessMaterial"
+                    duration="1000"
+                    from="1"
+                    to="0.2"
+                    param="Strength"
+                    postprocessSet="18" />
         </Action>
-        <Action type="PostProcess" on="false" isFinal="true" postprocessSet="18" />
+        <Action type="PostProcess"
+                on="false"
+                isFinal="true"
+                postprocessSet="18" />
     </Script>
-    <Script id="15601001" enableInput="true" playingTime="0">
-        <Action time="0" type="EventDialog" eventDialogId="15601001" />
-        <Action time="5000" type="EventDialog" eventDialogId="15601002" />
-        <Action time="10000" type="EventDialog" eventDialogId="15601003" />
-        <Action time="15000" type="EventDialog" eventDialogId="15601004" />
-        <Action time="20000" type="EventDialog" eventDialogId="15601005" />
+    <Script id="15601001"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="EventDialog"
+                eventDialogId="15601001" />
+        <Action time="5000"
+                type="EventDialog"
+                eventDialogId="15601002" />
+        <Action time="10000"
+                type="EventDialog"
+                eventDialogId="15601003" />
+        <Action time="15000"
+                type="EventDialog"
+                eventDialogId="15601004" />
+        <Action time="20000"
+                type="EventDialog"
+                eventDialogId="15601005" />
     </Script>
-    <Script id="15602001" enableInput="true" playingTime="0">
-        <Action time="0" type="EventDialog" eventDialogId="15602001" />
+    <Script id="15602001"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="EventDialog"
+                eventDialogId="15602001" />
     </Script>
-    <Script id="15603001" enableInput="true" playingTime="0">
-        <Action time="0" type="EventDialog" eventDialogId="15603001" />
+    <Script id="15603001"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="EventDialog"
+                eventDialogId="15603001" />
     </Script>
-    <Script id="15603002" enableInput="true" playingTime="0">
-        <Action time="0" type="EventDialog" eventDialogId="15603002" />
+    <Script id="15603002"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="EventDialog"
+                eventDialogId="15603002" />
     </Script>
-    <Script id="15603003" enableInput="true" playingTime="0">
-        <Action time="0" type="EventDialog" eventDialogId="15603003" />
+    <Script id="15603003"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="EventDialog"
+                eventDialogId="15603003" />
     </Script>
-    <Script id="15603004" enableInput="true" playingTime="0">
-        <Action time="0" type="EventDialog" eventDialogId="15603004" />
+    <Script id="15603004"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="EventDialog"
+                eventDialogId="15603004" />
     </Script>
-    <Script id="15603005" enableInput="true" playingTime="0">
-        <Action time="0" type="EventDialog" eventDialogId="15603005" />
+    <Script id="15603005"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="EventDialog"
+                eventDialogId="15603005" />
     </Script>
-    <Script id="15603006" enableInput="true" playingTime="0">
-        <Action time="0" type="EventDialog" eventDialogId="15603006" />
+    <Script id="15603006"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="EventDialog"
+                eventDialogId="15603006" />
     </Script>
-    <Script id="15603007" enableInput="true" playingTime="0">
-        <Action time="0" type="EventDialog" eventDialogId="15603007" />
+    <Script id="15603007"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="EventDialog"
+                eventDialogId="15603007" />
     </Script>
-    <Script id="15603008" enableInput="true" playingTime="0">
-        <Action time="0" type="EventDialog" eventDialogId="15603008" />
+    <Script id="15603008"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="EventDialog"
+                eventDialogId="15603008" />
     </Script>
-    <Script id="15604001" enableInput="true" playingTime="0">
-        <Action time="0" type="EventDialog" eventDialogId="15604001" />
+    <Script id="15604001"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="EventDialog"
+                eventDialogId="15604001" />
     </Script>
-    <Script id="15605001" enableInput="true" playingTime="0">
-        <Action time="0" type="EventDialog" eventDialogId="15605001" />
+    <Script id="15605001"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="EventDialog"
+                eventDialogId="15605001" />
     </Script>
-    <Script id="15605002" enableInput="true" playingTime="0">
-        <Action time="0" type="EventDialog" eventDialogId="15605002" />
+    <Script id="15605002"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="EventDialog"
+                eventDialogId="15605002" />
     </Script>
-    <Script id="15605003" enableInput="true" playingTime="0">
-        <Action time="0" type="EventDialog" eventDialogId="15605003" />
+    <Script id="15605003"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="EventDialog"
+                eventDialogId="15605003" />
     </Script>
-    <Script id="30200001" enableInput="true" playingTime="45000">
-        <Action time="0" type="cameraShake" duration="45000" power="0.2" speed="1" />
+    <Script id="30200001"
+            enableInput="true"
+            playingTime="45000">
+        <Action time="0"
+                type="cameraShake"
+                duration="45000"
+                power="0.2"
+                speed="1" />
     </Script>
-    <Script id="30200002" playingTime="6000">
-        <Action time="0" type="PostProcess" on="true" postprocessSet="2">
-            <Action time="0" type="PostProcessMaterial" duration="2000" from="0" to="1" param="Strength" postprocessSet="2" />
-            <Action time="2000" type="PostProcessMaterial" duration="2000" from="1" to="1" param="Strength" postprocessSet="2" />
-            <Action time="4000" type="PostProcessMaterial" duration="2000" from="1" to="0" param="Strength" postprocessSet="2" />
-            <Action time="6000" type="PostProcess" on="false" postprocessSet="2" />
+    <Script id="30200002"
+            playingTime="6000">
+        <Action time="0"
+                type="PostProcess"
+                on="true"
+                postprocessSet="2">
+            <Action time="0"
+                    type="PostProcessMaterial"
+                    duration="2000"
+                    from="0"
+                    to="1"
+                    param="Strength"
+                    postprocessSet="2" />
+            <Action time="2000"
+                    type="PostProcessMaterial"
+                    duration="2000"
+                    from="1"
+                    to="1"
+                    param="Strength"
+                    postprocessSet="2" />
+            <Action time="4000"
+                    type="PostProcessMaterial"
+                    duration="2000"
+                    from="1"
+                    to="0"
+                    param="Strength"
+                    postprocessSet="2" />
+            <Action time="6000"
+                    type="PostProcess"
+                    on="false"
+                    postprocessSet="2" />
         </Action>
     </Script>
-    <Script id="30200003" enableInput="true" playingTime="15000">
-        <Action time="0" type="cameraShake" duration="15000" power="0.3" speed="1" />
+    <Script id="30200003"
+            enableInput="true"
+            playingTime="15000">
+        <Action time="0"
+                type="cameraShake"
+                duration="15000"
+                power="0.3"
+                speed="1" />
     </Script>
-    <Script id="30200004" playingTime="3000">
-        <Action time="0" type="PostProcess" on="true" postprocessSet="2">
-            <Action time="0" type="PostProcessMaterial" duration="1000" from="0" to="1" param="Strength" postprocessSet="2" />
-            <Action time="1000" type="PostProcessMaterial" duration="1000" from="1" to="1" param="Strength" postprocessSet="2" />
-            <Action time="2000" type="PostProcessMaterial" duration="1000" from="1" to="0" param="Strength" postprocessSet="2" />
-            <Action time="3000" type="PostProcess" on="false" postprocessSet="2" />
+    <Script id="30200004"
+            playingTime="3000">
+        <Action time="0"
+                type="PostProcess"
+                on="true"
+                postprocessSet="2">
+            <Action time="0"
+                    type="PostProcessMaterial"
+                    duration="1000"
+                    from="0"
+                    to="1"
+                    param="Strength"
+                    postprocessSet="2" />
+            <Action time="1000"
+                    type="PostProcessMaterial"
+                    duration="1000"
+                    from="1"
+                    to="1"
+                    param="Strength"
+                    postprocessSet="2" />
+            <Action time="2000"
+                    type="PostProcessMaterial"
+                    duration="1000"
+                    from="1"
+                    to="0"
+                    param="Strength"
+                    postprocessSet="2" />
+            <Action time="3000"
+                    type="PostProcess"
+                    on="false"
+                    postprocessSet="2" />
         </Action>
     </Script>
-    <Script id="30201001" playingTime="0">
-        <Action time="0" type="aero" on="true" aeroSet="SeaShip_AERO.AERO.SeaShip_Rainy_AERO" blendTime="2.85" />
-        <Action time="1000" type="PostProcessMaterial" duration="2000" from="1" to="0" param="Strength" postprocessSet="2" />
-    </Script>
-    <Script id="30201002" playingTime="0">
-        <Action time="0" type="aero" on="true" aeroSet="SeaShip_AERO.AERO.SeaShip_SunnyDay_AERO" blendTime="2.85" />
-        <Action time="1000" type="PostProcessMaterial" duration="2000" from="1" to="0" param="Strength" postprocessSet="2" />
-    </Script>
-    <Script id="30201003" playingTime="0">
-        <Action time="0" type="aero" on="true" aeroSet="ase_aeroset.AERO.ACE_Insanity_Hill_AERO_FINAL" blendTime="2.85" />
-        <Action time="1000" type="PostProcessMaterial" duration="2000" from="1" to="0" param="Strength" postprocessSet="2" />
-    </Script>
-    <Script id="30201011" playingTime="0">
-        <Action time="0" type="aero" on="true" aeroSet="SeaShip_AERO.AERO.SeaShip_Rainy_AERO" blendTime="2.85" />
-    </Script>
-    <Script id="30201012" playingTime="0">
-        <Action time="0" type="aero" on="true" aeroSet="SeaShip_AERO.AERO.SeaShip_SunnyDay_AERO" blendTime="2.85" />
-    </Script>
-    <Script id="30201013" playingTime="0">
-        <Action time="0" type="aero" on="true" aeroSet="ase_aeroset.AERO.ACE_Insanity_Hill_AERO_FINAL" blendTime="2.85" />
-    </Script>
-    <Script id="30201099" playingTime="0">
-        <Action time="0" type="aero" on="false" aeroSet="" blendTime="2.85" />
-    </Script>
-    <Script id="30280000" enableInput="true" playingTime="1">
-        <Action time="0" type="tutorialMessage" on="false" />
-    </Script>
-    <Script id="30280001" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30280001" keyTextIdList="30280001" xPadTextIdList="30280001" />
-    </Script>
-    <Script id="30280002" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30280002" keyTextIdList="30280002" xPadTextIdList="30280002" />
-    </Script>
-    <Script id="30280003" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30280003" keyTextIdList="30280003" xPadTextIdList="30280003" />
-    </Script>
-    <Script id="30280004" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30280004" keyTextIdList="30280004" xPadTextIdList="30280004" />
-    </Script>
-    <Script id="30280005" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30280005" keyTextIdList="30280005" xPadTextIdList="30280005" />
-    </Script>
-    <Script id="30280006" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30280006" keyTextIdList="30280006" xPadTextIdList="30280006" />
-    </Script>
-    <Script id="30280007" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30280007" keyTextIdList="30280007" xPadTextIdList="30280007" />
-    </Script>
-    <Script id="30280008" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30280008" keyTextIdList="30280008" xPadTextIdList="30280008" />
-    </Script>
-    <Script id="30280009" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30280009" keyTextIdList="30280009" xPadTextIdList="30280009" />
-    </Script>
-    <Script id="30280010" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30280010" keyTextIdList="30280010" xPadTextIdList="30280010" />
-    </Script>
-    <Script id="30280011" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30280011" keyTextIdList="30280011" xPadTextIdList="30280011" />
-    </Script>
-    <Script id="30280021" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30280021" keyTextIdList="30280021" xPadTextIdList="30280021" />
-    </Script>
-    <Script id="30280022" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30280022" keyTextIdList="30280022" xPadTextIdList="30280022" />
-    </Script>
-    <Script id="30280023" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30280023" keyTextIdList="30280023" xPadTextIdList="30280023" />
-    </Script>
-    <Script id="30281001" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30281001" keyTextIdList="30281001" xPadTextIdList="30281001" />
-    </Script>
-    <Script id="30281002" enableInput="true" playingTime="1">
-        <Action time="0" type="tutorialMessage" on="false" />
-    </Script>
-    <Script id="30282001" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30282001" keyTextIdList="30282001" xPadTextIdList="30282001" />
-    </Script>
-    <Script id="30283001" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30283001" keyTextIdList="30283001" xPadTextIdList="30283001" />
-    </Script>
-    <Script id="30290021" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30290021" keyTextIdList="30290021" xPadTextIdList="30290021" />
-    </Script>
-    <Script id="30290022" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30290022" keyTextIdList="30290022" xPadTextIdList="30290022" />
-    </Script>
-    <Script id="30290023" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30290023" keyTextIdList="30290023" xPadTextIdList="30290023" />
-    </Script>
-    <Script id="30291001" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30291001" keyTextIdList="30291001" xPadTextIdList="30291001" />
-    </Script>
-    <Script id="30292001" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30292001" keyTextIdList="30292001" xPadTextIdList="30292001" />
-    </Script>
-    <Script id="30292002" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30292002" keyTextIdList="30292002" xPadTextIdList="30292002" />
-    </Script>
-    <Script id="30293001" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30293001" keyTextIdList="30293001" xPadTextIdList="30293001" />
-    </Script>
-    <Script id="30293002" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30293002" keyTextIdList="30293002" xPadTextIdList="30293002" />
-    </Script>
-    <Script id="30293003" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30293003" keyTextIdList="30293003" xPadTextIdList="30293003" />
-    </Script>
-    <Script id="30293004" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30293004" keyTextIdList="30293004" xPadTextIdList="30293004" />
-    </Script>
-    <Script id="30293005" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30293005" keyTextIdList="30293005" xPadTextIdList="30293005" />
-    </Script>
-    <Script id="30320000" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="false" />
-    </Script>
-    <Script id="30320001" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30320001" keyTextIdList="30320001" xPadTextIdList="30320001" />
-    </Script>
-    <Script id="30320002" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30320002" keyTextIdList="30320002" xPadTextIdList="30320002" />
-    </Script>
-    <Script id="30320003" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30320003" keyTextIdList="30320003" xPadTextIdList="30320003" />
-    </Script>
-    <Script id="30320004" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30320004" keyTextIdList="30320004" xPadTextIdList="30320004" />
-    </Script>
-    <Script id="30320005" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30320005" keyTextIdList="30320005" xPadTextIdList="30320005" />
-    </Script>
-    <Script id="30320006" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30320006" keyTextIdList="30320006" xPadTextIdList="30320006" />
-    </Script>
-    <Script id="30320021" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30320021" keyTextIdList="30320021" xPadTextIdList="30320021" />
-    </Script>
-    <Script id="30320022" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30320022" keyTextIdList="30320022" xPadTextIdList="30320022" />
-    </Script>
-    <Script id="30320023" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30320023" keyTextIdList="30320023" xPadTextIdList="30320023" />
-    </Script>
-    <Script id="30330021" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30330021" keyTextIdList="30330021" xPadTextIdList="30330021" />
-    </Script>
-    <Script id="30330022" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30330022" keyTextIdList="30330022" xPadTextIdList="30330022" />
-    </Script>
-    <Script id="30330023" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30330023" keyTextIdList="30330023" xPadTextIdList="30330023" />
-    </Script>
-    <Script id="30330024" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30330024" keyTextIdList="30330024" xPadTextIdList="30330024" />
-    </Script>
-    <Script id="30330025" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30330025" keyTextIdList="30330025" xPadTextIdList="30330025" />
-    </Script>
-    <Script id="30330026" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30330026" keyTextIdList="30330026" xPadTextIdList="30330026" />
-    </Script>
-    <Script id="30330027" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30330027" keyTextIdList="30330027" xPadTextIdList="30330027" />
-    </Script>
-    <Script id="30330028" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30330028" keyTextIdList="30330028" xPadTextIdList="30330028" />
-    </Script>
-    <Script id="30330029" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30330029" keyTextIdList="30330029" xPadTextIdList="30330029" />
-    </Script>
-    <Script id="30330030" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30330030" keyTextIdList="30330030" xPadTextIdList="30330030" />
-    </Script>
-    <Script id="30330031" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30330031" keyTextIdList="30330031" xPadTextIdList="30330031" />
-    </Script>
-    <Script id="30330032" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30330032" keyTextIdList="30330032" xPadTextIdList="30330032" />
-    </Script>
-    <Script id="30330033" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30330033" keyTextIdList="30330033" xPadTextIdList="30330033" />
-    </Script>
-    <Script id="30370003" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30370003" keyTextIdList="30370003" xPadTextIdList="30370003" />
-    </Script>
-    <Script id="30371001" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30371001" keyTextIdList="30371001" xPadTextIdList="30371001" />
-    </Script>
-    <Script id="30371002" enableInput="true" playingTime="0">
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="30371002" keyTextIdList="30371002" xPadTextIdList="30371002" />
-    </Script>
-    <Script id="32090001" enableInput="true" playingTime="0">
-        <Action time="0" type="Sound" radius="1" volume="4.5" cueName="InterfaceSound.SYSMSGCUE.SYSMSG_2088Cue" pitch="2.2" />
-        <Action time="0" type="tutorialMessage" on="true" dPadTextIdList="32090001" keyTextIdList="32090001" xPadTextIdList="32090001" />
-    </Script>
-    <Script id="47410051" playingTime="1000">
-        <Action type="actionScript" templateId="1005" huntingZoneId="474" scriptId="101" />
-    </Script>
-    <Script id="47410052" playingTime="1000">
-        <Action type="actionScript" templateId="1005" huntingZoneId="474" scriptId="102" />
-    </Script>
-    <Script id="47410053" playingTime="1000">
-        <Action type="actionScript" templateId="1005" huntingZoneId="474" scriptId="103" />
-    </Script>
-    <Script id="47410054" playingTime="1000">
-        <Action type="actionScript" templateId="1005" huntingZoneId="474" scriptId="104" />
+    <Script id="30201001"
+            playingTime="0">
+        <Action time="0"
+                type="aero"
+                on="true"
+                aeroSet="SeaShip_AERO.AERO.SeaShip_Rainy_AERO"
+                blendTime="2.85" />
+        <Action time="1000"
+                type="PostProcessMaterial"
+                duration="2000"
+                from="1"
+                to="0"
+                param="Strength"
+                postprocessSet="2" />
+    </Script>
+    <Script id="30201002"
+            playingTime="0">
+        <Action time="0"
+                type="aero"
+                on="true"
+                aeroSet="SeaShip_AERO.AERO.SeaShip_SunnyDay_AERO"
+                blendTime="2.85" />
+        <Action time="1000"
+                type="PostProcessMaterial"
+                duration="2000"
+                from="1"
+                to="0"
+                param="Strength"
+                postprocessSet="2" />
+    </Script>
+    <Script id="30201003"
+            playingTime="0">
+        <Action time="0"
+                type="aero"
+                on="true"
+                aeroSet="ase_aeroset.AERO.ACE_Insanity_Hill_AERO_FINAL"
+                blendTime="2.85" />
+        <Action time="1000"
+                type="PostProcessMaterial"
+                duration="2000"
+                from="1"
+                to="0"
+                param="Strength"
+                postprocessSet="2" />
+    </Script>
+    <Script id="30201011"
+            playingTime="0">
+        <Action time="0"
+                type="aero"
+                on="true"
+                aeroSet="SeaShip_AERO.AERO.SeaShip_Rainy_AERO"
+                blendTime="2.85" />
+    </Script>
+    <Script id="30201012"
+            playingTime="0">
+        <Action time="0"
+                type="aero"
+                on="true"
+                aeroSet="SeaShip_AERO.AERO.SeaShip_SunnyDay_AERO"
+                blendTime="2.85" />
+    </Script>
+    <Script id="30201013"
+            playingTime="0">
+        <Action time="0"
+                type="aero"
+                on="true"
+                aeroSet="ase_aeroset.AERO.ACE_Insanity_Hill_AERO_FINAL"
+                blendTime="2.85" />
+    </Script>
+    <Script id="30201099"
+            playingTime="0">
+        <Action time="0"
+                type="aero"
+                on="false"
+                aeroSet=""
+                blendTime="2.85" />
+    </Script>
+    <Script id="30280000"
+            enableInput="true"
+            playingTime="1">
+        <Action time="0"
+                type="tutorialMessage"
+                on="false" />
+    </Script>
+    <Script id="30280001"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30280001"
+                keyTextIdList="30280001"
+                xPadTextIdList="30280001" />
+    </Script>
+    <Script id="30280002"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30280002"
+                keyTextIdList="30280002"
+                xPadTextIdList="30280002" />
+    </Script>
+    <Script id="30280003"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30280003"
+                keyTextIdList="30280003"
+                xPadTextIdList="30280003" />
+    </Script>
+    <Script id="30280004"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30280004"
+                keyTextIdList="30280004"
+                xPadTextIdList="30280004" />
+    </Script>
+    <Script id="30280005"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30280005"
+                keyTextIdList="30280005"
+                xPadTextIdList="30280005" />
+    </Script>
+    <Script id="30280006"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30280006"
+                keyTextIdList="30280006"
+                xPadTextIdList="30280006" />
+    </Script>
+    <Script id="30280007"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30280007"
+                keyTextIdList="30280007"
+                xPadTextIdList="30280007" />
+    </Script>
+    <Script id="30280008"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30280008"
+                keyTextIdList="30280008"
+                xPadTextIdList="30280008" />
+    </Script>
+    <Script id="30280009"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30280009"
+                keyTextIdList="30280009"
+                xPadTextIdList="30280009" />
+    </Script>
+    <Script id="30280010"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30280010"
+                keyTextIdList="30280010"
+                xPadTextIdList="30280010" />
+    </Script>
+    <Script id="30280011"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30280011"
+                keyTextIdList="30280011"
+                xPadTextIdList="30280011" />
+    </Script>
+    <Script id="30280021"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30280021"
+                keyTextIdList="30280021"
+                xPadTextIdList="30280021" />
+    </Script>
+    <Script id="30280022"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30280022"
+                keyTextIdList="30280022"
+                xPadTextIdList="30280022" />
+    </Script>
+    <Script id="30280023"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30280023"
+                keyTextIdList="30280023"
+                xPadTextIdList="30280023" />
+    </Script>
+    <Script id="30281001"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30281001"
+                keyTextIdList="30281001"
+                xPadTextIdList="30281001" />
+    </Script>
+    <Script id="30281002"
+            enableInput="true"
+            playingTime="1">
+        <Action time="0"
+                type="tutorialMessage"
+                on="false" />
+    </Script>
+    <Script id="30282001"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30282001"
+                keyTextIdList="30282001"
+                xPadTextIdList="30282001" />
+    </Script>
+    <Script id="30283001"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30283001"
+                keyTextIdList="30283001"
+                xPadTextIdList="30283001" />
+    </Script>
+    <Script id="30290021"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30290021"
+                keyTextIdList="30290021"
+                xPadTextIdList="30290021" />
+    </Script>
+    <Script id="30290022"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30290022"
+                keyTextIdList="30290022"
+                xPadTextIdList="30290022" />
+    </Script>
+    <Script id="30290023"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30290023"
+                keyTextIdList="30290023"
+                xPadTextIdList="30290023" />
+    </Script>
+    <Script id="30291001"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30291001"
+                keyTextIdList="30291001"
+                xPadTextIdList="30291001" />
+    </Script>
+    <Script id="30292001"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30292001"
+                keyTextIdList="30292001"
+                xPadTextIdList="30292001" />
+    </Script>
+    <Script id="30292002"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30292002"
+                keyTextIdList="30292002"
+                xPadTextIdList="30292002" />
+    </Script>
+    <Script id="30293001"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30293001"
+                keyTextIdList="30293001"
+                xPadTextIdList="30293001" />
+    </Script>
+    <Script id="30293002"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30293002"
+                keyTextIdList="30293002"
+                xPadTextIdList="30293002" />
+    </Script>
+    <Script id="30293003"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30293003"
+                keyTextIdList="30293003"
+                xPadTextIdList="30293003" />
+    </Script>
+    <Script id="30293004"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30293004"
+                keyTextIdList="30293004"
+                xPadTextIdList="30293004" />
+    </Script>
+    <Script id="30293005"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30293005"
+                keyTextIdList="30293005"
+                xPadTextIdList="30293005" />
+    </Script>
+    <Script id="30320000"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="false" />
+    </Script>
+    <Script id="30320001"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30320001"
+                keyTextIdList="30320001"
+                xPadTextIdList="30320001" />
+    </Script>
+    <Script id="30320002"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30320002"
+                keyTextIdList="30320002"
+                xPadTextIdList="30320002" />
+    </Script>
+    <Script id="30320003"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30320003"
+                keyTextIdList="30320003"
+                xPadTextIdList="30320003" />
+    </Script>
+    <Script id="30320004"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30320004"
+                keyTextIdList="30320004"
+                xPadTextIdList="30320004" />
+    </Script>
+    <Script id="30320005"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30320005"
+                keyTextIdList="30320005"
+                xPadTextIdList="30320005" />
+    </Script>
+    <Script id="30320006"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30320006"
+                keyTextIdList="30320006"
+                xPadTextIdList="30320006" />
+    </Script>
+    <Script id="30320021"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30320021"
+                keyTextIdList="30320021"
+                xPadTextIdList="30320021" />
+    </Script>
+    <Script id="30320022"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30320022"
+                keyTextIdList="30320022"
+                xPadTextIdList="30320022" />
+    </Script>
+    <Script id="30320023"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30320023"
+                keyTextIdList="30320023"
+                xPadTextIdList="30320023" />
+    </Script>
+    <Script id="30330021"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30330021"
+                keyTextIdList="30330021"
+                xPadTextIdList="30330021" />
+    </Script>
+    <Script id="30330022"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30330022"
+                keyTextIdList="30330022"
+                xPadTextIdList="30330022" />
+    </Script>
+    <Script id="30330023"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30330023"
+                keyTextIdList="30330023"
+                xPadTextIdList="30330023" />
+    </Script>
+    <Script id="30330024"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30330024"
+                keyTextIdList="30330024"
+                xPadTextIdList="30330024" />
+    </Script>
+    <Script id="30330025"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30330025"
+                keyTextIdList="30330025"
+                xPadTextIdList="30330025" />
+    </Script>
+    <Script id="30330026"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30330026"
+                keyTextIdList="30330026"
+                xPadTextIdList="30330026" />
+    </Script>
+    <Script id="30330027"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30330027"
+                keyTextIdList="30330027"
+                xPadTextIdList="30330027" />
+    </Script>
+    <Script id="30330028"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30330028"
+                keyTextIdList="30330028"
+                xPadTextIdList="30330028" />
+    </Script>
+    <Script id="30330029"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30330029"
+                keyTextIdList="30330029"
+                xPadTextIdList="30330029" />
+    </Script>
+    <Script id="30330030"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30330030"
+                keyTextIdList="30330030"
+                xPadTextIdList="30330030" />
+    </Script>
+    <Script id="30330031"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30330031"
+                keyTextIdList="30330031"
+                xPadTextIdList="30330031" />
+    </Script>
+    <Script id="30330032"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30330032"
+                keyTextIdList="30330032"
+                xPadTextIdList="30330032" />
+    </Script>
+    <Script id="30330033"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30330033"
+                keyTextIdList="30330033"
+                xPadTextIdList="30330033" />
+    </Script>
+    <Script id="30370003"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30370003"
+                keyTextIdList="30370003"
+                xPadTextIdList="30370003" />
+    </Script>
+    <Script id="30371001"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30371001"
+                keyTextIdList="30371001"
+                xPadTextIdList="30371001" />
+    </Script>
+    <Script id="30371002"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="30371002"
+                keyTextIdList="30371002"
+                xPadTextIdList="30371002" />
+    </Script>
+    <Script id="32090001"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                type="Sound"
+                radius="1"
+                volume="4.5"
+                cueName="InterfaceSound.SYSMSGCUE.SYSMSG_2088Cue"
+                pitch="2.2" />
+        <Action time="0"
+                type="tutorialMessage"
+                on="true"
+                dPadTextIdList="32090001"
+                keyTextIdList="32090001"
+                xPadTextIdList="32090001" />
+    </Script>
+    <Script id="47410051"
+            playingTime="1000">
+        <Action type="actionScript"
+                templateId="1005"
+                huntingZoneId="474"
+                scriptId="101" />
+    </Script>
+    <Script id="47410052"
+            playingTime="1000">
+        <Action type="actionScript"
+                templateId="1005"
+                huntingZoneId="474"
+                scriptId="102" />
+    </Script>
+    <Script id="47410053"
+            playingTime="1000">
+        <Action type="actionScript"
+                templateId="1005"
+                huntingZoneId="474"
+                scriptId="103" />
+    </Script>
+    <Script id="47410054"
+            playingTime="1000">
+        <Action type="actionScript"
+                templateId="1005"
+                huntingZoneId="474"
+                scriptId="104" />
     </Script>
 </S1ActionScripts>

@@ -1,46 +1,271 @@
-<PostProcess xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/PostProcess PostProcess.xsd" xmlns="https://vezel.dev/novadrop/dc/PostProcess">
-    <Set id="1" priority="600" layer="220" material="Shocked00_PPMI" bAlwaysRender="true" chain="PostProcess.PPC.S1_Shocked00_PPC" />
-    <Set id="2" priority="800" layer="210" material="S1_Darkness_PPMI" bAlwaysRender="true" chain="PostProcess.PPC.S1_Darkness_PPC" />
-    <Set id="3" priority="801" layer="200" material="S1_Brightness_PPMI" bAlwaysRender="true" chain="PostProcess.PPC.S1_Brightness_PPC" />
-    <Set id="4" priority="400" layer="900" material="S1_RadialBlur_PPMI" bAlwaysRender="true" chain="PostProcess.PPC.S1_RadialBlur_PPC" />
-    <Set id="5" priority="400" layer="700" material="S1_SlowMotion_PPMI" bAlwaysRender="true" chain="PostProcess.PPC.S1_SlowMotion_PPC" />
-    <Set id="6" priority="700" layer="800" material="S1_Crisis_PPMI" bAlwaysRender="true" chain="PostProcess_localize.PPC.S1_Crisis_PPC" />
-    <Set id="7" priority="400" layer="300" material="S1_Vomitizer_PPMI" bAlwaysRender="true" chain="PostProcess.PPC.S1_Vomitizer_PPC" />
-    <Set id="8" priority="600" layer="500" material="S1_Virus_PPMI" bAlwaysRender="true" chain="PostProcess.PPC.S1_Virus_PPC" />
-    <Set id="9" priority="200" layer="400" material="S1_Dash_PPMI" bAlwaysRender="true" chain="PostProcess.PPC.S1_Dash_PPC" />
-    <Set id="10" priority="400" layer="710" material="S1_Frost_PPMI" bAlwaysRender="true" chain="PostProcess.PPC.S1_Frost_PPC" />
-    <Set id="11" priority="802" layer="600" material="S1_DarkHole_PPMI" bAlwaysRender="true" chain="PostProcess.PPC.S1_DarkHole_PPC" />
-    <Set id="12" priority="700" layer="100" material="S1_ShadowOfNight_PPMI" bAlwaysRender="true" chain="PostProcess.PPC.S1_ShadowOfNight_PPC" />
-    <Set id="13" priority="300" layer="190" material="S1_Radial_PPMI" bAlwaysRender="false" chain="PostProcess.PPC.S1_Radial_PPC" />
-    <Set id="14" priority="500" layer="620" material="S1_Radial002_PPMI" bAlwaysRender="false" chain="PostProcess.PPC.S1_Radial002_PPC" />
-    <Set id="15" priority="500" layer="630" material="S1_Radial003_PPMI" bAlwaysRender="false" chain="PostProcess.PPC.S1_Radial003_PPC" />
-    <Set id="16" priority="100" layer="110" material="" bAlwaysRender="false" chain="PostProcess.PPC.S1_StyleShop_DOF_PPC" />
-    <Set id="17" priority="200" layer="950" material="S1_WaterDrop_PPMI" bAlwaysRender="false" chain="PostProcess.PPC.S1_WaterDrop_PPC" />
-    <Set id="18" priority="500" layer="720" material="S1_FlightVehicleBlur_PPMI" bAlwaysRender="false" chain="PostProcess.PPC.S1_FlightVehicleBlur_PPC" />
-    <Set id="19" priority="702" layer="990" material="S1_Damaged_PPMI" bAlwaysRender="true" chain="PostProcess.PPC.S1_Damaged_PPC" />
-    <Set id="20" priority="500" layer="910" material="S1_Noctan_PPMI" bAlwaysRender="false" chain="PostProcess.PPC.S1_Noctan_PPC" />
-    <Set id="21" priority="500" layer="820" material="S1_Glaiver_PPMI" bAlwaysRender="false" chain="PostProcess.PPC.S1_Glaiver_PPC" />
-    <Set id="22" priority="900" layer="180" material="S1_InnerWorld00_PPMI" bAlwaysRender="true" chain="PostProcess.PPC.S1_InnerWorld00_PPC" />
-    <Set id="23" priority="500" layer="640" material="S1_Protection00_PPMI" bAlwaysRender="false" chain="PostProcess.PPC.S1_Protection00_PPC" />
-    <Set id="24" priority="500" layer="640" material="S1_Rage00_PPMI" bAlwaysRender="false" chain="PostProcess.PPC.S1_Rage00_PPC" />
-    <Set id="25" priority="500" layer="640" material="S1_Spirit00_PPMI" bAlwaysRender="false" chain="PostProcess.PPC.S1_Spirit00_PPC" />
-    <Set id="26" priority="500" layer="640" material="S1_OneInchPunch00_PPMI" bAlwaysRender="false" chain="PostProcess.PPC.S1_OneInchPunch00_PPC" />
-    <Set id="27" priority="700" layer="820" material="S1_MonTarget00_PPMI" bAlwaysRender="true" chain="PostProcess.PPC.S1_MonTarget00_PPC" />
-    <Set id="28" priority="700" layer="820" material="S1_MonDebuff00_PPMI" bAlwaysRender="true" chain="PostProcess.PPC.S1_MonDebuff00_PPC" />
-    <Set id="29" priority="700" layer="820" material="S1_MonDebuff01_PPMI" bAlwaysRender="true" chain="PostProcess.PPC.S1_MonDebuff01_PPC" />
-    <Set id="30" priority="700" layer="820" material="S1_FlyingNB00_PPMI" bAlwaysRender="true" chain="PostProcess.PPC.S1_FlyingNB00_PPC" />
-    <Set id="31" priority="700" layer="820" material="S1_FlyingNB01_PPMI" bAlwaysRender="true" chain="PostProcess.PPC.S1_FlyingNB01_PPC" />
-    <Set id="32" priority="700" layer="820" material="S1_FlyingNB02_PPMI" bAlwaysRender="true" chain="PostProcess.PPC.S1_FlyingNB02_PPC" />
-    <Set id="33" priority="500" layer="640" material="S1_SorcererElementCollapse_PPMI" bAlwaysRender="false" chain="PostProcess.PPC.S1_SorcererElementCollapse_PPC" />
-    <Set id="34" priority="500" layer="640" material="S1_Flash00_PPMI" bAlwaysRender="false" chain="PostProcess.PPC.S1_Flash00_PPC" />
-    <Set id="35" priority="800" layer="680" material="S1_BeamPanel00_PPMI" bAlwaysRender="false" chain="PostProcess.PPC.S1_BeamPanel00_PPC" />
-    <Set id="36" priority="800" layer="680" material="S1_AssassinAwaken00_PPMI" bAlwaysRender="false" chain="PostProcess_01.PPC.S1_AssassinAwaken00_PPC" />
-    <Set id="37" priority="800" layer="680" material="S1_GlaiverAwaken00_PPMI" bAlwaysRender="false" chain="PostProcess_01.PPC.S1_GlaiverAwaken00_PPC" />
-    <Set id="38" priority="800" layer="680" material="S1_ArcherAwaken00_PPMI" bAlwaysRender="false" chain="PostProcess_01.PPC.S1_ArcherAwaken00_PPC" useScreenRatio="true" />
-    <Set id="39" priority="800" layer="680" material="S1_ArcherVeteran00_PPMI" bAlwaysRender="false" chain="PostProcess_01.PPC.S1_ArcherVeteran00_PPC" useScreenRatio="true" />
-    <Set id="40" priority="800" layer="680" material="S1_ButterflyGem00_PPMI" bAlwaysRender="false" chain="PostProcess_01.PPC.S1_ButterflyGem00_PPC" useScreenRatio="true" />
-    <Set id="41" priority="800" layer="680" material="S1_Absorption00_PPMI" bAlwaysRender="true" chain="PostProcess_01.PPC.S1_Absorption00_PPC" />
-    <Set id="42" priority="800" layer="680" material="S1_Consumption00_PPMI" bAlwaysRender="true" chain="PostProcess_01.PPC.S1_Consumption00_PPC" />
-    <Set id="43" priority="900" layer="680" material="S1_DugeonResonance02_PPM_MI" bAlwaysRender="true" chain="PostProcess_01.PPC.S1_DungeonResonance00_PPC" />
-    <Set id="44" priority="900" layer="680" material="S1_GuildCoOpDungeon01_PPM_MI" bAlwaysRender="true" chain="PostProcess_01.PPC.S1_GuildCoOpDungeon00_PPC" />
+<PostProcess xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://vezel.dev/novadrop/dc/PostProcess PostProcess.xsd"
+             xmlns="https://vezel.dev/novadrop/dc/PostProcess">
+    <Set id="1"
+         priority="600"
+         layer="220"
+         material="Shocked00_PPMI"
+         bAlwaysRender="true"
+         chain="PostProcess.PPC.S1_Shocked00_PPC" />
+    <Set id="2"
+         priority="800"
+         layer="210"
+         material="S1_Darkness_PPMI"
+         bAlwaysRender="true"
+         chain="PostProcess.PPC.S1_Darkness_PPC" />
+    <Set id="3"
+         priority="801"
+         layer="200"
+         material="S1_Brightness_PPMI"
+         bAlwaysRender="true"
+         chain="PostProcess.PPC.S1_Brightness_PPC" />
+    <Set id="4"
+         priority="400"
+         layer="900"
+         material="S1_RadialBlur_PPMI"
+         bAlwaysRender="true"
+         chain="PostProcess.PPC.S1_RadialBlur_PPC" />
+    <Set id="5"
+         priority="400"
+         layer="700"
+         material="S1_SlowMotion_PPMI"
+         bAlwaysRender="true"
+         chain="PostProcess.PPC.S1_SlowMotion_PPC" />
+    <Set id="6"
+         priority="700"
+         layer="800"
+         material="S1_Crisis_PPMI"
+         bAlwaysRender="true"
+         chain="PostProcess_localize.PPC.S1_Crisis_PPC" />
+    <Set id="7"
+         priority="400"
+         layer="300"
+         material="S1_Vomitizer_PPMI"
+         bAlwaysRender="true"
+         chain="PostProcess.PPC.S1_Vomitizer_PPC" />
+    <Set id="8"
+         priority="600"
+         layer="500"
+         material="S1_Virus_PPMI"
+         bAlwaysRender="true"
+         chain="PostProcess.PPC.S1_Virus_PPC" />
+    <Set id="9"
+         priority="200"
+         layer="400"
+         material="S1_Dash_PPMI"
+         bAlwaysRender="true"
+         chain="PostProcess.PPC.S1_Dash_PPC" />
+    <Set id="10"
+         priority="400"
+         layer="710"
+         material="S1_Frost_PPMI"
+         bAlwaysRender="true"
+         chain="PostProcess.PPC.S1_Frost_PPC" />
+    <Set id="11"
+         priority="802"
+         layer="600"
+         material="S1_DarkHole_PPMI"
+         bAlwaysRender="true"
+         chain="PostProcess.PPC.S1_DarkHole_PPC" />
+    <Set id="12"
+         priority="700"
+         layer="100"
+         material="S1_ShadowOfNight_PPMI"
+         bAlwaysRender="true"
+         chain="PostProcess.PPC.S1_ShadowOfNight_PPC" />
+    <Set id="13"
+         priority="300"
+         layer="190"
+         material="S1_Radial_PPMI"
+         bAlwaysRender="false"
+         chain="PostProcess.PPC.S1_Radial_PPC" />
+    <Set id="14"
+         priority="500"
+         layer="620"
+         material="S1_Radial002_PPMI"
+         bAlwaysRender="false"
+         chain="PostProcess.PPC.S1_Radial002_PPC" />
+    <Set id="15"
+         priority="500"
+         layer="630"
+         material="S1_Radial003_PPMI"
+         bAlwaysRender="false"
+         chain="PostProcess.PPC.S1_Radial003_PPC" />
+    <Set id="16"
+         priority="100"
+         layer="110"
+         material=""
+         bAlwaysRender="false"
+         chain="PostProcess.PPC.S1_StyleShop_DOF_PPC" />
+    <Set id="17"
+         priority="200"
+         layer="950"
+         material="S1_WaterDrop_PPMI"
+         bAlwaysRender="false"
+         chain="PostProcess.PPC.S1_WaterDrop_PPC" />
+    <Set id="18"
+         priority="500"
+         layer="720"
+         material="S1_FlightVehicleBlur_PPMI"
+         bAlwaysRender="false"
+         chain="PostProcess.PPC.S1_FlightVehicleBlur_PPC" />
+    <Set id="19"
+         priority="702"
+         layer="990"
+         material="S1_Damaged_PPMI"
+         bAlwaysRender="true"
+         chain="PostProcess.PPC.S1_Damaged_PPC" />
+    <Set id="20"
+         priority="500"
+         layer="910"
+         material="S1_Noctan_PPMI"
+         bAlwaysRender="false"
+         chain="PostProcess.PPC.S1_Noctan_PPC" />
+    <Set id="21"
+         priority="500"
+         layer="820"
+         material="S1_Glaiver_PPMI"
+         bAlwaysRender="false"
+         chain="PostProcess.PPC.S1_Glaiver_PPC" />
+    <Set id="22"
+         priority="900"
+         layer="180"
+         material="S1_InnerWorld00_PPMI"
+         bAlwaysRender="true"
+         chain="PostProcess.PPC.S1_InnerWorld00_PPC" />
+    <Set id="23"
+         priority="500"
+         layer="640"
+         material="S1_Protection00_PPMI"
+         bAlwaysRender="false"
+         chain="PostProcess.PPC.S1_Protection00_PPC" />
+    <Set id="24"
+         priority="500"
+         layer="640"
+         material="S1_Rage00_PPMI"
+         bAlwaysRender="false"
+         chain="PostProcess.PPC.S1_Rage00_PPC" />
+    <Set id="25"
+         priority="500"
+         layer="640"
+         material="S1_Spirit00_PPMI"
+         bAlwaysRender="false"
+         chain="PostProcess.PPC.S1_Spirit00_PPC" />
+    <Set id="26"
+         priority="500"
+         layer="640"
+         material="S1_OneInchPunch00_PPMI"
+         bAlwaysRender="false"
+         chain="PostProcess.PPC.S1_OneInchPunch00_PPC" />
+    <Set id="27"
+         priority="700"
+         layer="820"
+         material="S1_MonTarget00_PPMI"
+         bAlwaysRender="true"
+         chain="PostProcess.PPC.S1_MonTarget00_PPC" />
+    <Set id="28"
+         priority="700"
+         layer="820"
+         material="S1_MonDebuff00_PPMI"
+         bAlwaysRender="true"
+         chain="PostProcess.PPC.S1_MonDebuff00_PPC" />
+    <Set id="29"
+         priority="700"
+         layer="820"
+         material="S1_MonDebuff01_PPMI"
+         bAlwaysRender="true"
+         chain="PostProcess.PPC.S1_MonDebuff01_PPC" />
+    <Set id="30"
+         priority="700"
+         layer="820"
+         material="S1_FlyingNB00_PPMI"
+         bAlwaysRender="true"
+         chain="PostProcess.PPC.S1_FlyingNB00_PPC" />
+    <Set id="31"
+         priority="700"
+         layer="820"
+         material="S1_FlyingNB01_PPMI"
+         bAlwaysRender="true"
+         chain="PostProcess.PPC.S1_FlyingNB01_PPC" />
+    <Set id="32"
+         priority="700"
+         layer="820"
+         material="S1_FlyingNB02_PPMI"
+         bAlwaysRender="true"
+         chain="PostProcess.PPC.S1_FlyingNB02_PPC" />
+    <Set id="33"
+         priority="500"
+         layer="640"
+         material="S1_SorcererElementCollapse_PPMI"
+         bAlwaysRender="false"
+         chain="PostProcess.PPC.S1_SorcererElementCollapse_PPC" />
+    <Set id="34"
+         priority="500"
+         layer="640"
+         material="S1_Flash00_PPMI"
+         bAlwaysRender="false"
+         chain="PostProcess.PPC.S1_Flash00_PPC" />
+    <Set id="35"
+         priority="800"
+         layer="680"
+         material="S1_BeamPanel00_PPMI"
+         bAlwaysRender="false"
+         chain="PostProcess.PPC.S1_BeamPanel00_PPC" />
+    <Set id="36"
+         priority="800"
+         layer="680"
+         material="S1_AssassinAwaken00_PPMI"
+         bAlwaysRender="false"
+         chain="PostProcess_01.PPC.S1_AssassinAwaken00_PPC" />
+    <Set id="37"
+         priority="800"
+         layer="680"
+         material="S1_GlaiverAwaken00_PPMI"
+         bAlwaysRender="false"
+         chain="PostProcess_01.PPC.S1_GlaiverAwaken00_PPC" />
+    <Set id="38"
+         priority="800"
+         layer="680"
+         material="S1_ArcherAwaken00_PPMI"
+         bAlwaysRender="false"
+         chain="PostProcess_01.PPC.S1_ArcherAwaken00_PPC"
+         useScreenRatio="true" />
+    <Set id="39"
+         priority="800"
+         layer="680"
+         material="S1_ArcherVeteran00_PPMI"
+         bAlwaysRender="false"
+         chain="PostProcess_01.PPC.S1_ArcherVeteran00_PPC"
+         useScreenRatio="true" />
+    <Set id="40"
+         priority="800"
+         layer="680"
+         material="S1_ButterflyGem00_PPMI"
+         bAlwaysRender="false"
+         chain="PostProcess_01.PPC.S1_ButterflyGem00_PPC"
+         useScreenRatio="true" />
+    <Set id="41"
+         priority="800"
+         layer="680"
+         material="S1_Absorption00_PPMI"
+         bAlwaysRender="true"
+         chain="PostProcess_01.PPC.S1_Absorption00_PPC" />
+    <Set id="42"
+         priority="800"
+         layer="680"
+         material="S1_Consumption00_PPMI"
+         bAlwaysRender="true"
+         chain="PostProcess_01.PPC.S1_Consumption00_PPC" />
+    <Set id="43"
+         priority="900"
+         layer="680"
+         material="S1_DugeonResonance02_PPM_MI"
+         bAlwaysRender="true"
+         chain="PostProcess_01.PPC.S1_DungeonResonance00_PPC" />
+    <Set id="44"
+         priority="900"
+         layer="680"
+         material="S1_GuildCoOpDungeon01_PPM_MI"
+         bAlwaysRender="true"
+         chain="PostProcess_01.PPC.S1_GuildCoOpDungeon00_PPC" />
 </PostProcess>

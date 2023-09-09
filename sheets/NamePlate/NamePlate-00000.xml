@@ -1,87 +1,264 @@
-<NamePlate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/NamePlate NamePlate.xsd" xmlns="https://vezel.dev/novadrop/dc/NamePlate">
+<NamePlate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://vezel.dev/novadrop/dc/NamePlate NamePlate.xsd"
+           xmlns="https://vezel.dev/novadrop/dc/NamePlate">
     <AccountTraitIcon>
-        <AccountTrait address="&lt;img src='pc'&gt;" packageId="1000" traitIconStringId="PCBang" />
+        <AccountTrait address="&lt;img src='pc'&gt;"
+                      packageId="1000"
+                      traitIconStringId="PCBang" />
     </AccountTraitIcon>
     <AchievementTitleReward>
         <Icons>
-            <Icon grade="0" icon="" />
-            <Icon grade="1" icon="" />
-            <Icon grade="2" icon="" />
+            <Icon grade="0"
+                  icon="" />
+            <Icon grade="1"
+                  icon="" />
+            <Icon grade="2"
+                  icon="" />
         </Icons>
         <Template>{Title}</Template>
     </AchievementTitleReward>
-    <DefaultValue defaultDistance="5" battleFieldCommanderIcon="Icon_System.BF_Commander32" collectionDistance="30" deathDistance="15" defaultOffset="12" eliteIcon="Icon_System.PartyMonster64" freeNamedIcon="Icon_System.FreeHuntingNamedMonster64" hpOffsetPos="0" itemDistance="25" minPos="0.75" nameViewRange="1000" unionEliteIcon="Icon_System.BlackHoleMonster64" />
+    <DefaultValue defaultDistance="5"
+                  battleFieldCommanderIcon="Icon_System.BF_Commander32"
+                  collectionDistance="30"
+                  deathDistance="15"
+                  defaultOffset="12"
+                  eliteIcon="Icon_System.PartyMonster64"
+                  freeNamedIcon="Icon_System.FreeHuntingNamedMonster64"
+                  hpOffsetPos="0"
+                  itemDistance="25"
+                  minPos="0.75"
+                  nameViewRange="1000"
+                  unionEliteIcon="Icon_System.BlackHoleMonster64" />
     <FontColor>
         <AchievementTitle>
-            <Title grade="0" blue="240" red="240" green="240" />
-            <Title grade="1" blue="240" red="240" green="240" />
-            <Title grade="2" blue="4" red="251" green="207" />
-            <Title grade="3" blue="29" red="242" green="148" />
-            <Title grade="4" blue="29" red="242" green="148" />
-            <Title grade="11" blue="102" red="255" green="178" />
-            <Title grade="12" blue="102" red="255" green="178" />
-            <Title grade="21" blue="255" red="102" green="178" />
-            <Title grade="22" blue="255" red="102" green="178" />
-            <Title grade="31" blue="29" red="242" green="148" />
-            <Title grade="32" blue="4" red="251" green="207" />
-            <Title grade="41" blue="132" red="193" green="22" />
-            <Title grade="42" blue="99" red="73" green="15" />
-            <Title grade="43" blue="0" red="144" green="0" />
-            <Title grade="51" blue="240" red="240" green="240" />
-            <Title grade="52" blue="4" red="251" green="207" />
-            <Title grade="53" blue="29" red="242" green="148" />
-            <Title grade="54" blue="29" red="242" green="148" />
-            <Title grade="61" blue="255" red="102" green="178" />
-            <Title grade="62" blue="255" red="102" green="178" />
-            <Title grade="71" blue="255" red="102" green="178" />
-            <Title grade="72" blue="255" red="102" green="178" />
-            <Title grade="73" blue="255" red="102" green="178" />
+            <Title grade="0"
+                   blue="240"
+                   red="240"
+                   green="240" />
+            <Title grade="1"
+                   blue="240"
+                   red="240"
+                   green="240" />
+            <Title grade="2"
+                   blue="4"
+                   red="251"
+                   green="207" />
+            <Title grade="3"
+                   blue="29"
+                   red="242"
+                   green="148" />
+            <Title grade="4"
+                   blue="29"
+                   red="242"
+                   green="148" />
+            <Title grade="11"
+                   blue="102"
+                   red="255"
+                   green="178" />
+            <Title grade="12"
+                   blue="102"
+                   red="255"
+                   green="178" />
+            <Title grade="21"
+                   blue="255"
+                   red="102"
+                   green="178" />
+            <Title grade="22"
+                   blue="255"
+                   red="102"
+                   green="178" />
+            <Title grade="31"
+                   blue="29"
+                   red="242"
+                   green="148" />
+            <Title grade="32"
+                   blue="4"
+                   red="251"
+                   green="207" />
+            <Title grade="41"
+                   blue="132"
+                   red="193"
+                   green="22" />
+            <Title grade="42"
+                   blue="99"
+                   red="73"
+                   green="15" />
+            <Title grade="43"
+                   blue="0"
+                   red="144"
+                   green="0" />
+            <Title grade="51"
+                   blue="240"
+                   red="240"
+                   green="240" />
+            <Title grade="52"
+                   blue="4"
+                   red="251"
+                   green="207" />
+            <Title grade="53"
+                   blue="29"
+                   red="242"
+                   green="148" />
+            <Title grade="54"
+                   blue="29"
+                   red="242"
+                   green="148" />
+            <Title grade="61"
+                   blue="255"
+                   red="102"
+                   green="178" />
+            <Title grade="62"
+                   blue="255"
+                   red="102"
+                   green="178" />
+            <Title grade="71"
+                   blue="255"
+                   red="102"
+                   green="178" />
+            <Title grade="72"
+                   blue="255"
+                   red="102"
+                   green="178" />
+            <Title grade="73"
+                   blue="255"
+                   red="102"
+                   green="178" />
         </AchievementTitle>
-        <BattleFieldAlly blue="250" red="30" green="215" />
-        <BattleFieldEnemy blue="60" red="255" green="60" />
-        <Collection blue="204" red="204" green="204" />
-        <DeadPlayer blue="80" red="80" green="80" />
-        <DuelEnemy blue="60" red="255" green="60" />
-        <DungeonDeadPlayer blue="0" red="120" green="0" />
-        <FloatingCastle blue="204" red="204" green="204" />
-        <GameMaster blue="0" red="255" green="215" />
-        <Guild blue="153" red="153" green="153" />
-        <GuildEnemy blue="60" red="255" green="60" />
-        <GuildMember blue="40" red="40" green="251" />
-        <GuildTowerEnemy blue="60" red="255" green="60" />
-        <GuildTowerOur blue="150" red="1" green="255" />
-        <GuildWar blue="204" red="204" green="204" />
-        <HighLevelMonster blue="100" red="229" green="145" />
-        <HigherLevelMonster blue="24" red="166" green="24" />
-        <Item0 blue="204" red="204" green="204" />
-        <Item1 blue="152" red="152" green="255" />
-        <Item2 blue="255" red="51" green="190" />
-        <Item3 blue="82" red="255" green="106" />
-        <Item4 blue="197" red="217" green="65" />
-        <ItemBidding blue="204" red="204" green="204" />
-        <LowLevelMonster blue="122" red="122" green="122" />
-        <LowerLevelMonster blue="80" red="80" green="80" />
-        <MonsterNotMine blue="80" red="80" green="80" />
-        <MonsterSpecies blue="204" red="204" green="204" />
-        <MonsterTitle blue="204" red="204" green="204" />
-        <NoAuthority blue="127" red="127" green="127" />
-        <NpcVillager blue="255" red="53" green="219" />
-        <ObjectNpc blue="0" red="0" green="255" />
-        <PVPEnemy blue="60" red="255" green="60" />
-        <Party blue="255" red="1" green="150" />
-        <Pet blue="255" red="53" green="219" />
-        <PkEnemy blue="60" red="255" green="60" />
-        <PkInWar blue="60" red="255" green="166" />
-        <Player blue="204" red="204" green="204" />
-        <ProperLevelMonster blue="204" red="204" green="204" />
-        <Raid blue="0" red="255" green="204" />
-        <Self blue="204" red="204" green="204" />
-        <ServantName blue="204" red="204" green="204" />
-        <SignBoard blue="214" red="114" green="161" />
-        <SignBoardBuy blue="67" red="227" green="163" />
-        <SignBoardSell blue="213" red="121" green="173" />
-        <Union blue="204" red="204" green="204" />
-        <VillagerJob blue="255" red="150" green="215" />
+        <BattleFieldAlly blue="250"
+                         red="30"
+                         green="215" />
+        <BattleFieldEnemy blue="60"
+                          red="255"
+                          green="60" />
+        <Collection blue="204"
+                    red="204"
+                    green="204" />
+        <DeadPlayer blue="80"
+                    red="80"
+                    green="80" />
+        <DuelEnemy blue="60"
+                   red="255"
+                   green="60" />
+        <DungeonDeadPlayer blue="0"
+                           red="120"
+                           green="0" />
+        <FloatingCastle blue="204"
+                        red="204"
+                        green="204" />
+        <GameMaster blue="0"
+                    red="255"
+                    green="215" />
+        <Guild blue="153"
+               red="153"
+               green="153" />
+        <GuildEnemy blue="60"
+                    red="255"
+                    green="60" />
+        <GuildMember blue="40"
+                     red="40"
+                     green="251" />
+        <GuildTowerEnemy blue="60"
+                         red="255"
+                         green="60" />
+        <GuildTowerOur blue="150"
+                       red="1"
+                       green="255" />
+        <GuildWar blue="204"
+                  red="204"
+                  green="204" />
+        <HighLevelMonster blue="100"
+                          red="229"
+                          green="145" />
+        <HigherLevelMonster blue="24"
+                            red="166"
+                            green="24" />
+        <Item0 blue="204"
+               red="204"
+               green="204" />
+        <Item1 blue="152"
+               red="152"
+               green="255" />
+        <Item2 blue="255"
+               red="51"
+               green="190" />
+        <Item3 blue="82"
+               red="255"
+               green="106" />
+        <Item4 blue="197"
+               red="217"
+               green="65" />
+        <ItemBidding blue="204"
+                     red="204"
+                     green="204" />
+        <LowLevelMonster blue="122"
+                         red="122"
+                         green="122" />
+        <LowerLevelMonster blue="80"
+                           red="80"
+                           green="80" />
+        <MonsterNotMine blue="80"
+                        red="80"
+                        green="80" />
+        <MonsterSpecies blue="204"
+                        red="204"
+                        green="204" />
+        <MonsterTitle blue="204"
+                      red="204"
+                      green="204" />
+        <NoAuthority blue="127"
+                     red="127"
+                     green="127" />
+        <NpcVillager blue="255"
+                     red="53"
+                     green="219" />
+        <ObjectNpc blue="0"
+                   red="0"
+                   green="255" />
+        <PVPEnemy blue="60"
+                  red="255"
+                  green="60" />
+        <Party blue="255"
+               red="1"
+               green="150" />
+        <Pet blue="255"
+             red="53"
+             green="219" />
+        <PkEnemy blue="60"
+                 red="255"
+                 green="60" />
+        <PkInWar blue="60"
+                 red="255"
+                 green="166" />
+        <Player blue="204"
+                red="204"
+                green="204" />
+        <ProperLevelMonster blue="204"
+                            red="204"
+                            green="204" />
+        <Raid blue="0"
+              red="255"
+              green="204" />
+        <Self blue="204"
+              red="204"
+              green="204" />
+        <ServantName blue="204"
+                     red="204"
+                     green="204" />
+        <SignBoard blue="214"
+                   red="114"
+                   green="161" />
+        <SignBoardBuy blue="67"
+                      red="227"
+                      green="163" />
+        <SignBoardSell blue="213"
+                       red="121"
+                       green="173" />
+        <Union blue="204"
+               red="204"
+               green="204" />
+        <VillagerJob blue="255"
+                     red="150"
+                     green="215" />
     </FontColor>
     <HPGauge>
         <BasisModifier value="-8" />
@@ -89,166 +266,315 @@
         <ScaleModifier value="2" />
     </HPGauge>
     <HPGaugeCustomList>
-        <HPGaugeCustom templateId="1005" huntingZoneId="443">
+        <HPGaugeCustom templateId="1005"
+                       huntingZoneId="443">
             <BasisModifier value="0" />
             <Height value="10" />
             <ScaleModifier value="1.95" />
         </HPGaugeCustom>
-        <HPGaugeCustom templateId="1005" huntingZoneId="743">
+        <HPGaugeCustom templateId="1005"
+                       huntingZoneId="743">
             <BasisModifier value="0" />
             <Height value="10" />
             <ScaleModifier value="1.95" />
         </HPGaugeCustom>
     </HPGaugeCustomList>
     <HPGaugeCustomList>
-        <HPGaugeCustom templateId="6001" huntingZoneId="121">
+        <HPGaugeCustom templateId="6001"
+                       huntingZoneId="121">
             <BasisModifier value="-250" />
             <Height value="-32" />
             <ScaleModifier value="3" />
         </HPGaugeCustom>
     </HPGaugeCustomList>
     <HPGaugeCustomList>
-        <HPGaugeCustom templateId="6001" huntingZoneId="122">
+        <HPGaugeCustom templateId="6001"
+                       huntingZoneId="122">
             <BasisModifier value="-250" />
             <Height value="-32" />
             <ScaleModifier value="3" />
         </HPGaugeCustom>
     </HPGaugeCustomList>
     <HPGaugeCustomList>
-        <HPGaugeCustom templateId="6001" huntingZoneId="123">
+        <HPGaugeCustom templateId="6001"
+                       huntingZoneId="123">
             <BasisModifier value="-250" />
             <Height value="-32" />
             <ScaleModifier value="3" />
         </HPGaugeCustom>
     </HPGaugeCustomList>
     <HPGaugeCustomList>
-        <HPGaugeCustom templateId="81101" huntingZoneId="711">
+        <HPGaugeCustom templateId="81101"
+                       huntingZoneId="711">
             <BasisModifier value="1" />
             <Height value="30" />
             <ScaleModifier value="2" />
         </HPGaugeCustom>
     </HPGaugeCustomList>
     <HPGaugeCustomList>
-        <HPGaugeCustom templateId="81102" huntingZoneId="711">
+        <HPGaugeCustom templateId="81102"
+                       huntingZoneId="711">
             <BasisModifier value="1" />
             <Height value="30" />
             <ScaleModifier value="2" />
         </HPGaugeCustom>
     </HPGaugeCustomList>
     <HPGaugeCustomList>
-        <HPGaugeCustom templateId="81118" huntingZoneId="711">
+        <HPGaugeCustom templateId="81118"
+                       huntingZoneId="711">
             <BasisModifier value="1" />
             <Height value="30" />
             <ScaleModifier value="2" />
         </HPGaugeCustom>
     </HPGaugeCustomList>
     <HPGaugeCustomList>
-        <HPGaugeCustom templateId="81101" huntingZoneId="811">
+        <HPGaugeCustom templateId="81101"
+                       huntingZoneId="811">
             <BasisModifier value="1" />
             <Height value="30" />
             <ScaleModifier value="2" />
         </HPGaugeCustom>
     </HPGaugeCustomList>
     <HPGaugeCustomList>
-        <HPGaugeCustom templateId="81102" huntingZoneId="811">
+        <HPGaugeCustom templateId="81102"
+                       huntingZoneId="811">
             <BasisModifier value="1" />
             <Height value="30" />
             <ScaleModifier value="2" />
         </HPGaugeCustom>
     </HPGaugeCustomList>
     <HPGaugeCustomList>
-        <HPGaugeCustom templateId="81118" huntingZoneId="811">
+        <HPGaugeCustom templateId="81118"
+                       huntingZoneId="811">
             <BasisModifier value="1" />
             <Height value="30" />
             <ScaleModifier value="2" />
         </HPGaugeCustom>
     </HPGaugeCustomList>
-    <MonsterColorByLevelDiff highMax="3" lowerMax="-5" lowMax="-3" properMax="1" />
+    <MonsterColorByLevelDiff highMax="3"
+                             lowerMax="-5"
+                             lowMax="-3"
+                             properMax="1" />
     <NamePosition>
-        <Data basePos="45.980366" genderId="0" offsetPos="-5" raceId="0" />
-        <Data basePos="43.25768" genderId="1" offsetPos="-5" raceId="0" />
-        <Data basePos="46.37856" genderId="0" offsetPos="-5" raceId="1" />
-        <Data basePos="44.709045" genderId="1" offsetPos="-5" raceId="1" />
-        <Data basePos="55.661354" genderId="0" offsetPos="-3" raceId="2" />
-        <Data basePos="52.18324" genderId="1" offsetPos="-5" raceId="2" />
-        <Data basePos="44.13309" genderId="0" offsetPos="-5" raceId="3" />
-        <Data basePos="38.332943" genderId="1" offsetPos="-5" raceId="3" />
-        <Data basePos="32.148674" genderId="0" offsetPos="-5" raceId="4" />
-        <Data basePos="32.832714" genderId="1" offsetPos="-5" raceId="4" />
-        <Data basePos="57.329376" genderId="0" offsetPos="-5" raceId="5" />
+        <Data basePos="45.980366"
+              genderId="0"
+              offsetPos="-5"
+              raceId="0" />
+        <Data basePos="43.25768"
+              genderId="1"
+              offsetPos="-5"
+              raceId="0" />
+        <Data basePos="46.37856"
+              genderId="0"
+              offsetPos="-5"
+              raceId="1" />
+        <Data basePos="44.709045"
+              genderId="1"
+              offsetPos="-5"
+              raceId="1" />
+        <Data basePos="55.661354"
+              genderId="0"
+              offsetPos="-3"
+              raceId="2" />
+        <Data basePos="52.18324"
+              genderId="1"
+              offsetPos="-5"
+              raceId="2" />
+        <Data basePos="44.13309"
+              genderId="0"
+              offsetPos="-5"
+              raceId="3" />
+        <Data basePos="38.332943"
+              genderId="1"
+              offsetPos="-5"
+              raceId="3" />
+        <Data basePos="32.148674"
+              genderId="0"
+              offsetPos="-5"
+              raceId="4" />
+        <Data basePos="32.832714"
+              genderId="1"
+              offsetPos="-5"
+              raceId="4" />
+        <Data basePos="57.329376"
+              genderId="0"
+              offsetPos="-5"
+              raceId="5" />
     </NamePosition>
     <NameSize>
-        <BuildObject defaultSize="0.8" slope="0.00168" />
-        <Collection defaultSize="0.25" slope="0.00168" />
-        <FloatingCastle defaultSize="1" slope="0.00168" />
-        <Hero defaultSize="0.2" slope="0.00168" />
-        <Item defaultSize="0.25" slope="0.00168" />
-        <LargeNpc defaultSize="0.6" slope="0.00168" />
-        <MediumNpc defaultSize="0.33" slope="0.00168" />
+        <BuildObject defaultSize="0.8"
+                     slope="0.00168" />
+        <Collection defaultSize="0.25"
+                    slope="0.00168" />
+        <FloatingCastle defaultSize="1"
+                        slope="0.00168" />
+        <Hero defaultSize="0.2"
+              slope="0.00168" />
+        <Item defaultSize="0.25"
+              slope="0.00168" />
+        <LargeNpc defaultSize="0.6"
+                  slope="0.00168" />
+        <MediumNpc defaultSize="0.33"
+                   slope="0.00168" />
         <MonsterSpecies fontSize="0" />
-        <Pet defaultSize="0.33" slope="0.00168" />
-        <Servant defaultSize="0.33" slope="0.00168" />
-        <SignBoard defaultSize="0.33" slope="0.00168" />
-        <SmallNpc defaultSize="0.33" slope="0.00168" />
-        <User defaultSize="0.33" slope="0.00168" />
-        <Villager defaultSize="0.5" slope="0.00168" />
-        <WorkObject defaultSize="0.5" slope="0.00168" />
+        <Pet defaultSize="0.33"
+             slope="0.00168" />
+        <Servant defaultSize="0.33"
+                 slope="0.00168" />
+        <SignBoard defaultSize="0.33"
+                   slope="0.00168" />
+        <SmallNpc defaultSize="0.33"
+                  slope="0.00168" />
+        <User defaultSize="0.33"
+              slope="0.00168" />
+        <Villager defaultSize="0.5"
+                  slope="0.00168" />
+        <WorkObject defaultSize="0.5"
+                    slope="0.00168" />
     </NameSize>
     <Resource>
         <FloatingCastle>
-            <GFX gfxMovie="S1UI_Nameplate.Nameplate" textureSizeX="512" textureSizeY="256" uiFunc="OnGame_NamePlate_SetCastleName" />
-            <Unreal materialInstanceConstant="GuildHouseName.GuildHouseName00_MI" materialInstanceConstant2="GuildHouseName.NameLine_MI" particleSystem="GuildHouseName.GuildHouseName01_PS" />
+            <GFX gfxMovie="S1UI_Nameplate.Nameplate"
+                 textureSizeX="512"
+                 textureSizeY="256"
+                 uiFunc="OnGame_NamePlate_SetCastleName" />
+            <Unreal materialInstanceConstant="GuildHouseName.GuildHouseName00_MI"
+                    materialInstanceConstant2="GuildHouseName.NameLine_MI"
+                    particleSystem="GuildHouseName.GuildHouseName01_PS" />
         </FloatingCastle>
         <HeroName>
-            <GFX materialInstanceConstant="S1UI_TBANamePlate.name_MI" gfxMovie="S1UI_TBANamePlate.TBANamePlate" textureSizeX="512" textureSizeY="256" particleSystem="S1UI_TBANamePlate.namePrint_PS" />
+            <GFX materialInstanceConstant="S1UI_TBANamePlate.name_MI"
+                 gfxMovie="S1UI_TBANamePlate.TBANamePlate"
+                 textureSizeX="512"
+                 textureSizeY="256"
+                 particleSystem="S1UI_TBANamePlate.namePrint_PS" />
         </HeroName>
         <ItemMsg>
-            <GFX gfxMovie="S1UI_BoardPlate.BoardPlate" textureSizeX="256" textureSizeY="128" uiFunc="OnGame_BoardPlate_SetData" />
-            <Unreal materialInstanceConstant="S1UI_Nameplate.name_MI" particleSystem="S1UI_Nameplate.namePrint_PS" />
+            <GFX gfxMovie="S1UI_BoardPlate.BoardPlate"
+                 textureSizeX="256"
+                 textureSizeY="128"
+                 uiFunc="OnGame_BoardPlate_SetData" />
+            <Unreal materialInstanceConstant="S1UI_Nameplate.name_MI"
+                    particleSystem="S1UI_Nameplate.namePrint_PS" />
         </ItemMsg>
         <Money>
-            <Copper img="Copper_smalltoken" numColor="c87551" textColor="d7d7d7" />
-            <Gold img="Gold_smalltoken" numColor="ffb033" textColor="d7d7d7" />
-            <NoAuthorityMoney numColor="777777" textColor="777777" />
-            <Silver img="Silver_smalltoken" numColor="d7d7d7" textColor="d7d7d7" />
+            <Copper img="Copper_smalltoken"
+                    numColor="c87551"
+                    textColor="d7d7d7" />
+            <Gold img="Gold_smalltoken"
+                  numColor="ffb033"
+                  textColor="d7d7d7" />
+            <NoAuthorityMoney numColor="777777"
+                              textColor="777777" />
+            <Silver img="Silver_smalltoken"
+                    numColor="d7d7d7"
+                    textColor="d7d7d7" />
         </Money>
         <Name>
-            <GFX gfxMovie="S1UI_Nameplate.Nameplate" textureSizeX="512" textureSizeY="256" uiFunc="OnGame_NamePlate_SetName" />
-            <Unreal materialInstanceConstant="S1UI_Nameplate.name_MI" particleSystem="S1UI_Nameplate.namePrint_PS" />
+            <GFX gfxMovie="S1UI_Nameplate.Nameplate"
+                 textureSizeX="512"
+                 textureSizeY="256"
+                 uiFunc="OnGame_NamePlate_SetName" />
+            <Unreal materialInstanceConstant="S1UI_Nameplate.name_MI"
+                    particleSystem="S1UI_Nameplate.namePrint_PS" />
         </Name>
         <Notice>
-            <GFX gfxMovie="S1UI_BoardPlate.BoardPlate" textureSizeX="256" textureSizeY="128" uiFunc="OnGame_BoardPlate_SetData" />
-            <Unreal materialInstanceConstant="S1UI_Nameplate.name_MI" particleSystem="S1UI_Nameplate.namePrint_PS" />
+            <GFX gfxMovie="S1UI_BoardPlate.BoardPlate"
+                 textureSizeX="256"
+                 textureSizeY="128"
+                 uiFunc="OnGame_BoardPlate_SetData" />
+            <Unreal materialInstanceConstant="S1UI_Nameplate.name_MI"
+                    particleSystem="S1UI_Nameplate.namePrint_PS" />
         </Notice>
         <SignBoard>
-            <GFX gfxMovie="S1UI_BalloonWorld.BalloonWorld" textureSizeX="512" textureSizeY="128" uiFunc="OnGame_BalloonWorld_SetMessage" />
-            <Unreal materialInstanceConstant="S1UI_BalloonWorld.Balloon_MI" particleSystem="S1UI_BalloonWorld.Balloon_PS" />
+            <GFX gfxMovie="S1UI_BalloonWorld.BalloonWorld"
+                 textureSizeX="512"
+                 textureSizeY="128"
+                 uiFunc="OnGame_BalloonWorld_SetMessage" />
+            <Unreal materialInstanceConstant="S1UI_BalloonWorld.Balloon_MI"
+                    particleSystem="S1UI_BalloonWorld.Balloon_PS" />
         </SignBoard>
         <StatueDaisNickName>
-            <GFX gfxMovie="S1UI_BoardPlate.BoardPlate" textureSizeX="256" textureSizeY="128" uiFunc="OnGame_BoardPlate_SetData" />
-            <Unreal materialInstanceConstant="S1UI_Nameplate.name_MI" particleSystem="S1UI_Nameplate.namePrint_PS" />
+            <GFX gfxMovie="S1UI_BoardPlate.BoardPlate"
+                 textureSizeX="256"
+                 textureSizeY="128"
+                 uiFunc="OnGame_BoardPlate_SetData" />
+            <Unreal materialInstanceConstant="S1UI_Nameplate.name_MI"
+                    particleSystem="S1UI_Nameplate.namePrint_PS" />
         </StatueDaisNickName>
         <UserName>
-            <GFX gfxMovie="S1UI_Nameplate.Nameplate" textureSizeX="512" textureSizeY="256" uiFunc="OnGame_NamePlate_SetPcName" />
+            <GFX gfxMovie="S1UI_Nameplate.Nameplate"
+                 textureSizeX="512"
+                 textureSizeY="256"
+                 uiFunc="OnGame_NamePlate_SetPcName" />
             <SpecificEffect>
-                <Effect grade="4" offsetY="25" materialInstanceConstant="S1UI_Nameplate.name_Glory_MI" particleSystem="S1UI_Nameplate.namePrint_Glory_PS" />
-                <Effect grade="11" materialInstanceConstant="S1UI_Nameplate_L.MI.MI_PVP_F" particleSystem="S1UI_Nameplate_L.PS.PVP_F" additionalParticleSystem="S1UI_Nameplate_L.PS.PVP_F_PS" attachParticle="false" />
-                <Effect grade="12" materialInstanceConstant="S1UI_Nameplate_L.MI.MI_PVP_ST" particleSystem="S1UI_Nameplate_L.PS.PVP_ST" />
-                <Effect grade="21" materialInstanceConstant="S1UI_Nameplate_L.MI.MI_PVE_F" particleSystem="S1UI_Nameplate_L.PS.PVE_F" additionalParticleSystem="S1UI_Nameplate_L.PS.PVE_F_PS" attachParticle="false" />
-                <Effect grade="22" materialInstanceConstant="S1UI_Nameplate_L.MI.MI_PVE_ST" particleSystem="S1UI_Nameplate_L.PS.PVE_ST" />
-                <Effect grade="31" materialInstanceConstant="S1UI_Nameplate_L.MI.MI_PVE_Tournament_2TH" particleSystem="S1UI_Nameplate_L.PS.PVE_Tournament_2TH_PS" />
-                <Effect grade="32" materialInstanceConstant="S1UI_Nameplate_L.MI.MI_PVE_Tournament_1TH" particleSystem="S1UI_Nameplate_L.PS.PVE_Tournament_1TH_PS" additionalParticleSystem="S1UI_Nameplate_L.PS.02BP" attachParticle="false" />
-                <Effect grade="51" materialInstanceConstant="S1UI_Nameplate_L.MI.21_Reward_Grade_00_MI" particleSystem="S1UI_Nameplate_L.PS.21_Reward_Grade_00_PS" />
-                <Effect grade="52" materialInstanceConstant="S1UI_Nameplate_L.MI.21_Reward_Grade_01_MI" particleSystem="S1UI_Nameplate_L.PS.21_Reward_Grade_01_PS" />
-                <Effect grade="53" materialInstanceConstant="S1UI_Nameplate_L.MI.21_Reward_Grade_02_MI" particleSystem="S1UI_Nameplate_L.PS.21_Reward_Grade_02_PS" additionalParticleSystem="S1UI_Nameplate_L.PS.21_Reward_Grade_Add_PS" attachParticle="false" />
-                <Effect grade="54" materialInstanceConstant="S1UI_Nameplate_L.MI.O_Thanks00_MI" particleSystem="S1UI_Nameplate_L.PS.21_thanks_01_PS" />
-                <Effect grade="61" materialInstanceConstant="S1UI_Nameplate_L.MI.MI_DR01_F" particleSystem="S1UI_Nameplate_L.PS.DRname_F" additionalParticleSystem="S1UI_Nameplate_L.PS.DR01_F_PS" attachParticle="false" />
-                <Effect grade="62" materialInstanceConstant="S1UI_Nameplate_L.MI.MI_DR02_F" particleSystem="S1UI_Nameplate_L.PS.DRname02_F" attachParticle="false" />
-                <Effect grade="71" materialInstanceConstant="S1UI_Nameplate_L.MI.WDC_winner_003_MI" particleSystem="S1UI_Nameplate_L.PS.WDC_winner_03_PS" />
-                <Effect grade="72" materialInstanceConstant="S1UI_Nameplate_L.MI.WDC_winner_002_MI" particleSystem="S1UI_Nameplate_L.PS.WDC_winner_02_PS" additionalParticleSystem="S1UI_Nameplate_L.PS.WDC_Winner_Attach_02_PS" attachParticle="false" />
-                <Effect grade="73" materialInstanceConstant="S1UI_Nameplate_L.MI.WDC_winner_001_MI" particleSystem="S1UI_Nameplate_L.PS.WDC_winner_01_PS" additionalParticleSystem="S1UI_Nameplate_L.PS.WDC_Winner_Attach_01_PS" attachParticle="false" />
+                <Effect grade="4"
+                        offsetY="25"
+                        materialInstanceConstant="S1UI_Nameplate.name_Glory_MI"
+                        particleSystem="S1UI_Nameplate.namePrint_Glory_PS" />
+                <Effect grade="11"
+                        materialInstanceConstant="S1UI_Nameplate_L.MI.MI_PVP_F"
+                        particleSystem="S1UI_Nameplate_L.PS.PVP_F"
+                        additionalParticleSystem="S1UI_Nameplate_L.PS.PVP_F_PS"
+                        attachParticle="false" />
+                <Effect grade="12"
+                        materialInstanceConstant="S1UI_Nameplate_L.MI.MI_PVP_ST"
+                        particleSystem="S1UI_Nameplate_L.PS.PVP_ST" />
+                <Effect grade="21"
+                        materialInstanceConstant="S1UI_Nameplate_L.MI.MI_PVE_F"
+                        particleSystem="S1UI_Nameplate_L.PS.PVE_F"
+                        additionalParticleSystem="S1UI_Nameplate_L.PS.PVE_F_PS"
+                        attachParticle="false" />
+                <Effect grade="22"
+                        materialInstanceConstant="S1UI_Nameplate_L.MI.MI_PVE_ST"
+                        particleSystem="S1UI_Nameplate_L.PS.PVE_ST" />
+                <Effect grade="31"
+                        materialInstanceConstant="S1UI_Nameplate_L.MI.MI_PVE_Tournament_2TH"
+                        particleSystem="S1UI_Nameplate_L.PS.PVE_Tournament_2TH_PS" />
+                <Effect grade="32"
+                        materialInstanceConstant="S1UI_Nameplate_L.MI.MI_PVE_Tournament_1TH"
+                        particleSystem="S1UI_Nameplate_L.PS.PVE_Tournament_1TH_PS"
+                        additionalParticleSystem="S1UI_Nameplate_L.PS.02BP"
+                        attachParticle="false" />
+                <Effect grade="51"
+                        materialInstanceConstant="S1UI_Nameplate_L.MI.21_Reward_Grade_00_MI"
+                        particleSystem="S1UI_Nameplate_L.PS.21_Reward_Grade_00_PS" />
+                <Effect grade="52"
+                        materialInstanceConstant="S1UI_Nameplate_L.MI.21_Reward_Grade_01_MI"
+                        particleSystem="S1UI_Nameplate_L.PS.21_Reward_Grade_01_PS" />
+                <Effect grade="53"
+                        materialInstanceConstant="S1UI_Nameplate_L.MI.21_Reward_Grade_02_MI"
+                        particleSystem="S1UI_Nameplate_L.PS.21_Reward_Grade_02_PS"
+                        additionalParticleSystem="S1UI_Nameplate_L.PS.21_Reward_Grade_Add_PS"
+                        attachParticle="false" />
+                <Effect grade="54"
+                        materialInstanceConstant="S1UI_Nameplate_L.MI.O_Thanks00_MI"
+                        particleSystem="S1UI_Nameplate_L.PS.21_thanks_01_PS" />
+                <Effect grade="61"
+                        materialInstanceConstant="S1UI_Nameplate_L.MI.MI_DR01_F"
+                        particleSystem="S1UI_Nameplate_L.PS.DRname_F"
+                        additionalParticleSystem="S1UI_Nameplate_L.PS.DR01_F_PS"
+                        attachParticle="false" />
+                <Effect grade="62"
+                        materialInstanceConstant="S1UI_Nameplate_L.MI.MI_DR02_F"
+                        particleSystem="S1UI_Nameplate_L.PS.DRname02_F"
+                        attachParticle="false" />
+                <Effect grade="71"
+                        materialInstanceConstant="S1UI_Nameplate_L.MI.WDC_winner_003_MI"
+                        particleSystem="S1UI_Nameplate_L.PS.WDC_winner_03_PS" />
+                <Effect grade="72"
+                        materialInstanceConstant="S1UI_Nameplate_L.MI.WDC_winner_002_MI"
+                        particleSystem="S1UI_Nameplate_L.PS.WDC_winner_02_PS"
+                        additionalParticleSystem="S1UI_Nameplate_L.PS.WDC_Winner_Attach_02_PS"
+                        attachParticle="false" />
+                <Effect grade="73"
+                        materialInstanceConstant="S1UI_Nameplate_L.MI.WDC_winner_001_MI"
+                        particleSystem="S1UI_Nameplate_L.PS.WDC_winner_01_PS"
+                        additionalParticleSystem="S1UI_Nameplate_L.PS.WDC_Winner_Attach_01_PS"
+                        attachParticle="false" />
             </SpecificEffect>
-            <Unreal materialInstanceConstant="S1UI_Nameplate.name_MI" particleSystem="S1UI_Nameplate.namePrint_PS" />
+            <Unreal materialInstanceConstant="S1UI_Nameplate.name_MI"
+                    particleSystem="S1UI_Nameplate.namePrint_PS" />
         </UserName>
     </Resource>
 </NamePlate>

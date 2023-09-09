@@ -1,13 +1,44 @@
-<ClassExceptionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/ClassExceptionData ClassExceptionData.xsd" xmlns="https://vezel.dev/novadrop/dc/ClassExceptionData">
-    <Condition class="soulless" minLevel="1" maxLevel="57" />
-    <Condition class="soulless" minLevel="58" maxLevel="70" />
-    <Condition class="engineer" minLevel="1" maxLevel="70" />
-    <Condition class="fighter" minLevel="1" maxLevel="70" />
-    <Condition class="assassin" minLevel="1" maxLevel="70" />
-    <Condition class="glaiver" minLevel="1" maxLevel="70" />
-    <DeathPostProcess class="soulless" abnormalityId="10151090" postprocessId="12">
-        <Action time="0" duration="500" from="0" to="0.9" materialName="S1_ShadowOfNight_PPMI" param="Strength" />
-        <Action time="500" duration="2000" from="0.9" to="0.9" materialName="S1_ShadowOfNight_PPMI" param="Strength" />
-        <Action time="2500" duration="4500" from="0.9" to="0" materialName="S1_ShadowOfNight_PPMI" param="Strength" />
+<ClassExceptionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="https://vezel.dev/novadrop/dc/ClassExceptionData ClassExceptionData.xsd"
+                    xmlns="https://vezel.dev/novadrop/dc/ClassExceptionData">
+    <Condition class="soulless"
+               minLevel="1"
+               maxLevel="57" />
+    <Condition class="soulless"
+               minLevel="58"
+               maxLevel="70" />
+    <Condition class="engineer"
+               minLevel="1"
+               maxLevel="70" />
+    <Condition class="fighter"
+               minLevel="1"
+               maxLevel="70" />
+    <Condition class="assassin"
+               minLevel="1"
+               maxLevel="70" />
+    <Condition class="glaiver"
+               minLevel="1"
+               maxLevel="70" />
+    <DeathPostProcess class="soulless"
+                      abnormalityId="10151090"
+                      postprocessId="12">
+        <Action time="0"
+                duration="500"
+                from="0"
+                to="0.9"
+                materialName="S1_ShadowOfNight_PPMI"
+                param="Strength" />
+        <Action time="500"
+                duration="2000"
+                from="0.9"
+                to="0.9"
+                materialName="S1_ShadowOfNight_PPMI"
+                param="Strength" />
+        <Action time="2500"
+                duration="4500"
+                from="0.9"
+                to="0"
+                materialName="S1_ShadowOfNight_PPMI"
+                param="Strength" />
     </DeathPostProcess>
 </ClassExceptionData>

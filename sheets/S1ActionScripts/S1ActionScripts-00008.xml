@@ -1,101 +1,313 @@
-<S1ActionScripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://vezel.dev/novadrop/dc/S1ActionScripts S1ActionScripts.xsd" type="Teleport" xmlns="https://vezel.dev/novadrop/dc/S1ActionScripts">
-    <Script id="40000" playingTime="4200">
-        <Action time="0" type="actionScript" shapeId="600920" scriptId="40001" />
-        <Action time="0" type="actionScript" shapeId="600922" scriptId="40001" />
-        <Action time="300" effectId="80015" type="effect" />
-        <Action time="4200" type="visible" visibility="false" />
+<S1ActionScripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="https://vezel.dev/novadrop/dc/S1ActionScripts S1ActionScripts.xsd"
+                 type="Teleport"
+                 xmlns="https://vezel.dev/novadrop/dc/S1ActionScripts">
+    <Script id="40000"
+            playingTime="4200">
+        <Action time="0"
+                type="actionScript"
+                shapeId="600920"
+                scriptId="40001" />
+        <Action time="0"
+                type="actionScript"
+                shapeId="600922"
+                scriptId="40001" />
+        <Action time="300"
+                effectId="80015"
+                type="effect" />
+        <Action time="4200"
+                type="visible"
+                visibility="false" />
         <InitState unmount="true" />
     </Script>
-    <Script id="40001" enableInput="true" playingTime="0">
-        <Action time="0" effectId="80013" type="removeEffect" />
-        <Action time="0" effectId="80014" type="effect" />
-        <Action time="0" type="animation" duration="0" animName="OnStart" rate="1" blendInTime="0.2" />
-        <Action time="2700" type="animation" duration="0" animName="On" rate="1" blendInTime="0.2" />
-        <Action time="4733" type="animation" duration="0" animName="OffStart" rate="1" blendInTime="0" />
-        <Action time="2700" effectId="80013" type="effect" />
-        <Action time="2700" effectId="80016" type="effect" />
-        <Action time="5200" effectId="80013" type="removeEffect" />
+    <Script id="40001"
+            enableInput="true"
+            playingTime="0">
+        <Action time="0"
+                effectId="80013"
+                type="removeEffect" />
+        <Action time="0"
+                effectId="80014"
+                type="effect" />
+        <Action time="0"
+                type="animation"
+                duration="0"
+                animName="OnStart"
+                rate="1"
+                blendInTime="0.2" />
+        <Action time="2700"
+                type="animation"
+                duration="0"
+                animName="On"
+                rate="1"
+                blendInTime="0.2" />
+        <Action time="4733"
+                type="animation"
+                duration="0"
+                animName="OffStart"
+                rate="1"
+                blendInTime="0" />
+        <Action time="2700"
+                effectId="80013"
+                type="effect" />
+        <Action time="2700"
+                effectId="80016"
+                type="effect" />
+        <Action time="5200"
+                effectId="80013"
+                type="removeEffect" />
     </Script>
-    <Script id="40002" playingTime="6000">
-        <Action time="500" type="defaultAnim" waitAnim="" moveAnim="walk">
-            <Action type="rotate" duration="300" dir="0">
-                <Action effectId="50299" type="effect" />
-                <Action time="500" type="relativemove" pos="1000,0,0" speed="50" />
-                <Action time="1100" type="visible" visibility="false">
-                    <Action type="defaultAnim" waitAnim="" moveAnim="" />
-                    <Action type="relativemove" pos="0,0,0" speed="0" />
+    <Script id="40002"
+            playingTime="6000">
+        <Action time="500"
+                type="defaultAnim"
+                waitAnim=""
+                moveAnim="walk">
+            <Action type="rotate"
+                    duration="300"
+                    dir="0">
+                <Action effectId="50299"
+                        type="effect" />
+                <Action time="500"
+                        type="relativemove"
+                        pos="1000,0,0"
+                        speed="50" />
+                <Action time="1100"
+                        type="visible"
+                        visibility="false">
+                    <Action type="defaultAnim"
+                            waitAnim=""
+                            moveAnim="" />
+                    <Action type="relativemove"
+                            pos="0,0,0"
+                            speed="0" />
                 </Action>
             </Action>
         </Action>
         <InitState unmount="true" />
     </Script>
-    <Script id="40003" playingTime="6000">
-        <Action type="defaultAnim" waitAnim="fall" moveAnim="fall">
-            <Action time="0" type="cameraFocus" templateId="311" on="true" huntingZoneId="756" />
-            <Action time="0" type="translationZ" duration="5500" power="2" from="0" to="280" />
-            <Action time="0" type="move" pos="-131675.906250,115342.921875,29998.832031" speed="40" />
-            <Action time="5400" type="visible" visibility="false">
-                <Action time="0" type="translationZ" duration="100" power="2" from="0" to="0" />
-                <Action time="0" type="moveToInitPos" speed="100" />
-                <Action time="0" effectId="905603" type="removeeffect" />
-                <Action type="defaultAnim" waitAnim="" moveAnim="" />
+    <Script id="40003"
+            playingTime="6000">
+        <Action type="defaultAnim"
+                waitAnim="fall"
+                moveAnim="fall">
+            <Action time="0"
+                    type="cameraFocus"
+                    templateId="311"
+                    on="true"
+                    huntingZoneId="756" />
+            <Action time="0"
+                    type="translationZ"
+                    duration="5500"
+                    power="2"
+                    from="0"
+                    to="280" />
+            <Action time="0"
+                    type="move"
+                    pos="-131675.906250,115342.921875,29998.832031"
+                    speed="40" />
+            <Action time="5400"
+                    type="visible"
+                    visibility="false">
+                <Action time="0"
+                        type="translationZ"
+                        duration="100"
+                        power="2"
+                        from="0"
+                        to="0" />
+                <Action time="0"
+                        type="moveToInitPos"
+                        speed="100" />
+                <Action time="0"
+                        effectId="905603"
+                        type="removeeffect" />
+                <Action type="defaultAnim"
+                        waitAnim=""
+                        moveAnim="" />
             </Action>
         </Action>
     </Script>
-    <Script id="40004" playingTime="6000">
-        <Action type="defaultAnim" waitAnim="fall" moveAnim="fall">
-            <Action time="0" type="cameraFocus" templateId="311" on="true" huntingZoneId="456" />
-            <Action time="0" type="translationZ" duration="5500" power="2" from="0" to="280" />
-            <Action time="0" type="move" pos="-131675.906250,115342.921875,29998.832031" speed="40" />
-            <Action time="5400" type="visible" visibility="false">
-                <Action time="0" type="translationZ" duration="100" power="2" from="0" to="0" />
-                <Action time="0" type="moveToInitPos" speed="100" />
-                <Action time="0" effectId="905603" type="removeeffect" />
-                <Action type="defaultAnim" waitAnim="" moveAnim="" />
+    <Script id="40004"
+            playingTime="6000">
+        <Action type="defaultAnim"
+                waitAnim="fall"
+                moveAnim="fall">
+            <Action time="0"
+                    type="cameraFocus"
+                    templateId="311"
+                    on="true"
+                    huntingZoneId="456" />
+            <Action time="0"
+                    type="translationZ"
+                    duration="5500"
+                    power="2"
+                    from="0"
+                    to="280" />
+            <Action time="0"
+                    type="move"
+                    pos="-131675.906250,115342.921875,29998.832031"
+                    speed="40" />
+            <Action time="5400"
+                    type="visible"
+                    visibility="false">
+                <Action time="0"
+                        type="translationZ"
+                        duration="100"
+                        power="2"
+                        from="0"
+                        to="0" />
+                <Action time="0"
+                        type="moveToInitPos"
+                        speed="100" />
+                <Action time="0"
+                        effectId="905603"
+                        type="removeeffect" />
+                <Action type="defaultAnim"
+                        waitAnim=""
+                        moveAnim="" />
             </Action>
         </Action>
     </Script>
-    <Script id="40005" playingTime="5000">
-        <Action type="actionScript" shapeId="652990" scriptId="40006" />
-        <Action time="0" effectId="80015" type="effect" />
-        <Action time="4200" type="visible" visibility="false" />
+    <Script id="40005"
+            playingTime="5000">
+        <Action type="actionScript"
+                shapeId="652990"
+                scriptId="40006" />
+        <Action time="0"
+                effectId="80015"
+                type="effect" />
+        <Action time="4200"
+                type="visible"
+                visibility="false" />
         <InitState unmount="true" />
     </Script>
-    <Script id="40006" enableInput="true" playingTime="0">
-        <Action time="100" effectId="507006" type="removeEffect" />
-        <Action time="0" type="animation" duration="0" animName="Open" rate="1" blendInTime="0.2" />
-        <Action time="3264" effectId="507005" type="effect" />
-        <Action time="4000" type="defaultAnim" waitAnim="OpenWait" moveAnim="OpenWait" />
-        <Action time="4000" type="animation" duration="0" animName="OpenWait" rate="0.2" blendInTime="0.2" />
-        <Action time="4000" effectId="507004" type="effect" />
-        <Action time="8000" effectId="507004" type="removeEffect" />
-        <Action time="8033" type="animation" duration="0" animName="Close" rate="1" blendInTime="0" />
-        <Action time="8033" effectId="507006" type="effect" />
-        <Action time="8033" type="defaultAnim" waitAnim="Wait" moveAnim="Wait" />
+    <Script id="40006"
+            enableInput="true"
+            playingTime="0">
+        <Action time="100"
+                effectId="507006"
+                type="removeEffect" />
+        <Action time="0"
+                type="animation"
+                duration="0"
+                animName="Open"
+                rate="1"
+                blendInTime="0.2" />
+        <Action time="3264"
+                effectId="507005"
+                type="effect" />
+        <Action time="4000"
+                type="defaultAnim"
+                waitAnim="OpenWait"
+                moveAnim="OpenWait" />
+        <Action time="4000"
+                type="animation"
+                duration="0"
+                animName="OpenWait"
+                rate="0.2"
+                blendInTime="0.2" />
+        <Action time="4000"
+                effectId="507004"
+                type="effect" />
+        <Action time="8000"
+                effectId="507004"
+                type="removeEffect" />
+        <Action time="8033"
+                type="animation"
+                duration="0"
+                animName="Close"
+                rate="1"
+                blendInTime="0" />
+        <Action time="8033"
+                effectId="507006"
+                type="effect" />
+        <Action time="8033"
+                type="defaultAnim"
+                waitAnim="Wait"
+                moveAnim="Wait" />
     </Script>
-    <Script id="40007" enableInput="true" playingTime="0">
-        <Action time="100" effectId="507006" type="removeEffect" />
-        <Action time="0" type="animation" duration="0" animName="Open" rate="1" blendInTime="0.2" />
-        <Action time="3264" effectId="507005" type="effect" />
-        <Action time="4000" type="defaultAnim" waitAnim="OpenWait" moveAnim="OpenWait" />
-        <Action time="4000" type="animation" duration="0" animName="OpenWait" rate="0.2" blendInTime="0.2" />
-        <Action time="4000" effectId="507004" type="effect" />
+    <Script id="40007"
+            enableInput="true"
+            playingTime="0">
+        <Action time="100"
+                effectId="507006"
+                type="removeEffect" />
+        <Action time="0"
+                type="animation"
+                duration="0"
+                animName="Open"
+                rate="1"
+                blendInTime="0.2" />
+        <Action time="3264"
+                effectId="507005"
+                type="effect" />
+        <Action time="4000"
+                type="defaultAnim"
+                waitAnim="OpenWait"
+                moveAnim="OpenWait" />
+        <Action time="4000"
+                type="animation"
+                duration="0"
+                animName="OpenWait"
+                rate="0.2"
+                blendInTime="0.2" />
+        <Action time="4000"
+                effectId="507004"
+                type="effect" />
     </Script>
-    <Script id="40008" playingTime="6000">
-        <Action time="500" type="defaultAnim" waitAnim="JumpLoop" moveAnim="JumpLoop">
-            <Action type="rotate" duration="300" dir="0">
-                <Action time="500" type="relativemove" pos="0,0,100" speed="50" />
+    <Script id="40008"
+            playingTime="6000">
+        <Action time="500"
+                type="defaultAnim"
+                waitAnim="JumpLoop"
+                moveAnim="JumpLoop">
+            <Action type="rotate"
+                    duration="300"
+                    dir="0">
+                <Action time="500"
+                        type="relativemove"
+                        pos="0,0,100"
+                        speed="50" />
             </Action>
         </Action>
         <InitState unmount="true" />
     </Script>
-    <Script id="40009" isOnlyPlayerTarget="true" playingTime="10000">
-        <Action time="500" type="postProcess" on="true" postprocessSet="7">
-            <Action time="600" type="animation" animName="bReactionStart3" rate="0.06" blendInTime="0.2" />
-            <Action time="700" type="PostProcessMaterial" duration="3500" from="2" to="3" param="Strength" postprocessSet="7" />
-            <Action time="800" type="systemMessage" duration="2000" style="SMS_CHAT_INFO_QUEST" message="@dungeon:9681002" />
-            <Action time="7800" type="PostProcessMaterial" duration="2000" from="3" to="0" param="Strength" postprocessSet="7" />
-            <Action time="8900" type="PostProcess" on="false" isFinal="true" postprocessSet="7" />
+    <Script id="40009"
+            isOnlyPlayerTarget="true"
+            playingTime="10000">
+        <Action time="500"
+                type="postProcess"
+                on="true"
+                postprocessSet="7">
+            <Action time="600"
+                    type="animation"
+                    animName="bReactionStart3"
+                    rate="0.06"
+                    blendInTime="0.2" />
+            <Action time="700"
+                    type="PostProcessMaterial"
+                    duration="3500"
+                    from="2"
+                    to="3"
+                    param="Strength"
+                    postprocessSet="7" />
+            <Action time="800"
+                    type="systemMessage"
+                    duration="2000"
+                    style="SMS_CHAT_INFO_QUEST"
+                    message="@dungeon:9681002" />
+            <Action time="7800"
+                    type="PostProcessMaterial"
+                    duration="2000"
+                    from="3"
+                    to="0"
+                    param="Strength"
+                    postprocessSet="7" />
+            <Action time="8900"
+                    type="PostProcess"
+                    on="false"
+                    isFinal="true"
+                    postprocessSet="7" />
         </Action>
         <InitState unmount="true" />
     </Script>
