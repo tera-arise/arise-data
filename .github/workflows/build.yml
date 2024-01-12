@@ -1,5 +1,5 @@
 # yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
-name: Validate
+name: Build
 on:
     push:
         branches-ignore:
@@ -14,16 +14,16 @@ env:
     DOTNET_GENERATE_ASPNET_CERTIFICATE: false
     DOTNET_NOLOGO: true
 jobs:
-    validate:
+    build:
         runs-on: windows-2022
         steps:
             - name: Clone repository
-              uses: actions/checkout@v3.5.3
+              uses: actions/checkout@v4.1.1
               with:
+                  fetch-depth: 0
                   submodules: recursive
             - name: Set up .NET
-              uses: actions/setup-dotnet@v3.2.0
-            - name: Validate sheets
+              uses: actions/setup-dotnet@v4.0.0
+            - name: Run Cake
               run: |
-                  dotnet tool restore
-                  dotnet novadrop-dc validate sheets
+                  ./cake
