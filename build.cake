@@ -13,6 +13,9 @@ var sheets = Context.Environment.WorkingDirectory.Combine("sheets");
 Task("default")
     .IsDependentOn("build");
 
+Task("default-editor")
+    .IsDependentOn("build");
+
 Task("build-core")
     .Does(() =>
         DotNetTool(
