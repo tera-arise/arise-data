@@ -1,31 +1,31 @@
 # yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
 name: Build
 on:
-    push:
-        branches-ignore:
-            - dependabot/**
-    pull_request:
-    workflow_dispatch:
+  push:
+    branches-ignore:
+      - dependabot/**
+  pull_request:
+  workflow_dispatch:
 permissions:
-    contents: read
+  contents: read
 defaults:
-    run:
-        shell: bash
+  run:
+    shell: bash
 env:
-    DOTNET_CLI_TELEMETRY_OPTOUT: true
-    DOTNET_GENERATE_ASPNET_CERTIFICATE: false
-    DOTNET_NOLOGO: true
+  DOTNET_CLI_TELEMETRY_OPTOUT: true
+  DOTNET_GENERATE_ASPNET_CERTIFICATE: false
+  DOTNET_NOLOGO: true
 jobs:
-    build:
-        runs-on: windows-2022
-        steps:
-            - name: Clone repository
-              uses: actions/checkout@v4.1.4
-              with:
-                  fetch-depth: 0
-                  submodules: recursive
-            - name: Set up .NET
-              uses: actions/setup-dotnet@v4.0.0
-            - name: Run Cake
-              run: |
-                  ./cake
+  build:
+    runs-on: windows-2022
+      steps:
+        - name: Clone repository
+          uses: actions/checkout@v4.1.4
+          with:
+            fetch-depth: 0
+            submodules: recursive
+        - name: Set up .NET
+          uses: actions/setup-dotnet@v4.0.0
+        - name: Run Cake
+          run: |
+            ./cake
